@@ -2,8 +2,8 @@
   "passed": true,
   "source_root": "/workspace/fonts/design/strokes-individual",
   "registry": "/workspace/fonts/design/quality/accepted-geometry.json",
-  "registry_sha256": "08b7970b47488ef3ce3ce614c4e21a15708ae05fed0ed6c3c6af0d7438f5ba33",
-  "glyph_count": 656,
+  "registry_sha256": "5f43ccdcbf5a7576766939aac148b3e045a7a42915cfaf4d84f69c10ca6460b1",
+  "glyph_count": 738,
   "glyphs": [
     {
       "codepoint": "U+3D000",
@@ -5649,6 +5649,78 @@
       "review_report": "design/quality/review-continuation/U3D272.json"
     },
     {
+      "codepoint": "U+3D273",
+      "source": "/workspace/fonts/design/strokes-individual/U3D273.json",
+      "geometry_sha256": "c722e8cc864dcd8cdc02219bfec0d1d670d99c3317efcc885e98957d298225f6",
+      "source_png_sha256": "4b4befb230b92178aca74fa5dafcc213bcabbe1174daa733302dc5b33dd5e816",
+      "accepted_geometry_sha256": "c722e8cc864dcd8cdc02219bfec0d1d670d99c3317efcc885e98957d298225f6",
+      "accepted_source_png_sha256": "4b4befb230b92178aca74fa5dafcc213bcabbe1174daa733302dc5b33dd5e816",
+      "review_report": "design/quality/review-continuation/U3D273.json"
+    },
+    {
+      "codepoint": "U+3D274",
+      "source": "/workspace/fonts/design/strokes-individual/U3D274.json",
+      "geometry_sha256": "454d17206559860e499cc17706db4c742446db77021ba8042ec1bd11ab0e4299",
+      "source_png_sha256": "b07d61a70a3334f4d0b9859ec32adb57f40297917088041f6ad13e67f2850aca",
+      "accepted_geometry_sha256": "454d17206559860e499cc17706db4c742446db77021ba8042ec1bd11ab0e4299",
+      "accepted_source_png_sha256": "b07d61a70a3334f4d0b9859ec32adb57f40297917088041f6ad13e67f2850aca",
+      "review_report": "design/quality/review-continuation/U3D274.json"
+    },
+    {
+      "codepoint": "U+3D275",
+      "source": "/workspace/fonts/design/strokes-individual/U3D275.json",
+      "geometry_sha256": "d68297bd512369fa033a734b1828d66c0ae7c1aa0ceb5baefa5e900204bbfc44",
+      "source_png_sha256": "7f10d257dc84b5cc3a42327322b1ceef9f45413387c7f9f185690de79ed1b62b",
+      "accepted_geometry_sha256": "d68297bd512369fa033a734b1828d66c0ae7c1aa0ceb5baefa5e900204bbfc44",
+      "accepted_source_png_sha256": "7f10d257dc84b5cc3a42327322b1ceef9f45413387c7f9f185690de79ed1b62b",
+      "review_report": "design/quality/review-continuation/U3D275.json"
+    },
+    {
+      "codepoint": "U+3D276",
+      "source": "/workspace/fonts/design/strokes-individual/U3D276.json",
+      "geometry_sha256": "3d88c5c1d771e5c27b6b216519c46f44f917dc7e346f238d04e71017c33ab258",
+      "source_png_sha256": "fb5d47e18412bf797de822c0a0a272beab2ebad2b114ae28c173885753ea8157",
+      "accepted_geometry_sha256": "3d88c5c1d771e5c27b6b216519c46f44f917dc7e346f238d04e71017c33ab258",
+      "accepted_source_png_sha256": "fb5d47e18412bf797de822c0a0a272beab2ebad2b114ae28c173885753ea8157",
+      "review_report": "design/quality/review-continuation/U3D276.json"
+    },
+    {
+      "codepoint": "U+3D277",
+      "source": "/workspace/fonts/design/strokes-individual/U3D277.json",
+      "geometry_sha256": "76e2e45a78ef37b0ed1b1d5d05006efac4cb9485687ac0546a7f2021815170b8",
+      "source_png_sha256": "7c633a5d3106830fb4b435251a206f9b0ef356736ce6ee73787953a451d852ec",
+      "accepted_geometry_sha256": "76e2e45a78ef37b0ed1b1d5d05006efac4cb9485687ac0546a7f2021815170b8",
+      "accepted_source_png_sha256": "7c633a5d3106830fb4b435251a206f9b0ef356736ce6ee73787953a451d852ec",
+      "review_report": "design/quality/review-continuation/U3D277.json"
+    },
+    {
+      "codepoint": "U+3D278",
+      "source": "/workspace/fonts/design/strokes-individual/U3D278.json",
+      "geometry_sha256": "19128414d4e11efcbc9f66cabff35b5364a171e3dfdfd73a0e5a08e81bf2cdf1",
+      "source_png_sha256": "e70ebf208549a05a433bdaf50734c43657df7ee88904750361edf27faea17e88",
+      "accepted_geometry_sha256": "19128414d4e11efcbc9f66cabff35b5364a171e3dfdfd73a0e5a08e81bf2cdf1",
+      "accepted_source_png_sha256": "e70ebf208549a05a433bdaf50734c43657df7ee88904750361edf27faea17e88",
+      "review_report": "design/quality/review-continuation/U3D278.json"
+    },
+    {
+      "codepoint": "U+3D279",
+      "source": "/workspace/fonts/design/strokes-individual/U3D279.json",
+      "geometry_sha256": "b8a548a696dd63ca78c3fbc68d578d2aa3d8c2ca198b942a929557aaee1357e9",
+      "source_png_sha256": "5384671481c9f13e8f98a2778407ef89a2a27903cc536819e8a860a814eca77b",
+      "accepted_geometry_sha256": "b8a548a696dd63ca78c3fbc68d578d2aa3d8c2ca198b942a929557aaee1357e9",
+      "accepted_source_png_sha256": "5384671481c9f13e8f98a2778407ef89a2a27903cc536819e8a860a814eca77b",
+      "review_report": "design/quality/review-continuation/U3D279.json"
+    },
+    {
+      "codepoint": "U+3D27A",
+      "source": "/workspace/fonts/design/strokes-individual/U3D27A.json",
+      "geometry_sha256": "08fee85334a1f4dd44cd3ecfda0ffa4a7786d44279f8f86b238b71f4322f9522",
+      "source_png_sha256": "07275414fba8ad73788aaedcddd466b3af9cd5e9efa834b68bc078a5c06930e2",
+      "accepted_geometry_sha256": "08fee85334a1f4dd44cd3ecfda0ffa4a7786d44279f8f86b238b71f4322f9522",
+      "accepted_source_png_sha256": "07275414fba8ad73788aaedcddd466b3af9cd5e9efa834b68bc078a5c06930e2",
+      "review_report": "design/quality/review-continuation/U3D27A.json"
+    },
+    {
       "codepoint": "U+3D27B",
       "source": "/workspace/fonts/design/strokes-individual/U3D27B.json",
       "geometry_sha256": "aafeb539f4c8593024a7d239d470c941e7f100ff0c67e59ec43e7c1635ebbc23",
@@ -5656,6 +5728,15 @@
       "accepted_geometry_sha256": "aafeb539f4c8593024a7d239d470c941e7f100ff0c67e59ec43e7c1635ebbc23",
       "accepted_source_png_sha256": "8cfaba9cda6c5ed9bb9b03bba876302f34e66271aff68cec421eece3ddba4321",
       "review_report": "design/quality/review-continuation/U3D27B.json"
+    },
+    {
+      "codepoint": "U+3D27C",
+      "source": "/workspace/fonts/design/strokes-individual/U3D27C.json",
+      "geometry_sha256": "fa8bb677e946e2f4a16bc6bf7f188271ee18f7379183c93ab0cb053285945101",
+      "source_png_sha256": "1c63f42ded03ecd46cf078389f9aab0c964a8f20d1f90a5508019d68f0a78c69",
+      "accepted_geometry_sha256": "fa8bb677e946e2f4a16bc6bf7f188271ee18f7379183c93ab0cb053285945101",
+      "accepted_source_png_sha256": "1c63f42ded03ecd46cf078389f9aab0c964a8f20d1f90a5508019d68f0a78c69",
+      "review_report": "design/quality/review-continuation/U3D27C.json"
     },
     {
       "codepoint": "U+3D27D",
@@ -5667,6 +5748,24 @@
       "review_report": "design/quality/review-continuation/U3D27D.json"
     },
     {
+      "codepoint": "U+3D27E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D27E.json",
+      "geometry_sha256": "4134674b6a16ce7ad656673af0cc098ef0e4053e70a6d3c76020a90c14f040f4",
+      "source_png_sha256": "5a2bff86bd6bc649ef4fc698cba19d7ed1a491830dc39e62745f4af3c9c08164",
+      "accepted_geometry_sha256": "4134674b6a16ce7ad656673af0cc098ef0e4053e70a6d3c76020a90c14f040f4",
+      "accepted_source_png_sha256": "5a2bff86bd6bc649ef4fc698cba19d7ed1a491830dc39e62745f4af3c9c08164",
+      "review_report": "design/quality/review-continuation/U3D27E.json"
+    },
+    {
+      "codepoint": "U+3D27F",
+      "source": "/workspace/fonts/design/strokes-individual/U3D27F.json",
+      "geometry_sha256": "5f70094a468f253d4ee656aa49a85315603e39404fd73bff4a5e54dd59343fef",
+      "source_png_sha256": "54769f0b532cad1660bc3774b1e21f64b228f75934609947ee865870a0719014",
+      "accepted_geometry_sha256": "5f70094a468f253d4ee656aa49a85315603e39404fd73bff4a5e54dd59343fef",
+      "accepted_source_png_sha256": "54769f0b532cad1660bc3774b1e21f64b228f75934609947ee865870a0719014",
+      "review_report": "design/quality/review-continuation/U3D27F.json"
+    },
+    {
       "codepoint": "U+3D280",
       "source": "/workspace/fonts/design/strokes-individual/U3D280.json",
       "geometry_sha256": "4d1cd25f0d8ec8283373c04568f2fa4d834ff69bdc33ea1fec3cf125ebab4940",
@@ -5676,6 +5775,42 @@
       "review_report": "design/quality/review-continuation/U3D280.json"
     },
     {
+      "codepoint": "U+3D281",
+      "source": "/workspace/fonts/design/strokes-individual/U3D281.json",
+      "geometry_sha256": "e6d11f7db7e25344cd3cfd830c9d50224dad70476c41edcc360a1beae875c05d",
+      "source_png_sha256": "f867fa928b47d86dd9a5a03f02ba5b0e5d08defeef586e1e677a162531d6900d",
+      "accepted_geometry_sha256": "e6d11f7db7e25344cd3cfd830c9d50224dad70476c41edcc360a1beae875c05d",
+      "accepted_source_png_sha256": "f867fa928b47d86dd9a5a03f02ba5b0e5d08defeef586e1e677a162531d6900d",
+      "review_report": "design/quality/review-continuation/U3D281.json"
+    },
+    {
+      "codepoint": "U+3D282",
+      "source": "/workspace/fonts/design/strokes-individual/U3D282.json",
+      "geometry_sha256": "13eb3215c6653726fad67dccd6977c62b502702747ce73ae924ff44b547bf32c",
+      "source_png_sha256": "696ba682ac594bd02a111beec9554a827791c2192111341f1a8b6c3e814bdc7b",
+      "accepted_geometry_sha256": "13eb3215c6653726fad67dccd6977c62b502702747ce73ae924ff44b547bf32c",
+      "accepted_source_png_sha256": "696ba682ac594bd02a111beec9554a827791c2192111341f1a8b6c3e814bdc7b",
+      "review_report": "design/quality/review-continuation/U3D282.json"
+    },
+    {
+      "codepoint": "U+3D283",
+      "source": "/workspace/fonts/design/strokes-individual/U3D283.json",
+      "geometry_sha256": "0bd2a3c6453b8afe179c6169622ceb2c38d8d62c18defb69aac14ccaddb5c31c",
+      "source_png_sha256": "e3ae9afdc81b8ac38e7cd43af81bba4e5f004cd3917c5161d293adb45dbfc8e7",
+      "accepted_geometry_sha256": "0bd2a3c6453b8afe179c6169622ceb2c38d8d62c18defb69aac14ccaddb5c31c",
+      "accepted_source_png_sha256": "e3ae9afdc81b8ac38e7cd43af81bba4e5f004cd3917c5161d293adb45dbfc8e7",
+      "review_report": "design/quality/review-continuation/U3D283.json"
+    },
+    {
+      "codepoint": "U+3D284",
+      "source": "/workspace/fonts/design/strokes-individual/U3D284.json",
+      "geometry_sha256": "b61526c603daa7f4b0681cbab84b5396d2fc5599c3b00202f646c440ead9ac19",
+      "source_png_sha256": "45cfcb79b3a13d7902ae4f52188c9901460b2b8627b18aa9dfdf50bf7f616a5e",
+      "accepted_geometry_sha256": "b61526c603daa7f4b0681cbab84b5396d2fc5599c3b00202f646c440ead9ac19",
+      "accepted_source_png_sha256": "45cfcb79b3a13d7902ae4f52188c9901460b2b8627b18aa9dfdf50bf7f616a5e",
+      "review_report": "design/quality/review-continuation/U3D284.json"
+    },
+    {
       "codepoint": "U+3D285",
       "source": "/workspace/fonts/design/strokes-individual/U3D285.json",
       "geometry_sha256": "82bf49c11736ca456de8bca2898cb50371d759ef82a0441523e77edda641e45a",
@@ -5683,6 +5818,24 @@
       "accepted_geometry_sha256": "82bf49c11736ca456de8bca2898cb50371d759ef82a0441523e77edda641e45a",
       "accepted_source_png_sha256": "715ca8f6fbe92038be0214c6821f302a531038235ad16fd0f86a6976f6510118",
       "review_report": "design/quality/review-continuation/U3D285.json"
+    },
+    {
+      "codepoint": "U+3D286",
+      "source": "/workspace/fonts/design/strokes-individual/U3D286.json",
+      "geometry_sha256": "3c5a23e4855655d8ac5d00ca59bbcdd23f8526d8a2d735f7141e4a901f80b048",
+      "source_png_sha256": "ccfb90afb792ec0fdbdadb2f17041c7b171d3af55d5af64b05e5a096e30c2e9f",
+      "accepted_geometry_sha256": "3c5a23e4855655d8ac5d00ca59bbcdd23f8526d8a2d735f7141e4a901f80b048",
+      "accepted_source_png_sha256": "ccfb90afb792ec0fdbdadb2f17041c7b171d3af55d5af64b05e5a096e30c2e9f",
+      "review_report": "design/quality/review-continuation/U3D286.json"
+    },
+    {
+      "codepoint": "U+3D287",
+      "source": "/workspace/fonts/design/strokes-individual/U3D287.json",
+      "geometry_sha256": "3483263734d737518e636098458ad2c86e311f28b79a2edd1a526079379e34f1",
+      "source_png_sha256": "346028ad9b7fabb17e86473c7e8d4bad60837b196d9c921fb18e7f4880e74e08",
+      "accepted_geometry_sha256": "3483263734d737518e636098458ad2c86e311f28b79a2edd1a526079379e34f1",
+      "accepted_source_png_sha256": "346028ad9b7fabb17e86473c7e8d4bad60837b196d9c921fb18e7f4880e74e08",
+      "review_report": "design/quality/review-continuation/U3D287.json"
     },
     {
       "codepoint": "U+3D288",
@@ -5703,6 +5856,24 @@
       "review_report": "design/quality/review-continuation/U3D289.json"
     },
     {
+      "codepoint": "U+3D28A",
+      "source": "/workspace/fonts/design/strokes-individual/U3D28A.json",
+      "geometry_sha256": "5fc8ecc42d4cf36b8242f424facf67d3da9ec237c8674a235861f0d39d0c8fda",
+      "source_png_sha256": "7c4c8c5407a5e127c9ddb36155bd5dfe2cbeb2ccc42bc0ab296ef42112cbe0a6",
+      "accepted_geometry_sha256": "5fc8ecc42d4cf36b8242f424facf67d3da9ec237c8674a235861f0d39d0c8fda",
+      "accepted_source_png_sha256": "7c4c8c5407a5e127c9ddb36155bd5dfe2cbeb2ccc42bc0ab296ef42112cbe0a6",
+      "review_report": "design/quality/review-continuation/U3D28A.json"
+    },
+    {
+      "codepoint": "U+3D28B",
+      "source": "/workspace/fonts/design/strokes-individual/U3D28B.json",
+      "geometry_sha256": "2114f5e8a0506fe4cd5da644ad682df3ff03e98e50763ab36afc90f899aed813",
+      "source_png_sha256": "ffb95f8ac5e86d0f051a1b6fbc67b4cb4669a8317de720a717537513875450ed",
+      "accepted_geometry_sha256": "2114f5e8a0506fe4cd5da644ad682df3ff03e98e50763ab36afc90f899aed813",
+      "accepted_source_png_sha256": "ffb95f8ac5e86d0f051a1b6fbc67b4cb4669a8317de720a717537513875450ed",
+      "review_report": "design/quality/review-continuation/U3D28B.json"
+    },
+    {
       "codepoint": "U+3D28C",
       "source": "/workspace/fonts/design/strokes-individual/U3D28C.json",
       "geometry_sha256": "efa1605c40497d85fc70628bc3e58bba7ce8285316e8149723be37d6d4b11d99",
@@ -5710,6 +5881,24 @@
       "accepted_geometry_sha256": "efa1605c40497d85fc70628bc3e58bba7ce8285316e8149723be37d6d4b11d99",
       "accepted_source_png_sha256": "bb2fe374646734be10e3bc3b1aac3ea95e3938a1fc8f18202b20fbb72a22ce82",
       "review_report": "design/quality/review-continuation/U3D28C.json"
+    },
+    {
+      "codepoint": "U+3D28D",
+      "source": "/workspace/fonts/design/strokes-individual/U3D28D.json",
+      "geometry_sha256": "9622759dab7062eb3b7b9527c2cdd59274891320701b90458a26acc0157696ad",
+      "source_png_sha256": "786eb785f2cd25a27fa76c15bf76a801099c5d521929898b2bd21db473e3e947",
+      "accepted_geometry_sha256": "9622759dab7062eb3b7b9527c2cdd59274891320701b90458a26acc0157696ad",
+      "accepted_source_png_sha256": "786eb785f2cd25a27fa76c15bf76a801099c5d521929898b2bd21db473e3e947",
+      "review_report": "design/quality/review-continuation/U3D28D.json"
+    },
+    {
+      "codepoint": "U+3D28E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D28E.json",
+      "geometry_sha256": "39000f336cafbc9a9c695d5078d33a0a711a2904b5ff625801cda1539f024467",
+      "source_png_sha256": "1ce5e9a0575e52a53cb2acbc4bfc535d6cdf86170f86132642a455ebf89cb190",
+      "accepted_geometry_sha256": "39000f336cafbc9a9c695d5078d33a0a711a2904b5ff625801cda1539f024467",
+      "accepted_source_png_sha256": "1ce5e9a0575e52a53cb2acbc4bfc535d6cdf86170f86132642a455ebf89cb190",
+      "review_report": "design/quality/review-continuation/U3D28E.json"
     },
     {
       "codepoint": "U+3D28F",
@@ -5721,6 +5910,15 @@
       "review_report": "design/quality/review-continuation/U3D28F.json"
     },
     {
+      "codepoint": "U+3D290",
+      "source": "/workspace/fonts/design/strokes-individual/U3D290.json",
+      "geometry_sha256": "f4f2e601a382f92af4e7734d01b60c95b609aad540b537a746a6f510d665bc8b",
+      "source_png_sha256": "2b20723f240a46c4ce9a4aa9149e231f0a8b5b35b8e48211bd82da6a3f984ebe",
+      "accepted_geometry_sha256": "f4f2e601a382f92af4e7734d01b60c95b609aad540b537a746a6f510d665bc8b",
+      "accepted_source_png_sha256": "2b20723f240a46c4ce9a4aa9149e231f0a8b5b35b8e48211bd82da6a3f984ebe",
+      "review_report": "design/quality/review-continuation/U3D290.json"
+    },
+    {
       "codepoint": "U+3D291",
       "source": "/workspace/fonts/design/strokes-individual/U3D291.json",
       "geometry_sha256": "25f0f3c60dc2774c15d7016e6691abc3afa21b474fdffcd72e804948a5afe848",
@@ -5730,6 +5928,33 @@
       "review_report": "design/quality/review-continuation/U3D291.json"
     },
     {
+      "codepoint": "U+3D292",
+      "source": "/workspace/fonts/design/strokes-individual/U3D292.json",
+      "geometry_sha256": "108747bcf88e3b250c3dda2d08ca86aed5c34e6404bc0a51aeaa253b52e9d0a3",
+      "source_png_sha256": "7e5174a3ea20f9b5a953bad5ae036923bdb1086d00698ae69c021cea553b3ce2",
+      "accepted_geometry_sha256": "108747bcf88e3b250c3dda2d08ca86aed5c34e6404bc0a51aeaa253b52e9d0a3",
+      "accepted_source_png_sha256": "7e5174a3ea20f9b5a953bad5ae036923bdb1086d00698ae69c021cea553b3ce2",
+      "review_report": "design/quality/review-continuation/U3D292.json"
+    },
+    {
+      "codepoint": "U+3D293",
+      "source": "/workspace/fonts/design/strokes-individual/U3D293.json",
+      "geometry_sha256": "1fbd632a09776cda06db8f17a7406328f142353d29a2ad736347efc45abe2998",
+      "source_png_sha256": "7f922627186a998953617f5800f7b605327676d7a5e5951c68146ec0184e6846",
+      "accepted_geometry_sha256": "1fbd632a09776cda06db8f17a7406328f142353d29a2ad736347efc45abe2998",
+      "accepted_source_png_sha256": "7f922627186a998953617f5800f7b605327676d7a5e5951c68146ec0184e6846",
+      "review_report": "design/quality/review-continuation/U3D293.json"
+    },
+    {
+      "codepoint": "U+3D294",
+      "source": "/workspace/fonts/design/strokes-individual/U3D294.json",
+      "geometry_sha256": "110425206477df6ca1d800aea6b0ae39507d8d8b26945f3482a6e77f8855f301",
+      "source_png_sha256": "258654f7dcb89a1f6384bceca34b5792de2a30910512ef930f04311ff594d9b9",
+      "accepted_geometry_sha256": "110425206477df6ca1d800aea6b0ae39507d8d8b26945f3482a6e77f8855f301",
+      "accepted_source_png_sha256": "258654f7dcb89a1f6384bceca34b5792de2a30910512ef930f04311ff594d9b9",
+      "review_report": "design/quality/review-continuation/U3D294.json"
+    },
+    {
       "codepoint": "U+3D295",
       "source": "/workspace/fonts/design/strokes-individual/U3D295.json",
       "geometry_sha256": "974e97cde78664963a075d5e460485bb26004ef1f90fe8a9ce84c6b74623a291",
@@ -5737,6 +5962,51 @@
       "accepted_geometry_sha256": "974e97cde78664963a075d5e460485bb26004ef1f90fe8a9ce84c6b74623a291",
       "accepted_source_png_sha256": "be0ac15190c9a3a4d0d75224fa68d94b02465f4703bac7fe05534a22a5ca1ace",
       "review_report": "design/quality/review-continuation/U3D295.json"
+    },
+    {
+      "codepoint": "U+3D296",
+      "source": "/workspace/fonts/design/strokes-individual/U3D296.json",
+      "geometry_sha256": "50bbc8d3e8491882cc15a50779d6fc30eb4d4572895de9553472b20e4879f06a",
+      "source_png_sha256": "90c290aad53ff3c488f6f6500463fa846080630810bc6b71d7f4fc2040c7a9e8",
+      "accepted_geometry_sha256": "50bbc8d3e8491882cc15a50779d6fc30eb4d4572895de9553472b20e4879f06a",
+      "accepted_source_png_sha256": "90c290aad53ff3c488f6f6500463fa846080630810bc6b71d7f4fc2040c7a9e8",
+      "review_report": "design/quality/review-continuation/U3D296.json"
+    },
+    {
+      "codepoint": "U+3D297",
+      "source": "/workspace/fonts/design/strokes-individual/U3D297.json",
+      "geometry_sha256": "4bbee335ba21856b2cbda11f3ddead903f97cf16bd9b7f7964a81490026566d5",
+      "source_png_sha256": "a4343627862661da5f1d697f272166d5645abaa5476c6cd57167f988bc94dc6f",
+      "accepted_geometry_sha256": "4bbee335ba21856b2cbda11f3ddead903f97cf16bd9b7f7964a81490026566d5",
+      "accepted_source_png_sha256": "a4343627862661da5f1d697f272166d5645abaa5476c6cd57167f988bc94dc6f",
+      "review_report": "design/quality/review-continuation/U3D297.json"
+    },
+    {
+      "codepoint": "U+3D298",
+      "source": "/workspace/fonts/design/strokes-individual/U3D298.json",
+      "geometry_sha256": "e9ac1fb946aefd9a4f1f11f1582f5a8a90c5d68df1b5121647fb85d6d423eb20",
+      "source_png_sha256": "7593909c66ddacd035e39191403d7a2b10478f1d6130dbafea8594c985465aef",
+      "accepted_geometry_sha256": "e9ac1fb946aefd9a4f1f11f1582f5a8a90c5d68df1b5121647fb85d6d423eb20",
+      "accepted_source_png_sha256": "7593909c66ddacd035e39191403d7a2b10478f1d6130dbafea8594c985465aef",
+      "review_report": "design/quality/review-continuation/U3D298.json"
+    },
+    {
+      "codepoint": "U+3D299",
+      "source": "/workspace/fonts/design/strokes-individual/U3D299.json",
+      "geometry_sha256": "6ced91ec91c1140a9d1dc1ab173765f316ea6d44755ba21a12d067c96effb380",
+      "source_png_sha256": "e4d2fbdbc55a6dc1fc23d2a883f24b1ecd657c6f39fa83d61b28cc1a7a78fe45",
+      "accepted_geometry_sha256": "6ced91ec91c1140a9d1dc1ab173765f316ea6d44755ba21a12d067c96effb380",
+      "accepted_source_png_sha256": "e4d2fbdbc55a6dc1fc23d2a883f24b1ecd657c6f39fa83d61b28cc1a7a78fe45",
+      "review_report": "design/quality/review-continuation/U3D299.json"
+    },
+    {
+      "codepoint": "U+3D29A",
+      "source": "/workspace/fonts/design/strokes-individual/U3D29A.json",
+      "geometry_sha256": "13c8e08170e72efd5dc7e5c6e3f6dc488823f1fc4f6d6857c41b08904ff7bc66",
+      "source_png_sha256": "eaecb17e069143d095d31f649ba4ed34beabec911fc276d007403caa80857e78",
+      "accepted_geometry_sha256": "13c8e08170e72efd5dc7e5c6e3f6dc488823f1fc4f6d6857c41b08904ff7bc66",
+      "accepted_source_png_sha256": "eaecb17e069143d095d31f649ba4ed34beabec911fc276d007403caa80857e78",
+      "review_report": "design/quality/review-continuation/U3D29A.json"
     },
     {
       "codepoint": "U+3D29B",
@@ -5757,6 +6027,60 @@
       "review_report": "design/quality/review-continuation/U3D29C.json"
     },
     {
+      "codepoint": "U+3D29D",
+      "source": "/workspace/fonts/design/strokes-individual/U3D29D.json",
+      "geometry_sha256": "cd86076f09b199927e571970681f785eb88cf0c0cbb3d577ae5cc7d0d926ebeb",
+      "source_png_sha256": "99cddfa3164a5146c71632285f43c1fe7ad42951d69970ffeb19e5069db46cfa",
+      "accepted_geometry_sha256": "cd86076f09b199927e571970681f785eb88cf0c0cbb3d577ae5cc7d0d926ebeb",
+      "accepted_source_png_sha256": "99cddfa3164a5146c71632285f43c1fe7ad42951d69970ffeb19e5069db46cfa",
+      "review_report": "design/quality/review-continuation/U3D29D.json"
+    },
+    {
+      "codepoint": "U+3D29E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D29E.json",
+      "geometry_sha256": "1fc5e4c7483d535236f3fbaf52a8a4d06f412abe32f566bad2684c3c9f5c4bbd",
+      "source_png_sha256": "50f8efa3ec07cec84d78e3a0ac5d0279c5d1dcd48da8bc059dc5cb3bf74e6b09",
+      "accepted_geometry_sha256": "1fc5e4c7483d535236f3fbaf52a8a4d06f412abe32f566bad2684c3c9f5c4bbd",
+      "accepted_source_png_sha256": "50f8efa3ec07cec84d78e3a0ac5d0279c5d1dcd48da8bc059dc5cb3bf74e6b09",
+      "review_report": "design/quality/review-continuation/U3D29E.json"
+    },
+    {
+      "codepoint": "U+3D29F",
+      "source": "/workspace/fonts/design/strokes-individual/U3D29F.json",
+      "geometry_sha256": "a200b5a4665da9b02d915ce253ac6e71317bc1a6787e766e1fe6cf202a565923",
+      "source_png_sha256": "bb3e51b0373c0e813b1cbc0abf6985dbb0275199c96bddcf8bf8e3ee7dda21da",
+      "accepted_geometry_sha256": "a200b5a4665da9b02d915ce253ac6e71317bc1a6787e766e1fe6cf202a565923",
+      "accepted_source_png_sha256": "bb3e51b0373c0e813b1cbc0abf6985dbb0275199c96bddcf8bf8e3ee7dda21da",
+      "review_report": "design/quality/review-continuation/U3D29F.json"
+    },
+    {
+      "codepoint": "U+3D2A0",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A0.json",
+      "geometry_sha256": "8861bafffa16a636de4c0a7acf32d47fdc9c2101386594a2dace47246f8fc7b8",
+      "source_png_sha256": "bfd05a768f2c4975c11a2f47a45596f3ebb58cb3613cbc4a30542291125c3a12",
+      "accepted_geometry_sha256": "8861bafffa16a636de4c0a7acf32d47fdc9c2101386594a2dace47246f8fc7b8",
+      "accepted_source_png_sha256": "bfd05a768f2c4975c11a2f47a45596f3ebb58cb3613cbc4a30542291125c3a12",
+      "review_report": "design/quality/review-continuation/U3D2A0.json"
+    },
+    {
+      "codepoint": "U+3D2A1",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A1.json",
+      "geometry_sha256": "b6e43e67d4500a3dc289a7cb812ffee4fb6db45d1a8f3cbce98dfa4ad195dfd3",
+      "source_png_sha256": "d52440e4e357b73ae061d118e43d84b39e3572de2438a0373c37255c4f1ef4d8",
+      "accepted_geometry_sha256": "b6e43e67d4500a3dc289a7cb812ffee4fb6db45d1a8f3cbce98dfa4ad195dfd3",
+      "accepted_source_png_sha256": "d52440e4e357b73ae061d118e43d84b39e3572de2438a0373c37255c4f1ef4d8",
+      "review_report": "design/quality/review-continuation/U3D2A1.json"
+    },
+    {
+      "codepoint": "U+3D2A2",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A2.json",
+      "geometry_sha256": "cff2627522fcc1e71f53435eb3e5903ed430fe11e32ef8cfa9fcb92fd4c79bbd",
+      "source_png_sha256": "fd6a761ab3e1262cfa9d8004a01811b07a0731fec361d2b0583cba3028dae733",
+      "accepted_geometry_sha256": "cff2627522fcc1e71f53435eb3e5903ed430fe11e32ef8cfa9fcb92fd4c79bbd",
+      "accepted_source_png_sha256": "fd6a761ab3e1262cfa9d8004a01811b07a0731fec361d2b0583cba3028dae733",
+      "review_report": "design/quality/review-continuation/U3D2A2.json"
+    },
+    {
       "codepoint": "U+3D2A3",
       "source": "/workspace/fonts/design/strokes-individual/U3D2A3.json",
       "geometry_sha256": "8a4ca3c43ba99dfdcb8de6f2fa3eac363690d7c98839d7aecf74991901de7d6c",
@@ -5764,6 +6088,24 @@
       "accepted_geometry_sha256": "8a4ca3c43ba99dfdcb8de6f2fa3eac363690d7c98839d7aecf74991901de7d6c",
       "accepted_source_png_sha256": "4d04f313e19a680a3e1b5eb9e2971de1e07596c6e9114407336c146855bd3221",
       "review_report": "design/quality/review-continuation/U3D2A3.json"
+    },
+    {
+      "codepoint": "U+3D2A4",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A4.json",
+      "geometry_sha256": "7dce0e48d7f4d717981231c014f973e098af089b0fb6b575db76ee8fb70fe179",
+      "source_png_sha256": "33e17a17a06cf04ee01bb6b14ff83785ed61400c5d3287ffa692b62ddd6100ec",
+      "accepted_geometry_sha256": "7dce0e48d7f4d717981231c014f973e098af089b0fb6b575db76ee8fb70fe179",
+      "accepted_source_png_sha256": "33e17a17a06cf04ee01bb6b14ff83785ed61400c5d3287ffa692b62ddd6100ec",
+      "review_report": "design/quality/review-continuation/U3D2A4.json"
+    },
+    {
+      "codepoint": "U+3D2A5",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A5.json",
+      "geometry_sha256": "ea33e847578436d57fca804fc528bc98abb1cbb4ce647d31d6cfe0b4c4f36383",
+      "source_png_sha256": "2b6d43e4d6aa810c86d4413b9a77d44a1673c8aa7a15c5d45f511cd90b2061a9",
+      "accepted_geometry_sha256": "ea33e847578436d57fca804fc528bc98abb1cbb4ce647d31d6cfe0b4c4f36383",
+      "accepted_source_png_sha256": "2b6d43e4d6aa810c86d4413b9a77d44a1673c8aa7a15c5d45f511cd90b2061a9",
+      "review_report": "design/quality/review-continuation/U3D2A5.json"
     },
     {
       "codepoint": "U+3D2A6",
@@ -5775,6 +6117,15 @@
       "review_report": "design/quality/review-continuation/U3D2A6.json"
     },
     {
+      "codepoint": "U+3D2A7",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A7.json",
+      "geometry_sha256": "316cf98b0d1abae57dec7b5c52863a77d11e475a3de30cd6d33f6dd74791802c",
+      "source_png_sha256": "9a914c32f5ff0035aad734267d356501a2d377fadfa064226f4b7fd7400cfbd6",
+      "accepted_geometry_sha256": "316cf98b0d1abae57dec7b5c52863a77d11e475a3de30cd6d33f6dd74791802c",
+      "accepted_source_png_sha256": "9a914c32f5ff0035aad734267d356501a2d377fadfa064226f4b7fd7400cfbd6",
+      "review_report": "design/quality/review-continuation/U3D2A7.json"
+    },
+    {
       "codepoint": "U+3D2A8",
       "source": "/workspace/fonts/design/strokes-individual/U3D2A8.json",
       "geometry_sha256": "8414ada475f7c9692b3ed02d0cb9ceeb07a2fad33f34bcf26d347fc9e8231500",
@@ -5782,6 +6133,60 @@
       "accepted_geometry_sha256": "8414ada475f7c9692b3ed02d0cb9ceeb07a2fad33f34bcf26d347fc9e8231500",
       "accepted_source_png_sha256": "da86164a90e9a83e1767246f4097c9de1b2e771f3030256dec433bcb36bcb1ad",
       "review_report": "design/quality/review-continuation/U3D2A8.json"
+    },
+    {
+      "codepoint": "U+3D2A9",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2A9.json",
+      "geometry_sha256": "eb0c44c0f5b5324e7b3207e7a5b7103ff4e7d94d10a67083627a599031e71a67",
+      "source_png_sha256": "e79e903124568abe5e3e2d2fd4feea8f29c58c866b48962298d3ccc1808a7d89",
+      "accepted_geometry_sha256": "eb0c44c0f5b5324e7b3207e7a5b7103ff4e7d94d10a67083627a599031e71a67",
+      "accepted_source_png_sha256": "e79e903124568abe5e3e2d2fd4feea8f29c58c866b48962298d3ccc1808a7d89",
+      "review_report": "design/quality/review-continuation/U3D2A9.json"
+    },
+    {
+      "codepoint": "U+3D2AB",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2AB.json",
+      "geometry_sha256": "2df9faf84363c73255d214a892df7324604674393814c02e7c7f016e1bb25678",
+      "source_png_sha256": "95ce0162fedb90915aca21610e3c01c0f6b85cda73fc3e7928604935f3a1c40b",
+      "accepted_geometry_sha256": "2df9faf84363c73255d214a892df7324604674393814c02e7c7f016e1bb25678",
+      "accepted_source_png_sha256": "95ce0162fedb90915aca21610e3c01c0f6b85cda73fc3e7928604935f3a1c40b",
+      "review_report": "design/quality/review-continuation/U3D2AB.json"
+    },
+    {
+      "codepoint": "U+3D2AC",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2AC.json",
+      "geometry_sha256": "deb44e8e16a0bc2e1620f2dc19e0dcc87342b7882e29362b1e917093dbcbeaf1",
+      "source_png_sha256": "229ad54374ef7545c7acf8abdc352085d6bb7d2e037140ef4bf1776344d57d44",
+      "accepted_geometry_sha256": "deb44e8e16a0bc2e1620f2dc19e0dcc87342b7882e29362b1e917093dbcbeaf1",
+      "accepted_source_png_sha256": "229ad54374ef7545c7acf8abdc352085d6bb7d2e037140ef4bf1776344d57d44",
+      "review_report": "design/quality/review-continuation/U3D2AC.json"
+    },
+    {
+      "codepoint": "U+3D2AD",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2AD.json",
+      "geometry_sha256": "e2de2af6f684c127107e2674cd520a3c1a48ba0d69b6eba77c7bf7784edb5fdc",
+      "source_png_sha256": "d048e2e9e0c6d27fed64a82af5b4d8c872110f56620755d1000cf07fb4b3b0b4",
+      "accepted_geometry_sha256": "e2de2af6f684c127107e2674cd520a3c1a48ba0d69b6eba77c7bf7784edb5fdc",
+      "accepted_source_png_sha256": "d048e2e9e0c6d27fed64a82af5b4d8c872110f56620755d1000cf07fb4b3b0b4",
+      "review_report": "design/quality/review-continuation/U3D2AD.json"
+    },
+    {
+      "codepoint": "U+3D2AE",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2AE.json",
+      "geometry_sha256": "93f628bf027c1b48bdd0d880c5fc39cbf4327a99a98c94b06386a6529c36f233",
+      "source_png_sha256": "be5c418cdb856ab3332fac79c2e8c6c0f8a0f28f675c66c1bd97d1fd8db63392",
+      "accepted_geometry_sha256": "93f628bf027c1b48bdd0d880c5fc39cbf4327a99a98c94b06386a6529c36f233",
+      "accepted_source_png_sha256": "be5c418cdb856ab3332fac79c2e8c6c0f8a0f28f675c66c1bd97d1fd8db63392",
+      "review_report": "design/quality/review-continuation/U3D2AE.json"
+    },
+    {
+      "codepoint": "U+3D2AF",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2AF.json",
+      "geometry_sha256": "cfcfe29573a01add484ef7a8ed5cc1c4b4330b75459d0c65a2cdc9be9903f8eb",
+      "source_png_sha256": "cb905c0899b4339dea15b976741ab4bd217232bd8a5fb1c9392576e0ee6e0b64",
+      "accepted_geometry_sha256": "cfcfe29573a01add484ef7a8ed5cc1c4b4330b75459d0c65a2cdc9be9903f8eb",
+      "accepted_source_png_sha256": "cb905c0899b4339dea15b976741ab4bd217232bd8a5fb1c9392576e0ee6e0b64",
+      "review_report": "design/quality/review-continuation/U3D2AF.json"
     },
     {
       "codepoint": "U+3D2B0",
@@ -5802,6 +6207,15 @@
       "review_report": "design/quality/review-continuation/U3D2B1.json"
     },
     {
+      "codepoint": "U+3D2B2",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2B2.json",
+      "geometry_sha256": "d61a9a4c8f38fe5580bf910c90e66e228c91d873d9e4d845c574a6eb17ff2253",
+      "source_png_sha256": "665c983f9aa8a277a9232931b8523b454a81ea363f55f9f65f1632a471abf112",
+      "accepted_geometry_sha256": "d61a9a4c8f38fe5580bf910c90e66e228c91d873d9e4d845c574a6eb17ff2253",
+      "accepted_source_png_sha256": "665c983f9aa8a277a9232931b8523b454a81ea363f55f9f65f1632a471abf112",
+      "review_report": "design/quality/review-continuation/U3D2B2.json"
+    },
+    {
       "codepoint": "U+3D2B3",
       "source": "/workspace/fonts/design/strokes-individual/U3D2B3.json",
       "geometry_sha256": "23cf8b508a025669b6a1f51ba1e14e18183209adb188abeb6c34a1e5363d9452",
@@ -5818,6 +6232,15 @@
       "accepted_geometry_sha256": "d1cb0375a46cfe2f5e2902f68ca9a6082a0925aa4ec8d337f9d3ce73ca10e130",
       "accepted_source_png_sha256": "74c435227aca2efb09d5b0b0d523e2f5798ce9448eb50708e490809e35712e8a",
       "review_report": "design/quality/review-continuation/U3D2B4.json"
+    },
+    {
+      "codepoint": "U+3D2B5",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2B5.json",
+      "geometry_sha256": "254b6d15706ff6a34184a3a0bd732f88fa57c38fc3f1ea8982332499c3a08c7d",
+      "source_png_sha256": "d1efaa903aff6908a70da33fa335ec8a65f90819c6195caa55ac4890922a1fe3",
+      "accepted_geometry_sha256": "254b6d15706ff6a34184a3a0bd732f88fa57c38fc3f1ea8982332499c3a08c7d",
+      "accepted_source_png_sha256": "d1efaa903aff6908a70da33fa335ec8a65f90819c6195caa55ac4890922a1fe3",
+      "review_report": "design/quality/review-continuation/U3D2B5.json"
     },
     {
       "codepoint": "U+3D2BB",
@@ -5865,6 +6288,15 @@
       "review_report": "design/quality/review-continuation/U3D2C5.json"
     },
     {
+      "codepoint": "U+3D2CF",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2CF.json",
+      "geometry_sha256": "2252d1aaa926c02465594a277a65de8df63ca5b5b93329376f09f017c580417d",
+      "source_png_sha256": "c17baba96b8e3fab53e751accb7f24fd4a57e95625ec8daf74d7413bc3205e7c",
+      "accepted_geometry_sha256": "2252d1aaa926c02465594a277a65de8df63ca5b5b93329376f09f017c580417d",
+      "accepted_source_png_sha256": "c17baba96b8e3fab53e751accb7f24fd4a57e95625ec8daf74d7413bc3205e7c",
+      "review_report": "design/quality/review-continuation/U3D2CF.json"
+    },
+    {
       "codepoint": "U+3D2D0",
       "source": "/workspace/fonts/design/strokes-individual/U3D2D0.json",
       "geometry_sha256": "2d2d152665ce09bbbbd29a95e3d35b64ef6e5a7e0db7bcd7f4ee5df54811f59c",
@@ -5908,6 +6340,312 @@
       "accepted_geometry_sha256": "c5ffdc36c2884b43669db350de1d0eba2d7a02b62c1552f7a679a0d1a5cf5681",
       "accepted_source_png_sha256": "5d94466db608e74e4bc40b9bff1076c8f125acb15232599c0e9542f6f27fc2b7",
       "review_report": "design/quality/review-continuation/U3D2D7.json"
+    },
+    {
+      "codepoint": "U+3D2DC",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2DC.json",
+      "geometry_sha256": "c472fcce46a9e482252ffd4b735f1d5e4543779a520d0bf0088795d65e6fc298",
+      "source_png_sha256": "79c882259525f2f0d1e4991dfce9e7a6f052c9227d960ee4f13627e2611ebdf2",
+      "accepted_geometry_sha256": "c472fcce46a9e482252ffd4b735f1d5e4543779a520d0bf0088795d65e6fc298",
+      "accepted_source_png_sha256": "79c882259525f2f0d1e4991dfce9e7a6f052c9227d960ee4f13627e2611ebdf2",
+      "review_report": "design/quality/review-continuation/U3D2DC.json"
+    },
+    {
+      "codepoint": "U+3D2E1",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2E1.json",
+      "geometry_sha256": "894efcc145e3de8e0d21d50cc99f3a2927ea2946f1e11007123ab6d9b83a93b9",
+      "source_png_sha256": "565780b77c0a2ccfe58b56b52ddeb92cf9d55276a1adb6c666c9fb9ab47eaeb0",
+      "accepted_geometry_sha256": "894efcc145e3de8e0d21d50cc99f3a2927ea2946f1e11007123ab6d9b83a93b9",
+      "accepted_source_png_sha256": "565780b77c0a2ccfe58b56b52ddeb92cf9d55276a1adb6c666c9fb9ab47eaeb0",
+      "review_report": "design/quality/review-continuation/U3D2E1.json"
+    },
+    {
+      "codepoint": "U+3D2ED",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2ED.json",
+      "geometry_sha256": "9de8dddf4abd863727979e40242de1ee859069b5565daf3516849064236e55e8",
+      "source_png_sha256": "3af53003aa4e8b5bfe9a478fdb6f75c33a8b48d86ffa6004f3418f14f4ec0c37",
+      "accepted_geometry_sha256": "9de8dddf4abd863727979e40242de1ee859069b5565daf3516849064236e55e8",
+      "accepted_source_png_sha256": "3af53003aa4e8b5bfe9a478fdb6f75c33a8b48d86ffa6004f3418f14f4ec0c37",
+      "review_report": "design/quality/review-continuation/U3D2ED.json"
+    },
+    {
+      "codepoint": "U+3D2EE",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2EE.json",
+      "geometry_sha256": "5748fe0de98b64cd7362ce12eea0bb4116d70c2bf82208c17b66a1c3c32a25fe",
+      "source_png_sha256": "ae91ef688d6e6d862b8960f8be11f071cb4d9eff4b04b2221ed44ead1fdc4df5",
+      "accepted_geometry_sha256": "5748fe0de98b64cd7362ce12eea0bb4116d70c2bf82208c17b66a1c3c32a25fe",
+      "accepted_source_png_sha256": "ae91ef688d6e6d862b8960f8be11f071cb4d9eff4b04b2221ed44ead1fdc4df5",
+      "review_report": "design/quality/review-continuation/U3D2EE.json"
+    },
+    {
+      "codepoint": "U+3D2F0",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2F0.json",
+      "geometry_sha256": "d9e448e727c0327ad5c49e91610c7bb1ce6b609c3595686449c37389dcc8d80c",
+      "source_png_sha256": "8f228b393c930b3ca47e8ff031a4f890559c10f4b1db99e43f8dd222915d1d31",
+      "accepted_geometry_sha256": "d9e448e727c0327ad5c49e91610c7bb1ce6b609c3595686449c37389dcc8d80c",
+      "accepted_source_png_sha256": "8f228b393c930b3ca47e8ff031a4f890559c10f4b1db99e43f8dd222915d1d31",
+      "review_report": "design/quality/review-continuation/U3D2F0.json"
+    },
+    {
+      "codepoint": "U+3D2F4",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2F4.json",
+      "geometry_sha256": "4c1c96a54b495cbf04146f00f5c0ae61011086ed3ac2bd35319267c7bcac6814",
+      "source_png_sha256": "46867ea131b7f86ad6d2fd9518293cde87b3faa7ba4a77e1e0caa6d085e8a9b2",
+      "accepted_geometry_sha256": "4c1c96a54b495cbf04146f00f5c0ae61011086ed3ac2bd35319267c7bcac6814",
+      "accepted_source_png_sha256": "46867ea131b7f86ad6d2fd9518293cde87b3faa7ba4a77e1e0caa6d085e8a9b2",
+      "review_report": "design/quality/review-continuation/U3D2F4.json"
+    },
+    {
+      "codepoint": "U+3D2F6",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2F6.json",
+      "geometry_sha256": "9d997d690c2e07fd9090cfefb7f5972de6945eb63eee9722e25b78fcf22ca61a",
+      "source_png_sha256": "a05fee610937ef1d89d485d2d6b6c3074ad50cd5833d382bf04f12fadc07463c",
+      "accepted_geometry_sha256": "9d997d690c2e07fd9090cfefb7f5972de6945eb63eee9722e25b78fcf22ca61a",
+      "accepted_source_png_sha256": "a05fee610937ef1d89d485d2d6b6c3074ad50cd5833d382bf04f12fadc07463c",
+      "review_report": "design/quality/review-continuation/U3D2F6.json"
+    },
+    {
+      "codepoint": "U+3D2F7",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2F7.json",
+      "geometry_sha256": "de3b366954aa4380bc59e27fdf9917ce817cf36c4fc100fdacac479bbe0e27a6",
+      "source_png_sha256": "77a9f8ebf24975743612254772a8c2c6a628e2fb4216969cc9eae717031c1e60",
+      "accepted_geometry_sha256": "de3b366954aa4380bc59e27fdf9917ce817cf36c4fc100fdacac479bbe0e27a6",
+      "accepted_source_png_sha256": "77a9f8ebf24975743612254772a8c2c6a628e2fb4216969cc9eae717031c1e60",
+      "review_report": "design/quality/review-continuation/U3D2F7.json"
+    },
+    {
+      "codepoint": "U+3D2FA",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2FA.json",
+      "geometry_sha256": "092fa196eae1b99f749e73ff30cda5ea61fdf54cb9a227dfcc5183946eed0a5f",
+      "source_png_sha256": "179697c54a350fc671b59f25a0a19bd62e45ad2028928f72fc7a3401ef88e9b0",
+      "accepted_geometry_sha256": "092fa196eae1b99f749e73ff30cda5ea61fdf54cb9a227dfcc5183946eed0a5f",
+      "accepted_source_png_sha256": "179697c54a350fc671b59f25a0a19bd62e45ad2028928f72fc7a3401ef88e9b0",
+      "review_report": "design/quality/review-continuation/U3D2FA.json"
+    },
+    {
+      "codepoint": "U+3D2FC",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2FC.json",
+      "geometry_sha256": "631d922524f081be361f779e5680d394c0b5c685fc5fc53afad8808c11bfd564",
+      "source_png_sha256": "6becf5e7f4d29a10f55e716435e0af60e5aa0dfe2dd00058eaee325bcc0bd60a",
+      "accepted_geometry_sha256": "631d922524f081be361f779e5680d394c0b5c685fc5fc53afad8808c11bfd564",
+      "accepted_source_png_sha256": "6becf5e7f4d29a10f55e716435e0af60e5aa0dfe2dd00058eaee325bcc0bd60a",
+      "review_report": "design/quality/review-continuation/U3D2FC.json"
+    },
+    {
+      "codepoint": "U+3D2FE",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2FE.json",
+      "geometry_sha256": "e54039b6682191e34f70d920de2bf8c340251207b4eb74687ad619584601ad63",
+      "source_png_sha256": "dc4e645b156a919520eb8ae97fd2e681f36893495ffe97cef68be585a41a63e7",
+      "accepted_geometry_sha256": "e54039b6682191e34f70d920de2bf8c340251207b4eb74687ad619584601ad63",
+      "accepted_source_png_sha256": "dc4e645b156a919520eb8ae97fd2e681f36893495ffe97cef68be585a41a63e7",
+      "review_report": "design/quality/review-continuation/U3D2FE.json"
+    },
+    {
+      "codepoint": "U+3D2FF",
+      "source": "/workspace/fonts/design/strokes-individual/U3D2FF.json",
+      "geometry_sha256": "ed6c00b252377c7018b6e6fc5cd0a8c942b5b650f0478ba44d1e4b7a78cbc8c6",
+      "source_png_sha256": "9390e46b67294402ee11dc68482dafa7751d2551a95779da122a49f817676291",
+      "accepted_geometry_sha256": "ed6c00b252377c7018b6e6fc5cd0a8c942b5b650f0478ba44d1e4b7a78cbc8c6",
+      "accepted_source_png_sha256": "9390e46b67294402ee11dc68482dafa7751d2551a95779da122a49f817676291",
+      "review_report": "design/quality/review-continuation/U3D2FF.json"
+    },
+    {
+      "codepoint": "U+3D300",
+      "source": "/workspace/fonts/design/strokes-individual/U3D300.json",
+      "geometry_sha256": "be5f4d4b2144b1dab9f1a9f2ba973010603a3d591386819dea1d0fd9e052db9b",
+      "source_png_sha256": "6deb74695799c30884eec3b924b33a27ce1b44dfb3eef44476c3d74a65c9158a",
+      "accepted_geometry_sha256": "be5f4d4b2144b1dab9f1a9f2ba973010603a3d591386819dea1d0fd9e052db9b",
+      "accepted_source_png_sha256": "6deb74695799c30884eec3b924b33a27ce1b44dfb3eef44476c3d74a65c9158a",
+      "review_report": "design/quality/review-continuation/U3D300.json"
+    },
+    {
+      "codepoint": "U+3D301",
+      "source": "/workspace/fonts/design/strokes-individual/U3D301.json",
+      "geometry_sha256": "3e796913861a02cc1f66d00392828a0d026a444929cfa7b24b2b8b2bd234f702",
+      "source_png_sha256": "1c7c15c337514f98b574124e40ca19a68d0292d421999d12b76949668aecae93",
+      "accepted_geometry_sha256": "3e796913861a02cc1f66d00392828a0d026a444929cfa7b24b2b8b2bd234f702",
+      "accepted_source_png_sha256": "1c7c15c337514f98b574124e40ca19a68d0292d421999d12b76949668aecae93",
+      "review_report": "design/quality/review-continuation/U3D301.json"
+    },
+    {
+      "codepoint": "U+3D304",
+      "source": "/workspace/fonts/design/strokes-individual/U3D304.json",
+      "geometry_sha256": "47c68fe0af134402f519d0b3951a3e61568066019e7ee9912f9da5b41a2967a4",
+      "source_png_sha256": "9a8eef0662c2e40f7e4b30a40d096c3d748c6969b53a39c2333eb5b836c21223",
+      "accepted_geometry_sha256": "47c68fe0af134402f519d0b3951a3e61568066019e7ee9912f9da5b41a2967a4",
+      "accepted_source_png_sha256": "9a8eef0662c2e40f7e4b30a40d096c3d748c6969b53a39c2333eb5b836c21223",
+      "review_report": "design/quality/review-continuation/U3D304.json"
+    },
+    {
+      "codepoint": "U+3D305",
+      "source": "/workspace/fonts/design/strokes-individual/U3D305.json",
+      "geometry_sha256": "f21406b98416fa5f46906ce32d91fd02d352dec79a20493032fd81d87d358e09",
+      "source_png_sha256": "1d5d0f9375cf382982d0918fe30d79a5f7e695319ae2204348ff8efa117b01c0",
+      "accepted_geometry_sha256": "f21406b98416fa5f46906ce32d91fd02d352dec79a20493032fd81d87d358e09",
+      "accepted_source_png_sha256": "1d5d0f9375cf382982d0918fe30d79a5f7e695319ae2204348ff8efa117b01c0",
+      "review_report": "design/quality/review-continuation/U3D305.json"
+    },
+    {
+      "codepoint": "U+3D307",
+      "source": "/workspace/fonts/design/strokes-individual/U3D307.json",
+      "geometry_sha256": "a56c9172f4b15758dce0f289ccd62e9c254d2a7059d901a096cf1d079da8b115",
+      "source_png_sha256": "a306f983cbf09de5fc84d3f6723715bc1b66d54124c8698a9903475ce2e86561",
+      "accepted_geometry_sha256": "a56c9172f4b15758dce0f289ccd62e9c254d2a7059d901a096cf1d079da8b115",
+      "accepted_source_png_sha256": "a306f983cbf09de5fc84d3f6723715bc1b66d54124c8698a9903475ce2e86561",
+      "review_report": "design/quality/review-continuation/U3D307.json"
+    },
+    {
+      "codepoint": "U+3D30E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D30E.json",
+      "geometry_sha256": "21317bf15767edf28f2af9caffcfe8286bf32e6decf592763b6cae5a4576400c",
+      "source_png_sha256": "16d12169064aa98b2aaf1a011384a45f015744e1d3e7c32ce831aa40d93e1971",
+      "accepted_geometry_sha256": "21317bf15767edf28f2af9caffcfe8286bf32e6decf592763b6cae5a4576400c",
+      "accepted_source_png_sha256": "16d12169064aa98b2aaf1a011384a45f015744e1d3e7c32ce831aa40d93e1971",
+      "review_report": "design/quality/review-continuation/U3D30E.json"
+    },
+    {
+      "codepoint": "U+3D311",
+      "source": "/workspace/fonts/design/strokes-individual/U3D311.json",
+      "geometry_sha256": "8d232b21fb7cd0eb73baf4e17543786fde060699b71221177f77cf832a10d8e1",
+      "source_png_sha256": "0b2f7d5f24afafffb5fa9300325e4d623226731a38b8ba8596174db532c7ecba",
+      "accepted_geometry_sha256": "8d232b21fb7cd0eb73baf4e17543786fde060699b71221177f77cf832a10d8e1",
+      "accepted_source_png_sha256": "0b2f7d5f24afafffb5fa9300325e4d623226731a38b8ba8596174db532c7ecba",
+      "review_report": "design/quality/review-continuation/U3D311.json"
+    },
+    {
+      "codepoint": "U+3D313",
+      "source": "/workspace/fonts/design/strokes-individual/U3D313.json",
+      "geometry_sha256": "2fee661eea297bfb47d94399aff0bedf5eb6f6d9c4d68a3a0f7d9a80f08afc9b",
+      "source_png_sha256": "96a6c0cc35c74a79b00d8240d907fba65b5fb09475e2c97a84c7fe4ee686482a",
+      "accepted_geometry_sha256": "2fee661eea297bfb47d94399aff0bedf5eb6f6d9c4d68a3a0f7d9a80f08afc9b",
+      "accepted_source_png_sha256": "96a6c0cc35c74a79b00d8240d907fba65b5fb09475e2c97a84c7fe4ee686482a",
+      "review_report": "design/quality/review-continuation/U3D313.json"
+    },
+    {
+      "codepoint": "U+3D31B",
+      "source": "/workspace/fonts/design/strokes-individual/U3D31B.json",
+      "geometry_sha256": "a65b1f821f6a080c443b6da939fd094f5b1cc6aa2187041da94a1e8f3f986206",
+      "source_png_sha256": "5454669a13f76af9ff1b2f9f3f47f43e4f40fa02c722288e34cf05058adb2c1f",
+      "accepted_geometry_sha256": "a65b1f821f6a080c443b6da939fd094f5b1cc6aa2187041da94a1e8f3f986206",
+      "accepted_source_png_sha256": "5454669a13f76af9ff1b2f9f3f47f43e4f40fa02c722288e34cf05058adb2c1f",
+      "review_report": "design/quality/review-continuation/U3D31B.json"
+    },
+    {
+      "codepoint": "U+3D31C",
+      "source": "/workspace/fonts/design/strokes-individual/U3D31C.json",
+      "geometry_sha256": "cb4a17b2171b672f3113a04db5547bfc524ac365bd05afc9fe13047fcd2e9491",
+      "source_png_sha256": "74bf4293631621299110b4d134413ee593fa42a60accbbb35c8949ea3380ae0f",
+      "accepted_geometry_sha256": "cb4a17b2171b672f3113a04db5547bfc524ac365bd05afc9fe13047fcd2e9491",
+      "accepted_source_png_sha256": "74bf4293631621299110b4d134413ee593fa42a60accbbb35c8949ea3380ae0f",
+      "review_report": "design/quality/review-continuation/U3D31C.json"
+    },
+    {
+      "codepoint": "U+3D31E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D31E.json",
+      "geometry_sha256": "23cb1adb0edd5b79ab584fd2811d70cbd9efc0e24c5c07d564bc7978d8e49682",
+      "source_png_sha256": "3afad7f45632f34d65feef6181d2d856816d7da4716940244cdbb5a90586e2e6",
+      "accepted_geometry_sha256": "23cb1adb0edd5b79ab584fd2811d70cbd9efc0e24c5c07d564bc7978d8e49682",
+      "accepted_source_png_sha256": "3afad7f45632f34d65feef6181d2d856816d7da4716940244cdbb5a90586e2e6",
+      "review_report": "design/quality/review-continuation/U3D31E.json"
+    },
+    {
+      "codepoint": "U+3D31F",
+      "source": "/workspace/fonts/design/strokes-individual/U3D31F.json",
+      "geometry_sha256": "5238742584f212fd58e3ddf60c044c4455239779daace4c37f90f0f90a859c38",
+      "source_png_sha256": "15125af3aa9d6d0b85e3964583f52c5deeaac68aa9444c8e7d97ec9487c0a64d",
+      "accepted_geometry_sha256": "5238742584f212fd58e3ddf60c044c4455239779daace4c37f90f0f90a859c38",
+      "accepted_source_png_sha256": "15125af3aa9d6d0b85e3964583f52c5deeaac68aa9444c8e7d97ec9487c0a64d",
+      "review_report": "design/quality/review-continuation/U3D31F.json"
+    },
+    {
+      "codepoint": "U+3D320",
+      "source": "/workspace/fonts/design/strokes-individual/U3D320.json",
+      "geometry_sha256": "dd99861801a4afcbab813c0f16c048bf10dae9187dec5ab038ede6cbd1176f89",
+      "source_png_sha256": "b04a5e226b04f5995370275290b201c1ac396d0da1ea657dd6cf53160d87e7c1",
+      "accepted_geometry_sha256": "dd99861801a4afcbab813c0f16c048bf10dae9187dec5ab038ede6cbd1176f89",
+      "accepted_source_png_sha256": "b04a5e226b04f5995370275290b201c1ac396d0da1ea657dd6cf53160d87e7c1",
+      "review_report": "design/quality/review-continuation/U3D320.json"
+    },
+    {
+      "codepoint": "U+3D323",
+      "source": "/workspace/fonts/design/strokes-individual/U3D323.json",
+      "geometry_sha256": "eb82c16b6d75085a014be5cbd447b6c34da224aea32cdd4884b23100821885f8",
+      "source_png_sha256": "fcd44315483c3b24bf82f2f0e06fdd10678a6a06d28934fda5d96658b82a398e",
+      "accepted_geometry_sha256": "eb82c16b6d75085a014be5cbd447b6c34da224aea32cdd4884b23100821885f8",
+      "accepted_source_png_sha256": "fcd44315483c3b24bf82f2f0e06fdd10678a6a06d28934fda5d96658b82a398e",
+      "review_report": "design/quality/review-continuation/U3D323.json"
+    },
+    {
+      "codepoint": "U+3D327",
+      "source": "/workspace/fonts/design/strokes-individual/U3D327.json",
+      "geometry_sha256": "42b714cea5e67a9db35b0c21195fb5440e91bd4375925b1d165afbec09a236d0",
+      "source_png_sha256": "6063c9d3c2c8b373ac8e7288169a225d8211695cfb0069029f0f8200c2483936",
+      "accepted_geometry_sha256": "42b714cea5e67a9db35b0c21195fb5440e91bd4375925b1d165afbec09a236d0",
+      "accepted_source_png_sha256": "6063c9d3c2c8b373ac8e7288169a225d8211695cfb0069029f0f8200c2483936",
+      "review_report": "design/quality/review-continuation/U3D327.json"
+    },
+    {
+      "codepoint": "U+3D32A",
+      "source": "/workspace/fonts/design/strokes-individual/U3D32A.json",
+      "geometry_sha256": "44e960b99b63bc799452aefc1224169c63b3f9fc9aa5b1221c70af49bf4eed94",
+      "source_png_sha256": "4c741989681f53825a5a304caff93a1504cd8f42eeca36b44aadf930c8479e21",
+      "accepted_geometry_sha256": "44e960b99b63bc799452aefc1224169c63b3f9fc9aa5b1221c70af49bf4eed94",
+      "accepted_source_png_sha256": "4c741989681f53825a5a304caff93a1504cd8f42eeca36b44aadf930c8479e21",
+      "review_report": "design/quality/review-continuation/U3D32A.json"
+    },
+    {
+      "codepoint": "U+3D32B",
+      "source": "/workspace/fonts/design/strokes-individual/U3D32B.json",
+      "geometry_sha256": "32f18261d0103f08f7c55ef927af432aa926b316c4a3c3d767c25f2b91eb2897",
+      "source_png_sha256": "543a150498a1ae660f66b2c4fe6eed05c62f211e9335a112ea511df5025e2870",
+      "accepted_geometry_sha256": "32f18261d0103f08f7c55ef927af432aa926b316c4a3c3d767c25f2b91eb2897",
+      "accepted_source_png_sha256": "543a150498a1ae660f66b2c4fe6eed05c62f211e9335a112ea511df5025e2870",
+      "review_report": "design/quality/review-continuation/U3D32B.json"
+    },
+    {
+      "codepoint": "U+3D32C",
+      "source": "/workspace/fonts/design/strokes-individual/U3D32C.json",
+      "geometry_sha256": "828de9fbf6041c824975e04acd36f149b875cd67626d6fafe1d7ca8779a00d84",
+      "source_png_sha256": "79207290442dc5f7ad1f45a2c87ce15e428236e6567ba0bb88225861614fdcd0",
+      "accepted_geometry_sha256": "828de9fbf6041c824975e04acd36f149b875cd67626d6fafe1d7ca8779a00d84",
+      "accepted_source_png_sha256": "79207290442dc5f7ad1f45a2c87ce15e428236e6567ba0bb88225861614fdcd0",
+      "review_report": "design/quality/review-continuation/U3D32C.json"
+    },
+    {
+      "codepoint": "U+3D32D",
+      "source": "/workspace/fonts/design/strokes-individual/U3D32D.json",
+      "geometry_sha256": "bc635e326514b2cce66aaa25636104941c9455b90f1da08e1161d1bfa3e0aa71",
+      "source_png_sha256": "79ffd7ab8bfe30eac73d84c30cde53ddbf3a095f14277ca61e5ff520269682c3",
+      "accepted_geometry_sha256": "bc635e326514b2cce66aaa25636104941c9455b90f1da08e1161d1bfa3e0aa71",
+      "accepted_source_png_sha256": "79ffd7ab8bfe30eac73d84c30cde53ddbf3a095f14277ca61e5ff520269682c3",
+      "review_report": "design/quality/review-continuation/U3D32D.json"
+    },
+    {
+      "codepoint": "U+3D332",
+      "source": "/workspace/fonts/design/strokes-individual/U3D332.json",
+      "geometry_sha256": "07dee8e1bf28dbcdaa9e68657c03cd88480a1f7d23e08c7de8e2482db0cf6583",
+      "source_png_sha256": "a4e9817eb2b4d3111020db2ef8e1672891fb1f822b2446140ef1d6077fc42d79",
+      "accepted_geometry_sha256": "07dee8e1bf28dbcdaa9e68657c03cd88480a1f7d23e08c7de8e2482db0cf6583",
+      "accepted_source_png_sha256": "a4e9817eb2b4d3111020db2ef8e1672891fb1f822b2446140ef1d6077fc42d79",
+      "review_report": "design/quality/review-continuation/U3D332.json"
+    },
+    {
+      "codepoint": "U+3D33C",
+      "source": "/workspace/fonts/design/strokes-individual/U3D33C.json",
+      "geometry_sha256": "5776979aca0a02fb82c3bdb88bb042b8356912ab4d47015e084955ed19945a0b",
+      "source_png_sha256": "75c1cb7165a520b63133177395e4aabc116434fc7bd17a431f9027741dd7d6bc",
+      "accepted_geometry_sha256": "5776979aca0a02fb82c3bdb88bb042b8356912ab4d47015e084955ed19945a0b",
+      "accepted_source_png_sha256": "75c1cb7165a520b63133177395e4aabc116434fc7bd17a431f9027741dd7d6bc",
+      "review_report": "design/quality/review-continuation/U3D33C.json"
+    },
+    {
+      "codepoint": "U+3D33E",
+      "source": "/workspace/fonts/design/strokes-individual/U3D33E.json",
+      "geometry_sha256": "826bfbbd9a7176e72c7fd13dca65025c2277024686c8d85831d51b002b49d5eb",
+      "source_png_sha256": "b6d904c81ac97dcc6655971820cad5fcb4a53a650a9aa29d23e2518ea26369c1",
+      "accepted_geometry_sha256": "826bfbbd9a7176e72c7fd13dca65025c2277024686c8d85831d51b002b49d5eb",
+      "accepted_source_png_sha256": "b6d904c81ac97dcc6655971820cad5fcb4a53a650a9aa29d23e2518ea26369c1",
+      "review_report": "design/quality/review-continuation/U3D33E.json"
     }
   ],
   "errors": []

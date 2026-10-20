@@ -1,6 +1,6 @@
 {
   "font": "/workspace/fonts/fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf",
-  "font_sha256": "d6b4b5e378917acb9619a7f8b199b3c8dba08f86fb753509525976f1a4547280",
+  "font_sha256": "d6799bb17e6af3607f6f87c849696188a0e4bddefa1aea21b7a4f22f262fd20f",
   "specification": {
     "centerline_extent": 738.0,
     "regular_ink_extent": 768,
@@ -15,8 +15,8 @@
   "repertoire": {
     "source": "frozen acceptance registry",
     "path": "/workspace/fonts/design/quality/accepted-geometry.json",
-    "sha256": "08b7970b47488ef3ce3ce614c4e21a15708ae05fed0ed6c3c6af0d7438f5ba33",
-    "glyph_count": 656,
+    "sha256": "5f43ccdcbf5a7576766939aac148b3e045a7a42915cfaf4d84f69c10ca6460b1",
+    "glyph_count": 738,
     "codepoints": [
       "U+3D000",
       "U+3D001",
@@ -645,42 +645,124 @@
       "U+3D270",
       "U+3D271",
       "U+3D272",
+      "U+3D273",
+      "U+3D274",
+      "U+3D275",
+      "U+3D276",
+      "U+3D277",
+      "U+3D278",
+      "U+3D279",
+      "U+3D27A",
       "U+3D27B",
+      "U+3D27C",
       "U+3D27D",
+      "U+3D27E",
+      "U+3D27F",
       "U+3D280",
+      "U+3D281",
+      "U+3D282",
+      "U+3D283",
+      "U+3D284",
       "U+3D285",
+      "U+3D286",
+      "U+3D287",
       "U+3D288",
       "U+3D289",
+      "U+3D28A",
+      "U+3D28B",
       "U+3D28C",
+      "U+3D28D",
+      "U+3D28E",
       "U+3D28F",
+      "U+3D290",
       "U+3D291",
+      "U+3D292",
+      "U+3D293",
+      "U+3D294",
       "U+3D295",
+      "U+3D296",
+      "U+3D297",
+      "U+3D298",
+      "U+3D299",
+      "U+3D29A",
       "U+3D29B",
       "U+3D29C",
+      "U+3D29D",
+      "U+3D29E",
+      "U+3D29F",
+      "U+3D2A0",
+      "U+3D2A1",
+      "U+3D2A2",
       "U+3D2A3",
+      "U+3D2A4",
+      "U+3D2A5",
       "U+3D2A6",
+      "U+3D2A7",
       "U+3D2A8",
+      "U+3D2A9",
+      "U+3D2AB",
+      "U+3D2AC",
+      "U+3D2AD",
+      "U+3D2AE",
+      "U+3D2AF",
       "U+3D2B0",
       "U+3D2B1",
+      "U+3D2B2",
       "U+3D2B3",
       "U+3D2B4",
+      "U+3D2B5",
       "U+3D2BB",
       "U+3D2BD",
       "U+3D2C0",
       "U+3D2C4",
       "U+3D2C5",
+      "U+3D2CF",
       "U+3D2D0",
       "U+3D2D1",
       "U+3D2D2",
       "U+3D2D6",
-      "U+3D2D7"
+      "U+3D2D7",
+      "U+3D2DC",
+      "U+3D2E1",
+      "U+3D2ED",
+      "U+3D2EE",
+      "U+3D2F0",
+      "U+3D2F4",
+      "U+3D2F6",
+      "U+3D2F7",
+      "U+3D2FA",
+      "U+3D2FC",
+      "U+3D2FE",
+      "U+3D2FF",
+      "U+3D300",
+      "U+3D301",
+      "U+3D304",
+      "U+3D305",
+      "U+3D307",
+      "U+3D30E",
+      "U+3D311",
+      "U+3D313",
+      "U+3D31B",
+      "U+3D31C",
+      "U+3D31E",
+      "U+3D31F",
+      "U+3D320",
+      "U+3D323",
+      "U+3D327",
+      "U+3D32A",
+      "U+3D32B",
+      "U+3D32C",
+      "U+3D32D",
+      "U+3D332",
+      "U+3D33C",
+      "U+3D33E"
     ]
   },
   "manifest_source_comparison": {
     "checked": true,
     "aspect_ratio_checked": true,
     "path": "/workspace/fonts/fonts/seal-individual/manifest.json",
-    "sha256": "a84d2215c1c78a4216e1941390af958634e77531178a7fd4c15a4dde5b8ea338",
+    "sha256": "c243652fde1904ff771ee7b82964c64b686899558d788919b49dcf278fbb7415",
     "codepoints": [
       "U+3D000",
       "U+3D001",
@@ -1309,35 +1391,117 @@
       "U+3D270",
       "U+3D271",
       "U+3D272",
+      "U+3D273",
+      "U+3D274",
+      "U+3D275",
+      "U+3D276",
+      "U+3D277",
+      "U+3D278",
+      "U+3D279",
+      "U+3D27A",
       "U+3D27B",
+      "U+3D27C",
       "U+3D27D",
+      "U+3D27E",
+      "U+3D27F",
       "U+3D280",
+      "U+3D281",
+      "U+3D282",
+      "U+3D283",
+      "U+3D284",
       "U+3D285",
+      "U+3D286",
+      "U+3D287",
       "U+3D288",
       "U+3D289",
+      "U+3D28A",
+      "U+3D28B",
       "U+3D28C",
+      "U+3D28D",
+      "U+3D28E",
       "U+3D28F",
+      "U+3D290",
       "U+3D291",
+      "U+3D292",
+      "U+3D293",
+      "U+3D294",
       "U+3D295",
+      "U+3D296",
+      "U+3D297",
+      "U+3D298",
+      "U+3D299",
+      "U+3D29A",
       "U+3D29B",
       "U+3D29C",
+      "U+3D29D",
+      "U+3D29E",
+      "U+3D29F",
+      "U+3D2A0",
+      "U+3D2A1",
+      "U+3D2A2",
       "U+3D2A3",
+      "U+3D2A4",
+      "U+3D2A5",
       "U+3D2A6",
+      "U+3D2A7",
       "U+3D2A8",
+      "U+3D2A9",
+      "U+3D2AB",
+      "U+3D2AC",
+      "U+3D2AD",
+      "U+3D2AE",
+      "U+3D2AF",
       "U+3D2B0",
       "U+3D2B1",
+      "U+3D2B2",
       "U+3D2B3",
       "U+3D2B4",
+      "U+3D2B5",
       "U+3D2BB",
       "U+3D2BD",
       "U+3D2C0",
       "U+3D2C4",
       "U+3D2C5",
+      "U+3D2CF",
       "U+3D2D0",
       "U+3D2D1",
       "U+3D2D2",
       "U+3D2D6",
-      "U+3D2D7"
+      "U+3D2D7",
+      "U+3D2DC",
+      "U+3D2E1",
+      "U+3D2ED",
+      "U+3D2EE",
+      "U+3D2F0",
+      "U+3D2F4",
+      "U+3D2F6",
+      "U+3D2F7",
+      "U+3D2FA",
+      "U+3D2FC",
+      "U+3D2FE",
+      "U+3D2FF",
+      "U+3D300",
+      "U+3D301",
+      "U+3D304",
+      "U+3D305",
+      "U+3D307",
+      "U+3D30E",
+      "U+3D311",
+      "U+3D313",
+      "U+3D31B",
+      "U+3D31C",
+      "U+3D31E",
+      "U+3D31F",
+      "U+3D320",
+      "U+3D323",
+      "U+3D327",
+      "U+3D32A",
+      "U+3D32B",
+      "U+3D32C",
+      "U+3D32D",
+      "U+3D332",
+      "U+3D33C",
+      "U+3D33E"
     ],
     "pass": true,
     "errors": [],
@@ -23301,6 +23465,286 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D273",
+          "glyph": "u3D273",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            530.7855344547379,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7855344547378991,
+            0.0
+          ],
+          "bounds": [
+            247,
+            -64,
+            777,
+            704
+          ],
+          "ink_size": [
+            530,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D274",
+          "glyph": "u3D274",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            511.13327940718943,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8667205928105659,
+            0.0
+          ],
+          "bounds": [
+            256,
+            -64,
+            768,
+            704
+          ],
+          "ink_size": [
+            512,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D275",
+          "glyph": "u3D275",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            446.0217699913653,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.021769991365317765,
+            0.0
+          ],
+          "bounds": [
+            289,
+            -64,
+            735,
+            704
+          ],
+          "ink_size": [
+            446,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D276",
+          "glyph": "u3D276",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            595.199076745528,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.800923254471968,
+            0.0
+          ],
+          "bounds": [
+            214,
+            -64,
+            810,
+            704
+          ],
+          "ink_size": [
+            596,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D277",
+          "glyph": "u3D277",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            499.2916780132935,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.708321986706494,
+            0.0
+          ],
+          "bounds": [
+            262,
+            -64,
+            762,
+            704
+          ],
+          "ink_size": [
+            500,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D278",
+          "glyph": "u3D278",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            505.05354467569526,
+            768.0000000000001
+          ],
+          "source_aspect_extent_error": [
+            0.9464553243047362,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            259,
+            -64,
+            765,
+            704
+          ],
+          "ink_size": [
+            506,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D279",
+          "glyph": "u3D279",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            507.12639148348137,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8736085165186296,
+            0.0
+          ],
+          "bounds": [
+            258,
+            -64,
+            766,
+            704
+          ],
+          "ink_size": [
+            508,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D27A",
+          "glyph": "u3D27A",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            504.6432787326876,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6432787326875768,
+            0.0
+          ],
+          "bounds": [
+            260,
+            -64,
+            764,
+            704
+          ],
+          "ink_size": [
+            504,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D27B",
           "glyph": "u3D27B",
           "pass": true,
@@ -23321,6 +23765,41 @@
           ],
           "ink_size": [
             442,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D27C",
+          "glyph": "u3D27C",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            608.1002349794632,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.10023497946315274,
+            0.0
+          ],
+          "bounds": [
+            208,
+            -64,
+            816,
+            704
+          ],
+          "ink_size": [
+            608,
             768
           ],
           "longest_dimension": 768,
@@ -23371,6 +23850,76 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D27E",
+          "glyph": "u3D27E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            416.7695254563557,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7695254563557228,
+            0.0
+          ],
+          "bounds": [
+            304,
+            -64,
+            720,
+            704
+          ],
+          "ink_size": [
+            416,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D27F",
+          "glyph": "u3D27F",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            544.1291598463432,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.12915984634321376,
+            0.0
+          ],
+          "bounds": [
+            240,
+            -64,
+            784,
+            704
+          ],
+          "ink_size": [
+            544,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D280",
           "glyph": "u3D280",
           "pass": true,
@@ -23406,6 +23955,146 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D281",
+          "glyph": "u3D281",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            482.51944301186177,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.5194430118617674,
+            0.0
+          ],
+          "bounds": [
+            271,
+            -64,
+            753,
+            704
+          ],
+          "ink_size": [
+            482,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D282",
+          "glyph": "u3D282",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            448.0484674801973,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.04846748019730285,
+            0.0
+          ],
+          "bounds": [
+            288,
+            -64,
+            736,
+            704
+          ],
+          "ink_size": [
+            448,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D283",
+          "glyph": "u3D283",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            486.71366794360745,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7136679436074473,
+            0.0
+          ],
+          "bounds": [
+            269,
+            -64,
+            755,
+            704
+          ],
+          "ink_size": [
+            486,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D284",
+          "glyph": "u3D284",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            513.7336241083049,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.26637589169513376,
+            0.0
+          ],
+          "bounds": [
+            255,
+            -64,
+            769,
+            704
+          ],
+          "ink_size": [
+            514,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D285",
           "glyph": "u3D285",
           "pass": true,
@@ -23426,6 +24115,76 @@
           ],
           "ink_size": [
             482,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D286",
+          "glyph": "u3D286",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            481.17337900524666,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8266209947533412,
+            0.0
+          ],
+          "bounds": [
+            271,
+            -64,
+            753,
+            704
+          ],
+          "ink_size": [
+            482,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D287",
+          "glyph": "u3D287",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            466.091502277326,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.09150227732601479,
+            0.0
+          ],
+          "bounds": [
+            279,
+            -64,
+            745,
+            704
+          ],
+          "ink_size": [
+            466,
             768
           ],
           "longest_dimension": 768,
@@ -23511,6 +24270,76 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D28A",
+          "glyph": "u3D28A",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            499.3682923519148,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6317076480851824,
+            0.0
+          ],
+          "bounds": [
+            262,
+            -64,
+            762,
+            704
+          ],
+          "ink_size": [
+            500,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D28B",
+          "glyph": "u3D28B",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            433.2739785095795,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7260214904205213,
+            0.0
+          ],
+          "bounds": [
+            295,
+            -64,
+            729,
+            704
+          ],
+          "ink_size": [
+            434,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D28C",
           "glyph": "u3D28C",
           "pass": true,
@@ -23531,6 +24360,76 @@
           ],
           "ink_size": [
             440,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D28D",
+          "glyph": "u3D28D",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            433.23358856576465,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7664114342353514,
+            0.0
+          ],
+          "bounds": [
+            295,
+            -64,
+            729,
+            704
+          ],
+          "ink_size": [
+            434,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D28E",
+          "glyph": "u3D28E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            489.2442155530547,
+            767.9999999999999
+          ],
+          "source_aspect_extent_error": [
+            0.755784446945313,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            267,
+            -64,
+            757,
+            704
+          ],
+          "ink_size": [
+            490,
             768
           ],
           "longest_dimension": 768,
@@ -23581,6 +24480,41 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D290",
+          "glyph": "u3D290",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            399.0573466106091,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9426533893908982,
+            0.0
+          ],
+          "bounds": [
+            312,
+            -64,
+            712,
+            704
+          ],
+          "ink_size": [
+            400,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D291",
           "glyph": "u3D291",
           "pass": true,
@@ -23616,6 +24550,111 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D292",
+          "glyph": "u3D292",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            423.0349145733163,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9650854266836859,
+            0.0
+          ],
+          "bounds": [
+            300,
+            -64,
+            724,
+            704
+          ],
+          "ink_size": [
+            424,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D293",
+          "glyph": "u3D293",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            471.56412296138654,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.43587703861345517,
+            0.0
+          ],
+          "bounds": [
+            276,
+            -64,
+            748,
+            704
+          ],
+          "ink_size": [
+            472,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D294",
+          "glyph": "u3D294",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            492.9274964431798,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9274964431797912,
+            0.0
+          ],
+          "bounds": [
+            266,
+            -64,
+            758,
+            704
+          ],
+          "ink_size": [
+            492,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D295",
           "glyph": "u3D295",
           "pass": true,
@@ -23636,6 +24675,181 @@
           ],
           "ink_size": [
             502,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D296",
+          "glyph": "u3D296",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            487.11664323288215,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8833567671178457,
+            0.0
+          ],
+          "bounds": [
+            268,
+            -64,
+            756,
+            704
+          ],
+          "ink_size": [
+            488,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D297",
+          "glyph": "u3D297",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            487.90632990178216,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.09367009821784222,
+            0.0
+          ],
+          "bounds": [
+            268,
+            -64,
+            756,
+            704
+          ],
+          "ink_size": [
+            488,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D298",
+          "glyph": "u3D298",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            511.890086423475,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.10991357652500255,
+            0.0
+          ],
+          "bounds": [
+            256,
+            -64,
+            768,
+            704
+          ],
+          "ink_size": [
+            512,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D299",
+          "glyph": "u3D299",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            486.62368321236437,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6236832123643694,
+            0.0
+          ],
+          "bounds": [
+            269,
+            -64,
+            755,
+            704
+          ],
+          "ink_size": [
+            486,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D29A",
+          "glyph": "u3D29A",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            370.24497969314075,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.24497969314074908,
+            0.0
+          ],
+          "bounds": [
+            327,
+            -64,
+            697,
+            704
+          ],
+          "ink_size": [
+            370,
             768
           ],
           "longest_dimension": 768,
@@ -23721,6 +24935,216 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D29D",
+          "glyph": "u3D29D",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            419.8929974241993,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.10700257580072048,
+            0.0
+          ],
+          "bounds": [
+            302,
+            -64,
+            722,
+            704
+          ],
+          "ink_size": [
+            420,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D29E",
+          "glyph": "u3D29E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            533.5758794490282,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.4241205509717929,
+            0.0
+          ],
+          "bounds": [
+            245,
+            -64,
+            779,
+            704
+          ],
+          "ink_size": [
+            534,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D29F",
+          "glyph": "u3D29F",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            537.895568677251,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.10443132274895106,
+            0.0
+          ],
+          "bounds": [
+            243,
+            -64,
+            781,
+            704
+          ],
+          "ink_size": [
+            538,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A0",
+          "glyph": "u3D2A0",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            551.140517804715,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8594821952849543,
+            0.0
+          ],
+          "bounds": [
+            236,
+            -64,
+            788,
+            704
+          ],
+          "ink_size": [
+            552,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A1",
+          "glyph": "u3D2A1",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            409.8267923623646,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.17320763763541436,
+            0.0
+          ],
+          "bounds": [
+            307,
+            -64,
+            717,
+            704
+          ],
+          "ink_size": [
+            410,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A2",
+          "glyph": "u3D2A2",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            484.81608824292215,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8160882429221488,
+            0.0
+          ],
+          "bounds": [
+            270,
+            -64,
+            754,
+            704
+          ],
+          "ink_size": [
+            484,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D2A3",
           "glyph": "u3D2A3",
           "pass": true,
@@ -23741,6 +25165,76 @@
           ],
           "ink_size": [
             596,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A4",
+          "glyph": "u3D2A4",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            576.7180713659326,
+            767.9999999999999
+          ],
+          "source_aspect_extent_error": [
+            0.7180713659325875,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            224,
+            -64,
+            800,
+            704
+          ],
+          "ink_size": [
+            576,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A5",
+          "glyph": "u3D2A5",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            407.03534357007237,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9646564299276292,
+            0.0
+          ],
+          "bounds": [
+            308,
+            -64,
+            716,
+            704
+          ],
+          "ink_size": [
+            408,
             768
           ],
           "longest_dimension": 768,
@@ -23791,6 +25285,41 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D2A7",
+          "glyph": "u3D2A7",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            534.9480974424769,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9480974424768647,
+            0.0
+          ],
+          "bounds": [
+            245,
+            -64,
+            779,
+            704
+          ],
+          "ink_size": [
+            534,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D2A8",
           "glyph": "u3D2A8",
           "pass": true,
@@ -23811,6 +25340,216 @@
           ],
           "ink_size": [
             462,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2A9",
+          "glyph": "u3D2A9",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            587.8315577087554,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.16844229124455978,
+            0.0
+          ],
+          "bounds": [
+            218,
+            -64,
+            806,
+            704
+          ],
+          "ink_size": [
+            588,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2AB",
+          "glyph": "u3D2AB",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            485.9187040920248,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.08129590797517494,
+            0.0
+          ],
+          "bounds": [
+            269,
+            -64,
+            755,
+            704
+          ],
+          "ink_size": [
+            486,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2AC",
+          "glyph": "u3D2AC",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            442.563548602567,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.563548602566982,
+            0.0
+          ],
+          "bounds": [
+            291,
+            -64,
+            733,
+            704
+          ],
+          "ink_size": [
+            442,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2AD",
+          "glyph": "u3D2AD",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            477.4753255806234,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.5246744193765949,
+            0.0
+          ],
+          "bounds": [
+            273,
+            -64,
+            751,
+            704
+          ],
+          "ink_size": [
+            478,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2AE",
+          "glyph": "u3D2AE",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            412.0238437148037,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.02384371480371783,
+            0.0
+          ],
+          "bounds": [
+            306,
+            -64,
+            718,
+            704
+          ],
+          "ink_size": [
+            412,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2AF",
+          "glyph": "u3D2AF",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            492.7143653206394,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7143653206393878,
+            0.0
+          ],
+          "bounds": [
+            266,
+            -64,
+            758,
+            704
+          ],
+          "ink_size": [
+            492,
             768
           ],
           "longest_dimension": 768,
@@ -23896,6 +25635,41 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D2B2",
+          "glyph": "u3D2B2",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            444.8708140516873,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8708140516873186,
+            0.0
+          ],
+          "bounds": [
+            290,
+            -64,
+            734,
+            704
+          ],
+          "ink_size": [
+            444,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D2B3",
           "glyph": "u3D2B3",
           "pass": true,
@@ -23951,6 +25725,41 @@
           ],
           "ink_size": [
             500,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2B5",
+          "glyph": "u3D2B5",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            473.3713644056933,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6286355943066724,
+            0.0
+          ],
+          "bounds": [
+            275,
+            -64,
+            749,
+            704
+          ],
+          "ink_size": [
+            474,
             768
           ],
           "longest_dimension": 768,
@@ -24141,6 +25950,41 @@
           "errors": []
         },
         {
+          "codepoint": "U+3D2CF",
+          "glyph": "u3D2CF",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            528.4402607561931,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.4402607561930836,
+            0.0
+          ],
+          "bounds": [
+            248,
+            -64,
+            776,
+            704
+          ],
+          "ink_size": [
+            528,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
           "codepoint": "U+3D2D0",
           "glyph": "u3D2D0",
           "pass": true,
@@ -24314,6 +26158,1196 @@
             0.0
           ],
           "errors": []
+        },
+        {
+          "codepoint": "U+3D2DC",
+          "glyph": "u3D2DC",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            397.0832308050062,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9167691949937762,
+            0.0
+          ],
+          "bounds": [
+            313,
+            -64,
+            711,
+            704
+          ],
+          "ink_size": [
+            398,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2E1",
+          "glyph": "u3D2E1",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            482.5123363300262,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.5123363300261872,
+            0.0
+          ],
+          "bounds": [
+            271,
+            -64,
+            753,
+            704
+          ],
+          "ink_size": [
+            482,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2ED",
+          "glyph": "u3D2ED",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            462.09262442959096,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.09262442959095551,
+            0.0
+          ],
+          "bounds": [
+            281,
+            -64,
+            743,
+            704
+          ],
+          "ink_size": [
+            462,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2EE",
+          "glyph": "u3D2EE",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            547.9153198750945,
+            767.9999999999999
+          ],
+          "source_aspect_extent_error": [
+            0.08468012490550336,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            238,
+            -64,
+            786,
+            704
+          ],
+          "ink_size": [
+            548,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2F0",
+          "glyph": "u3D2F0",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            492.990264889586,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9902648895860011,
+            0.0
+          ],
+          "bounds": [
+            266,
+            -64,
+            758,
+            704
+          ],
+          "ink_size": [
+            492,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2F4",
+          "glyph": "u3D2F4",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            453.367135187566,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6328648124339793,
+            0.0
+          ],
+          "bounds": [
+            285,
+            -64,
+            739,
+            704
+          ],
+          "ink_size": [
+            454,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2F6",
+          "glyph": "u3D2F6",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            522.1028358836745,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.10283588367451557,
+            0.0
+          ],
+          "bounds": [
+            251,
+            -64,
+            773,
+            704
+          ],
+          "ink_size": [
+            522,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2F7",
+          "glyph": "u3D2F7",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            530.0324877048258,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.03248770482582586,
+            0.0
+          ],
+          "bounds": [
+            247,
+            -64,
+            777,
+            704
+          ],
+          "ink_size": [
+            530,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2FA",
+          "glyph": "u3D2FA",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            518.6752362699094,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6752362699094192,
+            0.0
+          ],
+          "bounds": [
+            253,
+            -64,
+            771,
+            704
+          ],
+          "ink_size": [
+            518,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2FC",
+          "glyph": "u3D2FC",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            476.95629865236367,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.956298652363671,
+            0.0
+          ],
+          "bounds": [
+            274,
+            -64,
+            750,
+            704
+          ],
+          "ink_size": [
+            476,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2FE",
+          "glyph": "u3D2FE",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            477.17101605886575,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8289839411342541,
+            0.0
+          ],
+          "bounds": [
+            273,
+            -64,
+            751,
+            704
+          ],
+          "ink_size": [
+            478,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D2FF",
+          "glyph": "u3D2FF",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            485.72419213752363,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.2758078624763698,
+            0.0
+          ],
+          "bounds": [
+            269,
+            -64,
+            755,
+            704
+          ],
+          "ink_size": [
+            486,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D300",
+          "glyph": "u3D300",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            498.7025657064591,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7025657064590973,
+            0.0
+          ],
+          "bounds": [
+            263,
+            -64,
+            761,
+            704
+          ],
+          "ink_size": [
+            498,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D301",
+          "glyph": "u3D301",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            444.5593415258973,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.5593415258973096,
+            0.0
+          ],
+          "bounds": [
+            290,
+            -64,
+            734,
+            704
+          ],
+          "ink_size": [
+            444,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D304",
+          "glyph": "u3D304",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            414.61753823067994,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.6175382306799406,
+            0.0
+          ],
+          "bounds": [
+            305,
+            -64,
+            719,
+            704
+          ],
+          "ink_size": [
+            414,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D305",
+          "glyph": "u3D305",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            448.9527221471779,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9527221471778944,
+            0.0
+          ],
+          "bounds": [
+            288,
+            -64,
+            736,
+            704
+          ],
+          "ink_size": [
+            448,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D307",
+          "glyph": "u3D307",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            500.7929022771949,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7929022771949121,
+            0.0
+          ],
+          "bounds": [
+            262,
+            -64,
+            762,
+            704
+          ],
+          "ink_size": [
+            500,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D30E",
+          "glyph": "u3D30E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            422.864436175979,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.8644361759789945,
+            0.0
+          ],
+          "bounds": [
+            301,
+            -64,
+            723,
+            704
+          ],
+          "ink_size": [
+            422,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D311",
+          "glyph": "u3D311",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            467.26434023352124,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7356597664787614,
+            0.0
+          ],
+          "bounds": [
+            278,
+            -64,
+            746,
+            704
+          ],
+          "ink_size": [
+            468,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D313",
+          "glyph": "u3D313",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            398.9231589830522,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9231589830521898,
+            0.0
+          ],
+          "bounds": [
+            313,
+            -64,
+            711,
+            704
+          ],
+          "ink_size": [
+            398,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D31B",
+          "glyph": "u3D31B",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            424.04449140821237,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.04449140821236597,
+            0.0
+          ],
+          "bounds": [
+            300,
+            -64,
+            724,
+            704
+          ],
+          "ink_size": [
+            424,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D31C",
+          "glyph": "u3D31C",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            544.1676318174669,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.16763181746694045,
+            0.0
+          ],
+          "bounds": [
+            240,
+            -64,
+            784,
+            704
+          ],
+          "ink_size": [
+            544,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D31E",
+          "glyph": "u3D31E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            489.6887055038493,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.31129449615070826,
+            0.0
+          ],
+          "bounds": [
+            267,
+            -64,
+            757,
+            704
+          ],
+          "ink_size": [
+            490,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D31F",
+          "glyph": "u3D31F",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            545.5653885433107,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.43461145668925383,
+            0.0
+          ],
+          "bounds": [
+            239,
+            -64,
+            785,
+            704
+          ],
+          "ink_size": [
+            546,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D320",
+          "glyph": "u3D320",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            403.0114025994738,
+            768.0000000000001
+          ],
+          "source_aspect_extent_error": [
+            0.9885974005262028,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            310,
+            -64,
+            714,
+            704
+          ],
+          "ink_size": [
+            404,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D323",
+          "glyph": "u3D323",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            440.05022229475924,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.05022229475923723,
+            0.0
+          ],
+          "bounds": [
+            292,
+            -64,
+            732,
+            704
+          ],
+          "ink_size": [
+            440,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D327",
+          "glyph": "u3D327",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            523.2005260403388,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7994739596612135,
+            0.0
+          ],
+          "bounds": [
+            250,
+            -64,
+            774,
+            704
+          ],
+          "ink_size": [
+            524,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D32A",
+          "glyph": "u3D32A",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            465.62684524259015,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.37315475740984994,
+            0.0
+          ],
+          "bounds": [
+            279,
+            -64,
+            745,
+            704
+          ],
+          "ink_size": [
+            466,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D32B",
+          "glyph": "u3D32B",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            559.2723590163175,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.7276409836824769,
+            0.0
+          ],
+          "bounds": [
+            232,
+            -64,
+            792,
+            704
+          ],
+          "ink_size": [
+            560,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D32C",
+          "glyph": "u3D32C",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            507.58447446671784,
+            768.0000000000001
+          ],
+          "source_aspect_extent_error": [
+            0.4155255332821639,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            258,
+            -64,
+            766,
+            704
+          ],
+          "ink_size": [
+            508,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D32D",
+          "glyph": "u3D32D",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            494.7984158357641,
+            767.9999999999999
+          ],
+          "source_aspect_extent_error": [
+            0.7984158357641036,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            265,
+            -64,
+            759,
+            704
+          ],
+          "ink_size": [
+            494,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D332",
+          "glyph": "u3D332",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            405.0283807168995,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.9716192831004946,
+            0.0
+          ],
+          "bounds": [
+            309,
+            -64,
+            715,
+            704
+          ],
+          "ink_size": [
+            406,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D33C",
+          "glyph": "u3D33C",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            584.3660480194247,
+            768.0
+          ],
+          "source_aspect_extent_error": [
+            0.3660480194247384,
+            0.0
+          ],
+          "bounds": [
+            220,
+            -64,
+            804,
+            704
+          ],
+          "ink_size": [
+            584,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
+        },
+        {
+          "codepoint": "U+3D33E",
+          "glyph": "u3D33E",
+          "pass": true,
+          "advance": 1024,
+          "source_expected_ink_size": [
+            680.5052025890049,
+            767.9999999999999
+          ],
+          "source_aspect_extent_error": [
+            0.5052025890048526,
+            1.1368683772161603e-13
+          ],
+          "bounds": [
+            172,
+            -64,
+            852,
+            704
+          ],
+          "ink_size": [
+            680,
+            768
+          ],
+          "longest_dimension": 768,
+          "extent_error": 0.0,
+          "center": [
+            512.0,
+            320.0
+          ],
+          "center_error": [
+            0.0,
+            0.0
+          ],
+          "errors": []
         }
       ]
     }
@@ -24324,6 +27358,6 @@
     "Character identity, topology and historical order require separate checks."
   ],
   "pass": true,
-  "glyph_checks": 656,
+  "glyph_checks": 738,
   "failed_glyph_checks": 0
 }
