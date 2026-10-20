@@ -1,0 +1,4116 @@
+{
+  "font": "fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf",
+  "font_sha256": "9f2826880cc3a1a9269c09497c2ddc232128e6e3d08d080e86d203be87c92b8d",
+  "specification": "/workspace/fonts/design/quality/invariants.json",
+  "specification_sha256": "be220022dfbd4a31aed4b8134f10eb4d87f2087b3c3bf4fd3721db21c8a63c0f",
+  "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
+  "raster_em_pixels": 2048,
+  "ink_threshold": 128,
+  "weights": [
+    300.0,
+    400.0,
+    500.0,
+    600.0,
+    700.0
+  ],
+  "passed": true,
+  "checks": [
+    {
+      "codepoint": "U+3D007",
+      "weight": 300.0,
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              568,
+              32,
+              1528,
+              80
+            ],
+            "ink_pixels": 45554,
+            "ink_span_pixels": 960,
+            "height_pixels": 48,
+            "horizontal_aspect": 20.0,
+            "fill_ratio": 0.9885850694444445,
+            "center_y_pixels": 55.5
+          },
+          {
+            "bbox_pixels": [
+              370,
+              1508,
+              1742,
+              1556
+            ],
+            "ink_pixels": 65302,
+            "ink_span_pixels": 1372,
+            "height_pixels": 48,
+            "horizontal_aspect": 28.583333333333332,
+            "fill_ratio": 0.9915877065111759,
+            "center_y_pixels": 1531.5
+          }
+        ],
+        "upper_ink_span_pixels": 960,
+        "lower_ink_span_pixels": 1372,
+        "lower_to_upper_ink_span_ratio": 1.4291666666666667,
+        "vertical_center_gap_pixels": 1476.0,
+        "vertical_gap_to_lower_ink_span_ratio": 1.075801749271137
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D00B",
+      "weight": 300.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              734,
+              32,
+              1386,
+              80
+            ],
+            "ink_pixels": 30750,
+            "ink_span_pixels": 652,
+            "height_pixels": 48,
+            "horizontal_aspect": 13.583333333333334,
+            "fill_ratio": 0.9825536809815951,
+            "center_y_pixels": 55.5
+          },
+          {
+            "bbox_pixels": [
+              542,
+              218,
+              1570,
+              1518
+            ],
+            "ink_pixels": 213253,
+            "ink_span_pixels": 1028,
+            "height_pixels": 1300,
+            "horizontal_aspect": 0.7907692307692308,
+            "fill_ratio": 0.15957273271475605,
+            "center_y_pixels": 867.5
+          },
+          {
+            "bbox_pixels": [
+              802,
+              690,
+              1372,
+              1556
+            ],
+            "ink_pixels": 100658,
+            "ink_span_pixels": 570,
+            "height_pixels": 866,
+            "horizontal_aspect": 0.6581986143187067,
+            "fill_ratio": 0.2039179935983145,
+            "center_y_pixels": 1122.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D018",
+      "weight": 300.0,
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          372,
+          33,
+          1740,
+          1557
+        ],
+        "upper_rightmost_ink_pixel": 1655,
+        "lower_rightmost_ink_pixel": 1739,
+        "lower_rightward_margin_pixels": 84,
+        "lower_rightward_margin_em": 0.041015625
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D019",
+      "weight": 300.0,
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          520,
+          33,
+          1592,
+          1557
+        ],
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.5555434546377735,
+                "centroid_height_fraction": 0.6987277504393494,
+                "principal_ink_span_em": 0.10622879524853318,
+                "principal_aspect": 4.546497519351095,
+                "ink_pixels": 9645
+              }
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.9266072929472663,
+                "centroid_height_fraction": 0.6995650773656366,
+                "principal_ink_span_em": 0.10356690511693814,
+                "principal_aspect": 4.4285851321599905,
+                "ink_pixels": 9417
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01D",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          314,
+          32,
+          1798,
+          1556
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 564,
+          "row_pixels": 205,
+          "ink_run_pixels": [
+            456,
+            1020
+          ],
+          "roi_rows_pixels": [
+            139,
+            260
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 708,
+          "row_pixels": 483,
+          "ink_run_pixels": [
+            348,
+            1056
+          ],
+          "roi_rows_pixels": [
+            413,
+            519
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7966101694915254
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01E",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          294,
+          32,
+          1818,
+          1476
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 502,
+          "row_pixels": 59,
+          "ink_run_pixels": [
+            366,
+            868
+          ],
+          "roi_rows_pixels": [
+            32,
+            162
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 644,
+          "row_pixels": 323,
+          "ink_run_pixels": [
+            348,
+            992
+          ],
+          "roi_rows_pixels": [
+            248,
+            378
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7795031055900621
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D029",
+      "weight": 300.0,
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          468,
+          32,
+          1644,
+          1557
+        ],
+        "roi_bbox_pixels": [
+          1091,
+          1266,
+          1115,
+          1290
+        ],
+        "ink_pixels": 440,
+        "ink_fraction": 0.7638888888888888,
+        "minimum_ink_pixels": 42
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D02B",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          498,
+          32,
+          1614,
+          1556
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 204,
+          "row_pixels": 443,
+          "ink_run_pixels": [
+            1172,
+            1376
+          ],
+          "roi_rows_pixels": [
+            375,
+            451
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 258,
+          "row_pixels": 596,
+          "ink_run_pixels": [
+            1144,
+            1402
+          ],
+          "roi_rows_pixels": [
+            542,
+            603
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7906976744186046
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D034",
+      "weight": 300.0,
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          454,
+          32,
+          1658,
+          1556
+        ],
+        "minimum_major_run_pixels": 9,
+        "scan_rows": [
+          {
+            "height_fraction": 0.72,
+            "row_pixels": 1129,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                520,
+                567
+              ],
+              [
+                720,
+                768
+              ],
+              [
+                924,
+                972
+              ],
+              [
+                1066,
+                1114
+              ],
+              [
+                1190,
+                1236
+              ],
+              [
+                1560,
+                1608
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.76,
+            "row_pixels": 1189,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                516,
+                562
+              ],
+              [
+                720,
+                768
+              ],
+              [
+                926,
+                972
+              ],
+              [
+                1065,
+                1113
+              ],
+              [
+                1190,
+                1236
+              ],
+              [
+                1560,
+                1607
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.8,
+            "row_pixels": 1250,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                509,
+                557
+              ],
+              [
+                720,
+                768
+              ],
+              [
+                930,
+                977
+              ],
+              [
+                1063,
+                1110
+              ],
+              [
+                1190,
+                1236
+              ],
+              [
+                1566,
+                1612
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D036",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          548,
+          32,
+          1564,
+          1556
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 612,
+          "row_pixels": 1075,
+          "ink_run_pixels": [
+            738,
+            1350
+          ],
+          "roi_rows_pixels": [
+            1022,
+            1113
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 860,
+          "row_pixels": 1231,
+          "ink_run_pixels": [
+            578,
+            1438
+          ],
+          "roi_rows_pixels": [
+            1174,
+            1266
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7116279069767442
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 300.0,
+      "criterion": "roi_return_curves",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D045.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Two detached small opposing return curves inside the larger winding S. The upper opens left; the lower opens right. Both have separated upper and lower arms, rather than a single horizontal bar.",
+        "regression": "The closer native attempt flattened both returns to bars. Only those two courses are corrected. This check certifies Light and Regular; denser weights retain the curves but merge some ink and remain optically unaccepted."
+      },
+      "passed": true,
+      "measured": {
+        "regions": [
+          {
+            "name": "upper right-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  24,
+                  7,
+                  274,
+                  169
+                ],
+                "ink_pixels": 23944,
+                "ink_span_pixels": 250,
+                "height_pixels": 162,
+                "horizontal_aspect": 1.5432098765432098,
+                "fill_ratio": 0.5912098765432099,
+                "center_y_pixels": 87.5
+              }
+            ],
+            "boundary_fragments": [],
+            "height_to_width_ratio": 0.648
+          },
+          {
+            "name": "lower left-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  28,
+                  19,
+                  312,
+                  185
+                ],
+                "ink_pixels": 27513,
+                "ink_span_pixels": 284,
+                "height_pixels": 166,
+                "horizontal_aspect": 1.7108433734939759,
+                "fill_ratio": 0.5835949431528933,
+                "center_y_pixels": 101.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  0,
+                  0,
+                  74,
+                  20
+                ],
+                "ink_pixels": 604,
+                "ink_span_pixels": 74,
+                "height_pixels": 20,
+                "horizontal_aspect": 3.7,
+                "fill_ratio": 0.4081081081081081,
+                "center_y_pixels": 9.5
+              },
+              {
+                "bbox_pixels": [
+                  0,
+                  198,
+                  1,
+                  199
+                ],
+                "ink_pixels": 1,
+                "ink_span_pixels": 1,
+                "height_pixels": 1,
+                "horizontal_aspect": 1.0,
+                "fill_ratio": 1.0,
+                "center_y_pixels": 198.0
+              }
+            ],
+            "height_to_width_ratio": 0.5845070422535211
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 300.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          350,
+          32,
+          1762,
+          1556
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 228,
+          "row_pixels": 239,
+          "ink_run_pixels": [
+            382,
+            610
+          ],
+          "roi_rows_pixels": [
+            180,
+            301
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 304,
+          "row_pixels": 1161,
+          "ink_run_pixels": [
+            350,
+            654
+          ],
+          "roi_rows_pixels": [
+            1093,
+            1215
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.75
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          478,
+          33,
+          1634,
+          1557
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 382,
+          "row_pixels": 344,
+          "ink_run_pixels": [
+            524,
+            906
+          ],
+          "roi_rows_pixels": [
+            283,
+            405
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 450,
+          "row_pixels": 1169,
+          "ink_run_pixels": [
+            478,
+            928
+          ],
+          "roi_rows_pixels": [
+            1101,
+            1223
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8488888888888889
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 300.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D049.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the chosen open construction, both upper cups stay separate from the pitched roof. The native and corrected Light/Regular glyph retain twelve components and two counters.",
+        "regression": "313pixel downsampling created a false cup-to-roof bridge absent in the full1254pixel native. Remove only the artificial bridge and restore the right cup endpoint from full-resolution native measurements. Heavier ink merges other courses and is not certified by this rule."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 12,
+        "counter_count": 2
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D007",
+      "weight": 400.0,
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              562,
+              32,
+              1534,
+              92
+            ],
+            "ink_pixels": 57620,
+            "ink_span_pixels": 972,
+            "height_pixels": 60,
+            "horizontal_aspect": 16.2,
+            "fill_ratio": 0.9879972565157751,
+            "center_y_pixels": 61.5
+          },
+          {
+            "bbox_pixels": [
+              364,
+              1508,
+              1748,
+              1568
+            ],
+            "ink_pixels": 82340,
+            "ink_span_pixels": 1384,
+            "height_pixels": 60,
+            "horizontal_aspect": 23.066666666666666,
+            "fill_ratio": 0.9915703275529865,
+            "center_y_pixels": 1537.5
+          }
+        ],
+        "upper_ink_span_pixels": 972,
+        "lower_ink_span_pixels": 1384,
+        "lower_to_upper_ink_span_ratio": 1.4238683127572016,
+        "vertical_center_gap_pixels": 1476.0,
+        "vertical_gap_to_lower_ink_span_ratio": 1.0664739884393064
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D00B",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              728,
+              32,
+              1392,
+              92
+            ],
+            "ink_pixels": 39126,
+            "ink_span_pixels": 664,
+            "height_pixels": 60,
+            "horizontal_aspect": 11.066666666666666,
+            "fill_ratio": 0.9820783132530121,
+            "center_y_pixels": 61.5
+          },
+          {
+            "bbox_pixels": [
+              536,
+              216,
+              1576,
+              1532
+            ],
+            "ink_pixels": 271430,
+            "ink_span_pixels": 1040,
+            "height_pixels": 1316,
+            "horizontal_aspect": 0.790273556231003,
+            "fill_ratio": 0.19832096095393967,
+            "center_y_pixels": 873.5
+          },
+          {
+            "bbox_pixels": [
+              794,
+              688,
+              1378,
+              1568
+            ],
+            "ink_pixels": 128695,
+            "ink_span_pixels": 584,
+            "height_pixels": 880,
+            "horizontal_aspect": 0.6636363636363637,
+            "fill_ratio": 0.25041835305105853,
+            "center_y_pixels": 1127.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D018",
+      "weight": 400.0,
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          364,
+          33,
+          1748,
+          1569
+        ],
+        "upper_rightmost_ink_pixel": 1661,
+        "lower_rightmost_ink_pixel": 1747,
+        "lower_rightward_margin_pixels": 86,
+        "lower_rightward_margin_em": 0.0419921875
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D019",
+      "weight": 400.0,
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          514,
+          32,
+          1598,
+          1568
+        ],
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.5554268471852635,
+                "centroid_height_fraction": 0.6973344178670721,
+                "principal_ink_span_em": 0.11246992238164456,
+                "principal_aspect": 3.6798198148290955,
+                "ink_pixels": 13107
+              }
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.9214149951805972,
+                "centroid_height_fraction": 0.6982247699425623,
+                "principal_ink_span_em": 0.10980194513700856,
+                "principal_aspect": 3.6778516146038926,
+                "ink_pixels": 12579
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01D",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          308,
+          32,
+          1804,
+          1568
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 580,
+          "row_pixels": 211,
+          "ink_run_pixels": [
+            448,
+            1028
+          ],
+          "roi_rows_pixels": [
+            139,
+            262
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 720,
+          "row_pixels": 491,
+          "ink_run_pixels": [
+            342,
+            1062
+          ],
+          "roi_rows_pixels": [
+            416,
+            523
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8055555555555556
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01E",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          288,
+          32,
+          1824,
+          1488
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 514,
+          "row_pixels": 67,
+          "ink_run_pixels": [
+            360,
+            874
+          ],
+          "roi_rows_pixels": [
+            32,
+            163
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 658,
+          "row_pixels": 330,
+          "ink_run_pixels": [
+            340,
+            998
+          ],
+          "roi_rows_pixels": [
+            250,
+            381
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7811550151975684
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D029",
+      "weight": 400.0,
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          460,
+          32,
+          1652,
+          1569
+        ],
+        "roi_bbox_pixels": [
+          1091,
+          1276,
+          1116,
+          1300
+        ],
+        "ink_pixels": 600,
+        "ink_fraction": 1.0,
+        "minimum_ink_pixels": 42
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D02B",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          492,
+          32,
+          1620,
+          1568
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 216,
+          "row_pixels": 450,
+          "ink_run_pixels": [
+            1166,
+            1382
+          ],
+          "roi_rows_pixels": [
+            377,
+            454
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 272,
+          "row_pixels": 603,
+          "ink_run_pixels": [
+            1138,
+            1410
+          ],
+          "roi_rows_pixels": [
+            546,
+            608
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7941176470588235
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D034",
+      "weight": 400.0,
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          448,
+          32,
+          1664,
+          1568
+        ],
+        "minimum_major_run_pixels": 9,
+        "scan_rows": [
+          {
+            "height_fraction": 0.72,
+            "row_pixels": 1137,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                512,
+                573
+              ],
+              [
+                714,
+                774
+              ],
+              [
+                918,
+                978
+              ],
+              [
+                1060,
+                1120
+              ],
+              [
+                1184,
+                1244
+              ],
+              [
+                1554,
+                1614
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.76,
+            "row_pixels": 1199,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                509,
+                570
+              ],
+              [
+                714,
+                774
+              ],
+              [
+                918,
+                979
+              ],
+              [
+                1059,
+                1119
+              ],
+              [
+                1184,
+                1244
+              ],
+              [
+                1554,
+                1614
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.8,
+            "row_pixels": 1260,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                502,
+                563
+              ],
+              [
+                714,
+                774
+              ],
+              [
+                923,
+                984
+              ],
+              [
+                1057,
+                1117
+              ],
+              [
+                1184,
+                1244
+              ],
+              [
+                1560,
+                1620
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D036",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          542,
+          32,
+          1570,
+          1568
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 628,
+          "row_pixels": 1081,
+          "ink_run_pixels": [
+            730,
+            1358
+          ],
+          "roi_rows_pixels": [
+            1030,
+            1122
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 872,
+          "row_pixels": 1238,
+          "ink_run_pixels": [
+            572,
+            1444
+          ],
+          "roi_rows_pixels": [
+            1183,
+            1275
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7201834862385321
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 400.0,
+      "criterion": "roi_return_curves",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D045.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Two detached small opposing return curves inside the larger winding S. The upper opens left; the lower opens right. Both have separated upper and lower arms, rather than a single horizontal bar.",
+        "regression": "The closer native attempt flattened both returns to bars. Only those two courses are corrected. This check certifies Light and Regular; denser weights retain the curves but merge some ink and remain optically unaccepted."
+      },
+      "passed": true,
+      "measured": {
+        "regions": [
+          {
+            "name": "upper right-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  19,
+                  1,
+                  281,
+                  175
+                ],
+                "ink_pixels": 31140,
+                "ink_span_pixels": 262,
+                "height_pixels": 174,
+                "horizontal_aspect": 1.5057471264367817,
+                "fill_ratio": 0.6830744932877073,
+                "center_y_pixels": 87.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  273,
+                  179,
+                  306,
+                  185
+                ],
+                "ink_pixels": 107,
+                "ink_span_pixels": 33,
+                "height_pixels": 6,
+                "horizontal_aspect": 5.5,
+                "fill_ratio": 0.5404040404040404,
+                "center_y_pixels": 181.5
+              }
+            ],
+            "height_to_width_ratio": 0.6641221374045801
+          },
+          {
+            "name": "lower left-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  22,
+                  12,
+                  320,
+                  192
+                ],
+                "ink_pixels": 35696,
+                "ink_span_pixels": 298,
+                "height_pixels": 180,
+                "horizontal_aspect": 1.6555555555555554,
+                "fill_ratio": 0.6654735272184936,
+                "center_y_pixels": 101.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  0,
+                  0,
+                  177,
+                  26
+                ],
+                "ink_pixels": 1349,
+                "ink_span_pixels": 177,
+                "height_pixels": 26,
+                "horizontal_aspect": 6.8076923076923075,
+                "fill_ratio": 0.29313342025206435,
+                "center_y_pixels": 12.5
+              },
+              {
+                "bbox_pixels": [
+                  0,
+                  191,
+                  31,
+                  201
+                ],
+                "ink_pixels": 159,
+                "ink_span_pixels": 31,
+                "height_pixels": 10,
+                "horizontal_aspect": 3.1,
+                "fill_ratio": 0.5129032258064516,
+                "center_y_pixels": 195.5
+              }
+            ],
+            "height_to_width_ratio": 0.6040268456375839
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 400.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          344,
+          32,
+          1768,
+          1568
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 240,
+          "row_pixels": 247,
+          "ink_run_pixels": [
+            376,
+            616
+          ],
+          "roi_rows_pixels": [
+            181,
+            304
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 316,
+          "row_pixels": 1169,
+          "ink_run_pixels": [
+            344,
+            660
+          ],
+          "roi_rows_pixels": [
+            1102,
+            1225
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.759493670886076
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          470,
+          33,
+          1642,
+          1569
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 396,
+          "row_pixels": 350,
+          "ink_run_pixels": [
+            518,
+            914
+          ],
+          "roi_rows_pixels": [
+            285,
+            408
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 464,
+          "row_pixels": 1176,
+          "ink_run_pixels": [
+            470,
+            934
+          ],
+          "roi_rows_pixels": [
+            1109,
+            1232
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.853448275862069
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 400.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D049.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the chosen open construction, both upper cups stay separate from the pitched roof. The native and corrected Light/Regular glyph retain twelve components and two counters.",
+        "regression": "313pixel downsampling created a false cup-to-roof bridge absent in the full1254pixel native. Remove only the artificial bridge and restore the right cup endpoint from full-resolution native measurements. Heavier ink merges other courses and is not certified by this rule."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 12,
+        "counter_count": 2
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D087.png",
+        "review_report": "design/quality/review-continuation/U3D087.json",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "confirmed_structure": "Separate three-bar staff and detached dot; losing the dot must fail.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              316,
+              32,
+              1788,
+              1568
+            ],
+            "ink_pixels": 298256,
+            "ink_span_pixels": 1472,
+            "height_pixels": 1536,
+            "horizontal_aspect": 0.9583333333333334,
+            "fill_ratio": 0.1319137794384058,
+            "center_y_pixels": 799.5
+          },
+          {
+            "bbox_pixels": [
+              1728,
+              786,
+              1796,
+              846
+            ],
+            "ink_pixels": 3334,
+            "ink_span_pixels": 68,
+            "height_pixels": 60,
+            "horizontal_aspect": 1.1333333333333333,
+            "fill_ratio": 0.817156862745098,
+            "center_y_pixels": 815.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D103.png",
+        "review_report": "design/quality/review-continuation/U3D103.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ"
+        ],
+        "confirmed_structure": "Left three-bar staff and two separate full-height right structures; an uninterrupted white gap separates the central pair. A middle bridge is an error.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              482,
+              311,
+              826,
+              1145
+            ],
+            "ink_pixels": 96030,
+            "ink_span_pixels": 344,
+            "height_pixels": 834,
+            "horizontal_aspect": 0.41247002398081534,
+            "fill_ratio": 0.33472059561653006,
+            "center_y_pixels": 727.5
+          },
+          {
+            "bbox_pixels": [
+              906,
+              33,
+              1192,
+              1569
+            ],
+            "ink_pixels": 164837,
+            "ink_span_pixels": 286,
+            "height_pixels": 1536,
+            "horizontal_aspect": 0.18619791666666666,
+            "fill_ratio": 0.3752299133158508,
+            "center_y_pixels": 800.5
+          },
+          {
+            "bbox_pixels": [
+              1344,
+              41,
+              1630,
+              1569
+            ],
+            "ink_pixels": 167617,
+            "ink_span_pixels": 286,
+            "height_pixels": 1528,
+            "horizontal_aspect": 0.18717277486910994,
+            "fill_ratio": 0.383555907443342,
+            "center_y_pixels": 804.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D143.png",
+        "review_report": "design/quality/review-continuation/U3D143.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Both upper tridents remain detached from the body enclosure; the inner lower construction is separately detached. Tracking must preserve the right trident/body gap.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 4,
+        "components": [
+          {
+            "bbox_pixels": [
+              1096,
+              38,
+              1522,
+              350
+            ],
+            "ink_pixels": 48947,
+            "ink_span_pixels": 426,
+            "height_pixels": 312,
+            "horizontal_aspect": 1.3653846153846154,
+            "fill_ratio": 0.368266221259179,
+            "center_y_pixels": 193.5
+          },
+          {
+            "bbox_pixels": [
+              590,
+              32,
+              1010,
+              378
+            ],
+            "ink_pixels": 51049,
+            "ink_span_pixels": 420,
+            "height_pixels": 346,
+            "horizontal_aspect": 1.2138728323699421,
+            "fill_ratio": 0.35128681530415634,
+            "center_y_pixels": 204.5
+          },
+          {
+            "bbox_pixels": [
+              592,
+              370,
+              1522,
+              1568
+            ],
+            "ink_pixels": 303367,
+            "ink_span_pixels": 930,
+            "height_pixels": 1198,
+            "horizontal_aspect": 0.7762938230383973,
+            "fill_ratio": 0.2722880427953399,
+            "center_y_pixels": 968.5
+          },
+          {
+            "bbox_pixels": [
+              770,
+              994,
+              1350,
+              1568
+            ],
+            "ink_pixels": 146311,
+            "ink_span_pixels": 580,
+            "height_pixels": 574,
+            "horizontal_aspect": 1.0104529616724738,
+            "fill_ratio": 0.4394779526613,
+            "center_y_pixels": 1280.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D007",
+      "weight": 500.0,
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              556,
+              32,
+              1540,
+              104
+            ],
+            "ink_pixels": 69854,
+            "ink_span_pixels": 984,
+            "height_pixels": 72,
+            "horizontal_aspect": 13.666666666666666,
+            "fill_ratio": 0.9859699638663053,
+            "center_y_pixels": 67.5
+          },
+          {
+            "bbox_pixels": [
+              358,
+              1508,
+              1754,
+              1580
+            ],
+            "ink_pixels": 99500,
+            "ink_span_pixels": 1396,
+            "height_pixels": 72,
+            "horizontal_aspect": 19.38888888888889,
+            "fill_ratio": 0.9899315504616364,
+            "center_y_pixels": 1543.5
+          }
+        ],
+        "upper_ink_span_pixels": 984,
+        "lower_ink_span_pixels": 1396,
+        "lower_to_upper_ink_span_ratio": 1.41869918699187,
+        "vertical_center_gap_pixels": 1476.0,
+        "vertical_gap_to_lower_ink_span_ratio": 1.0573065902578798
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D00B",
+      "weight": 500.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              722,
+              32,
+              1398,
+              104
+            ],
+            "ink_pixels": 47663,
+            "ink_span_pixels": 676,
+            "height_pixels": 72,
+            "horizontal_aspect": 9.38888888888889,
+            "fill_ratio": 0.9792693951347797,
+            "center_y_pixels": 67.5
+          },
+          {
+            "bbox_pixels": [
+              530,
+              216,
+              1582,
+              1544
+            ],
+            "ink_pixels": 326371,
+            "ink_span_pixels": 1052,
+            "height_pixels": 1328,
+            "horizontal_aspect": 0.7921686746987951,
+            "fill_ratio": 0.2336133984607632,
+            "center_y_pixels": 879.5
+          },
+          {
+            "bbox_pixels": [
+              788,
+              688,
+              1384,
+              1580
+            ],
+            "ink_pixels": 154936,
+            "ink_span_pixels": 596,
+            "height_pixels": 892,
+            "horizontal_aspect": 0.6681614349775785,
+            "fill_ratio": 0.2914346766184127,
+            "center_y_pixels": 1133.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D018",
+      "weight": 500.0,
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          358,
+          33,
+          1754,
+          1581
+        ],
+        "upper_rightmost_ink_pixel": 1667,
+        "lower_rightmost_ink_pixel": 1753,
+        "lower_rightward_margin_pixels": 86,
+        "lower_rightward_margin_em": 0.0419921875
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D019",
+      "weight": 500.0,
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          508,
+          33,
+          1604,
+          1581
+        ],
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.5547413391135587,
+                "centroid_height_fraction": 0.6958814946260155,
+                "principal_ink_span_em": 0.11832566950435196,
+                "principal_aspect": 3.258602805792938,
+                "ink_pixels": 16305
+              }
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.9166805961954647,
+                "centroid_height_fraction": 0.6965779580695627,
+                "principal_ink_span_em": 0.11576135450377043,
+                "principal_aspect": 3.2480547316203325,
+                "ink_pixels": 15702
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01D",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          302,
+          32,
+          1810,
+          1580
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 592,
+          "row_pixels": 218,
+          "ink_run_pixels": [
+            442,
+            1034
+          ],
+          "roi_rows_pixels": [
+            140,
+            264
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 732,
+          "row_pixels": 497,
+          "ink_run_pixels": [
+            336,
+            1068
+          ],
+          "roi_rows_pixels": [
+            419,
+            527
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8087431693989071
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01E",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          282,
+          32,
+          1830,
+          1500
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 526,
+          "row_pixels": 73,
+          "ink_run_pixels": [
+            354,
+            880
+          ],
+          "roi_rows_pixels": [
+            32,
+            164
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 670,
+          "row_pixels": 338,
+          "ink_run_pixels": [
+            334,
+            1004
+          ],
+          "roi_rows_pixels": [
+            252,
+            384
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7850746268656716
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D029",
+      "weight": 500.0,
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          454,
+          32,
+          1658,
+          1581
+        ],
+        "roi_bbox_pixels": [
+          1092,
+          1286,
+          1117,
+          1310
+        ],
+        "ink_pixels": 600,
+        "ink_fraction": 1.0,
+        "minimum_ink_pixels": 42
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D02B",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          486,
+          32,
+          1626,
+          1580
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 228,
+          "row_pixels": 457,
+          "ink_run_pixels": [
+            1160,
+            1388
+          ],
+          "roi_rows_pixels": [
+            380,
+            457
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 284,
+          "row_pixels": 609,
+          "ink_run_pixels": [
+            1132,
+            1416
+          ],
+          "roi_rows_pixels": [
+            550,
+            612
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8028169014084507
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D034",
+      "weight": 500.0,
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          442,
+          32,
+          1670,
+          1580
+        ],
+        "minimum_major_run_pixels": 9,
+        "scan_rows": [
+          {
+            "height_fraction": 0.72,
+            "row_pixels": 1146,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                506,
+                578
+              ],
+              [
+                708,
+                780
+              ],
+              [
+                912,
+                984
+              ],
+              [
+                1054,
+                1126
+              ],
+              [
+                1178,
+                1250
+              ],
+              [
+                1548,
+                1620
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.76,
+            "row_pixels": 1208,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                503,
+                575
+              ],
+              [
+                708,
+                780
+              ],
+              [
+                913,
+                985
+              ],
+              [
+                1052,
+                1125
+              ],
+              [
+                1178,
+                1250
+              ],
+              [
+                1548,
+                1620
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.8,
+            "row_pixels": 1270,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                496,
+                568
+              ],
+              [
+                708,
+                780
+              ],
+              [
+                918,
+                990
+              ],
+              [
+                1051,
+                1123
+              ],
+              [
+                1178,
+                1250
+              ],
+              [
+                1554,
+                1626
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D036",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          536,
+          32,
+          1576,
+          1580
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 640,
+          "row_pixels": 1087,
+          "ink_run_pixels": [
+            724,
+            1364
+          ],
+          "roi_rows_pixels": [
+            1038,
+            1130
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 884,
+          "row_pixels": 1245,
+          "ink_run_pixels": [
+            566,
+            1450
+          ],
+          "roi_rows_pixels": [
+            1192,
+            1285
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7239819004524887
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 500.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          338,
+          32,
+          1774,
+          1580
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 252,
+          "row_pixels": 253,
+          "ink_run_pixels": [
+            370,
+            622
+          ],
+          "roi_rows_pixels": [
+            182,
+            306
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 328,
+          "row_pixels": 1175,
+          "ink_run_pixels": [
+            338,
+            666
+          ],
+          "roi_rows_pixels": [
+            1110,
+            1234
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7682926829268293
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          464,
+          33,
+          1648,
+          1581
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 408,
+          "row_pixels": 356,
+          "ink_run_pixels": [
+            512,
+            920
+          ],
+          "roi_rows_pixels": [
+            287,
+            411
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 476,
+          "row_pixels": 1183,
+          "ink_run_pixels": [
+            464,
+            940
+          ],
+          "roi_rows_pixels": [
+            1118,
+            1242
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8571428571428571
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D007",
+      "weight": 600.0,
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              548,
+              32,
+              1548,
+              118
+            ],
+            "ink_pixels": 84313,
+            "ink_span_pixels": 1000,
+            "height_pixels": 86,
+            "horizontal_aspect": 11.627906976744185,
+            "fill_ratio": 0.9803837209302325,
+            "center_y_pixels": 74.5
+          },
+          {
+            "bbox_pixels": [
+              350,
+              1510,
+              1762,
+              1596
+            ],
+            "ink_pixels": 119660,
+            "ink_span_pixels": 1412,
+            "height_pixels": 86,
+            "horizontal_aspect": 16.41860465116279,
+            "fill_ratio": 0.9854074708478819,
+            "center_y_pixels": 1552.5
+          }
+        ],
+        "upper_ink_span_pixels": 1000,
+        "lower_ink_span_pixels": 1412,
+        "lower_to_upper_ink_span_ratio": 1.412,
+        "vertical_center_gap_pixels": 1478.0,
+        "vertical_gap_to_lower_ink_span_ratio": 1.046742209631728
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D00B",
+      "weight": 600.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              714,
+              32,
+              1406,
+              118
+            ],
+            "ink_pixels": 57810,
+            "ink_span_pixels": 692,
+            "height_pixels": 86,
+            "horizontal_aspect": 8.046511627906977,
+            "fill_ratio": 0.9714007259040194,
+            "center_y_pixels": 74.5
+          },
+          {
+            "bbox_pixels": [
+              522,
+              218,
+              1590,
+              1558
+            ],
+            "ink_pixels": 390493,
+            "ink_span_pixels": 1068,
+            "height_pixels": 1340,
+            "horizontal_aspect": 0.7970149253731343,
+            "fill_ratio": 0.2728583207557717,
+            "center_y_pixels": 887.5
+          },
+          {
+            "bbox_pixels": [
+              782,
+              690,
+              1390,
+              1596
+            ],
+            "ink_pixels": 185014,
+            "ink_span_pixels": 608,
+            "height_pixels": 906,
+            "horizontal_aspect": 0.6710816777041942,
+            "fill_ratio": 0.3358712385267805,
+            "center_y_pixels": 1142.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D018",
+      "weight": 600.0,
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          352,
+          32,
+          1760,
+          1594
+        ],
+        "upper_rightmost_ink_pixel": 1675,
+        "lower_rightmost_ink_pixel": 1759,
+        "lower_rightward_margin_pixels": 84,
+        "lower_rightward_margin_em": 0.041015625
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D019",
+      "weight": 600.0,
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          500,
+          33,
+          1612,
+          1595
+        ],
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.5534900567070401,
+                "centroid_height_fraction": 0.6948062767754222,
+                "principal_ink_span_em": 0.12524786605339122,
+                "principal_aspect": 2.9025539647257728,
+                "ink_pixels": 20373
+              }
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.9110721549348973,
+                "centroid_height_fraction": 0.6954356447129784,
+                "principal_ink_span_em": 0.12236909000542905,
+                "principal_aspect": 2.8376667937073434,
+                "ink_pixels": 19929
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01D",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          296,
+          32,
+          1816,
+          1594
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 604,
+          "row_pixels": 227,
+          "ink_run_pixels": [
+            436,
+            1040
+          ],
+          "roi_rows_pixels": [
+            141,
+            266
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 746,
+          "row_pixels": 505,
+          "ink_run_pixels": [
+            328,
+            1074
+          ],
+          "roi_rows_pixels": [
+            422,
+            532
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8096514745308311
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01E",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          274,
+          32,
+          1838,
+          1516
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 540,
+          "row_pixels": 81,
+          "ink_run_pixels": [
+            346,
+            886
+          ],
+          "roi_rows_pixels": [
+            32,
+            165
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 684,
+          "row_pixels": 344,
+          "ink_run_pixels": [
+            328,
+            1012
+          ],
+          "roi_rows_pixels": [
+            254,
+            388
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7894736842105263
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D029",
+      "weight": 600.0,
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          448,
+          32,
+          1664,
+          1596
+        ],
+        "roi_bbox_pixels": [
+          1092,
+          1298,
+          1117,
+          1322
+        ],
+        "ink_pixels": 600,
+        "ink_fraction": 1.0,
+        "minimum_ink_pixels": 42
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D02B",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          478,
+          32,
+          1634,
+          1594
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 242,
+          "row_pixels": 461,
+          "ink_run_pixels": [
+            1152,
+            1394
+          ],
+          "roi_rows_pixels": [
+            383,
+            461
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 298,
+          "row_pixels": 617,
+          "ink_run_pixels": [
+            1124,
+            1422
+          ],
+          "roi_rows_pixels": [
+            555,
+            617
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8120805369127517
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D034",
+      "weight": 600.0,
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          436,
+          32,
+          1676,
+          1594
+        ],
+        "minimum_major_run_pixels": 9,
+        "scan_rows": [
+          {
+            "height_fraction": 0.72,
+            "row_pixels": 1156,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                500,
+                586
+              ],
+              [
+                701,
+                787
+              ],
+              [
+                904,
+                990
+              ],
+              [
+                1046,
+                1132
+              ],
+              [
+                1170,
+                1256
+              ],
+              [
+                1542,
+                1628
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.76,
+            "row_pixels": 1218,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                495,
+                581
+              ],
+              [
+                700,
+                786
+              ],
+              [
+                907,
+                993
+              ],
+              [
+                1044,
+                1130
+              ],
+              [
+                1170,
+                1256
+              ],
+              [
+                1540,
+                1627
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.8,
+            "row_pixels": 1281,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                489,
+                576
+              ],
+              [
+                701,
+                787
+              ],
+              [
+                910,
+                997
+              ],
+              [
+                1043,
+                1129
+              ],
+              [
+                1170,
+                1256
+              ],
+              [
+                1547,
+                1634
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D036",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          528,
+          32,
+          1584,
+          1594
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 652,
+          "row_pixels": 1097,
+          "ink_run_pixels": [
+            718,
+            1370
+          ],
+          "roi_rows_pixels": [
+            1047,
+            1140
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 900,
+          "row_pixels": 1253,
+          "ink_run_pixels": [
+            558,
+            1458
+          ],
+          "roi_rows_pixels": [
+            1203,
+            1296
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7244444444444444
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 600.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          332,
+          32,
+          1780,
+          1596
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 266,
+          "row_pixels": 261,
+          "ink_run_pixels": [
+            362,
+            628
+          ],
+          "roi_rows_pixels": [
+            184,
+            309
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 340,
+          "row_pixels": 1185,
+          "ink_run_pixels": [
+            332,
+            672
+          ],
+          "roi_rows_pixels": [
+            1121,
+            1246
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7823529411764706
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          458,
+          32,
+          1654,
+          1594
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 422,
+          "row_pixels": 365,
+          "ink_run_pixels": [
+            504,
+            926
+          ],
+          "roi_rows_pixels": [
+            288,
+            413
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 491,
+          "row_pixels": 1191,
+          "ink_run_pixels": [
+            458,
+            949
+          ],
+          "roi_rows_pixels": [
+            1127,
+            1252
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8594704684317719
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D007",
+      "weight": 700.0,
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              542,
+              32,
+              1554,
+              132
+            ],
+            "ink_pixels": 99045,
+            "ink_span_pixels": 1012,
+            "height_pixels": 100,
+            "horizontal_aspect": 10.12,
+            "fill_ratio": 0.978705533596838,
+            "center_y_pixels": 81.5
+          },
+          {
+            "bbox_pixels": [
+              344,
+              1508,
+              1768,
+              1608
+            ],
+            "ink_pixels": 140210,
+            "ink_span_pixels": 1424,
+            "height_pixels": 100,
+            "horizontal_aspect": 14.24,
+            "fill_ratio": 0.9846207865168539,
+            "center_y_pixels": 1557.5
+          }
+        ],
+        "upper_ink_span_pixels": 1012,
+        "lower_ink_span_pixels": 1424,
+        "lower_to_upper_ink_span_ratio": 1.407114624505929,
+        "vertical_center_gap_pixels": 1476.0,
+        "vertical_gap_to_lower_ink_span_ratio": 1.0365168539325842
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D00B",
+      "weight": 700.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              708,
+              32,
+              1412,
+              132
+            ],
+            "ink_pixels": 68234,
+            "ink_span_pixels": 704,
+            "height_pixels": 100,
+            "horizontal_aspect": 7.04,
+            "fill_ratio": 0.9692329545454546,
+            "center_y_pixels": 81.5
+          },
+          {
+            "bbox_pixels": [
+              516,
+              218,
+              1596,
+              1570
+            ],
+            "ink_pixels": 450720,
+            "ink_span_pixels": 1080,
+            "height_pixels": 1352,
+            "horizontal_aspect": 0.7988165680473372,
+            "fill_ratio": 0.3086785009861933,
+            "center_y_pixels": 893.5
+          },
+          {
+            "bbox_pixels": [
+              776,
+              690,
+              1398,
+              1608
+            ],
+            "ink_pixels": 213759,
+            "ink_span_pixels": 622,
+            "height_pixels": 918,
+            "horizontal_aspect": 0.6775599128540305,
+            "fill_ratio": 0.37436164176281445,
+            "center_y_pixels": 1148.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D018",
+      "weight": 700.0,
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          346,
+          32,
+          1766,
+          1608
+        ],
+        "upper_rightmost_ink_pixel": 1681,
+        "lower_rightmost_ink_pixel": 1765,
+        "lower_rightward_margin_pixels": 84,
+        "lower_rightward_margin_em": 0.041015625
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D019",
+      "weight": 700.0,
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          494,
+          33,
+          1618,
+          1609
+        ],
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.553420419010255,
+                "centroid_height_fraction": 0.6923339289120373,
+                "principal_ink_span_em": 0.13143512593559342,
+                "principal_aspect": 2.6271880007396,
+                "ink_pixels": 24466
+              }
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "components": [
+              {
+                "centroid_width_fraction": 0.906651282260208,
+                "centroid_height_fraction": 0.6930168572652232,
+                "principal_ink_span_em": 0.12916473764305506,
+                "principal_aspect": 2.594535969434726,
+                "ink_pixels": 23868
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01D",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          288,
+          32,
+          1824,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 616,
+          "row_pixels": 234,
+          "ink_run_pixels": [
+            430,
+            1046
+          ],
+          "roi_rows_pixels": [
+            142,
+            268
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 760,
+          "row_pixels": 511,
+          "ink_run_pixels": [
+            322,
+            1082
+          ],
+          "roi_rows_pixels": [
+            426,
+            536
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8105263157894737
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D01E",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          268,
+          32,
+          1844,
+          1528
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 554,
+          "row_pixels": 87,
+          "ink_run_pixels": [
+            340,
+            894
+          ],
+          "roi_rows_pixels": [
+            32,
+            167
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 696,
+          "row_pixels": 352,
+          "ink_run_pixels": [
+            322,
+            1018
+          ],
+          "roi_rows_pixels": [
+            256,
+            391
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7959770114942529
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D029",
+      "weight": 700.0,
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          442,
+          32,
+          1670,
+          1608
+        ],
+        "roi_bbox_pixels": [
+          1092,
+          1308,
+          1118,
+          1332
+        ],
+        "ink_pixels": 624,
+        "ink_fraction": 1.0,
+        "minimum_ink_pixels": 42
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D02B",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          472,
+          32,
+          1640,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 256,
+          "row_pixels": 465,
+          "ink_run_pixels": [
+            1146,
+            1402
+          ],
+          "roi_rows_pixels": [
+            386,
+            465
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 310,
+          "row_pixels": 623,
+          "ink_run_pixels": [
+            1118,
+            1428
+          ],
+          "roi_rows_pixels": [
+            560,
+            623
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8258064516129032
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D034",
+      "weight": 700.0,
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          428,
+          32,
+          1684,
+          1608
+        ],
+        "minimum_major_run_pixels": 9,
+        "scan_rows": [
+          {
+            "height_fraction": 0.72,
+            "row_pixels": 1166,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                493,
+                592
+              ],
+              [
+                694,
+                794
+              ],
+              [
+                898,
+                998
+              ],
+              [
+                1040,
+                1140
+              ],
+              [
+                1164,
+                1262
+              ],
+              [
+                1534,
+                1634
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.76,
+            "row_pixels": 1229,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                488,
+                587
+              ],
+              [
+                694,
+                794
+              ],
+              [
+                901,
+                1000
+              ],
+              [
+                1038,
+                1138
+              ],
+              [
+                1164,
+                1262
+              ],
+              [
+                1534,
+                1634
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          },
+          {
+            "height_fraction": 0.8,
+            "row_pixels": 1292,
+            "major_descender_count": 6,
+            "major_ink_runs_pixels": [
+              [
+                481,
+                582
+              ],
+              [
+                694,
+                794
+              ],
+              [
+                904,
+                1004
+              ],
+              [
+                1037,
+                1135
+              ],
+              [
+                1164,
+                1262
+              ],
+              [
+                1540,
+                1640
+              ]
+            ],
+            "ignored_short_runs_pixels": []
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D036",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          522,
+          32,
+          1590,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 664,
+          "row_pixels": 1103,
+          "ink_run_pixels": [
+            712,
+            1376
+          ],
+          "roi_rows_pixels": [
+            1056,
+            1150
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 912,
+          "row_pixels": 1260,
+          "ink_run_pixels": [
+            552,
+            1464
+          ],
+          "roi_rows_pixels": [
+            1213,
+            1308
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7280701754385965
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 700.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          324,
+          32,
+          1788,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 280,
+          "row_pixels": 268,
+          "ink_run_pixels": [
+            356,
+            636
+          ],
+          "roi_rows_pixels": [
+            185,
+            311
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 356,
+          "row_pixels": 1189,
+          "ink_run_pixels": [
+            324,
+            680
+          ],
+          "roi_rows_pixels": [
+            1130,
+            1256
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7865168539325843
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          452,
+          32,
+          1660,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 434,
+          "row_pixels": 371,
+          "ink_run_pixels": [
+            498,
+            932
+          ],
+          "roi_rows_pixels": [
+            291,
+            417
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 496,
+          "row_pixels": 1198,
+          "ink_run_pixels": [
+            452,
+            948
+          ],
+          "roi_rows_pixels": [
+            1137,
+            1263
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.875
+      },
+      "errors": []
+    }
+  ],
+  "skipped_checks": [
+    {
+      "codepoint": "U+3D087",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    }
+  ],
+  "errors": []
+}
