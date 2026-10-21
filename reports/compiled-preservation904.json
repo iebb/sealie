@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "method": "Serialized glyf/hmtx/gvar equality by codepoint; no outline expansion",
+  "previous_manifest_sha256": "3aaa27c4598a2c68e153ae52685eb6497660f99bb1e0eebe81d127a33a03c20b",
+  "current_manifest_sha256": "5ae414d635dfc8278a0bf0725d2379cf945ca0028cebecd0c7ed8ec7d2b630d6",
+  "files": [
+    {
+      "name": "PanoramaGothicSealIndividual-Regular.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "e11fb888597200c4a3c131b856f4604efd0909fe626da209c604dd8d41613ac6",
+      "current_sha256": "ba9a197e68f99eec776115e54cec35c68d5388342afa44d959a48df2d58927fd"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "e63337e5cda6398a435b5bc36ea7e4e587fd4aadbd831ad082a8530012875bab",
+      "current_sha256": "17833c66513c2302989b63b29c9a67f6431cb8136175a8dfd524e2565e9d4825"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-Light.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "6477a13e0b6883fd527d1ecd19f7b669d51e4d73a6d080ac54c8c41174b69734",
+      "current_sha256": "818f2e62dc5311951999e4b4a9bd64830c6ca829e21cc71f134e1a60e3aec591"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-Regular.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "93d42db6f6962d612832ececb0817f454e532abfe3bde468775dc3f95c6cac9b",
+      "current_sha256": "c97ba32be601dece6fe72178ff1e3b151998f333a0e43641f0b3a399e42b13f8"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-Medium.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "38e3d7c25217cd33adccacf247ddb24387dd02a0170e4ad26fcfc029e98f9d56",
+      "current_sha256": "d1193465ffc72aa9616d4ce43507ef7b5bc234956eb897d4210ef3d7966e3d3e"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-SemiBold.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "17e23a307a6128d3afa63aacfd2891fb9ab7b61313f65ed71aed2d7b50ef3969",
+      "current_sha256": "be932d4e2e76f1b5f0385198db7881eed160536ec76682ea2ddb550f1c5d4e21"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-Bold.ttf",
+      "preserved_glyphs_including_notdef": 905,
+      "previous_sha256": "a4aaf3eaea74244522f7f3673b70bc0d2aa04e95df47e69cd01836df8a0f6f1a",
+      "current_sha256": "2013c907b3ae0c51cbdb1da8ed86f5761d84bf8d47d8298e7cdbb3929a86b232"
+    }
+  ]
+}
