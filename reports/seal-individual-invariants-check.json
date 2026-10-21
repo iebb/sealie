@@ -1,6 +1,6 @@
 {
   "font": "fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf",
-  "font_sha256": "927596661901fbef799e3d4c64504f71189206e7d2156e40bad4dc038dad1fab",
+  "font_sha256": "548986397a6ec20ad32c77acdb775b3922fa842076142424656340f3d0fea1ec",
   "specification": "/workspace/fonts/design/quality/invariants.json",
   "specification_sha256": "be220022dfbd4a31aed4b8134f10eb4d87f2087b3c3bf4fd3721db21c8a63c0f",
   "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
