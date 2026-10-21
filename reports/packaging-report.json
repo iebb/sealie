@@ -1,13 +1,13 @@
 {
-  "glyph_count": 2300,
-  "registry_sha256": "2ae9b1fa5c0fcf59cbb7c6848b98d60193174b3046aac31c3dabf9bb5ae51fad",
+  "glyph_count": 2808,
+  "registry_sha256": "91e941582a7a7b166ecf0c317ffeb291440ef4386df1a85619fb5e6a420dd378",
   "global_outlines_expanded": false,
   "global_instancing_used": false,
   "woff_tables_preserved": true,
   "direct_regular_outline_tables_preserved": true,
-  "compiled_manifest_sha256": "19d768ce940639eb6ea65d6ce02e29a902a05feb8e329bc75da1c387337c5608",
-  "static_manifest_sha256": "81ef8ed38ea99a2a4da3f6dba23324028a5eec43aa9cf768d8986e27444c5d11",
-  "variable_manifest_sha256": "6a2a60340b0932bb835ee9998167f20aef0a1708fe9d661bbdb263a15b798bf6",
+  "compiled_manifest_sha256": "f5118237b5a922fba51d4eaea5a5fe6a6ab61f356fde4708f0cc71d72bd1af12",
+  "static_manifest_sha256": "3a173734d6aeecd28ff04baa11746060dbcdfed834e67f595b2282a5a459ac52",
+  "variable_manifest_sha256": "7e5c556f93e8ac2ba241760c58b4a4d4c62dd7b2fa9d4b42f93b5760a8cef9c7",
   "production_ready": false,
   "visual_acceptance_granted": false
 }

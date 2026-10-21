@@ -1,50 +1,50 @@
 {
   "pass": true,
   "method": "Serialized glyf/hmtx/gvar equality by codepoint; no outline expansion",
-  "previous_manifest_sha256": "2b1b3f4741304c90268b50d61bb0ad796423514011b5b937ca12ede569205d9d",
-  "current_manifest_sha256": "6a2a60340b0932bb835ee9998167f20aef0a1708fe9d661bbdb263a15b798bf6",
+  "previous_manifest_sha256": "6a2a60340b0932bb835ee9998167f20aef0a1708fe9d661bbdb263a15b798bf6",
+  "current_manifest_sha256": "7e5c556f93e8ac2ba241760c58b4a4d4c62dd7b2fa9d4b42f93b5760a8cef9c7",
   "files": [
     {
       "name": "PanoramaGothicSealIndividual-Regular.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "09355a5a8f98672ce2956a7a2e6f41cf5bd2d1af4a79ee5f8f480247c12eaade",
-      "current_sha256": "4183251c56655e93247ccb97b510afb52664a369e76f5f8b4193f2fe52dd973e"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "4183251c56655e93247ccb97b510afb52664a369e76f5f8b4193f2fe52dd973e",
+      "current_sha256": "491c258bc0bfde7937eb8ef00ead91a79b9fe1348b7bd43c0d65f6d52680fcde"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "d7f69cfd5910a4b8a7e9785890d97030740e09321cd50274667f9d98b260e276",
-      "current_sha256": "b75ac434f43572bd36486ca23dca0e4d46f61eb9cab3ad897e512bd84cde63de"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "b75ac434f43572bd36486ca23dca0e4d46f61eb9cab3ad897e512bd84cde63de",
+      "current_sha256": "13824335cf2d998cdf8bfb013dd15fb022238256691ca17d43fa1f54d92a488e"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Light.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "eb4dac79adac9606e87068dc304c749e86e231df3a06154d95131ceb45d92365",
-      "current_sha256": "856ba1e63655c77cf621c1f4aad6d6ff2071a603a6e3b39b71893ee62cebee92"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "856ba1e63655c77cf621c1f4aad6d6ff2071a603a6e3b39b71893ee62cebee92",
+      "current_sha256": "856dfef85f04d5dc2cd93b87f1ef663565a4cd5c7e54093a755fb7b85208eb32"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Regular.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "c3dce2ae9dc56463b4d93cec22b64176e6ff820aaebea0318bd9388dcb73de8a",
-      "current_sha256": "e50829c95fbd1a1677e0d3ece0afb27876562298882f7bf2da38b078d5a3be54"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "e50829c95fbd1a1677e0d3ece0afb27876562298882f7bf2da38b078d5a3be54",
+      "current_sha256": "60196db754e82c83500dd4d89860eec43a274bd8893d5094a3649fa1a1db5cfa"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Medium.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "cdc986e95f70dd9a253d18f1caad6a8b206cef9cd0af03f23a24645608d7ab99",
-      "current_sha256": "5bca13a5941fc44ef6555b8992d3aedd14a4ced9c19994579db08b4199078cd8"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "5bca13a5941fc44ef6555b8992d3aedd14a4ced9c19994579db08b4199078cd8",
+      "current_sha256": "7181017406e778080a0dc4770daef1cf5c985ddbb5aec4a98ce1c08512836b35"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-SemiBold.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "21443b39e7a8dc31204932a662aaebc134e171f72fc0cc6e42568348b2769c50",
-      "current_sha256": "5332159ad7a44716b5a17a219bdda2d096fb5027028a5ea7023d9f5a903c013c"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "5332159ad7a44716b5a17a219bdda2d096fb5027028a5ea7023d9f5a903c013c",
+      "current_sha256": "dc13e14250781e4b4d1be13831d4e3edadc77944678229ac9c86dbe6ecddee1b"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Bold.ttf",
-      "preserved_glyphs_including_notdef": 1771,
-      "previous_sha256": "ab3aa73055f10b99a029f1b986642c6bdd360e0450fad99a523ad19e818071df",
-      "current_sha256": "baee5b628036e295e80519bb83fcd807bdeafb56a34000451b695d5cfa62f5d2"
+      "preserved_glyphs_including_notdef": 2301,
+      "previous_sha256": "baee5b628036e295e80519bb83fcd807bdeafb56a34000451b695d5cfa62f5d2",
+      "current_sha256": "9dca20bda1edf3d3765f9dd27c697db3cc98ed9de38e5dc961dbf84767c74a25"
     }
   ]
 }
