@@ -1,6 +1,6 @@
 # Small Seal PNG grids
 
-3,862 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 7,466 remain labeled pending.
+4,408 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 6,920 remain labeled pending.
 
 Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels including grid lines). Glyphs use the Regular 400 font. Gray cells are pending; dark gray cells are outside the block.
 
@@ -20,12 +20,12 @@ Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels includ
 | U+3DB00–U+3DBFF | 255 | [U3DB00-U3DBFF.png](U3DB00-U3DBFF.png) |
 | U+3DC00–U+3DCFF | 256 | [U3DC00-U3DCFF.png](U3DC00-U3DCFF.png) |
 | U+3DD00–U+3DDFF | 256 | [U3DD00-U3DDFF.png](U3DD00-U3DDFF.png) |
-| U+3DE00–U+3DEFF | 230 | [U3DE00-U3DEFF.png](U3DE00-U3DEFF.png) |
-| U+3DF00–U+3DFFF | 229 | [U3DF00-U3DFFF.png](U3DF00-U3DFFF.png) |
-| U+3E000–U+3E0FF | 75 | [U3E000-U3E0FF.png](U3E000-U3E0FF.png) |
-| U+3E100–U+3E1FF | 38 | [U3E100-U3E1FF.png](U3E100-U3E1FF.png) |
-| U+3E200–U+3E2FF | 0 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
-| U+3E300–U+3E3FF | 0 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
+| U+3DE00–U+3DEFF | 256 | [U3DE00-U3DEFF.png](U3DE00-U3DEFF.png) |
+| U+3DF00–U+3DFFF | 245 | [U3DF00-U3DFFF.png](U3DF00-U3DFFF.png) |
+| U+3E000–U+3E0FF | 186 | [U3E000-U3E0FF.png](U3E000-U3E0FF.png) |
+| U+3E100–U+3E1FF | 243 | [U3E100-U3E1FF.png](U3E100-U3E1FF.png) |
+| U+3E200–U+3E2FF | 50 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
+| U+3E300–U+3E3FF | 138 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
 | U+3E400–U+3E4FF | 0 | [U3E400-U3E4FF.png](U3E400-U3E4FF.png) |
 | U+3E500–U+3E5FF | 0 | [U3E500-U3E5FF.png](U3E500-U3E5FF.png) |
 | U+3E600–U+3E6FF | 0 | [U3E600-U3E6FF.png](U3E600-U3E6FF.png) |

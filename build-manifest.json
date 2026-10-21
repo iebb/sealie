@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "glyph_count": 3862,
-  "source_registry_sha256": "4ced35c380199b694f2feb88c0847c9399738f892ed5e0a7daebb202db0e5206",
+  "glyph_count": 4408,
+  "source_registry_sha256": "f781b6214293f15213f1e47043dd0c9d62deb504c16a03de6dc2f6e601092ff3",
   "files": [
     {
       "name": "LICENSE-OFL.txt",
@@ -15,53 +15,463 @@
     },
     {
       "name": "README.md",
-      "bytes": 2801,
-      "sha256": "fc2c3c8c87c7ac267fb05c490bf1566831b7c9f53242326b38e45c72ea956ef8"
+      "bytes": 3013,
+      "sha256": "12bcd8a9c4c343b69f34180f0a2efb1b50f6e386675c2a91406287cc45b2cab8"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividual-Regular.woff",
-      "bytes": 25178876,
-      "sha256": "c98af0ceeb23e3c75a70f01aa2937ecff68fc0dfab13122f45252a400578a23a"
+      "bytes": 29137040,
+      "sha256": "2661cbb187bebd14d11db090b2246d5492864c60b030ddeec67abf47d4031e16"
     },
     {
-      "name": "fonts/PanoramaGothicSealIndividualVariable.woff",
-      "bytes": 96741784,
-      "sha256": "8ca5371ef4232fb7f2df56d561e983db3eb114f4aea887855318b94ddf346a8b"
-    },
-    {
-      "name": "fonts/Sealie-SmallSeal-003862.zip.001",
+      "name": "fonts/Sealie-SmallSeal-004408.zip.001",
       "bytes": 99614720,
-      "sha256": "3747c86f02c626c84c7920209da1ec6de7a22e43d751ed9519d6cb0b85be5ecf"
+      "sha256": "0c023edc3e4058c79260378161e193ce3df201ea071b53c4b04f3673b72bf5a3"
     },
     {
-      "name": "fonts/Sealie-SmallSeal-003862.zip.002",
+      "name": "fonts/Sealie-SmallSeal-004408.zip.002",
       "bytes": 99614720,
-      "sha256": "59d58519a2ed16acff03c4e4064d7934d6aef283c2284569e66baaeb204ba5da"
+      "sha256": "d58244a3b2e314430f5e41bd85ed3bf56ac3782a1c753c36eb3801394e684ebd"
     },
     {
-      "name": "fonts/Sealie-SmallSeal-003862.zip.003",
+      "name": "fonts/Sealie-SmallSeal-004408.zip.003",
       "bytes": 99614720,
-      "sha256": "3c3c7dd73b3eff7182901397fdb173654bc7274e11ba0b6a56fdc5d2113362e0"
+      "sha256": "f5dbfa1d10e68ae1ae38a8853c62e7b7e990f3fbee49ce140e636628bf9b56ec"
     },
     {
-      "name": "fonts/Sealie-SmallSeal-003862.zip.004",
-      "bytes": 82844266,
-      "sha256": "ef7265f36ab27ea2d9b73d488348fd8fd4e77433d984c829ef6f99602c73b5ff"
+      "name": "fonts/Sealie-SmallSeal-004408.zip.004",
+      "bytes": 99614720,
+      "sha256": "3ec0aa29b607222a0b6c80dd38303331581a2dfba5611520f54c74cc983c2ff2"
+    },
+    {
+      "name": "fonts/Sealie-SmallSeal-004408.zip.005",
+      "bytes": 43058321,
+      "sha256": "a6a7c5166c9e2a56196167c728bd5f80292b948fa44b662153af41ba67fd9e54"
+    },
+    {
+      "name": "fonts/variable.css",
+      "bytes": 14323,
+      "sha256": "245e5f1fba934c63af96956072a055e012f07ace3d7ae4ce84aaae5b0a1fdf30"
+    },
+    {
+      "name": "fonts/variable/U3D000-U3D03F.woff",
+      "bytes": 982088,
+      "sha256": "29c1aec926e55ad256b61ac6839802866cda4588ba56c3fce5515366e068ed40"
+    },
+    {
+      "name": "fonts/variable/U3D040-U3D07F.woff",
+      "bytes": 1172740,
+      "sha256": "f238f0b705946d52068e944160b0f0448120140eec93366f3e33e216b6e9101c"
+    },
+    {
+      "name": "fonts/variable/U3D080-U3D0BF.woff",
+      "bytes": 1209504,
+      "sha256": "5e12ea32766f03e4fe45bcf0e24d10ed311deb4fb35c321ee5f8b0fc22499059"
+    },
+    {
+      "name": "fonts/variable/U3D0C0-U3D0FF.woff",
+      "bytes": 1074552,
+      "sha256": "88723e1cc840aee883d73885d70f89a7a74fa9d35caf0b59ed308180fedcf464"
+    },
+    {
+      "name": "fonts/variable/U3D100-U3D13F.woff",
+      "bytes": 1112496,
+      "sha256": "d66eb52923b82c444ff978abea219c42a2a482ac780c5febbc16b5056669be57"
+    },
+    {
+      "name": "fonts/variable/U3D140-U3D17F.woff",
+      "bytes": 1686924,
+      "sha256": "9908a014212e6198160d35686676c61b0f3312d4b7e0e5fbc425ee8f663d8a95"
+    },
+    {
+      "name": "fonts/variable/U3D180-U3D1BF.woff",
+      "bytes": 1642332,
+      "sha256": "52d2f54114eb5103119849bbcd1f2f3d83072c93ca5b2183da432641c6339c1d"
+    },
+    {
+      "name": "fonts/variable/U3D1C0-U3D1FF.woff",
+      "bytes": 1598800,
+      "sha256": "ee4c0ffd7822b13962db462abee063ef33a8caa01a8ca2a08568427220f1b16b"
+    },
+    {
+      "name": "fonts/variable/U3D200-U3D23F.woff",
+      "bytes": 1449128,
+      "sha256": "e52599b6271672487d8bf12e6cd1660485176a764fd08b7fd9bbe9573b0eede9"
+    },
+    {
+      "name": "fonts/variable/U3D240-U3D27F.woff",
+      "bytes": 1481460,
+      "sha256": "37acf23fe8b6b2857168611bc13d2ea9aa1e8e187015e4c501066db54cc054d4"
+    },
+    {
+      "name": "fonts/variable/U3D280-U3D2BF.woff",
+      "bytes": 1521724,
+      "sha256": "65ace3504878168ee9ca332d33f69b022b200a6d44880981d5798428b264e50f"
+    },
+    {
+      "name": "fonts/variable/U3D2C0-U3D2FF.woff",
+      "bytes": 1462916,
+      "sha256": "c932b8c0e73c401d3a5e20ed866585a6bd4ef0565712f05307a9b0a937e63f22"
+    },
+    {
+      "name": "fonts/variable/U3D300-U3D33F.woff",
+      "bytes": 1129868,
+      "sha256": "a96d898ed146f7dcc1c4541fdf0b3ee4292310ac46d67c60844ead7815efba22"
+    },
+    {
+      "name": "fonts/variable/U3D340-U3D37F.woff",
+      "bytes": 1244424,
+      "sha256": "f33653f41cd596d058412e0e4dec7608f144de6f8be5df53f8f2ec0dd23fcefb"
+    },
+    {
+      "name": "fonts/variable/U3D380-U3D3BF.woff",
+      "bytes": 1212372,
+      "sha256": "506279cd1becc8c21338015c0e10606c55ee5273c65ee8465cf669dbf539c64f"
+    },
+    {
+      "name": "fonts/variable/U3D3C0-U3D3FF.woff",
+      "bytes": 1148976,
+      "sha256": "6a159a20cf7c08e9137e8e8b344e4f404274943ab20a6e737d9f35612d6f364a"
+    },
+    {
+      "name": "fonts/variable/U3D400-U3D43F.woff",
+      "bytes": 1057500,
+      "sha256": "ada4cfdb319a60fff9e875cf16a3504cc0c0bd5d443af296c765c62136aae017"
+    },
+    {
+      "name": "fonts/variable/U3D440-U3D47F.woff",
+      "bytes": 547676,
+      "sha256": "cbcdd570944101ae1dcb47e546f3e1a340a4ec338441ffa40af836233795221b"
+    },
+    {
+      "name": "fonts/variable/U3D480-U3D4BF.woff",
+      "bytes": 464568,
+      "sha256": "531105c3f409a27b1140749ab05ef6b26b73fed2712da909a7aa8fe539dd7039"
+    },
+    {
+      "name": "fonts/variable/U3D4C0-U3D4FF.woff",
+      "bytes": 1172752,
+      "sha256": "28caf6fedfe1dd19e0b809daacbf6e35c93a5e1be64f168522537a96d2eeba97"
+    },
+    {
+      "name": "fonts/variable/U3D500-U3D53F.woff",
+      "bytes": 241352,
+      "sha256": "44dde02c6ce5e251167c6998506a7c5a2e06419871b5232af888f1b64c8fe9e3"
+    },
+    {
+      "name": "fonts/variable/U3D540-U3D57F.woff",
+      "bytes": 1582876,
+      "sha256": "39b9bb2106b7ad125a6e46ec17e4eec423d55859b5183883290c55201fdab116"
+    },
+    {
+      "name": "fonts/variable/U3D580-U3D5BF.woff",
+      "bytes": 1674372,
+      "sha256": "9dbaded74cf767e4bb48f3e5f32b79fa5f32a3a45c191f1c873edfb12bebe777"
+    },
+    {
+      "name": "fonts/variable/U3D5C0-U3D5FF.woff",
+      "bytes": 31628,
+      "sha256": "1e061c9f84914005930c5089dcb502735968ba128bc4c0c598033dbb32fa4c5e"
+    },
+    {
+      "name": "fonts/variable/U3D600-U3D63F.woff",
+      "bytes": 1560236,
+      "sha256": "3b8055a57968163b344dbd9f80a419cd9f556b0d87ba86f6b52f334aabbb869c"
+    },
+    {
+      "name": "fonts/variable/U3D640-U3D67F.woff",
+      "bytes": 1355224,
+      "sha256": "be6167647e8bcf4979e3b0077f8cce6e73a12389549d15fac9753a2a4039422d"
+    },
+    {
+      "name": "fonts/variable/U3D680-U3D6BF.woff",
+      "bytes": 1603248,
+      "sha256": "f76d3b32470794407d2a1af41c19a108d8fd3cc61410d0ac58f0d7ecf7783315"
+    },
+    {
+      "name": "fonts/variable/U3D6C0-U3D6FF.woff",
+      "bytes": 1659588,
+      "sha256": "b8657a7e8e8f5787e50bd5a529143bb0a6f0425e2393280bd47a6e9bf50ed5b2"
+    },
+    {
+      "name": "fonts/variable/U3D700-U3D73F.woff",
+      "bytes": 1638088,
+      "sha256": "2c56923180a59ee7fff2e8bb188c5a2823d059b1976f5b8d6b21df20dde31f0e"
+    },
+    {
+      "name": "fonts/variable/U3D740-U3D77F.woff",
+      "bytes": 1932408,
+      "sha256": "a2e2f2e1515e3e0e60ffbf61d97517acec23f0901c4318e327e144c4f71b4aad"
+    },
+    {
+      "name": "fonts/variable/U3D780-U3D7BF.woff",
+      "bytes": 1654384,
+      "sha256": "831798017628fa0abab6297334254856cf35a7268179672d0c2140229716739c"
+    },
+    {
+      "name": "fonts/variable/U3D7C0-U3D7FF.woff",
+      "bytes": 1849684,
+      "sha256": "972c38ab1b9142e77ea39afbbffa617c883e9f66d078f6635e87c42729f6a057"
+    },
+    {
+      "name": "fonts/variable/U3D800-U3D83F.woff",
+      "bytes": 32088,
+      "sha256": "03de459f022845a8cd510f1bb61b8f109cd531fe60f53f7eab1454b0f4718776"
+    },
+    {
+      "name": "fonts/variable/U3D840-U3D87F.woff",
+      "bytes": 2179276,
+      "sha256": "743d1054c7f1c9b3f6826a8262565eb9e2321130a56bed44bbe77862adfd7e74"
+    },
+    {
+      "name": "fonts/variable/U3D880-U3D8BF.woff",
+      "bytes": 1551308,
+      "sha256": "ed8ff1871e86555b0f266ff5ed372a517da78ea879e8acc5c3a55c9a8ab9d696"
+    },
+    {
+      "name": "fonts/variable/U3D8C0-U3D8FF.woff",
+      "bytes": 1740792,
+      "sha256": "2a7295749773856501f06e452d8a3dd600ed65ed9db6338fc2d81b97d4a22792"
+    },
+    {
+      "name": "fonts/variable/U3D900-U3D93F.woff",
+      "bytes": 1771512,
+      "sha256": "0200aa481fed58db5145e259a95d4324d5c204ff63022459d29c970458623c13"
+    },
+    {
+      "name": "fonts/variable/U3D940-U3D97F.woff",
+      "bytes": 1369796,
+      "sha256": "08d136af2dbf4dc891a519819dce1b35a266d00fe57747117d1dc59cf7af150a"
+    },
+    {
+      "name": "fonts/variable/U3D980-U3D9BF.woff",
+      "bytes": 1635404,
+      "sha256": "0a009ea0d4b1e0ef02709ee7e74a03533d2507be1dbc2e8c28a9fd8a60f7a274"
+    },
+    {
+      "name": "fonts/variable/U3D9C0-U3D9FF.woff",
+      "bytes": 1539580,
+      "sha256": "31b396ce5eed13049674709c8b41f2df29c94c2b8c8fca288bd77f2434762f20"
+    },
+    {
+      "name": "fonts/variable/U3DA00-U3DA3F.woff",
+      "bytes": 1542648,
+      "sha256": "e2aa5a5c9fe856942d787ed4ae123b05bccd796e7d70cfe3e6d76a6912fc7a7a"
+    },
+    {
+      "name": "fonts/variable/U3DA40-U3DA7F.woff",
+      "bytes": 2046028,
+      "sha256": "9b142bafd4822e455a4fa9de0437b8a4ec75f3ee89e4f4f989a5e6e0dab00364"
+    },
+    {
+      "name": "fonts/variable/U3DA80-U3DABF.woff",
+      "bytes": 1865160,
+      "sha256": "4f4e8f8b6a662ed88e23146cc737625f51f1546b1f578e21a2c15e507e750f1c"
+    },
+    {
+      "name": "fonts/variable/U3DAC0-U3DAFF.woff",
+      "bytes": 1134020,
+      "sha256": "fe7111c967c9f392c44b7994d8fd0590d190d7b9bdb82bb816caeffb878210a2"
+    },
+    {
+      "name": "fonts/variable/U3DB00-U3DB3F.woff",
+      "bytes": 2283224,
+      "sha256": "9558b87fb46d4ace1994d9269176a014a4218db4ff01199c2964c34b9fff5e4e"
+    },
+    {
+      "name": "fonts/variable/U3DB40-U3DB7F.woff",
+      "bytes": 1451232,
+      "sha256": "75760e7fde68e16af606dcc624a2708872d68812d116d4720d38bb0b3942d2e4"
+    },
+    {
+      "name": "fonts/variable/U3DB80-U3DBBF.woff",
+      "bytes": 1794752,
+      "sha256": "d1c9154e256d32bdb3ac50369248277f72d49c1047133d702c068e8eb56bddc8"
+    },
+    {
+      "name": "fonts/variable/U3DBC0-U3DBFF.woff",
+      "bytes": 1869720,
+      "sha256": "5d69fa562635d62901ce7ecb2ab391766693ba3575304d8ce14a81327c3efd24"
+    },
+    {
+      "name": "fonts/variable/U3DC00-U3DC3F.woff",
+      "bytes": 2107152,
+      "sha256": "e2d91d47379eb3885aa10e0596f20514920748325491d6883fbf09556e8c22d6"
+    },
+    {
+      "name": "fonts/variable/U3DC40-U3DC7F.woff",
+      "bytes": 2095472,
+      "sha256": "60085ae5b593fc483254fe0c8abaa870068beaf023fc6b833d635d4efff15697"
+    },
+    {
+      "name": "fonts/variable/U3DC80-U3DCBF.woff",
+      "bytes": 1704488,
+      "sha256": "36bf69bf48d6932d537f3815c7a75ba2a56ae25cbf132b6a94e03c97873ca9e6"
+    },
+    {
+      "name": "fonts/variable/U3DCC0-U3DCFF.woff",
+      "bytes": 2164920,
+      "sha256": "97ddabe3d405bd517f70204167b870771432fba8886f0edc0b904635b8547f5b"
+    },
+    {
+      "name": "fonts/variable/U3DD00-U3DD3F.woff",
+      "bytes": 1664816,
+      "sha256": "25a6aab16e93dd33d87109b38f065004732f7c4694b8ff5a366ef80ddb25edd9"
+    },
+    {
+      "name": "fonts/variable/U3DD40-U3DD7F.woff",
+      "bytes": 1595600,
+      "sha256": "b3cce01a10cf09e0124a47fa02ec9b9b983501b284bce93748830b2682f8ff64"
+    },
+    {
+      "name": "fonts/variable/U3DD80-U3DDBF.woff",
+      "bytes": 1632752,
+      "sha256": "5cda178c4d9c3334780e38e2b9e7881b2049a445c6f29e25522e908ee1c71b61"
+    },
+    {
+      "name": "fonts/variable/U3DDC0-U3DDFF.woff",
+      "bytes": 1247372,
+      "sha256": "88096cc0739d8a547960c6474bd4ea54fed285809ff0c2f7bb3cbe1d49c13ede"
+    },
+    {
+      "name": "fonts/variable/U3DE00-U3DE3F.woff",
+      "bytes": 2009160,
+      "sha256": "b1476b0553c09207c11b1359004739301e1f1e6737ff0fff7ab4878526401803"
+    },
+    {
+      "name": "fonts/variable/U3DE40-U3DE7F.woff",
+      "bytes": 1652772,
+      "sha256": "717a9a45153d2ec452ba4c9188143c65d0b6d2e27de76beb32b0abf2ee8b6833"
+    },
+    {
+      "name": "fonts/variable/U3DE80-U3DEBF.woff",
+      "bytes": 1815384,
+      "sha256": "044f8375693d0ad79b12a4c5706fa689fb1c063b98fba73b8d8fba1ab27de947"
+    },
+    {
+      "name": "fonts/variable/U3DEC0-U3DEFF.woff",
+      "bytes": 2039368,
+      "sha256": "952fcca372969aa90a5f8ef4d687d2446899f8297ea41ba1e6aefffeb4d131f1"
+    },
+    {
+      "name": "fonts/variable/U3DF00-U3DF3F.woff",
+      "bytes": 1107552,
+      "sha256": "c478d58743e618e40d80e25e77dcc024017b30c5f05165aebdad72db51f344df"
+    },
+    {
+      "name": "fonts/variable/U3DF40-U3DF7F.woff",
+      "bytes": 1926296,
+      "sha256": "1d489a336e59fe6fbfc52c2193e99808ae5954e1cd3c56d7f32d73d2f91a36a4"
+    },
+    {
+      "name": "fonts/variable/U3DF80-U3DFBF.woff",
+      "bytes": 1499960,
+      "sha256": "90fb2d1bb5423eba2338cff3140bd6c55054ce3edb84f4ba196d3307b110183a"
+    },
+    {
+      "name": "fonts/variable/U3DFC0-U3DFFF.woff",
+      "bytes": 1842456,
+      "sha256": "a2d6560f5acc5b88a0496909a75ba38f5ffef5c677ef30586892475f2c871bfb"
+    },
+    {
+      "name": "fonts/variable/U3E000-U3E03F.woff",
+      "bytes": 1786184,
+      "sha256": "c815f193716d3c93d260f0a7127b8c27b0d70a52c345adfadcd3eba065762de6"
+    },
+    {
+      "name": "fonts/variable/U3E040-U3E07F.woff",
+      "bytes": 245948,
+      "sha256": "452b572091ce2e9e1534418cecf5fe1548b3fec986d2278becc8d8d30e6e7893"
+    },
+    {
+      "name": "fonts/variable/U3E080-U3E0BF.woff",
+      "bytes": 1573440,
+      "sha256": "93160efed4c7124c9be9a4f4ced54231f268aff79d8961065e9b958620c61b0a"
+    },
+    {
+      "name": "fonts/variable/U3E0C0-U3E0FF.woff",
+      "bytes": 1330400,
+      "sha256": "284c0462f2a9662843aeaa996be311618c9496f5ee7ad8cde0ea14516c55b6e5"
+    },
+    {
+      "name": "fonts/variable/U3E100-U3E13F.woff",
+      "bytes": 1577904,
+      "sha256": "90144efdca014166946a6de14b20752c98101bc75005ec02107820c6a9365fbf"
+    },
+    {
+      "name": "fonts/variable/U3E140-U3E17F.woff",
+      "bytes": 1489460,
+      "sha256": "031f5c4d722b602ee7eca53fcf57227f5357dc233512b83de0fd628ddef39163"
+    },
+    {
+      "name": "fonts/variable/U3E180-U3E1BF.woff",
+      "bytes": 1554428,
+      "sha256": "1cc283760109519a016fa861990442180e0e76e2b738ee49f94671b811f795c3"
+    },
+    {
+      "name": "fonts/variable/U3E1C0-U3E1FF.woff",
+      "bytes": 1801768,
+      "sha256": "62bcbd59f904c77081021d3166c162221731d42e40524382dfa04636c46f866d"
+    },
+    {
+      "name": "fonts/variable/U3E200-U3E23F.woff",
+      "bytes": 29352,
+      "sha256": "4b0b8a4cb8b63afa503fa98c0b75b23663154417ce3d86f10b6d6e7c3e340a95"
+    },
+    {
+      "name": "fonts/variable/U3E280-U3E2BF.woff",
+      "bytes": 1510736,
+      "sha256": "1929ed61612e6668fc0790d900fb8541a80f532e20111ff5dbda4919fb2da903"
+    },
+    {
+      "name": "fonts/variable/U3E2C0-U3E2FF.woff",
+      "bytes": 23888,
+      "sha256": "4891b9b81a98582197fa9c6d558b2b02c5518070140bc496383d9402bf82cee0"
+    },
+    {
+      "name": "fonts/variable/U3E340-U3E37F.woff",
+      "bytes": 1881872,
+      "sha256": "7179f32f8f956bec6bea0e46e6a0bd3bd58394646e6e9bd07a38c814230b1d74"
+    },
+    {
+      "name": "fonts/variable/U3E380-U3E3BF.woff",
+      "bytes": 1673812,
+      "sha256": "b63bc65d7cfb00cc596a3fa650d0208f92a4b5d203b058bad5834738c88055ec"
+    },
+    {
+      "name": "fonts/variable/U3E3C0-U3E3FF.woff",
+      "bytes": 437656,
+      "sha256": "b1c9aadc21aa82666dd65176465b0c63939b0689c7ae59ab22a3cdb85ebb5c2c"
+    },
+    {
+      "name": "fonts/variable/manifest.json",
+      "bytes": 121607,
+      "sha256": "9266c50c5c83a8fe37ec15793a6adcf13db82debd76b38e06c695e636b70d66d"
     },
     {
       "name": "png/README.md",
-      "bytes": 3448,
-      "sha256": "457d88d2a4feef3f17619f3afe6347ce92e2ca710f936e3f79a2a3c575aaac53"
+      "bytes": 3453,
+      "sha256": "2b73e600c09f8d3a40ec30291d086e26166fad81c57b8311fcc9468d2e6ad583"
     },
     {
       "name": "png/manifest.json",
-      "bytes": 15433,
-      "sha256": "3ceafa26365a48537cb6a4c267c97081e6f0e91e62388bb8db045cc9f11c09ae"
+      "bytes": 15438,
+      "sha256": "d7164f9dcfda7d8a7575f034d4de03d83f665392084d2b1cf45c33b29060ee97"
+    },
+    {
+      "name": "png16/README.md",
+      "bytes": 459,
+      "sha256": "4ce8e47aff4b970709355e3730bea7a9a0edfb3976a3d7529541e4460901d427"
+    },
+    {
+      "name": "png16/manifest.json",
+      "bytes": 3021097,
+      "sha256": "8bfaece0539a8fd6100ddcf0a48174ef57ea63613dfbca5b8e6bdcb22c51eaae"
     },
     {
       "name": "previews/glyphs.png",
-      "bytes": 774487,
-      "sha256": "43016f77e1f647771058c54ddd2c211434f286d6068f48a40301b3c1f22ff0b2"
+      "bytes": 788093,
+      "sha256": "33226e480c11b388af8130382ba07bf700f2ca7a3460edcdbdfe1e6a703e2331"
     },
     {
       "name": "previews/weight-comparison.png",
@@ -70,18 +480,18 @@
     },
     {
       "name": "previews/weight-slider.html",
-      "bytes": 129237,
-      "sha256": "815474f79adb199c912ee002f20c23fafde3e866331ef4305437f827837ccd45"
+      "bytes": 147182,
+      "sha256": "5be11970154b8248a8a34204cde1051e2b6ff3d0da540efdfeac39f04b78dcb6"
     },
     {
       "name": "reports/baseline-preservation.json",
       "bytes": 586,
-      "sha256": "c431fab885c34e83aee3316bb454c9843604b84e8f0e6238ee3f6a2e5266e823"
+      "sha256": "9728813d7eac3c696aca7ed562f22bf7ffa3c8ec5c1e58161a6c68d36f625d29"
     },
     {
       "name": "reports/compiled-preservation-previous.json",
       "bytes": 2479,
-      "sha256": "514d0ac9b3d30d3d5dbf5c40b7c9594dee06c12dcb42acf401b91afdccca20ee"
+      "sha256": "0a8f37b2755bf8b76a28df284fc92a4938e447a08eb2b82baf97077f45367db9"
     },
     {
       "name": "reports/compiled-preservation840.json",
@@ -95,43 +505,43 @@
     },
     {
       "name": "reports/coverage.json",
-      "bytes": 59025,
-      "sha256": "3348dc4db718fb68cffab3230392f01cfd543d4b6a10f5af9b4524df1f8150dc"
+      "bytes": 67215,
+      "sha256": "e74c06f87ec7ffb6980142084b68af17c13e08624accf6f79e59cc30fe37c835"
     },
     {
       "name": "reports/packaging-report.json",
       "bytes": 630,
-      "sha256": "19ebb36d5753ba9a7ed3ed094eff036ea0313ff9511958114164b9423b9833e1"
+      "sha256": "9632e5b1e12bfac21e7d23f980543a031bd0efce8aca4b992da2f1432e1babfc"
     },
     {
       "name": "reports/seal-individual-invariants-check.json",
       "bytes": 31513,
-      "sha256": "656d7fd08e49a4fc9a5fbb9b2dc7e81522186323aed63cf2a628f067e8fea889"
+      "sha256": "bcae17d617141a1f19b680ed4d6fad5c6c86a4a029c59f61922bc3028544cee4"
     },
     {
       "name": "reports/seal-individual-size-check.json",
-      "bytes": 3042438,
-      "sha256": "6586dc652ff0606cf5299744ee9773a2ed0b78c82bc21f42cac63659dfcea16a"
+      "bytes": 3472642,
+      "sha256": "66776429c16635929490525e732a63d70ceb41f664725fddf8e97a4940535d90"
     },
     {
       "name": "reports/seal-individual-source-review-check.json",
-      "bytes": 1891508,
-      "sha256": "bf28258acffbb847d083feefd2be37572214519df77f60f4c38219dd3be3f756"
+      "bytes": 2159048,
+      "sha256": "5ba790af01f89d6af31826657af8c81cf69046cbab0122eb7c14d208cf5bdcf1"
     },
     {
       "name": "reports/seal-individual-variable-invariants-check.json",
       "bytes": 119961,
-      "sha256": "4fe0960962a46b74e01765642741fac3b009b544cfd39ed7d7df2a834d43f88f"
+      "sha256": "930692fc70cba7cd57dffb3a454550dde928da6fd70094d47025c7c8f6d87251"
     },
     {
       "name": "reports/seal-individual-variable-size-check.json",
-      "bytes": 14669983,
-      "sha256": "84180bdeed6f9ac6e77effdbbffa34a2410ba0da9454e56516994da35e758744"
+      "bytes": 16745409,
+      "sha256": "de6f7357a9faa1807459cf8fda276235602f6a5732a8b46bb88abb530738c249"
     },
     {
       "name": "reports/seal-individual-variable-source-review-check.json",
-      "bytes": 1891508,
-      "sha256": "bf28258acffbb847d083feefd2be37572214519df77f60f4c38219dd3be3f756"
+      "bytes": 2159048,
+      "sha256": "5ba790af01f89d6af31826657af8c81cf69046cbab0122eb7c14d208cf5bdcf1"
     },
     {
       "name": "reports/svg-incremental-export-validation.json",
@@ -145,91 +555,96 @@
     },
     {
       "name": "svg/manifest.json",
-      "bytes": 1213219,
-      "sha256": "e9fed8a74d0012bc44728c3b11ce082de933f73cfd57031c15c989442ff55184"
+      "bytes": 1384663,
+      "sha256": "b126965b14d0a8e1ae9fc3a4c09b99d981cced27bde20d5b672b25c8237a9d87"
     }
   ],
   "release_assets": [],
   "bundled_fonts": [
     {
       "name": "PanoramaGothicSealIndividual-Regular.ttf",
-      "bytes": 188937656,
-      "sha256": "30437576ca8c27ef5b82781dcccea8820dba198d1c1d2987b0d94cad2ea4d417"
+      "bytes": 219033564,
+      "sha256": "e5ae6906f771a62298267d9d529e854f62412284c73b08c9df9b6f27ac39c4b3"
     },
     {
       "name": "PanoramaGothicSealIndividual-Regular.woff",
-      "bytes": 25178876,
-      "sha256": "c98af0ceeb23e3c75a70f01aa2937ecff68fc0dfab13122f45252a400578a23a"
+      "bytes": 29137040,
+      "sha256": "2661cbb187bebd14d11db090b2246d5492864c60b030ddeec67abf47d4031e16"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Bold.ttf",
-      "bytes": 189033312,
-      "sha256": "e508edcbd1896a2f04a149e27f66dc974c5c3970ed6e24ee8d32930ca2b24cc4"
+      "bytes": 219145008,
+      "sha256": "1e9b33a043acd2fd3c865b0cd9906e46a788530c07d6f3dbc938f8e234702045"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Light.ttf",
-      "bytes": 185830892,
-      "sha256": "a4a973cf345ab6feff0d8a21650f8604bddd55eb9ed08836486e891438d0c7d0"
+      "bytes": 215433212,
+      "sha256": "053a3d902b0dc9ad0e7862f103a8ab701d370eb9afb6dfa92407c5ddba1e8ef5"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Medium.ttf",
-      "bytes": 188954088,
-      "sha256": "0934712f5ef82faf08b45a66861777ac06be5762cf3645812d999f65e71582de"
+      "bytes": 219052828,
+      "sha256": "425aa3870d3e0f20348b6ac102446ea414810844d3114820e7449d349cd7c6de"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Regular.ttf",
-      "bytes": 188937844,
-      "sha256": "529edfb32a9d609485a7d5238a6ad99b2b3d496fd2858f7607b38ea9e1935a22"
+      "bytes": 219033752,
+      "sha256": "7e3965923aac39110cfca7b3c679b973355aec815524598cf1f1a7c3ae7ba46f"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-SemiBold.ttf",
-      "bytes": 189007680,
-      "sha256": "d6f196f5a92bf884b74fd820e39c4e310c385ed6dcb629a1066192518a8a6a4d"
+      "bytes": 219115536,
+      "sha256": "782e1302003e166d7992864501cfdab91a2bfe42d66ae56798d80eb02b1a2abb"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable.ttf",
-      "bytes": 498362324,
-      "sha256": "9b1c97bf493e0004a8f8e716757230fc4a099b7d81c94fcb1d20c6c82946f905"
+      "bytes": 577601448,
+      "sha256": "00c149f99536434db17752c3ca5ea65a893876ecd409eea5212dec2155eb2b46"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable.woff",
-      "bytes": 96741784,
-      "sha256": "8ca5371ef4232fb7f2df56d561e983db3eb114f4aea887855318b94ddf346a8b"
+      "bytes": 111872104,
+      "sha256": "39611dc417d25434748adb7294b9a8a2f102b6bfea037fb424473b6745871748"
     }
   ],
   "download_archive": {
-    "name": "fonts/Sealie-SmallSeal-003862.zip",
-    "bytes": 381688426,
-    "sha256": "26beca74efc49ec7e383664629777d07fa3e2a04b4221cadf25fe6166decdf7f",
+    "name": "fonts/Sealie-SmallSeal-004408.zip",
+    "bytes": 441517201,
+    "sha256": "9c46bf77d2747cefdfa6ae70c042a50e3d264e70509a5eb4a67240ccca74912b",
     "split": true,
     "parts": [
       {
-        "name": "fonts/Sealie-SmallSeal-003862.zip.001",
+        "name": "fonts/Sealie-SmallSeal-004408.zip.001",
         "bytes": 99614720,
-        "sha256": "3747c86f02c626c84c7920209da1ec6de7a22e43d751ed9519d6cb0b85be5ecf"
+        "sha256": "0c023edc3e4058c79260378161e193ce3df201ea071b53c4b04f3673b72bf5a3"
       },
       {
-        "name": "fonts/Sealie-SmallSeal-003862.zip.002",
+        "name": "fonts/Sealie-SmallSeal-004408.zip.002",
         "bytes": 99614720,
-        "sha256": "59d58519a2ed16acff03c4e4064d7934d6aef283c2284569e66baaeb204ba5da"
+        "sha256": "d58244a3b2e314430f5e41bd85ed3bf56ac3782a1c753c36eb3801394e684ebd"
       },
       {
-        "name": "fonts/Sealie-SmallSeal-003862.zip.003",
+        "name": "fonts/Sealie-SmallSeal-004408.zip.003",
         "bytes": 99614720,
-        "sha256": "3c3c7dd73b3eff7182901397fdb173654bc7274e11ba0b6a56fdc5d2113362e0"
+        "sha256": "f5dbfa1d10e68ae1ae38a8853c62e7b7e990f3fbee49ce140e636628bf9b56ec"
       },
       {
-        "name": "fonts/Sealie-SmallSeal-003862.zip.004",
-        "bytes": 82844266,
-        "sha256": "ef7265f36ab27ea2d9b73d488348fd8fd4e77433d984c829ef6f99602c73b5ff"
+        "name": "fonts/Sealie-SmallSeal-004408.zip.004",
+        "bytes": 99614720,
+        "sha256": "3ec0aa29b607222a0b6c80dd38303331581a2dfba5611520f54c74cc983c2ff2"
+      },
+      {
+        "name": "fonts/Sealie-SmallSeal-004408.zip.005",
+        "bytes": 43058321,
+        "sha256": "a6a7c5166c9e2a56196167c728bd5f80292b948fa44b662153af41ba67fd9e54"
       }
     ],
     "assembly": "concatenate parts in listed order"
   },
   "svg_delivery": {
-    "glyph_count": 3862,
+    "glyph_count": 4408,
     "manifest": "svg/manifest.json",
-    "sha256": "e9fed8a74d0012bc44728c3b11ce082de933f73cfd57031c15c989442ff55184",
+    "sha256": "b126965b14d0a8e1ae9fc3a4c09b99d981cced27bde20d5b672b25c8237a9d87",
     "regular_roundtrip_report": "reports/svg-roundtrip-validation.json"
   },
   "png_grids": {
@@ -237,9 +652,30 @@
     "columns": 16,
     "rows": 16,
     "codepoint_cells": 11328,
-    "reviewed_glyphs": 3862,
-    "pending": 7466,
+    "reviewed_glyphs": 4408,
+    "pending": 6920,
     "manifest": "png/manifest.json",
-    "sha256": "3ceafa26365a48537cb6a4c267c97081e6f0e91e62388bb8db045cc9f11c09ae"
+    "sha256": "d7164f9dcfda7d8a7575f034d4de03d83f665392084d2b1cf45c33b29060ee97"
+  },
+  "png_individual": {
+    "glyph_count": 4408,
+    "image_pixels": [
+      16,
+      16
+    ],
+    "transparent": true,
+    "pending_individual_files_emitted": false,
+    "manifest": "png16/manifest.json",
+    "sha256": "8bfaece0539a8fd6100ddcf0a48174ef57ea63613dfbca5b8e6bdcb22c51eaae"
+  },
+  "webfont_delivery": {
+    "variable_glyph_count": 4408,
+    "chunk_size": 64,
+    "chunk_count": 78,
+    "css": "fonts/variable.css",
+    "manifest": "fonts/variable/manifest.json",
+    "manifest_sha256": "9266c50c5c83a8fe37ec15793a6adcf13db82debd76b38e06c695e636b70d66d",
+    "full_variable_font": "Included in the font ZIP bundle",
+    "exact_glyph_variation_metric_axis_tables": true
   }
 }

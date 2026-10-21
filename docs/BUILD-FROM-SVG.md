@@ -52,3 +52,22 @@ python -m unittest discover -s tests
 Maintainers can also set `SEAL_PRODUCTION_REGULAR=/path/to/production-Regular.ttf` for exact canonical `glyf` encoding and `hmtx` comparison of those seven glyphs plus `.notdef`. Small subsets can use short-loca glyph padding while the full font uses long offsets. Whole-font table bytes may differ because repertoire-dependent tables, names and metadata are rebuilt. SVG rendering uses native SVG circles/joins; the generated font preserves the established TrueType disk approximation and quantization. Variable weights and arbitrary SVG interpretation are outside this delivery.
 
 Subsequent exports reuse unchanged accepted source geometry through a local, ignored `.export-cache.json`. Changed sources, edited SVGs or changed export settings invalidate the relevant entry. The published manifest remains the build input.
+
+## Individual PNG outputs
+
+`png16/` contains one transparent 16×16-pixel PNG per reviewed codepoint. `png/` contains square sheets with a 16×16 grid of cells covering all 11,328 positions; pending glyphs are labeled. Both exports use the production Regular font.
+
+Maintainers can refresh the individual PNGs after exporting the accepted SVG manifest. Install Pillow separately, then run:
+
+```sh
+python -m pip install Pillow
+python tools/export_png_glyphs.py \
+  --font /path/to/production-Regular.ttf \
+  --manifest /path/to/production/manifest.json \
+  --geometry-manifest svg/manifest.json \
+  --output png16
+```
+
+The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times across checkpoint growth. Pending codepoints receive an individual PNG when their glyph is completed and reviewed.
+
+The browser weight preview uses `fonts/variable.css` to load variable WOFF subsets of at most 64 glyphs as needed. These preserve the verified glyph, variation, metric and axis tables. Unchanged subsets are reused across checkpoints. The complete variable TTF and WOFF remain in the ZIP download bundle.

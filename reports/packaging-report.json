@@ -1,13 +1,13 @@
 {
-  "glyph_count": 3862,
-  "registry_sha256": "4ced35c380199b694f2feb88c0847c9399738f892ed5e0a7daebb202db0e5206",
+  "glyph_count": 4408,
+  "registry_sha256": "f781b6214293f15213f1e47043dd0c9d62deb504c16a03de6dc2f6e601092ff3",
   "global_outlines_expanded": false,
   "global_instancing_used": false,
   "woff_tables_preserved": true,
   "direct_regular_outline_tables_preserved": true,
-  "compiled_manifest_sha256": "6cab34d1ebf36a0be97a1191411e26cc32ea8f7d798a7bcd3ec6a3e6a9bdc5c3",
-  "static_manifest_sha256": "08f99e85ebf33a6073e64328d95ef5492e3767010c2fa7d45e9191243dc3b589",
-  "variable_manifest_sha256": "107c5691591b697bbef2ae162b01e522babc57a7e626566f574fa364e992f3f8",
+  "compiled_manifest_sha256": "90a2a662ddbc76556b53e7e7399becf34d64814eb512e03c2c30328b0461e7ba",
+  "static_manifest_sha256": "63e1ae9a3ef420b531c9397f62e1288c8173fd83c640e97a0082ec13a2852b93",
+  "variable_manifest_sha256": "c90e30b8b1207a8044c541032a7812325f20570a830a7f584413ffdc5c48f557",
   "production_ready": false,
   "visual_acceptance_granted": false
 }

@@ -2,6 +2,7 @@ name: Build font from SVG
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths: ['svg/**', 'tools/**', 'requirements.txt', '.github/workflows/build-font.yml']
 permissions:
   contents: read
