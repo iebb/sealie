@@ -2,10 +2,10 @@
   "passed": true,
   "source_root": "/workspace/fonts/design/strokes-individual",
   "registry": "/workspace/fonts/design/quality/accepted-geometry.json",
-  "registry_sha256": "48c593c61a1c90084587fd08036ee4e61f9ed9882f1d4be875c7669a4c79db63",
-  "glyph_count": 1113,
+  "registry_sha256": "da07efb2abe7db40b30e1a0c4b218788764036966a7c1591c6c4e25367f7e635",
+  "glyph_count": 1254,
   "method": "Reuse compiler input snapshot validated before/after original-outline compilation and packaging; no redundant flattening",
-  "compiled_manifest_sha256": "97f21dd35e6508f4d9b86956176241b5ed5e6fe85397d167628789c5fcfd3f21",
+  "compiled_manifest_sha256": "f047fde0078d00e23c91af2433a14328c0e3d7fb5307ff973f714d48562a349f",
   "glyphs": [
     {
       "codepoint": "U+3D000",
@@ -8640,6 +8640,38 @@
       "review_sha256": "17f3a7430e21a7755aeb9a59037f23ddd29885391d1de71bbc8c23bf2590df5e"
     },
     {
+      "codepoint": "U+3D437",
+      "geometry_sha256": "5a1df3b287a227b1436c1f841ed8cf72cd8510cd8b3dc1a6fd48d8f20317f54e",
+      "source_png_sha256": "68aac436faa78bb0a8c744764d9f6dec35f1c154ac49007f345af49ecb7a9966",
+      "source_json_sha256": "3401a79467bc785542ef72dd387f5572f61f6334198e89b442548ea7c19d4de8",
+      "review_report": "design/quality/review-continuation/U3D437.json",
+      "review_sha256": "aab6ac1de66372ebe3ca341cfb289924265f4c51c306136712e7370dc6a41b41"
+    },
+    {
+      "codepoint": "U+3D438",
+      "geometry_sha256": "efbd9cebb7f413a3aff4f2202b11d8cf574329e0508f84686a9ee5c6d7e07171",
+      "source_png_sha256": "a20ca9cc7a6e44e96b85251c4ded4c737ae5eaacd4f23a3836b41948e3210432",
+      "source_json_sha256": "a99cf11fdd830a58830351ced3b4310d48c7d25aed178161ce3a34d781319dce",
+      "review_report": "design/quality/review-continuation/U3D438.json",
+      "review_sha256": "ef2f385a9c69ecc1e8e9f61daa09703b9a17efe1ba381ea8900eeb37c9c6889c"
+    },
+    {
+      "codepoint": "U+3D439",
+      "geometry_sha256": "de2b90d0db2afad8f27572578dbda42367cbb24304c77903f3da71888e150f8a",
+      "source_png_sha256": "3d0419828a2c005f893a472197e134938dcd7eeb70379f5717f9388a1ea84174",
+      "source_json_sha256": "7398384bf6b5257c3230a94c24973dd4a01057e4b81956ddb6cb82a874941594",
+      "review_report": "design/quality/review-continuation/U3D439.json",
+      "review_sha256": "9b8851972a164b65eafb2b57ac2fad86820c496126b5914d7f3dfb26e3b35da2"
+    },
+    {
+      "codepoint": "U+3D43A",
+      "geometry_sha256": "684724a972ff5b0cceff51ec60f1c0804b3bc9b102601c93048427ec658e16da",
+      "source_png_sha256": "c41d15b07e53e72429a6f308f24c19215f15b2cd4007b03d6ec0b430c43ca421",
+      "source_json_sha256": "f0b2088f20c56c01c3240f67a64b70bfc6423c687ad92930142c130870f6ce92",
+      "review_report": "design/quality/review-continuation/U3D43A.json",
+      "review_sha256": "709601397021ce9e04186603d70db00aba9e927b6c44abd37ba72594c02e93a0"
+    },
+    {
       "codepoint": "U+3D43B",
       "geometry_sha256": "7b3b0a7981f58f3d369a0c2fbcfed5d324a072f2ef271fd5c58466094e684631",
       "source_png_sha256": "a4944f1fa83695e3c9cf9024d0045628246f07c3ec9e1899424b67a8074d7372",
@@ -8656,12 +8688,108 @@
       "review_sha256": "9fea991dfd728abe4e1bef8ec59100475f49a1c76cf9ca08a2c10d1fee3e4940"
     },
     {
+      "codepoint": "U+3D43D",
+      "geometry_sha256": "19c27ebcee2c3779e2db9f1ce2f9b6f17265baef06a5808aa2497bbe9ee9eee9",
+      "source_png_sha256": "35f2ae78f7e73a5f7739c0df433bad3df4a7615f6b234b00be15b2508f2125bd",
+      "source_json_sha256": "cf0dc38ac8ab961f526e823a42b85ab456b858f77138e3950a81c320bf6411ee",
+      "review_report": "design/quality/review-continuation/U3D43D.json",
+      "review_sha256": "a55e49dbc290a0f22421c6e9d2256f8082629f07ae0f4e616ed130994ffb3dda"
+    },
+    {
+      "codepoint": "U+3D43E",
+      "geometry_sha256": "e0ed772539d2663080eeae89d4395bbaedd495971a6612b4df8358fd916b9cb7",
+      "source_png_sha256": "49a4f3ba94abb900df3a786e1e009ce12b19c70ed2b7535b56ea7675590524e0",
+      "source_json_sha256": "154252e4f130b69af1da85ed54b553353d45c7019760660919ff8b012576c728",
+      "review_report": "design/quality/review-continuation/U3D43E.json",
+      "review_sha256": "118b7f0bf85d5fa6fdc557e7e3b86ffd5c6391d82d41fbcabd42cca3424a77e3"
+    },
+    {
+      "codepoint": "U+3D43F",
+      "geometry_sha256": "7608d7e805f4c3e6b72fc9b842ad40942a8b21fa3dfa8724d54ad8d69893f3f3",
+      "source_png_sha256": "2886086d3eed64af199c71d8635cf2f0f2fa34966375ae2dd6748c9acd241508",
+      "source_json_sha256": "9940a9937f59fb591dc61c880951f0c810d0a3132a93f4b09773181cb58b1b38",
+      "review_report": "design/quality/review-continuation/U3D43F.json",
+      "review_sha256": "9ad47e220bdda424608317744858f38dbef62dbd8dd7a802104c34bdde2f9970"
+    },
+    {
+      "codepoint": "U+3D440",
+      "geometry_sha256": "a7f4eaf38c91154ad73ac7b4178e5e5155aa2c0d836173cd1143279b2fa26606",
+      "source_png_sha256": "24c2c5c1e8c47240f9b04565dad27c89a9d3f7f3001c0aa4354d131008c04688",
+      "source_json_sha256": "b762c76c7abd5309e4f84b66819e8ba259ba458c150479aa51f125f8008ef526",
+      "review_report": "design/quality/review-continuation/U3D440.json",
+      "review_sha256": "c721d93ba5cb3016fcda510011423d9542b7900ee51451d9c16d589c222daed4"
+    },
+    {
+      "codepoint": "U+3D441",
+      "geometry_sha256": "137065d39f23cabe1025d783fad080f36a8ebf97cd5f81dd8afc37c85824cfa3",
+      "source_png_sha256": "ad349365a516c6410748ef0b186f9855b6e4a32f8b8092b77ed65554fffd7f3a",
+      "source_json_sha256": "bf7742dccf8496b87cdf08964b55e9e78ee86a26dc0a568c41542045480bebc1",
+      "review_report": "design/quality/review-continuation/U3D441.json",
+      "review_sha256": "d863bbb91cb0c3dc6de76767091af2d635bae6d225ba907a00bc54d9dc091103"
+    },
+    {
+      "codepoint": "U+3D442",
+      "geometry_sha256": "0fb696a02b5973b831478402819e073e7abcab9555397b0ad7abaac16abc83d2",
+      "source_png_sha256": "dd0c3cd3241e845360e1fc33e5acc883db40e36ee4b458d1701197d475ca3c17",
+      "source_json_sha256": "17784eeb2fe6bdb995fd72ac8e2e3b345f2df2020bc325accd184b3963803145",
+      "review_report": "design/quality/review-continuation/U3D442.json",
+      "review_sha256": "298a5207026d1e810e3b409e3f63a6df88e6b373f79deae8ec1241db15790e7c"
+    },
+    {
+      "codepoint": "U+3D443",
+      "geometry_sha256": "738f4861a6e03fe6444b08fe2dc02c18175550f34cdb76ccf3bc2192894fe35f",
+      "source_png_sha256": "9c67c848da96f756efc4ede353826bc5c8de2a9d99e8cde229cc51d71a23ab56",
+      "source_json_sha256": "d655d4697405f836dba60f82a68a4c030b6b9718a42cd12a12f7d233cbdaf66b",
+      "review_report": "design/quality/review-continuation/U3D443.json",
+      "review_sha256": "b6a5af3e27e940ffc98f0c14ead6c92b93eb26d93cee9b48dd512bb9efdb4cc3"
+    },
+    {
       "codepoint": "U+3D444",
       "geometry_sha256": "d3e0c9ac9aa8451d0b38ad4157ccc8b77f408450f561375757ff26e3b976df30",
       "source_png_sha256": "97d57a9f059a6735df284cb6a97d17a1679d1b77717a6bb4f4331a8aeac35c23",
       "source_json_sha256": "dff34109c688993fd7e199ab85131b78e9b897ca0f84997f0b175456e2df9ff7",
       "review_report": "design/quality/review-continuation/U3D444.json",
       "review_sha256": "0c6612029c03d023da90e2574d9732ac0c131430f70d5c8e0548e76358c01f89"
+    },
+    {
+      "codepoint": "U+3D445",
+      "geometry_sha256": "516114ceb00f3ae9e03fbf824f5e3d45cc8ee584a7606e4d342fef976b5f4c8e",
+      "source_png_sha256": "3a87237f8b0fb81b4ac2f61a4659d9a43be1b0316b8f46dd68d6128c04a21433",
+      "source_json_sha256": "8060ce9747f29357d74f533ddbc1d6da06c714d3ad1c5f9153892df2658a1b9f",
+      "review_report": "design/quality/review-continuation/U3D445.json",
+      "review_sha256": "3db6346ee81bb86b3d6447d7b4e6fe1c21fbae0037aa7d6ef905cb7d54631674"
+    },
+    {
+      "codepoint": "U+3D446",
+      "geometry_sha256": "cf393bcd85639c4272dfff8c7582037738cbe3f64be70c1c0462b3660f7a2876",
+      "source_png_sha256": "666a892480bb635e66e2221890c837501d45dc664d90d58f87140b5f79f73f42",
+      "source_json_sha256": "b675349d9ddd9cc18463722f114b95807fa36bf9e4c3b6b8fe886faeb6b9f635",
+      "review_report": "design/quality/review-continuation/U3D446.json",
+      "review_sha256": "eb81a76987eecdebb9c00cbac2975b6de897439b3103edaa9ab4dbe8e7096632"
+    },
+    {
+      "codepoint": "U+3D447",
+      "geometry_sha256": "c8ab3c3497c81fbfa1fb80d880f3005cd27f20f7e820ab3c97b6ce1916320eed",
+      "source_png_sha256": "cd39b7e8e8a5d4c5bac8c92c812f10f3e8945ebb9b8ed83139b9b523c5252c3f",
+      "source_json_sha256": "22e52c1f5f7127ea92881f8548e577c2141db2e26099c3317587119a95fa415d",
+      "review_report": "design/quality/review-continuation/U3D447.json",
+      "review_sha256": "a94719b0d2f4985136702d81a44eda9a6981039046367e100f6c38dd948b9879"
+    },
+    {
+      "codepoint": "U+3D448",
+      "geometry_sha256": "b93b7ebfbaa8251922604165c94a67fb7896469c1cc5d0f70b9662f2564cf140",
+      "source_png_sha256": "0c2ea5d5f515297912dbb45e6136cf3f3143906197d773ba7a29f6646b3b8820",
+      "source_json_sha256": "145c9ecaa500244f1ae348c58e22666ee07a2099e5d29a636793d308c65ba2c0",
+      "review_report": "design/quality/review-continuation/U3D448.json",
+      "review_sha256": "c515f6959cb48aba42ba8c6356b9370e5e321624f7316cd4600da3b6d12f6b05"
+    },
+    {
+      "codepoint": "U+3D449",
+      "geometry_sha256": "03187d12ea61778800ce60d9a0fba2f2d184239372fdf09290057e4b9898c9fa",
+      "source_png_sha256": "4d1823d7c677612cce74057a4e6311f5cc64d9f5ee528b653fb2df0980d21ec0",
+      "source_json_sha256": "9bb3e8bc14f77f2f8e3ae49fcad51c3538a838d9457ece4d6f654acbc28d4997",
+      "review_report": "design/quality/review-continuation/U3D449.json",
+      "review_sha256": "5911a9073940ad33f843952661b8c38886255cc018fe88e45d2900278134b1e8"
     },
     {
       "codepoint": "U+3D44B",
@@ -8686,6 +8814,70 @@
       "source_json_sha256": "a64ea9a676f6e6a8daec22b01e982db4385af6978284ff09807b78d5ce0e5794",
       "review_report": "design/quality/review-continuation/U3D44F.json",
       "review_sha256": "f3678d91a322cc71e195f96ec8b8650ea9bfd10c974d731a41070497ab507564"
+    },
+    {
+      "codepoint": "U+3D450",
+      "geometry_sha256": "f4037caab3121f04c1f10b0fc1eae414c24cc9b4875cbb6b4be584e6866b3a1f",
+      "source_png_sha256": "a925540ad28459a6de7d6d1f96e3b7fa43e4e34cc3752bf9c29326f5b3ce0124",
+      "source_json_sha256": "8d6ac449de8d8cc6b38022d8d9ef79b490d864943a6446ab4c73eea27ed95857",
+      "review_report": "design/quality/review-continuation/U3D450.json",
+      "review_sha256": "0cb71d0026f8dab625caa8fe5f2f85992e61fd8aa724ad934ff27ca50d2de7fa"
+    },
+    {
+      "codepoint": "U+3D451",
+      "geometry_sha256": "62cee5c33778034ec2d4c3261da603b4a1be9f2bf059038aa792a45f2d7f64ff",
+      "source_png_sha256": "3fe031d29aa0fd3ffefeed930af4ce4bba51996659bc2e9c9191e287950b3c1d",
+      "source_json_sha256": "4d16d010271998f3e494a15f92c489d5bcb106d0346d6cbfa7d1ed99807c84a5",
+      "review_report": "design/quality/review-continuation/U3D451.json",
+      "review_sha256": "347bff0bd1b4e72ab6f7aba7f5111a3fc090ed5b70a4eabedc6b752e33b4a662"
+    },
+    {
+      "codepoint": "U+3D452",
+      "geometry_sha256": "e373107d483c774e6846c18f685fcb7d3f8bfefd5a69e8c1b61a38616c90bd85",
+      "source_png_sha256": "8fded1d26e23bd64ec3683f1fc9f4bff34a7f6dcb794a454bc9bc88ff3a87ce1",
+      "source_json_sha256": "e977b5b7952c110c49630e0820a8bcfe751bd06adfb080b33f4e7d744b21346f",
+      "review_report": "design/quality/review-continuation/U3D452.json",
+      "review_sha256": "7d0db1047fea2906599741566266d7e336c4b224516f5e8e178d8e83157c3802"
+    },
+    {
+      "codepoint": "U+3D453",
+      "geometry_sha256": "051dfa7320374d929b52f1799c4d3745234557bfd46b0fc6bcde23b5dd9a2804",
+      "source_png_sha256": "19fff195d5b86a2a24143cdf7c7544c47cb80373bb363432005105f7d18eba77",
+      "source_json_sha256": "e7dd3c778d306a691ff4213758684902e79376e3fa71ff02c770320b3aef69b6",
+      "review_report": "design/quality/review-continuation/U3D453.json",
+      "review_sha256": "0d12ef5e6dd5d849cb74e948b9783cf79a89ae68b8027bf82a721b942b5a1828"
+    },
+    {
+      "codepoint": "U+3D454",
+      "geometry_sha256": "08650377ae3e546c5c6a86bbf7a3933ee7a8fd59573ce486d34e37516f4fdd5f",
+      "source_png_sha256": "268b905e4165e68ace3bb88e430c251303dd1659ce122b9f1a493831f81c6c4c",
+      "source_json_sha256": "fe72f76b758709c250787c30132a2833ecb387da1bfdbccb3a63201c8d5436e5",
+      "review_report": "design/quality/review-continuation/U3D454.json",
+      "review_sha256": "5b9afe8db654a1bcb11bf31a9d16ecb45933ffce32683fae0cde10f0e0faaa00"
+    },
+    {
+      "codepoint": "U+3D455",
+      "geometry_sha256": "dcfe668882922f0d6360103dd0d846c307d4a521140edd415195a3332b446817",
+      "source_png_sha256": "60c142c271f3267245513befd319deaa90afebe04b6c8a0dcbe2f5845e3803f3",
+      "source_json_sha256": "da3a973954ed99668f35eaef8970257c43ecbfc83e342153a8675290019a6d5e",
+      "review_report": "design/quality/review-continuation/U3D455.json",
+      "review_sha256": "55a2d63c23f517e5367bdcc9a0acb8008a18ac29f07f18b1e88ac2c778cb6c35"
+    },
+    {
+      "codepoint": "U+3D456",
+      "geometry_sha256": "4b1399482cf9212a8fa14b93c3166d2062d8b96396d148069af3da0809813cf5",
+      "source_png_sha256": "6107d52cdfe13b7da4e8679e5105c6d7c0367bfd6ef21b7a7679997c858b7a85",
+      "source_json_sha256": "75bb43a6d6dfedc427d8fbc8c01f74eb9771b5e9f2da5178471a41ea5d675d52",
+      "review_report": "design/quality/review-continuation/U3D456.json",
+      "review_sha256": "4c65143bc378d8e0a6e8008a97a00e0c07bcfc137cd1f068f207091b60c73e64"
+    },
+    {
+      "codepoint": "U+3D457",
+      "geometry_sha256": "032718a0722fa60dba61c0e8865a4b678bacf52673c01cb90b60db6d4774dd90",
+      "source_png_sha256": "1af8672c21b9af159a08447f62df2584457aed33ec93c65c226908454e1a771d",
+      "source_json_sha256": "5ada546100e7afef902d38be52efeeaf53d08e7af8e76ad192af72f86a5201cd",
+      "review_report": "design/quality/review-continuation/U3D457.json",
+      "review_sha256": "6ab355702583d985bfcb65f508eeee1d3e1ff8df3bc28ab4d96687f676049e29"
     },
     {
       "codepoint": "U+3D459",
@@ -8910,6 +9102,942 @@
       "source_json_sha256": "a053a078c0c6eecd3d07f5addd444e9984e9710dd0509945a077ecb6b20765f0",
       "review_report": "design/quality/review-continuation/U3D4EB.json",
       "review_sha256": "a713f7fe27d82babc7682ac5f682136e29275a51066bfef7fff1d27267dca187"
+    },
+    {
+      "codepoint": "U+3D4F3",
+      "geometry_sha256": "377cac6833b4a99049208e0541039fa2eba6f1c4d4e4c2e41f5b0a8819724a15",
+      "source_png_sha256": "b60fc9631cd0617cc3a42b0978f8373bd0ad3b4f4252dbcbae9d33c22a460850",
+      "source_json_sha256": "afd630e324431a9b0b7cd8b82c20dc515455db9e082f5bf01913b3ded7e1844f",
+      "review_report": "design/quality/review-continuation/U3D4F3.json",
+      "review_sha256": "9fc5336cd38770416bbd13f921ff435801178e36cd85911c8abebb0b2abd3efb"
+    },
+    {
+      "codepoint": "U+3D4F8",
+      "geometry_sha256": "f47932855d428e6460ae0aa614e4a7a9bfac187012b3cd76d2f246a2abeeb027",
+      "source_png_sha256": "969c657ddf9d1377dea1666f049b78a24cd4620b1db81c4796b02b01f83b7209",
+      "source_json_sha256": "6317c360b71077d5ce1099e82f126020f005822a4195f0eeb659718af8275d8c",
+      "review_report": "design/quality/review-continuation/U3D4F8.json",
+      "review_sha256": "f79e18fa63b6beb0e4a9a82a89965a454f9a626eb8c532a84dbda7cb5d917d1c"
+    },
+    {
+      "codepoint": "U+3D4FD",
+      "geometry_sha256": "930dab677b9850fae5fd31b89f5ca5a32f5700151e30f3994491b552775dffe3",
+      "source_png_sha256": "b8bb612f7b999ccc7cb6010af644684fec1d0cf75c3b990ff0624b6d7f868e5e",
+      "source_json_sha256": "ce3017807e7507983bdfc73205ddc59b935eb716705bfee27a7f25ff3b097016",
+      "review_report": "design/quality/review-continuation/U3D4FD.json",
+      "review_sha256": "227947be37ebdfb5f4cbec9044eebc71b601d9fce7ddd3960fb15e9efe0de9c3"
+    },
+    {
+      "codepoint": "U+3D501",
+      "geometry_sha256": "67980b9a965f996af891d2bdd2b72efe893d33cc40a94a0f4f69371626eb12a7",
+      "source_png_sha256": "ac4ce29e0b1d9835afdad4db3c06ae809d40308c3c7f16e0adcec52352fbfd69",
+      "source_json_sha256": "0a27be11f0ea1f47b565c55c2e96482cf468d42d832ee8e39e8ab09ad5359039",
+      "review_report": "design/quality/review-continuation/U3D501.json",
+      "review_sha256": "83b68331d1995427b752de5144056baecc1addc80596514c3cf2face69fac81e"
+    },
+    {
+      "codepoint": "U+3D50A",
+      "geometry_sha256": "32b01ca5a6b22f33f300fefcac83e17de83a55b19d3dc155a1b9c8e3c5118ef5",
+      "source_png_sha256": "cb4b464cc6bc70d9507f663c0aa36e38bd006c45719f3bf92556edda4ced90f4",
+      "source_json_sha256": "665322338e48be3d7be0108cbf454a59566df1fb4d17f7f5984b059e7aefba1a",
+      "review_report": "design/quality/review-continuation/U3D50A.json",
+      "review_sha256": "3696a7ad31c40a835cf41f8ee8ca03e150aaaf45c9dd50337b73d3ca8acdf76c"
+    },
+    {
+      "codepoint": "U+3D510",
+      "geometry_sha256": "958c674f4670434d3756ec974b9f523cd842187c407e03f7495dfdf26403a749",
+      "source_png_sha256": "0ddc1ddcea3f98bd1faf7619ef281009f442319160b9fcc254557cb12cbced17",
+      "source_json_sha256": "e109f9e0a69f941f047b6837e403ecc7e7fec826d0854b7c4d8e5221659eeeb7",
+      "review_report": "design/quality/review-continuation/U3D510.json",
+      "review_sha256": "b40302172c7092a384cb958a82a0efb934038a061f3dec251de977d5509b5197"
+    },
+    {
+      "codepoint": "U+3D517",
+      "geometry_sha256": "2d40f7f3f064e555a8807da06b5c3744a98b8e1467a7d0cfe9a8ea1cbb37b629",
+      "source_png_sha256": "abdc79201024651ec36b0d52894f5dc41fc1bade2b4cc6ea7a285322cdd51ac4",
+      "source_json_sha256": "04f4f47689f972aa005cbc3e422a7d8e24e975838e7f2b4a8260989e5aac6b00",
+      "review_report": "design/quality/review-continuation/U3D517.json",
+      "review_sha256": "15b344ba5b8c692e9db7bffe6bda7553ddc1887575f44dfe253015d9233bc9be"
+    },
+    {
+      "codepoint": "U+3D51A",
+      "geometry_sha256": "d8b8a603f72fdb5e1f5d37d9083db1941c7954ce9252dbc62980a1a8a181c3af",
+      "source_png_sha256": "a712f3042d1e0961a84d00163c24e3899c02f6398f060486c71b2af3f4db0c47",
+      "source_json_sha256": "7dd22bd0ed9b3aab8351e61df62ddc2f4a11fdb72e98e5b9920dd071c2426fee",
+      "review_report": "design/quality/review-continuation/U3D51A.json",
+      "review_sha256": "7b38465b1e2fdb170448a881d29baf0d68257e10711920abeafbc93a39dc58a3"
+    },
+    {
+      "codepoint": "U+3D51B",
+      "geometry_sha256": "759ed1550910bfdedcc7a798da29cecb2d9ce43c7f3c63d0421862ebbb89b8b2",
+      "source_png_sha256": "e660b4597f350c948771ec5537d0d109373881d41b9aae6bb40e73777928bbd4",
+      "source_json_sha256": "28f39578e19b64b1b8caa5d50c91731a8eb230a6cc7b7d69b846d175d82acc02",
+      "review_report": "design/quality/review-continuation/U3D51B.json",
+      "review_sha256": "7ff52a105d6bed183f39295f5bc7f57533445fb28c3d6465d60592447094dadc"
+    },
+    {
+      "codepoint": "U+3D51D",
+      "geometry_sha256": "6048a4241dac8002cbc1bca37154a4547a28c09c464aeccd24282f60f4760b12",
+      "source_png_sha256": "b2830b13493389007a67d1d28b6bf2650f77cd7bee8f302e97886cd6920b56ce",
+      "source_json_sha256": "c116ac5d20beea9155b26b03e54aaba9f42990e383f1d1208818d137f8e0f62b",
+      "review_report": "design/quality/review-continuation/U3D51D.json",
+      "review_sha256": "c3104ccbb1f62b336ee72c49faec69dd583e673664ff16b5787ef04a48c0006e"
+    },
+    {
+      "codepoint": "U+3D523",
+      "geometry_sha256": "981f7aa0b58a5bae3aa7241c5297d3218391604b2fc14012c4f8ebc7cd6aec9e",
+      "source_png_sha256": "a224bca8911bc8d7c3b4fc71ab1017ebb71f693e075722fe862efe62df4a159e",
+      "source_json_sha256": "e277b1e0de99a1293058d25fbd036b93ba867529c35ff6df2c19899dd93b3016",
+      "review_report": "design/quality/review-continuation/U3D523.json",
+      "review_sha256": "a59787167aa4bea8d261481313d7c7ccff4b127321f5a7b00315edbabd3dc997"
+    },
+    {
+      "codepoint": "U+3D52C",
+      "geometry_sha256": "3d0e1815d7b8f77f2a7a59cdec272b6898eb91d0999dbb17aabd6551e80d8b3c",
+      "source_png_sha256": "a65af5f9239807a6313a82b6653ab05f3ba573d58c303d2adf8bef80d0269c94",
+      "source_json_sha256": "96a70927aef707213df23d5b0d6e39dbee0f85432bb41678a7819ab2092fa1cf",
+      "review_report": "design/quality/review-continuation/U3D52C.json",
+      "review_sha256": "8ab93b802e3492a710bc24d9f8062839099d472e0d54083f51715fdeb9fbab50"
+    },
+    {
+      "codepoint": "U+3D52E",
+      "geometry_sha256": "efa71c86710eae0e12b57e3a0c56dee9af729b1d729d245dc888a784bfd6e254",
+      "source_png_sha256": "06750d926fcd15f4cec106187fdde2c6a5bd9c46f5198c5d31c98efa6dc38590",
+      "source_json_sha256": "03a3a78ae31b52bfae0ebea32043c601cb9ea2a02c8c261497f03392ee0a6bf5",
+      "review_report": "design/quality/review-continuation/U3D52E.json",
+      "review_sha256": "f0d9064af8299eaca0116b14ac7078c01a996c2f554585d418b93d77c6dd17ab"
+    },
+    {
+      "codepoint": "U+3D52F",
+      "geometry_sha256": "cdedc404544e7fd5db0757a0fc6c58a355485cc741db2f403644303a4b10a389",
+      "source_png_sha256": "74ee3e8c6bbe980591bcbfe29c8871cffa056622c867141e25bf2ee15f957902",
+      "source_json_sha256": "baa93e6fd45d037259ce633b0ff2460b94c6f1c92b153b99c87e1ddd22fadd9a",
+      "review_report": "design/quality/review-continuation/U3D52F.json",
+      "review_sha256": "46b7e9edf2a24f1c22c984733512a84e54758edd875cb95777addcb2d46b1118"
+    },
+    {
+      "codepoint": "U+3D641",
+      "geometry_sha256": "d41159cbaccb1286ca2d3e5621abd9c63c9f71c694eaff2adaff53f7f4179be0",
+      "source_png_sha256": "9fae2459fe701f5b55c837daaf1ab63ab66bc669ccc3e9c8a4f5cb4d860f6908",
+      "source_json_sha256": "4c685c5f587e76eb4a5962bf8bff5799b1c9568adda36815dac4152cab7fe3e8",
+      "review_report": "design/quality/review-continuation/U3D641.json",
+      "review_sha256": "979bd9f36c073aa90765fd3bdc528bb252ba56af88cd35dee2667dc149b3ccdd"
+    },
+    {
+      "codepoint": "U+3D642",
+      "geometry_sha256": "b6c32e24d8ac7986ad8d8322535bf8d7133bc9eae805628484943e7599890dbc",
+      "source_png_sha256": "42fe5732e93acbf04892d0e69c474ba14a4c59ab16ddd2a29b1cca46ac06dab8",
+      "source_json_sha256": "e8b38435d89a1c3ceb4336d39fdaf60d9dc88fe49242af72a59bb318ce3ddf82",
+      "review_report": "design/quality/review-continuation/U3D642.json",
+      "review_sha256": "630270a24dc88cf0e1a16c7bb3d4b3299350794b64c3eb177e655554e9d3560b"
+    },
+    {
+      "codepoint": "U+3D644",
+      "geometry_sha256": "7d544816c9ac5655664fa5e92287f41147fc90e8e751b8527e3a8bd0eab37561",
+      "source_png_sha256": "899208fae7ef0e64da612e09ee57f30595c1cd296893e3b76644e3113cc038f6",
+      "source_json_sha256": "adaea6f2142f07cee9f84f6ceee6ce50ec0dc5e787e6e7a40e08a98fe0fc116b",
+      "review_report": "design/quality/review-continuation/U3D644.json",
+      "review_sha256": "931bc37e4ac00c20f7bae72d1fd156d7eabab78ed3a5a0499e6bdd576e7b2a29"
+    },
+    {
+      "codepoint": "U+3D647",
+      "geometry_sha256": "8e06c73ed27be5889f504557b84a80b4aed5c34af9548f8b6c815d379ef87ba7",
+      "source_png_sha256": "e0d4045b7a90117415de518192b9eb9d74f95f5549f9b2dc4a2eadc958e69e0a",
+      "source_json_sha256": "39b872034192709345a36b0e0d83ca1fe3d99b2fd61d68f51b0659a9cea26555",
+      "review_report": "design/quality/review-continuation/U3D647.json",
+      "review_sha256": "ffd9337154a5f4adee3aba65eb32102b1d00c5dbbbd07cd8452d631e39572bd5"
+    },
+    {
+      "codepoint": "U+3D64A",
+      "geometry_sha256": "d31b2b289228d6cd0cc76b652c250453a2383870835411c9e72b44b63e92e39a",
+      "source_png_sha256": "80e90fba0cdaee2176f385d3642ddf69c1e16975b02bbe32e942e668c5437f2e",
+      "source_json_sha256": "14a8f738be908eb23e94ac84102830669789745c48e8624c2e3399fe12190bd6",
+      "review_report": "design/quality/review-continuation/U3D64A.json",
+      "review_sha256": "958cdb30834565af85013c3e16b9217af90745883d61e7a45eb0c4cdd8d685eb"
+    },
+    {
+      "codepoint": "U+3D64B",
+      "geometry_sha256": "d4ddff3e79fa3e33a2a88a297f97ac512bb7c00b56aa6ae79b8a48d4341a5170",
+      "source_png_sha256": "5f2da37e9d430472083794bf99706d389b8984db2c4a3a28a000b19113091eb4",
+      "source_json_sha256": "4e923e0f89d41958089a37eaa518f30981d9c52ca298135a1ab579c3a50094c2",
+      "review_report": "design/quality/review-continuation/U3D64B.json",
+      "review_sha256": "3b0cda821525a0bc8b695fdb75278f8c53c1145fd767e3f0111b05ce919f6a41"
+    },
+    {
+      "codepoint": "U+3D64C",
+      "geometry_sha256": "c414b60588ebc10bb77c562a6bc8ea689e635d16356e4290141e3d3b74fc3a6d",
+      "source_png_sha256": "9c2bd8d7671ebcd66ff166e4a7661d80508ab693e53e5046919fb4e33d77df0e",
+      "source_json_sha256": "40365e657efe2cfd1cc9b052d8f12e8404557a63149ac22cf66220e43eabb6e1",
+      "review_report": "design/quality/review-continuation/U3D64C.json",
+      "review_sha256": "632d4008833a316c3448123c07624ba9a13a5a07b33474d85db5772c1f8fc5b3"
+    },
+    {
+      "codepoint": "U+3D64D",
+      "geometry_sha256": "e810912b0823d36e6bab9ac7d1985836ec8e19ef3ecd5237a8a065e563732359",
+      "source_png_sha256": "189939a6db3d1c6848e71797aea0e7463cbb6b4f2704b61f342924e389d774c3",
+      "source_json_sha256": "2025a517fe1fd4f7c0573459c3dc9229ea3770ef19a0a1ce6ea6a532d6f954b0",
+      "review_report": "design/quality/review-continuation/U3D64D.json",
+      "review_sha256": "bfd20fab3fd6bf986b637adb86cec4dcee85c0960c33a3f55a23c0e11cbac184"
+    },
+    {
+      "codepoint": "U+3D64F",
+      "geometry_sha256": "edf3399c07688deeea0bd03eba7a537590d813ed6660226afbe8224ba75e6d56",
+      "source_png_sha256": "ca96b3a51050b9dad39ec0ef9a923add8694767cc92120164c23265ac29a6468",
+      "source_json_sha256": "3004a704634f8fa5809e552d1a1f3e6a9eca0b0dff51d1a231febde2cc80b75e",
+      "review_report": "design/quality/review-continuation/U3D64F.json",
+      "review_sha256": "cc082ab76b38acd20f0af4e74116929475c156aa390712b5cb3211430e7e20bf"
+    },
+    {
+      "codepoint": "U+3D650",
+      "geometry_sha256": "c75a0b3fc97d25adf202b920cd29eddb7324730b4b3bcafec372cc6517b7380e",
+      "source_png_sha256": "196508fe0ac8a8149c76deb72caf39aba4a81168f9bb5eaa05b4cceee0291e5b",
+      "source_json_sha256": "c52636d657fe7e4c1ec278559ed99c37652b57576fdb433146beac9f72bde505",
+      "review_report": "design/quality/review-continuation/U3D650.json",
+      "review_sha256": "a72ab8ded052487a239ea54726321cebdc72fee184432fac231b722721612099"
+    },
+    {
+      "codepoint": "U+3D651",
+      "geometry_sha256": "542ee707077f07666d7509c2edf6436c1c8d7680a30d5983f17bdf8a3877b220",
+      "source_png_sha256": "a83a2fa8c2bd3aabf9911e0abc6ff4b5c5e806b6fea88f249f5db017e0b04922",
+      "source_json_sha256": "d4085d6e1c4f23f5068adbdaa756425daff4ee451edeee9d6c156b31861b4e1f",
+      "review_report": "design/quality/review-continuation/U3D651.json",
+      "review_sha256": "f8832b00bd8469b7963c71249243445ef3f045f47eb9ca287def9fb6865859c3"
+    },
+    {
+      "codepoint": "U+3D652",
+      "geometry_sha256": "d938c5dd275f6a0fde6c883cc86e0c331ee20a9aaded5761dd676b49aacf6732",
+      "source_png_sha256": "16a8ee6ba71359c297b45b5ffc4566751cb9c91b414b45ff5c0b4f8f2ac31cb4",
+      "source_json_sha256": "2aa4257ad0f2bd8e4b6ef3731a41373b763a9c4cf35f62990964ca9dc5a3adc0",
+      "review_report": "design/quality/review-continuation/U3D652.json",
+      "review_sha256": "fdd7cf8405bed1bb5558057b2d3a5b0c904aca56764d2c7bd86582e2b585220f"
+    },
+    {
+      "codepoint": "U+3D653",
+      "geometry_sha256": "b7f0249f3fb0d7062b50de930e417e5cfe596c101cd35589f1200eac4f27a450",
+      "source_png_sha256": "51d6540635126b4c88bf695e77184f52f4cd89d460c39b65db1582a02fc331a2",
+      "source_json_sha256": "79be3b226e208de0816ba4315ea20e7da448037cf1702a28880eb7e19f6aa217",
+      "review_report": "design/quality/review-continuation/U3D653.json",
+      "review_sha256": "9943e04b9cd1a3111e65107735a95c982a252f043e827ec322154104a677e5da"
+    },
+    {
+      "codepoint": "U+3D654",
+      "geometry_sha256": "41dc7b52cadb9f885b844132ca44cb30f3e2169b4d2b752f6228ebf43abea1a1",
+      "source_png_sha256": "31b0f43f337c0964114bc00adf73435be91ec028cedf93eec0597161fbf4069f",
+      "source_json_sha256": "a3eca12f30f4630529379896d6082fbc6196f340fbb86fbd9dbb5e3272a39f46",
+      "review_report": "design/quality/review-continuation/U3D654.json",
+      "review_sha256": "729b7b57275111c3ec244a604bc162188065abec6179a3f23d7870ee3b7fb167"
+    },
+    {
+      "codepoint": "U+3D655",
+      "geometry_sha256": "e92aadb2a70ce3e4115b71c5c9d9429e406dc582b3dec166f0bf57f7ed66378c",
+      "source_png_sha256": "97f74808cc672ff0f30bcbe7263ef001a2806b3bb21fe1f20b7a95cabf995b77",
+      "source_json_sha256": "b3331372231690e21fb036d2deb11ac44c2ae812e9183c2449dbf85a847b996b",
+      "review_report": "design/quality/review-continuation/U3D655.json",
+      "review_sha256": "f8d98421c377a0ffba2e0b44cb3349aeefc526406fe034436a52a08310edcd78"
+    },
+    {
+      "codepoint": "U+3D657",
+      "geometry_sha256": "23f7a288708cfa82474c2fa4732ad7b86b74ad4ee34efa478d8ab1118bd27a12",
+      "source_png_sha256": "1168ded913f932be2c155746b180019ba4f4985ba9539fdac651a366f6de8c1a",
+      "source_json_sha256": "fa153a89da5ba36c2e661c75b56c57e4fcbe758e5e6957fffbd0188538801bb2",
+      "review_report": "design/quality/review-continuation/U3D657.json",
+      "review_sha256": "f9a17cd2b0f5f7d9f9c9a1ec34eba6ce619c3b8e0b7981578ddc7186f8419e40"
+    },
+    {
+      "codepoint": "U+3D658",
+      "geometry_sha256": "818d4c6e81bb288b50ca27531922782aa0e3e79646747c442b4a022924ee8361",
+      "source_png_sha256": "b1448d3950f7557d401c00c749f3df6134d79fdf69530d467d6f083c049ab46c",
+      "source_json_sha256": "4df573346b69670d1a36e4fa24d0e91ceb687cb0fc393a416c5aca24a13a666d",
+      "review_report": "design/quality/review-continuation/U3D658.json",
+      "review_sha256": "69ea008ba871a2797e0148497d945dacc5bfeec237b584cd12bcfa57730a0b30"
+    },
+    {
+      "codepoint": "U+3D681",
+      "geometry_sha256": "82399149323238a344bd36e8293371864b901c3ed1e3101339aab9c7162a3130",
+      "source_png_sha256": "56b94f96451a3f7b6f6d9361094e6ae86288328d991369285ccac0d280a8e388",
+      "source_json_sha256": "0ac535dc69d1fab4c85820b22021fce3fafb84e6e6cc63ecfb93332f13947328",
+      "review_report": "design/quality/review-continuation/U3D681.json",
+      "review_sha256": "561476e75820add3486fa85a30846c5b24f4bc0a0b1e6f66cc2bdb6ae21ab7c3"
+    },
+    {
+      "codepoint": "U+3D682",
+      "geometry_sha256": "be221936ebd936163e505948324d1c68f9227b87e25cdaf055775ce156162aef",
+      "source_png_sha256": "8d2a19a18378958791505c9ef756168e11ae3246f7d1e80bd1bd90e06884fa3f",
+      "source_json_sha256": "fce3a2b6bd4d12f46c926f8d866bd0c40b80478da137e2a476e1496fdd944878",
+      "review_report": "design/quality/review-continuation/U3D682.json",
+      "review_sha256": "6b73b4aa35c2fef61aeb09748a84b5eb18994c760d71d73a2b282f17dfb223c9"
+    },
+    {
+      "codepoint": "U+3D684",
+      "geometry_sha256": "655904dc62447457f2c415e21ea331e652e96ecbcaa6df2e840e79bb94163b9f",
+      "source_png_sha256": "aca0c65fcd43d54ecf842a7a60c7bb7982d5e36e2188e51b981c4c686f5042d1",
+      "source_json_sha256": "f539da5c9c7d1e3d041196d13b08dab5b89e70ad793bfde0070ff683c5541008",
+      "review_report": "design/quality/review-continuation/U3D684.json",
+      "review_sha256": "73fc61db8b16f217d8081123a3ae6998c0ec1baf3e6ec7ccd06542499f69b157"
+    },
+    {
+      "codepoint": "U+3D685",
+      "geometry_sha256": "b1a2fcb46efa8726b998c74e559a4e069f38f47f4bd2259bf829d39c01ffdaaa",
+      "source_png_sha256": "4215dd9c18154dcbde3dd584065bd0f77e13f7b6f42ad95933c76145bf79db6c",
+      "source_json_sha256": "92ef0a0558a1150c8bfdf7199390f7eb0b40ca0b7743e3d8cfe76f03baf15d01",
+      "review_report": "design/quality/review-continuation/U3D685.json",
+      "review_sha256": "440db2c5a771aa5f222aec7fba98d097a9d2ac85a7d07cffb8941f0c18cd0e75"
+    },
+    {
+      "codepoint": "U+3D686",
+      "geometry_sha256": "50fecc24976533e59c3bf2e089606c9444145c3ea929720a7cc42346703e499d",
+      "source_png_sha256": "5073d8cd4d3a1d1de1c7585ccc62e69fe9f46f25bd3773a0b99a965bbb95f101",
+      "source_json_sha256": "49d82f570a6a87e87bb6d7fc462bd5aae03d08665cce3a7c36fde2e1296344d1",
+      "review_report": "design/quality/review-continuation/U3D686.json",
+      "review_sha256": "5ff20b2bf4cb81625e9795f2384683a6faeec5924fe4a8f61b23e0acc675dfda"
+    },
+    {
+      "codepoint": "U+3D687",
+      "geometry_sha256": "8e0a3eb709d7262033089fa68a3a0bf1e6ec6a0f0ff3b27896053c268f024efb",
+      "source_png_sha256": "cda2dd2374ebfe17c6fa7f027e2f64252b15a816a9112f908c0b53e902fa8db0",
+      "source_json_sha256": "1fa5ebbf5f935b61405411e572167d55f2758ff8293ce51276e53b685fc4a1a2",
+      "review_report": "design/quality/review-continuation/U3D687.json",
+      "review_sha256": "89585308379dec7fcc28f97b3994b72c60bfb9eac54831ca160781c42bcfc1b5"
+    },
+    {
+      "codepoint": "U+3D688",
+      "geometry_sha256": "63bd6953bf5d9ef7d2113ce67e283dcf2a3f9b8ef4439c3c3b364a7ac5225206",
+      "source_png_sha256": "6d4d31dc925dc0137d8d19a3c5014d740bd441a18e7c32a87d34ddec77333ff5",
+      "source_json_sha256": "6b07fc535bea40511be7deb83b3bcd969e3679e5338be9f7f6ae5fcc8cec75bb",
+      "review_report": "design/quality/review-continuation/U3D688.json",
+      "review_sha256": "3ced4696be64cdc5cf354a4292a2fa971f76956ebd9610eeebb6f809e5308763"
+    },
+    {
+      "codepoint": "U+3D689",
+      "geometry_sha256": "83bd1de42d67261ca8dfd22d487aaf0b244bef0451215b25eef3e5a7f483de27",
+      "source_png_sha256": "06b22c099083beaf81df1e3db8f49150c8fcc84f18f0c0030d748512aa4ab0e0",
+      "source_json_sha256": "14f54526bada76a2bd57fff7113bf7bc10d45203d51b254c5ba12e97d31122cc",
+      "review_report": "design/quality/review-continuation/U3D689.json",
+      "review_sha256": "e3374c80d859414716ee67ad70dd9b7c3dcbf4341501984e5d424c0778908d63"
+    },
+    {
+      "codepoint": "U+3D68A",
+      "geometry_sha256": "8fdb53a993b3dd66ef95ca643f410f773ca9283a582d00abf64cf0a963442f60",
+      "source_png_sha256": "87a8be35a798d8a81e5d40e7209f831065ce57b5d0561f4a48b426bba353005e",
+      "source_json_sha256": "630227f63c71d4a1c57ccfdf36422bd06176f1ce9e6f51a226bea07c38965c7a",
+      "review_report": "design/quality/review-continuation/U3D68A.json",
+      "review_sha256": "3b5f0bccaf02a66261df323c41d251d63387b11b4e6c977142ae66f8f907984d"
+    },
+    {
+      "codepoint": "U+3D68B",
+      "geometry_sha256": "fce7cdc77da0307a85a3284042574aea25975192cc4d2024c494cd0f0828a5fd",
+      "source_png_sha256": "6777be56d96c1a3226ae19a4c453ca917f26f841c8f036b4434378d1f27a82bb",
+      "source_json_sha256": "d3d468157617a86035db5999c7751d93486001ae7e8d405d765b8f0f632203f9",
+      "review_report": "design/quality/review-continuation/U3D68B.json",
+      "review_sha256": "d19e49ab0a008da94869de2c6cb60b7bf1467bb048ba2ad7c1d8bc9f8a7dfaf6"
+    },
+    {
+      "codepoint": "U+3D68C",
+      "geometry_sha256": "b416285de92193394f4d6d230fdeeceed0e2ec9bed7e2c6a293c978339fb2169",
+      "source_png_sha256": "d9f0468bd3a1cf2a662837d5b1bc99f01bfba773603c2134c64ebad352ebbba3",
+      "source_json_sha256": "b3d9209445100e3788b6fe3dac46f984f8e95797899594119c5c640bf53c72a1",
+      "review_report": "design/quality/review-continuation/U3D68C.json",
+      "review_sha256": "9db71c9762ac3e26536c096a8f067a331a97f94e799ce84984c4517682460429"
+    },
+    {
+      "codepoint": "U+3D68D",
+      "geometry_sha256": "22ae4d01a15f1190d1efce1ac5fa63e0398c3f02feb35e41d83efc312f5b50f8",
+      "source_png_sha256": "6bbf848e13856dbfee5097cdd21445a2ad7336997863721da424750cb4b14b14",
+      "source_json_sha256": "f16695066358608955c0c21af15cb16c2a4585f687f291d9b273f9d0ba6b29da",
+      "review_report": "design/quality/review-continuation/U3D68D.json",
+      "review_sha256": "06a5492203003d0a368dde1f94c0ef3ce39d1f29ec652addc7f0f5aef25727b8"
+    },
+    {
+      "codepoint": "U+3D68E",
+      "geometry_sha256": "fa654f27abb94ed5db82db163a9feed8e1974e8555fa488dd8d47fc46632d6c1",
+      "source_png_sha256": "4cff5c9dcfc85d8ab576e082241f586acdcbd21544c420aaa76413268c5a4a0c",
+      "source_json_sha256": "4766305ba4e96bbeca5708d8023b4f21427d456bd2b74a950aa2f7e4853c65d9",
+      "review_report": "design/quality/review-continuation/U3D68E.json",
+      "review_sha256": "dbb81f1391fd7ac94e8cd3c5f38db146c34ef1b617269f769983cc065c83d56b"
+    },
+    {
+      "codepoint": "U+3D68F",
+      "geometry_sha256": "e5d8386ca07beea4c73f91ca084235278914a232e63f90af7307d5b7088f6bd7",
+      "source_png_sha256": "9297799070e3e8db797c5b4b9d31903335cf841067833cad7497ca23d9ac56ca",
+      "source_json_sha256": "8edb12fa60c5e77502aac0407e1df104fca9a472c658b6281d6b7a7d78b562cd",
+      "review_report": "design/quality/review-continuation/U3D68F.json",
+      "review_sha256": "d96c508c7e1052821a7a218d13014dd77630bba0e044c5fbea28d8f673626074"
+    },
+    {
+      "codepoint": "U+3D690",
+      "geometry_sha256": "b812c4e0c874cafb951f7977c0138a3bacd4537c7580482d4b078236dbfe292a",
+      "source_png_sha256": "b0d876d8b43ed5dd0f7b89bcedb1cd09a671eaa23d54295663a782b62e765c51",
+      "source_json_sha256": "ea4b8bb0c52f31b8d18b5ab783c7021049a0d01d9de5d1a0338307169019a7f4",
+      "review_report": "design/quality/review-continuation/U3D690.json",
+      "review_sha256": "f1945e727b5dc663c4856f1708e75eb3c6483b5222a11838ef0a49a0ec791695"
+    },
+    {
+      "codepoint": "U+3D691",
+      "geometry_sha256": "45542407742dafdd2ee4c95fcbb131335fcc8d48113a76daaed5d58e3191713e",
+      "source_png_sha256": "ff193dd93031d20b5027fe0abaca719ca0b770477800792b1d7d8a8491b51d86",
+      "source_json_sha256": "0fd551c4e696e5fbfff993affcc0ca3dd0cf853fe9f68cb96713fdd85b2bfb32",
+      "review_report": "design/quality/review-continuation/U3D691.json",
+      "review_sha256": "178ae9efe358c7828ea8e648db3becc30332082bac95fb77efe0414858ea04f6"
+    },
+    {
+      "codepoint": "U+3D692",
+      "geometry_sha256": "9a03135a8230ac0a3cac79416e14b752e49d7bcd7ae0050ea3adce07db2946e8",
+      "source_png_sha256": "90f0c13f61be54031dbfe16c8064d16cc2df0dcde59291f484e4a4a8053641f6",
+      "source_json_sha256": "7cc8c214b1e603995b691c8324b7271e54dbacd4f89753685cdbffefdb1da915",
+      "review_report": "design/quality/review-continuation/U3D692.json",
+      "review_sha256": "c1bcf8d209c3ff2b5137209591968ca8e34d7dabee6f335422a8fe53bf0e456c"
+    },
+    {
+      "codepoint": "U+3D693",
+      "geometry_sha256": "a5898e10a948c0254ffd10a3146029031f79f0100db466cb621d87636a0e7264",
+      "source_png_sha256": "3c86216bc1c37fe7246aec514fb5e1f2263144675d1b980d77b83338cdfafbf6",
+      "source_json_sha256": "ce4b009f12a7783757572acafcec954e9c6dee7599ee5f1df757d4aa4d3629de",
+      "review_report": "design/quality/review-continuation/U3D693.json",
+      "review_sha256": "1e86b6125668525b10278bf57ca558675dd9b31657413ba76b58116c934ce93c"
+    },
+    {
+      "codepoint": "U+3D694",
+      "geometry_sha256": "338d88b2c1db0ff7d4a5982576d915f2b48d42f6937bb24116d210af6bffcc34",
+      "source_png_sha256": "663560d44fc1fa85de49d67bf524fc64ff9c19922ae1a8c6656e40b1f0b106c0",
+      "source_json_sha256": "685a7ff37e9141ab0119430eaa0bdd54697e1b792a9398c9b67216dc5589385f",
+      "review_report": "design/quality/review-continuation/U3D694.json",
+      "review_sha256": "1421d3aaa56a18d3c11e3d1ee4f43836008567905d32192e55b0e46d04be87db"
+    },
+    {
+      "codepoint": "U+3D695",
+      "geometry_sha256": "dd23a05836de54f0ec4e02275ddb30d206ba098c3cbb847ac564d9b1a55cd5b7",
+      "source_png_sha256": "c16ffd653f1b8f3ef75a77003c68ea39fa74f2793acdaad8699ff0589d570016",
+      "source_json_sha256": "23d041b164a67f642397cb0ed1a8038ca26748f683adad802e4d646d2f2d41dc",
+      "review_report": "design/quality/review-continuation/U3D695.json",
+      "review_sha256": "d05e79a17a5b5c03d559e0348e2426f3c9a55efcb11c1ce89082dba58f686484"
+    },
+    {
+      "codepoint": "U+3D696",
+      "geometry_sha256": "375c3d19c0cb0af07a235100baec65089d872ac1f5b8f62d844553607409f754",
+      "source_png_sha256": "fe2d9d51090189ec2c6833b37154e2a3e3e503f81ad80f69dafc178e2f69eb69",
+      "source_json_sha256": "2e1cfac7111e7adfc82ff47e8e4410c2ade00857d2e1242825a0a8a9030bf425",
+      "review_report": "design/quality/review-continuation/U3D696.json",
+      "review_sha256": "4237123f8fb05abad50463450d4007ba25e036dd0a89147af941a61b0115408a"
+    },
+    {
+      "codepoint": "U+3D697",
+      "geometry_sha256": "4aae130ac44d049aa25722851f842b315e4bbf724f2351be66ba1c5ab41b7b1d",
+      "source_png_sha256": "d2e6d7bf187fa11765cdf6a28ec1e31fdd298b679852fd79e02b7faac7c86cca",
+      "source_json_sha256": "35ee6768043b7446b7390852be64f4c050d63552371d0b2374a7244862450288",
+      "review_report": "design/quality/review-continuation/U3D697.json",
+      "review_sha256": "3297833aeb956a6a7620f838e8c6b7551d30f39d0a64130d43ae29654fdd38ab"
+    },
+    {
+      "codepoint": "U+3D698",
+      "geometry_sha256": "1feb337ffe35de0fba12ae001448f411f8415a14249d025a1972b34756060195",
+      "source_png_sha256": "3459102d6dc8138e94339582f7fe0679f00898258e9de45e21b0ddf27bb365c2",
+      "source_json_sha256": "0cc0cbd34a980e8a73b586f476c619967fd1ea094234b346e3330642a2355799",
+      "review_report": "design/quality/review-continuation/U3D698.json",
+      "review_sha256": "b34c2de443918919dae75181560bcd67743959c9c3feb64f39bc4f58fb123ca3"
+    },
+    {
+      "codepoint": "U+3D699",
+      "geometry_sha256": "a8aa417663d59b3d2dee0d92962fe20dd807a5862bc45157906edd57d8eb5394",
+      "source_png_sha256": "76872cfc9fd03bd2df0f0ad9770a032ed1643967deca684e7ebf3279ccd95c89",
+      "source_json_sha256": "b184d0ccb30e7dbd559042acd4fe40eef5d16df96b47d3c5743c9b7f3e4f3947",
+      "review_report": "design/quality/review-continuation/U3D699.json",
+      "review_sha256": "269b0db30bdc6c0f57531560290276dd180f142283165008cabec46421ae51c4"
+    },
+    {
+      "codepoint": "U+3D69A",
+      "geometry_sha256": "806a3ca51134bcd2e98bc0f19b586ff9bc9020dd77a6c076b26e9e0187c188e0",
+      "source_png_sha256": "9382f9e3e1783cc69fdc87b7293487adbb19d8baa84960287d0126690292a0ab",
+      "source_json_sha256": "5af4892565ea7d4652c6f735723dc16edfe76c4cf88a37bcb973fab3fc4af1ce",
+      "review_report": "design/quality/review-continuation/U3D69A.json",
+      "review_sha256": "14c2fceb7d93414ae012e54819f8380e1c32a58de90a22dc7bfedfa60eee3f51"
+    },
+    {
+      "codepoint": "U+3D69B",
+      "geometry_sha256": "dcc3adc15f1155cdc6477648220ba68eba88f09c4b812c9544cca158f422ac04",
+      "source_png_sha256": "5a665d5a98d067d06d51946a3a6b46e6f3b057f67b3212a1798758799e4274c3",
+      "source_json_sha256": "fcb4c9ff35f215c28290e107ed11665b4267f8dd1487db5a22dd32924ba477ba",
+      "review_report": "design/quality/review-continuation/U3D69B.json",
+      "review_sha256": "0deb0ffd21a852c6e832524b6a393712882d50a0debeafaaa157daff9d583c9c"
+    },
+    {
+      "codepoint": "U+3D69C",
+      "geometry_sha256": "15ae785c6a77b61292ad2bbaef91d53f007e10e88b803209a3827a50a2026b13",
+      "source_png_sha256": "ae50566ad55121bc50c693fcc35e2063fa11d9e868726d3f1c0848816f0cf849",
+      "source_json_sha256": "be0a1c8c8d02d9deeb109933d5adda82e573f62dba0e9fa73e709426c66425b1",
+      "review_report": "design/quality/review-continuation/U3D69C.json",
+      "review_sha256": "b5a42719bbf8647a976560cf7f46c15868f5886ce3ade8ce3c9a22503855a77b"
+    },
+    {
+      "codepoint": "U+3D69D",
+      "geometry_sha256": "399a11bbc2b26aab7322fc72e69cdcbbe6d3beedbf232cb0ae07601d32b2ce05",
+      "source_png_sha256": "2d510ba9692886de5de247a764134e7f072a5b005f6e1bd204c3cd99be21bb6e",
+      "source_json_sha256": "47bb7bae822bde8dafe41acc8dacccf7f1607d670fefdaecb3551a942b506f6f",
+      "review_report": "design/quality/review-continuation/U3D69D.json",
+      "review_sha256": "80ec9eeb15d5bc12dad59d5cae953c4d4360ac964aaf9ffdc0e757bdfa5406c6"
+    },
+    {
+      "codepoint": "U+3D69E",
+      "geometry_sha256": "a5cbcdeddabd7b9e3459784c348a5688fe8131d818760a73650557052e6609f6",
+      "source_png_sha256": "038b52585966f92bb96f52e8fa6a00c07ee8c734ba519fc667f1314e235fd3d7",
+      "source_json_sha256": "77bc4ab76db6d272575f59a1420fa4a120db62698c73108db52f6f469f1dd671",
+      "review_report": "design/quality/review-continuation/U3D69E.json",
+      "review_sha256": "ab65ad1c83ba35b52f14af2605940e38bc61ab0b532d3aafabcbc29972d5e208"
+    },
+    {
+      "codepoint": "U+3D69F",
+      "geometry_sha256": "a4f10fda4288404c650acc05058d20232a814f35e152e07518b9793f4a7c0faf",
+      "source_png_sha256": "41719516c9c411fc99325520261267a520b6e7eaf0dae36cbce4c9f7a1866f22",
+      "source_json_sha256": "9302d877e858ec57afc5a689a8085c4fc05e12cdd4e3dc64c03594f3f76f4bb7",
+      "review_report": "design/quality/review-continuation/U3D69F.json",
+      "review_sha256": "dd949ebfe07d610db695a41a9a1c6e3c87affd4d2dfa39cadad75af3178b0e51"
+    },
+    {
+      "codepoint": "U+3D6A1",
+      "geometry_sha256": "7687c36e08fff9434135f2cbcea0f7e50248f362918e8693ef442266feb441dd",
+      "source_png_sha256": "095240c0cd300585ed7cd669f795fa51d28a5db5e22ca0570ec333496947dcb8",
+      "source_json_sha256": "0dea827dff63f213bdbd93a10f635d182a559e4b9c05cc3209d19b3a9900b938",
+      "review_report": "design/quality/review-continuation/U3D6A1.json",
+      "review_sha256": "47c93f60e5a99aba24fba8271f06158b4d1ca4707188c986171424a0729b81db"
+    },
+    {
+      "codepoint": "U+3D6A2",
+      "geometry_sha256": "c5189d9551f4f87edc12ddd1ffba12cba76e48296ba93b3e7a94f32bf0c0b9f6",
+      "source_png_sha256": "c79ed5c4d36a12a779ab7d91e8ebacd11ad76c9a4048c8ce538094b1ea726079",
+      "source_json_sha256": "daae171dcbeb56f9aa3689441641206245f31a02feb4b965eaca4120521e2166",
+      "review_report": "design/quality/review-continuation/U3D6A2.json",
+      "review_sha256": "0c6783806f73f0817f0b047a7f7517b479ff9308940c414ac9ce66dc7b2ae277"
+    },
+    {
+      "codepoint": "U+3D6A3",
+      "geometry_sha256": "dce5e12e8fa5c358f24bff1f9592e4047822bb0b02f737a27a8c54d8628e02f9",
+      "source_png_sha256": "205a4bb44fb6e373be3b29beb1dea3806a7a3bc569c402509ef8730c80eea8be",
+      "source_json_sha256": "c2354368e136a87f61322bba82d15fa36a34be499b0a8ac7b2bc302314e0e5c2",
+      "review_report": "design/quality/review-continuation/U3D6A3.json",
+      "review_sha256": "838e40ae26bde8a08ef5c62230e9171e61078c9c9d2c7a85fc1f59508c92afbd"
+    },
+    {
+      "codepoint": "U+3D6A4",
+      "geometry_sha256": "f31c3de62fa2bfaef0dda6b21e10e476d16890677276ed6d06a872b6cf7f8f55",
+      "source_png_sha256": "a3c9d33f357fd142e06f5c8e81d0da8777ce5f1cbd3a0c17db50cfccd1a3ae26",
+      "source_json_sha256": "3a76c4e7e88d2913c6d5524d310ddb73c82183c6e1ebf846a335e4714d064930",
+      "review_report": "design/quality/review-continuation/U3D6A4.json",
+      "review_sha256": "e33ad51c9bf16020c236d233378aba7f929211abe6372f3851384fb0d8361bb8"
+    },
+    {
+      "codepoint": "U+3D6A5",
+      "geometry_sha256": "9a8e07fa86c3e67a8ac906c5749e4ab97517dc17e8f80717c581a74c0dd32258",
+      "source_png_sha256": "74820ae903d84f4ac8b1fdc234ff929c7113c0db9818236522e0503cae931a4b",
+      "source_json_sha256": "931fabffb5e8832e0201877f8830e4c0f25861b27681672121e49c5abdb06161",
+      "review_report": "design/quality/review-continuation/U3D6A5.json",
+      "review_sha256": "ea83908e817e24b54beb2043d32022263ce85a267e90151649ac1fb5ecd23576"
+    },
+    {
+      "codepoint": "U+3D6A6",
+      "geometry_sha256": "340a2be26766a73d4685928aee0747b6193227a64b359081a233d1ff735da3d6",
+      "source_png_sha256": "835d29de2c8c5202a5e20467bd814b4f60e4c407ce084a630b40cc55845d5e9a",
+      "source_json_sha256": "8308ef82d23e1c2a2d2aa106e79a981a3b18ed75fd16c0c2b94dc68758937b4d",
+      "review_report": "design/quality/review-continuation/U3D6A6.json",
+      "review_sha256": "3afd31b0615964e67f692df17db7bdb186737a37063efcc7c60b09b4bbb84a25"
+    },
+    {
+      "codepoint": "U+3D6A7",
+      "geometry_sha256": "76e211f5399c17e7696e155ecdab75e2942fb1963f34a89b676ed7c5b928a34c",
+      "source_png_sha256": "724110b2341d38cc20a0196ca511bfe1bc8385e28dedc8283aaeb6ddd5657c1f",
+      "source_json_sha256": "1fb607071b85f6ac5ab917a3e1d4cf3798e6af3fa85e73a2343b94e6b1e6e744",
+      "review_report": "design/quality/review-continuation/U3D6A7.json",
+      "review_sha256": "be2844b7f745c0ad0b89b6b4ce70f543492b923822167ff93bbf16a6fd1c352d"
+    },
+    {
+      "codepoint": "U+3D6A8",
+      "geometry_sha256": "1f862bd741cce50df0d527056eddededf950054fc0a90a387a6f85e4d53f2bf6",
+      "source_png_sha256": "ff43a0212b6af2d80e73411b551b33480c1584ffbd336bc4703ba82c77540a38",
+      "source_json_sha256": "ae321397bafb1c7a5075b98ff077ba0d344264f2f6dad47f1094aee533a05c98",
+      "review_report": "design/quality/review-continuation/U3D6A8.json",
+      "review_sha256": "8192de754c0bee1306c2fc47743a331e447a5fbeb55e29b8db2ae418614c4a43"
+    },
+    {
+      "codepoint": "U+3D6A9",
+      "geometry_sha256": "6b67a1d0585d8b6deceb41d7d1841da24ed5cc8fc5529a7a6232e583fb1bd4d2",
+      "source_png_sha256": "e4b74006d39048934d13231ba0a29d47b1a5af29c5706f915c1ef07cbd605e8a",
+      "source_json_sha256": "253ced5c9ffac3bec355d724c22076633431c28a01dd3adc07000d6a38435d6c",
+      "review_report": "design/quality/review-continuation/U3D6A9.json",
+      "review_sha256": "4591ac152221d3bac029aee8b1f67a8078837e605b2d7595b53a0edade97eed7"
+    },
+    {
+      "codepoint": "U+3D6AA",
+      "geometry_sha256": "315781e0566a9f91360caed9372c9033055212f73b45014a8cd38f391cc14fa4",
+      "source_png_sha256": "3bb01bfa43cf28ebec6775ddcd66481d1386b29c7671caaddb1bc414ba495694",
+      "source_json_sha256": "8339d471f984ca20879abf8ce2d1eed18923e5f21e4e403784c2c7c24c2a6bc2",
+      "review_report": "design/quality/review-continuation/U3D6AA.json",
+      "review_sha256": "1ddbf3f59a15b8ca988a18aa5d7cb0e99ff33b90de7c9cdafdc095f216cc6623"
+    },
+    {
+      "codepoint": "U+3D6AB",
+      "geometry_sha256": "8859dd7938c8e9f2fca6e91439c081f601b9b98f92481170079f0789b6899e59",
+      "source_png_sha256": "f0cbd93d5ed9773e2580187c6013f72b1b96d60d3bbcfbd65daf8680bb8976ac",
+      "source_json_sha256": "6f78b8e3220c041bacac00f66e377078cb7eb687291f08d57ae5156ea349cfa0",
+      "review_report": "design/quality/review-continuation/U3D6AB.json",
+      "review_sha256": "36f193ddf7c9595ba3daaee734654f6994f0cb531765ffdb04af3f0fce82913e"
+    },
+    {
+      "codepoint": "U+3D6AF",
+      "geometry_sha256": "459cf73f5662051012a004782e87784fcaba2eba56584f2b879f3f0cf22664c8",
+      "source_png_sha256": "32bd0ef0b36fabea04422f7080a888c59c7322e68b79c969458ed2c751c97657",
+      "source_json_sha256": "45a43d6ea5c4d29b5699af8242d20ab14542907b8162d495b3ecf2fc9949a09b",
+      "review_report": "design/quality/review-continuation/U3D6AF.json",
+      "review_sha256": "3463428e1a341ef9cff6b4b03f8ec50687606fd15f76db1706aa2765ae0a0045"
+    },
+    {
+      "codepoint": "U+3D6B0",
+      "geometry_sha256": "e436db13f48fd217f2153edac790bb620abf704c70b5897142bec2daaaee9b42",
+      "source_png_sha256": "bb8b20dd886055e2f1e62486aa42dae2a554d23d6285266a0d71d8cb8185bbe0",
+      "source_json_sha256": "481be796449bf8aa98b9a32c32aa8e6dab4e9c07d133210d06628c03b3f82758",
+      "review_report": "design/quality/review-continuation/U3D6B0.json",
+      "review_sha256": "4577f9661847989f6679210ebcff684cbc23605d772384aeb3246c9ed123143d"
+    },
+    {
+      "codepoint": "U+3D6B1",
+      "geometry_sha256": "63dd34fb965631ba5ccf0df55608d14a20a47dfc5d5f4a8c741e7e69b03565da",
+      "source_png_sha256": "a1b25668e957745f8f633ce2b3bddd5611de79f364875a9b83516acf60131261",
+      "source_json_sha256": "13a3df1e83573320b8de8de8b5ba4e55cea9af3e994afaa8c9c4f6d5dc7ccf19",
+      "review_report": "design/quality/review-continuation/U3D6B1.json",
+      "review_sha256": "f0a8d0999d2f5145e32b6b00c233b9eeb608f03f2e4f058e01c66ab7033ff4fc"
+    },
+    {
+      "codepoint": "U+3D6B3",
+      "geometry_sha256": "2cf52db31978e6b6ec6ef80f4797ea17b787c86ba7d9fc51359b476245101229",
+      "source_png_sha256": "d0dcafa270a0577cb7e42b86fd866e4120cd8bd70131f45ca193532d42127c89",
+      "source_json_sha256": "c6c3da305a2b42d117a687c2bfd49fc805aa37fdeb610b87f24e670de304eaf1",
+      "review_report": "design/quality/review-continuation/U3D6B3.json",
+      "review_sha256": "f27dff17c13200a0c5d401c1b50b1be98112b1fc235b23ae9d0ae4f9688b6e52"
+    },
+    {
+      "codepoint": "U+3D6B5",
+      "geometry_sha256": "8c5848e8198886b60ffbf15023f6b20c89bae7b8fe93fbf8b323bdd5beb802a7",
+      "source_png_sha256": "9127272dacb780a53989a242100a12a386c9af8b711691b861e4a3220bdd4f78",
+      "source_json_sha256": "c012a074c1ac711e56cf88a83b705e5b4ea991df6078c28af4fe98996add732f",
+      "review_report": "design/quality/review-continuation/U3D6B5.json",
+      "review_sha256": "6d6ec2ec69b714609816f4247430afda20762819a06e601df11bcc832e1c3534"
+    },
+    {
+      "codepoint": "U+3D6B6",
+      "geometry_sha256": "92cd758f4e38fd1408d374dd7aff17681d33ad899fe13174872bfd369a813d30",
+      "source_png_sha256": "8736acafa1dad1283fb45404e643a14113fe5c08b0838554f1537c0278248e5e",
+      "source_json_sha256": "e90869db6938ee456569a5cf1f8125421d3958277a3ef79584a081901bdf882d",
+      "review_report": "design/quality/review-continuation/U3D6B6.json",
+      "review_sha256": "a7e5e5a56c11a5242095a2125563cd5344fe32ded8432a8a920d601724e3a442"
+    },
+    {
+      "codepoint": "U+3D6B7",
+      "geometry_sha256": "3c3aed91e9481a59f189278c2a0df75e2da217ef5ee4fc891e7c8bf94be4cd78",
+      "source_png_sha256": "fa7ac28c003c457f15e715a216bad88dce1f73fa3f192f3cc6b147e81886c8d6",
+      "source_json_sha256": "9f1a05e3d14929471abfe248e8a6c472ce65292547f2a9120c531f3a8fab8b0a",
+      "review_report": "design/quality/review-continuation/U3D6B7.json",
+      "review_sha256": "94db64d77ad458098046eca47339cc54c38092c3aba450d0ffdab5ffae97952e"
+    },
+    {
+      "codepoint": "U+3D6B8",
+      "geometry_sha256": "581e059eccfee30aa5c9a766831e1b7780b70325ac2a2d06b159696849fd0c57",
+      "source_png_sha256": "e562a3b87df849b91d093bab5a65fbc9717ee3790ed2b8c620511567490eebc5",
+      "source_json_sha256": "fa39ae5cc2383267800a905604658ea8c6180970175077433a21ec422a44338c",
+      "review_report": "design/quality/review-continuation/U3D6B8.json",
+      "review_sha256": "bce0aaeea63d2cea54f808db285af5b17aadcaa59e61988615543cd29b4b63f4"
+    },
+    {
+      "codepoint": "U+3D6BA",
+      "geometry_sha256": "ab466738095a06f4e48c303bf57aadf89fa620236b95f40b7b81935454453378",
+      "source_png_sha256": "4b73a91412aebaa429e3425f17f82e16d116f2b26ac82a41738e72368fad45bd",
+      "source_json_sha256": "e9c23955f7e0cffbf5724bc5e4dfb61d8e774c1f1794d2c13ea4028dc9787362",
+      "review_report": "design/quality/review-continuation/U3D6BA.json",
+      "review_sha256": "b1a24a22b2a85e7daf5c98fa73f837a5133f21704d2ef4112954e58f63c8bebd"
+    },
+    {
+      "codepoint": "U+3D6BD",
+      "geometry_sha256": "10acc24c5b44b29be5705886c96b10e8bf7185b8c31317f7c98fd03170a2b76f",
+      "source_png_sha256": "f8f30297d7509c4aa7722095fc87bfdfe968da154d692a90a416d78949dce24f",
+      "source_json_sha256": "db45176d907b136e8f744132902dcef269e4ba8a6042b5ab6e1fd9dc93343a1f",
+      "review_report": "design/quality/review-continuation/U3D6BD.json",
+      "review_sha256": "0ad5392411086dc08e54d34b608c1e57f8d13af431c7644cbf0c9cee6f98a020"
+    },
+    {
+      "codepoint": "U+3D6BE",
+      "geometry_sha256": "8d1051ff7276e1cbd8b0280ef277290731b55c49cb84a4c7249cf8d59623e364",
+      "source_png_sha256": "aa14e877e828c49c6b967791b331a650ad50a877e8451eb05761ee802dfec43b",
+      "source_json_sha256": "60dbeb961bc9b27f47047c842f69492091a2afba3cccfc682bc39c8b13c07dd6",
+      "review_report": "design/quality/review-continuation/U3D6BE.json",
+      "review_sha256": "3a105d5b844ccd003dce4010d52508b47c1574224f060029de558980d34b3673"
+    },
+    {
+      "codepoint": "U+3D6BF",
+      "geometry_sha256": "3f52d4961df0f6400255548c423c0f0e6a5ec1e7804ae1d62f4be42847897f91",
+      "source_png_sha256": "b544d03e8614914429559bbd03d959eba3fa66034b56f822961cf32c93eeb9eb",
+      "source_json_sha256": "e43bcba42c961ff43acd10b2f94e9597c698c574e902aaad5ddec5c6430e4bec",
+      "review_report": "design/quality/review-continuation/U3D6BF.json",
+      "review_sha256": "860c3f2054e4d079c220a7f61eae59533a7769360a9a0608051750760425a37e"
+    },
+    {
+      "codepoint": "U+3D6C0",
+      "geometry_sha256": "093174d6c1992342beea46a8b6590ef4e74a6c839f411ec0a227fc0e0b64f122",
+      "source_png_sha256": "fc0fefaf2501e4d2c6b6a05b73f13f745ecc637f4ce6da795af210123cab8467",
+      "source_json_sha256": "6c864258c4cb14c405e7a5cdf39e2f92d8f7c89cb590d1d8110ade7b396323d1",
+      "review_report": "design/quality/review-continuation/U3D6C0.json",
+      "review_sha256": "e678c4d6dbd9cbe255d9ddcbeb7a0cde80e840e42330dfe9f9fc2108c33f2aab"
+    },
+    {
+      "codepoint": "U+3D884",
+      "geometry_sha256": "1b6bd12ab10d98d20f4a7824489782f360f2d2ea0dec27f242c75f2de5df8e14",
+      "source_png_sha256": "31993febb754d7d41a1fd8c132230b0d135ccb2d8d436f81690b42e505d1f4f3",
+      "source_json_sha256": "925797810c7f7acbdf891e26fcef835bcc6dba83f9cd72901c0396317deb7f4a",
+      "review_report": "design/quality/review-continuation/U3D884.json",
+      "review_sha256": "2f873e5860d8e6798f13edc43c0592b0fe1a6f0c5f6ec6a5a806d722481a4a8e"
+    },
+    {
+      "codepoint": "U+3D885",
+      "geometry_sha256": "d860f5057f6090d0fc9db5767f4bb788f5cf238bb1b3ab56ab949da02de8c7f2",
+      "source_png_sha256": "28f47cb9b36cbb5f4ca626eb9489cb3318cf645c47fbdc1ce2506044b91891cf",
+      "source_json_sha256": "5ecaa06b6e21b37bc0c8d428d33dcb02e2e77d3f3cc3c41735aed56d470a7b44",
+      "review_report": "design/quality/review-continuation/U3D885.json",
+      "review_sha256": "af64f2f199ce7d080741cd66f95ba239256eac9965535e7da97b7d653637580c"
+    },
+    {
+      "codepoint": "U+3D886",
+      "geometry_sha256": "47233fee51408c64c068855712ef4cf3c6920fe534815148448934e127116222",
+      "source_png_sha256": "8d9969666efe897d9483d8d3a979e103762db2f69728db69e17915e7df7a6a65",
+      "source_json_sha256": "8a6222871b2cedc68d11866828c11150b899f9954508355d4cb2028cddcba8f7",
+      "review_report": "design/quality/review-continuation/U3D886.json",
+      "review_sha256": "dcf0afcefd9faa25d6c257753168e7f50a3dc967ad6fb812528f66b54e887ddd"
+    },
+    {
+      "codepoint": "U+3D887",
+      "geometry_sha256": "19ada67506a3fda2d5789e83eabfc49ae49d25d39ab4377a8cc2b74ab26b485e",
+      "source_png_sha256": "d72b9e3a4d72f1806fd5fd8747143be0abd8a10845eb14a4fd8f21c6bf3abb4c",
+      "source_json_sha256": "8fcccfbdeb6b6ee46dafe4626d572738ad6a1d7f561e59e5dfc590575aa9bcd3",
+      "review_report": "design/quality/review-continuation/U3D887.json",
+      "review_sha256": "0c9ab1507f716a63d98b465287d416bb90290cefec4ed6507cf6b6b5df1ad89a"
+    },
+    {
+      "codepoint": "U+3D88A",
+      "geometry_sha256": "08cf67ff40a625f2bb4424ba99e5242aab499e61d17cde3c76867373b8e70890",
+      "source_png_sha256": "65207f8d92072191e1f3c1a02ff0e6f9f2e2c1e9c8e6024e16d0fb544519d09e",
+      "source_json_sha256": "612b27c55937d317cff96f5f7742d467413b2f144bd7854e21769080a09dfbc6",
+      "review_report": "design/quality/review-continuation/U3D88A.json",
+      "review_sha256": "1e46094b94b8352762374a0d97d37a1d048c998b5442360ebd9d55cf165a49ff"
+    },
+    {
+      "codepoint": "U+3D88C",
+      "geometry_sha256": "db19dbea88d0e6cf3daae068096a8645f4e67a23cacc744f5823f0001a4a75f8",
+      "source_png_sha256": "38addfe5034db6b129e7e353aad40748b14ec0fad7024e5ddc5faf17dde1879c",
+      "source_json_sha256": "7ed23aef2476b8587501286fa7552555333a93242e2c325ebbac237ea52ceb12",
+      "review_report": "design/quality/review-continuation/U3D88C.json",
+      "review_sha256": "de1e4e9300faf3fe3083f5aeb851d503eedd3c5ca7a3fb391b9016f23c640266"
+    },
+    {
+      "codepoint": "U+3D89D",
+      "geometry_sha256": "33de837299029918f67c1152e56f5d1a88c6a819e58558b74f795e2d1b3f2d68",
+      "source_png_sha256": "ed7ca28735661e4ebe5b2d4bbea506c696590d5eacbfc4909e52202e7ddad8a3",
+      "source_json_sha256": "40c85ee1d8bc8268d1fcc1a53ce3b6420721bde1c69b3828a79421603224671b",
+      "review_report": "design/quality/review-continuation/U3D89D.json",
+      "review_sha256": "acab70e583106dfa772729fe8cb4f9c1336dc98a0d5915dd4e2daaefa3c34a06"
+    },
+    {
+      "codepoint": "U+3D89E",
+      "geometry_sha256": "99b122fa8e5c12fc06a852808d6786fb350485219d82e05206a143273d4f023f",
+      "source_png_sha256": "d5dcb9214748dce8634fce0dbff1ccb3c4fb9699c06ceaf1d615cb71443ad62e",
+      "source_json_sha256": "6522c2e8a10398328fe953cd5b5051299fd70558b55b589641167ca6c29ccf82",
+      "review_report": "design/quality/review-continuation/U3D89E.json",
+      "review_sha256": "727745d8dced511f589f2226ec708327c36e326bfab2f92efce710fc3abc0ba7"
+    },
+    {
+      "codepoint": "U+3D8A2",
+      "geometry_sha256": "c29283b3120d02027493bc02fd79f4409530b9508b7f3c45fb941e81d0da164c",
+      "source_png_sha256": "047b324057b4f813aa5e4fef1335dc5bab9c7a9b82fc7132d7e8760ed13c3e00",
+      "source_json_sha256": "36399e57f81b1baa825fd4d40be75ac77df990a0852a9ba66a2c45c7d7d3a212",
+      "review_report": "design/quality/review-continuation/U3D8A2.json",
+      "review_sha256": "f29042efa0df6e349883055b2cd9cb845e572097225be15caaaadbf1fc318f91"
+    },
+    {
+      "codepoint": "U+3D8A8",
+      "geometry_sha256": "f43a193c3130313fb026355d62e3a1aeaea52089f341c9ad3d69c46ff209b359",
+      "source_png_sha256": "9addbcf48070c31a3b31d9fac0972fcf18f63778451e2d9724cc5351c6407e52",
+      "source_json_sha256": "f09dd3a2dbe540b5d11b5d9c0e6e5c11bc8171380b2bfe122ca860e67da65c05",
+      "review_report": "design/quality/review-continuation/U3D8A8.json",
+      "review_sha256": "8702df63903418de87d1056e98435b4de1f72bbf371bd5d2c27b9265925846ae"
+    },
+    {
+      "codepoint": "U+3D8AD",
+      "geometry_sha256": "bb355a52d86d6429280307639f12feba002b58052d9314f01c1acec08ece007f",
+      "source_png_sha256": "b7e1ac29942b9d109002b5226c017e66a6a01792224b0cc4a9f2900a468daea9",
+      "source_json_sha256": "a1ca47282f4ed55912a5014f99bbf070d654ba8c3551cb9df28f018d4301ad6a",
+      "review_report": "design/quality/review-continuation/U3D8AD.json",
+      "review_sha256": "cc24db617724f5c89fc7cdfcd6c4ff0c16cc0d8e991a0eb10374c5289906b891"
+    },
+    {
+      "codepoint": "U+3D8B3",
+      "geometry_sha256": "492e06b7051ff851403816efd2ac46ff8bcf6920b2e825bf85e20788b0e9865e",
+      "source_png_sha256": "c5df70ef892b1d4303b8b237a219cc69f30bf5fff0c627194d9f1f107cad9e8b",
+      "source_json_sha256": "313c813fff41e7151ffdf3af55a37e666d9f04b494046b8905a68c4884c77913",
+      "review_report": "design/quality/review-continuation/U3D8B3.json",
+      "review_sha256": "d17b92456e24433d0cf6441a6b19db6061f2428562d4770ab9535e1c34886e04"
+    },
+    {
+      "codepoint": "U+3D8B5",
+      "geometry_sha256": "98395a0555076c80df3e2b7500af89fad560bd7019fca297a8d85253b8a16cee",
+      "source_png_sha256": "5ef9ed41ad8e8da650a6863d4384b3e8ae640537529e1d4b1be3fc96a52e5f24",
+      "source_json_sha256": "4e1094139c11e017760b14cd6ed02380a416d1adbe1b22cd48666bed16acd3de",
+      "review_report": "design/quality/review-continuation/U3D8B5.json",
+      "review_sha256": "d9be3519b84c62e63d66335d34727ea9e4d09d9c9c200275e6226d30dc3bc2c4"
+    },
+    {
+      "codepoint": "U+3D8BA",
+      "geometry_sha256": "e9b39f876dc65783747f939fad2405486ab5a41779ff18e24c8beac529b99f63",
+      "source_png_sha256": "594853f458deadfb5f1c4c57a9f0d7ba8351b83590357bdbf40ea8593942794b",
+      "source_json_sha256": "351f16348f85bd71cc7448b6c56e4da4bd30c779eb9d6ffd153cbbb33b7f1728",
+      "review_report": "design/quality/review-continuation/U3D8BA.json",
+      "review_sha256": "26f71dccb8804f962d3afb302d11b1dcac4e3d921f9a8a7ab830d5b013213df0"
+    },
+    {
+      "codepoint": "U+3D9C2",
+      "geometry_sha256": "3182d723a4e43db98c0fed6774e24ceac0b285afdfea44b0d1efc1a7bae075f8",
+      "source_png_sha256": "7aea4e565413b8c52a09158f88e972680f3fcde99d01a42403e60033b6189821",
+      "source_json_sha256": "e70487b48c725eecd23eb4944426e1ef2c85cef203b634c1c4a1771b985a08fc",
+      "review_report": "design/quality/review-continuation/U3D9C2.json",
+      "review_sha256": "d1d680ff6c71fe6d31894422b0764720c69e1f624c358f5f4c2d4229ac07f5c3"
+    },
+    {
+      "codepoint": "U+3D9C5",
+      "geometry_sha256": "890e5937f165c212a6398fd3c4153e7a5bb0e8f09c489c7d1bcf14766a780abc",
+      "source_png_sha256": "a173f6bc8135908741a63ec337389e0588f7f11579c246a66f55ef839058ec5d",
+      "source_json_sha256": "322ca2c50139ad96f391d84ae5e78dca6225d31d03272354c7fc389381effa07",
+      "review_report": "design/quality/review-continuation/U3D9C5.json",
+      "review_sha256": "3141a7728fdf0b30c8acc4e03dc9a3067426f4d1cf28927bf43b0225c7b85780"
+    },
+    {
+      "codepoint": "U+3D9C8",
+      "geometry_sha256": "1b35234f2a43f7e43816d111554e9c72b7e606b87c85537eb17bf15ad30468ca",
+      "source_png_sha256": "64fa386659b47584752810808a6954a9db5c68a0d9082fc6cbaa7ca48bcd12a0",
+      "source_json_sha256": "a631e6701b6ea4b56da06acea9a4a109b4bf2028999883475d08ec9426487152",
+      "review_report": "design/quality/review-continuation/U3D9C8.json",
+      "review_sha256": "183123b29fcd1f3d7da2281c9a9d63aead394ec68ba168aeb96038f5ca7e4aaa"
+    },
+    {
+      "codepoint": "U+3D9CA",
+      "geometry_sha256": "d4d9c47973766116bc9a25b24bb52c76902ba15282b710ad3d16404f567c567b",
+      "source_png_sha256": "bb6f66d9409074721e1854e8b2e15a3c38fd43dd6ea191dee831d1e1011f4b59",
+      "source_json_sha256": "e7fac218a8dfea94d929e8d46df861da4d1d62d34113fb2062d1537040469c9c",
+      "review_report": "design/quality/review-continuation/U3D9CA.json",
+      "review_sha256": "f66fda56f3a974f3ab5d9ddbe147355d0a8a8bb032224f6d4b64998b829f83c4"
+    },
+    {
+      "codepoint": "U+3D9CB",
+      "geometry_sha256": "a8addbc5d59a62654f89001edff5e17806b15a785bedebc10843dfb1a2cdc45b",
+      "source_png_sha256": "c3e3b984dc773704338e372a2d45f3cff1d810154064f3f684331d11a2cbc61c",
+      "source_json_sha256": "b1b4ad52bfe4fec61cabe09c8e636273cb9edad9c71bfa754aaaae8a2f0cf272",
+      "review_report": "design/quality/review-continuation/U3D9CB.json",
+      "review_sha256": "0b0fb311e05c5069a4a74af89485ea7351c2de713263f416364a8fb0c0169f6c"
+    },
+    {
+      "codepoint": "U+3D9CD",
+      "geometry_sha256": "bf7db3329bfd920dcf58ac99f79aa44417c242ceae1595a36bbdc6dd734f21b2",
+      "source_png_sha256": "238b767b6da10d8638667b60d9bee3d0acb7c2bbf89de86f9b80243ee81c088e",
+      "source_json_sha256": "b3e7f68110d1ebce422ff7f2f50543e47674171fd963ad6d86e0dba579c853e4",
+      "review_report": "design/quality/review-continuation/U3D9CD.json",
+      "review_sha256": "dc9154171559887eb06e16d750a7852448f7cdec93b4f557c6438eaf78f5636d"
+    },
+    {
+      "codepoint": "U+3D9CE",
+      "geometry_sha256": "0c4a71ce583b021cca839283a65e9d595d406efd564024690cc82f446a91d38c",
+      "source_png_sha256": "c2f9052bb06deeca7425058409e261baaa9363758b47a517db467d43137b64f7",
+      "source_json_sha256": "5f79f14aee29abbd6c112c56cd540002365b00819bf49962232e9e4346cca936",
+      "review_report": "design/quality/review-continuation/U3D9CE.json",
+      "review_sha256": "a3af0a101b7326ad1d2bd6856ab694642a4c871199c20a4994affd348a85db13"
+    },
+    {
+      "codepoint": "U+3D9CF",
+      "geometry_sha256": "da0f90d143fef7a5de16847ce4410015a596ace9f259d513c4e9daa9d8766d28",
+      "source_png_sha256": "76a689e4539ee26c795aa6d5704e2ba8d7330f9367e3a70ee6c42b2bd4ab60c1",
+      "source_json_sha256": "bb33d9f7e0eaef3b04faaa287dd3f54859435b26f1d39042ba1cd886b873c90f",
+      "review_report": "design/quality/review-continuation/U3D9CF.json",
+      "review_sha256": "f47a23ee1065e672f588f57e9a7f2967c7f2284d321d7c5ef0212b5df9081aa6"
+    },
+    {
+      "codepoint": "U+3D9D0",
+      "geometry_sha256": "3e72cc837c154f5b906c341155426f7bb511c47c81353dbea26f8c547890ac48",
+      "source_png_sha256": "120d7228f70a6ab4fcc07cd0ddde91a885fed733fa987dcc2f740bcd75f050ab",
+      "source_json_sha256": "9ae4c0afe40fffea6326663c87cb5e1b77e6111c0b87bedcefab9091fe21e127",
+      "review_report": "design/quality/review-continuation/U3D9D0.json",
+      "review_sha256": "676706065c9a8f3fe83515724cf2a68e51ec7b03fec64fdf9b0b3ae768df486e"
+    },
+    {
+      "codepoint": "U+3D9D1",
+      "geometry_sha256": "cb6250960cf2d361ee3de3d8a82d3e02d2c3922b8be49766f386e4ce86197cbc",
+      "source_png_sha256": "912c94988920b60515dfbadd0fc525bf4ea23c851b594ecc0f5a1b322334a58a",
+      "source_json_sha256": "f5c4c5e7abdd25dc6fc887d97fec5c9a2721c75dd56af149e700f1854d408fab",
+      "review_report": "design/quality/review-continuation/U3D9D1.json",
+      "review_sha256": "8ee84166e447a2c103000cc12724ad648eab0dea1013151c8858b812153ae91d"
+    },
+    {
+      "codepoint": "U+3D9D7",
+      "geometry_sha256": "0abf87be0b6946fa96bb563ddacf9ce748c8cd59009124df8fa2efe9a5c35c44",
+      "source_png_sha256": "891990d7aeaeb504fe726db04bd4845e7f1b48905a4683e4a48d6bac59a33029",
+      "source_json_sha256": "882820ce9844167dbb180518813d9924d956148b4cf4837c63d59b1a284adb0d",
+      "review_report": "design/quality/review-continuation/U3D9D7.json",
+      "review_sha256": "c275e68c476c8a15960661561f1061dd935626a2e0e2d3283285531a7c8a0136"
+    },
+    {
+      "codepoint": "U+3D9DB",
+      "geometry_sha256": "9f0505dd396e8651cb8294d42728ad73a54bf860c4cbb082b49fe80123e45550",
+      "source_png_sha256": "862d8a3ed77fd9fcc391889342eedff8f8ae1ffa5bfa5b3f43736e84a02d4de5",
+      "source_json_sha256": "0034e8ccd944f7fa58dd8442b88184a1a81e1984f58cf6868bad705af18fd770",
+      "review_report": "design/quality/review-continuation/U3D9DB.json",
+      "review_sha256": "140eec8da4982781ac733e1160e147fc7025e02e88a381a8e677f2ea13349dfe"
+    },
+    {
+      "codepoint": "U+3D9DC",
+      "geometry_sha256": "40d8d005bc3aad8c3e487e9afefd71a31149c22ca4e7f6acb78daf27df363c15",
+      "source_png_sha256": "ff9cb4aec93b5057e8d38c37bbeb0b0c24a1c19500d8adbafd68e6287171ac9e",
+      "source_json_sha256": "d83342fcda09222fc38a74aac225bb6c62ceb94781e7185aa8b07ec9012452fb",
+      "review_report": "design/quality/review-continuation/U3D9DC.json",
+      "review_sha256": "348bd4d1dd29dbbe6e44b2106a37fc6744ca7c84e81a6c4ebdc9352de97fb6bf"
+    },
+    {
+      "codepoint": "U+3D9DD",
+      "geometry_sha256": "e304368d76bce9c59fcf9314ea1b640c17d54ef5e16c3c6b8086cf82e61ded1e",
+      "source_png_sha256": "aaa1315e0791bd26f427916e35895e8ca682795071a8ef273d3a0f80d525d9dd",
+      "source_json_sha256": "3f9ba49e7df235a7b4811cdfd8a631a343d8dec9d729657fb161b92ea6624a36",
+      "review_report": "design/quality/review-continuation/U3D9DD.json",
+      "review_sha256": "5e9fd3834bdecf0cc6e322b94907dc8abf1300c84711eb48ce30e76f635fdd2f"
+    },
+    {
+      "codepoint": "U+3D9E2",
+      "geometry_sha256": "3909bb6f99e0f2bdb36c670ff9114888c2b6de92e831340cf1644a975f948ee2",
+      "source_png_sha256": "67bc4b35aa79b9fe9decfc7c52f995b23cdef2c83fc4e5050e9a94d80aef60a2",
+      "source_json_sha256": "2de5ea89f1eedf1c67751a6818af5b8bd09a59fc0f0080cfdd8a24d219b5edc3",
+      "review_report": "design/quality/review-continuation/U3D9E2.json",
+      "review_sha256": "59a463048cadac353e8cd5b75659748359c61ec9560bd0c2fcf4cb11518a5f7b"
+    },
+    {
+      "codepoint": "U+3D9E3",
+      "geometry_sha256": "67de898c205893d3bc008a4ad5d2a51c77fbc6ee8f172ef95a5b715405525be4",
+      "source_png_sha256": "69e0d05e28b0e583b0d555c3a35dbf105b7e73038eee65d4f202fee665941adc",
+      "source_json_sha256": "b32fec98b4f157b292c2f4455ef112fbdb5cdff8b9c8aa62086a17abb1c3197d",
+      "review_report": "design/quality/review-continuation/U3D9E3.json",
+      "review_sha256": "7af0590fc8f50b592fbccab80724f512c50af9ee94aee77c80f9cafadb1d9a40"
+    },
+    {
+      "codepoint": "U+3D9E4",
+      "geometry_sha256": "b9f8e96c5bf7372765e00c6f378621c52b6a61f756820527d90c4fa535e8b848",
+      "source_png_sha256": "cd9e84fa0368c8c0762677498b6d00bc56873d4de06b1338e49ebcc95cdb2ca1",
+      "source_json_sha256": "effa5fa026dea52aa7f69c1c31ccf4de7e624d7bd665fcaf628af1e43d7ad254",
+      "review_report": "design/quality/review-continuation/U3D9E4.json",
+      "review_sha256": "1bf24202d7084b22e1c63d72d912c192c00f17be4ffb9ab6bfba6441ca2ffffd"
+    },
+    {
+      "codepoint": "U+3D9E5",
+      "geometry_sha256": "94103bced330ea04e85998a9249e63bb5bc5dff97fc7104398ad53b9751fb442",
+      "source_png_sha256": "f35df8df9ebd3a2b1717ceb94dfdd0b4a46e5e2f29f4d93ffbb256a72c2b5917",
+      "source_json_sha256": "0940b770b9a29c8fd6c3154586eb4edfdd35416566d3c26e6ccf903a7d94a99a",
+      "review_report": "design/quality/review-continuation/U3D9E5.json",
+      "review_sha256": "c7e45843b3475fbde559556741ed1b50c096123df7a97c79b3e3eef5ad2ca168"
     }
   ],
   "errors": []
