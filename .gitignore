@@ -1,0 +1,9 @@
+
+# Local SVG builds
+build/
+.venv/
+__pycache__/
+*.pyc
+
+# Local incremental SVG export metadata
+.export-cache.json

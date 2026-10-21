@@ -1,0 +1,27 @@
+name: Build font from SVG
+on:
+  workflow_dispatch:
+  push:
+    paths: ['svg/**', 'tools/**', 'requirements.txt', '.github/workflows/build-font.yml']
+permissions:
+  contents: read
+jobs:
+  regular:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/svg_font.py --svg-dir svg --output build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PanoramaGothicSeal-Regular
+          path: |
+            build/Regular.ttf
+            build/Regular.woff2
+            build/build-manifest.json
+            OFL-1.1.txt
+            LICENSE-OFL.txt

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "format": "seal-centerline-1",
+  "units_per_em": 1024,
+  "advance": 1024,
+  "baseline": 832,
+  "pen_width": 30,
+  "normalization_extent": 738,
+  "registry_sha256": "1eb247a4c459b7bf4dd86ae29d0825d363082aea6224ebf671540209c3e8d7f7",
+  "glyphs": [
+    {
+      "codepoint": "U+3D000",
+      "svg_sha256": "473933ad97d606e3193a2cf4ecd924af30213b5358000173728be44b9bf13571",
+      "source_sha256": "b782387dc7d9debdbe3d3d2e560522d9c28bba5abf32ca9da422bf4d1ae47533",
+      "geometry_sha256": "9af48932e1aa137023713d9fe8a2129b8ff2d438b2308435872303effd1dcc93"
+    },
+    {
+      "codepoint": "U+3D001",
+      "svg_sha256": "904e7a0c5d0e6a547aad7e99e559cf56f599c68462febeb822924ccfecfab466",
+      "source_sha256": "db4a8b6318d0d62eab864d5f01c503992aca18085c61b516765e46be0e42ee11",
+      "geometry_sha256": "0b03844cd7bff394d632533f37c07a3a7b6c8f6754801e25bdc1169bbccd5eb8"
+    },
+    {
+      "codepoint": "U+3D080",
+      "svg_sha256": "9dc9f728fa1693adb14421fa0b3ab7fe0b1363e5a10d171120bce994b1bc59eb",
+      "source_sha256": "d5b637fd17feae610f85d44cd9e4788b01b0b58bdbf9ebe4993ea38aa5a1a336",
+      "geometry_sha256": "7a308344d53f236431c6db965fef8f22f2a8633a71fad10d3ff3fcb372ad25e4"
+    },
+    {
+      "codepoint": "U+3D12F",
+      "svg_sha256": "7b3743fd72cd61f0ecb38a629ee3cf375da88d0ee68ab644efc154b53fec4fb6",
+      "source_sha256": "7e5685e9d7f4c2cf3f661d820efb71e6ba1cbe845c238e5073fc6a525d9a83e1",
+      "geometry_sha256": "dc17f4659ae491b1f79c625d70855a1f46add2469c94445d97051136823d489a"
+    },
+    {
+      "codepoint": "U+3D1BD",
+      "svg_sha256": "5182b5601073bb61d61ab02e279d4078b4e8c36ad15151c1b9bd4e724af658f4",
+      "source_sha256": "f65291e71064511fe2853ffa7d34729a14a802bd55c39fe466045a61ba8ad217",
+      "geometry_sha256": "bc401ab807730f47b26bf0f4bc7fbb73ca1fd0b47291d559c98ddfd61f39a384"
+    },
+    {
+      "codepoint": "U+3D1F1",
+      "svg_sha256": "af8f87ba15bde065134186f5b0c518466db5b82b091cb33a6e7c76bbfa388f0f",
+      "source_sha256": "13e0bff87e68ea9506810d69e10d98cbec2c9b27117b59d19dd5d158ae51c062",
+      "geometry_sha256": "7b75d1f4525a053465ecd4c1add630ed656292578d2c7556b6c5a2b9e742218f"
+    },
+    {
+      "codepoint": "U+3D208",
+      "svg_sha256": "336173bfb84f73fac3bf7809dbda6d3c189a30e1844a1415c16fd8acf2f66f11",
+      "source_sha256": "9afb502c9c657b61d58e1a688be267acd156e2dbed1366f6d41effa068016dde",
+      "geometry_sha256": "1dc1edd771c6ab8aff2298255af1c15a93a6429ff7443310ee3c0b4516e218ca"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "tiny_subset_roundtrip_passed",
+  "production_regular_sha256": "0e6ea38dcd794bb8078d423ea619f6ee9bbafaebdee636ff2fef89fa2884eaff",
+  "production_glyph_count": 3321,
+  "sample_codepoints": [
+    "U+3D000",
+    "U+3D001",
+    "U+3D080",
+    "U+3D12F",
+    "U+3D1BD",
+    "U+3D1F1",
+    "U+3D208"
+  ],
+  "sample_glyph_count": 7,
+  "notdef_compared": true,
+  "chunk_size": 3,
+  "chunks": 3,
+  "fonttools": "4.61.1",
+  "brotli": "1.1.0",
+  "validation": {
+    "canonical_glyf_encoding_exact_vs_production": true,
+    "hmtx_exact_vs_production": true,
+    "woff2_coordinates_flags_endpoints_metrics_cmap_equal_ttf": true,
+    "two_builds_ttf_woff2_hash_identical": true,
+    "svg_hash_corruption_rejected": true,
+    "unsupported_stroke_style_rejected": true,
+    "incremental_reexport_changed_files": 0,
+    "unittest": "1 passed in 5.134s"
+  },
+  "earlier_attempts": [
+    {
+      "failure": "WOFF2 encoder requires brotli",
+      "resolution": "Installed pinned dependencies in private .venv; no global environment mutation"
+    },
+    {
+      "failure": "Raw subset glyph bytes had one short-loca alignment byte versus full production long-loca glyph",
+      "resolution": "Compare canonical glyph encoding after decompilation, all coordinates/flags/endpoints and metrics exact; output own serialized readback remains strict"
+    }
+  ],
+  "limitations": [
+    "No full3321 font rebuilt; root runs full incremental export and integrates package.",
+    "Only Regular400; variable weights are not generated.",
+    "Strict editable SVG M/L/Z subset, round30 pen and fixed coordinate wrapper; arbitrary SVG shapes/transforms rejected.",
+    "Chunk expansion bounded64; serialized raw merge and WOFF2 compression still scale with full output bytes.",
+    "Whole font byte equality not expected for subset-dependent tables, names, padding or output metadata."
+  ],
+  "files": {
+    ".github/workflows/build-font.yml": "83790d5d5e8b0d8e7dd037d2049a832b083363b7f758aa3bef98ba231a220a33",
+    ".gitignore": "29771cb0587176ce7005608fe1643bc7bab67c1e19f93ee2b473dd44e0e8357b",
+    "LICENSE-OFL.txt": "e81b6564eca2b29417c198627fc843d86067b9230785d2c6344608e3f4cf0719",
+    "OFL-1.1.txt": "3126fa95049732978c4419e97fa17b0c242ab8160c6c721b8be63448058c96c3",
+    "README.md": "3182e23665a5ce93b4a50659d4317785d07da7b8f4f38c2bc45f9a7a365dace1",
+    "requirements.txt": "9c6da839cc5a6bcdde3c51baa94298bdb22de73a3b35f5f8ad0c0cafcd714560",
+    "tests/sample-svg/U3D000.svg": "473933ad97d606e3193a2cf4ecd924af30213b5358000173728be44b9bf13571",
+    "tests/sample-svg/U3D001.svg": "904e7a0c5d0e6a547aad7e99e559cf56f599c68462febeb822924ccfecfab466",
+    "tests/sample-svg/U3D080.svg": "9dc9f728fa1693adb14421fa0b3ab7fe0b1363e5a10d171120bce994b1bc59eb",
+    "tests/sample-svg/U3D12F.svg": "7b3743fd72cd61f0ecb38a629ee3cf375da88d0ee68ab644efc154b53fec4fb6",
+    "tests/sample-svg/U3D1BD.svg": "5182b5601073bb61d61ab02e279d4078b4e8c36ad15151c1b9bd4e724af658f4",
+    "tests/sample-svg/U3D1F1.svg": "af8f87ba15bde065134186f5b0c518466db5b82b091cb33a6e7c76bbfa388f0f",
+    "tests/sample-svg/U3D208.svg": "336173bfb84f73fac3bf7809dbda6d3c189a30e1844a1415c16fd8acf2f66f11",
+    "tests/sample-svg/manifest.json": "6416ac0786380de98b86e9d9861c517cd310bec097eee3ac9d9c5e45eb55cf38",
+    "tests/test_roundtrip.py": "8a2dd6e2cfb6ebf0484643fb084c657aac81de63774bba56be51ee266cd5b29e",
+    "tools/export_centerlines.py": "973975e687e341c82ade035b8e3cda5222e04f76e82ad890acd1f80adf12fbbe",
+    "tools/stroke_backend.py": "6a40bcfdf4d27ed83b13115a7397a0a11245ee7b083960838f23aab35894b06f",
+    "tools/svg_font.py": "e0fa7d544d9ce9027bd08abdccf79c7d324ebd696accb470fe16391be8035c3e"
+  }
+}

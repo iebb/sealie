@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "test": "test_export_cache.IncrementalExport.test_same_input_and_changed_subset",
+  "duration_seconds": 0.009,
+  "font_rebuilds": 0,
+  "checks": {
+    "cold_two_sources_flattened": 2,
+    "same_input_sources_flattened": 0,
+    "same_input_artifacts_not_rehashed": true,
+    "one_changed_source_flattened": 1,
+    "other_source_reused_without_flattening": 1,
+    "edited_svg_stat_invalidates_cache_and_repairs_artifact": true,
+    "stale_acceptance_geometry_rejected": true
+  },
+  "cache_binding": [
+    "exact fresh source bytes SHA256",
+    "registry accepted geometry SHA256",
+    "full previous manifest SHA256",
+    "SVG hash previously verified when cache recorded",
+    "SVG size + mtime_ns + ctime_ns",
+    "export schema + float serialization + normalization/pen settings",
+    "pinned backend SHA256 + fontTools version"
+  ],
+  "first_run": "Cold pass establishes identity/cache; subsequent runs reuse exact old rows. No input artwork re-hash on successful stat-bound route; source bytes always re-hashed.",
+  "files": {
+    "tools/export_centerlines.py": "f1637c57c0f6d82773fea2af423b0b265d6f5798e440278789350783edc48da7",
+    "tests/test_export_cache.py": "299b88941fd31fdaf08af2f34cff9a411f917bafffc7f0cbc01f83e31b80a3da",
+    "README.md": "e4f61bee17a976439f5fd0cc8a3a880721726430db1e7f73132237833c9c976a",
+    ".gitignore": "a6fdc7072977f892de6ff8919e81d526cd357fc709cab2eb7c8974f47d12d4a3"
+  }
+}
