@@ -1,6 +1,6 @@
 # Small Seal PNG grids
 
-4,408 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 6,920 remain labeled pending.
+4,948 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 6,380 remain labeled pending.
 
 Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels including grid lines). Glyphs use the Regular 400 font. Gray cells are pending; dark gray cells are outside the block.
 
@@ -21,15 +21,15 @@ Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels includ
 | U+3DC00–U+3DCFF | 256 | [U3DC00-U3DCFF.png](U3DC00-U3DCFF.png) |
 | U+3DD00–U+3DDFF | 256 | [U3DD00-U3DDFF.png](U3DD00-U3DDFF.png) |
 | U+3DE00–U+3DEFF | 256 | [U3DE00-U3DEFF.png](U3DE00-U3DEFF.png) |
-| U+3DF00–U+3DFFF | 245 | [U3DF00-U3DFFF.png](U3DF00-U3DFFF.png) |
-| U+3E000–U+3E0FF | 186 | [U3E000-U3E0FF.png](U3E000-U3E0FF.png) |
-| U+3E100–U+3E1FF | 243 | [U3E100-U3E1FF.png](U3E100-U3E1FF.png) |
-| U+3E200–U+3E2FF | 50 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
-| U+3E300–U+3E3FF | 138 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
-| U+3E400–U+3E4FF | 0 | [U3E400-U3E4FF.png](U3E400-U3E4FF.png) |
-| U+3E500–U+3E5FF | 0 | [U3E500-U3E5FF.png](U3E500-U3E5FF.png) |
-| U+3E600–U+3E6FF | 0 | [U3E600-U3E6FF.png](U3E600-U3E6FF.png) |
-| U+3E700–U+3E7FF | 0 | [U3E700-U3E7FF.png](U3E700-U3E7FF.png) |
+| U+3DF00–U+3DFFF | 256 | [U3DF00-U3DFFF.png](U3DF00-U3DFFF.png) |
+| U+3E000–U+3E0FF | 256 | [U3E000-U3E0FF.png](U3E000-U3E0FF.png) |
+| U+3E100–U+3E1FF | 256 | [U3E100-U3E1FF.png](U3E100-U3E1FF.png) |
+| U+3E200–U+3E2FF | 212 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
+| U+3E300–U+3E3FF | 181 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
+| U+3E400–U+3E4FF | 73 | [U3E400-U3E4FF.png](U3E400-U3E4FF.png) |
+| U+3E500–U+3E5FF | 107 | [U3E500-U3E5FF.png](U3E500-U3E5FF.png) |
+| U+3E600–U+3E6FF | 60 | [U3E600-U3E6FF.png](U3E600-U3E6FF.png) |
+| U+3E700–U+3E7FF | 1 | [U3E700-U3E7FF.png](U3E700-U3E7FF.png) |
 | U+3E800–U+3E8FF | 0 | [U3E800-U3E8FF.png](U3E800-U3E8FF.png) |
 | U+3E900–U+3E9FF | 0 | [U3E900-U3E9FF.png](U3E900-U3E9FF.png) |
 | U+3EA00–U+3EAFF | 0 | [U3EA00-U3EAFF.png](U3EA00-U3EAFF.png) |
