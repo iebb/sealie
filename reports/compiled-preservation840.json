@@ -1,0 +1,83 @@
+{
+  "global_instancing_used": false,
+  "variable": {
+    "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable.ttf",
+    "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable.ttf",
+    "failures": [],
+    "baseline_sha256": "cfa8463cc2bee099a17c23b697d2f6b2ab4fd4bbfd1b27c6b5326cd4e9bbf46e",
+    "candidate_sha256": "e63337e5cda6398a435b5bc36ea7e4e587fd4aadbd831ad082a8530012875bab",
+    "baseline_codepoints": 840,
+    "candidate_codepoints": 904,
+    "glyphs_checked": 841,
+    "passed": true
+  },
+  "instances": {
+    "300": {
+      "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable-Light.ttf",
+      "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-Light.ttf",
+      "failures": [],
+      "baseline_sha256": "94a44c2909a45412ad7b666c4e64ac54773ae762f3fdfcaf6742cdeda0b563ac",
+      "candidate_sha256": "6477a13e0b6883fd527d1ecd19f7b669d51e4d73a6d080ac54c8c41174b69734",
+      "baseline_codepoints": 840,
+      "candidate_codepoints": 904,
+      "glyphs_checked": 841,
+      "passed": true
+    },
+    "400": {
+      "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable-Regular.ttf",
+      "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-Regular.ttf",
+      "failures": [],
+      "baseline_sha256": "0787fd11b1325b89c685e72d65d0eaf7e28d2553f666e369734765dccfe34969",
+      "candidate_sha256": "93d42db6f6962d612832ececb0817f454e532abfe3bde468775dc3f95c6cac9b",
+      "baseline_codepoints": 840,
+      "candidate_codepoints": 904,
+      "glyphs_checked": 841,
+      "passed": true
+    },
+    "500": {
+      "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable-Medium.ttf",
+      "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-Medium.ttf",
+      "failures": [],
+      "baseline_sha256": "cd942967caa41020538181b2e2fb9267492a68dd284bba749071338961b8799c",
+      "candidate_sha256": "38e3d7c25217cd33adccacf247ddb24387dd02a0170e4ad26fcfc029e98f9d56",
+      "baseline_codepoints": 840,
+      "candidate_codepoints": 904,
+      "glyphs_checked": 841,
+      "passed": true
+    },
+    "600": {
+      "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable-SemiBold.ttf",
+      "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-SemiBold.ttf",
+      "failures": [],
+      "baseline_sha256": "f4dbfa7d178b06c6c059ed034b300dab4a1e61c48fefb528a70f62f82f75c86e",
+      "candidate_sha256": "17e23a307a6128d3afa63aacfd2891fb9ab7b61313f65ed71aed2d7b50ef3969",
+      "baseline_codepoints": 840,
+      "candidate_codepoints": 904,
+      "glyphs_checked": 841,
+      "passed": true
+    },
+    "700": {
+      "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividualVariable-Bold.ttf",
+      "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-Bold.ttf",
+      "failures": [],
+      "baseline_sha256": "d2043f525f0a439a31cffa957e8eb24d8e1f308d58a77afa98b878de04831013",
+      "candidate_sha256": "a4aaf3eaea74244522f7f3673b70bc0d2aa04e95df47e69cd01836df8a0f6f1a",
+      "baseline_codepoints": 840,
+      "candidate_codepoints": 904,
+      "glyphs_checked": 841,
+      "passed": true
+    }
+  },
+  "direct_regular": {
+    "baseline": "/tmp/seal-compiled840/PanoramaGothicSealIndividual-Regular.ttf",
+    "candidate": "/tmp/seal-chunked904-output/PanoramaGothicSealIndividualVariable-RegularStatic.ttf",
+    "failures": [],
+    "baseline_sha256": "548986397a6ec20ad32c77acdb775b3922fa842076142424656340f3d0fea1ec",
+    "candidate_sha256": "cb37daa88621072c4a499d18b660f481d1a04f4ee39faa72a093e05da7cae3ad",
+    "baseline_codepoints": 840,
+    "candidate_codepoints": 904,
+    "glyphs_checked": 841,
+    "passed": true
+  },
+  "passed": true
+}

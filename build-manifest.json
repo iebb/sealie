@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "glyph_count": 840,
-  "source_registry_sha256": "35df984577d85bac5efe66435ba77969cf43582346ccb80ff8565c78a5861dc8",
+  "glyph_count": 904,
+  "source_registry_sha256": "ede27834e0f7bd4b95900d8102f0a1c9fe3038203e8115aa464a3261173293ff",
   "files": [
     {
       "name": "LICENSE-OFL.txt",
@@ -16,57 +16,57 @@
     {
       "name": "README.md",
       "bytes": 1288,
-      "sha256": "efcf8c6977267a1704e22fc5c4ca14adfce1dcda85a77c53c1f9fa46e2bc1059"
+      "sha256": "62d7d5584281c8e2ba93c3a0ff91955417dac9288301aa5fb36a13545ca18ff3"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividual-Regular.ttf",
-      "bytes": 33086204,
-      "sha256": "548986397a6ec20ad32c77acdb775b3922fa842076142424656340f3d0fea1ec"
+      "bytes": 35596276,
+      "sha256": "e11fb888597200c4a3c131b856f4604efd0909fe626da209c604dd8d41613ac6"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividual-Regular.woff",
-      "bytes": 4439804,
-      "sha256": "11a950f8a4efe3f8f15d7b369174e21380b9c5cc24dca82bbab9c0845617dc7c"
+      "bytes": 4773860,
+      "sha256": "3dd8e39ee52d08fe5ac0ce44d568888bd52e21dffa22c51e8dfa370409dbce15"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable-Bold.ttf",
-      "bytes": 33103324,
-      "sha256": "d2043f525f0a439a31cffa957e8eb24d8e1f308d58a77afa98b878de04831013"
+      "bytes": 35614892,
+      "sha256": "a4aaf3eaea74244522f7f3673b70bc0d2aa04e95df47e69cd01836df8a0f6f1a"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable-Light.ttf",
-      "bytes": 32545396,
-      "sha256": "94a44c2909a45412ad7b666c4e64ac54773ae762f3fdfcaf6742cdeda0b563ac"
+      "bytes": 35014484,
+      "sha256": "6477a13e0b6883fd527d1ecd19f7b669d51e4d73a6d080ac54c8c41174b69734"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable-Medium.ttf",
-      "bytes": 33088332,
-      "sha256": "cd942967caa41020538181b2e2fb9267492a68dd284bba749071338961b8799c"
+      "bytes": 35598676,
+      "sha256": "38e3d7c25217cd33adccacf247ddb24387dd02a0170e4ad26fcfc029e98f9d56"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable-Regular.ttf",
-      "bytes": 33086276,
-      "sha256": "0787fd11b1325b89c685e72d65d0eaf7e28d2553f666e369734765dccfe34969"
+      "bytes": 35596464,
+      "sha256": "93d42db6f6962d612832ececb0817f454e532abfe3bde468775dc3f95c6cac9b"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable-SemiBold.ttf",
-      "bytes": 33098188,
-      "sha256": "f4dbfa7d178b06c6c059ed034b300dab4a1e61c48fefb528a70f62f82f75c86e"
+      "bytes": 35609344,
+      "sha256": "17e23a307a6128d3afa63aacfd2891fb9ab7b61313f65ed71aed2d7b50ef3969"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable.ttf",
-      "bytes": 87199204,
-      "sha256": "cfa8463cc2bee099a17c23b697d2f6b2ab4fd4bbfd1b27c6b5326cd4e9bbf46e"
+      "bytes": 93813692,
+      "sha256": "e63337e5cda6398a435b5bc36ea7e4e587fd4aadbd831ad082a8530012875bab"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividualVariable.woff",
-      "bytes": 17418336,
-      "sha256": "1544a9bfae027b92e238fdddadacb81f54d04ec910101bc9c32f036d0c67f482"
+      "bytes": 18741144,
+      "sha256": "3627487dd2ba8314b38fdf6aaa3da4dd27e8a05d6c76867dba2a9c5fb617653d"
     },
     {
       "name": "previews/glyphs.png",
-      "bytes": 6910245,
-      "sha256": "41d8670d637725c59c181811e2e5a7aa0e8c778b658de45715c594b7e57449a5"
+      "bytes": 7441758,
+      "sha256": "0518e5321034f0e2b98024497f9762684de20dee2d19a3c45f549537c53c4234"
     },
     {
       "name": "previews/weight-comparison.png",
@@ -75,48 +75,58 @@
     },
     {
       "name": "previews/weight-slider.html",
-      "bytes": 30165,
-      "sha256": "7f8d3f19509e4b53b1f795a9808a2c0f2b246742150530f027bdb92b6aa4df15"
+      "bytes": 32389,
+      "sha256": "36cab6f6676f33f225cf7147abf2baf1c308cdc28eb34f9e86192264b0eeefb2"
     },
     {
       "name": "reports/baseline-preservation.json",
       "bytes": 290,
-      "sha256": "4ef76c838d62bc0d727c26ff3eb81872c10d2ec39f41c342100b785f59cca73b"
+      "sha256": "df3f887e6bd4db5ac7ed1e322831e95cbfe9a0a9ebd9b7c3ca96e5815eae5cfe"
+    },
+    {
+      "name": "reports/compiled-preservation840.json",
+      "bytes": 3794,
+      "sha256": "ace234044415173ee514e8a24b43be629d84c9d1629fcba17f63d57876072564"
     },
     {
       "name": "reports/coverage.json",
-      "bytes": 13579,
-      "sha256": "6782ffd2fb1c705986f69c02b0a57449da0156eae4d1b205e4277a80a356be20"
+      "bytes": 14539,
+      "sha256": "b5358b47953a5e1ca60143e9d9e70a9fe6d31f0fffe5fc98f82bb734981395bf"
+    },
+    {
+      "name": "reports/packaging-report.json",
+      "bytes": 629,
+      "sha256": "921042d74bb43011f287cd7d6541c0059e831aa89f6419a2f3f2b58a24a1daa5"
     },
     {
       "name": "reports/seal-individual-invariants-check.json",
-      "bytes": 31063,
-      "sha256": "002aac7030c8d821f42129e37be7815e921108063b3e8c7b9ad6c7d8643e9c13"
+      "bytes": 31078,
+      "sha256": "5d81818efea01380059893fe2137cf59ff054f2aee14cedb65921dfc9e80bcf3"
     },
     {
       "name": "reports/seal-individual-size-check.json",
-      "bytes": 661690,
-      "sha256": "b333074f3c45729ff5cbf917f0d022e32b2d3549fc9b4c1fee7138e8f4a0e4fb"
+      "bytes": 712133,
+      "sha256": "9714536f64eb48cbd75752743473c592b7db6a1943d86ac5930b24b6be5672c5"
     },
     {
       "name": "reports/seal-individual-source-review-check.json",
-      "bytes": 489148,
-      "sha256": "7c9dcefc7b14a4604afa58aa520295de778718f71cf31d4ed7328418451fb72c"
+      "bytes": 526460,
+      "sha256": "ce8291e5fdf493a96265c9b9e2f9be72dafe53a80ba45fc77e60e1d33eda4949"
     },
     {
       "name": "reports/seal-individual-variable-invariants-check.json",
-      "bytes": 119511,
-      "sha256": "6b6ec83be437f8dd619e0e5bac81ce09ef34fa1276101da165b60c0a20ea69c2"
+      "bytes": 119526,
+      "sha256": "60118c5265ddfaf6e417d075ca2f9c8cb823d86e04db5ec6e99946b8391e5c6f"
     },
     {
       "name": "reports/seal-individual-variable-size-check.json",
-      "bytes": 3187302,
-      "sha256": "ddd44ea1a2220bb84b938de7289d7f0278b9559237d69e4439e1f12730e9e382"
+      "bytes": 3431452,
+      "sha256": "e2464f4ec69aa777a7de47bedc61ba8e84a1f96124cede1ddca49ec157cceb42"
     },
     {
       "name": "reports/seal-individual-variable-source-review-check.json",
-      "bytes": 489148,
-      "sha256": "7c9dcefc7b14a4604afa58aa520295de778718f71cf31d4ed7328418451fb72c"
+      "bytes": 526460,
+      "sha256": "ce8291e5fdf493a96265c9b9e2f9be72dafe53a80ba45fc77e60e1d33eda4949"
     }
   ]
 }

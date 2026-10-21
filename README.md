@@ -2,7 +2,7 @@
 
 Built outputs for the Panorama Gothic Small Seal font for Unicode 18.
 
-Current checkpoint: **840 of 11,328 glyphs reviewed at Regular 400**. Work continues across the full Small Seal block, U+3D000–U+3FC3F, in batches of 64.
+Current checkpoint: **904 of 11,328 glyphs reviewed at Regular 400**. Work continues across the full Small Seal block, U+3D000–U+3FC3F, in batches of 64.
 
 - [Variable TTF, weights 300–700](fonts/PanoramaGothicSealIndividualVariable.ttf)
 - [Variable WOFF](fonts/PanoramaGothicSealIndividualVariable.woff)
