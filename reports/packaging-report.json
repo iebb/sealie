@@ -1,13 +1,35 @@
 {
-  "glyph_count": 6653,
-  "registry_sha256": "8ce09ceb82b078aa496c677a66f7972b05e0f29a6596aed4f40366705deab87f",
+  "glyph_count": 7847,
+  "registry_sha256": "20e31f034ddd080ac4cc6a2c12cbac43ff5f13a71a4af9a15f734ba5c61d51b9",
   "global_outlines_expanded": false,
   "global_instancing_used": false,
   "woff_tables_preserved": true,
   "direct_regular_outline_tables_preserved": true,
-  "compiled_manifest_sha256": "966231a6b37cec6e4a81822dd4395960122b9df2bf6de859d1b6aa88c769da8f",
-  "static_manifest_sha256": "4298e0b713fde06afa8bf6a095f6d2f1873769f29704662475bddafc2ef92566",
-  "variable_manifest_sha256": "6cf5c0125f18ccc034e76a4ccef06f2b9849757d21712078825e0606ac2de638",
+  "compiled_manifest_sha256": "56be99fbc576970314e323d342d20c5e09024c3c803041cac6a4afa7232e1c67",
+  "static_manifest_sha256": "3e35e830a51a70a06f652ae66448780e6f9e129eba9f14867d4357b71204591f",
+  "variable_manifest_sha256": "3a8773487fbf76fc3c17fa155ec3bee9ce37aaa3831e59096b1764ff52e0e588",
   "production_ready": false,
-  "visual_acceptance_granted": false
+  "visual_acceptance_granted": false,
+  "delivery_profile": {
+    "name": "lean",
+    "available_global_masters": [
+      "Regular"
+    ],
+    "omitted_global_masters": [
+      "Light",
+      "SemiBold",
+      "Bold"
+    ],
+    "designspace_exported": false,
+    "retained_delivery_fonts": [
+      "variable",
+      "Light",
+      "Regular",
+      "Medium",
+      "SemiBold",
+      "Bold",
+      "direct Regular"
+    ],
+    "regular_static_alias": "immutable hardlink to direct Regular master"
+  }
 }

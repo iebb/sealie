@@ -5,8 +5,8 @@
   "first": "U+3D000",
   "last": "U+3FC3F",
   "repertoire_count": 11328,
-  "rendered_glyphs": 6653,
-  "pending_glyphs": 4675,
+  "rendered_glyphs": 7847,
+  "pending_glyphs": 3481,
   "grid": {
     "columns": 16,
     "rows": 16,
@@ -17,7 +17,7 @@
     ]
   },
   "style": "Regular400, shared rounded monoline; gray cells are explicitly pending, darkgray cells outside block",
-  "font_sha256": "e6b56a5abf26eb37979f13e58a39706a6bd8643633cf7a1b06f4a5a7d40b1f88",
+  "font_sha256": "6586abd36d1aa030ac7d472fbd22f10210c12310d2310569731edb34123efb5a",
   "sheets": [
     {
       "file": "U3D000-U3D0FF.png",
@@ -213,9 +213,9 @@
       "first": "U+3E500",
       "last": "U+3E5FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 227,
-      "input_sha256": "fa2611494da1a61059ed531ffe3f11eab3f8c63a1b4b28cb82b73cfd9a85db01",
-      "sha256": "d36404542fcfd25782f895ab9157163110c5be80bc9c94bff1db718f0eb5fb43"
+      "rendered_glyphs": 256,
+      "input_sha256": "a9ff8788bdf7cf077ae7030a4ac3f1884ca894107940ef394b5ddab1cbaaf942",
+      "sha256": "4807ecbcf12304653ce3ca76d3f2b50df098b6432eab917304e0db4b863c9fa4"
     },
     {
       "file": "U3E600-U3E6FF.png",
@@ -231,9 +231,9 @@
       "first": "U+3E700",
       "last": "U+3E7FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 129,
-      "input_sha256": "02e8c70f6680f28db49eaa74e0af5aad0014adc772b4af2d0e37e8d143977b17",
-      "sha256": "d6a00535863486f812c5b35835c44ab2196c41d4be7b136bbdb9f51af30c2e5b"
+      "rendered_glyphs": 193,
+      "input_sha256": "74d32f501291ff913ae180d4ca0a7fa92bf2edb41b9b8870350fbcb523a317cf",
+      "sha256": "86feaf0d44cd2319cc34872f37818fcb3f5aa68b933eb5c93876015ceddb7b3d"
     },
     {
       "file": "U3E800-U3E8FF.png",
@@ -258,99 +258,99 @@
       "first": "U+3EA00",
       "last": "U+3EAFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 119,
-      "input_sha256": "ded6cb44d1ab319b5d0c7f6fdf0e6b08038b0de8ca7e544af8e1ff34496ada15",
-      "sha256": "469a647e5bf69437ca1556ce8e24af9adfc9acfdc0d15ffaa114c19f96e05ff7"
+      "rendered_glyphs": 192,
+      "input_sha256": "e2deb780abc24642efc3199d6e87be1a6233e0bf4c9a09d778c5d6b16a61066c",
+      "sha256": "c66a3a9afc905d0ca4e28d8c07e613e7e5cb6d29346aff39cbe5fbd0bcd78355"
     },
     {
       "file": "U3EB00-U3EBFF.png",
       "first": "U+3EB00",
       "last": "U+3EBFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 127,
-      "input_sha256": "3765bf8c0b2780a2287f6271b3f92a49ff5daed0352b5d904468868fed4d5b93",
-      "sha256": "5f3439696b516d5ea1298298af73fddc5000d15a25ec81735dfff3bbe7ed772a"
+      "rendered_glyphs": 192,
+      "input_sha256": "047ac323d04d9060087e7e083c441b35c2d3e334f0748b490be2dbe62d45fe1f",
+      "sha256": "28b8bf71941244c94a1d193863cb64b35673f8cea5815ff1b4eaca97f1ce6b12"
     },
     {
       "file": "U3EC00-U3ECFF.png",
       "first": "U+3EC00",
       "last": "U+3ECFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 129,
-      "input_sha256": "5b50477468a237f67bcc70fe5347572a4142d94a8e72f6ce455bc74679e12c4c",
-      "sha256": "cc492c5a8d8e93f21dc731d3a14db0e2bb92b8ea18e1ebf27a25df13a9a9a963"
+      "rendered_glyphs": 193,
+      "input_sha256": "2e4a4f6758e4783f15f56ab578609a0a7a59b2d16fdc3f274e15d9d04b24b99a",
+      "sha256": "fcbdacb3a1e5ea398e9b2d005ca50fdfa93d6e3d9d2836a97c4c28a9104a4eac"
     },
     {
       "file": "U3ED00-U3EDFF.png",
       "first": "U+3ED00",
       "last": "U+3EDFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 61,
-      "input_sha256": "5b886b659ba4c6d2ea12e579259e572abbd80c27d076454b93901639d954cd19",
-      "sha256": "845fa0df84e9705441f38ab498c6fc92107714e78673033ba337ee0a7634d092"
+      "rendered_glyphs": 255,
+      "input_sha256": "31903f9867fb829eb21f72fad977977cc0db2ec183ad5a95121a0bac625e310a",
+      "sha256": "51f0e291c7713851e7c54ba69b5da609957c293e402e1c54ef51d34808453b2c"
     },
     {
       "file": "U3EE00-U3EEFF.png",
       "first": "U+3EE00",
       "last": "U+3EEFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 64,
-      "input_sha256": "e9acf3baa84ed06a3d9e0e863e2c0b261a6af0c83f32ad3a25658b94bd02fc6f",
-      "sha256": "b7de54fbc58a9ca3d603549b3904ca0b3b16d804be01c42b41ea3f7823fd12d0"
+      "rendered_glyphs": 129,
+      "input_sha256": "4b378a4f23d8020be7f028d730ddd9c92f4c9c0960c7c41e13e1fd6feae87ce8",
+      "sha256": "79137a9fda43c56aa80cb80e8701cc81448215b92f497e28fdd5d69c5a0b2b8a"
     },
     {
       "file": "U3EF00-U3EFFF.png",
       "first": "U+3EF00",
       "last": "U+3EFFF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "9cf1f6de844f151ea59ee21b04f6108837a4ba684f70097b64cb3184c0ee948c",
-      "sha256": "4802b7165a799c984e1a6ab99839d583398cf2db8332682af768496759713522"
+      "rendered_glyphs": 191,
+      "input_sha256": "874c2e60e18b4ba70683bb06b2d9d19ac6a11c6a10f357cf3187451c5e025aef",
+      "sha256": "2ef0edc47026accca0f482b97747a1162156acd0fc644937fd64796aa4bfb2fd"
     },
     {
       "file": "U3F000-U3F0FF.png",
       "first": "U+3F000",
       "last": "U+3F0FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "758541f8a8dfdb9f67f180730410cc011df77e0b6bb8ffee9e9863695f92462f",
-      "sha256": "e9e629d30bf47bdd2ec41bf008bca666e54b4fcb8304888cfb6c89d78c04bef4"
+      "rendered_glyphs": 65,
+      "input_sha256": "9926f49ed86fe29e794513947c7971f1af4f04b2d92c08554333223ce8ece299",
+      "sha256": "841dcfb4d9479dfb92405c31bb7c29ad92e3636441676342bf8b5ad0fb652a1b"
     },
     {
       "file": "U3F100-U3F1FF.png",
       "first": "U+3F100",
       "last": "U+3F1FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "8e099d0f773c22c8b19662b8f828b4739baeeb94d312a8733f9edd71ca868f58",
-      "sha256": "d970bb6ac5d811611543d95607bf4d6cac00d53232ce0b74f22d95cce7179cff"
+      "rendered_glyphs": 191,
+      "input_sha256": "66b2e0da9ee9cdb4ff79b0e6989d5808662fe9fa189b363b1be703094502f708",
+      "sha256": "15e7f56982d103e581db67df86a18ec6e02cda6d399228858d563251712f121d"
     },
     {
       "file": "U3F200-U3F2FF.png",
       "first": "U+3F200",
       "last": "U+3F2FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "56dc0be0684fed6587ea94b25054cbc732e3c32d71ad4aff4f8c87514e399eb4",
-      "sha256": "6280d9db63f4494867db7e05fc589005569fac16b38c2fe5d5a91eb2dd37f952"
+      "rendered_glyphs": 64,
+      "input_sha256": "8cc75068d7061b93750d5d8e9e3754cf50b2277b064aafc28681b2c98605ef9e",
+      "sha256": "251afb8ce4c0c56203d34f7c6e21ede9358f29a4e171cfef6f4675490b9773de"
     },
     {
       "file": "U3F300-U3F3FF.png",
       "first": "U+3F300",
       "last": "U+3F3FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "78dc45dd2f9802b6c2e5535a6ff4f02ed92c21dbd8a3d43055c29b3d9634b593",
-      "sha256": "4c84d4ffa19870b0f524a9cfc6a586d87a85c3a85de3d8a1405e48578849a8f2"
+      "rendered_glyphs": 1,
+      "input_sha256": "448a46ddb16d8085dd904a03e139d6294f05b65148c21f7925d2011c1c9d7c7a",
+      "sha256": "d3a56161862a7f142cfceb60fda0c224658fd8ac6fece553449f2fb63718fffd"
     },
     {
       "file": "U3F400-U3F4FF.png",
       "first": "U+3F400",
       "last": "U+3F4FF",
       "codepoint_cells": 256,
-      "rendered_glyphs": 0,
-      "input_sha256": "583617b293028ebbdede8c6c2012cba5f2bb1c4ea19493b522575185ea122f48",
-      "sha256": "9055f27ab0e6b24c932b6c3ac83d09d0fe0ce8565f88aee02c4997b548f2c24a"
+      "rendered_glyphs": 128,
+      "input_sha256": "b9efc1fc8cf3a7d87af6f414770c74bc0be93c1fe0a18e400cd83afa8484b2da",
+      "sha256": "10e2350bf1296ae4dd1649da938d7e004e65df0260b8ab5ca32bea208a0af555"
     },
     {
       "file": "U3F500-U3F5FF.png",
