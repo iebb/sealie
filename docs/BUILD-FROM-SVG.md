@@ -55,7 +55,7 @@ Subsequent exports reuse unchanged accepted source geometry through a local, ign
 
 ## Individual PNG outputs
 
-`png16/` contains one transparent 16×16-pixel PNG per reviewed codepoint. `png/` contains square sheets with a 16×16 grid of cells covering all 11,328 positions; pending glyphs are labeled. Both exports use the production Regular font.
+`png16/` contains one transparent 16×16-pixel PNG for every codepoint from U+3D000 through U+3FC3F. `png/` contains 45 square sheets with 16×16 grids of cells covering all 11,328 glyphs. Both exports use the production Regular 400 font.
 
 Maintainers can refresh the individual PNGs after exporting the accepted SVG manifest. Install Pillow separately, then run:
 
@@ -68,6 +68,6 @@ python tools/export_png_glyphs.py \
   --output png16
 ```
 
-The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times across checkpoint growth. Pending codepoints receive an individual PNG when their glyph is completed and reviewed.
+The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports.
 
 The browser weight preview uses `fonts/variable.css` to load variable WOFF subsets of at most 64 glyphs as needed. These preserve the verified glyph, variation, metric and axis tables. Unchanged subsets are reused across checkpoints. The complete variable TTF and WOFF remain in the ZIP download bundle.

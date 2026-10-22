@@ -2,17 +2,21 @@
 
 Built outputs for the Panorama Gothic Small Seal font for Unicode 18.
 
-Current checkpoint: **7,847 of 11,328 glyphs reviewed at Regular 400**. Work continues across the full Small Seal block, U+3D000–U+3FC3F, in batches of 64.
+Complete Unicode 18 Small Seal coverage: **all 11,328 codepoints, U+3D000–U+3FC3F, are available and reviewed at Regular 400**.
 
-- [Font ZIP part 1 of 9](fonts/Sealie-SmallSeal-007847.zip.001)
-- [Font ZIP part 2 of 9](fonts/Sealie-SmallSeal-007847.zip.002)
-- [Font ZIP part 3 of 9](fonts/Sealie-SmallSeal-007847.zip.003)
-- [Font ZIP part 4 of 9](fonts/Sealie-SmallSeal-007847.zip.004)
-- [Font ZIP part 5 of 9](fonts/Sealie-SmallSeal-007847.zip.005)
-- [Font ZIP part 6 of 9](fonts/Sealie-SmallSeal-007847.zip.006)
-- [Font ZIP part 7 of 9](fonts/Sealie-SmallSeal-007847.zip.007)
-- [Font ZIP part 8 of 9](fonts/Sealie-SmallSeal-007847.zip.008)
-- [Font ZIP part 9 of 9](fonts/Sealie-SmallSeal-007847.zip.009)
+- [Font ZIP part 1 of 13](fonts/Sealie-SmallSeal-011328.zip.001)
+- [Font ZIP part 2 of 13](fonts/Sealie-SmallSeal-011328.zip.002)
+- [Font ZIP part 3 of 13](fonts/Sealie-SmallSeal-011328.zip.003)
+- [Font ZIP part 4 of 13](fonts/Sealie-SmallSeal-011328.zip.004)
+- [Font ZIP part 5 of 13](fonts/Sealie-SmallSeal-011328.zip.005)
+- [Font ZIP part 6 of 13](fonts/Sealie-SmallSeal-011328.zip.006)
+- [Font ZIP part 7 of 13](fonts/Sealie-SmallSeal-011328.zip.007)
+- [Font ZIP part 8 of 13](fonts/Sealie-SmallSeal-011328.zip.008)
+- [Font ZIP part 9 of 13](fonts/Sealie-SmallSeal-011328.zip.009)
+- [Font ZIP part 10 of 13](fonts/Sealie-SmallSeal-011328.zip.010)
+- [Font ZIP part 11 of 13](fonts/Sealie-SmallSeal-011328.zip.011)
+- [Font ZIP part 12 of 13](fonts/Sealie-SmallSeal-011328.zip.012)
+- [Font ZIP part 13 of 13](fonts/Sealie-SmallSeal-011328.zip.013)
 - [Variable webfont CSS](fonts/variable.css) · [64-glyph webfonts](fonts/variable/)
 - [Regular WOFF](fonts/PanoramaGothicSealIndividual-Regular.woff)
 - [Weight preview](previews/weight-slider.html)
@@ -25,17 +29,17 @@ Current checkpoint: **7,847 of 11,328 glyphs reviewed at Regular 400**. Work con
 Download every ZIP part into one folder. 7-Zip can open the first part when all parts are present. On macOS/Linux, join and extract them:
 
 ```sh
-cat Sealie-SmallSeal-007847.zip.* > Sealie-SmallSeal-007847.zip
-unzip Sealie-SmallSeal-007847.zip
+cat Sealie-SmallSeal-011328.zip.* > Sealie-SmallSeal-011328.zip
+unzip Sealie-SmallSeal-011328.zip
 ```
 
-The ZIP includes the variable TTF, direct Regular, five named-weight TTFs, WOFF files and licenses. The Regular WOFF and variable webfont subsets stay in [fonts](fonts/) for local browser previews. The glyphs use a shared rounded monoline construction with proportional sizing and a 1024-unit advance. The original 128 outlines and metrics remain unchanged. All five named weights pass compiled size checks; their optical review continues. This is an incomplete development font.
+The ZIP includes the variable TTF, direct Regular, five named-weight TTFs, WOFF files and licenses. The Regular WOFF and variable webfont subsets stay in [fonts](fonts/) for local browser previews. The glyphs use a shared rounded monoline construction with proportional sizing and a 1024-unit advance. The original 128 outlines and metrics remain unchanged. All five named weights pass compiled size checks; their optical review continues.
 
-A sample of the latest additions in this checkpoint:
+A sample of the completed Small Seal repertoire:
 
 ![Latest glyph additions](previews/glyphs.png)
 
-The repository includes one normalized, editable SVG for each of the 7,847 reviewed glyphs, one transparent 16×16-pixel PNG per reviewed glyph, and 45 square PNG sheets covering every Small Seal codepoint position. Each PNG contains a 16×16 grid; uncreated glyphs are labeled pending. Each checkpoint adds its new reviewed SVGs and updates the affected sheets.
+Each of the 11,328 codepoints has a normalized, editable SVG and a transparent 16×16-pixel PNG. The 45 square PNG sheets cover the full Small Seal block in 16×16 grids of 128-pixel cells. Cells beyond U+3FC3F on the last sheet are outside the block.
 
 To rebuild the Regular font from the SVGs, run from the repository root:
 

@@ -1,6 +1,6 @@
 {
-  "font": "/workspace/.seal-build-storage/seal-package7847/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf",
-  "font_sha256": "0ce3fe5443424216e3fc3ecc5ad8f3ef6c9ac8b12e8b2f9e7230eb9c8a08006d",
+  "font": "/workspace/.seal-build-storage/seal-package11328/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf",
+  "font_sha256": "82de5de06c7cefdb8cdb3a60beda73d2cdc1c2e938cf43c9f804fe4d44232a38",
   "specification": "/workspace/fonts/design/quality/invariants.json",
   "specification_sha256": "be220022dfbd4a31aed4b8134f10eb4d87f2087b3c3bf4fd3721db21c8a63c0f",
   "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
@@ -4115,9 +4115,9 @@
   "errors": [],
   "validation_mode": "cached unchanged glyphs",
   "cached_from": {
-    "report_sha256": "46092df351ac663d34ebdf428f68707b8154f32d4129dfb1539e2a411f9a89a6",
-    "font_sha256": "3befc9dab38afba47d530c401ced7ef132d5ed3dd4f907258fb4689d6ece8dde",
-    "preservation_report_sha256": "f67d5885d10f971030cc8c19c307e7df33267e610a5c6abaa9e28ca13aafba93"
+    "report_sha256": "889a244d1b1f9d428631d7336d2d01f0367227b46d2cc788eff683766d01e2ac",
+    "font_sha256": "0ce3fe5443424216e3fc3ecc5ad8f3ef6c9ac8b12e8b2f9e7230eb9c8a08006d",
+    "preservation_report_sha256": "175b6e05662e378c2653dbb4b6358420cd56be445d6987344fbffc7f6016b091"
   },
   "actual_raster_checks": 0,
   "cached_raster_checks": 72

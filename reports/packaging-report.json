@@ -1,13 +1,13 @@
 {
-  "glyph_count": 7847,
-  "registry_sha256": "20e31f034ddd080ac4cc6a2c12cbac43ff5f13a71a4af9a15f734ba5c61d51b9",
+  "glyph_count": 11328,
+  "registry_sha256": "598e540693373a410133e167b6aa5bbea4d3c859aafde59d72d252fde8e2ea04",
   "global_outlines_expanded": false,
   "global_instancing_used": false,
   "woff_tables_preserved": true,
   "direct_regular_outline_tables_preserved": true,
-  "compiled_manifest_sha256": "56be99fbc576970314e323d342d20c5e09024c3c803041cac6a4afa7232e1c67",
-  "static_manifest_sha256": "3e35e830a51a70a06f652ae66448780e6f9e129eba9f14867d4357b71204591f",
-  "variable_manifest_sha256": "3a8773487fbf76fc3c17fa155ec3bee9ce37aaa3831e59096b1764ff52e0e588",
+  "compiled_manifest_sha256": "cd3fbdffa0564d2cf67924dbe3acfc5a40ef402f9726613963a91baa1eb100f5",
+  "static_manifest_sha256": "8e72cf0920adfa4ec6624276f9b7e94a21c77dfc9c3b2fbd70dae92b1737c0a7",
+  "variable_manifest_sha256": "261496365cf81868a11aecc8885ee4eb3460472cd5078c4f39ac68cb97e0b322",
   "production_ready": false,
   "visual_acceptance_granted": false,
   "delivery_profile": {
@@ -30,6 +30,6 @@
       "Bold",
       "direct Regular"
     ],
-    "regular_static_alias": "immutable hardlink to direct Regular master"
+    "regular_static_alias": "immutable logical symlinks to the same RAM direct Regular master"
   }
 }

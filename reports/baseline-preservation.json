@@ -1,13 +1,13 @@
 {
   "original_count": 128,
-  "new_count": 7847,
+  "new_count": 11328,
   "original_outlines_and_metrics_unchanged": true,
   "changes": [],
   "baseline_sha256": "82586a3e43753cd1bfa3430819c413752028bb41bdb1a24c4fa48606ff36dd2f",
-  "font_sha256": "6586abd36d1aa030ac7d472fbd22f10210c12310d2310569731edb34123efb5a",
+  "font_sha256": "2fdd83c9b052e35d6a14cc4ae5e099c6650440c80b618f0a1cf39490c94ce329",
   "validation_mode": "transitive exact serialized published glyph preservation",
   "cached_from": {
-    "report_sha256": "75cdeaf44ba2f9b89cdf049986a4adbfc9cf3636ac810b82529a9bf53560fc33",
-    "preservation_report_sha256": "f67d5885d10f971030cc8c19c307e7df33267e610a5c6abaa9e28ca13aafba93"
+    "report_sha256": "8bd1d298c94a6e773a261d001497be9e52365770c995182f2003dc4fd1a09b54",
+    "preservation_report_sha256": "175b6e05662e378c2653dbb4b6358420cd56be445d6987344fbffc7f6016b091"
   }
 }
