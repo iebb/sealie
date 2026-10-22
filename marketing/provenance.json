@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "project": "Sealie",
+  "literature": {
+    "title": "道德經",
+    "chapter": 1,
+    "quote": "道可道，非常道",
+    "seal_background_without_punctuation": "道可道非常道",
+    "ordered_seal_codepoints": [
+      "U+3D55D",
+      "U+3DDE5",
+      "U+3D55D",
+      "U+3F271",
+      "U+3E611",
+      "U+3D55D"
+    ],
+    "mapping": [
+      {
+        "character": "道",
+        "modern_codepoint": "U+9053",
+        "seal_codepoint": "U+3D55D",
+        "kSEAL_MCJK_source_line": 8085
+      },
+      {
+        "character": "可",
+        "modern_codepoint": "U+53EF",
+        "seal_codepoint": "U+3DDE5",
+        "kSEAL_MCJK_source_line": 20947
+      },
+      {
+        "character": "非",
+        "modern_codepoint": "U+975E",
+        "seal_codepoint": "U+3F271",
+        "kSEAL_MCJK_source_line": 51757
+      },
+      {
+        "character": "常",
+        "modern_codepoint": "U+5E38",
+        "seal_codepoint": "U+3E611",
+        "kSEAL_MCJK_source_line": 33253
+      }
+    ],
+    "mapping_authority": {
+      "file": "SealSources.txt",
+      "unicode_version": "18.0.0",
+      "property": "kSEAL_MCJK",
+      "sha256": "05ba2c220c4f34a0f1ef54676e7d2033963a9baed1acafd079f00f13da11aa90"
+    },
+    "verified_mapping_sha256": "dd63e4b4f2e84f70be8674b3e29d586d807a93d8e342add3b5a6c79c8113e084"
+  },
+  "font_checkpoint": {
+    "commit": "7670b5c0771449f00bfa6127a06bbfe460f0afd4",
+    "tag": "checkpoint-011328",
+    "glyph_count": 11328,
+    "variable_manifest": "fonts/variable/manifest.json",
+    "variable_manifest_sha256": "a8755321b35e2104178629e76e1dfb8f74f0bece49c64301897e72c2a01f636e"
+  },
+  "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ],
+  "selected_woff_chunks": [
+    {
+      "file": "fonts/variable/U3D540-U3D57F.woff",
+      "bytes": 1599224,
+      "sha256": "c56f3dc29ea0cf3d75a749a05d185dfe23a852857616342c9acce32b4ea965f9"
+    },
+    {
+      "file": "fonts/variable/U3DDC0-U3DDFF.woff",
+      "bytes": 1247372,
+      "sha256": "88096cc0739d8a547960c6474bd4ea54fed285809ff0c2f7bb3cbe1d49c13ede"
+    },
+    {
+      "file": "fonts/variable/U3E600-U3E63F.woff",
+      "bytes": 1662360,
+      "sha256": "8c93a1c8e9f1318d01d66b0ca3dd4f1c30a123581a607bff770ed70b73e09723"
+    },
+    {
+      "file": "fonts/variable/U3F240-U3F27F.woff",
+      "bytes": 2332956,
+      "sha256": "73c22026640c6cfd9d8d7c0579d002902cfbcac51123d285070b4d79104ee7d6"
+    }
+  ],
+  "reference": {
+    "svg": "marketing/sealie-dao-reference.svg",
+    "png": "marketing/sealie-dao-reference.png",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "exact_published_font_outlines": true,
+    "seal_shapes_redrawn": false,
+    "private_provenance_sha256": "f5b8a18d02d9effc062b33fe0a523fee615831cfb2b6d03d5b3f7f5704144655"
+  },
+  "marketing_image": {
+    "file": "marketing/sealie-marketing.png",
+    "canvas": [
+      1672,
+      941
+    ],
+    "method": "OpenAI ImageGen using the exact-font reference",
+    "note": "The SVG reference preserves the published font outlines."
+  },
+  "caption_fonts": [
+    {
+      "role": "regular",
+      "file": "NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "role": "bold",
+      "file": "NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "license": "SIL Open Font License 1.1"
+    }
+  ],
+  "artwork_files": [
+    {
+      "file": "marketing/sealie-dao-reference.svg",
+      "bytes": 2478519,
+      "sha256": "13ce5f7719f2fc5bc37237d2ff0b2333466bb694e9c0b111e280daac9de541b8"
+    },
+    {
+      "file": "marketing/sealie-dao-reference.png",
+      "bytes": 131039,
+      "sha256": "055adb1409032fdec169f926bce84d67d3eb269bfdd76abdbe4317b60c43c523"
+    },
+    {
+      "file": "marketing/sealie-marketing.png",
+      "bytes": 2495330,
+      "sha256": "0bbfdeb271ba178c35e79108075470ab0964dddc2ee2521000edd6542ba1121c"
+    }
+  ]
+}

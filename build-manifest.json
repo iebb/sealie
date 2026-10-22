@@ -15,8 +15,8 @@
     },
     {
       "name": "README.md",
-      "bytes": 3359,
-      "sha256": "4e88c072d9e9a1ae9db3e0e3859a12b9064fe97e707a2e7936c280f5dc49ffb2"
+      "bytes": 3545,
+      "sha256": "df4dd8648b94b594a5b6dcfa606b6db4d50d6345add149413578983fa86f0033"
     },
     {
       "name": "docs/BUILD-FROM-SVG.md",
@@ -1097,6 +1097,26 @@
       "name": "svg/manifest.json",
       "bytes": 3557543,
       "sha256": "c2ebebf56b83cd40a810f5b4591877eb851c220c4e75f882a411e65c7e4182b6"
+    },
+    {
+      "name": "marketing/sealie-dao-reference.svg",
+      "bytes": 2478519,
+      "sha256": "13ce5f7719f2fc5bc37237d2ff0b2333466bb694e9c0b111e280daac9de541b8"
+    },
+    {
+      "name": "marketing/sealie-dao-reference.png",
+      "bytes": 131039,
+      "sha256": "055adb1409032fdec169f926bce84d67d3eb269bfdd76abdbe4317b60c43c523"
+    },
+    {
+      "name": "marketing/sealie-marketing.png",
+      "bytes": 2495330,
+      "sha256": "0bbfdeb271ba178c35e79108075470ab0964dddc2ee2521000edd6542ba1121c"
+    },
+    {
+      "name": "marketing/provenance.json",
+      "bytes": 3979,
+      "sha256": "932f22e6e3f2ffba9fb24adc0cdce6cc3c3c267ae3dc6ca800981b376b0ebd61"
     }
   ],
   "release_assets": [],

@@ -1,5 +1,9 @@
 # Sealie
 
+![Sealie — Dao De Jing marketing artwork](marketing/sealie-marketing.png)
+
+《道德經》「道可道，非常道」. [Exact-font SVG reference](marketing/sealie-dao-reference.svg).
+
 Built outputs for the Panorama Gothic Small Seal font for Unicode 18.
 
 Complete Unicode 18 Small Seal coverage: **all 11,328 codepoints, U+3D000–U+3FC3F, are available and reviewed at Regular 400**.
