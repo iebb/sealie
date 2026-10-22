@@ -15,13 +15,18 @@
     },
     {
       "name": "README.md",
-      "bytes": 3545,
-      "sha256": "df4dd8648b94b594a5b6dcfa606b6db4d50d6345add149413578983fa86f0033"
+      "bytes": 6420,
+      "sha256": "f069ecf4c63676e5c9fdc2e387a6051fd7d179a6d8d1250731dd6b8f79216744"
+    },
+    {
+      "name": "README.zh-CN.md",
+      "bytes": 6101,
+      "sha256": "a1c0fc4e53144a80351146a9af1be97040f1b1cd7481404b62e2a8f701f22869"
     },
     {
       "name": "docs/BUILD-FROM-SVG.md",
-      "bytes": 5816,
-      "sha256": "bf6789986f8307a26b9c59a25d676bab20b042296b59a305af8b30c1ebb8b769"
+      "bytes": 5976,
+      "sha256": "57f216e947addc46952a4ae23832132426eaf87a7b7956df1a6687736a2d0711"
     },
     {
       "name": "fonts/PanoramaGothicSealIndividual-Regular.woff",
@@ -989,6 +994,26 @@
       "sha256": "a8755321b35e2104178629e76e1dfb8f74f0bece49c64301897e72c2a01f636e"
     },
     {
+      "name": "marketing/provenance.json",
+      "bytes": 3979,
+      "sha256": "932f22e6e3f2ffba9fb24adc0cdce6cc3c3c267ae3dc6ca800981b376b0ebd61"
+    },
+    {
+      "name": "marketing/sealie-dao-reference.png",
+      "bytes": 131039,
+      "sha256": "055adb1409032fdec169f926bce84d67d3eb269bfdd76abdbe4317b60c43c523"
+    },
+    {
+      "name": "marketing/sealie-dao-reference.svg",
+      "bytes": 2478519,
+      "sha256": "13ce5f7719f2fc5bc37237d2ff0b2333466bb694e9c0b111e280daac9de541b8"
+    },
+    {
+      "name": "marketing/sealie-marketing.png",
+      "bytes": 2495330,
+      "sha256": "0bbfdeb271ba178c35e79108075470ab0964dddc2ee2521000edd6542ba1121c"
+    },
+    {
       "name": "png/README.md",
       "bytes": 3504,
       "sha256": "339e29b878f46261f12524141abba34e612c7ad6a8d3aafc4cccb913eebee4ff"
@@ -997,16 +1022,6 @@
       "name": "png/manifest.json",
       "bytes": 15501,
       "sha256": "65ac1fbeb060597d32c3112d69b2c7ce593c8f273b7821e55a44c1789c487c2d"
-    },
-    {
-      "name": "png16/README.md",
-      "bytes": 490,
-      "sha256": "63e66a52a65a47995a6f0ed98f67b77397ecc97515e244857edab03185897aa4"
-    },
-    {
-      "name": "png16/manifest.json",
-      "bytes": 7761295,
-      "sha256": "b996830bbb6b982e154836a5c5b304522087aaa0f3eaa40e68fb953ba1ddcd99"
     },
     {
       "name": "previews/glyphs.png",
@@ -1097,26 +1112,6 @@
       "name": "svg/manifest.json",
       "bytes": 3557543,
       "sha256": "c2ebebf56b83cd40a810f5b4591877eb851c220c4e75f882a411e65c7e4182b6"
-    },
-    {
-      "name": "marketing/sealie-dao-reference.svg",
-      "bytes": 2478519,
-      "sha256": "13ce5f7719f2fc5bc37237d2ff0b2333466bb694e9c0b111e280daac9de541b8"
-    },
-    {
-      "name": "marketing/sealie-dao-reference.png",
-      "bytes": 131039,
-      "sha256": "055adb1409032fdec169f926bce84d67d3eb269bfdd76abdbe4317b60c43c523"
-    },
-    {
-      "name": "marketing/sealie-marketing.png",
-      "bytes": 2495330,
-      "sha256": "0bbfdeb271ba178c35e79108075470ab0964dddc2ee2521000edd6542ba1121c"
-    },
-    {
-      "name": "marketing/provenance.json",
-      "bytes": 3979,
-      "sha256": "932f22e6e3f2ffba9fb24adc0cdce6cc3c3c267ae3dc6ca800981b376b0ebd61"
     }
   ],
   "release_assets": [],
@@ -1256,17 +1251,6 @@
     "pending": 0,
     "manifest": "png/manifest.json",
     "sha256": "65ac1fbeb060597d32c3112d69b2c7ce593c8f273b7821e55a44c1789c487c2d"
-  },
-  "png_individual": {
-    "glyph_count": 11328,
-    "image_pixels": [
-      16,
-      16
-    ],
-    "transparent": true,
-    "pending_individual_files_emitted": false,
-    "manifest": "png16/manifest.json",
-    "sha256": "b996830bbb6b982e154836a5c5b304522087aaa0f3eaa40e68fb953ba1ddcd99"
   },
   "webfont_delivery": {
     "variable_glyph_count": 11328,

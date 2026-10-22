@@ -53,11 +53,11 @@ Maintainers can also set `SEAL_PRODUCTION_REGULAR=/path/to/production-Regular.tt
 
 Subsequent exports reuse unchanged accepted source geometry through a local, ignored `.export-cache.json`. Changed sources, edited SVGs or changed export settings invalidate the relevant entry. The published manifest remains the build input.
 
-## Individual PNG outputs
+## Preview images
 
-`png16/` contains one transparent 16×16-pixel PNG for every codepoint from U+3D000 through U+3FC3F. `png/` contains 45 square sheets with 16×16 grids of cells covering all 11,328 glyphs. Both exports use the production Regular 400 font.
+`svg/` is the maintained glyph source. `png/` retains 45 square sheets with 16×16 grids of cells covering all 11,328 glyphs at Regular 400. Individual 16×16-pixel glyph PNGs and their export manifest are not tracked in this repository.
 
-Maintainers can refresh the individual PNGs after exporting the accepted SVG manifest. Install Pillow separately, then run:
+Maintainers who need individual bitmaps locally can use the optional exporter with the original production font and its manifest. Install Pillow separately and write the results under the ignored `build/` directory:
 
 ```sh
 python -m pip install Pillow
@@ -65,9 +65,9 @@ python tools/export_png_glyphs.py \
   --font /path/to/production-Regular.ttf \
   --manifest /path/to/production/manifest.json \
   --geometry-manifest svg/manifest.json \
-  --output png16
+  --output build/png16
 ```
 
-The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports.
+The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports. These local previews are not font sources and should not be committed.
 
 The browser weight preview uses `fonts/variable.css` to load variable WOFF subsets of at most 64 glyphs as needed. These preserve the verified glyph, variation, metric and axis tables. Unchanged subsets are reused across checkpoints. The complete variable TTF and WOFF remain in the ZIP download bundle.
