@@ -1,6 +1,6 @@
 # Small Seal PNG grids
 
-5,540 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 5,788 remain labeled pending.
+6,653 reviewed glyphs across 45 square PNG sheets. All 11,328 codepoint positions are included; 4,675 remain labeled pending.
 
 Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels including grid lines). Glyphs use the Regular 400 font. Gray cells are pending; dark gray cells are outside the block.
 
@@ -16,7 +16,7 @@ Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels includ
 | U+3D700–U+3D7FF | 256 | [U3D700-U3D7FF.png](U3D700-U3D7FF.png) |
 | U+3D800–U+3D8FF | 192 | [U3D800-U3D8FF.png](U3D800-U3D8FF.png) |
 | U+3D900–U+3D9FF | 256 | [U3D900-U3D9FF.png](U3D900-U3D9FF.png) |
-| U+3DA00–U+3DAFF | 247 | [U3DA00-U3DAFF.png](U3DA00-U3DAFF.png) |
+| U+3DA00–U+3DAFF | 256 | [U3DA00-U3DAFF.png](U3DA00-U3DAFF.png) |
 | U+3DB00–U+3DBFF | 256 | [U3DB00-U3DBFF.png](U3DB00-U3DBFF.png) |
 | U+3DC00–U+3DCFF | 256 | [U3DC00-U3DCFF.png](U3DC00-U3DCFF.png) |
 | U+3DD00–U+3DDFF | 256 | [U3DD00-U3DDFF.png](U3DD00-U3DDFF.png) |
@@ -24,19 +24,19 @@ Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels includ
 | U+3DF00–U+3DFFF | 256 | [U3DF00-U3DFFF.png](U3DF00-U3DFFF.png) |
 | U+3E000–U+3E0FF | 256 | [U3E000-U3E0FF.png](U3E000-U3E0FF.png) |
 | U+3E100–U+3E1FF | 256 | [U3E100-U3E1FF.png](U3E100-U3E1FF.png) |
-| U+3E200–U+3E2FF | 248 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
-| U+3E300–U+3E3FF | 233 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
-| U+3E400–U+3E4FF | 214 | [U3E400-U3E4FF.png](U3E400-U3E4FF.png) |
-| U+3E500–U+3E5FF | 164 | [U3E500-U3E5FF.png](U3E500-U3E5FF.png) |
-| U+3E600–U+3E6FF | 187 | [U3E600-U3E6FF.png](U3E600-U3E6FF.png) |
-| U+3E700–U+3E7FF | 96 | [U3E700-U3E7FF.png](U3E700-U3E7FF.png) |
-| U+3E800–U+3E8FF | 64 | [U3E800-U3E8FF.png](U3E800-U3E8FF.png) |
-| U+3E900–U+3E9FF | 0 | [U3E900-U3E9FF.png](U3E900-U3E9FF.png) |
-| U+3EA00–U+3EAFF | 0 | [U3EA00-U3EAFF.png](U3EA00-U3EAFF.png) |
-| U+3EB00–U+3EBFF | 0 | [U3EB00-U3EBFF.png](U3EB00-U3EBFF.png) |
-| U+3EC00–U+3ECFF | 0 | [U3EC00-U3ECFF.png](U3EC00-U3ECFF.png) |
-| U+3ED00–U+3EDFF | 0 | [U3ED00-U3EDFF.png](U3ED00-U3EDFF.png) |
-| U+3EE00–U+3EEFF | 0 | [U3EE00-U3EEFF.png](U3EE00-U3EEFF.png) |
+| U+3E200–U+3E2FF | 256 | [U3E200-U3E2FF.png](U3E200-U3E2FF.png) |
+| U+3E300–U+3E3FF | 239 | [U3E300-U3E3FF.png](U3E300-U3E3FF.png) |
+| U+3E400–U+3E4FF | 256 | [U3E400-U3E4FF.png](U3E400-U3E4FF.png) |
+| U+3E500–U+3E5FF | 227 | [U3E500-U3E5FF.png](U3E500-U3E5FF.png) |
+| U+3E600–U+3E6FF | 256 | [U3E600-U3E6FF.png](U3E600-U3E6FF.png) |
+| U+3E700–U+3E7FF | 129 | [U3E700-U3E7FF.png](U3E700-U3E7FF.png) |
+| U+3E800–U+3E8FF | 192 | [U3E800-U3E8FF.png](U3E800-U3E8FF.png) |
+| U+3E900–U+3E9FF | 255 | [U3E900-U3E9FF.png](U3E900-U3E9FF.png) |
+| U+3EA00–U+3EAFF | 119 | [U3EA00-U3EAFF.png](U3EA00-U3EAFF.png) |
+| U+3EB00–U+3EBFF | 127 | [U3EB00-U3EBFF.png](U3EB00-U3EBFF.png) |
+| U+3EC00–U+3ECFF | 129 | [U3EC00-U3ECFF.png](U3EC00-U3ECFF.png) |
+| U+3ED00–U+3EDFF | 61 | [U3ED00-U3EDFF.png](U3ED00-U3EDFF.png) |
+| U+3EE00–U+3EEFF | 64 | [U3EE00-U3EEFF.png](U3EE00-U3EEFF.png) |
 | U+3EF00–U+3EFFF | 0 | [U3EF00-U3EFFF.png](U3EF00-U3EFFF.png) |
 | U+3F000–U+3F0FF | 0 | [U3F000-U3F0FF.png](U3F000-U3F0FF.png) |
 | U+3F100–U+3F1FF | 0 | [U3F100-U3F1FF.png](U3F100-U3F1FF.png) |
