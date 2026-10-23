@@ -57,9 +57,10 @@ SVG 格式限制、清单更新与验证命令见[构建和编辑指南](docs/BU
 - [覆盖完整字集的 45 张方形 PNG 网格预览](png/)
 - [可编辑的 SVG 源文件](svg/)
 
-从发布页面下载 `Sealie-Normalized-011328.zip` 后，使用解压工具打开，或运行：
+从发布页面下载 `.001` 至 `.004` 全部四个 ZIP 分卷，放入同一目录。分卷齐全后，可用 7-Zip 打开第一卷。macOS 或 Linux 可先合并再解压：
 
 ```sh
+cat Sealie-Normalized-011328.zip.* > Sealie-Normalized-011328.zip
 unzip Sealie-Normalized-011328.zip
 ```
 

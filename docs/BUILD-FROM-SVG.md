@@ -90,4 +90,4 @@ python tools/export_png_glyphs.py \
 
 The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports. These local previews are not font sources and should not be committed.
 
-The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in the font ZIP attached to the normalized release.
+The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in the four-part font ZIP linked from the normalized release.

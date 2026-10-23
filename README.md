@@ -57,9 +57,10 @@ See the [build and editing guide](docs/BUILD-FROM-SVG.md) for the SVG constraint
 - [45 square PNG grid sheets covering the complete repertoire](png/)
 - [Editable SVG sources](svg/)
 
-Download `Sealie-Normalized-011328.zip` from the release and extract it with your archive manager, or run:
+Download all four ZIP parts linked from the release (`.001` through `.004`) into one folder. 7-Zip can open the first part when all are present. On macOS/Linux, join and extract them:
 
 ```sh
+cat Sealie-Normalized-011328.zip.* > Sealie-Normalized-011328.zip
 unzip Sealie-Normalized-011328.zip
 ```
 
