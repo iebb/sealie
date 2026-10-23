@@ -1,6 +1,6 @@
 # Editable Small Seal SVGs → static and variable fonts
 
-The `svg/` directory is the font source, with reusable radical sources in `components/`. Each named `Uxxxxx.svg` contains one complete glyph, with a matching Unicode codepoint, 1024-unit advance, a 30-unit round pen and exact centerline coordinates. No reference images, private drawing files or existing font outlines are needed to build it. Font software and these sources use the SIL Open Font License 1.1; see [LICENSE-OFL.txt](../LICENSE-OFL.txt) and [OFL-1.1.txt](../OFL-1.1.txt).
+The `svg/` directory is the font source, with reusable radical sources in `components/`. The current `radical-joins-011328` revision contains 173 shared templates registered to 3,473 glyphs; the complete font repertoire remains 11,328 codepoints. Each named `Uxxxxx.svg` contains one complete glyph, with a matching Unicode codepoint, 1024-unit advance, a 30-unit round pen and exact centerline coordinates. No reference images, private drawing files or existing font outlines are needed to build it. Font software and these sources use the SIL Open Font License 1.1; see [LICENSE-OFL.txt](../LICENSE-OFL.txt) and [OFL-1.1.txt](../OFL-1.1.txt).
 
 ## Build
 
@@ -46,7 +46,7 @@ python tools/build_normalized_fonts.py --svg-dir svg --output build
 
 The updater changes only assigned paths, preserves unrelated paths and IDs, and refreshes current hashes. It rejects overlapping assignments, missing paths, incompatible closures, unsupported SVG constructs and stale glyph hashes before writing. If you intentionally change an assigned glyph directly, refresh its hash before applying a component update; `--check` will still catch divergence from the shared template.
 
-See [normalization policy and comparisons](NORMALIZATION.md) for how the initial component assignments were selected.
+See [normalization policy and comparisons](NORMALIZATION.md), the current [radical expansion report](../reports/radical-expansion.json) and the [join refinement report](../reports/join-refinement.json) for assignment and repair scope.
 
 ## Historical authoring imports
 
@@ -90,10 +90,12 @@ python tools/export_png_glyphs.py \
 
 The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports. These local previews are not font sources and should not be committed.
 
-The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in the split font ZIP linked from the current normalized release.
+The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in `Sealie-Radical-Joins-011328.zip`, distributed in four parts with the [radical and join release](https://github.com/iebb/sealie/releases/tag/radical-joins-011328). See the [font download instructions](../fonts/README.md). Current compiled outputs are bound by the [font build](../reports/normalized-font-build.json) and [validation](../reports/normalized-font-validation.json) reports.
 
-## Stroke-cap cleanup
+## Endpoint cleanup and join repairs
 
 Run `python tools/cleanup_caps.py --check` to check endpoint micro-knots and shared-component synchronization together. The workflow uses this check before building. After an intentional cleanup, run `python tools/cleanup_caps.py --apply`; it validates all current hashes, updates shared templates and their copies together, preserves stroke IDs and endpoints, and refreshes the source manifests.
 
 The default removes only consecutive terminal vertices within 0.25 font units of a fixed endpoint. It leaves meaningful hooks, interior vertices and path closures unchanged. Larger visible cap defects require a focused source correction and visual review. Exact full-loop closure is a separate optional migration (`--close-exact-loops`) and was not applied in the cap-cleanup release.
+
+For a visible bump at a stroke attachment, inspect the parent curve together with the attached stroke in the SVG and compiled font. The current join repairs smooth only reviewed local parent-curve windows, with fixed outer anchors and endpoints. Apply shared repairs through `components/` so every registered copy stays identical. Compare the compiled result and master compatibility after rebuilding. The [current join comparison](../previews/join-refinement.png) and [shared-template comparisons](../previews/shared-join-refinement.png) illustrate these edits; the older [cap cleanup report](../reports/cap-cleanup.json) retains the earlier endpoint-cleanup scope.

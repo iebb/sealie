@@ -10,17 +10,19 @@ The variable font spans **300–700**, with **400 as the default**. This normali
 
 ## Size and radical normalization
 
-The original drawings shared a maximum height but varied considerably in width and visual balance. The first normalization adjusted compound widths and optical centering while preserving simple strokes, natural narrow forms and standalone radicals: **10,511 glyph sources changed; 817 remained identical.** The current follow-up also balances 26 broad compounds that missed the original height cutoff and cleans confirmed stroke-cap artifacts.
+The original drawings shared a maximum height but varied considerably in width and visual balance. The first normalization adjusted compound widths and optical centering while preserving simple strokes, natural narrow forms and standalone radicals: **10,511 glyph sources changed; 817 remained identical.** A later pass also balanced 26 broad compounds that missed the original height cutoff and cleaned confirmed endpoint artifacts. This revision extends shared radicals and smooths visible waves at stroke joins.
 
-**2,846 glyphs now use 162 shared component templates.** The same reviewed radical, allograph and position uses exactly the same shape, size and placement. Ordinary left-side water, wood, hand and speech forms each share a canonical component; distinct positional or historical forms stay separate. Other strokes are reflowed within bounded scale limits, and uncertain or overly distorted matches keep their optical-only shape.
+**3,473 glyphs now use 173 shared component templates.** This revision adds 627 registered glyphs: 309 extensions of existing templates and 318 instances using 11 new templates. Newly shared forms include left-side 人 and 石, right-side 刀, two 虫 contact forms, and 日 and 口 in reviewed positions. The same registered radical, form and position uses exactly the same shape, size and placement. Distinct structural forms and positions stay separate. Other strokes are reflowed within bounded scale limits; uncertain matches and proposals that introduce stroke contacts retain their earlier geometry. Exact sharing covers registered occurrences, with individual SVGs retained elsewhere. See the [radical expansion report](reports/radical-expansion.json).
 
 The shared SVGs live in [components/](components/). Editing one template and running `python tools/sync_components.py --apply` updates all its registered occurrences. See the [normalization details and comparisons](docs/NORMALIZATION.md).
 
-All glyphs use the same pen width at each weight. Endpoint cleanup removes only terminal knots within a quarter of a font unit, preserving endpoints, stroke count and meaningful hooks. Larger cap repairs are reviewed individually. The [cap cleanup report](reports/cap-cleanup.json) and [additional size-fit report](reports/supplementary-size-fit.json) record the exact scope; two size proposals were held because they would join strokes at Regular weight.
+All glyphs use the same pen width at each weight. Residual bumps in U+3D7B7 came from waves in the parent curves at the bowl-to-leg joins. This revision smooths those joins and local parent-curve waves in three shared templates, propagating each template correction to every registered copy. The repairs preserve endpoints, surrounding curves and reviewed hooks; the [join refinement report](reports/join-refinement.json) records their scope. The earlier [cap cleanup report](reports/cap-cleanup.json) remains a historical record of endpoint cleanup. The [additional size-fit report](reports/supplementary-size-fit.json) records the earlier 26 compound fits and two proposals held because they would join strokes at Regular weight.
 
 ![Glyph sources before and after normalization](previews/normalization-before-after.png)
 
-![Reviewed cap repairs](previews/cap-repair.png)
+![U+3D7B7 join refinement in the source and compiled font](previews/join-refinement.png)
+
+![Shared template joins before and after refinement](previews/shared-join-refinement.png)
 
 ## Models and creation process
 
@@ -54,7 +56,7 @@ See the [build and editing guide](docs/BUILD-FROM-SVG.md) for the SVG constraint
 
 ## Downloads and previews
 
-- [Normalized font prerelease and ZIP download](https://github.com/iebb/sealie/releases/tag/normalized-caps-011328)
+- [Radical and join refinement prerelease and ZIP download](https://github.com/iebb/sealie/releases/tag/radical-joins-011328)
 - [Regular WOFF](fonts/Sealie-Regular.woff) · [webfont files](fonts/)
 - [Variable webfont CSS](fonts/variable.css) · [177 webfont subsets, at most 64 glyphs each](fonts/variable/)
 - [Weight preview](previews/weight-slider.html)
@@ -64,8 +66,8 @@ See the [build and editing guide](docs/BUILD-FROM-SVG.md) for the SVG constraint
 Download all four ZIP parts linked from the release (`.001` through `.004`) into one folder. 7-Zip can open the first part when all are present. On macOS/Linux, join and extract them:
 
 ```sh
-cat Sealie-Normalized-Caps-011328.zip.* > Sealie-Normalized-Caps-011328.zip
-unzip Sealie-Normalized-Caps-011328.zip
+cat Sealie-Radical-Joins-011328.zip.* > Sealie-Radical-Joins-011328.zip
+unzip Sealie-Radical-Joins-011328.zip
 ```
 
 The bundle contains the variable TTF, five named-weight TTFs, webfonts and licenses. The webfont CSS loads small subsets as needed. Small Seal uses its own Unicode codepoints; typing an ordinary CJK character does not automatically select its seal form. The [earlier checkpoint](https://github.com/iebb/sealie/releases/tag/checkpoint-011328) remains available for comparisons.

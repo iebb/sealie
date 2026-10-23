@@ -1,0 +1,1680 @@
+{
+  "schema_version": 1,
+  "status": "accepted_source_revision",
+  "source_svg_manifest_sha256": "df10d563c3195008209c3b3e9a82d86f22343353811896ec6d26c3e65b8139f1",
+  "component_manifest_sha256": "b9b3685fad7c213f1d8fe8af596861b78249f25667863392f4237b867a12a706",
+  "summary": "Remove bounded parent-curve waviness at joins in one glyph and three shared templates, preserving branch endpoints and historical hooks.",
+  "baseline": {
+    "commit": "09b349eee75706c2d49c9e958eca37acd4c57828",
+    "svg_manifest_sha256": "9fbfb06ce59672d753d4dcdd6898058f321022ba1bebeda2a78b890cbaf3985e",
+    "components_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+    "component_templates": 162,
+    "shared_component_glyphs": 2846
+  },
+  "final_source": {
+    "svg_manifest_file": "svg/manifest.json",
+    "svg_manifest_sha256": "df10d563c3195008209c3b3e9a82d86f22343353811896ec6d26c3e65b8139f1",
+    "components_manifest_file": "components/manifest.json",
+    "components_manifest_sha256": "b9b3685fad7c213f1d8fe8af596861b78249f25667863392f4237b867a12a706",
+    "component_templates": 173,
+    "shared_component_glyphs": 3473,
+    "glyphs": 11328,
+    "changed_glyphs": 762,
+    "unchanged_glyphs": 10566,
+    "changed_codepoints_newline_list_sha256": "75b092c5777a9de840b7e3da3da4339a4cec7a7c63df6e58834a03c47f7cc11a",
+    "historical_authoring_hashes_preserved": true
+  },
+  "counts": {
+    "shared_templates_refined": 3,
+    "prior_shared_copies_refined": 134,
+    "new_shared_copies_refined": 4,
+    "total_shared_copies_refined": 138,
+    "individual_glyphs_refined": 1,
+    "total_join_glyphs_refined": 139,
+    "overlap_with_new_role_assignments": 4,
+    "entire_revision_changed_glyphs": 762
+  },
+  "diagnosis": "The remaining visible bumps in U+3D7B7 arise from parent bowl waviness. Adding legs 6 and 8 produces zero upper-edge ink in the two inspected join windows in all five native and compiled weight cases.",
+  "policy": "Repair only independently reviewed bounded parent windows. Preserve all other strokes, branch endpoints, closed flags and authentic terminals.",
+  "individual_parent_refinement": {
+    "codepoint": "U+3D7B7",
+    "file": "svg/U3D7B7.svg",
+    "baseline_svg_sha256": "902857ece0b606d759aae2f04f2725b48183807aaa669e7db5ea3dbf02402de5",
+    "final_svg_sha256": "3f442d26e8eb4ef3e79a2aaac4bb98c30d171d66cc61d61480b3dfd6f493b504",
+    "parent_path_index_zero_based": 1,
+    "unchanged_leg_path_indices_zero_based": [
+      5,
+      7
+    ],
+    "other_13_strokes_exact": true,
+    "replacement_original_inclusive_vertex_interval": [
+      65,
+      104
+    ],
+    "method": "Tangent-matched cubic shoulders joined by a straight bowl baseline.",
+    "flat_baseline_font_units": [
+      [
+        448.0,
+        167.875
+      ],
+      [
+        578.3275820515479,
+        167.875
+      ]
+    ],
+    "flatten_tolerance_font_units": 0.05,
+    "source_points_before": 169,
+    "source_points_after": 153,
+    "hausdorff_upper_bound_font_units": 1.3938621002539995,
+    "five_weight_topology": {
+      "points": [
+        2788,
+        2788,
+        2788,
+        2788,
+        2788
+      ],
+      "contours": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "compatible": true
+    },
+    "accepted_patch_receipt_sha256": "790ae8c2e9bc477fdb031c5ff9c76a2ace3c6bb684e089c9362ec25cae70196f"
+  },
+  "shared_parent_refinements": [
+    {
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "file": "components/490-3F979-left-whole-component-cluster-4.svg",
+      "baseline_template_svg_sha256": "617e616dfb35a9e9fe5415fde606a6ca6f1f2474add63646f6a4e36e43c5b969",
+      "final_template_svg_sha256": "35fafc3fb588be2074eef12f5290500fad4848e393d5a395b299bfbb35688f19",
+      "proposal_sha256": "4b0b584e5bf37de1064865ebc3a54507ae23283e4ec84448150016885d3be936",
+      "parent_path_index_zero_based": 2,
+      "replacement_original_inclusive_vertex_interval": [
+        2,
+        25
+      ],
+      "source_points_before": 29,
+      "source_points_after": 7,
+      "final_instances": 68,
+      "prior_instances": 68,
+      "new_instances": 0,
+      "method": "Tangent-matched cubic within the reviewed parent-stroke window, flattened to a polyline.",
+      "flatten_tolerance_font_units": 0.05,
+      "hausdorff_upper_bound_font_units": 4.0531842887933065,
+      "outside_vertices_exact": true,
+      "other_template_paths_exact": true,
+      "branch_endpoints_unchanged": true,
+      "closed_flag_unchanged": true,
+      "independent_visual_acceptance": "accept",
+      "source_and_font_comparison_sha256": "ad32cb7899780cb5504b99d5ea4feccead850d5d3cf732ca6e397f8537d3bc11",
+      "five_weight_comparison_sha256": "685d4aca568357f310f9f9f219179d82c54f6e88c7682a05f78b302c3879e895",
+      "five_weight_topology": {
+        "template_points": [
+          698,
+          698,
+          698,
+          698,
+          698
+        ],
+        "template_contours": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "template_compatible": true,
+        "representative_codepoint": "U+3F9E8",
+        "representative_points": [
+          1852,
+          1852,
+          1852,
+          1852,
+          1852
+        ],
+        "representative_contours": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "representative_compatible": true
+      }
+    },
+    {
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "file": "components/480-3F859-left-whole-component-cluster-0.svg",
+      "baseline_template_svg_sha256": "098608bd4b5ba6c69c2fc6bd708f9c53e7003c1a4c17383b4f9c9690b2a7d785",
+      "final_template_svg_sha256": "eac4b9967920de06db4564f7ac7d9a449589625bec865759250ff148f314a660",
+      "proposal_sha256": "ed72455396d32c472a088dfd178fd58e87d49a0e8e8a3e265be25de32250c24a",
+      "parent_path_index_zero_based": 2,
+      "replacement_original_inclusive_vertex_interval": [
+        7,
+        25
+      ],
+      "source_points_before": 27,
+      "source_points_after": 11,
+      "final_instances": 37,
+      "prior_instances": 35,
+      "new_instances": 2,
+      "method": "Tangent-matched cubic within the reviewed parent-stroke window, flattened to a polyline.",
+      "flatten_tolerance_font_units": 0.05,
+      "hausdorff_upper_bound_font_units": 2.6919048525923475,
+      "outside_vertices_exact": true,
+      "other_template_paths_exact": true,
+      "branch_endpoints_unchanged": true,
+      "closed_flag_unchanged": true,
+      "independent_visual_acceptance": "accept",
+      "source_and_font_comparison_sha256": "2fe8480983146594fb904e7492c972506a0a496d2d75f00c390b6c48360aa4ba",
+      "five_weight_comparison_sha256": "efc07a7816120640e393b6b62b918a872e3ddcd53a327c227f1577507f61874c",
+      "five_weight_topology": {
+        "template_points": [
+          142,
+          142,
+          142,
+          142,
+          142
+        ],
+        "template_contours": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "template_compatible": true,
+        "representative_codepoint": "U+3F864",
+        "representative_points": [
+          2278,
+          2278,
+          2278,
+          2278,
+          2278
+        ],
+        "representative_contours": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "representative_compatible": true
+      }
+    },
+    {
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "file": "components/269-3E4A7-enclosure-ordinary-enclosing-roof.svg",
+      "baseline_template_svg_sha256": "13903f872bee6ed7504c5353715f802da18047227568a26a60869fa5fc9f91f4",
+      "final_template_svg_sha256": "841c3f17d35b802fe06db3cc6dad3371cfaf056cd167ff1f33b19ffeb7478e89",
+      "proposal_sha256": "71c1efcedfaf4f54fb9d6045f28ef8a6fcff330c2ab42d6c5ef8f8174bbc5e03",
+      "parent_path_index_zero_based": 0,
+      "replacement_original_inclusive_vertex_interval": [
+        176,
+        197
+      ],
+      "source_points_before": 362,
+      "source_points_after": 343,
+      "final_instances": 33,
+      "prior_instances": 31,
+      "new_instances": 2,
+      "method": "Tangent-matched cubic within the reviewed parent-stroke window, flattened to a polyline.",
+      "flatten_tolerance_font_units": 0.05,
+      "hausdorff_upper_bound_font_units": 2.992851896380693,
+      "outside_vertices_exact": true,
+      "other_template_paths_exact": true,
+      "branch_endpoints_unchanged": true,
+      "closed_flag_unchanged": true,
+      "independent_visual_acceptance": "accept",
+      "source_and_font_comparison_sha256": "55086118f583ee29ec74eafe4426cb979394ea63d0b5116f84485575ed3e5fa2",
+      "five_weight_comparison_sha256": "2088345351192afa13b3a9d439e2d5c3ec7327117c4e8c96a02c5aa4e1e4c21d",
+      "five_weight_topology": {
+        "template_points": [
+          1866,
+          1866,
+          1866,
+          1866,
+          1866
+        ],
+        "template_contours": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "template_compatible": true,
+        "representative_codepoint": "U+3E4A8",
+        "representative_points": [
+          4624,
+          4624,
+          4624,
+          4624,
+          4624
+        ],
+        "representative_contours": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "representative_compatible": true
+      }
+    }
+  ],
+  "shared_parent_instances": [
+    {
+      "codepoint": "U+3E4A8",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "4732b14b8cddf7961a08db91df5015e3ae4037eebfa2336f355c150bbffc3f8c",
+      "pre_parent_refinement_svg_sha256": "4732b14b8cddf7961a08db91df5015e3ae4037eebfa2336f355c150bbffc3f8c",
+      "final_svg_sha256": "7a93be71b4b6cd16b3180e9ec26fc86b04de5873d2164d4ca9b6f7ee056f93f1",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4AA",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 1,
+      "baseline_svg_sha256": "cfc61324f802f0a528bab672c0b23c791c14fde70da03bcd344b72720cffdff7",
+      "pre_parent_refinement_svg_sha256": "cfc61324f802f0a528bab672c0b23c791c14fde70da03bcd344b72720cffdff7",
+      "final_svg_sha256": "a5f1b015902d274976d3e19bed4e3fb06377581f16d5183567dd2c54caf89385",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4AD",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "761cb59d528be82b933d3f552b8bc69fe3ba6ec658d5f25cf388626acab6ed34",
+      "pre_parent_refinement_svg_sha256": "761cb59d528be82b933d3f552b8bc69fe3ba6ec658d5f25cf388626acab6ed34",
+      "final_svg_sha256": "2e321a4a1aa9f0013a4e60abf5311abb81b7aa52ed8e785da23ecd253d8d5b3c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4AE",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 1,
+      "baseline_svg_sha256": "58a705c521f0522d4716d3f73de09aa8c6a58eefa63e27a5d93d75d0439fa081",
+      "pre_parent_refinement_svg_sha256": "58a705c521f0522d4716d3f73de09aa8c6a58eefa63e27a5d93d75d0439fa081",
+      "final_svg_sha256": "c31dd4523f0282f9101c51889fa127d59f4c9f1a54fdf5f972c01807653a6c70",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B0",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "c61b96944162aaa375742f510ffa09043c7e60c00dab2aece9275b25c9d8e8e7",
+      "pre_parent_refinement_svg_sha256": "c61b96944162aaa375742f510ffa09043c7e60c00dab2aece9275b25c9d8e8e7",
+      "final_svg_sha256": "a97686b933cf00a1fb64bd7bc588d35b3d6e67bf2da0ee897ed00885299911f7",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B2",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "d438020639e40d1c12a9bfc6c27e5242f08aff9aee23410b85bbe42a70969aac",
+      "pre_parent_refinement_svg_sha256": "d438020639e40d1c12a9bfc6c27e5242f08aff9aee23410b85bbe42a70969aac",
+      "final_svg_sha256": "14f2d36c8c09968c5f605f19aa401675d002aad5d37e8629dfdf2406597efaa8",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B3",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "b84aae4ee0b392052a17ae5c2b7a20f308ed6f684094151a6634a999eac07f7b",
+      "pre_parent_refinement_svg_sha256": "b84aae4ee0b392052a17ae5c2b7a20f308ed6f684094151a6634a999eac07f7b",
+      "final_svg_sha256": "eeb941d32da32b8321ac31ef567997701282cb8a7414daec3e4e4f7d1cfc0138",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B4",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "5bb006b1e749fb801eff41147f92fce1b7014534d697799bcb05d996e61ad866",
+      "pre_parent_refinement_svg_sha256": "5bb006b1e749fb801eff41147f92fce1b7014534d697799bcb05d996e61ad866",
+      "final_svg_sha256": "8391633c3c39fcb9f7d45763fc1f198bb7351eac02fc20241205a32ab7d5e116",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B5",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "e05cea2fcbfba523eb6f101f1a2a89bc9077d93a36dcee46b590795791fab1f2",
+      "pre_parent_refinement_svg_sha256": "e05cea2fcbfba523eb6f101f1a2a89bc9077d93a36dcee46b590795791fab1f2",
+      "final_svg_sha256": "14226d9db4bf8685d6a95c96b256be358e0e8ddb8f2f8af04ea866cfb2a943fb",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4B6",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "27768a359f142f326e447fc5747c50a1db9c3fc81175cca7c49002519d18ac8a",
+      "pre_parent_refinement_svg_sha256": "27768a359f142f326e447fc5747c50a1db9c3fc81175cca7c49002519d18ac8a",
+      "final_svg_sha256": "e2cef75462084c194692b660fec8d502e918fcf48e3fdd18f15939c828c0c840",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4BA",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "2475804a246f3c2d8de1c9d2050f21ffd5f88ac0995a90eafd75a4b93b3d9e12",
+      "pre_parent_refinement_svg_sha256": "2475804a246f3c2d8de1c9d2050f21ffd5f88ac0995a90eafd75a4b93b3d9e12",
+      "final_svg_sha256": "e6806236a4e1133844b55856a68cb9831b7bf8f338e71efe3977ddc4e383572a",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4BC",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 11,
+      "baseline_svg_sha256": "59afb032459edd972f0c7193718c5bef689df90edf7670e4bb3d1aab790d065b",
+      "pre_parent_refinement_svg_sha256": "59afb032459edd972f0c7193718c5bef689df90edf7670e4bb3d1aab790d065b",
+      "final_svg_sha256": "18e900c4e9e35dbe581b09fa9aec034e968d8031eab46a1be8183d96dce374a4",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4BD",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "01c347e9289240a468355aabcc1085e30d6723db2be381cfc64f13209742d69c",
+      "pre_parent_refinement_svg_sha256": "01c347e9289240a468355aabcc1085e30d6723db2be381cfc64f13209742d69c",
+      "final_svg_sha256": "f8db2e29b1a038fa169632bb4d19f0b963f33104254378073fdf116ab38db722",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4BF",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "278ba11f22b1167ea2f006247c47ac367179e69627baa3623f9700bc8d9191fe",
+      "pre_parent_refinement_svg_sha256": "278ba11f22b1167ea2f006247c47ac367179e69627baa3623f9700bc8d9191fe",
+      "final_svg_sha256": "365fe3d366a6d159d10b679011103c8a557c3b0ae27da83e181382211743c881",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4C2",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "24c88a305f05794577f210bafd26ea586d571c2aaca104b9fab4fd677ea0aa25",
+      "pre_parent_refinement_svg_sha256": "24c88a305f05794577f210bafd26ea586d571c2aaca104b9fab4fd677ea0aa25",
+      "final_svg_sha256": "482e0bcb6d888161bd889f0e9bcf46999e21f29c0fbd1afc5aa1a1208996e150",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4C5",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "d549d4ae547b26169724fc01d14554437d79604071ebbcb07e083cd3cd0228d6",
+      "pre_parent_refinement_svg_sha256": "d549d4ae547b26169724fc01d14554437d79604071ebbcb07e083cd3cd0228d6",
+      "final_svg_sha256": "eaf3803e9b0d424a411c47db72c333a0569c798d8d138c27bc1616a063ccbbd0",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4C7",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "a2266bcc5d8a9a09a452b40dc8db8fdd65e53f2200051bc7229c692f50d281d9",
+      "pre_parent_refinement_svg_sha256": "a2266bcc5d8a9a09a452b40dc8db8fdd65e53f2200051bc7229c692f50d281d9",
+      "final_svg_sha256": "f3bb001a8d0c051f80ea6e03e2a247a77d4655b02155340b7ea7928d6d9e26f4",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4CB",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "9bae2169aefcf3cb181b91c0d9497f6555d1d0b326aea1984a744eb9d15501bb",
+      "pre_parent_refinement_svg_sha256": "9bae2169aefcf3cb181b91c0d9497f6555d1d0b326aea1984a744eb9d15501bb",
+      "final_svg_sha256": "6a8bb5cc09935d4434e7f6498ec3ff924f01088a5b0f763993d88bdf71d9d17c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4D0",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 1,
+      "baseline_svg_sha256": "6eaa469fa8e24af3bfd07583e2d7d9410af41e1610c996c5ab6d7c0a25e4457b",
+      "pre_parent_refinement_svg_sha256": "ba42213c3e96db8758f9bbaf33a5125fa4a155c9d3d6ade4d7e8cfb5ffa1c351",
+      "final_svg_sha256": "da3a2162b6b58f7ad347b5397cf89fbc025480313e379a0e7ba9d0f1bdbf403e",
+      "new_role_in_this_revision": true
+    },
+    {
+      "codepoint": "U+3E4D3",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "9ce169c86b73d686b32ebd2369e094350d1130d1f78eb8b3b427fd429f8f395c",
+      "pre_parent_refinement_svg_sha256": "9ce169c86b73d686b32ebd2369e094350d1130d1f78eb8b3b427fd429f8f395c",
+      "final_svg_sha256": "9fc5bf9a926b4288512f165b86dd9f2b77115527c634a8de3c1b94036ccadc6e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4DB",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "e79d80c93ed6441287342cdb900c991867fb43d04cb979bd50a912f3a382f874",
+      "pre_parent_refinement_svg_sha256": "fca75c1a8616fca6da470e21c283865c30e57e8628e3f89206379812d2982491",
+      "final_svg_sha256": "6ef967018493d89cc06c495ddedc659d01d3446dd416260cbb6a7b19640a86ee",
+      "new_role_in_this_revision": true
+    },
+    {
+      "codepoint": "U+3E4DD",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 11,
+      "baseline_svg_sha256": "35e3f896f73027e624c43f590c448db469acafe304b9d9c0d5b4409f1f90132f",
+      "pre_parent_refinement_svg_sha256": "35e3f896f73027e624c43f590c448db469acafe304b9d9c0d5b4409f1f90132f",
+      "final_svg_sha256": "39474edf0a1444b43801dd0a39a333562bd3b10464aa3b5f7a21e3a6874a224e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4DF",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "a132ac2430c055bae05cbd7f39bb2c30678d59190d1023dadc8a2df8a764a937",
+      "pre_parent_refinement_svg_sha256": "a132ac2430c055bae05cbd7f39bb2c30678d59190d1023dadc8a2df8a764a937",
+      "final_svg_sha256": "9defe8d4e2d408c2776e194121727a63b4dfa4da333a7637abad0f71e1d1f53f",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4E0",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "0c9023b600eb73d23ae1bda3c85ec33a799ad882b0740fdc23abcfe78fcf651d",
+      "pre_parent_refinement_svg_sha256": "0c9023b600eb73d23ae1bda3c85ec33a799ad882b0740fdc23abcfe78fcf651d",
+      "final_svg_sha256": "f86fce2614245338de358b2f1d64f738d7a8a23040fc6ee8d5192cf583a25a16",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4E1",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "d813adf2aea509dcc3bd20d1ffaa6a8acbb7532db9d249d242fa9cadda52c053",
+      "pre_parent_refinement_svg_sha256": "d813adf2aea509dcc3bd20d1ffaa6a8acbb7532db9d249d242fa9cadda52c053",
+      "final_svg_sha256": "e6592fffc3a1857bc4e69a80e584b3b0b0223c185106ca06abd1bfc2bdd83fad",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4E2",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "581eab9c271573d7dd14d25e78fbaa40371df38681cae3668edb19bc8fa834ce",
+      "pre_parent_refinement_svg_sha256": "581eab9c271573d7dd14d25e78fbaa40371df38681cae3668edb19bc8fa834ce",
+      "final_svg_sha256": "3cefa8d36b02da0b2bf15c29507b78026b949b87e9f82d22f533fa36b1886f54",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4E5",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "fa714b9f63cdd130e51854bf7b265c73a68a7e5ea1db51a1107d42a907826fcc",
+      "pre_parent_refinement_svg_sha256": "fa714b9f63cdd130e51854bf7b265c73a68a7e5ea1db51a1107d42a907826fcc",
+      "final_svg_sha256": "57240cf804f9d8781ee89ab69179aaee2c6f07ac3719d7990fd83a5c61e36c95",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4EF",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "28d55d39501007ce10762361424f588bbc91834fe7c0ee187b21795a44d1ea5a",
+      "pre_parent_refinement_svg_sha256": "28d55d39501007ce10762361424f588bbc91834fe7c0ee187b21795a44d1ea5a",
+      "final_svg_sha256": "afe6e99bd52319c9eb9fb57fabed90bf0e6a4e6cab7b993f08745d212ed8bf06",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4F6",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "df1b22f9b07a48f076a7ea79c7e7bfc28b1cd14e0e800b601cfae90b4de2bebd",
+      "pre_parent_refinement_svg_sha256": "df1b22f9b07a48f076a7ea79c7e7bfc28b1cd14e0e800b601cfae90b4de2bebd",
+      "final_svg_sha256": "1320fe375093dc7f1d6b07fbb2c0dd1d1742c29d3aaba6aa92ccd6fef7ff2d45",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4F7",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "ca014974b756b14ccaaf5c208ed6feae771d081fb53fef61cb91fc563a5d288a",
+      "pre_parent_refinement_svg_sha256": "ca014974b756b14ccaaf5c208ed6feae771d081fb53fef61cb91fc563a5d288a",
+      "final_svg_sha256": "6e4360c04fc841783d3dc0ad5511abb6647b2308ae8ecb0cf47850047b58c25a",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4FA",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "479a8ec3aba9650e2e01644aa1b52896266ff622fcf1cee1cecbcb50e87f4913",
+      "pre_parent_refinement_svg_sha256": "479a8ec3aba9650e2e01644aa1b52896266ff622fcf1cee1cecbcb50e87f4913",
+      "final_svg_sha256": "bd61d0192e487fd9d42dea45a5f9bb82b78f8d3e39255981b514d9712ec61774",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4FB",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "dc664ce21914f76de77e5bb460bb167750c068c8625bb8053cc6bda6966c849c",
+      "pre_parent_refinement_svg_sha256": "dc664ce21914f76de77e5bb460bb167750c068c8625bb8053cc6bda6966c849c",
+      "final_svg_sha256": "90b476f56791a4f41a0db0db287a903462ce3ecc5ea5bd2c37387ffeaccfc4f1",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3E4FC",
+      "template_id": "269-3E4A7-enclosure-ordinary-enclosing-roof",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "c4f241becd4e582a3cac05306c75c5435690c7577a9c5ce35942c397eda50412",
+      "pre_parent_refinement_svg_sha256": "c4f241becd4e582a3cac05306c75c5435690c7577a9c5ce35942c397eda50412",
+      "final_svg_sha256": "1852a9f19e3ea687928a77ce77a033a9404a4646ee15433de113efe8ec1e70b0",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F862",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "a4ae37973b726256af13a827cfecefc00305b968f554a6fe1a03766010072cdf",
+      "pre_parent_refinement_svg_sha256": "a4ae37973b726256af13a827cfecefc00305b968f554a6fe1a03766010072cdf",
+      "final_svg_sha256": "011d3e7a323b679bc83ba9e8e45625884c23686e62146cc11d8c1e09efeb2fe6",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F863",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "5ffb37bb5038eeb32347ddf2e09bf561337fca36f7b6c875a49c01202b47b07c",
+      "pre_parent_refinement_svg_sha256": "5ffb37bb5038eeb32347ddf2e09bf561337fca36f7b6c875a49c01202b47b07c",
+      "final_svg_sha256": "6da72bd26db53da6070d75358009abfedb7ab59388e32aa610b84898df16bf40",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F864",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "3f1aaf00abc6b60868d564faa47d1b275f9edcb1b79f5a8a707841f2c837d445",
+      "pre_parent_refinement_svg_sha256": "3f1aaf00abc6b60868d564faa47d1b275f9edcb1b79f5a8a707841f2c837d445",
+      "final_svg_sha256": "8dfa4d201f4150d2bc09baa224271db78619346bf1daf7817b5e17165b30502d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F865",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "7e556e0e237073f70df909c3e56f67f0c72f5c79aab91ac4e50a4aa197246aa9",
+      "pre_parent_refinement_svg_sha256": "7e556e0e237073f70df909c3e56f67f0c72f5c79aab91ac4e50a4aa197246aa9",
+      "final_svg_sha256": "037a43069a2274db044f154962b684b7b679f90619f48b76ebd6bbaad72fe716",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F866",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "ecdccef7da32d9443df12eeb0ea4699d7870d2b5b9ce80eb3d8601bc485be12d",
+      "pre_parent_refinement_svg_sha256": "ecdccef7da32d9443df12eeb0ea4699d7870d2b5b9ce80eb3d8601bc485be12d",
+      "final_svg_sha256": "33358a60b31ec05b800f5d426d05d0c95740ab25ed399d99c0615b4891c1a098",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F869",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "af3dc4d8fd06291a0d406da0fdd00a04f076b34f316f493314bad3536d228b53",
+      "pre_parent_refinement_svg_sha256": "af3dc4d8fd06291a0d406da0fdd00a04f076b34f316f493314bad3536d228b53",
+      "final_svg_sha256": "491e9137483da0a841dacf2dab6a56d202340e13c491b33be98c1c5d3a3812a1",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F86A",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "ec021f5bb63e091c41228ab976c2c0b51d2bc0f80e9262cb9c357a960a034fea",
+      "pre_parent_refinement_svg_sha256": "ec021f5bb63e091c41228ab976c2c0b51d2bc0f80e9262cb9c357a960a034fea",
+      "final_svg_sha256": "babb896123544db225c9c06e13e30b8cabe52b4f75783e109f26735514a09ae5",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F877",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "d37b87981528f25832f20947eb3da3108376cf35f1c4896798f65849ae090ea5",
+      "pre_parent_refinement_svg_sha256": "d37b87981528f25832f20947eb3da3108376cf35f1c4896798f65849ae090ea5",
+      "final_svg_sha256": "40270545239e12a64017c8c60fcf8541f5c624e144e89939e00ddc52753f5b27",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F88A",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "eaa5d66c4dcd348ead573aa0f4092f3f6b62ea1844af229220e9f1b420415b68",
+      "pre_parent_refinement_svg_sha256": "da2c4ce6a09a0d36482ac016eab4d8a52e2752344e6397b06999526975846994",
+      "final_svg_sha256": "3d3fda517d456b4dc4ac4642bb6f699b76846b51dfa82c315c2b41bb2202dd51",
+      "new_role_in_this_revision": true
+    },
+    {
+      "codepoint": "U+3F88C",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "042889bf58ecd448256c787f45d2562f41f18e73369d5ff466448b98bac152f3",
+      "pre_parent_refinement_svg_sha256": "042889bf58ecd448256c787f45d2562f41f18e73369d5ff466448b98bac152f3",
+      "final_svg_sha256": "22ace847b74ee4423faf3b58c7ef16bc0226ec37c6b800f9b895942bb3302c73",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F893",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "0f2b746da4ab96a3a5dd49ed99bd88fcb04eea719449ab3d5d74907252c6d03c",
+      "pre_parent_refinement_svg_sha256": "0f2b746da4ab96a3a5dd49ed99bd88fcb04eea719449ab3d5d74907252c6d03c",
+      "final_svg_sha256": "e2e4173b4edef29472c0a0e511be4a787debfd94cb9c4d5eb62acb3c838aad40",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F897",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "a06c1312f79d2b6ae01e475d267b052e38f258db4deb5a027500f88137b7d972",
+      "pre_parent_refinement_svg_sha256": "a06c1312f79d2b6ae01e475d267b052e38f258db4deb5a027500f88137b7d972",
+      "final_svg_sha256": "acb724e764227f4e139676a25058e0393b6ff5281dabc704f33a49e4eb8e7dba",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F898",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "cdd42ceabfad24c289ce104b794cfcee0af85b2c56b0902c74b16f85c74b1158",
+      "pre_parent_refinement_svg_sha256": "5efb7608007b2d405d7aaf931e44a19cecc0b133396587991f00a5e73db55478",
+      "final_svg_sha256": "0c03323d7570039177a5933f41b1f426d02329a7c0a09bfcf1b01c8e5b6deb77",
+      "new_role_in_this_revision": true
+    },
+    {
+      "codepoint": "U+3F89F",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "8c98923f833a92dd79340fe817e7146b4d32a5b2452cf85a8aa2880828b4218c",
+      "pre_parent_refinement_svg_sha256": "8c98923f833a92dd79340fe817e7146b4d32a5b2452cf85a8aa2880828b4218c",
+      "final_svg_sha256": "cda234b63304a08e5b81492e7741a0212dc12934f59891a51258434d564ac8e6",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8A7",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "52c59e485503f741b03a5b2b2b91f5395ad9b07761fdb9cc37b01f1ecd24d46e",
+      "pre_parent_refinement_svg_sha256": "52c59e485503f741b03a5b2b2b91f5395ad9b07761fdb9cc37b01f1ecd24d46e",
+      "final_svg_sha256": "aa659c83a9951c4af43ec10a6e1fd37a9ad12ac451b545ad9dd7c2a0503f811e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8AD",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 9,
+      "baseline_svg_sha256": "6cd611a44716cd48d6d76f8b8cc780b313bc666268da79127fd93fd309f0d744",
+      "pre_parent_refinement_svg_sha256": "6cd611a44716cd48d6d76f8b8cc780b313bc666268da79127fd93fd309f0d744",
+      "final_svg_sha256": "4884abdc25a38e53acae2d8abc16bc2655a257be897c61669d5b43bb599ae1ee",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8B6",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "764b88ae57ec5c45b15135134a5a66dc620323c6f6c644132c6b1421c2b328cd",
+      "pre_parent_refinement_svg_sha256": "764b88ae57ec5c45b15135134a5a66dc620323c6f6c644132c6b1421c2b328cd",
+      "final_svg_sha256": "ac3e4a9d3d0fb28aa47e7e46e3703dc5eca0f96a95f40ab3181a668380e5cf81",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8BB",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "134d72a6a5588f6c8f1aa77579c5a513bc357804ff0fd33701938da34c7945e0",
+      "pre_parent_refinement_svg_sha256": "134d72a6a5588f6c8f1aa77579c5a513bc357804ff0fd33701938da34c7945e0",
+      "final_svg_sha256": "dd0e56fe16903993489a6873abc77f41d00477d1373f488c58f4591f6903266d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8BC",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 9,
+      "baseline_svg_sha256": "76ab3471de61bc03c447d678e2c210645d6656a50fc2a690dece88443918961b",
+      "pre_parent_refinement_svg_sha256": "76ab3471de61bc03c447d678e2c210645d6656a50fc2a690dece88443918961b",
+      "final_svg_sha256": "94fc95095d542a51f455b1e3c221f03049d5da39b57c0467b0ad44b9a06c7a4d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8BD",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "9508220369b801c21112b3a12c9f78b255e41875fdbe2984eaf0c14d66d859e6",
+      "pre_parent_refinement_svg_sha256": "9508220369b801c21112b3a12c9f78b255e41875fdbe2984eaf0c14d66d859e6",
+      "final_svg_sha256": "6cdd2171ef9859ea73bc5906ae31a0f27219aad19b9ad2f3348f026354516302",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8C1",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "e9aa807e34339b0b8993bd49784084d2cb57e936ca1439cdf5ace685f86fb9e4",
+      "pre_parent_refinement_svg_sha256": "e9aa807e34339b0b8993bd49784084d2cb57e936ca1439cdf5ace685f86fb9e4",
+      "final_svg_sha256": "e55464c2c162265e163e63fc29dda26bef0484eb498e486e2a8314451f92226e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8C2",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "0b904000f74fdf2492119ca07f5352fa05ec7337f93a10f5a140c22233bb6b8e",
+      "pre_parent_refinement_svg_sha256": "0b904000f74fdf2492119ca07f5352fa05ec7337f93a10f5a140c22233bb6b8e",
+      "final_svg_sha256": "62990211287736136806772ccc0dafad36222064cb47f465f170eecaae31d80f",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8C3",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "1d6edda467cd8e47300ff75e54f611a70dc7be375b8d34d2a25eae6f29e5ef56",
+      "pre_parent_refinement_svg_sha256": "1d6edda467cd8e47300ff75e54f611a70dc7be375b8d34d2a25eae6f29e5ef56",
+      "final_svg_sha256": "d87c30fe5aea9e0b5c457a7d4e830f704eca174fd65b07ff8d68f2b3d11dc609",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8CE",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 9,
+      "baseline_svg_sha256": "bf28d73d50535ac1835cfee5fc51f9374d648f1162cae2ace55cde88c4b90d71",
+      "pre_parent_refinement_svg_sha256": "bf28d73d50535ac1835cfee5fc51f9374d648f1162cae2ace55cde88c4b90d71",
+      "final_svg_sha256": "9139ab5b9b49167a2aa4a676f68a5683d2ebe4931c09550751085d2da50fe8ef",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8D8",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "39acad6fe814413266e542a1fee26cbb69d2d2f7e13bc90dda42dea421d51fb5",
+      "pre_parent_refinement_svg_sha256": "39acad6fe814413266e542a1fee26cbb69d2d2f7e13bc90dda42dea421d51fb5",
+      "final_svg_sha256": "15c6ca72c2ac6b78901869cff0a18a10b32d1314cb874aa17a65168818ced91c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8E0",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "5642b3b4df0fea596447d866377a121bc9221d56ffc44238bcc0b82d637576e1",
+      "pre_parent_refinement_svg_sha256": "5642b3b4df0fea596447d866377a121bc9221d56ffc44238bcc0b82d637576e1",
+      "final_svg_sha256": "9cb101d3d36d167f460984616f98c1b0e2ab8596bfce14550c829d31883fec9e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8E6",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 9,
+      "baseline_svg_sha256": "f83ae1ca1d0c390742d048997b9d4fb312a08c50fd431a6721f701c2b5f3fd4e",
+      "pre_parent_refinement_svg_sha256": "f83ae1ca1d0c390742d048997b9d4fb312a08c50fd431a6721f701c2b5f3fd4e",
+      "final_svg_sha256": "6dc457f20a0f02a63e6d3e70887e6363770c3f0a6fe75af5b7b8e99d7bbd5a67",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8E7",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "d9386bfcbbd6ff2b890e6c3b55ae705ee5a5703b1e543994ff7cb6d3f05bca50",
+      "pre_parent_refinement_svg_sha256": "d9386bfcbbd6ff2b890e6c3b55ae705ee5a5703b1e543994ff7cb6d3f05bca50",
+      "final_svg_sha256": "bdd97d79dceb72508b3fa4323142071e55ac662b44f8087334310881ed038882",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8E8",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "eedefd405a33d19754ed51d0f0d271e922a461a1aac2df3dd565a714c6f6f3b3",
+      "pre_parent_refinement_svg_sha256": "eedefd405a33d19754ed51d0f0d271e922a461a1aac2df3dd565a714c6f6f3b3",
+      "final_svg_sha256": "5313879a0e2893cb31cf6331a3e403172c12a6814cec7e8bd7ad2dc47f4f07bf",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8EF",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 12,
+      "baseline_svg_sha256": "f626a2f516eded43f9ccc016ea45fbd07113805b11c3f43fc8edb3d23b2a91ea",
+      "pre_parent_refinement_svg_sha256": "f626a2f516eded43f9ccc016ea45fbd07113805b11c3f43fc8edb3d23b2a91ea",
+      "final_svg_sha256": "84bab7c71571efc1d34a01dde18d691e44abcae79748ec68809ddf68a0d1f8ad",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8F1",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "9117a05c752e2169eef1f5b1ee1d957b4dd3057a54e5284b1d29bf36e2a9dd31",
+      "pre_parent_refinement_svg_sha256": "9117a05c752e2169eef1f5b1ee1d957b4dd3057a54e5284b1d29bf36e2a9dd31",
+      "final_svg_sha256": "55f6f0566d3b976269d53c22d24323cf535b03a04ecb993ed346d52b19326230",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8F2",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "7db74ae1bf7129bea1bd9bc717971bc9366ce6bd79a2c9567e551301cd803b65",
+      "pre_parent_refinement_svg_sha256": "7db74ae1bf7129bea1bd9bc717971bc9366ce6bd79a2c9567e551301cd803b65",
+      "final_svg_sha256": "71c68cf5de13512de50fe59b861ccce42e8aca9cf428c897e8770b7ea451c58c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8FC",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "4832a209796f3c04ee5aae9be42fa38e35d29703f34ab3708989b2eb935e393c",
+      "pre_parent_refinement_svg_sha256": "4832a209796f3c04ee5aae9be42fa38e35d29703f34ab3708989b2eb935e393c",
+      "final_svg_sha256": "dc4fd59ee1b456884a46c78bc7b0bae92d8011fe44ffc82ff4915a3201900d46",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F8FF",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "bad067a67229186bbc0949dfef7303e391c53e317279d923468a0522f5bb42e2",
+      "pre_parent_refinement_svg_sha256": "bad067a67229186bbc0949dfef7303e391c53e317279d923468a0522f5bb42e2",
+      "final_svg_sha256": "63b81ee371683ed2b8e65a8582afc38f7d32d5bf8bc2e91cd262450a8cdca2e1",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F900",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "51d4a62e9e78865c75a26397e9d2682faf3cfe335452df37a5d49ff219b0b1a4",
+      "pre_parent_refinement_svg_sha256": "51d4a62e9e78865c75a26397e9d2682faf3cfe335452df37a5d49ff219b0b1a4",
+      "final_svg_sha256": "98031ee9b3d47b19ceb184267835de3d86e040963de81ffb12e380f1a5917704",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F901",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "a5b6079eedbc640b0954175c609d334ce05d95be21e89aa0e5e82cbf2c6f79b8",
+      "pre_parent_refinement_svg_sha256": "a5b6079eedbc640b0954175c609d334ce05d95be21e89aa0e5e82cbf2c6f79b8",
+      "final_svg_sha256": "249d288ed0f823cea25f4da17c4f3bddebddea2b0bb1acb8750824d9c804898b",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F903",
+      "template_id": "480-3F859-left-whole-component-cluster-0",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "d28e9ec5e491805cc2f041d4ebc9166a0b27516c4e52916ad0630269a17b2d0f",
+      "pre_parent_refinement_svg_sha256": "d28e9ec5e491805cc2f041d4ebc9166a0b27516c4e52916ad0630269a17b2d0f",
+      "final_svg_sha256": "23286bd3253afae5ab5c818153adc0c2b22a89888f524a652d5602f1576333af",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F980",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "56c6c37a0fdf7d2f22f44d87b691388422b616b1304b61da08a1cf5a7f3671c0",
+      "pre_parent_refinement_svg_sha256": "56c6c37a0fdf7d2f22f44d87b691388422b616b1304b61da08a1cf5a7f3671c0",
+      "final_svg_sha256": "0144618266f4e6d1a049d350d90b1ef83cd58124c4555d874de74faa7bf1c83c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F983",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 13,
+      "baseline_svg_sha256": "e5f254ad8ea9a133f7ecd4abf69fc4b0efbc8660d744f91681e8cd770fc32ecf",
+      "pre_parent_refinement_svg_sha256": "e5f254ad8ea9a133f7ecd4abf69fc4b0efbc8660d744f91681e8cd770fc32ecf",
+      "final_svg_sha256": "3683e720e2592305dca3db8ac4008f0f6a72cdb6a66a2cb35d344f15631ff5b4",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F984",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "ee29f1a0d121dfba9f665ba44b5e6678b371c7540248fa387c207bcb71706cef",
+      "pre_parent_refinement_svg_sha256": "ee29f1a0d121dfba9f665ba44b5e6678b371c7540248fa387c207bcb71706cef",
+      "final_svg_sha256": "dd0f9f9ea784ee758ce9325ea8886c2eb987d4003bbfd6b688822441fa20b058",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F98A",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "cb6bad4c008fed8ddc2c5c0f6f085d345d56ba679f189fcf9e4eea5ff26da3e2",
+      "pre_parent_refinement_svg_sha256": "cb6bad4c008fed8ddc2c5c0f6f085d345d56ba679f189fcf9e4eea5ff26da3e2",
+      "final_svg_sha256": "8a01c8601dbd79fa97737ef92576d07dd20c3dc8d4fda86fa141a7f3dbb7cc93",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F98F",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "98f2f4031b1d2c857efc8ec0dd7dcf6b1a72fc3353d3ffc36566499807b8879a",
+      "pre_parent_refinement_svg_sha256": "98f2f4031b1d2c857efc8ec0dd7dcf6b1a72fc3353d3ffc36566499807b8879a",
+      "final_svg_sha256": "38606108be5cba620bd1e63b6d3ce423ef19e7244f1bbd5b5d8ad7683f68488a",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F995",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "1061462590fa026350e7540d56e244bf078eae2d582078deedbefbee3e55563e",
+      "pre_parent_refinement_svg_sha256": "1061462590fa026350e7540d56e244bf078eae2d582078deedbefbee3e55563e",
+      "final_svg_sha256": "46a94bbf5893edfa81a5f8d8ff97860a9614f690b52460de97bf3cba02ddb077",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F997",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "317f5304c25fff7c1605b7ff4474f7f97863a44fc06b6920cdbd97b84f9cb1a7",
+      "pre_parent_refinement_svg_sha256": "317f5304c25fff7c1605b7ff4474f7f97863a44fc06b6920cdbd97b84f9cb1a7",
+      "final_svg_sha256": "d0b3864ad29794cf2f65ea9abe71e4cebe196fe0b2af6c1a6664e7495ff47bad",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F998",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "336f35c21f3b0bdb488a5e199882856b2220e62194c23bc38727bb2d0a923b70",
+      "pre_parent_refinement_svg_sha256": "336f35c21f3b0bdb488a5e199882856b2220e62194c23bc38727bb2d0a923b70",
+      "final_svg_sha256": "0398124d8f80183e388a4b34829bf854aa7ff80227416f1bdc7ed64d439bec2f",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F99A",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "1e105be55c1406c4b3dfaba6bf74c0bab8612a752cdb45d2521357c88c1e3877",
+      "pre_parent_refinement_svg_sha256": "1e105be55c1406c4b3dfaba6bf74c0bab8612a752cdb45d2521357c88c1e3877",
+      "final_svg_sha256": "923441d64cff09bd7cf2fa8c4300159faa64b4985fd63d0a1128ae8951eb40e0",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F99C",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "664b2e1762e16ee1fca687104f71888c978d29e8b793912f452962024f3a9e70",
+      "pre_parent_refinement_svg_sha256": "664b2e1762e16ee1fca687104f71888c978d29e8b793912f452962024f3a9e70",
+      "final_svg_sha256": "292cdde6da377bcb8f2598307ef6bad79407623c57a114752fc788e7258be0dd",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9A6",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "e8dfc3406b25f7a320ad94d6c4e31548d92143e10814825d99da3d742dedd224",
+      "pre_parent_refinement_svg_sha256": "e8dfc3406b25f7a320ad94d6c4e31548d92143e10814825d99da3d742dedd224",
+      "final_svg_sha256": "fd2acb4054787a3bedac201ee5cdf49c69f860c4981dfe1542bed425023e174a",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9AB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 13,
+      "baseline_svg_sha256": "bcec02132eed2641663e98d38584ffa60252f2ea912b4295e955869edf94edad",
+      "pre_parent_refinement_svg_sha256": "bcec02132eed2641663e98d38584ffa60252f2ea912b4295e955869edf94edad",
+      "final_svg_sha256": "f394161eb0e664ef912c3952d643b70c09db64d8a580653318b23e4a46a91a61",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9BB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "76aaaa94e38019353c84485777feaeff02be56baf94f2984409b56ca0cf67a1f",
+      "pre_parent_refinement_svg_sha256": "76aaaa94e38019353c84485777feaeff02be56baf94f2984409b56ca0cf67a1f",
+      "final_svg_sha256": "a30068882be3d101b5a187344bc1fa889232fb8c6ea778c4613a3f1040f81902",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9C0",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "65c8903f8f5f6df506c7886b77e03581ad9dcc7abfe8e7fbc170628e87fab232",
+      "pre_parent_refinement_svg_sha256": "65c8903f8f5f6df506c7886b77e03581ad9dcc7abfe8e7fbc170628e87fab232",
+      "final_svg_sha256": "36ffd968728d0af1c6a53eabb0327e7fe5fadf77e0bd73978875dd6069d254cc",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9C5",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "340dd761f0ef5ee2939851748d7e656acb932d70d04d946cc7d9c05430a1f3f4",
+      "pre_parent_refinement_svg_sha256": "340dd761f0ef5ee2939851748d7e656acb932d70d04d946cc7d9c05430a1f3f4",
+      "final_svg_sha256": "2495eb4ac4c30ce5169d626640d8c2216bc99e39060efbcad9c6203dd0df0908",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9C7",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "ea3f9d3388eb49893720850d750a95c16e2f2eba7cef013650a41645c1bb342f",
+      "pre_parent_refinement_svg_sha256": "ea3f9d3388eb49893720850d750a95c16e2f2eba7cef013650a41645c1bb342f",
+      "final_svg_sha256": "8e2d8ed073db332e783363ab3970765df6348c99e23ae25433633f41039b9867",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9CB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "46bbbb6f12a7cccb05d37193e2e89e04a5cf2a55879a25248dcdec0f022a4322",
+      "pre_parent_refinement_svg_sha256": "46bbbb6f12a7cccb05d37193e2e89e04a5cf2a55879a25248dcdec0f022a4322",
+      "final_svg_sha256": "38a02340df49d02ee46b914ebcde0ab7de5609c8388d9ddb4ee381dd549c4d3e",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9CF",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "bdb785bdde1bae89f1f9f4807519087d660e92a3215a89aa5753af11617e2c9c",
+      "pre_parent_refinement_svg_sha256": "bdb785bdde1bae89f1f9f4807519087d660e92a3215a89aa5753af11617e2c9c",
+      "final_svg_sha256": "6b59b5f978fc9ba46c7b54f4e5a7d13223c2267e4dc9b5839f1ef9f1946b2197",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9D5",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "99f5926ffc5ca979595a9f0396bd2af15a7acca26abcb11a11751078eb30fa24",
+      "pre_parent_refinement_svg_sha256": "99f5926ffc5ca979595a9f0396bd2af15a7acca26abcb11a11751078eb30fa24",
+      "final_svg_sha256": "0a5c42b9efba242c56b44903a2eb6da5a6981ee6afec2164718b901ba7928ff4",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9D7",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "ce9518b16d0656ae0a40d99a92ee66346f4db2a3e514bd7e26cfdf56c84ab689",
+      "pre_parent_refinement_svg_sha256": "ce9518b16d0656ae0a40d99a92ee66346f4db2a3e514bd7e26cfdf56c84ab689",
+      "final_svg_sha256": "eb063dd17a5c5ba9e10cafebbc44c8af2f03f6676a64a1a72d4ac835b864a3f8",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9D8",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 11,
+      "baseline_svg_sha256": "9b4c964686af948193ae629ec2d3ecf8f185ada750c71f44336a47dbf6655ce0",
+      "pre_parent_refinement_svg_sha256": "9b4c964686af948193ae629ec2d3ecf8f185ada750c71f44336a47dbf6655ce0",
+      "final_svg_sha256": "154251488143c690d20c3ed41008d7b26ab21704fa2da0047c9e15a00d9c2bc3",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9D9",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "97a4c542bacf8ca9d8eb681d3fce9f360e01fa66d8a104cf24b721c3541d08fb",
+      "pre_parent_refinement_svg_sha256": "97a4c542bacf8ca9d8eb681d3fce9f360e01fa66d8a104cf24b721c3541d08fb",
+      "final_svg_sha256": "af463a29bbd8faeb1066469320a85df0ad044571b0be80e765ab3ee85418d748",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9DB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 12,
+      "baseline_svg_sha256": "79566184f0c10ddebc580531b484ebc31d312c086d9f30061eafac3ce6149771",
+      "pre_parent_refinement_svg_sha256": "79566184f0c10ddebc580531b484ebc31d312c086d9f30061eafac3ce6149771",
+      "final_svg_sha256": "8a327e497e102fe51d206815d6134382093aa1eebd2f7efd04efbbb7d9883030",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9DC",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "855c6e279a0b525030806f75176a828f25e060c3d584f074e575bbfd886b0e10",
+      "pre_parent_refinement_svg_sha256": "855c6e279a0b525030806f75176a828f25e060c3d584f074e575bbfd886b0e10",
+      "final_svg_sha256": "7acdb79d33353c33afa6d22f14b2099ee6bb6a82ccdce146dc8577f1ae1aa5d9",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9DD",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "e47a600a1f27bac9918e3f9d4f5c1872d2d69242992a6d80b058a463fda601f8",
+      "pre_parent_refinement_svg_sha256": "e47a600a1f27bac9918e3f9d4f5c1872d2d69242992a6d80b058a463fda601f8",
+      "final_svg_sha256": "ec3094eb2342593d82a283740a23b6921f935daf3d7d1e2d230366f9527ebb11",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9DE",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 17,
+      "baseline_svg_sha256": "69fbdc40c6c27321d075d2bb40737ec12c937da664bcdcfd1c111e93be9033aa",
+      "pre_parent_refinement_svg_sha256": "69fbdc40c6c27321d075d2bb40737ec12c937da664bcdcfd1c111e93be9033aa",
+      "final_svg_sha256": "d379990f9fbf049075ec3e79c37ba2162026a3e8ff2b56fdc0eea317ec69c39d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9E0",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "887f060f2a34e1380de2be99fd61d629e1ec4ba5c7ec9c40f9aeb6bc885001bd",
+      "pre_parent_refinement_svg_sha256": "887f060f2a34e1380de2be99fd61d629e1ec4ba5c7ec9c40f9aeb6bc885001bd",
+      "final_svg_sha256": "228d5633e87ed83b4eb48bb1df0e2f970994c3c36876e46aedd1b9760daa4e12",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9E1",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "aecdf224cc926efdbb57e33e79a62c6b6e179de813cb7ea4a464f54ca3952a17",
+      "pre_parent_refinement_svg_sha256": "aecdf224cc926efdbb57e33e79a62c6b6e179de813cb7ea4a464f54ca3952a17",
+      "final_svg_sha256": "4c565a185e1a7e30faee6d32b0a92a44e98c4e102318cef32996cc5280eba998",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9E8",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "8a57762f87a02d3b64a0783c65dc91b5562c07a3ed72a63bda903ba1c7645948",
+      "pre_parent_refinement_svg_sha256": "8a57762f87a02d3b64a0783c65dc91b5562c07a3ed72a63bda903ba1c7645948",
+      "final_svg_sha256": "bed408af19d4693782e3d18f218684e1f76c1791a02ef5b6cdbcb784c8448db9",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9E9",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 12,
+      "baseline_svg_sha256": "a783f14ba3da2364076b55ed6c692780ddc940a78b1caad0ab8dfbe45f86fe90",
+      "pre_parent_refinement_svg_sha256": "a783f14ba3da2364076b55ed6c692780ddc940a78b1caad0ab8dfbe45f86fe90",
+      "final_svg_sha256": "36c5e8250232207d72cbe70d9156ae4e4aa680370bec140aad858bdc62881195",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9EA",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "9693e87339dc64ae7de94a9a0d1ab55ed15e141cb1ce9e6ded800ad960779374",
+      "pre_parent_refinement_svg_sha256": "9693e87339dc64ae7de94a9a0d1ab55ed15e141cb1ce9e6ded800ad960779374",
+      "final_svg_sha256": "8f4a4df5ac44208f386db2c8ced119d971b9e64d70514773a7ca9f2630d318a7",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9EB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 15,
+      "baseline_svg_sha256": "7593ada66ec98d349745f0077db5e07f72a0250f30c7b431254f5d2301bffc53",
+      "pre_parent_refinement_svg_sha256": "7593ada66ec98d349745f0077db5e07f72a0250f30c7b431254f5d2301bffc53",
+      "final_svg_sha256": "54bf260f3afba796edfff31792704af9f2e1bdb45d6b53cb2bfdc25cae2953c7",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9EC",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "fe56749cba82262b7b565c36a993572f9548e175464870ce5cf01a8ea7953f6b",
+      "pre_parent_refinement_svg_sha256": "fe56749cba82262b7b565c36a993572f9548e175464870ce5cf01a8ea7953f6b",
+      "final_svg_sha256": "cd35c533b8b5264dd1b9b56bceb0521f5a33d37b38060984cb5a8830b316702b",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9F0",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 12,
+      "baseline_svg_sha256": "5277aebda2b722e7b9d0f0c0921ec8fc3dbe0ea6bbadfc560d4eac5de69e3a92",
+      "pre_parent_refinement_svg_sha256": "5277aebda2b722e7b9d0f0c0921ec8fc3dbe0ea6bbadfc560d4eac5de69e3a92",
+      "final_svg_sha256": "a61bed27aac09a3958fb76641d95ec767780b23147aa979b4603c73bf817815a",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9F1",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 15,
+      "baseline_svg_sha256": "3cabf2320c2f928b18852b6e4608a8f25f8fea690dbb6ebf405f748178ea906c",
+      "pre_parent_refinement_svg_sha256": "3cabf2320c2f928b18852b6e4608a8f25f8fea690dbb6ebf405f748178ea906c",
+      "final_svg_sha256": "f4c522c8c4dd37a29160fb126ed9cf2cca50a6d701e34f73ac04354e73ee721f",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9F3",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "c395abfefad24d26789f70dd939665bba584dea161c335eaadf789ab3036c7fe",
+      "pre_parent_refinement_svg_sha256": "c395abfefad24d26789f70dd939665bba584dea161c335eaadf789ab3036c7fe",
+      "final_svg_sha256": "8a535643b4e68a91d83378307fc3980c35ed469187c2bb7032b40565a4591053",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9F4",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "024a1adcf79e8a914575caf0b2f7cf68c051f24afc05ab6a08e460765f41f1e9",
+      "pre_parent_refinement_svg_sha256": "024a1adcf79e8a914575caf0b2f7cf68c051f24afc05ab6a08e460765f41f1e9",
+      "final_svg_sha256": "682e25b751d9774a44a7b45715ddc16608e9def8f16be2eac94b0cfa579a3c97",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9F6",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "8453ece65dd33106b52bed769d687e834412928a1e7a80db3d7f131e56eb1ef8",
+      "pre_parent_refinement_svg_sha256": "8453ece65dd33106b52bed769d687e834412928a1e7a80db3d7f131e56eb1ef8",
+      "final_svg_sha256": "c7773260cfc4e704c0188fa58397aa81f2c9327caaf5867cc173e5e818ba64b8",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9FA",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "7524e7ae4eba6011049cba6f9e16b5fd9185ea05999d4623eee10b7a18295cb4",
+      "pre_parent_refinement_svg_sha256": "7524e7ae4eba6011049cba6f9e16b5fd9185ea05999d4623eee10b7a18295cb4",
+      "final_svg_sha256": "e1ea6c02be413d16f426709c33d950e71c4c6830305dd565a52c3b6f3843e68d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9FB",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "8b777d1e67395ed5404128b04643b6ed3a31716ae74f436371981afa3b174a1e",
+      "pre_parent_refinement_svg_sha256": "8b777d1e67395ed5404128b04643b6ed3a31716ae74f436371981afa3b174a1e",
+      "final_svg_sha256": "6d2ef6da5871b767e5a0f5ab3da44fe0a4801e239957329e62085f84e37ae256",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9FC",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "42b7ef7947ec1a74dc3bed7ea87be5708d819d147bc4cf97a97165cbda7d34d8",
+      "pre_parent_refinement_svg_sha256": "42b7ef7947ec1a74dc3bed7ea87be5708d819d147bc4cf97a97165cbda7d34d8",
+      "final_svg_sha256": "9e39635464e7159ad373cd314f87d04f0c65e1fa27c34f5d0a98f3b17e6a4cb9",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3F9FE",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "e5608f97fd01a674427a8ea86d8f58282e4535222c40cc8d0e2b9ac538ce1fec",
+      "pre_parent_refinement_svg_sha256": "e5608f97fd01a674427a8ea86d8f58282e4535222c40cc8d0e2b9ac538ce1fec",
+      "final_svg_sha256": "8a2f7f6255c670885302acbbeaa8ec7ddb00eecd47f04733f45f50b7592273fe",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA01",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "43ac834c349c425a66e32a00644e199fe72891d8d0eadbd67d4cdfc81851d3bf",
+      "pre_parent_refinement_svg_sha256": "43ac834c349c425a66e32a00644e199fe72891d8d0eadbd67d4cdfc81851d3bf",
+      "final_svg_sha256": "8373fea9ba06a7e722ad6ca635295959437e471348428dcffc0eb335d1623808",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA02",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "bbbeb9056953ab13979cfd2cbf52924fea47cdd21508d5b09c3da94751637733",
+      "pre_parent_refinement_svg_sha256": "bbbeb9056953ab13979cfd2cbf52924fea47cdd21508d5b09c3da94751637733",
+      "final_svg_sha256": "60801ca69ccbaca453f3a50e9b69661ec7050f4a6dd2232285814f100dfac636",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA04",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "e4595af8ef0773242cba03f840fb3b4f01a59a773d3e92e60c2a1ec589e45055",
+      "pre_parent_refinement_svg_sha256": "e4595af8ef0773242cba03f840fb3b4f01a59a773d3e92e60c2a1ec589e45055",
+      "final_svg_sha256": "234a150bc91a5c96f79aaa325380cceeb384bc983e340a9436d982fa1cec1919",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA06",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "b2bd073619d4fb3b9169d458335f13151230835dbf652ca47e54055587903d83",
+      "pre_parent_refinement_svg_sha256": "b2bd073619d4fb3b9169d458335f13151230835dbf652ca47e54055587903d83",
+      "final_svg_sha256": "2720d3c40fab52b2cb71e69157bf662692d7e44d384fd58a87e18e084ac0ddfe",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA08",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 11,
+      "baseline_svg_sha256": "3075cd4ff3ce387dcfe38a142215b815d24a2d999d6eea7819894ee1799aa702",
+      "pre_parent_refinement_svg_sha256": "3075cd4ff3ce387dcfe38a142215b815d24a2d999d6eea7819894ee1799aa702",
+      "final_svg_sha256": "57d65be00dd884a60aa562c7c959111e8b1efc960af6e292728c93b68236b8d9",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA10",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "c56398ef15e8f8ef7fce4437dc70cc2fd384100baaa8d419093c0d0ffbde1511",
+      "pre_parent_refinement_svg_sha256": "c56398ef15e8f8ef7fce4437dc70cc2fd384100baaa8d419093c0d0ffbde1511",
+      "final_svg_sha256": "93c656d896c7c294df98ecc4dcd6d779f2dabc2f423aef1d798c4643c5991585",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA11",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "43908aadaef1c7dff6809ee5977f4d6a74b3fa8f73593b4be97bdc0d1b63e6b9",
+      "pre_parent_refinement_svg_sha256": "43908aadaef1c7dff6809ee5977f4d6a74b3fa8f73593b4be97bdc0d1b63e6b9",
+      "final_svg_sha256": "ac35db8ce76d792171c1ba36a669419292ec6812205ca08c17cff231f8912f5b",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA12",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "1bf8ad23f80a022ee1551fc6ca12ca50e98aae4f7ecd52a4c2035a78bc25476b",
+      "pre_parent_refinement_svg_sha256": "1bf8ad23f80a022ee1551fc6ca12ca50e98aae4f7ecd52a4c2035a78bc25476b",
+      "final_svg_sha256": "30f216fcc005a7920a63f956d91278f823e0ead7b43f174ebbbfee37cd1ad35c",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA15",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 10,
+      "baseline_svg_sha256": "af66524dac5f65fdfa4d78e9e922e6bb54fa51f72c9af5da30e5a0b97c8c82f0",
+      "pre_parent_refinement_svg_sha256": "af66524dac5f65fdfa4d78e9e922e6bb54fa51f72c9af5da30e5a0b97c8c82f0",
+      "final_svg_sha256": "5e8a8afa021c556357ce141cd41b6f92d0d49ce87cf82f3b10ac8ea599cfa654",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA1D",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "91579c39283a7288ea2a97afafaa363a67e42452b9f0768c1bb6046916fbf0c5",
+      "pre_parent_refinement_svg_sha256": "91579c39283a7288ea2a97afafaa363a67e42452b9f0768c1bb6046916fbf0c5",
+      "final_svg_sha256": "173d763a4cc2e154bd27d5f7d6f91a86bdee8ed70a532e98384c8b05c672228d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA1F",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "be4413c6e3ecb0d7e4874b9652a5b912ea8cd0357d4bc5750a067529a8560f44",
+      "pre_parent_refinement_svg_sha256": "be4413c6e3ecb0d7e4874b9652a5b912ea8cd0357d4bc5750a067529a8560f44",
+      "final_svg_sha256": "399b7cef72dfd011b6503badefea5ed4e0b6b4539de3ee2be36e3dabfadf9575",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA21",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "8d97d1344b5fdacb6a945f2e3c3dbdb93d684c66378aabd6ca85ba137bdb4309",
+      "pre_parent_refinement_svg_sha256": "8d97d1344b5fdacb6a945f2e3c3dbdb93d684c66378aabd6ca85ba137bdb4309",
+      "final_svg_sha256": "cd047dda3015b5bbd263c90ba53e2729bfd0224b17f6cfc27492e427239f0756",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA25",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "78d749698b5d8af1bc4533ee10ec34a9866b8a459eabbfbbd173a173881fbd85",
+      "pre_parent_refinement_svg_sha256": "78d749698b5d8af1bc4533ee10ec34a9866b8a459eabbfbbd173a173881fbd85",
+      "final_svg_sha256": "105e7aac59b4034c986f47dc18fc5d1a8336cd0b19bb75a550becefe29c8ae41",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA27",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 8,
+      "baseline_svg_sha256": "9224c10a0a0a3c178a976613f26682bdcbd191176a2400ad3b69b7c4a20269e2",
+      "pre_parent_refinement_svg_sha256": "9224c10a0a0a3c178a976613f26682bdcbd191176a2400ad3b69b7c4a20269e2",
+      "final_svg_sha256": "9df2ac69af77755161d6a8e523168d6f49112ed96ed801570a0d17e88a96b7a6",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA2D",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "fe4478c3d5af404b9f5f9ecdddf58ae9aaa20a817131f03aca876c7873224721",
+      "pre_parent_refinement_svg_sha256": "fe4478c3d5af404b9f5f9ecdddf58ae9aaa20a817131f03aca876c7873224721",
+      "final_svg_sha256": "f08f7348e86e836fc2a9f5b2bcffa0a4e39b0f2fb4c4e76d719706c8a070e8eb",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA31",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "75b8b9b99307136be3966c23cf53d8df9e8b78ee36d87fae3e1780613236388b",
+      "pre_parent_refinement_svg_sha256": "75b8b9b99307136be3966c23cf53d8df9e8b78ee36d87fae3e1780613236388b",
+      "final_svg_sha256": "7b9640fa200d30fa61de62ffd4ddc0958efec9f060fd7af43cc6fee6972762a7",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA32",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 6,
+      "baseline_svg_sha256": "385330de7e09b18d6cc0dc50f886c14a969b1eb45f88146aaa895f4d8a6acdeb",
+      "pre_parent_refinement_svg_sha256": "385330de7e09b18d6cc0dc50f886c14a969b1eb45f88146aaa895f4d8a6acdeb",
+      "final_svg_sha256": "d691f38e1a15cd75baa97d37872b57a30994066c62850b6fec841a8f1209be7d",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA34",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "be70e4b0dda01e355c9a5a1695c663ef4e1558dde0945634b4a1895f90024ef6",
+      "pre_parent_refinement_svg_sha256": "be70e4b0dda01e355c9a5a1695c663ef4e1558dde0945634b4a1895f90024ef6",
+      "final_svg_sha256": "6ae3cfe7698d60616340a98001482a24d26d38203da3a1bedeb438883bd96a5b",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA3F",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "6241f78c1861bf1d9307d854c5e6a6dc03116cdc5da02e72cd2054ae34a81382",
+      "pre_parent_refinement_svg_sha256": "6241f78c1861bf1d9307d854c5e6a6dc03116cdc5da02e72cd2054ae34a81382",
+      "final_svg_sha256": "f09730aa9c36918c6afdfa96f60d326f292586284a5dfdd38f553df07b35aab0",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA44",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "ca5e640550fe9fa51707352cc9cca09f83d76cc227a4016eb816f1b4a078f519",
+      "pre_parent_refinement_svg_sha256": "ca5e640550fe9fa51707352cc9cca09f83d76cc227a4016eb816f1b4a078f519",
+      "final_svg_sha256": "711c9cf7befb53255a9f2247988af9a81b51b83d9ecb76e182cf954db35e84a8",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA46",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 5,
+      "baseline_svg_sha256": "a2288afa844860c56acc5ca44d62089d3f9257ec4b2d136aa940b094ed58da22",
+      "pre_parent_refinement_svg_sha256": "a2288afa844860c56acc5ca44d62089d3f9257ec4b2d136aa940b094ed58da22",
+      "final_svg_sha256": "dbc2191eca7960807fff921d7ed7f2489d1cde754a5b28fbd82ff40b02ab49e9",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA49",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 4,
+      "baseline_svg_sha256": "570997544d6244561737633d5f08211e1e757f50101233a0e734eb992a686145",
+      "pre_parent_refinement_svg_sha256": "570997544d6244561737633d5f08211e1e757f50101233a0e734eb992a686145",
+      "final_svg_sha256": "bd352f1f7709a4e4f1fe068e4a2a0d518c24debf489e6906fd31281886c9a160",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA4B",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "8234f0f6586afdfd553916b9854f7f8ad833030ebf685e07f5a567d101eedc24",
+      "pre_parent_refinement_svg_sha256": "8234f0f6586afdfd553916b9854f7f8ad833030ebf685e07f5a567d101eedc24",
+      "final_svg_sha256": "2b220589630760dc8e42d937b9b9f429eecd6bcd1bb04bfa7f492431af4430db",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA4C",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 3,
+      "baseline_svg_sha256": "94fdfccda20318702d592c6b4c58b1c1fd7b261c42cefe0c563f0119bd421f48",
+      "pre_parent_refinement_svg_sha256": "94fdfccda20318702d592c6b4c58b1c1fd7b261c42cefe0c563f0119bd421f48",
+      "final_svg_sha256": "9bedd2181206b6c54b09ea1049cf16e1dc437a549e90167b0f7e509e92b665a5",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA50",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 7,
+      "baseline_svg_sha256": "103c4a66ccabc75e361ffbca461e96179c3f89f5990ea4bdc4d6890913168701",
+      "pre_parent_refinement_svg_sha256": "103c4a66ccabc75e361ffbca461e96179c3f89f5990ea4bdc4d6890913168701",
+      "final_svg_sha256": "a56089fd7f068992e1323b41cdd51f01f46543b769125511dd8b75178ffe1c98",
+      "new_role_in_this_revision": false
+    },
+    {
+      "codepoint": "U+3FA52",
+      "template_id": "490-3F979-left-whole-component-cluster-4",
+      "parent_path_index_zero_based": 2,
+      "baseline_svg_sha256": "56d94d9930e46fc9a05a5b7d90d64bb4ac8229e31e98f185c7a282583915d18e",
+      "pre_parent_refinement_svg_sha256": "56d94d9930e46fc9a05a5b7d90d64bb4ac8229e31e98f185c7a282583915d18e",
+      "final_svg_sha256": "b134406917c54a03e0eb28e6616a87837db1be497c39333250368a74c6d4a190",
+      "new_role_in_this_revision": false
+    }
+  ],
+  "preserved_historical_terminal": {
+    "template_id": "490-3F979-left-whole-component-cluster-8",
+    "file": "components/490-3F979-left-whole-component-cluster-8.svg",
+    "template_svg_sha256": "204c85c3607104a031728e41c26d37a7979cfbbd0653f56e5908da61b76545b2",
+    "component_local_path_index_zero_based": 0,
+    "tip": "end",
+    "decision": "Preserve the historical rightward upper hook on the central gold vertical.",
+    "lateral_hook_width_font_units": 11.87309315737241,
+    "instances_unchanged": [
+      {
+        "codepoint": "U+3F992",
+        "path_index_zero_based": 0,
+        "source_svg_sha256": "ad8bd7886092780d40048ac2f00ec09022ecbf2feb9d9acabad585a5df023bcd"
+      },
+      {
+        "codepoint": "U+3F9A1",
+        "path_index_zero_based": 0,
+        "source_svg_sha256": "f9df08a5bd1b4d34ff751a611cf704e170f9960e5872d0454b8cae66bce30c62"
+      },
+      {
+        "codepoint": "U+3F9B4",
+        "path_index_zero_based": 0,
+        "source_svg_sha256": "5c9572d42cf5041e9e33fb371cfe1c08546e07a7afa66e79ce12efb05877d0bb"
+      },
+      {
+        "codepoint": "U+3F9BA",
+        "path_index_zero_based": 0,
+        "source_svg_sha256": "ecda8476d4132aa4b8b03436121a2e74acfa68248e2e7f1f7f8a799e4f43fa9c"
+      },
+      {
+        "codepoint": "U+3F9BC",
+        "path_index_zero_based": 0,
+        "source_svg_sha256": "f56a8449fda13dcc5d5966ab39ec7ee11572514259aaa2474d571be1e3777dd5"
+      }
+    ],
+    "receipt_sha256": "cc4fae9a6db6f8c0932ffd1a7414c9f419a47482aa2d3a9939fc80d10da07bce"
+  },
+  "validation": {
+    "regular30_contact_scope": {
+      "weight": "Regular",
+      "weight_axis_value": 400,
+      "pen_width_font_units": 30,
+      "scope": "All distinct whole-path pairs, including body/body and remainder/remainder; closed segments are included.",
+      "comparison": "New contacts and losses of a prior half-unit safety margin are compared against the bound source glyph.",
+      "excluded": [
+        "Same-path self-overlap",
+        "Contact claims at other weights"
+      ],
+      "engine": {
+        "shapely": "2.1.2",
+        "geos": "3.13.1",
+        "self_test": {
+          "status": "pass",
+          "known_new_contact_detected": true,
+          "unchanged_pair_not_flagged": true,
+          "closed_segment_included": true,
+          "actually_executed": true
+        }
+      }
+    },
+    "individual_parent_contacts": {
+      "receipt_sha256": "d60a3a6ceea4a9afa02873cc1fa641bf037f1c0b15940a0c5c402eb777ccc766",
+      "candidate_glyphs_audited": 1,
+      "candidate_status_counts": {
+        "pass": 1
+      },
+      "candidate_whole_path_pairs_checked": 91,
+      "selected_glyphs": 1,
+      "selected_whole_path_pairs_checked": 91,
+      "selected_new_regular30_contacts": 0,
+      "selected_half_unit_safety_margin_losses": 0
+    },
+    "shared_parent_contacts": {
+      "receipt_sha256": "9fae78300388d07a5664a66d78f139c01c5a06a655d12dc8edf2fd5fb38d1025",
+      "candidate_glyphs_audited": 138,
+      "candidate_status_counts": {
+        "pass": 138
+      },
+      "candidate_whole_path_pairs_checked": 10913,
+      "selected_glyphs": 138,
+      "selected_whole_path_pairs_checked": 10913,
+      "selected_new_regular30_contacts": 0,
+      "selected_half_unit_safety_margin_losses": 0
+    },
+    "cumulative_role_and_parent_contacts": {
+      "receipt_sha256": "ab704ed0635e0d8a81e5d943f4fad098b515f1292d7c5c812cae1d1259f41433",
+      "candidate_glyphs_audited": 4,
+      "candidate_status_counts": {
+        "pass": 4
+      },
+      "candidate_whole_path_pairs_checked": 214,
+      "selected_glyphs": 4,
+      "selected_whole_path_pairs_checked": 214,
+      "selected_new_regular30_contacts": 0,
+      "selected_half_unit_safety_margin_losses": 0
+    },
+    "final_changed_source_coverage": {
+      "changed_glyphs": 762,
+      "distinct_whole_path_pairs_checked": 52352,
+      "new_regular30_contacts": 0,
+      "half_unit_safety_margin_losses": 0,
+      "source_sha_bindings_verified": true,
+      "ink_envelopes_inside_em": true,
+      "maximum_ink_extent_font_units": 768,
+      "stage_overlap_policy": "Four glyphs changed by both a role assignment and a parent refinement have separate baseline-to-final contact audits.",
+      "stage_overlap_codepoints": [
+        "U+3E4D0",
+        "U+3E4DB",
+        "U+3F88A",
+        "U+3F898"
+      ]
+    },
+    "five_weight_topology": {
+      "weight_axis_values": [
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "scope": "Repaired canonical templates, their representative whole glyphs and U+3D7B7.",
+      "compatible": true,
+      "other_weight_contact_claim": false,
+      "note": "Point and contour compatibility is separate from the Regular30 contact guard."
+    },
+    "endpoint_micro_knot_check": {
+      "status": "clean",
+      "epsilon_font_units": 0.25,
+      "endpoint_only": true,
+      "glyphs_checked": 11328,
+      "paths_checked": 140042,
+      "micro_knot_paths_remaining": 0,
+      "interior_simplification": false,
+      "stroke_deletion": false,
+      "close_exact_loops": false,
+      "geometry_manifest_sha256": "8069bc945f4c770c7e370a169be676068ef25bae7149e2462fafcad202613c82",
+      "geometry_components_manifest_sha256": "9419ef49ee04390cca9474acfb0f140606634d7c18238c1aff76bd1986347995",
+      "final_binding_note": "The endpoint check preceded final metadata annotations; glyph and template geometry is unchanged in the frozen final manifests.",
+      "receipt_sha256": "e928f4d7d032a839fc8775f6af5b1282edd542d37d0588814fd793fd13d0df4e"
+    },
+    "shared_components": {
+      "status": "in_sync",
+      "components": 173,
+      "instances": 3473,
+      "glyphs_checked": 3473,
+      "assigned_paths": 16253,
+      "changed_glyphs": 0,
+      "changed_paths": 0,
+      "refreshed_template_hashes": 0
+    },
+    "font_build": {
+      "status": "passed",
+      "font_validation_report": "reports/normalized-font-validation.json",
+      "font_build_receipt_sha256": "fa329c83c4d092d50b4cdac5ec2e6bb4285f5093a03e582b910b6eb432d19a00",
+      "regular_font_sha256": "f743925d25145026c6b054c6a34b14cd033ba8345af713afa0afa8fee305dc43",
+      "legacy_fallback_glyphs": 0
+    }
+  },
+  "evidence_sha256": {
+    "shared_parent_visual_acceptance": "cea9c4cee9c3104735a75057c09554a2431362bcdb15492a453d6a3f9d851395",
+    "shared_parent_vector_proof": "e7ed32e70adb68e5967a45a3d562c3ea7874f391e15abe232500f9814a0ada37",
+    "source_freeze": "873106cc3d811e4fef37aea5a241d9f59df4e79c825ef9e394dbf41ffb92b864",
+    "template_integration": "9e162742f17ca7acfe574deeffea4a64e2bf87e64a103424c03a4e58c1249a63",
+    "backend_parent_proof": "bc09e5c51ceaa2dbac26561fa349971c70776cd5a68ac56739290f9d11d4b8be",
+    "backend_shared_template_proof": "3e7568eceb8601774188b7e07dc0ad33672afb93b6dd0069ed261611ba5d76d6"
+  }
+}
