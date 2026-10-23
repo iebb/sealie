@@ -1,4 +1,4 @@
-/* Variable weights300–700; each file contains at most64 reviewed glyphs. */
+/* Normalized Sealie; weights300–700; SVG sources in repository. */
 @font-face{font-family:"Seal";src:url("variable/U3D000-U3D03F.woff") format("woff");font-style:normal;font-weight:300 700;font-display:swap;unicode-range:U+3D000-3D03F;}
 @font-face{font-family:"Seal";src:url("variable/U3D040-U3D07F.woff") format("woff");font-style:normal;font-weight:300 700;font-display:swap;unicode-range:U+3D040-3D07F;}
 @font-face{font-family:"Seal";src:url("variable/U3D080-U3D0BF.woff") format("woff");font-style:normal;font-weight:300 700;font-display:swap;unicode-range:U+3D080-3D0BF;}

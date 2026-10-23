@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "status": "final_source_metrics_complete",
+  "glyph_count": 11328,
+  "changed_svg_count": 10511,
+  "preserved_svg_count": 817,
+  "final_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "measurement": {
+    "method": "Exact centerline bounds and Cairo round-cap/round-join alpha coverage at256px. Same method before and after.",
+    "final_full_set_passes": 1,
+    "original_full_set_passes_reused": 1,
+    "pen_width": 30,
+    "units_per_em": 1024
+  },
+  "ink_width": {
+    "before": {
+      "p05": 419.90967700317475,
+      "p25": 488.3494495440056,
+      "median": 535.3415729120056,
+      "p75": 583.5002611565423,
+      "p95": 665.5983660632786,
+      "p99": 735.7087073911722,
+      "maximum": 768.0000000000001
+    },
+    "after": {
+      "p05": 460.44860362387175,
+      "p25": 535.9664071442785,
+      "median": 552.1158460397992,
+      "p75": 566.6415071858574,
+      "p95": 598.6569930239765,
+      "p99": 669.8689706957265,
+      "maximum": 768.0000000000001
+    },
+    "before_standard_deviation": 74.72731637825153,
+    "after_standard_deviation": 47.470111718781055
+  },
+  "ink_height": {
+    "before": {
+      "p05": 768.0,
+      "p25": 768.0,
+      "median": 768.0,
+      "p75": 768.0,
+      "p95": 768.0,
+      "p99": 768.0,
+      "maximum": 768.0000000000001
+    },
+    "after": {
+      "p05": 766.3152108241079,
+      "p25": 768.0,
+      "median": 768.0,
+      "p75": 768.0,
+      "p95": 768.0000000000001,
+      "p99": 768.0000000000001,
+      "maximum": 768.0000000000002
+    },
+    "before_standard_deviation": 9.147827883742854,
+    "after_standard_deviation": 9.525299699352248
+  },
+  "ink_area": {
+    "before": {
+      "p05": 76739.96862745097,
+      "p25": 101693.97647058824,
+      "median": 117598.43137254902,
+      "p75": 132838.7294117647,
+      "p95": 156148.76862745098,
+      "p99": 173675.05192156864,
+      "maximum": 217134.36862745098
+    },
+    "after": {
+      "p05": 77947.76784313726,
+      "p25": 103418.68235294118,
+      "median": 119031.12156862745,
+      "p75": 133896.4705882353,
+      "p95": 155146.61647058823,
+      "p99": 171266.43952941176,
+      "maximum": 214245.64705882352
+    },
+    "before_standard_deviation": 24151.416439444598,
+    "after_standard_deviation": 23574.13682680176
+  },
+  "ink_centroid_offset": {
+    "before": {
+      "p05": 5.126136916703957,
+      "p25": 14.370148676896315,
+      "median": 24.023127179765545,
+      "p75": 37.26231355185144,
+      "p95": 63.70249916761714,
+      "p99": 87.90683283404113,
+      "maximum": 174.44765016866916
+    },
+    "after": {
+      "p05": 4.195951478324418,
+      "p25": 11.663475885446982,
+      "median": 19.435614661828183,
+      "p75": 29.776649225538325,
+      "p95": 52.383684055064386,
+      "p99": 78.75297518062855,
+      "maximum": 174.44765016866916
+    },
+    "before_standard_deviation": 18.779451206620077,
+    "after_standard_deviation": 16.18407099662359
+  },
+  "improvement": {
+    "central90percent_width_span_before": 245.68868906010385,
+    "central90percent_width_span_after": 138.20838940010475,
+    "central90percent_width_span_reduction_percent": 43.746539603093304,
+    "width_iqr_reduction_percent": 67.76159916902134,
+    "median_centroid_offset_reduction_percent": 19.09623374013264,
+    "p95_centroid_offset_reduction_percent": 17.768243413449348
+  },
+  "shared_radicals": {
+    "template_count": 162,
+    "confirmed_instances": 2846,
+    "scope": "Same radical, position and accepted structural variant share exact centerline geometry and position.",
+    "geometry_or_position_difference_within_template_group": 0,
+    "evidence": {
+      "status": "in_sync",
+      "components": 162,
+      "instances": 2846,
+      "glyphs_checked": 2846,
+      "assigned_paths": 14379,
+      "changed_glyphs": 0,
+      "changed_paths": 0,
+      "refreshed_template_hashes": 0
+    },
+    "components_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d"
+  },
+  "scope_note": "Size and optical centering are improved across the repertoire. Exact radical sharing applies to confirmed component assignments; distinct historical variants and natural primitives retain their forms. This metrics audit does not confer new specialist historical certification."
+}

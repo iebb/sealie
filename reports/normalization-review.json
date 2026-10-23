@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "status": "final_source_review_reconciled",
+  "at": "2026-10-23T14:47:32.299892+00:00",
+  "svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "components_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+  "curated_component_review_sha256": "dd4b9d4caec3d5bc84f98f9b0f10df13291f66bb8c5f1fcbeea994f03595c21a",
+  "prior_visual_review_receipt_sha256": "14221be3429141b3f65bb4235f5f219d2fb1af6faa2d6ab693acb02d31ee33fd",
+  "narrow_reconciliation": {
+    "archived_pre_recovery_manifest_sha256": "db869565af19592007b1ff1f2b8f32a61871c9c7294047e16873e101cc0f57ca",
+    "recovered_outlier_audit_sha256": "1ccdd40ebf993ec1f66aa2cafbf10697787f3759b396f613bac794ce9b8e94b8",
+    "changed_glyphs_exactly_restored_list": 113,
+    "restored_actual_svg_bytes_equal_frozen_optical_baseline": true,
+    "remaining_svg_manifest_rows_unchanged": 11215,
+    "retained_harmonized_glyphs_unchanged_from_prior_review_scope": 2846,
+    "retained_harmonized_instances": 2846,
+    "role_templates": 162,
+    "minimum_composed_remainder_scale": 0.8017007588004763,
+    "maximum_composed_remainder_scale": 1.2499529475290785,
+    "no_full_geometry_or_font_recheck_repeated": true
+  },
+  "final_comparison_sheet": {
+    "file": "../previews/radical-consistency.png",
+    "sha256": "4166c2ca77db67b5e9468cb9ac2329b3df6b45bc81e3f5c2e1db092f0acfc9cb",
+    "source": "Actual optical baseline and final SVG sources; blue components are comparison highlights",
+    "cases": [
+      {
+        "family": "12.3D128",
+        "position": "top",
+        "codepoints": [
+          "U+3D129",
+          "U+3D26E"
+        ]
+      },
+      {
+        "family": "410.3EF5E",
+        "position": "left",
+        "codepoints": [
+          "U+3EF60",
+          "U+3EFF4"
+        ]
+      },
+      {
+        "family": "206.3DFA9",
+        "position": "left",
+        "codepoints": [
+          "U+3DFAA",
+          "U+3E0DB"
+        ]
+      },
+      {
+        "family": "441.3F30C",
+        "position": "left",
+        "codepoints": [
+          "U+3F315",
+          "U+3F367"
+        ]
+      },
+      {
+        "family": "56.3D689",
+        "position": "left",
+        "codepoints": [
+          "U+3D68C",
+          "U+3D71E"
+        ]
+      },
+      {
+        "family": "467.3F60D",
+        "position": "left",
+        "codepoints": [
+          "U+3F611",
+          "U+3F6F9"
+        ]
+      }
+    ]
+  },
+  "bounded_final_spot_check": {
+    "file": "../previews/normalization-stress.png",
+    "sha256": "851aab2993fe333a6b005c1cbe40bc2f2e4b2faf2a774079e72b144526805cd3",
+    "cases": [
+      {
+        "codepoint": "U+3DECD",
+        "status": "RESTORED"
+      },
+      {
+        "codepoint": "U+3F020",
+        "status": "RESTORED"
+      },
+      {
+        "codepoint": "U+3F369",
+        "status": "RESTORED"
+      },
+      {
+        "codepoint": "U+3FB53",
+        "status": "RESTORED"
+      },
+      {
+        "codepoint": "U+3EFF4",
+        "status": "RETAINED"
+      },
+      {
+        "codepoint": "U+3D26E",
+        "status": "RETAINED"
+      },
+      {
+        "codepoint": "U+3D4AA",
+        "status": "RETAINED"
+      },
+      {
+        "codepoint": "U+3FC04",
+        "status": "RETAINED"
+      }
+    ]
+  },
+  "visual_status": "passed final bounded SVG spot review",
+  "final_visual_inspection": {
+    "publishable_contact_sheet": "inspected six same-position shared radical families with two retained final glyphs each; shared shapes and positions consistent",
+    "restored_extremes": "four restored extreme cases visually equal optical baseline",
+    "highest_retained_stress": "four highest remaining composed-scale stress cases inspected; no sampled component loss, added strokes, or unintended component-to-body contacts seen",
+    "prior_review_reused": "all162 group worst-case comparisons remain applicable to unchanged retained geometry; restored113 use optical baseline",
+    "scope_limit": "Component/role sample review plus exact manifest reconciliation, not a claim of new paleographic certification or exhaustive per-weight optical approval."
+  }
+}

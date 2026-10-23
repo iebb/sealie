@@ -16,8 +16,8 @@
       2049
     ]
   },
-  "style": "Regular400, shared rounded monoline; complete Small Seal repertoire; gray cells after U+3FC3F are outside the block",
-  "font_sha256": "2fdd83c9b052e35d6a14cc4ae5e099c6650440c80b618f0a1cf39490c94ce329",
+  "style": "Regular400, normalized rounded monoline; unlisted cells are pending, gray cells after U+3FC3F are outside block",
+  "font_sha256": "be15f8f8f224fce89a9df37a95797390c22cd2e4f5efa4f49532205d11034a0e",
   "sheets": [
     {
       "file": "U3D000-U3D0FF.png",
@@ -25,8 +25,8 @@
       "last": "U+3D0FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "7364b6076a06a324e4e5eb65f05c913f892361cab6ce34347eea96c37592c9b5",
-      "sha256": "c728e9c66a623255481f7d09b58c42d5e25804c0b16cb857f8acd20d805a9ff1"
+      "input_sha256": "8ef5f969dfe1bfb6a80dddeea7ea96c096593d07dfda7b89bf16404ab150a929",
+      "sha256": "1c0a82686e276f7be3009e7c616c1b529130ff5826bfcae78d9319822fefbe80"
     },
     {
       "file": "U3D100-U3D1FF.png",
@@ -34,8 +34,8 @@
       "last": "U+3D1FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "96393ec0cbdb1b4531b63459703260c07803b80d6ef202cccdfe19b354d5afee",
-      "sha256": "d27fccfcb14136dbb2ccf7cfd0f10dbef59deebe72e6219f5f5c2e147cf93968"
+      "input_sha256": "244e6f892157c44ee0f3b5e67edf04a6c3aa05e3836206aab8d5756bd2ac306c",
+      "sha256": "6dda3a3bf0a8876c8f644bed14dae42dd2a7286f3676d09458f47d2b97f8df37"
     },
     {
       "file": "U3D200-U3D2FF.png",
@@ -43,8 +43,8 @@
       "last": "U+3D2FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "38e83b50484a4370ea1890422cab8a13899e158504ce5306a023cd338947ca40",
-      "sha256": "7d8f4bfed53467fbdb62b202204f88f189f63bf87c61eb9a693d7f6815f924c5"
+      "input_sha256": "e33cb27fdd52964553ab8eea44e66fffa9bf4b6ec59c25d2e037a024bad2994b",
+      "sha256": "d949d7ff38c3262a2fa6892ee112844403887de57ac29bb8ffdfbaf5c7e240bc"
     },
     {
       "file": "U3D300-U3D3FF.png",
@@ -52,8 +52,8 @@
       "last": "U+3D3FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "0104a4d6880d6110196be61fd4b6bb90cb9460f4f95f132974f51f60e43b491e",
-      "sha256": "5947aa4f56e74746bcb1013fde0c51cb7bcf6e7eecc88b91f3c42761046a3a40"
+      "input_sha256": "767b13b9e523e5d9bd6d7d8b7ae123411f0eb711a9b118388c873b1ca63da756",
+      "sha256": "434a65ee5c7c0994505e29626f77e064e72f3d69d0aafed547a8df11c94f5b1c"
     },
     {
       "file": "U3D400-U3D4FF.png",
@@ -61,8 +61,8 @@
       "last": "U+3D4FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "f297b9a5905f089ef1b66bdfb99f31fc7e3f88d3641b459b3819349f8da43b6b",
-      "sha256": "81de70c0c2daa5d2c1d2e11fc57f7daed37b20d4466d237ccac1ad6cf12e4cf1"
+      "input_sha256": "2c5b139a62b3c6e8431f9f50c9ad5929d6ab28275c8524cc407f798b125acd8f",
+      "sha256": "c24e2583409a0a6f239ad6f5419d18afad6ff068200afab52ed132e9dd8b3ce4"
     },
     {
       "file": "U3D500-U3D5FF.png",
@@ -70,8 +70,8 @@
       "last": "U+3D5FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "f44a22c8a10fc9912815a04ae5b96f1b27605bc79f6a69b25cd4e2e16b9fba60",
-      "sha256": "ed820ed09668eaade452d3fa8729269decd7094be4a02faa13981a7a95746e62"
+      "input_sha256": "21b235df0c29a0e0d7a9abcc51924ae7a57984d481b0bf23b5ab7710ddf86973",
+      "sha256": "3439128100aef0d51dd9436fbf3e374678840e6dff0d38b4429db4cd769fb785"
     },
     {
       "file": "U3D600-U3D6FF.png",
@@ -79,8 +79,8 @@
       "last": "U+3D6FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "798f7618dcc6a82b0d280d2b1772b48ab7dc4c4f1394f949b007d355e4666a3e",
-      "sha256": "3233411c1c35e2b255eefccf62672f93a49d66325a79b91c1fd04670ba7ef6e7"
+      "input_sha256": "09f62283abe1cda0184c98566abf8b8e538daa9e313c99150b9c73a31b859693",
+      "sha256": "77e2f84a8eedd00fea6990a87469da5301624d74cdf2b2dafd7f8f3833bdc997"
     },
     {
       "file": "U3D700-U3D7FF.png",
@@ -88,8 +88,8 @@
       "last": "U+3D7FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "9d6c8b540d0f569a521f78584e8b24d0642a69b8c42cc1b953b0008e4f99c20a",
-      "sha256": "0312867d02c206ac85c05c33e005103e8d801d4e21e216aa899f0c9613f8dd09"
+      "input_sha256": "e2b9ccd9ac7020f92b63811660e8cc264c7312601ec297e9372914c255292669",
+      "sha256": "a21df6d1e6c284acc88ebe6e800fcb0dc94c0926ae617143c617dc681bcc5ff6"
     },
     {
       "file": "U3D800-U3D8FF.png",
@@ -97,8 +97,8 @@
       "last": "U+3D8FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "bee23ebcbc027abaff011331c7a6423d23dbb05941bf3acabc8868b546eb8545",
-      "sha256": "a5e0fdc606dbb8c1a51492f1d2ff38f0b9b046566fc896d518ba256655be54e8"
+      "input_sha256": "339f1bbefefa9cd42febdcdcd83ce4492ca2c386a8d9a8b4572179917f11de39",
+      "sha256": "eda596fb1dc5b4bb012a4f9b4ecff8a88a4db964712b9f09df57ee329debcf08"
     },
     {
       "file": "U3D900-U3D9FF.png",
@@ -106,8 +106,8 @@
       "last": "U+3D9FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "82819f026397426687acf40ba9376b789c3276cdeffddf026024af417d6afafe",
-      "sha256": "97b5da151d9d26a640c3315076cc660949ee2e1033559512cb11b354ae72d8cd"
+      "input_sha256": "02d8c4852b8b0c70e70ce6d1bd093a9a98f453fde78744cbb5ca433b17630304",
+      "sha256": "95c325f7e75a954e6588f0be0e26b7ec97bab76f21d9b713d83c839d01e3fb4a"
     },
     {
       "file": "U3DA00-U3DAFF.png",
@@ -115,8 +115,8 @@
       "last": "U+3DAFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "426ed68e58767a609d0e9c801bc4f2e35c558f19c2d27195e55d1985dfdfcc63",
-      "sha256": "f31e2657a2b3b043aefce23545cdb21b9ea1bd26acb7feacb3a98c2fe55dfead"
+      "input_sha256": "d3ac2bbd43105f18d13d01859d7b09b54882e5a4e0872b96acabfd80869ba63a",
+      "sha256": "1756356a567944b0ccb94f8ae8612fb451881c9d276e51fcf86ce33ea11f1014"
     },
     {
       "file": "U3DB00-U3DBFF.png",
@@ -124,8 +124,8 @@
       "last": "U+3DBFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "9a2bbf7612561a675d5af5fd09ed3f93d79ea78c6ff10dd729436dcf6cdd21a3",
-      "sha256": "a1a7abc4e3bb28ded0233d87bbb5b9d30f57241977ce8ab55a096b9a8937cd38"
+      "input_sha256": "019f5d010a57b8d3bfaba05d522da8692848a7fccd2d2c1b9e91d3aabcd8d82f",
+      "sha256": "ee8aa618bc519fe50ab80c853fdb07c99133a25455205111cf40ca26a42e3d4a"
     },
     {
       "file": "U3DC00-U3DCFF.png",
@@ -133,8 +133,8 @@
       "last": "U+3DCFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "bfb84167da0dfbbfe3f85df150c3e2f873a10bcc7ec49804d4555c7b07bc2f9d",
-      "sha256": "bf699a72539055920157527f6e895ada98e726dd88c143ac8a94ac5640ca0966"
+      "input_sha256": "addd22ddc4a04c0c30ab8aaf3b1d964b189a1d04cab07866362501c8955276ec",
+      "sha256": "e1e134b979756c069fb4d3ff62e3c3cd688f17f47709b05d43fcd21713897533"
     },
     {
       "file": "U3DD00-U3DDFF.png",
@@ -142,8 +142,8 @@
       "last": "U+3DDFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "ccec60500658550497e20a58bbbc24faa9d3a1f13c9883bc96cf534088cfb163",
-      "sha256": "3ccc789d71c2fef23128ab8519f8712acd3fca7bf76c7e0d7da6dea7790dc442"
+      "input_sha256": "4f40f54b5e1548199a95448404b5e7e045d28a17b373a35a277966116a8e5278",
+      "sha256": "625e09ef80f3fe0e957b6bd741b3114a1b468ed7cf762a391373e68685eef98a"
     },
     {
       "file": "U3DE00-U3DEFF.png",
@@ -151,8 +151,8 @@
       "last": "U+3DEFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "1fc8e12f1a17f2e73d4fa84509b03fac482d274d972227adc23bb8da73024d7a",
-      "sha256": "96bb5c96e75f776f94c862d015948dee65fda3ebbe7617154a1a2142d30c58f0"
+      "input_sha256": "48bdaa003b73a35bcfdf6af4dabc4da73f099f15fcaa969a28fc9a21d1a52630",
+      "sha256": "c632a8ed40d9fc644287b7eee90a124c9216e7ab807e9d420aa96bfe2e230994"
     },
     {
       "file": "U3DF00-U3DFFF.png",
@@ -160,8 +160,8 @@
       "last": "U+3DFFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "09aa6657b63d845644b1c8edd436c6e4b8cf94ee5bdc46191950b7da43310d3f",
-      "sha256": "26861d4faf4e46de501d6b7f72382c7a6251d7042672e2a73f21c0f6bc098142"
+      "input_sha256": "3b1cf5e87993dffc3b9c6c11c3b05b0700951921ac70000fa1d5a0706c569475",
+      "sha256": "250da93ac34aedf2521b41920aa34f0a4c90ee9c2821eff2c50464716d7acead"
     },
     {
       "file": "U3E000-U3E0FF.png",
@@ -169,8 +169,8 @@
       "last": "U+3E0FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "95400d9bb4a2360cbbdf7314e53b64adee8319174e535a4cd42b3e18e4800e12",
-      "sha256": "4b688cc25eacded5c4abe2e069e9d07a36ccb41c8cfbe5e363eb33342ddc997b"
+      "input_sha256": "ddd68ac3acf7fe7f9c9c7cc8c2ac72847a8aacb5c69dc98ff2189de4833be3d5",
+      "sha256": "d62c0228eef4ed9f4b567f56175f3057f6bb2e5b6fb9ccd3d188a3564929c5d6"
     },
     {
       "file": "U3E100-U3E1FF.png",
@@ -178,8 +178,8 @@
       "last": "U+3E1FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "cde1c2fc46ce25203b081eb5bdc99ecc13dd79a51cae33db1811adf47ccf5785",
-      "sha256": "8e5486dc3fc6010a784bfbc8b5453d3c0fc52fd427da0b31196e5764aafdaca4"
+      "input_sha256": "efc06f576fdfd5adb14fd55d0c22f5181d5849224afbbb799f81345d991161cd",
+      "sha256": "339a4d9c172f375034a62f1c82da66453cb287669f63e8c39fe2e15bbd92d3a1"
     },
     {
       "file": "U3E200-U3E2FF.png",
@@ -187,8 +187,8 @@
       "last": "U+3E2FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "71feea8682da08cde6a868119a13d8b4ba680fac6dfa5b84570282cd445f97ad",
-      "sha256": "7e9f7b2b900a33861ff02ea59fb4786a95a03547b43fa572930cdf6d9841528e"
+      "input_sha256": "28bf5f4e23600304dd9f1ab262b8fe576328e48709eb9bd808a1d273aed3a9b1",
+      "sha256": "2cc1fa457fc0a6730459272ff45147f90411b60232a69c62e041311fe49c3cfc"
     },
     {
       "file": "U3E300-U3E3FF.png",
@@ -196,8 +196,8 @@
       "last": "U+3E3FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "3e09b810602dff3f10aa81def395344e992c9f5b366f58105d0efadebc831a5f",
-      "sha256": "d1a840ff1b49c4883a567dac670458f7cdc67b130afe6d4653f61ff462fe2130"
+      "input_sha256": "05e9d16bd8b9384d8236926ad62e4d80d787240dd5b31f7f1e441f4aec79d241",
+      "sha256": "b1bcaca50be44812c0450faa64245061d7da4c1ada4cbe3bacc9ae940861b665"
     },
     {
       "file": "U3E400-U3E4FF.png",
@@ -205,8 +205,8 @@
       "last": "U+3E4FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "bec8a6744807d2f7b581db1ba21a9cdad18161a6e9ee9cdcb9903ae43e79ef12",
-      "sha256": "da49d1e52ce222d5734036e048afbcf34b5a8c33711d3ed379fe1ecd6c4fdf43"
+      "input_sha256": "86367d2d987e987d4d6950a955d8f0e66c1af2391ac55a1140b506be0a4220f2",
+      "sha256": "dad95b7e1733c20f1705ddc5473f80d14ffac56c79490dfa34d7695bef689a0f"
     },
     {
       "file": "U3E500-U3E5FF.png",
@@ -214,8 +214,8 @@
       "last": "U+3E5FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "a9ff8788bdf7cf077ae7030a4ac3f1884ca894107940ef394b5ddab1cbaaf942",
-      "sha256": "4807ecbcf12304653ce3ca76d3f2b50df098b6432eab917304e0db4b863c9fa4"
+      "input_sha256": "4e3eae08026eeedddc580ca4429a51778cb0a44cd8b2ffac5a21bb328dc26e16",
+      "sha256": "8cd99abdb2b0a21364171950a78a1b17a29885ee4f7296a039fa7c016119de26"
     },
     {
       "file": "U3E600-U3E6FF.png",
@@ -223,8 +223,8 @@
       "last": "U+3E6FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "6a2de9108e362fdc33dfedb16d08209816f5a2d229b42dcf92f546c340826610",
-      "sha256": "278d83213219f2210ec08831cd8779687d013ed007efbd0431955877e5ba7d44"
+      "input_sha256": "178b810b7a6ef91d4d69033b83b62e2248fc8013d3cbb0f49443b6effb01c7d9",
+      "sha256": "e7c7fbd96fe2e1fc635bec06521203bac687e30ef59612632dea62d334452eec"
     },
     {
       "file": "U3E700-U3E7FF.png",
@@ -232,8 +232,8 @@
       "last": "U+3E7FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "83ffe98404100f826e9f9fd67e1a8895b75ab4aa29d8988f48d6abc0663012e8",
-      "sha256": "4a7f3fada790d43d54d195f6f674e0a79b8ee23c4fce5629d68affcdfc39d78b"
+      "input_sha256": "2933d18880acf49fcb01e42a0ffea155e5f87ad16dac752e48844cdbdc77ca1e",
+      "sha256": "8e9453ba7c0f71b2daeada8e25a6ea9cd560c1157f4d950c48a371a3ea0ebaa7"
     },
     {
       "file": "U3E800-U3E8FF.png",
@@ -241,8 +241,8 @@
       "last": "U+3E8FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "4bf5355795f0279dcad48b2f517cb521a410debbb8a47835311298cd81647d3d",
-      "sha256": "0c94f186419c67401db1ecf471595dab8a21c2310603d5c1f86888be64b60644"
+      "input_sha256": "da6442470fa6da9f65ca86672cf68551a8e13fb6171a0e46cacefad53fde888e",
+      "sha256": "5ee7197ea63796d832ee6f9ccfc6db557266fefd6617e3053d3514a4bf01655d"
     },
     {
       "file": "U3E900-U3E9FF.png",
@@ -250,8 +250,8 @@
       "last": "U+3E9FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "faa1fe3b016ff98966e76bdffc0b76406d215b4e0de92f201aacf220ca4ce1c6",
-      "sha256": "b9627ffe9e214dc2816c455c7669536f6bb1427411d99ef4ccdf9d2fa7f87aa6"
+      "input_sha256": "e91431c1c8b0150891efe2a9d4ec9148467893f4fbc39f84fc6cdb60992703de",
+      "sha256": "29fc6b75ad95319e215d307c2e8b51e03de4f0e034b68eef87abd99a329ea2ea"
     },
     {
       "file": "U3EA00-U3EAFF.png",
@@ -259,8 +259,8 @@
       "last": "U+3EAFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "793b64c3fad2f8852027ae03bd7f076ebc986188bdf595c7d038475732b93920",
-      "sha256": "72da2292bb52459140232058e3dc7e9f41321668dd388999360a6e8da08dc824"
+      "input_sha256": "7777767d0ced5e5ae9b918cefc7fa8b9d5311a15dc4ad091c790ffb42233ee80",
+      "sha256": "2767021c6d2c4a10332a00fbf6b5505bc3f0ebaf75b832d95af32115cd05690a"
     },
     {
       "file": "U3EB00-U3EBFF.png",
@@ -268,8 +268,8 @@
       "last": "U+3EBFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "e24d3a9c0b64a8951fa9fb9f54aa807f6ca5e6c8228e8d59add21699720bb03f",
-      "sha256": "39704354c26cab77844c6cf7783f6a922c608d2d4cec8cb1fc0e6b50186c48d8"
+      "input_sha256": "de11211d59cc0ab3edefb4726cb12171611510cbad65322f3f315ff58846e23e",
+      "sha256": "62a8fc157bdb1c66567d67c6e872b65761f1bb94c7e1cfc9923f385305d4f547"
     },
     {
       "file": "U3EC00-U3ECFF.png",
@@ -277,8 +277,8 @@
       "last": "U+3ECFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "0671a996160ca113ca7289884f5f60b3f8a0470b40093535dd96d0a1b38ee6ee",
-      "sha256": "0ab6991cdc60a878cc7cadf5c4b7d8d5afccbbb320ef67d67a1c412803bd0b11"
+      "input_sha256": "1924423e72765f680b2a8259ba0329446c3d3dab6f5af68e3adabf013b5369d8",
+      "sha256": "ae4a11a90e26378c464416af97e6be3d71470fdb86e2c56365358759de4b19ed"
     },
     {
       "file": "U3ED00-U3EDFF.png",
@@ -286,8 +286,8 @@
       "last": "U+3EDFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "2cdcec0d5678c5e74a433d79492927763a3624fa430a04ad11af459236233573",
-      "sha256": "3e41aa2689ec72a7531b89fe96c566c2da61e482c76b8037a43e6d69c0dd032d"
+      "input_sha256": "0c06ca15f7199498cde2228ecfb4ab2e07d6c63944f89c260c78eeb96df8d15b",
+      "sha256": "1fe5b05a09f9011b3c98240377ea27fb0c6d21db73f49aab5f8a2e638ad535bc"
     },
     {
       "file": "U3EE00-U3EEFF.png",
@@ -295,8 +295,8 @@
       "last": "U+3EEFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "0553a7e1010b12da925cb574c0fc3350bcb17c2ebefc57ba1595978b25e72979",
-      "sha256": "762725c256395c167821791bd06db19a94733ee30abe823bc72bb58c41d163b4"
+      "input_sha256": "24a3c9a63ecf5a08367b8418a45cd780e29f553d6dd68c642bd51d350b1d5c2c",
+      "sha256": "f84ebf61113efb81d21f9d86c4c0348d41e238b6f75c4c54ae8f5a40e6cdec0f"
     },
     {
       "file": "U3EF00-U3EFFF.png",
@@ -304,8 +304,8 @@
       "last": "U+3EFFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "51e80b4fc873515ad62ae56829c2199192a50d02cee7b9d0e8e22dfa056eb57d",
-      "sha256": "f4e1c5019b925b9d1cf3c5d79c1e3bef7dea2dcdc62a22d7cfc2f0c337b56484"
+      "input_sha256": "ec45f272ded5529df9c347e54e0394f4ed5b98c20deb4bb8daa27aaf8ad00069",
+      "sha256": "d31df4acf7756fbc1116f94c3b57587d7362f32e8d256ab14fce4a0ae7e27606"
     },
     {
       "file": "U3F000-U3F0FF.png",
@@ -313,8 +313,8 @@
       "last": "U+3F0FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "bbd2fa97e03604fa1ee744577800b85378339b5250d378bde5a6bc1431424dd4",
-      "sha256": "cc9af610759a08337ddc7da7a51ae3cccd0a879ac76b497543bbad90650a9bc5"
+      "input_sha256": "7d8f3db1e64edd7721939b1e8f49392809370db661caa9506bca5307b70fa524",
+      "sha256": "b5f6c61d9a6d289e215591ccceb8aebbc247cfa022ac3b1dab1af818595eba61"
     },
     {
       "file": "U3F100-U3F1FF.png",
@@ -322,8 +322,8 @@
       "last": "U+3F1FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "1cd50ad499772c2d74758e42872c313a17c8a9e52789a6ad2b09bb444b2237bf",
-      "sha256": "43b93cdeec1fda400449fd3d3416e3dba8db84b343867184a4003597a009aecb"
+      "input_sha256": "e536a83b2c398697254d13cd304a7964f7c7e17e467ea140f289850cbbff8fe5",
+      "sha256": "c42b8c9fad7bbac8ece820458bb1722f1f1acd3b112c7879d7599054a1c914b0"
     },
     {
       "file": "U3F200-U3F2FF.png",
@@ -331,8 +331,8 @@
       "last": "U+3F2FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "4d5ad51dfc0702dd2ae102ae691551219e62dc6c39a58071652327f9b88108d2",
-      "sha256": "b0e05f1335ca4c82da840059411bfeefe498d3292707fc91e1c4df7cb394a0b2"
+      "input_sha256": "e1a5d1363316618e6929f91fa176b42d02a919480518417bf4ccffd9151e0eea",
+      "sha256": "d7515c0fb3849e74a2d7f78b70f8f9df3f76d44d2a18b45c06550660301d2fe6"
     },
     {
       "file": "U3F300-U3F3FF.png",
@@ -340,8 +340,8 @@
       "last": "U+3F3FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "b008e00f4308c09bc073e43be5c62ce05dd7daae4667213c95e060a275cd27a5",
-      "sha256": "650d7e1f9a6d143ae404705d76a5442add7ced83bdcfe5ac88936844bdd97a23"
+      "input_sha256": "2a804777c60fb54e191f19f717bb09aeff178cdac6da64c298694e62a80fe49d",
+      "sha256": "d9dafe77280a3febf2e07461d0d09a13fb558296f88fc7ed2bd98a66ddfc1f5f"
     },
     {
       "file": "U3F400-U3F4FF.png",
@@ -349,8 +349,8 @@
       "last": "U+3F4FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "c56ba73c152649a7def47db5eb7fe28c4843fce005d9467938029b72438426b1",
-      "sha256": "1a78f0d86e9fafb79d2cd52b00c78781072f11863c7478b760301aad27696c48"
+      "input_sha256": "b1d43943a70beeecbb770631d4669c68cda2c71ec79eddbcfd573527cd53e4d8",
+      "sha256": "fb4d6fb52d57f125fe59b8d72c6e35b689816e9ff71a684bfb4aadb630990dc6"
     },
     {
       "file": "U3F500-U3F5FF.png",
@@ -358,8 +358,8 @@
       "last": "U+3F5FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "c373796cdfa0846029fe6440b594de4bf62c6847163835316ee877fe9e72e8a5",
-      "sha256": "ca9ff8cd042395e6f75e244648caf0d106a4e0c16c470dcfa0568b6bb361622e"
+      "input_sha256": "a1037fb99c18ca7986bf415429dca68f29d1b736a69254c13124bcbac694b36a",
+      "sha256": "288172dc76170911a173749fccaa8b4a2a3220961ca3cbdb7464c0e4f6ab46c2"
     },
     {
       "file": "U3F600-U3F6FF.png",
@@ -367,8 +367,8 @@
       "last": "U+3F6FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "f76b0ae3a4c6ca1dfd83aa79a3b6268e1842ac1f70925c20e313d5f6d6cf1bb3",
-      "sha256": "e6068913bd1018b0449dc8935a417f232659eca9857a6b8aabc524ae298de67e"
+      "input_sha256": "61eecee3dc754223f173616eb878ef1f339dd4b3efdbfc7134ef5c8498065600",
+      "sha256": "fd5e1c82fac1de591b215c958a86624696850d9f1c278f9339b990ae2f7e7ff3"
     },
     {
       "file": "U3F700-U3F7FF.png",
@@ -376,8 +376,8 @@
       "last": "U+3F7FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "419b5fc2f36d13c79107089e14938bc6d09e0db22918852dbde6da43aeb5c884",
-      "sha256": "93bfe9980709a0ac291207fbc75705a2b47e59fb439d4f72cc3a10f605faf2f1"
+      "input_sha256": "84f4134eeb69fd282d19b23ca112599af309cfecd7e8c774474785a45a603ce8",
+      "sha256": "367f36fc3c07cbb6dc9967672de6b1686dc834f12918e0ff6c3246c66b86e8f8"
     },
     {
       "file": "U3F800-U3F8FF.png",
@@ -385,8 +385,8 @@
       "last": "U+3F8FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "981f8c8b8ae85ee51f9300e65b757727cd7fbfd6649b752a1506eb0fdb35568c",
-      "sha256": "675a6b895f2b9f5cc85fddfb06060828ff3664df6c15223479b80f01cc44d9af"
+      "input_sha256": "cebe1aa5830c414c14f56323955c6e0906625b28ea3b57123fc5182b0bc239ea",
+      "sha256": "746dbd80544bfaf8785a093577f057a4791fd03f2f790d7e8c9007d7c2b446cc"
     },
     {
       "file": "U3F900-U3F9FF.png",
@@ -394,8 +394,8 @@
       "last": "U+3F9FF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "c6d6f80ee3fdea4cd30871882bd971dfacbf24a00e90121c5d55b7206dc6657a",
-      "sha256": "1164d889143cb2a80519b08b7d49859b7cba1db69d49363973b12087cc472343"
+      "input_sha256": "6c37854281612851c96ea15b45d319c5a6ae501c9c49ca9a517bab2810c0b8fd",
+      "sha256": "c3be42f77456bdf398b72ec2d947874605a51cee35710df4e388ca3582a9d3f7"
     },
     {
       "file": "U3FA00-U3FAFF.png",
@@ -403,8 +403,8 @@
       "last": "U+3FAFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "75b60fe97259d7312d779a0768af0d904414e9eb8aefec6eb4e9749202c760e5",
-      "sha256": "b93610b77b69d3f0261d6ef31c542560e304b120e84491368445d64d6259828b"
+      "input_sha256": "7b8dc1da591d9a354c5e23928bef98dded12f4c46acdab3c65bc7065888eb776",
+      "sha256": "65cc47844b5d53a537dffd8dfda40b4cb1fd645984ad066570fb0e7a2409b583"
     },
     {
       "file": "U3FB00-U3FBFF.png",
@@ -412,8 +412,8 @@
       "last": "U+3FBFF",
       "codepoint_cells": 256,
       "rendered_glyphs": 256,
-      "input_sha256": "bf871c30c5dd90ca78365691d3807f4bba115865c5d87590f6498479b95675d1",
-      "sha256": "a36eab98b5c18399001ac0ed9f3cac443cfdc127735a9b238e7e49ef4bc8b3a5"
+      "input_sha256": "281a5c7a05cdf8f22a763738853532093d8486d176bf99e578f543e27db80426",
+      "sha256": "a6336cbd2d2de275f344949eb228dbc09156367409dc23dfed6dfa3ff8f3dc69"
     },
     {
       "file": "U3FC00-U3FC3F.png",
@@ -421,8 +421,8 @@
       "last": "U+3FC3F",
       "codepoint_cells": 64,
       "rendered_glyphs": 64,
-      "input_sha256": "71ad13e543987b04686fd089fa3370f65d6f70134966bcaa1f7a97dc9b963670",
-      "sha256": "802dd2ef6104fc1d35d88b24b44217eb37d5bf5b0996d86d0371c1ec24e43de7"
+      "input_sha256": "95d430dfc930665225964628566a44e8af6fbb7355cdb7aaac1b18f86c3e40b6",
+      "sha256": "8f2056c6116ced108da66adf88320136d53853818b20d8b77742575e0f1b8551"
     }
   ]
 }

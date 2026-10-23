@@ -1,14 +1,13 @@
 {
   "schema_version": 1,
-  "family": "Panorama Gothic Seal Individual",
-  "status": "complete",
+  "family": "Sealie",
+  "status": "complete_repertoire_normalized_prerelease",
   "target_unicode_version": "18.0",
   "target_script": "Seal",
   "target_block": "Small Seal",
   "target_first": "U+3D000",
   "target_last": "U+3FC3F",
   "target_codepoint_count": 11328,
-  "reviewed_regular400_glyph_count": 11328,
   "remaining_codepoint_count": 0,
   "accepted_codepoints": [
     "U+3D000",
@@ -11341,6 +11340,7 @@
     "U+3FC3F"
   ],
   "weight_axis": {
+    "tag": "wght",
     "minimum": 300,
     "default": 400,
     "maximum": 700
@@ -11349,18 +11349,51 @@
   "upem": 1024,
   "advance": 1024,
   "normalized_centerline_extent": 738,
-  "original_128_outlines_and_metrics_unchanged": true,
+  "original_128_outlines_and_metrics_unchanged": false,
   "validation": {
-    "static_bounds_checks": 11328,
-    "variable_bounds_checks": 56640,
-    "source_review_integrity": "passed",
-    "glyph_invariants": "passed",
-    "bounds_validation_mode": "incremental",
-    "actual_bounds_checks": 20886,
-    "cached_bounds_checks": 47082
+    "codepoint_coverage": 11328,
+    "static_master_glyphs_bounded": 56640,
+    "weights": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "chunks": 177,
+    "source_polylines_simplified": false,
+    "serialized_merged_glyphs_metrics_and_variations_preserved": true,
+    "variable_topology_legacy_fallbacks": [
+      "U+3D4D9"
+    ],
+    "component_source_equality": {
+      "templates": 162,
+      "glyphs": 2846,
+      "status": "in_sync"
+    },
+    "fixture_tests_passed": 7,
+    "named_instance_fixture_maximum_coordinate_error_font_units": 1,
+    "grid_sheets_rendered_from_current_regular": 45,
+    "font_build_report": "reports/normalized-font-build.json"
   },
-  "visual_acceptance": "Regular400 only; other weights remain under optical review.",
+  "visual_acceptance": "Original reference acceptance retained as source history; normalized revision has geometric checks, independently reviewed component groups and representative final optical review. Further optical review remains open.",
   "production_ready": false,
   "full_block_complete": true,
-  "outputs_only": true
+  "reference_reviewed_original_regular400_glyph_count": 11328,
+  "changed_original_128_source_count": 110,
+  "historical_checkpoint": "https://github.com/iebb/sealie/releases/tag/checkpoint-011328",
+  "canonical_sources": [
+    "svg/",
+    "components/"
+  ],
+  "normalization": {
+    "changed_svg_count": 10511,
+    "preserved_svg_count": 817,
+    "shared_component_templates": 162,
+    "shared_component_glyphs": 2846,
+    "svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+    "component_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+    "report": "reports/normalization.json",
+    "review": "reports/normalization-review.json"
+  }
 }

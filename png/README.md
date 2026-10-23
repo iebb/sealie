@@ -2,7 +2,7 @@
 
 All 11,328 Unicode 18 Small Seal codepoints, U+3D000–U+3FC3F, are rendered across 45 square PNG sheets. No codepoints are pending.
 
-Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels including grid lines). Glyphs use the Regular 400 font. Gray cells after U+3FC3F on the last sheet are outside the block.
+Each sheet has a 16×16 grid of 128-pixel square cells (2049×2049 pixels including grid lines). Glyphs use the normalized Regular 400 font, with optically balanced sizes and shared radical components. Gray cells after U+3FC3F on the last sheet are outside the block. See the [normalization comparison](../docs/NORMALIZATION.md).
 
 | Codepoints | Glyphs | PNG |
 |---|---:|---|

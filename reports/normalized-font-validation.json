@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "source_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "font_files_opened": [
+    {
+      "file": "Light.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 300
+    },
+    {
+      "file": "Regular.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 400
+    },
+    {
+      "file": "Medium.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 500
+    },
+    {
+      "file": "SemiBold.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 600
+    },
+    {
+      "file": "Bold.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 700
+    },
+    {
+      "file": "Variable.ttf",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 400,
+      "axis": [
+        [
+          "wght",
+          300.0,
+          400.0,
+          700.0
+        ]
+      ]
+    },
+    {
+      "file": "Regular.woff",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 400
+    },
+    {
+      "file": "Variable.woff",
+      "glyph_count": 11328,
+      "family": "Sealie",
+      "weight": 400,
+      "axis": [
+        [
+          "wght",
+          300.0,
+          400.0,
+          700.0
+        ]
+      ]
+    }
+  ],
+  "static_and_variable_roundtrip_checks": "Every merged glyf/hmtx/gvar block was checked against the completed chunk data by the original builder.",
+  "compiled_master_glyphs_bounded": 56640,
+  "compatible_topology_checked_at_five_weights": 11328,
+  "legacy_compatible_fallbacks": [
+    "U+3D4D9"
+  ],
+  "fixture_test_count_passed": 7,
+  "zip_crc_verified": true,
+  "package_font_hashes_match_full_build": true,
+  "current_font_grid_sheets": 45,
+  "optional_woff2_generated_but_not_in_zip": {
+    "name": "Regular.woff2",
+    "bytes": 19488904,
+    "sha256": "f984ed2b5b0534f8581dcb93fdda509b3948b37081c928a3d49c4824ad9cd673"
+  }
+}
