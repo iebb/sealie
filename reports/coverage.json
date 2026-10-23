@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "family": "Sealie",
-  "status": "complete_repertoire_normalized_prerelease",
+  "status": "complete_repertoire_normalized_caps_prerelease",
   "target_unicode_version": "18.0",
   "target_script": "Seal",
   "target_block": "Small Seal",
@@ -11363,37 +11363,42 @@
     "chunks": 177,
     "source_polylines_simplified": false,
     "serialized_merged_glyphs_metrics_and_variations_preserved": true,
-    "variable_topology_legacy_fallbacks": [
-      "U+3D4D9"
-    ],
+    "variable_topology_legacy_fallbacks": [],
     "component_source_equality": {
       "templates": 162,
       "glyphs": 2846,
       "status": "in_sync"
     },
-    "fixture_tests_passed": 7,
+    "fixture_tests_passed": 11,
     "named_instance_fixture_maximum_coordinate_error_font_units": 1,
     "grid_sheets_rendered_from_current_regular": 45,
-    "font_build_report": "reports/normalized-font-build.json"
+    "font_build_report": "reports/normalized-font-build.json",
+    "cap_degenerate_regular_contours": 0,
+    "cap_cleanup_report": "reports/cap-cleanup.json",
+    "cap_cleanup_endpoint_error_bound_font_units": 0.25
   },
   "visual_acceptance": "Original reference acceptance retained as source history; normalized revision has geometric checks, independently reviewed component groups and representative final optical review. Further optical review remains open.",
   "production_ready": false,
   "full_block_complete": true,
   "reference_reviewed_original_regular400_glyph_count": 11328,
-  "changed_original_128_source_count": 110,
+  "changed_original_128_source_count": 112,
   "historical_checkpoint": "https://github.com/iebb/sealie/releases/tag/checkpoint-011328",
   "canonical_sources": [
     "svg/",
     "components/"
   ],
   "normalization": {
-    "changed_svg_count": 10511,
-    "preserved_svg_count": 817,
+    "changed_svg_count": 10539,
+    "preserved_svg_count": 789,
     "shared_component_templates": 162,
     "shared_component_glyphs": 2846,
-    "svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+    "svg_manifest_sha256": "9fbfb06ce59672d753d4dcdd6898058f321022ba1bebeda2a78b890cbaf3985e",
     "component_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
     "report": "reports/normalization.json",
-    "review": "reports/normalization-review.json"
+    "review": "reports/normalization-review.json",
+    "initial_measurements_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+    "followup_changed_glyph_count": 56,
+    "cap_cleanup": "reports/cap-cleanup.json",
+    "supplementary_fit": "reports/supplementary-size-fit.json"
   }
 }

@@ -10,13 +10,17 @@ Sealie 是由 **ieb** 主导，使用 **OpenAI Codex（GPT-6）**及多个并行
 
 ## 字面与部件规范化
 
-原字形虽然具有统一的最大高度，但宽度与视觉重心仍存在明显差异。本次调整复合字的宽度及视觉居中，同时保留简单笔画、自然狭长字形和独立部首的原有比例。**10,511 个字形源文件发生变化，817 个保持原样。**
+原字形虽然具有统一的最大高度，但宽度与视觉重心仍存在明显差异。首轮规范化调整复合字的宽度及视觉居中，同时保留简单笔画、自然狭长字形和独立部首的原有比例：**10,511 个字形源文件发生变化，817 个保持原样。** 本次后续修正还调整了 26 个因高度略低于原阈值而遗漏的偏宽复合字，并清理已确认的笔端路径问题。
 
 **2,846 个字形现在使用 162 个共享部件模板。** 同一经过审查的偏旁、异体形式及位置，使用完全相同的形状、尺寸和放置位置。常见左侧水、木、手、言部件分别共用标准模板；不同位置或历史异体仍分别处理。其余笔画在有限的缩放范围内重新排布；存在歧义或需要过度变形的匹配，仅保留字面与重心调整。
 
 共享 SVG 位于 [components/](components/)。修改模板后，运行 `python tools/sync_components.py --apply` 即可同步更新其所有登记字形。详见[规范化说明与对比](docs/NORMALIZATION.md)。
 
+同一字重的全部字形共用相同笔宽。自动笔端清理仅移除四分之一字体单位范围内的微小回折，保留端点、笔画数量及有意义的钩形；较大的笔端修正逐一审查。[笔端清理报告](reports/cap-cleanup.json)与[补充字面调整报告](reports/supplementary-size-fit.json)记录具体范围。两个可能在 Regular 字重造成笔画粘连的字面调整方案保持原样。
+
 ![规范化前后的字形源文件对比](previews/normalization-before-after.png)
+
+![经过审查的笔端修正](previews/cap-repair.png)
 
 ## 使用的模型与制作过程
 
@@ -50,7 +54,7 @@ SVG 格式限制、清单更新与验证命令见[构建和编辑指南](docs/BU
 
 ## 下载与预览
 
-- [规范化字体预发布版及 ZIP 下载](https://github.com/iebb/sealie/releases/tag/normalized-011328)
+- [规范化字体预发布版及 ZIP 下载](https://github.com/iebb/sealie/releases/tag/normalized-caps-011328)
 - [Regular WOFF](fonts/Sealie-Regular.woff) · [网页字体文件](fonts/)
 - [可变网页字体 CSS](fonts/variable.css) · [177 个网页字体子集，每个最多 64 字](fonts/variable/)
 - [字重预览](previews/weight-slider.html)
@@ -60,8 +64,8 @@ SVG 格式限制、清单更新与验证命令见[构建和编辑指南](docs/BU
 从发布页面下载 `.001` 至 `.004` 全部四个 ZIP 分卷，放入同一目录。分卷齐全后，可用 7-Zip 打开第一卷。macOS 或 Linux 可先合并再解压：
 
 ```sh
-cat Sealie-Normalized-011328.zip.* > Sealie-Normalized-011328.zip
-unzip Sealie-Normalized-011328.zip
+cat Sealie-Normalized-Caps-011328.zip.* > Sealie-Normalized-Caps-011328.zip
+unzip Sealie-Normalized-Caps-011328.zip
 ```
 
 下载包包含可变 TTF、五个命名字重的 TTF、网页字体文件及许可证。网页字体 CSS 会按需加载较小的字体子集。小篆使用独立的 Unicode 码位，输入普通汉字不会自动转换成对应的小篆字形。[先前的检查点版本](https://github.com/iebb/sealie/releases/tag/checkpoint-011328)仍可下载用于对比。

@@ -1,0 +1,1202 @@
+{
+  "schema_version": 1,
+  "status": "sources_applied_and_frozen",
+  "revision": "normalized-caps-011328",
+  "baseline_commit": "607e2ec881bae8ef17357de7e3c2a714dd010d92",
+  "baseline_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "final_svg_manifest_sha256": "9fbfb06ce59672d753d4dcdd6898058f321022ba1bebeda2a78b890cbaf3985e",
+  "component_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+  "glyph_count": 11328,
+  "followup_changed_glyph_count": 56,
+  "followup_changed_codepoints": [
+    "U+3D01E",
+    "U+3D03B",
+    "U+3D0B4",
+    "U+3D108",
+    "U+3D2B2",
+    "U+3D414",
+    "U+3D46B",
+    "U+3D480",
+    "U+3D4D9",
+    "U+3D6B7",
+    "U+3D7B7",
+    "U+3D924",
+    "U+3D976",
+    "U+3DA14",
+    "U+3DA2F",
+    "U+3DAFE",
+    "U+3DBCE",
+    "U+3DC70",
+    "U+3DD29",
+    "U+3DDCA",
+    "U+3DEA7",
+    "U+3E043",
+    "U+3E04C",
+    "U+3E065",
+    "U+3E0A5",
+    "U+3E0FE",
+    "U+3E118",
+    "U+3E11C",
+    "U+3E129",
+    "U+3E130",
+    "U+3E2C7",
+    "U+3E2EC",
+    "U+3E362",
+    "U+3E447",
+    "U+3E56D",
+    "U+3E598",
+    "U+3E5B6",
+    "U+3E640",
+    "U+3E7A9",
+    "U+3E87C",
+    "U+3E8EC",
+    "U+3E960",
+    "U+3EA76",
+    "U+3EC3F",
+    "U+3EC65",
+    "U+3ED16",
+    "U+3F020",
+    "U+3F14B",
+    "U+3F15E",
+    "U+3F8B8",
+    "U+3F8D5",
+    "U+3F8E3",
+    "U+3F8F4",
+    "U+3F93A",
+    "U+3F9AD",
+    "U+3FA19"
+  ],
+  "uniform_strokes": {
+    "regular_pen": 30,
+    "named_weight_pens": {
+      "300": 23.5,
+      "400": 30,
+      "500": 36.5,
+      "600": 43,
+      "700": 49.5
+    },
+    "caps": "round",
+    "joins": "round",
+    "per_glyph_pen_scaling": false
+  },
+  "endpoint_cleanup": {
+    "schema_version": 1,
+    "status": "applied",
+    "policy": {
+      "epsilon_font_units": 0.25,
+      "endpoint_only": true,
+      "interior_simplification": false,
+      "stroke_deletion": false,
+      "open_endpoints_preserved": true,
+      "close_exact_loops": false,
+      "loop_guards": {
+        "endpoint_distance": 1e-06,
+        "length_greater_than": 60,
+        "minimum_bbox_dimension": 15,
+        "minimum_absolute_signed_area": 225
+      },
+      "micro_knot_hausdorff_bound_font_units": 0.25,
+      "loop_seam_bound_font_units": 1e-06
+    },
+    "counts": {
+      "glyphs_checked": 11328,
+      "paths_checked": 140042,
+      "changed_glyphs": 29,
+      "changed_paths": 33,
+      "changed_templates": 0,
+      "terminal_micro_knot_paths": 33,
+      "removed_terminal_vertices": 41,
+      "exact_full_loops_closed": 0,
+      "shared_component_paths_changed": 0,
+      "unassigned_paths_changed": 33
+    },
+    "shared_components": {
+      "templates": 162,
+      "instances": 2846,
+      "before": "in_sync",
+      "after": "in_sync"
+    },
+    "source_manifest_before_sha256": "733d17ff998c9dc05fbc0471f8420f76e35ebb0b040848803ccb33b17d1c561b",
+    "source_manifest_after_sha256": "03e62f265cd3fa1565282697609b8136d2e493af4031c212613a0fabea48204e",
+    "component_manifest_before_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+    "component_manifest_after_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+    "historical_authoring_fields_preserved": true,
+    "details": [
+      {
+        "codepoint": "U+3D2B2",
+        "path_index_zero_based": 9,
+        "path_id": "stroke-10",
+        "component_id": null,
+        "changed": true,
+        "before_points": 3,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          1
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 2
+      },
+      {
+        "codepoint": "U+3D46B",
+        "path_index_zero_based": 18,
+        "path_id": "stroke-19",
+        "component_id": null,
+        "changed": true,
+        "before_points": 38,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 37
+      },
+      {
+        "codepoint": "U+3D480",
+        "path_index_zero_based": 10,
+        "path_id": "stroke-11",
+        "component_id": null,
+        "changed": true,
+        "before_points": 76,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          74
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 75
+      },
+      {
+        "codepoint": "U+3D4D9",
+        "path_index_zero_based": 19,
+        "path_id": "stroke-20",
+        "component_id": null,
+        "changed": true,
+        "before_points": 82,
+        "removed_start_vertices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 78
+      },
+      {
+        "codepoint": "U+3D4D9",
+        "path_index_zero_based": 20,
+        "path_id": "stroke-21",
+        "component_id": null,
+        "changed": true,
+        "before_points": 82,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          80,
+          79,
+          78,
+          77
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 78
+      },
+      {
+        "codepoint": "U+3DBCE",
+        "path_index_zero_based": 10,
+        "path_id": "stroke-11",
+        "component_id": null,
+        "changed": true,
+        "before_points": 31,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          29
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 30
+      },
+      {
+        "codepoint": "U+3DC70",
+        "path_index_zero_based": 4,
+        "path_id": "stroke-5",
+        "component_id": null,
+        "changed": true,
+        "before_points": 115,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 114
+      },
+      {
+        "codepoint": "U+3DD29",
+        "path_index_zero_based": 10,
+        "path_id": "stroke-11",
+        "component_id": null,
+        "changed": true,
+        "before_points": 4,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 3
+      },
+      {
+        "codepoint": "U+3E043",
+        "path_index_zero_based": 7,
+        "path_id": "stroke-8",
+        "component_id": null,
+        "changed": true,
+        "before_points": 45,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          43
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 44
+      },
+      {
+        "codepoint": "U+3E065",
+        "path_index_zero_based": 9,
+        "path_id": "stroke-10",
+        "component_id": null,
+        "changed": true,
+        "before_points": 342,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          340
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 341
+      },
+      {
+        "codepoint": "U+3E0A5",
+        "path_index_zero_based": 9,
+        "path_id": "stroke-10",
+        "component_id": null,
+        "changed": true,
+        "before_points": 83,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          81
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 82
+      },
+      {
+        "codepoint": "U+3E0FE",
+        "path_index_zero_based": 9,
+        "path_id": "stroke-10",
+        "component_id": null,
+        "changed": true,
+        "before_points": 87,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          85
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 86
+      },
+      {
+        "codepoint": "U+3E2C7",
+        "path_index_zero_based": 12,
+        "path_id": "stroke-13",
+        "component_id": null,
+        "changed": true,
+        "before_points": 64,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          62
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 63
+      },
+      {
+        "codepoint": "U+3E2EC",
+        "path_index_zero_based": 5,
+        "path_id": "stroke-6",
+        "component_id": null,
+        "changed": true,
+        "before_points": 63,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 62
+      },
+      {
+        "codepoint": "U+3E447",
+        "path_index_zero_based": 2,
+        "path_id": "stroke-3",
+        "component_id": null,
+        "changed": true,
+        "before_points": 144,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 143
+      },
+      {
+        "codepoint": "U+3E56D",
+        "path_index_zero_based": 15,
+        "path_id": "stroke-16",
+        "component_id": null,
+        "changed": true,
+        "before_points": 38,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          36
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 37
+      },
+      {
+        "codepoint": "U+3E598",
+        "path_index_zero_based": 2,
+        "path_id": "stroke-3",
+        "component_id": null,
+        "changed": true,
+        "before_points": 3,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          1
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 2
+      },
+      {
+        "codepoint": "U+3E640",
+        "path_index_zero_based": 7,
+        "path_id": "stroke-8",
+        "component_id": null,
+        "changed": true,
+        "before_points": 96,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 95
+      },
+      {
+        "codepoint": "U+3E640",
+        "path_index_zero_based": 14,
+        "path_id": "stroke-15",
+        "component_id": null,
+        "changed": true,
+        "before_points": 3,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          1
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 2
+      },
+      {
+        "codepoint": "U+3E7A9",
+        "path_index_zero_based": 0,
+        "path_id": "stroke-1",
+        "component_id": null,
+        "changed": true,
+        "before_points": 113,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [
+          111
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 111
+      },
+      {
+        "codepoint": "U+3E7A9",
+        "path_index_zero_based": 2,
+        "path_id": "stroke-3",
+        "component_id": null,
+        "changed": true,
+        "before_points": 113,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [
+          111
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 111
+      },
+      {
+        "codepoint": "U+3E87C",
+        "path_index_zero_based": 15,
+        "path_id": "stroke-16",
+        "component_id": null,
+        "changed": true,
+        "before_points": 33,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 32
+      },
+      {
+        "codepoint": "U+3E8EC",
+        "path_index_zero_based": 12,
+        "path_id": "stroke-13",
+        "component_id": null,
+        "changed": true,
+        "before_points": 52,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 51
+      },
+      {
+        "codepoint": "U+3E960",
+        "path_index_zero_based": 17,
+        "path_id": "stroke-18",
+        "component_id": null,
+        "changed": true,
+        "before_points": 78,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 77
+      },
+      {
+        "codepoint": "U+3EC3F",
+        "path_index_zero_based": 3,
+        "path_id": "stroke-4",
+        "component_id": null,
+        "changed": true,
+        "before_points": 46,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 45
+      },
+      {
+        "codepoint": "U+3EC65",
+        "path_index_zero_based": 8,
+        "path_id": "stroke-9",
+        "component_id": null,
+        "changed": true,
+        "before_points": 87,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 86
+      },
+      {
+        "codepoint": "U+3ED16",
+        "path_index_zero_based": 21,
+        "path_id": "stroke-22",
+        "component_id": null,
+        "changed": true,
+        "before_points": 103,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 102
+      },
+      {
+        "codepoint": "U+3F020",
+        "path_index_zero_based": 19,
+        "path_id": "stroke-20",
+        "component_id": null,
+        "changed": true,
+        "before_points": 25,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 24
+      },
+      {
+        "codepoint": "U+3F14B",
+        "path_index_zero_based": 14,
+        "path_id": "stroke-15",
+        "component_id": null,
+        "changed": true,
+        "before_points": 17,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 16
+      },
+      {
+        "codepoint": "U+3F15E",
+        "path_index_zero_based": 14,
+        "path_id": "stroke-15",
+        "component_id": null,
+        "changed": true,
+        "before_points": 180,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          178
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 179
+      },
+      {
+        "codepoint": "U+3F8B8",
+        "path_index_zero_based": 10,
+        "path_id": "stroke-11",
+        "component_id": null,
+        "changed": true,
+        "before_points": 9,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 8
+      },
+      {
+        "codepoint": "U+3F8B8",
+        "path_index_zero_based": 14,
+        "path_id": "stroke-15",
+        "component_id": null,
+        "changed": true,
+        "before_points": 9,
+        "removed_start_vertices": [
+          1
+        ],
+        "removed_end_vertices": [],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 8
+      },
+      {
+        "codepoint": "U+3F93A",
+        "path_index_zero_based": 0,
+        "path_id": "stroke-1",
+        "component_id": null,
+        "changed": true,
+        "before_points": 206,
+        "removed_start_vertices": [],
+        "removed_end_vertices": [
+          204
+        ],
+        "closed_exact_full_loop": false,
+        "centerline_hausdorff_bound_font_units": 0.25,
+        "after_points": 205
+      }
+    ],
+    "details_truncated": false
+  },
+  "targeted_repair": {
+    "schema_version": 1,
+    "status": "applied",
+    "scope": "One glyph, two visibly confirmed bowl-to-leg endpoint beads; no global epsilon change",
+    "codepoint": "U+3D7B7",
+    "modern_cjk": "7ADF",
+    "source_filename": "svg/U3D7B7.svg",
+    "baseline_svg_sha256": "1aa38dde86f3fe1a7869e866efa2ca4bad6a36296a2d4822bf2cb10c60eedb32",
+    "repaired_svg_sha256": "902857ece0b606d759aae2f04f2725b48183807aaa669e7db5ea3dbf02402de5",
+    "repaired_svg_bytes": 22038,
+    "preserved": {
+      "stroke_count": 14,
+      "all_other_strokes_exact_bytes": true,
+      "exact_start_and_end_coordinates": true,
+      "coordinates_outside_each_local_disk": true,
+      "advance": 1024,
+      "round_pen_width": 30,
+      "glyph_layout": true
+    },
+    "shared_template_assignment_check": {
+      "components_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
+      "glyph_component_assignments": [],
+      "affected_shared_components": [],
+      "note": "Glyph is not assigned to any shared component template; targeted repair cannot desynchronize template copies."
+    },
+    "visual_reference_assessment": "The attested lower bowl-to-leg joins are continuous without the extra interior bead. Traced paths double upward then return before following the existing lower legs; chording only these interior returns removes the excess ink while preserving attachments. Reference images are not included in public evidence.",
+    "evidence": {
+      "file": "targeted-cap-repair-comparison.png",
+      "sha256": "7f31cd5849d2ead9b77f64fd45f53ce84078ff8d255a31c62afdd1ddd7fcb293",
+      "render": "Exact SVG strokes and centerline crops at Regular400; no font rebuild performed"
+    },
+    "application": "Verify baseline SVG hash and each original path hash, replace only the two path d values, then refresh source/build manifests. Parent may compose this explicit patch with separately reviewed sub-unit cleanup.",
+    "canonical_source_modified": false,
+    "font_modified": false,
+    "at": "2026-10-23T15:55:32.694418+00:00"
+  },
+  "targeted_operations": [
+    {
+      "path_id": "stroke-6",
+      "path_index_zero_based": 5,
+      "path_index_one_based": 6,
+      "endpoint": "start",
+      "endpoint_font_units": [
+        447.05037233321013,
+        166.1998568840204
+      ],
+      "original_end_font_units": [
+        313.9124855588202,
+        -40.985572447416494
+      ],
+      "maximum_edit_radius_font_units": 12.0,
+      "removed_vertex_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "retained_vertex_indices_zero_based": [
+        0,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "original_vertex_count": 43,
+      "repaired_vertex_count": 29,
+      "maximum_removed_vertex_distance_from_endpoint": 11.380562394665438,
+      "maximum_upward_overshoot_font_units": 10.841919593732143,
+      "original_path_sha256": "43015b92381f8e4eb3778e1108e906d83f7bfac885ff92128f613c0b04d07a60",
+      "new_path_sha256": "488ad2c8218ce7e51016911aa2407438c3359f2f5c7db8e848511cbbe0d82d16",
+      "endpoint_preserved": true,
+      "all_points_outside_radius_preserved": true,
+      "outside_coordinate_lexemes_preserved": true
+    },
+    {
+      "path_id": "stroke-8",
+      "path_index_zero_based": 7,
+      "path_index_one_based": 8,
+      "endpoint": "start",
+      "endpoint_font_units": [
+        569.0920221803781,
+        167.85108261723786
+      ],
+      "original_end_font_units": [
+        705.9275241736904,
+        -54.19335969979104
+      ],
+      "maximum_edit_radius_font_units": 18.0,
+      "removed_vertex_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "retained_vertex_indices_zero_based": [
+        0,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "original_vertex_count": 109,
+      "repaired_vertex_count": 96,
+      "maximum_removed_vertex_distance_from_endpoint": 17.41718515232527,
+      "maximum_upward_overshoot_font_units": 17.41696672484784,
+      "original_path_sha256": "474b0781064b83d521dce4e1d1d9ec560d33f208024c6add4f7d63e42e8a7f60",
+      "new_path_sha256": "ac4718a1ce873890222f74148df0426c4fab466dca16af8b3a5475cc5f1f6d0c",
+      "endpoint_preserved": true,
+      "all_points_outside_radius_preserved": true,
+      "outside_coordinate_lexemes_preserved": true
+    }
+  ],
+  "size_fit_report": "supplementary-size-fit.json",
+  "baseline_font_contour_audit": {
+    "status": "read-only baseline survey complete",
+    "font": "Regular.ttf from normalized-011328",
+    "font_sha256": "be15f8f8f224fce89a9df37a95797390c22cd2e4f5efa4f49532205d11034a0e",
+    "source_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+    "backend_sha256": "d0e16494de8353276030417643008973f0920e23270d46b89049b6194f57f071",
+    "elapsed_seconds": 84.65712424799858,
+    "counts": {
+      "glyphs": 11328,
+      "points": 35742255,
+      "contours": 141801,
+      "identical_adjacent_outline_points": 4134110,
+      "oneunit_outline_edges": 4695188,
+      "glyphs_with_tiny_contours": 1,
+      "tiny_contours": 4
+    },
+    "degenerate_contours": {
+      "glyph": "U+3D4D9",
+      "total_contours": 1706,
+      "contours": [
+        {
+          "contour": 1375,
+          "points": 4,
+          "control_polygon_area": 0.0,
+          "width": 1,
+          "height": 30,
+          "origin": [
+            716,
+            465
+          ]
+        },
+        {
+          "contour": 1376,
+          "points": 4,
+          "control_polygon_area": 0.0,
+          "width": 1,
+          "height": 30,
+          "origin": [
+            715,
+            495
+          ]
+        },
+        {
+          "contour": 1617,
+          "points": 4,
+          "control_polygon_area": 0.0,
+          "width": 0,
+          "height": 30,
+          "origin": [
+            716,
+            318
+          ]
+        },
+        {
+          "contour": 1618,
+          "points": 4,
+          "control_polygon_area": 0.0,
+          "width": 0,
+          "height": 30,
+          "origin": [
+            716,
+            288
+          ]
+        }
+      ]
+    },
+    "interpretation": "Only the legacy fallback glyph has zero-area contours. Dense analytic outline adjacent duplicate/one-unit points arise from TrueType quantization; arbitrary quadratic-point deletion is not safe. No global backend change or contour union is proposed.",
+    "method": "Each serialized simple glyph was independently decoded; contiguous contour control-polygon areas/bounds and consecutive coordinate distances were measured. No source files or fonts were rebuilt or changed.",
+    "largest_duplicate_point_counts": [
+      [
+        877,
+        "U+3FB1D",
+        7266
+      ],
+      [
+        865,
+        "U+3F831",
+        6884
+      ],
+      [
+        862,
+        "U+3DB03",
+        6486
+      ],
+      [
+        859,
+        "U+3F819",
+        6782
+      ],
+      [
+        848,
+        "U+3FBBF",
+        8116
+      ],
+      [
+        838,
+        "U+3DC1A",
+        7708
+      ],
+      [
+        832,
+        "U+3F260",
+        8658
+      ],
+      [
+        828,
+        "U+3F829",
+        6740
+      ],
+      [
+        826,
+        "U+3D87E",
+        6804
+      ],
+      [
+        824,
+        "U+3F1B3",
+        5788
+      ],
+      [
+        824,
+        "U+3E2DF",
+        7588
+      ],
+      [
+        822,
+        "U+3F6F4",
+        8059
+      ],
+      [
+        814,
+        "U+3F830",
+        6044
+      ],
+      [
+        804,
+        "U+3EA43",
+        8381
+      ],
+      [
+        803,
+        "U+3E9B0",
+        7584
+      ]
+    ]
+  },
+  "five_master_cap_proof": {
+    "glyph": "U+3D4D9",
+    "weights": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "pen_widths": [
+      23.5,
+      30,
+      36.5,
+      43,
+      49.5
+    ],
+    "published_regular": {
+      "points": 31016,
+      "contours": 1706,
+      "backend": "legacy fallback"
+    },
+    "cases": [
+      {
+        "case": "baseline",
+        "source_points": 864,
+        "compact_points": [
+          5199,
+          5199,
+          5200,
+          5200,
+          5200
+        ],
+        "compact_contours": [
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "compact_compatible": false,
+        "bounds": [
+          [
+            234,
+            -58,
+            791,
+            703
+          ],
+          [
+            231,
+            -61,
+            795,
+            707
+          ],
+          [
+            228,
+            -65,
+            798,
+            710
+          ],
+          [
+            224,
+            -68,
+            801,
+            713
+          ],
+          [
+            221,
+            -71,
+            804,
+            717
+          ]
+        ],
+        "records": []
+      },
+      {
+        "case": "terminal-cleanup",
+        "source_points": 856,
+        "compact_points": [
+          5096,
+          5096,
+          5096,
+          5096,
+          5096
+        ],
+        "compact_contours": [
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "compact_compatible": true,
+        "bounds": [
+          [
+            234,
+            -58,
+            791,
+            703
+          ],
+          [
+            231,
+            -61,
+            795,
+            707
+          ],
+          [
+            228,
+            -65,
+            798,
+            710
+          ],
+          [
+            224,
+            -68,
+            801,
+            713
+          ],
+          [
+            221,
+            -71,
+            804,
+            717
+          ]
+        ],
+        "records": [
+          {
+            "path_index_zero_based": 19,
+            "changed": true,
+            "before_points": 82,
+            "removed_start_vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "removed_end_vertices": [],
+            "closed_exact_full_loop": false,
+            "centerline_hausdorff_bound_font_units": 0.25,
+            "after_points": 78
+          },
+          {
+            "path_index_zero_based": 20,
+            "changed": true,
+            "before_points": 82,
+            "removed_start_vertices": [],
+            "removed_end_vertices": [
+              80,
+              79,
+              78,
+              77
+            ],
+            "closed_exact_full_loop": false,
+            "centerline_hausdorff_bound_font_units": 0.25,
+            "after_points": 78
+          }
+        ]
+      }
+    ],
+    "recommended_fix": "Remove eight terminal micro-knots within0.25fontunit; preserve all open/closed path flags. Keep the compact backend unchanged.",
+    "fullfont_rebuild_performed": false,
+    "close_exact_loops": false
+  },
+  "checks": {
+    "full_source_validation_reused_from_endpoint_application": true,
+    "changed_glyph_endpoint_cleanup_idempotent": 56,
+    "shared_templates_unchanged": true,
+    "interior_simplification": false,
+    "stroke_count_and_endpoint_preservation": true,
+    "path_closures_changed": 0
+  },
+  "visual_comparisons": [
+    "../previews/cap-repair.png",
+    "../previews/cap-microknots.png",
+    "../previews/residual-size-fit-1.png",
+    "../previews/residual-size-fit-2.png"
+  ]
+}

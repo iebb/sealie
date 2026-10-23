@@ -90,4 +90,10 @@ python tools/export_png_glyphs.py \
 
 The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports. These local previews are not font sources and should not be committed.
 
-The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in the four-part font ZIP linked from the normalized release.
+The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in the split font ZIP linked from the current normalized release.
+
+## Stroke-cap cleanup
+
+Run `python tools/cleanup_caps.py --check` to check endpoint micro-knots and shared-component synchronization together. The workflow uses this check before building. After an intentional cleanup, run `python tools/cleanup_caps.py --apply`; it validates all current hashes, updates shared templates and their copies together, preserves stroke IDs and endpoints, and refreshes the source manifests.
+
+The default removes only consecutive terminal vertices within 0.25 font units of a fixed endpoint. It leaves meaningful hooks, interior vertices and path closures unchanged. Larger visible cap defects require a focused source correction and visual review. Exact full-loop closure is a separate optional migration (`--close-exact-loops`) and was not applied in the cap-cleanup release.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "source_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "source_svg_manifest_sha256": "9fbfb06ce59672d753d4dcdd6898058f321022ba1bebeda2a78b890cbaf3985e",
   "font_files_opened": [
     {
       "file": "Light.ttf",
@@ -68,19 +68,311 @@
       ]
     }
   ],
-  "static_and_variable_roundtrip_checks": "Every merged glyf/hmtx/gvar block was checked against the completed chunk data by the original builder.",
+  "static_and_variable_roundtrip_checks": "Every merged glyf/hmtx/gvar block checked against completed chunk data by the builder.",
   "compiled_master_glyphs_bounded": 56640,
   "compatible_topology_checked_at_five_weights": 11328,
-  "legacy_compatible_fallbacks": [
-    "U+3D4D9"
-  ],
-  "fixture_test_count_passed": 7,
+  "legacy_compatible_fallbacks": [],
+  "fixture_test_count_passed": 11,
+  "fixture_test_evidence": "Full suite: ten passed, one missing-dependency error. After installing pinned Brotli1.1.0, the single failed roundtrip passed; no code changes or other reruns.",
+  "regular_contour_audit": {
+    "method": "Reuse full baseline contour audit only where serialized glyf records are byte-identical; independently audit every changed Regular outline with the same control-polygon area and bounds criteria.",
+    "baseline_font_sha256": "be15f8f8f224fce89a9df37a95797390c22cd2e4f5efa4f49532205d11034a0e",
+    "baseline_glyph_count": 11328,
+    "byte_identical_glyphs_reused": 11273,
+    "changed_glyphs_audited": 55,
+    "changed_glyph_details": [
+      {
+        "codepoint": "U+3D01E",
+        "points": 1680,
+        "contours": 10
+      },
+      {
+        "codepoint": "U+3D03B",
+        "points": 1370,
+        "contours": 9
+      },
+      {
+        "codepoint": "U+3D0B4",
+        "points": 1394,
+        "contours": 9
+      },
+      {
+        "codepoint": "U+3D108",
+        "points": 1706,
+        "contours": 16
+      },
+      {
+        "codepoint": "U+3D2B2",
+        "points": 2664,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3D414",
+        "points": 3856,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3D46B",
+        "points": 3006,
+        "contours": 21
+      },
+      {
+        "codepoint": "U+3D480",
+        "points": 3574,
+        "contours": 16
+      },
+      {
+        "codepoint": "U+3D4D9",
+        "points": 5096,
+        "contours": 22
+      },
+      {
+        "codepoint": "U+3D6B7",
+        "points": 2328,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3D7B7",
+        "points": 2872,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3D924",
+        "points": 2576,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3D976",
+        "points": 2546,
+        "contours": 10
+      },
+      {
+        "codepoint": "U+3DA14",
+        "points": 3134,
+        "contours": 17
+      },
+      {
+        "codepoint": "U+3DA2F",
+        "points": 3056,
+        "contours": 17
+      },
+      {
+        "codepoint": "U+3DAFE",
+        "points": 4640,
+        "contours": 23
+      },
+      {
+        "codepoint": "U+3DBCE",
+        "points": 3222,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3DC70",
+        "points": 3594,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3DD29",
+        "points": 1636,
+        "contours": 18
+      },
+      {
+        "codepoint": "U+3DDCA",
+        "points": 4139,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3DEA7",
+        "points": 4110,
+        "contours": 23
+      },
+      {
+        "codepoint": "U+3E043",
+        "points": 3403,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3E04C",
+        "points": 1878,
+        "contours": 7
+      },
+      {
+        "codepoint": "U+3E065",
+        "points": 3661,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3E0A5",
+        "points": 3066,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3E0FE",
+        "points": 3934,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3E118",
+        "points": 3541,
+        "contours": 10
+      },
+      {
+        "codepoint": "U+3E11C",
+        "points": 3684,
+        "contours": 17
+      },
+      {
+        "codepoint": "U+3E129",
+        "points": 2807,
+        "contours": 8
+      },
+      {
+        "codepoint": "U+3E130",
+        "points": 3264,
+        "contours": 12
+      },
+      {
+        "codepoint": "U+3E2C7",
+        "points": 4792,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3E2EC",
+        "points": 6441,
+        "contours": 20
+      },
+      {
+        "codepoint": "U+3E362",
+        "points": 1640,
+        "contours": 10
+      },
+      {
+        "codepoint": "U+3E447",
+        "points": 4432,
+        "contours": 20
+      },
+      {
+        "codepoint": "U+3E56D",
+        "points": 4509,
+        "contours": 23
+      },
+      {
+        "codepoint": "U+3E598",
+        "points": 2452,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3E5B6",
+        "points": 2678,
+        "contours": 18
+      },
+      {
+        "codepoint": "U+3E640",
+        "points": 4366,
+        "contours": 18
+      },
+      {
+        "codepoint": "U+3E7A9",
+        "points": 3486,
+        "contours": 8
+      },
+      {
+        "codepoint": "U+3E87C",
+        "points": 4451,
+        "contours": 16
+      },
+      {
+        "codepoint": "U+3E8EC",
+        "points": 3193,
+        "contours": 13
+      },
+      {
+        "codepoint": "U+3E960",
+        "points": 4128,
+        "contours": 18
+      },
+      {
+        "codepoint": "U+3EA76",
+        "points": 1840,
+        "contours": 6
+      },
+      {
+        "codepoint": "U+3EC3F",
+        "points": 4452,
+        "contours": 16
+      },
+      {
+        "codepoint": "U+3EC65",
+        "points": 3186,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3ED16",
+        "points": 4984,
+        "contours": 23
+      },
+      {
+        "codepoint": "U+3F020",
+        "points": 5078,
+        "contours": 22
+      },
+      {
+        "codepoint": "U+3F15E",
+        "points": 4618,
+        "contours": 15
+      },
+      {
+        "codepoint": "U+3F8B8",
+        "points": 1724,
+        "contours": 15
+      },
+      {
+        "codepoint": "U+3F8D5",
+        "points": 2386,
+        "contours": 11
+      },
+      {
+        "codepoint": "U+3F8E3",
+        "points": 794,
+        "contours": 7
+      },
+      {
+        "codepoint": "U+3F8F4",
+        "points": 554,
+        "contours": 8
+      },
+      {
+        "codepoint": "U+3F93A",
+        "points": 4380,
+        "contours": 14
+      },
+      {
+        "codepoint": "U+3F9AD",
+        "points": 4108,
+        "contours": 11
+      },
+      {
+        "codepoint": "U+3FA19",
+        "points": 3456,
+        "contours": 22
+      }
+    ],
+    "final_degenerate_contour_count": 0,
+    "U3D4D9": {
+      "points": 5096,
+      "contours": 22
+    }
+  },
+  "source_stroke_policy": {
+    "caps": "round",
+    "joins": "round",
+    "constant_regular_pen": 30
+  },
+  "shared_component_templates_unchanged": 162,
+  "shared_component_glyphs": 2846,
   "zip_crc_verified": true,
   "package_font_hashes_match_full_build": true,
   "current_font_grid_sheets": 45,
-  "optional_woff2_generated_but_not_in_zip": {
-    "name": "Regular.woff2",
-    "bytes": 19488904,
-    "sha256": "f984ed2b5b0534f8581dcb93fdda509b3948b37081c928a3d49c4824ad9cd673"
-  }
+  "webfont_chunks": 177,
+  "full_variable_woff_bytes": 109983104
 }

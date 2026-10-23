@@ -1,6 +1,6 @@
 # Size and radical normalization
 
-This revision covers the complete 11,328-codepoint Small Seal repertoire. It changes 10,511 SVGs and preserves 817 exactly. The previous source is available at [commit 770c0d5](https://github.com/iebb/sealie/tree/770c0d56e570000f1231c2fe9b4d275fbb426fc6).
+The first normalization covers the complete 11,328-codepoint Small Seal repertoire. It changed 10,511 SVGs and preserved 817 exactly. The previous source is available at [commit 770c0d5](https://github.com/iebb/sealie/tree/770c0d56e570000f1231c2fe9b4d275fbb426fc6). The current follow-up adds the bounded size and cap corrections described below.
 
 ## What changed
 
@@ -50,6 +50,18 @@ The full original and final sets were measured with the same 256-pixel antialias
 | 95th-percentile ink-centroid offset | 63.7 | 52.4 |
 
 The central width spread fell **43.75%**. Maximum ink width and height remain 768 units. Natural primitives remain intentionally sparse. See the [machine-readable metrics](../reports/normalization.json) and [width/centroid comparison](../previews/normalization-metrics.png).
+
+## Remaining size outliers and stroke caps
+
+The follow-up fits 26 previously untouched broad compounds whose near-full heights fell just below the original exact-height guard. Each receives a single horizontal scale of 0.90, with no vertical stretch or pen scaling. Registered shared components and genuinely low, wide forms are excluded. An executed minimum-distance check over 2,567 source path pairs rejected two proposals that would create new Regular-weight contacts; both glyphs retain their prior size. See the [size-fit report](../reports/supplementary-size-fit.json) and [contact distances](../reports/size-fit-contact-check.json).
+
+![Additional size fitting, first sheet](../previews/residual-size-fit-1.png)
+
+Every source already has a 30-unit Regular pen with round caps and joins. A full serialized Regular audit found degenerate contours only in U+3D4D9: tiny terminal loops triggered the legacy fallback. Removing eight endpoint vertices restores compatible analytic strokes at all five weights, reducing that glyph from 1,706 contours to 22. The backend remains unchanged.
+
+The reusable cleanup removes consecutive terminal vertices only within 0.25 units of a fixed endpoint. It preserves all stroke endpoints, stroke count, closure flags and meaningful hooks; interior short segments remain unchanged. Larger visible bead-like cap defects receive codepoint-specific reviewed repairs. Shared paths are updated through their templates. The [cap cleanup report](../reports/cap-cleanup.json) binds the resulting sources and records the exact changes.
+
+The full before/after measurements above describe the first normalized source manifest recorded in `normalization.json`. Later cleanup has its own source identities and reports; it does not silently replace that measurement baseline.
 
 ## Builds and review scope
 

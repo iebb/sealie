@@ -10,7 +10,7 @@
     "default": 400,
     "maximum": 700
   },
-  "source_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
+  "source_svg_manifest_sha256": "9fbfb06ce59672d753d4dcdd6898058f321022ba1bebeda2a78b890cbaf3985e",
   "source_components_manifest_sha256": "20415939fd6fae2129ce6b407a35c18da348eb8d1ec8627dad4d229d25c5b13d",
   "source_polylines_simplified": false,
   "chunks": [
@@ -19,8 +19,8 @@
       "first": "U+3D000",
       "last": "U+3D03F",
       "glyph_count": 64,
-      "bytes": 320892,
-      "sha256": "80ecd81fe4c718000369d31b80c18ac65594cfa9d65d0421469f848304daf887"
+      "bytes": 320748,
+      "sha256": "42a6b3c3ff698ce53ae64393755814bc6fb6ffb94cd49fbfb0291e2ac49281b5"
     },
     {
       "file": "U3D040-U3D07F.woff",
@@ -35,8 +35,8 @@
       "first": "U+3D080",
       "last": "U+3D0BF",
       "glyph_count": 64,
-      "bytes": 419824,
-      "sha256": "f528789715d0f7141cada600634d70e48004f9dd6d49fae3224c2e84e13659af"
+      "bytes": 419840,
+      "sha256": "d0baa53710616b3aa999df0428f66a59eb6fb10b32d9d89df1d1d58a5e1c4d8c"
     },
     {
       "file": "U3D0C0-U3D0FF.woff",
@@ -51,8 +51,8 @@
       "first": "U+3D100",
       "last": "U+3D13F",
       "glyph_count": 64,
-      "bytes": 370668,
-      "sha256": "7e8982af27767d3053e53c77582cbfdf107c8481a3e4ce15f42e55c9f78cc4ca"
+      "bytes": 370572,
+      "sha256": "7c7a00e31e1ca982f2c0f525b2c2c451474a05efcb85225fdf0d533366f08b4d"
     },
     {
       "file": "U3D140-U3D17F.woff",
@@ -99,8 +99,8 @@
       "first": "U+3D280",
       "last": "U+3D2BF",
       "glyph_count": 64,
-      "bytes": 510616,
-      "sha256": "7a0178aa1fd9e2612163a31845ca777e946bb52dc8f62123b61b333e71b93cd8"
+      "bytes": 510560,
+      "sha256": "b10960402e6b0968ce207d3ce60122b248ff0fa83249763a9eebc41e1b2dbc4a"
     },
     {
       "file": "U3D2C0-U3D2FF.woff",
@@ -147,32 +147,32 @@
       "first": "U+3D400",
       "last": "U+3D43F",
       "glyph_count": 64,
-      "bytes": 341624,
-      "sha256": "8bfc389bbab1864e326243d1b553d8aefb30c7a3d851ef5a0db34faaecf2315a"
+      "bytes": 341496,
+      "sha256": "7b6ec450f482410aaa5177b6e29e87d35e8c7ba92b08ce02d76dea32833e2c00"
     },
     {
       "file": "U3D440-U3D47F.woff",
       "first": "U+3D440",
       "last": "U+3D47F",
       "glyph_count": 64,
-      "bytes": 455216,
-      "sha256": "354ae26b3b607df4bf8dbe10982ed022a3a148b768a95bd78797daeb91aef1b9"
+      "bytes": 455188,
+      "sha256": "37a54d2940437146de9d7dfff58c16527f45d5f8bd5d853e1f77bd0c016a741d"
     },
     {
       "file": "U3D480-U3D4BF.woff",
       "first": "U+3D480",
       "last": "U+3D4BF",
       "glyph_count": 64,
-      "bytes": 477392,
-      "sha256": "d241e67b5db58a99f0f5444847511369cb94381da47cf8dc07ed2c1b3762abff"
+      "bytes": 477400,
+      "sha256": "b67b7f7c43b66e5b15715b71d8e98a57fbbc418ef33b1619c30a2ee6b2b81a5c"
     },
     {
       "file": "U3D4C0-U3D4FF.woff",
       "first": "U+3D4C0",
       "last": "U+3D4FF",
       "glyph_count": 64,
-      "bytes": 558124,
-      "sha256": "b1c607997ab1bf9db30ad878c923c8276d07eceb860863b9e9245a56c286d73a"
+      "bytes": 515496,
+      "sha256": "4a46c93cb5a11294e3feb7c20ae75412cbc04d4a51e262235958d627c17d1ff9"
     },
     {
       "file": "U3D500-U3D53F.woff",
@@ -227,8 +227,8 @@
       "first": "U+3D680",
       "last": "U+3D6BF",
       "glyph_count": 64,
-      "bytes": 489184,
-      "sha256": "643d7b5072e6ebe9d8e16d9eab8e106f9b93a102dd7f2762cdf57b2777dcd87b"
+      "bytes": 489168,
+      "sha256": "cf252c779bcecbbb0723c27c4051426c4dc633054dcd1a8c120cb2d11e559532"
     },
     {
       "file": "U3D6C0-U3D6FF.woff",
@@ -259,8 +259,8 @@
       "first": "U+3D780",
       "last": "U+3D7BF",
       "glyph_count": 64,
-      "bytes": 498552,
-      "sha256": "3c58983a743de1b83a376bf507ef738fb7f98f43681a582606b75c1bffc0058d"
+      "bytes": 497880,
+      "sha256": "7d8094b7900496e38e8b976205ec88068b763f2e784111f3930f10ce6b76dd59"
     },
     {
       "file": "U3D7C0-U3D7FF.woff",
@@ -307,16 +307,16 @@
       "first": "U+3D900",
       "last": "U+3D93F",
       "glyph_count": 64,
-      "bytes": 632628,
-      "sha256": "a1841257d82b6188eac23b2cba6a6cb7a50980a9a6fd3074841e8343ffbb15e0"
+      "bytes": 632500,
+      "sha256": "94b06133e22d1d4751c3331a09d1b4ba42003089e72aa6b7c9a4313f20d938cb"
     },
     {
       "file": "U3D940-U3D97F.woff",
       "first": "U+3D940",
       "last": "U+3D97F",
       "glyph_count": 64,
-      "bytes": 473604,
-      "sha256": "24baa94b9f10a8f0445ca28fbdf573e2e690481fe6f0d9ef479c3ea89a903a0e"
+      "bytes": 473464,
+      "sha256": "34bb1d1bc698f593f910ad8fd704cc3b3c8d105959f31863fe83abb269e098d7"
     },
     {
       "file": "U3D980-U3D9BF.woff",
@@ -339,8 +339,8 @@
       "first": "U+3DA00",
       "last": "U+3DA3F",
       "glyph_count": 64,
-      "bytes": 532332,
-      "sha256": "828236511bd71f1221cf2844bbe83aba9e44df9e0b44f749282376e8961c3236"
+      "bytes": 532252,
+      "sha256": "48d7ccd908fc3da10dd8a26567f3e0ebbefaf031b13ae3995c7afbfae9a38014"
     },
     {
       "file": "U3DA40-U3DA7F.woff",
@@ -363,8 +363,8 @@
       "first": "U+3DAC0",
       "last": "U+3DAFF",
       "glyph_count": 64,
-      "bytes": 738548,
-      "sha256": "4efab70b4e7605f4fccd35c274dacfb646f2cabe4377908db354ec789f5b631b"
+      "bytes": 738512,
+      "sha256": "a05eebb652115c3c744661a0bd0b5c7e6c27904bcaaaaa8f9aca8cb5c5bc521c"
     },
     {
       "file": "U3DB00-U3DB3F.woff",
@@ -395,8 +395,8 @@
       "first": "U+3DBC0",
       "last": "U+3DBFF",
       "glyph_count": 64,
-      "bytes": 655204,
-      "sha256": "38f1c914193ac693db6e7aa96a47f6e7cf952dc31fc22bff41fae223ff16c966"
+      "bytes": 655176,
+      "sha256": "44e181242c8822875449a9e559103ada329ea842dd04c191e919cfece11966f0"
     },
     {
       "file": "U3DC00-U3DC3F.woff",
@@ -411,8 +411,8 @@
       "first": "U+3DC40",
       "last": "U+3DC7F",
       "glyph_count": 64,
-      "bytes": 751708,
-      "sha256": "db92561b8a599985890643d1b65b6dcdb2e073b2d0e09b1f3f282134a70d1382"
+      "bytes": 751704,
+      "sha256": "f38e0e22045387bbbaa230e9917bac7b31bb32d8f0074e81cd5d974e62f8a004"
     },
     {
       "file": "U3DC80-U3DCBF.woff",
@@ -435,8 +435,8 @@
       "first": "U+3DD00",
       "last": "U+3DD3F",
       "glyph_count": 64,
-      "bytes": 589956,
-      "sha256": "7d5e0bfa1fd63b1546102c7c0180b80078a5f760a92f4a419ecb1614f11cffc4"
+      "bytes": 589920,
+      "sha256": "0178090b3755b8b8c0f2a40981cac575939ca7206543c7a91a460e2abe655201"
     },
     {
       "file": "U3DD40-U3DD7F.woff",
@@ -459,8 +459,8 @@
       "first": "U+3DDC0",
       "last": "U+3DDFF",
       "glyph_count": 64,
-      "bytes": 422664,
-      "sha256": "7e384e06ea335572f399e9612b6e555e99336ccd00e836981a45e81bdf2f732d"
+      "bytes": 422940,
+      "sha256": "2a388b41262014e30e77534d8f3ad87af81a0f149875d053544ced0ec5171e7b"
     },
     {
       "file": "U3DE00-U3DE3F.woff",
@@ -483,8 +483,8 @@
       "first": "U+3DE80",
       "last": "U+3DEBF",
       "glyph_count": 64,
-      "bytes": 644276,
-      "sha256": "d3485309c8374e7753a9d4d0462939fd1f4c4b9d6e218a65a25248447830acb1"
+      "bytes": 644180,
+      "sha256": "95289d1d8766bc14d0f64e29be1d1c4f788db4b1b0b3ecaa6bcced4b5436a8ce"
     },
     {
       "file": "U3DEC0-U3DEFF.woff",
@@ -539,32 +539,32 @@
       "first": "U+3E040",
       "last": "U+3E07F",
       "glyph_count": 64,
-      "bytes": 488932,
-      "sha256": "94a5fc1fbe0f4c67b930c5c731572f01633214e7825165786ec9c9ab921700a5"
+      "bytes": 488860,
+      "sha256": "281d970a65c537ef4d8c84169420ad35b294d0c88823989c81b18aa2152feddd"
     },
     {
       "file": "U3E080-U3E0BF.woff",
       "first": "U+3E080",
       "last": "U+3E0BF",
       "glyph_count": 64,
-      "bytes": 490824,
-      "sha256": "3c718bc266e021e53923b01c3120368dc7928047926018acc808aaa2198d41a9"
+      "bytes": 490796,
+      "sha256": "3f24ff837bc434fc7c5a9bb6669ea4e4841abea4c6cabe720ae97e468534ad6a"
     },
     {
       "file": "U3E0C0-U3E0FF.woff",
       "first": "U+3E0C0",
       "last": "U+3E0FF",
       "glyph_count": 64,
-      "bytes": 468608,
-      "sha256": "b8883deca8f776987108a409e58d97820bc08fe08d5dcf281b8462fb21633270"
+      "bytes": 468592,
+      "sha256": "d8aaecf19c18386bb80c8dfbeeb315bf4689dd6f832b0ed5fb11763c3c147b38"
     },
     {
       "file": "U3E100-U3E13F.woff",
       "first": "U+3E100",
       "last": "U+3E13F",
       "glyph_count": 64,
-      "bytes": 526152,
-      "sha256": "0af9c538adbd583b1bf28790c954e2636ffef36d09f6a382dfa2069925d8d2b3"
+      "bytes": 525832,
+      "sha256": "068a33d39cb9dbc9ae529285eb9a419215ea53d2fe75dc681b616c691a07796f"
     },
     {
       "file": "U3E140-U3E17F.woff",
@@ -619,8 +619,8 @@
       "first": "U+3E2C0",
       "last": "U+3E2FF",
       "glyph_count": 64,
-      "bytes": 669964,
-      "sha256": "896493ac06df217ac2a716ce54dc107e85ee6d97d2bb0cde443a88f3a2026175"
+      "bytes": 669856,
+      "sha256": "f32dcb4eb196e93ff4a16e8c09e31a0411e3a72ed0f224c58c6e74c8b2915ffd"
     },
     {
       "file": "U3E300-U3E33F.woff",
@@ -635,8 +635,8 @@
       "first": "U+3E340",
       "last": "U+3E37F",
       "glyph_count": 64,
-      "bytes": 662936,
-      "sha256": "5e9c428829d717df173a9d0206528636a174b9749b9bcb125a29c1e55f0defde"
+      "bytes": 662952,
+      "sha256": "1448452c12fbfff259daa27a46dbbea65591daf0e44b27fa81a2b75a66dd0354"
     },
     {
       "file": "U3E380-U3E3BF.woff",
@@ -667,8 +667,8 @@
       "first": "U+3E440",
       "last": "U+3E47F",
       "glyph_count": 64,
-      "bytes": 636920,
-      "sha256": "cb06c030e3ba6f2330ba1dc19247fd83a81ad17d7fae05cb6cbd5e93952c391b"
+      "bytes": 636912,
+      "sha256": "d41a6299f09dc86853ab7754cbf476650f40d3cdc72c9733fde1e56564059f82"
     },
     {
       "file": "U3E480-U3E4BF.woff",
@@ -699,16 +699,16 @@
       "first": "U+3E540",
       "last": "U+3E57F",
       "glyph_count": 64,
-      "bytes": 516636,
-      "sha256": "74c5921f43afca6806e2d35fcdcc69709905cec6ad2e8cb0e6de6dccca8aa2ec"
+      "bytes": 516624,
+      "sha256": "2e8ff6b9fd463893c6711cfeacb56da68a024e3b80aa46fe7dc09c12648daa5a"
     },
     {
       "file": "U3E580-U3E5BF.woff",
       "first": "U+3E580",
       "last": "U+3E5BF",
       "glyph_count": 64,
-      "bytes": 444432,
-      "sha256": "f0979d644ffe7022673522364cde26676ac1d4012dab539d2d82a48d3a9a39fa"
+      "bytes": 444268,
+      "sha256": "72cbcf9f3abe7dab61852721bde0659623e78fbf69b24b3c6c18e21879bf21b5"
     },
     {
       "file": "U3E5C0-U3E5FF.woff",
@@ -731,8 +731,8 @@
       "first": "U+3E640",
       "last": "U+3E67F",
       "glyph_count": 64,
-      "bytes": 485128,
-      "sha256": "8c5def37247bc120b456adae5e62cbf31fb9c809aa2777814386bd2afb68e365"
+      "bytes": 485084,
+      "sha256": "8c4fb18f1a2087f00d67f55094e520ceee6f26a26dac65cd4fa1614b18847e44"
     },
     {
       "file": "U3E680-U3E6BF.woff",
@@ -771,8 +771,8 @@
       "first": "U+3E780",
       "last": "U+3E7BF",
       "glyph_count": 64,
-      "bytes": 554096,
-      "sha256": "6c14c148472de299424c835f82574a424afae7f5cb28d4d15d43d84556cdbeed"
+      "bytes": 554088,
+      "sha256": "a4a917ca926015d20a256a27d06a3b023a63a95b0404a7de4f20620131c69fa8"
     },
     {
       "file": "U3E7C0-U3E7FF.woff",
@@ -795,8 +795,8 @@
       "first": "U+3E840",
       "last": "U+3E87F",
       "glyph_count": 64,
-      "bytes": 539884,
-      "sha256": "7a17a4c4e79eb42560b0c3b8dfb66e787a8f7a213b0e975c99a3a78a3ad522a4"
+      "bytes": 539872,
+      "sha256": "c5462c59db77a4b7a5d043062ea045dfee603a48465d7447e8b7ce5511eed6d2"
     },
     {
       "file": "U3E880-U3E8BF.woff",
@@ -811,8 +811,8 @@
       "first": "U+3E8C0",
       "last": "U+3E8FF",
       "glyph_count": 64,
-      "bytes": 748104,
-      "sha256": "054e1ba009cd3a1f0d21739c00a7ea0731eb91899ea71bee311d097645e1c3e0"
+      "bytes": 747716,
+      "sha256": "239a834e453ebda2ea2aaf73d03b7f2136a3fc6c3611b74cda194f8335f68abc"
     },
     {
       "file": "U3E900-U3E93F.woff",
@@ -827,8 +827,8 @@
       "first": "U+3E940",
       "last": "U+3E97F",
       "glyph_count": 64,
-      "bytes": 747016,
-      "sha256": "1695dbc10bb7fd86b4b8aae3fd1eec48dd8dd8e5a50bf79867ea285a138cfa83"
+      "bytes": 746984,
+      "sha256": "dfcbfdf37173e07c272629d91910121e3ced93f5ffff2a31f94973973684311a"
     },
     {
       "file": "U3E980-U3E9BF.woff",
@@ -859,8 +859,8 @@
       "first": "U+3EA40",
       "last": "U+3EA7F",
       "glyph_count": 64,
-      "bytes": 725752,
-      "sha256": "eb0653199a5c9b52392100fdbf1e1a2d17df569f302fc6b63167c7917f007045"
+      "bytes": 725748,
+      "sha256": "c03cec6e9bd800c726714e8f1a4fc8d2ce3fa10fc507c68a25ecfcbd1855baca"
     },
     {
       "file": "U3EA80-U3EABF.woff",
@@ -915,16 +915,16 @@
       "first": "U+3EC00",
       "last": "U+3EC3F",
       "glyph_count": 64,
-      "bytes": 986048,
-      "sha256": "283e439fb754f953e3d6a510dbaef494c672ea82a30bea7ca813fb703885b2cc"
+      "bytes": 986044,
+      "sha256": "63c08fd4885e14d01bbcc18bca5c720429c86680f25f31804c990091117a4ce4"
     },
     {
       "file": "U3EC40-U3EC7F.woff",
       "first": "U+3EC40",
       "last": "U+3EC7F",
       "glyph_count": 64,
-      "bytes": 744252,
-      "sha256": "6418f5567b895ca8d4c0308c56cf66fc6e93d328ef8c34ae5ae9749987b55242"
+      "bytes": 744236,
+      "sha256": "bdc237c0fc97629ec37fc3621364e86afff895458590e6f0abc3abaec77e12f9"
     },
     {
       "file": "U3EC80-U3ECBF.woff",
@@ -948,7 +948,7 @@
       "last": "U+3ED3F",
       "glyph_count": 64,
       "bytes": 695020,
-      "sha256": "233e2233ab01b16e454b00b9bc30d82dcc389a0b806dd3cd6c71314006491393"
+      "sha256": "05dfcd0848b7e3819704de8c0373f6633c46eb14e23c97b56f6b024c847118b9"
     },
     {
       "file": "U3ED40-U3ED7F.woff",
@@ -1043,8 +1043,8 @@
       "first": "U+3F000",
       "last": "U+3F03F",
       "glyph_count": 64,
-      "bytes": 506208,
-      "sha256": "b94edb3845c0f33f46b1fc49a144c20bde309908d93e68c938b7ba94a2ed89f6"
+      "bytes": 506196,
+      "sha256": "29e25ca4558b24d52ba7d9fe32ce8c4d452e9dba2b9a90400a5325e444e081cf"
     },
     {
       "file": "U3F040-U3F07F.woff",
@@ -1083,8 +1083,8 @@
       "first": "U+3F140",
       "last": "U+3F17F",
       "glyph_count": 64,
-      "bytes": 665368,
-      "sha256": "ce1aee933378937c452eb4aff8f973a2a5fa2b37f4790a3a6acc7bb4e95af694"
+      "bytes": 665360,
+      "sha256": "957543573cbd7caab8867296eacbecd753fc8fb54b2dc9fb95dd0c502fc67f5e"
     },
     {
       "file": "U3F180-U3F1BF.woff",
@@ -1315,24 +1315,24 @@
       "first": "U+3F880",
       "last": "U+3F8BF",
       "glyph_count": 64,
-      "bytes": 504324,
-      "sha256": "1d7c76968a25f8db73307a8b5bd96fde479f105921b2d740500ddbaf3d80fede"
+      "bytes": 504280,
+      "sha256": "dd2b26f9e6818453d35caa855c193dfa1688cacba600a5322668bd0ed52ab66d"
     },
     {
       "file": "U3F8C0-U3F8FF.woff",
       "first": "U+3F8C0",
       "last": "U+3F8FF",
       "glyph_count": 64,
-      "bytes": 581024,
-      "sha256": "893968c74f80fd7627b4851ebb435b700f9c76830d1403fb2d58f7109c062f75"
+      "bytes": 580984,
+      "sha256": "f0585b2f1034500f062581494fb06a5655a1adf330c1b1982528589776fb36f9"
     },
     {
       "file": "U3F900-U3F93F.woff",
       "first": "U+3F900",
       "last": "U+3F93F",
       "glyph_count": 64,
-      "bytes": 631516,
-      "sha256": "f3debec242a59b6b35dc0cd540e6d6c070de05772500143a5ae98dfaa6775ee7"
+      "bytes": 631520,
+      "sha256": "77d6c4d4ea6ba2a045722ba1e381d07577678b0ed0059abc7d189a2ebe71b9a9"
     },
     {
       "file": "U3F940-U3F97F.woff",
@@ -1347,8 +1347,8 @@
       "first": "U+3F980",
       "last": "U+3F9BF",
       "glyph_count": 64,
-      "bytes": 682064,
-      "sha256": "72dbeb950c79ea06a24469ea7c8c1e87c2e33779720b90ecbc9e3add63b26ded"
+      "bytes": 681688,
+      "sha256": "a08b7c93b1543cfcb93ef69e7a0488520d599f566bc25f56a9e0b373ca89ca49"
     },
     {
       "file": "U3F9C0-U3F9FF.woff",
@@ -1363,8 +1363,8 @@
       "first": "U+3FA00",
       "last": "U+3FA3F",
       "glyph_count": 64,
-      "bytes": 663660,
-      "sha256": "09be85586e61badfb2e19a36db8417bf3b5f23dc6345c282debc5a810d1086b2"
+      "bytes": 663656,
+      "sha256": "2c2248c41dc0ee1b25ca1c23624f81af149385192cbc63beb79d2764b7b65cde"
     },
     {
       "file": "U3FA40-U3FA7F.woff",
@@ -1430,5 +1430,6 @@
       "bytes": 730736,
       "sha256": "af178eb68f06b23ec8f3123212874a206298f1cfff2460d595c5fd3293825d85"
     }
-  ]
+  ],
+  "source_cap_cleanup_report": "../../reports/cap-cleanup.json"
 }

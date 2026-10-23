@@ -17,7 +17,7 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests
-      - run: python tools/sync_components.py --check
+      - run: python tools/cleanup_caps.py --check
       - run: python tools/build_normalized_fonts.py --svg-dir svg --output build --workers 2
       - uses: actions/upload-artifact@v4
         with:
