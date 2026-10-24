@@ -1,10 +1,12 @@
-# Editable Small Seal SVGs → static and variable fonts
+# Build Sealie from SVG sources
 
-The `svg/` directory is the font source, with reusable radical sources in `components/`. The current `radical-joins-011328` revision contains 173 shared templates registered to 3,473 glyphs; the complete font repertoire remains 11,328 codepoints. Each named `Uxxxxx.svg` contains one complete glyph, with a matching Unicode codepoint, 1024-unit advance, a 30-unit round pen and exact centerline coordinates. No reference images, private drawing files or existing font outlines are needed to build it. Font software and these sources use the SIL Open Font License 1.1; see [LICENSE-OFL.txt](../LICENSE-OFL.txt) and [OFL-1.1.txt](../OFL-1.1.txt).
+`svg/` contains the complete 11,328-codepoint font source. Reusable radicals live in `components/`: **180 templates registered to 3,763 glyphs**. Sources already include the current optical sizing and reviewed repairs; no private drawings, reference images or existing font outlines are needed to build them.
+
+Each `Uxxxxx.svg` uses a 1024-unit advance, a 30-unit round pen and exact centerline coordinates. Font software and sources use SIL Open Font License 1.1; see [LICENSE-OFL.txt](../LICENSE-OFL.txt) and [OFL-1.1.txt](../OFL-1.1.txt).
 
 ## Build
 
-Use Python 3.11 or newer:
+With Python 3.11 or newer, run from the repository root:
 
 ```sh
 python -m pip install -r requirements.txt
@@ -12,17 +14,17 @@ python tools/sync_components.py --check
 python tools/build_normalized_fonts.py --svg-dir svg --output build
 ```
 
-This builds `Light.ttf`, `Regular.ttf`, `Medium.ttf`, `SemiBold.ttf`, `Bold.ttf`, `Variable.ttf`, full Regular/variable WOFFs, variable webfont subsets and a build manifest. Add `--woff2` to generate a Regular WOFF2. The GitHub **Build font from SVG** action runs the same builder and uploads the fonts, licenses and manifest. It can be started manually or by changing sources/tooling. Artifacts are not automatically committed or published.
+This creates `Light.ttf`, `Regular.ttf`, `Medium.ttf`, `SemiBold.ttf`, `Bold.ttf`, `Variable.ttf`, Regular/variable WOFFs, variable webfont subsets and a build manifest. Add `--woff2` for a Regular WOFF2. The [Build font from SVG workflow](https://github.com/iebb/sealie/actions/workflows/build-font.yml) runs the same builder and uploads artifacts; it does not automatically publish a release.
 
-The compact stroker uses pinned `skia-pathops` round caps and joins, without simplifying source polylines or performing Boolean union. Conic conversion tolerance is 0.05 font units at Regular, scaled with pen width. It compares contour endpoints and on/off flags across all five masters. If a glyph's compact topology changes with weight, every master of that glyph uses the original disk/rectangle stroker instead.
+The compact stroker uses pinned `skia-pathops` round caps and joins without simplifying the source polylines or applying Boolean union. It checks contour endpoints and on/off flags across all five masters. If compact topology changes with weight, all masters of that glyph use the original disk/rectangle stroker.
 
-At most 64 glyphs are expanded per chunk, with up to four workers by default (`--workers 2` lowers concurrency). Finished chunks are merged as serialized glyphs and variation data. No global variable-font instancing occurs. The builder checks source hashes, coverage, em bounds and compatible masters, then checks serialized glyphs, metrics and variation bytes after merging. Exact-input caches live under `build/.build-cache`. The complete serialized output and optional WOFF2 compressor still need memory proportional to the final font size.
+Chunks contain at most 64 glyphs, with up to four workers by default; `--workers 2` lowers concurrency. Exact-input caches live under `build/.build-cache`. Finished chunks are merged as serialized glyph and variation data. Source hashes, coverage, bounds, compatible masters, metrics and serialized preservation are checked; no global variable-font instancing is needed. Final serialization and optional WOFF2 compression still require memory proportional to font size.
 
-## Edit
+## Edit glyphs or shared radicals
 
-The visible SVG is editable vector artwork. Its group flips font y coordinates around baseline 832 to display correctly in a square 1024 viewBox. Preserve that group, its stroke attributes, filename/codepoint and advance. Paths support explicit absolute `M`, `L`, and terminal `Z`; retain one path per stroke. Coordinates are intentionally full-precision decimals, not rounded display coordinates. Do not flatten or remove this wrapper in an editor. Curves must be converted to sufficiently fine polylines before building; arbitrary SVG transforms, filled shapes and other commands are rejected.
+Preserve the SVG wrapper: `viewBox="0 0 1024 1024"`, the baseline-832 group transform, codepoint, advance and round-stroke attributes. Paths accept explicit absolute `M`, `L` and terminal `Z`, with one path per stroke. Retain full-precision coordinates; arbitrary transforms, filled shapes and other commands are rejected. Convert curves to sufficiently fine polylines before building.
 
-After an intentional source edit, refresh the manifest hashes, review the artwork, then build:
+After an intentional individual edit:
 
 ```sh
 python tools/svg_font.py --svg-dir svg --refresh-manifest
@@ -30,13 +32,9 @@ python tools/sync_components.py --check
 python tools/build_normalized_fonts.py --svg-dir svg --output build
 ```
 
-Refreshing hashes declares changed source bytes; it does not confer historical or visual review approval. The build reads only the codepoints listed in `svg/manifest.json`; unlisted SVGs are ignored, and missing or stale listed files fail. Add/remove manifest rows explicitly when changing the repertoire. `authoring_source_sha256` and `authoring_geometry_sha256` preserve historical authoring lineage and are not updated by editing SVGs. `svg_sha256` binds the current maintained source.
+Refreshing hashes records changed bytes, not visual approval. The build reads only the unique codepoints listed in `svg/manifest.json`; missing or stale files fail. Historical `authoring_source_sha256` and `authoring_geometry_sha256` fields preserve lineage, while `svg_sha256` binds the current source.
 
-## Shared radicals
-
-`components/manifest.json` maps each reviewed component template to its glyphs and zero-based path indices. Templates include the final placement, so registered occurrences use identical geometry and position. Different structural variants and positions have separate templates.
-
-Edit the component SVG, preserving its round-pen wrapper and path count, then run:
+For an assigned radical, edit its canonical SVG in `components/`, then run:
 
 ```sh
 python tools/sync_components.py --apply
@@ -44,13 +42,36 @@ python tools/sync_components.py --check
 python tools/build_normalized_fonts.py --svg-dir svg --output build
 ```
 
-The updater changes only assigned paths, preserves unrelated paths and IDs, and refreshes current hashes. It rejects overlapping assignments, missing paths, incompatible closures, unsupported SVG constructs and stale glyph hashes before writing. If you intentionally change an assigned glyph directly, refresh its hash before applying a component update; `--check` will still catch divergence from the shared template.
+Templates include exact placement. Preserve path count and closures; the updater changes only assigned paths, preserves unrelated paths and IDs, and refreshes hashes. It rejects overlapping assignments, missing paths, incompatible closures, unsupported constructs and stale glyph hashes. Different positions and allographs remain separate templates.
 
-See [normalization policy and comparisons](NORMALIZATION.md), the current [radical expansion report](../reports/radical-expansion.json) and the [join refinement report](../reports/join-refinement.json) for assignment and repair scope.
+The current size classes distinguish compounds from optically smaller simple/root forms. Rebuilding compiles those maintained coordinates; it does not force every glyph into one ink box. See [normalization policy](NORMALIZATION.md), [optical sizing](../reports/optical-sizing.json), [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json).
+
+## Validation and endpoint cleanup
+
+For development changes, the fixture suite can be run with:
+
+```sh
+python -m unittest discover -s tests
+python tools/cleanup_caps.py --check
+```
+
+The prior **11-test builder fixture result is reused** for v1.0.0 because the builder and fixtures are unchanged. It is not reported as eleven newly executed tests. Current source, contact, shared-component and compiled-output checks have their own revision-bound reports.
+
+The tests cover mixed SVG fixtures, static/variable output, named weights, default-master geometry, webfont coverage, stale source rejection, topology fallback and component propagation. They require compatible masters, exact Regular coordinates, at most one font unit of named-instance coordinate/sidebearing error and unchanged 1024-unit advances. The legacy `tools/svg_font.py` Regular builder and its optional `SEAL_PRODUCTION_REGULAR` comparison remain historical tools, not exact-byte checks for the current compact font.
+
+The default endpoint cleaner removes only consecutive terminal vertices within 0.25 units of a fixed endpoint, preserving meaningful hooks, interior vertices and closures. Larger visible defects require focused source corrections and visual review. Shared corrections must be propagated through their templates. The optional exact-loop closure migration is separate and is not implied by the default cleanup.
+
+## Stable downloads and browser preview
+
+The [stable release](https://github.com/iebb/sealie/releases/latest) provides individual assets, including [Sealie-Variable.ttf](https://github.com/iebb/sealie/releases/latest/download/Sealie-Variable.ttf), [Sealie-Regular.ttf](https://github.com/iebb/sealie/releases/latest/download/Sealie-Regular.ttf), the other named weights, Regular/variable WOFFs, licenses and [font-hashes.json](https://github.com/iebb/sealie/releases/latest/download/font-hashes.json). No archive assembly is required. See [font downloads](../fonts/README.md).
+
+The [live specimen](https://iebb.github.io/sealie/) loads `fonts/variable.css` and the needed variable WOFF subsets, each containing at most 64 glyphs. The Pages builder versions copied font URLs from their actual bytes so new deployments load the new font revision. Current compiled outputs are bound by the [build](../reports/normalized-font-build.json) and [validation](../reports/normalized-font-validation.json) reports.
+
+`png/` retains 45 square Regular grid sheets. Individual 16×16 glyph PNGs are not tracked. Optional local bitmap exports belong under the ignored `build/` directory and are previews, not font sources.
 
 ## Historical authoring imports
 
-The optional legacy importer is for maintainers with the original reviewed JSON source tree and acceptance registry. It recreates the earlier authoring export, including its original proportional fitting. It does not include this revision's optical sizing or radical sharing. Export to a separate directory when investigating history; importing directly over maintained sources would discard later SVG edits:
+The optional JSON importer recreates the original authoring export and its earlier proportional fitting. It does not include current SVG sizing, radical sharing or later repairs. Keep historical investigations in a separate output directory:
 
 ```sh
 python tools/export_centerlines.py \
@@ -59,43 +80,4 @@ python tools/export_centerlines.py \
   --output build/historical-svg
 ```
 
-Only registry-listed, accepted-hash geometry is exported; manual JSON overrides `auto/`. The exporter uses the original adaptive flattening and per-glyph 738-unit normalization before writing exact float coordinates. It skips rewriting identical SVG bytes and writes the sorted manifest atomically. Old unlisted SVG files are retained on disk but excluded from the manifest/build, so removed coverage cannot silently survive. No reference or provenance PNGs are copied. `--codepoints U+3D000 U+3D12F` selects a small validation subset.
-
-## Validation
-
-The tests cover mixed SVG fixtures, deterministic static/variable builds, all named weights, exact default-master geometry, webfont coverage, source hash rejection, a real topology fallback case, and safe shared-component propagation:
-
-```sh
-python -m unittest discover -s tests
-```
-
-The original `tools/svg_font.py` Regular-only builder remains available for legacy comparisons. Its optional `SEAL_PRODUCTION_REGULAR` test compares the seven historical fixture glyphs with the earlier production font; it is not an exact-byte test for the compact normalized font. SVG rendering and TrueType quantization can differ at subpixel edges. The new variable tests require matching topology, exact Regular coordinates, at most one font unit of named-instance coordinate/sidebearing error, and unchanged 1024-unit advances. Arbitrary SVG interpretation remains unsupported.
-
-Subsequent exports reuse unchanged accepted source geometry through a local, ignored `.export-cache.json`. Changed sources, edited SVGs or changed export settings invalidate the relevant entry. The published manifest remains the build input.
-
-## Preview images
-
-`svg/` is the maintained glyph source. `png/` retains 45 square sheets with 16×16 grids of cells covering all 11,328 glyphs at Regular 400. Individual 16×16-pixel glyph PNGs and their export manifest are not tracked in this repository.
-
-Maintainers who need individual bitmaps locally can use the optional exporter with the original production font and its manifest. Install Pillow separately and write the results under the ignored `build/` directory:
-
-```sh
-python -m pip install Pillow
-python tools/export_png_glyphs.py \
-  --font /path/to/production-Regular.ttf \
-  --manifest /path/to/production/manifest.json \
-  --geometry-manifest svg/manifest.json \
-  --output build/png16
-```
-
-The production and SVG manifests must bind the same accepted sources and geometry. Unchanged bitmaps retain their bytes and modification times on subsequent exports. These local previews are not font sources and should not be committed.
-
-The browser weight preview uses `fonts/variable.css` to load normalized variable WOFF subsets of at most 64 glyphs as needed. The complete variable TTF and WOFF are in `Sealie-Radical-Joins-011328.zip`, distributed in four parts with the [radical and join release](https://github.com/iebb/sealie/releases/tag/radical-joins-011328). See the [font download instructions](../fonts/README.md). Current compiled outputs are bound by the [font build](../reports/normalized-font-build.json) and [validation](../reports/normalized-font-validation.json) reports.
-
-## Endpoint cleanup and join repairs
-
-Run `python tools/cleanup_caps.py --check` to check endpoint micro-knots and shared-component synchronization together. The workflow uses this check before building. After an intentional cleanup, run `python tools/cleanup_caps.py --apply`; it validates all current hashes, updates shared templates and their copies together, preserves stroke IDs and endpoints, and refreshes the source manifests.
-
-The default removes only consecutive terminal vertices within 0.25 font units of a fixed endpoint. It leaves meaningful hooks, interior vertices and path closures unchanged. Larger visible cap defects require a focused source correction and visual review. Exact full-loop closure is a separate optional migration (`--close-exact-loops`) and was not applied in the cap-cleanup release.
-
-For a visible bump at a stroke attachment, inspect the parent curve together with the attached stroke in the SVG and compiled font. The current join repairs smooth only reviewed local parent-curve windows, with fixed outer anchors and endpoints. Apply shared repairs through `components/` so every registered copy stays identical. Compare the compiled result and master compatibility after rebuilding. The [current join comparison](../previews/join-refinement.png) and [shared-template comparisons](../previews/shared-join-refinement.png) illustrate these edits; the older [cap cleanup report](../reports/cap-cleanup.json) retains the earlier endpoint-cleanup scope.
+Only accepted-hash registry geometry is exported; manual overrides take precedence over `auto/`. Unlisted files do not enter a build. Earlier sources remain available at the [initial checkpoint](https://github.com/iebb/sealie/tree/checkpoint-011328) and [radical/join source revision](https://github.com/iebb/sealie/tree/radical-joins-011328).

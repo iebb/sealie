@@ -1,6 +1,8 @@
 name: Publish font release assets
 
 on:
+  push:
+    branches: ['release-assets-*']
   workflow_dispatch:
     inputs:
       payload_ref:
@@ -21,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: release-assets-${{ inputs.release_tag }}
+  group: release-assets-${{ inputs.release_tag || github.ref_name }}
   cancel-in-progress: false
 
 jobs:
@@ -30,7 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.payload_ref }}
+          ref: ${{ inputs.payload_ref || github.sha }}
           fetch-depth: 1
           persist-credentials: false
       - uses: actions/setup-python@v5
@@ -40,7 +42,7 @@ jobs:
         env:
           RELEASE_TAG: ${{ inputs.release_tag }}
           SOURCE_COMMIT: ${{ inputs.source_commit }}
-          PAYLOAD_REF: ${{ inputs.payload_ref }}
+          PAYLOAD_REF: ${{ inputs.payload_ref || github.sha }}
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -49,12 +51,16 @@ jobs:
           def need(condition, message):
               if not condition:
                   raise ValueError(message)
-          need(re.fullmatch(r'[0-9a-f]{40}', os.environ['SOURCE_COMMIT']), 'Invalid source commit')
-          need(re.fullmatch(r'[0-9a-f]{40}', os.environ['PAYLOAD_REF']), 'Invalid payload commit')
-          need(re.fullmatch(r'v\d+\.\d+\.\d+', os.environ['RELEASE_TAG']), 'Invalid version tag')
           manifest = json.loads((root / 'asset-manifest.json').read_text())
-          need(manifest['source_commit'] == os.environ['SOURCE_COMMIT'], 'Source commit mismatch')
-          need(manifest['release_tag'] == os.environ['RELEASE_TAG'], 'Release tag mismatch')
+          source_commit = os.environ.get('SOURCE_COMMIT') or manifest['source_commit']
+          release_tag = os.environ.get('RELEASE_TAG') or manifest['release_tag']
+          need(re.fullmatch(r'[0-9a-f]{40}', source_commit), 'Invalid source commit')
+          need(re.fullmatch(r'[0-9a-f]{40}', os.environ['PAYLOAD_REF']), 'Invalid payload commit')
+          need(re.fullmatch(r'v\d+\.\d+\.\d+', release_tag), 'Invalid version tag')
+          need(manifest['source_commit'] == source_commit, 'Source commit mismatch')
+          need(manifest['release_tag'] == release_tag, 'Release tag mismatch')
+          with open(os.environ['GITHUB_ENV'], 'a') as runtime_environment:
+              runtime_environment.write('RELEASE_TAG=' + release_tag + '\n')
           names = {f'Sealie-{name}.ttf' for name in ('Light','Regular','Medium','SemiBold','Bold','Variable')}
           names |= {'Sealie-Regular.woff','Sealie-Variable.woff','font-hashes.json','LICENSE-OFL.txt','OFL-1.1.txt'}
           need({r['name'] for r in manifest['assets']} == names and len(manifest['assets']) == len(names), 'Unexpected asset set')
@@ -95,5 +101,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          RELEASE_TAG: ${{ inputs.release_tag }}
         run: gh release upload "$RELEASE_TAG" publish/* --clobber

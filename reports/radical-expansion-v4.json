@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "status": "accepted_integrated_pre_sizing_sources",
+  "scope": "Reviewed radical and fixed-position assignments before the separate optical size rebase.",
+  "baseline": {
+    "commit": "169daa0d53546b8f43f56af20e376f7ffc715e2d",
+    "svg_manifest_sha256": "df10d563c3195008209c3b3e9a82d86f22343353811896ec6d26c3e65b8139f1",
+    "components_manifest_sha256": "b9b3685fad7c213f1d8fe8af596861b78249f25667863392f4237b867a12a706"
+  },
+  "role_and_cap_stage": {
+    "svg_manifest_sha256": "9dc955d84bdf59270a8646145e95ba481dc376b154ad3e264bdb22cbc40bbf79",
+    "components_manifest_sha256": "20dd44f51a2c9a95690cee11b3a8bc852b658a9fa610bb939c9aa6d53e0a15ef",
+    "integration_receipt_sha256": "04a4d3a81efc2866e6980c9167e2ad2a4ef8029092dba00aa8e3561c08d74f0f"
+  },
+  "final_bindings": {
+    "status": "passed",
+    "canonical_svg_manifest_sha256": "26d1316f295f4e265a82597fd7b8317fd24a65908d43291f16e602619be8fe0d",
+    "canonical_components_manifest_sha256": "229b9dde49b41cafcda1376cdd27840e2f19f409d4c436fc9d52974b2bf2af31",
+    "font_build_manifest_sha256": "51f2191c8886ab46dd8acd534223b1190dc6a075d556997a36afe27652402e02",
+    "regular_font_sha256": "4203b29e721dd14bf0ea439af17f0f2f83673f4ffef19965b3fd39585f3bb4af",
+    "validation_report": "reports/normalized-font-validation.json"
+  },
+  "new_assignments": {
+    "existing_reviewed_template_extensions": 219,
+    "new_family_assignments": 63,
+    "existing_rain_template_extensions": 8,
+    "total": 290
+  },
+  "current_atlas": {
+    "templates": 180,
+    "shared_glyphs": 3763,
+    "assigned_paths": 17400
+  },
+  "new_templates": [
+    {
+      "id": "119-3DAB3-left-v4-reviewed-ordinary-left-bird-eight-path-connected-body",
+      "family": "119.3DAB3",
+      "position": "left",
+      "instances": 2
+    },
+    {
+      "id": "119-3DAB3-left-v4-reviewed-ordinary-left-bird-eight-path-three-components",
+      "family": "119.3DAB3",
+      "position": "left",
+      "instances": 3
+    },
+    {
+      "id": "119-3DAB3-right-v4-reviewed-ordinary-right-bird-seven-path",
+      "family": "119.3DAB3",
+      "position": "right",
+      "instances": 9
+    },
+    {
+      "id": "281-3E600-bottom-v4-reviewed-ordinary-bottom-cloth",
+      "family": "281.3E600",
+      "position": "bottom",
+      "instances": 4
+    },
+    {
+      "id": "281-3E600-left-v4-reviewed-ordinary-left-cloth",
+      "family": "281.3E600",
+      "position": "left",
+      "instances": 39
+    },
+    {
+      "id": "525-3FBB0-bottom-v4-reviewed-ordinary-bottom-child",
+      "family": "525.3FBB0",
+      "position": "bottom",
+      "instances": 4
+    },
+    {
+      "id": "525-3FBB0-left-v4-reviewed-ordinary-left-child",
+      "family": "525.3FBB0",
+      "position": "left",
+      "instances": 2
+    }
+  ],
+  "policy": {
+    "whole_components_and_reviewed_allographs_only": true,
+    "exact_canonical_geometry_and_position": true,
+    "stroke_ids_path_counts_and_closed_flags_preserved": true,
+    "pre_sizing_composed_remainder_scale_bounds": [
+      0.8,
+      1.25
+    ],
+    "pre_sizing_required_component_centerline_clearance": 35,
+    "later_optical_sizing_report": "optical-sizing.json"
+  },
+  "integration_check": {
+    "status": "in_sync",
+    "components": 180,
+    "instances": 3763,
+    "glyphs_checked": 3763,
+    "assigned_paths": 17400,
+    "changed_glyphs": 0,
+    "changed_paths": 0,
+    "refreshed_template_hashes": 0
+  },
+  "reviews": [
+    {
+      "document": "existing-template-final-acceptance.json",
+      "sha256": "db6726407ec23dbcd99753bc40d903607c6b8c8f88fc931295add0bf88bf7ed3"
+    },
+    {
+      "document": "new-family-final-acceptance.json",
+      "sha256": "c82f9680c33237023c39936fd30947b502912e8cd527c9cb27841bc747a4c38f"
+    },
+    {
+      "document": "rain-addendum-final-acceptance.json",
+      "sha256": "66bd1593423b4d32a275f49bbc50de6102a27fb4aeb8ef3918e12bf994fbb56a"
+    }
+  ],
+  "paired_cap_refinement_report": "cap-refinement.json",
+  "source_svg_manifest_sha256": "26d1316f295f4e265a82597fd7b8317fd24a65908d43291f16e602619be8fe0d",
+  "component_manifest_sha256": "229b9dde49b41cafcda1376cdd27840e2f19f409d4c436fc9d52974b2bf2af31"
+}

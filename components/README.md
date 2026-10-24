@@ -1,8 +1,10 @@
 # Shared Small Seal components
 
-[manifest.json](manifest.json) assigns **173 SVG templates to 3,473 glyphs**. A template includes its exact geometry and placement. The same radical, position and reviewed structural form therefore appears identically in every registered glyph.
+[manifest.json](manifest.json) assigns **180 SVG templates to 3,763 glyphs**. Each template includes the exact geometry, size and placement of one reviewed radical form. Every registered occurrence uses that same drawing and slot; different positions and structural allographs remain separate.
 
-The radical and join revision adds 309 occurrences of existing templates and 318 occurrences using 11 new templates. Ordinary forms are consolidated within the same position and layout band; connected and detached 虫 forms remain separate. Three shared templates also receive bounded parent-curve smoothing at plain stem joins, synchronized to all registered copies.
+The v1.0.0 revision adds **290 assignments**: 219 extensions of existing templates, eight additional 雨 occurrences, and 63 glyphs using seven new 子、鳥、巾 templates. Three shared parent-curve repairs propagate to 46 glyphs; a separate terminal correction affects U+3E680. See [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json).
+
+Optical sizing transforms each shared template once and preserves identical copies while fitting the remaining strokes around it. Compounds and simple whole forms use different size targets; contact-limited cases are retained explicitly. See the [normalization policy](../docs/NORMALIZATION.md) and [optical-sizing report](../reports/optical-sizing.json).
 
 Edit a template, then run from the repository root:
 
@@ -12,14 +14,16 @@ python tools/sync_components.py --check
 python tools/build_normalized_fonts.py --svg-dir svg --output build
 ```
 
-Preserve the template's `1024×1024` viewBox, font-coordinate transform, 30-unit round pen, path count and path closures. The updater preserves unrelated glyph paths and refreshes current source hashes. The zero-based indices in the manifest refer to the glyph SVG's path list; they do not describe historical stroke order.
+Preserve its `1024×1024` viewBox, font-coordinate transform, 30-unit round pen, path count and closure flags. The updater changes assigned paths, preserves unrelated paths and refreshes current source hashes. Manifest indices are zero-based positions in a glyph's path list, not historical stroke order. Unassigned and ambiguous forms retain their individual SVG geometry.
 
-The [radical expansion report](../reports/radical-expansion.json) records the new assignments; the [join refinement report](../reports/join-refinement.json) records the shared curve repairs.
-
-Different positions and structural variants have separate templates. Unassigned or ambiguous forms keep their individual SVG geometry. See [normalization policy and comparisons](../docs/NORMALIZATION.md).
+[Live font specimen](https://iebb.github.io/sealie/) · [Stable font assets](https://github.com/iebb/sealie/releases/latest)
 
 ## 中文
 
-本目录包含 **173 个共享 SVG 部件模板，登记用于 3,473 个字形**。同一部件、位置和经过审查的结构形式，具有完全相同的形状、尺寸与位置。本次新增 309 个已有模板实例，以及采用 11 个新模板的 318 个实例。常见形式仅在相同位置和布局分区内合并；虫部件的相接与分离形式仍分别维护。另有三个共享模板的普通笔画连接处经过局部主笔画曲线平滑，并同步到所有登记字形。修改模板后，运行上面的同步、检查和构建命令即可更新所有登记字形。
+[清单](manifest.json)包含 **180 个共享 SVG 模板，登记用于 3,763 个字形**。同一偏旁、位置及经过审查的结构形式，共用完全一致的形状、尺寸和位置；不同位置和结构异体分别维护。
 
-请保留模板的方框、坐标变换、30 单位圆头笔画、路径数量及闭合状态。不同位置和结构异体分别维护；没有可靠对应关系的字形仍保留独立 SVG。清单中的路径索引从零开始，并不代表历史笔顺。
+v1.0.0 新增 **290 个实例**：219 个已有模板扩展、八个雨部件实例，以及使用七个新子、鳥、巾模板的 63 个字形。三个共享模板的主笔画曲线修整同步到 46 个字形；U+3E680 另有一处笔端修正。
+
+视觉尺寸调整只对共享模板本身进行一次变换，再围绕它调整其余笔画，保持所有登记副本一致。复合字与简单独体字采用不同尺寸目标；会导致笔画新接触的调整保留为明确的例外。修改模板后，请运行上述同步、检查和构建命令。
+
+请保留方框、坐标变换、30 单位圆头笔画、路径数量和闭合状态。清单中的路径索引从零开始，并不代表历史笔顺；没有可靠对应关系的形式仍保留独立 SVG。

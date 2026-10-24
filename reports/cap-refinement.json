@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "status": "accepted_integrated_pre_sizing_sources",
+  "scope": "Bounded cap and parent-join corrections before the separately reviewed optical size rebase.",
+  "baseline": {
+    "commit": "169daa0d53546b8f43f56af20e376f7ffc715e2d",
+    "svg_manifest_sha256": "df10d563c3195008209c3b3e9a82d86f22343353811896ec6d26c3e65b8139f1",
+    "components_manifest_sha256": "b9b3685fad7c213f1d8fe8af596861b78249f25667863392f4237b867a12a706"
+  },
+  "role_and_cap_stage": {
+    "svg_manifest_sha256": "9dc955d84bdf59270a8646145e95ba481dc376b154ad3e264bdb22cbc40bbf79",
+    "components_manifest_sha256": "20dd44f51a2c9a95690cee11b3a8bc852b658a9fa610bb939c9aa6d53e0a15ef",
+    "integration_receipt_sha256": "04a4d3a81efc2866e6980c9167e2ad2a4ef8029092dba00aa8e3561c08d74f0f"
+  },
+  "final_bindings": {
+    "status": "passed",
+    "canonical_svg_manifest_sha256": "26d1316f295f4e265a82597fd7b8317fd24a65908d43291f16e602619be8fe0d",
+    "canonical_components_manifest_sha256": "229b9dde49b41cafcda1376cdd27840e2f19f409d4c436fc9d52974b2bf2af31",
+    "font_build_manifest_sha256": "51f2191c8886ab46dd8acd534223b1190dc6a075d556997a36afe27652402e02",
+    "regular_font_sha256": "4203b29e721dd14bf0ea439af17f0f2f83673f4ffef19965b3fd39585f3bb4af",
+    "validation_report": "reports/normalized-font-validation.json"
+  },
+  "shared_templates": [
+    {
+      "template_id": "480-3F859-left-whole-component-cluster-1",
+      "parent_path_index_zero_based": 2,
+      "instances_after_role_registration": 9,
+      "replacement_original_inclusive_indices": [
+        13,
+        31
+      ],
+      "pre_sizing_centerline_movement_upper_bound": 1.937319002153063,
+      "frozen_proposal_sha256": "a0099af6d0f7b495262730020aa0e67714637368b743c8fd7552666c33ad052e"
+    },
+    {
+      "template_id": "490-3F979-left-whole-component-cluster-6",
+      "parent_path_index_zero_based": 2,
+      "instances_after_role_registration": 8,
+      "replacement_original_inclusive_indices": [
+        2,
+        22
+      ],
+      "pre_sizing_centerline_movement_upper_bound": 2.230878636271745,
+      "frozen_proposal_sha256": "fb04a916d4e0b6225024a3b6f236671bc77473d4ff2bd856013132aa1dc6ae33"
+    },
+    {
+      "template_id": "135-3DBC8-left-whole-component-cluster-2",
+      "parent_path_index_zero_based": 2,
+      "instances_after_role_registration": 29,
+      "replacement_original_inclusive_indices": [
+        13,
+        30
+      ],
+      "pre_sizing_centerline_movement_upper_bound": 4.281334341185616,
+      "frozen_proposal_sha256": "7434138b4005cff149b703a48eb90d25cc08643321af7faf262dec865e4f09d9"
+    }
+  ],
+  "shared_copies_refined": 46,
+  "standalone_terminal_repairs": [
+    {
+      "codepoint": "U+3E680",
+      "path_index_zero_based": 7,
+      "removed_original_vertex_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unchanged_shared_endpoint_and_original_index8_onward": true,
+      "frozen_proposal_sha256": "5db90413363d5452902bf768cb12eed03bbc5eeb8695b2858c372c73b88ba981"
+    }
+  ],
+  "preservation": {
+    "cap_stage_endpoints_and_outside_anchors_exact": true,
+    "unrelated_paths_and_closed_flags_exact": true,
+    "broad_arches_and_authentic_hooks_retained": true,
+    "cubic_fit_flattening_tolerance_font_units": 0.05
+  },
+  "compiled_local_proofs": {
+    "representative_whole_glyphs": 4,
+    "canonical_templates": 3,
+    "weights": [
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "five_master_topology_compatible": true,
+    "serialized_sample_ttf_roundtrip_checked": true
+  },
+  "cap_stage_contact_audit": {
+    "glyphs": 47,
+    "complete_regular30_path_pairs": 3310,
+    "new_contacts": 0,
+    "half_unit_margin_losses": 0,
+    "minimum_component_centerline_clearance": 42.34784237749311,
+    "report_sha256": "33bc4f96d64cc32d7d6a59f30edbf7957b8b6eedb9f74a323980ec84a8005202"
+  },
+  "role_and_cap_overlap_audit": {
+    "glyphs": 5,
+    "complete_regular30_path_pairs": 344,
+    "new_contacts": 0,
+    "half_unit_margin_losses": 0,
+    "report_sha256": "ca5f754e98e8713c7cce9bd2819d40812cb75dd565f5b09cf5f86fd53d1e304a"
+  },
+  "reviews": [
+    {
+      "document": "two-shared-parent-c1-acceptance.json",
+      "sha256": "d54c4ba40ceaa54ece4dde8899f190bb5e7c7b7c85364aab626dcc84a58c68db"
+    },
+    {
+      "document": "moon-and-terminal-final-acceptance.json",
+      "sha256": "e0e9a0ea414a99970ebe800228d98307ff88914543ea92af5f21353317d89c99"
+    }
+  ],
+  "later_optical_sizing_report": "optical-sizing.json",
+  "source_svg_manifest_sha256": "26d1316f295f4e265a82597fd7b8317fd24a65908d43291f16e602619be8fe0d",
+  "component_manifest_sha256": "229b9dde49b41cafcda1376cdd27840e2f19f409d4c436fc9d52974b2bf2af31"
+}
