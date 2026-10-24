@@ -10,3 +10,6 @@ __pycache__/
 
 # Optional per-glyph bitmap previews; SVGs are the maintained source
 /png16/
+
+# Local GitHub Pages output
+/_site/

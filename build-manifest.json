@@ -12,9 +12,19 @@
       "sha256": "748c445e9ca45f704388bf9bb48a52dcd706215ab89707002fe70b81becf428e"
     },
     {
+      "name": ".github/workflows/pages.yml",
+      "bytes": 1421,
+      "sha256": "0bce6e23d9c4d3b4c7c3c96c76f26972428fa8ae1ef891d4dd7de4c137f796ca"
+    },
+    {
+      "name": ".github/workflows/publish-release.yml",
+      "bytes": 4718,
+      "sha256": "0236fb9e48fc1bf2268751bebba424758d9c121cccace4798c088ff75554feba"
+    },
+    {
       "name": ".gitignore",
-      "bytes": 191,
-      "sha256": "05ae613974c572662118c0625e25aed90da9462d41757541fc7e795c3089ee62"
+      "bytes": 228,
+      "sha256": "7a5ab6217dd6e6777c11ad0e3892a7410f20670e1e5fda91d00988da9b6ea6ec"
     },
     {
       "name": "LICENSE-OFL.txt",
@@ -28,13 +38,13 @@
     },
     {
       "name": "README.md",
-      "bytes": 9571,
-      "sha256": "252a621cfb4a563f68e3f10126ef3e7e593a706c20cbeddc4f746feafe9b499e"
+      "bytes": 4381,
+      "sha256": "4a912097f220a8ba4dc20e21a579742ad52973c532ffda21ea125a88ec025d70"
     },
     {
       "name": "README.zh-CN.md",
-      "bytes": 9178,
-      "sha256": "6e74b6744adc7fb788d1e6971337f15ec32d5edfd0cbbb730d3c03b8a246c36e"
+      "bytes": 4011,
+      "sha256": "a4bd8c8caafe640e7f540a9d3e09f71f2b3cea577fd026de3263c602dfb36559"
     },
     {
       "name": "components/README.md",
@@ -52,14 +62,19 @@
       "sha256": "68e1431bb0a8c97415f1aa48dfb0d9c70678eec829786472e008b7c053514e2d"
     },
     {
+      "name": "docs/MAKING.md",
+      "bytes": 2805,
+      "sha256": "3422797c5dd1985e5dca28417dcba5119ed39930dd672ab491ce9dbacc50a71c"
+    },
+    {
       "name": "docs/NORMALIZATION.md",
       "bytes": 9123,
       "sha256": "8cc9e9111fedca33f52be484fdc258b6385d6fc379b5a34662c2c35c5cc4c584"
     },
     {
       "name": "fonts/README.md",
-      "bytes": 2960,
-      "sha256": "2994882673305cde238b4e1667142edcd07df183c340eaf5c6c8565973f8cb4f"
+      "bytes": 3278,
+      "sha256": "2ae5dd00f9246bf84ddaa3ce4e9e4870944c9a0d53cf9175daec13c8a55b4e10"
     },
     {
       "name": "fonts/Sealie-Radical-Joins-011328.zip.001",
@@ -982,6 +997,11 @@
       "sha256": "c2b63a6d39022a3cef3ace386bd6b8347fb62278c343eb932c64d37aa8e21f3a"
     },
     {
+      "name": "index.html",
+      "bytes": 10751,
+      "sha256": "b9a21c0b1b90cd83cceaaadc92e969fd7d655d450276276e16cd666301969ff8"
+    },
+    {
       "name": "marketing/provenance.json",
       "bytes": 3979,
       "sha256": "932f22e6e3f2ffba9fb24adc0cdce6cc3c3c267ae3dc6ca800981b376b0ebd61"
@@ -1432,6 +1452,26 @@
       "sha256": "64ed23fc134207d784d85ed08500b4aac7f65cf2cf4fb4e6649c2f48ff17d431"
     },
     {
+      "name": "site/build.py",
+      "bytes": 4498,
+      "sha256": "52b82e685bef8556c25294d38aba7de23225b5f57cc6f600f0644306929dde3f"
+    },
+    {
+      "name": "site/character-map.json",
+      "bytes": 173050,
+      "sha256": "91bf820655b610d864e49e3befeeff4921c2c256a2941e979d1869ff9eca097e"
+    },
+    {
+      "name": "site/showcase.js",
+      "bytes": 12206,
+      "sha256": "81fd88ed122746e7b1798a6cfe9e80260dbe8c6cd85809534becc63c26bde4ea"
+    },
+    {
+      "name": "site/styles.css",
+      "bytes": 13924,
+      "sha256": "3ed707d44a56e1d0a723199f3a2e2ed001718e1e76397cbe66ab4e5543cb20b9"
+    },
+    {
       "name": "svg/manifest.json",
       "bytes": 3788363,
       "sha256": "df10d563c3195008209c3b3e9a82d86f22343353811896ec6d26c3e65b8139f1"
@@ -1667,5 +1707,19 @@
     "shared_glyphs": 138,
     "current_endpoint_micro_knot_paths": 0,
     "report": "reports/join-refinement.json"
+  },
+  "showcase": {
+    "url": "https://iebb.github.io/sealie/",
+    "source": "index.html",
+    "workflow": ".github/workflows/pages.yml",
+    "builder": "site/build.py",
+    "variable_weights": [
+      300,
+      400,
+      700
+    ],
+    "character_map": "site/character-map.json",
+    "character_count": 11328,
+    "font_build_required_for_site_changes": false
   }
 }

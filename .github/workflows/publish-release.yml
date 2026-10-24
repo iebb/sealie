@@ -1,0 +1,99 @@
+name: Publish font release assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload_ref:
+        description: Commit SHA of the temporary verified font payload
+        required: true
+        type: string
+      source_commit:
+        description: Font source commit recorded in the payload
+        required: true
+        type: string
+      release_tag:
+        description: Existing draft release to receive the font files
+        required: true
+        default: v1.0.0
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-assets-${{ inputs.release_tag }}
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.payload_ref }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify and assemble exact font assets
+        env:
+          RELEASE_TAG: ${{ inputs.release_tag }}
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+          PAYLOAD_REF: ${{ inputs.payload_ref }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, os, re
+          root = Path.cwd().resolve()
+          def need(condition, message):
+              if not condition:
+                  raise ValueError(message)
+          need(re.fullmatch(r'[0-9a-f]{40}', os.environ['SOURCE_COMMIT']), 'Invalid source commit')
+          need(re.fullmatch(r'[0-9a-f]{40}', os.environ['PAYLOAD_REF']), 'Invalid payload commit')
+          need(re.fullmatch(r'v\d+\.\d+\.\d+', os.environ['RELEASE_TAG']), 'Invalid version tag')
+          manifest = json.loads((root / 'asset-manifest.json').read_text())
+          need(manifest['source_commit'] == os.environ['SOURCE_COMMIT'], 'Source commit mismatch')
+          need(manifest['release_tag'] == os.environ['RELEASE_TAG'], 'Release tag mismatch')
+          names = {f'Sealie-{name}.ttf' for name in ('Light','Regular','Medium','SemiBold','Bold','Variable')}
+          names |= {'Sealie-Regular.woff','Sealie-Variable.woff','font-hashes.json','LICENSE-OFL.txt','OFL-1.1.txt'}
+          need({r['name'] for r in manifest['assets']} == names and len(manifest['assets']) == len(names), 'Unexpected asset set')
+          output = root / 'publish'
+          output.mkdir()
+          for asset in manifest['assets']:
+              digest = hashlib.sha256()
+              size = 0
+              with (output / asset['name']).open('wb') as target:
+                  for part in asset['parts']:
+                      name = part['file']
+                      need(re.fullmatch(r'parts/[A-Za-z0-9_.-]+', name), 'Invalid payload part')
+                      source = root / name
+                      need(source.resolve().is_relative_to(root) and source.is_file(), 'Payload part escapes checkout')
+                      part_digest = hashlib.sha256()
+                      part_size = 0
+                      with source.open('rb') as stream:
+                          for block in iter(lambda: stream.read(1024 * 1024), b''):
+                              target.write(block)
+                              digest.update(block)
+                              part_digest.update(block)
+                              size += len(block)
+                              part_size += len(block)
+                      need(part_size == part['bytes'] and part_digest.hexdigest() == part['sha256'], 'Corrupt payload part')
+              need(size == asset['bytes'] and digest.hexdigest() == asset['sha256'], 'Corrupt font asset')
+              if asset['name'].endswith(('.ttf', '.woff')):
+                  with (output / asset['name']).open('rb') as stream:
+                      need(stream.read(4) == (b'wOFF' if asset['name'].endswith('.woff') else b'\x00\x01\x00\x00'), 'Invalid font format')
+              print(f"Verified {asset['name']}: {size} bytes")
+          hashes = json.loads((output / 'font-hashes.json').read_text())
+          need(hashes['source_svg_manifest_sha256'] == manifest['source_svg_manifest_sha256'], 'SVG identity mismatch')
+          bound = {r['name']: r for r in manifest['assets']}
+          for row in hashes['files']:
+              actual = bound[row['name']]
+              need(row['bytes'] == actual['bytes'] and row['sha256'] == actual['sha256'], 'Font hash identity mismatch')
+          PY
+      - name: Attach individual fonts, hashes and licenses to the draft release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: gh release upload "$RELEASE_TAG" publish/* --clobber

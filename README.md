@@ -2,96 +2,67 @@
 
 English · [简体中文](README.zh-CN.md)
 
-![Sealie — Dao De Jing marketing artwork](marketing/sealie-marketing.png)
+**A rounded Gothic typeface for Small Seal script.**
 
-Sealie is an AI-assisted Small Seal Gothic font developed by **ieb** with **OpenAI Codex (GPT-6)** and parallel subagents. It covers **all 11,328 Unicode 18 Small Seal codepoints, U+3D000–U+3FC3F**, in a rounded monoline style. The normalized font family is named **Sealie**.
+![Sealie — Small Seal typography inspired by the Dao De Jing](marketing/sealie-marketing.png)
 
-The variable font spans **300–700**, with **400 as the default**. This normalized revision is a prerelease with geometric checks and representative visual review. The earlier Regular 400 reference reviews are preserved as source history; they do not establish full optical approval for the revised outlines. See the [coverage report](reports/coverage.json).
+Sealie brings the flowing structures of Small Seal script into a clean, monoline typeface. Rounded stroke ends, even weight and generous spaces give its characters a calm, geometric rhythm. It is designed for display typography: titles, posters, book covers, seal-inspired graphics and character studies.
 
-## Size and radical normalization
+The family covers **11,328 Small Seal characters** and includes a **300–700 variable font** alongside five static weights. All characters have a fixed advance, making the font suitable for horizontal text, vertical arrangements and square compositions.
 
-The original drawings shared a maximum height but varied considerably in width and visual balance. The first normalization adjusted compound widths and optical centering while preserving simple strokes, natural narrow forms and standalone radicals: **10,511 glyph sources changed; 817 remained identical.** A later pass also balanced 26 broad compounds that missed the original height cutoff and cleaned confirmed endpoint artifacts. This revision extends shared radicals and smooths visible waves at stroke joins.
+**[Try the variable font](https://iebb.github.io/sealie/)** · **[Download fonts](https://github.com/iebb/sealie/releases/latest)** · [Installation guide](fonts/README.md)
 
-**3,473 glyphs now use 173 shared component templates.** This revision adds 627 registered glyphs: 309 extensions of existing templates and 318 instances using 11 new templates. Newly shared forms include left-side 人 and 石, right-side 刀, two 虫 contact forms, and 日 and 口 in reviewed positions. The same registered radical, form and position uses exactly the same shape, size and placement. Distinct structural forms and positions stay separate. Other strokes are reflowed within bounded scale limits; uncertain matches and proposals that introduce stroke contacts retain their earlier geometry. Exact sharing covers registered occurrences, with individual SVGs retained elsewhere. See the [radical expansion report](reports/radical-expansion.json).
+## The family
 
-The shared SVGs live in [components/](components/). Editing one template and running `python tools/sync_components.py --apply` updates all its registered occurrences. See the [normalization details and comparisons](docs/NORMALIZATION.md).
+| Weight | Name |
+| --- | --- |
+| 300 | Light |
+| 400 | Regular |
+| 500 | Medium |
+| 600 | SemiBold |
+| 700 | Bold |
 
-All glyphs use the same pen width at each weight. Residual bumps in U+3D7B7 came from waves in the parent curves at the bowl-to-leg joins. This revision smooths those joins and local parent-curve waves in three shared templates, propagating each template correction to every registered copy. The repairs preserve endpoints, surrounding curves and reviewed hooks; the [join refinement report](reports/join-refinement.json) records their scope. The earlier [cap cleanup report](reports/cap-cleanup.json) remains a historical record of endpoint cleanup. The [additional size-fit report](reports/supplementary-size-fit.json) records the earlier 26 compound fits and two proposals held because they would join strokes at Regular weight.
+The variable font moves continuously between Light and Bold. Each weight follows the same stroke centerlines, retaining the character structure as the strokes become heavier.
 
-![Glyph sources before and after normalization](previews/normalization-before-after.png)
+![Sealie character specimen](previews/glyphs.png)
 
-![U+3D7B7 join refinement in the source and compiled font](previews/join-refinement.png)
+Explore the [interactive specimen](https://iebb.github.io/sealie/) to adjust weight, enter text and look up characters. The [complete character sheets](png/) show every supported codepoint in 16×16 grids.
 
-![Shared template joins before and after refinement](previews/shared-join-refinement.png)
+## Character coverage
 
-## Models and creation process
+Sealie covers the **Unicode 18 Small Seal block, U+3D000–U+3FC3F**. The family name in installed fonts is **Sealie**.
 
-Codex coordinated the work, wrote generation instructions and build tools, made vector repairs, and ran reviews. Parallel agents worked in **64-codepoint assignments**, with independent review before geometry was accepted. OpenAI image generation (`image_gen.imagegen`) produced the native character drawings. Python tracing and fontTools then turned the reviewed drawings into font geometry.
+Small Seal characters use their own Unicode codepoints. Typing an ordinary Chinese character does not automatically select its Small Seal form in a text editor. Use the showcase's character lookup to find and copy supported characters, or insert Small Seal codepoints directly. The font does not include a general Latin alphabet or the ordinary CJK repertoire.
 
-The process was:
+## Download and use
 
-1. **Read the references.** Character structures were compared with the THX, CCZ, QJZ and DYC specimens available in the official Unicode charts. When specimens differed, the drawing followed a coherent attested form.
-2. **Create and review each drawing.** Generated drawings were checked for the correct branches, detached strokes, counters and proportions. Failed drawings and later vector corrections were recorded separately.
-3. **Construct centerlines.** Automatic tracking followed the skeleton of the generated drawing and fitted editable centerlines. Reviewed vector overrides corrected structural or tracing defects. Reference-font outlines were not extracted to construct the font.
-4. **Apply one shared style.** Drawings were initially proportionally fitted within a 1024-unit em, with a 1024-unit advance and a maximum centerline extent of 738 units. The current revision adds bounded optical sizing and shared radical slots. Regular uses a 30-unit pen with round caps and joins. The variable weights share the same centerlines and change the pen width.
-5. **Review the actual font.** Independent agent reviews compared the compiled Regular glyphs with the references. Coverage, bounds, spacing and serialized glyph data were checked, and accepted geometry was bound to hashes. Unchanged work reused prior checks when its recorded geometry and font data matched.
+The [font package](https://github.com/iebb/sealie/releases/latest) contains the variable TTF, five static TTFs, full Regular and variable WOFF files, and licenses. Each font file is attached directly to the release. See the [download and installation instructions](fonts/README.md).
 
-These are AI-assisted designs with recorded review, rather than specialist paleographic certification. The source path order does not establish historical writing order. Building or using the published font requires no AI service or model key.
+Install `Sealie-Variable.ttf` in applications that support variable fonts, or choose a static TTF for a specific weight. Regular is 400.
 
-## SVG source and builds
+For websites, use [fonts/variable.css](fonts/variable.css). It loads small character subsets as needed and defines the CSS family name `Seal`:
 
-**[svg/](svg/) is the maintained glyph source in this repository**, alongside the reusable [component templates](components/). It contains one editable SVG per codepoint and a [manifest](svg/manifest.json) binding the filenames, codepoints and hashes. The SVGs contain exact centerlines in the `seal-centerline-1` format. Private drawing drafts and reference images are not needed to build the static or variable fonts.
-
-With Python 3.11 or newer, run from the repository root:
-
-```sh
-python -m pip install -r requirements.txt
-python tools/sync_components.py --check
-python tools/build_normalized_fonts.py --svg-dir svg --output build
+```html
+<link rel="stylesheet" href="fonts/variable.css">
+<p style="font-family: 'Seal', sans-serif; font-weight: 450;">
+  &#x3D000; &#x3D001; &#x3D002;
+</p>
 ```
 
-This creates five named-weight TTFs, `Variable.ttf`, Regular and variable WOFFs, 64-glyph variable webfont subsets and a build manifest. Add `--woff2` for a Regular WOFF2. The [Build font from SVG workflow](https://github.com/iebb/sealie/actions/workflows/build-font.yml) runs the same builder and uploads the fonts. It can run manually or after source/tooling changes.
+Keep the `fonts/variable/` directory beside the stylesheet when hosting these files.
 
-See the [build and editing guide](docs/BUILD-FROM-SVG.md) for the SVG constraints, manifest updates and validation commands.
+## Sources and making
 
-## Downloads and previews
+Sealie is developed by **ieb**, with **OpenAI Codex (GPT-6)** and parallel agents assisting with drawing, vector work, tooling and review. OpenAI image generation produced the initial drawings; reviewed centerlines and reusable radical components form the editable font source. See [how the font is made](docs/MAKING.md) for the models, reference process and artwork credits.
 
-- [Radical and join refinement prerelease and ZIP download](https://github.com/iebb/sealie/releases/tag/radical-joins-011328)
-- [Regular WOFF](fonts/Sealie-Regular.woff) · [webfont files](fonts/)
-- [Variable webfont CSS](fonts/variable.css) · [177 webfont subsets, at most 64 glyphs each](fonts/variable/)
-- [Weight preview](previews/weight-slider.html)
-- [45 square PNG grid sheets covering the complete repertoire](png/)
-- [Editable SVG sources](svg/)
+The [glyph SVGs](svg/) and [shared components](components/) are maintained sources. Building the published font requires no AI service or model key. See the [SVG build guide](docs/BUILD-FROM-SVG.md) and the [GitHub Actions build workflow](https://github.com/iebb/sealie/actions/workflows/build-font.yml).
 
-Download all four ZIP parts linked from the release (`.001` through `.004`) into one folder. 7-Zip can open the first part when all are present. On macOS/Linux, join and extract them:
+Sealie is an experimental font under active refinement. Design methods, review scope and source measurements are documented in [the design notes](docs/NORMALIZATION.md) and [reports](reports/README.md).
 
-```sh
-cat Sealie-Radical-Joins-011328.zip.* > Sealie-Radical-Joins-011328.zip
-unzip Sealie-Radical-Joins-011328.zip
-```
+## Contribute
 
-The bundle contains the variable TTF, five named-weight TTFs, webfonts and licenses. The webfont CSS loads small subsets as needed. Small Seal uses its own Unicode codepoints; typing an ordinary CJK character does not automatically select its seal form. The [earlier checkpoint](https://github.com/iebb/sealie/releases/tag/checkpoint-011328) remains available for comparisons.
+Glyph corrections, references, spacing improvements and code contributions are welcome. Include the codepoint and a clear comparison when proposing a drawing change. Shared radicals are edited in `components/`; complete glyphs are in `svg/`. The [editing guide](docs/BUILD-FROM-SVG.md) explains how to synchronize sources and rebuild the font.
 
-![Sample of the completed Small Seal repertoire](previews/glyphs.png)
+## License
 
-The grid sheets use 16×16 cells per sheet, with 128-pixel cells. Individual 16×16-pixel glyph PNGs are no longer tracked; edit the SVG sources instead.
-
-## Contributions
-
-**Contributions and commits are welcome**, including glyph corrections, spacing improvements, documentation and build-tool fixes. For a glyph correction, identify the codepoint, explain the structural issue and include the reference or comparison used to assess it.
-
-For a shared radical, edit its SVG in `components/` and run `python tools/sync_components.py --apply`. For other strokes, edit `svg/Uxxxxx.svg`, preserving its codepoint, advance, group transform and round-stroke attributes. After an intentional edit, refresh the manifest, check shared components and build:
-
-```sh
-python tools/svg_font.py --svg-dir svg --refresh-manifest
-python tools/sync_components.py --check
-python tools/build_normalized_fonts.py --svg-dir svg --output build
-```
-
-Review the rendered glyph before submitting a focused commit or pull request. Refreshing a hash records new source bytes; it does not give the change visual approval. Keep glyph sources as SVGs and generated individual bitmaps out of commits.
-
-## Artwork and license
-
-The marketing artwork uses “道可道，非常道” from the first chapter of the *Dao De Jing*, with project glyphs from the earlier checkpoint at weights 300, 400, 500, 600 and 700 in shades of gray. Image generation added the paper and ink finish to a rendered font specimen. The [exact-font SVG reference](marketing/sealie-dao-reference.svg) and [artwork provenance](marketing/provenance.json) are included.
-
-Fonts, SVG sources and font software are distributed under the **SIL Open Font License 1.1**. See [LICENSE-OFL.txt](LICENSE-OFL.txt) and [OFL-1.1.txt](OFL-1.1.txt).
+Fonts, SVG sources and font software are released under the **SIL Open Font License 1.1**, allowing personal and commercial use, redistribution and modification under its terms. See [LICENSE-OFL.txt](LICENSE-OFL.txt) and [OFL-1.1.txt](OFL-1.1.txt).
