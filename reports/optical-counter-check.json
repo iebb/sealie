@@ -1,0 +1,5584 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "method": "On every valid simple closed centerline source ring whose v1 Polygon.buffer(-15,quad_segs=16) has positive area, repeat the interior buffer on final6decimal source coordinates. Negative15 models the inner edge of a constant Regular30 round pen. No fullfont build or raster pass.",
+  "scope": "Explicitly closed paths only. Excludes invalid/nonsimple centerline rings, loops formed by open paths or multiple paths, same-path open self-overlaps, and every other weight. Positive remaining area checks counter survival, not a guarantee of acceptable raster legibility.",
+  "baseline_source_svg_manifest_sha256": "26d1316f295f4e265a82597fd7b8317fd24a65908d43291f16e602619be8fe0d",
+  "baseline_counts": {
+    "source_paths": 140042,
+    "closed_source_paths": 75,
+    "valid_simple_closed_rings": 75,
+    "baseline_positive_regular_counters": 73,
+    "baseline_closed_rings_without_positive_regular_counter": 2
+  },
+  "positive_baseline_counters_checked": 73,
+  "positive_baseline_counter_glyphs_checked": 54,
+  "counters_disappeared": 0,
+  "material_area_reductions_below_half": 0,
+  "counter_area_ratio_percentiles": {
+    "0": 0.5611482249129874,
+    "0.01": 0.5611482249129874,
+    "0.05": 0.5960879685513338,
+    "0.5": 0.759726829914346,
+    "0.95": 0.9918245123530394,
+    "0.99": 0.994873874029402,
+    "1": 1.4838302829623709
+  },
+  "final_counter_area_minimum": 124.56010022092663,
+  "worst_area_ratio_cases": [
+    {
+      "codepoint": "U+3EBA5",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "07a7bca48c74fa1991753c532dea700e1174cb8328e51741d67c53669ca0b45e",
+      "baseline_centerline_area": 1774.8630678252964,
+      "baseline_centerline_bounds": [
+        366.04102855710437,
+        564.4696731000853,
+        418.989873145073,
+        607.2058576794828
+      ],
+      "baseline_counter_area": 221.97361533174433,
+      "baseline_counter_bounds": [
+        381.070355473569,
+        579.482125915329,
+        403.9605462286084,
+        592.1934048642391
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "527a4f5b110df86eb4197eb0d863397947aaffe892f782b8aadad5ca0955284d",
+      "final_centerline_area": 1425.7096855260331,
+      "final_centerline_bounds": [
+        394.754269,
+        564.469673,
+        437.286947,
+        607.205858
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 124.56010022092663,
+      "final_counter_bounds": [
+        409.7731990378931,
+        579.4889675882413,
+        422.26801730671,
+        592.1865634117587
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5611482249129874
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4084.759925051465,
+      "baseline_centerline_bounds": [
+        636.7041529707421,
+        605.7126365840427,
+        734.7925005307719,
+        689.0
+      ],
+      "baseline_counter_area": 882.4697832379552,
+      "baseline_counter_bounds": [
+        663.8845218955406,
+        635.2879858789036,
+        709.4760419067428,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3281.2006129788215,
+      "final_centerline_bounds": [
+        612.172188,
+        605.712637,
+        690.964468,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 521.1979752956735,
+      "final_counter_bounds": [
+        636.5759292321209,
+        640.8056568026416,
+        667.9787482122626,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5906128291252031
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4062.837583795462,
+      "baseline_centerline_bounds": [
+        291.1372659145012,
+        606.494926878411,
+        389.6242420500897,
+        689.0
+      ],
+      "baseline_counter_area": 871.2316404095494,
+      "baseline_counter_bounds": [
+        318.99598304798343,
+        635.7938969697449,
+        364.60291865822495,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3263.5908400783514,
+      "final_centerline_bounds": [
+        334.585673,
+        606.494927,
+        413.698162,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 515.1611138634431,
+      "final_counter_bounds": [
+        359.5053444542857,
+        641.2203481312423,
+        390.93710681259455,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5913021175645959
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4131.833369723474,
+      "baseline_centerline_bounds": [
+        462.4189635416118,
+        606.1630151999909,
+        562.1771423236821,
+        689.0
+      ],
+      "baseline_counter_area": 904.4503896606366,
+      "baseline_counter_bounds": [
+        489.29186701553573,
+        635.2434368079347,
+        535.9652722490424,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3319.013697549359,
+      "final_centerline_bounds": [
+        472.17261,
+        606.163015,
+        552.306229,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 539.1319954282711,
+      "final_counter_bounds": [
+        496.34249647544476,
+        640.6137751174095,
+        528.6391695688682,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5960879685513338
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 6875.282708053088,
+      "baseline_centerline_bounds": [
+        239.89600870150315,
+        -49.0,
+        363.64650739052166,
+        62.115232356848566
+      ],
+      "baseline_counter_area": 2370.2067880533637,
+      "baseline_counter_bounds": [
+        263.91108784958857,
+        -18.125892019850575,
+        336.5709878956976,
+        47.115232356848566
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 5522.768043047007,
+      "final_centerline_bounds": [
+        293.424663,
+        -49.0,
+        392.830801,
+        62.115232
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1575.1282557422717,
+      "final_counter_bounds": [
+        315.4192464425253,
+        -12.225535202780021,
+        368.50680597338624,
+        47.115232
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6645530945575913
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 7039.183269095641,
+      "baseline_centerline_bounds": [
+        658.9514470417073,
+        -49.0,
+        785.1210191714918,
+        62.58289832123356
+      ],
+      "baseline_counter_area": 2469.7464332169243,
+      "baseline_counter_bounds": [
+        685.4432664504125,
+        -18.511200442385427,
+        760.1775159346154,
+        47.58289832123356
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 5654.425864296273,
+      "final_centerline_bounds": [
+        630.042966,
+        -49.0,
+        731.392294,
+        62.582898
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1651.173161616477,
+      "final_counter_bounds": [
+        653.9229858993112,
+        -12.714655270765133,
+        708.690487134458,
+        47.582898
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6685597919725592
+    },
+    {
+      "codepoint": "U+3EB85",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "87bed444642911de947a5b4502e9e0fd7b6923e74f6ada6610c6a617c00b61b9",
+      "baseline_centerline_area": 8220.21612306148,
+      "baseline_centerline_bounds": [
+        418.8814445161594,
+        531.6149908712873,
+        602.9355141707202,
+        583.3210092276245
+      ],
+      "baseline_counter_area": 2745.374259142361,
+      "baseline_counter_bounds": [
+        433.9072213404751,
+        546.6154960156366,
+        587.9089357173881,
+        568.3209999210333
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "b7e024614c77cabff9abb3c1436525eaf5b55e270abbe99c47a09a38575acbf3",
+      "final_centerline_area": 5832.095049254657,
+      "final_centerline_bounds": [
+        445.934065,
+        531.614991,
+        576.517107,
+        583.321009
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1860.774031321254,
+      "final_counter_bounds": [
+        460.9470456090668,
+        546.6159945093716,
+        561.5037224583716,
+        568.3209905129825
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.677785196362462
+    },
+    {
+      "codepoint": "U+3FAD7",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "2cf8ca8e883e55f704ea9ea3fcaec70a8c53fbc77b88873f3c5aa71ec00d3282",
+      "baseline_centerline_area": 7346.594761719786,
+      "baseline_centerline_bounds": [
+        431.40154525901767,
+        477.65770424699963,
+        513.183771145224,
+        591.5281412744458
+      ],
+      "baseline_counter_area": 3381.9811342535304,
+      "baseline_counter_bounds": [
+        446.4021864241741,
+        493.80211706036073,
+        498.18141788104435,
+        573.2588135354675
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1b615f823276bd95a781c2fc54cb2e077264abc6814bb7b00093c03462d17b02",
+      "final_centerline_area": 5901.3629926659005,
+      "final_centerline_bounds": [
+        447.256979,
+        477.657704,
+        512.950898,
+        591.528141
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2303.369809239989,
+      "final_counter_bounds": [
+        462.257392867968,
+        494.4116224605799,
+        497.94937927079377,
+        572.6216032646316
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6810711585321685
+    },
+    {
+      "codepoint": "U+3FAD7",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "2cf8ca8e883e55f704ea9ea3fcaec70a8c53fbc77b88873f3c5aa71ec00d3282",
+      "baseline_centerline_area": 8286.723997262328,
+      "baseline_centerline_bounds": [
+        726.2471687409686,
+        297.84670328026516,
+        813.3906941115225,
+        418.67317884805044
+      ],
+      "baseline_counter_area": 4028.5227402668797,
+      "baseline_counter_bounds": [
+        741.248305353803,
+        314.9660403881785,
+        798.3862609930953,
+        401.6657092571523
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1b615f823276bd95a781c2fc54cb2e077264abc6814bb7b00093c03462d17b02",
+      "final_centerline_area": 6656.5487790505895,
+      "final_centerline_bounds": [
+        684.100185,
+        297.846703,
+        754.100721,
+        418.673179
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2784.635163078417,
+      "final_counter_bounds": [
+        699.1009185276592,
+        315.55305713198936,
+        739.0978600206967,
+        401.28751710970505
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6912298484118627
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 11922.509845388673,
+      "baseline_centerline_bounds": [
+        430.20352884312786,
+        -49.0,
+        596.6300406398175,
+        94.27656954023624
+      ],
+      "baseline_counter_area": 5624.6118035972095,
+      "baseline_counter_bounds": [
+        456.27512449355334,
+        -19.133062232617355,
+        570.5853134917153,
+        79.27656954023624
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 9577.098093817945,
+      "final_centerline_bounds": [
+        446.294638,
+        -49.0,
+        579.981508,
+        94.27657
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 4017.5201619140494,
+      "final_counter_bounds": [
+        469.8549804183192,
+        -13.52113606218155,
+        556.4416070149293,
+        79.27657
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7142751006113262
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 9110.297406617186,
+      "baseline_centerline_bounds": [
+        383.53291727553534,
+        151.65027728122334,
+        506.0119384525786,
+        245.22009297475992
+      ],
+      "baseline_counter_area": 4653.692232764358,
+      "baseline_counter_bounds": [
+        398.5492058500945,
+        166.66122554821894,
+        490.86441908915174,
+        229.65015347233805
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 7161.5905793811025,
+      "final_centerline_bounds": [
+        411.012227,
+        151.650277,
+        507.292794,
+        245.220093
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3352.981506794808,
+      "final_counter_bounds": [
+        426.0222974991355,
+        166.6679893847025,
+        492.22952239639693,
+        229.45892317087436
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7204991948518027
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 13901.445544547827,
+      "baseline_centerline_bounds": [
+        424.8715853447951,
+        235.40032743327208,
+        600.208401396528,
+        393.96879990338044
+      ],
+      "baseline_counter_area": 7004.744404371614,
+      "baseline_counter_bounds": [
+        449.67689906467643,
+        266.4090789862051,
+        574.1396171186045,
+        378.96879990338044
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 11166.735010835568,
+      "final_centerline_bounds": [
+        442.011601,
+        235.400327,
+        582.855929,
+        393.9688
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 5047.211224728208,
+      "final_counter_bounds": [
+        464.60818753233565,
+        272.3633325206282,
+        559.2977253968893,
+        378.9688
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.720541811858014
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 9293.781888499985,
+      "baseline_centerline_bounds": [
+        207.0,
+        151.26462351152054,
+        329.97005120761173,
+        246.171577408344
+      ],
+      "baseline_counter_area": 4781.973005057303,
+      "baseline_counter_bounds": [
+        222.05171370436435,
+        166.3363675229328,
+        314.968104509769,
+        230.85895977522546
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 7305.827437470075,
+      "final_centerline_bounds": [
+        272.239976,
+        151.264624,
+        368.906541,
+        246.171577
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3445.65602204969,
+      "final_counter_bounds": [
+        287.2719547241373,
+        166.38045137282904,
+        353.90533653630155,
+        230.5557470449852
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7205511236482607
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 8818.362229417813,
+      "baseline_centerline_bounds": [
+        208.92301997711195,
+        17.645165275422016,
+        330.37074210429597,
+        108.01578693140054
+      ],
+      "baseline_counter_area": 4425.003122102381,
+      "baseline_counter_bounds": [
+        223.93538727179356,
+        32.64625699365174,
+        315.3599208810033,
+        92.34541787134081
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 6932.100786810841,
+      "final_centerline_bounds": [
+        273.751659,
+        17.645165,
+        369.221524,
+        108.015787
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3188.4610181795965,
+      "final_counter_bounds": [
+        288.75930819166825,
+        32.64692973304646,
+        354.2148251877073,
+        92.16640513437227
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7205556539053274
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 8900.900094227612,
+      "baseline_centerline_bounds": [
+        383.0906391208576,
+        17.0425242783214,
+        506.30863075972724,
+        107.32835680762773
+      ],
+      "baseline_counter_area": 4482.6367508026415,
+      "baseline_counter_bounds": [
+        398.1185252570058,
+        32.58048629349591,
+        491.3033153903838,
+        92.30604279549284
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 6996.9836814673545,
+      "final_centerline_bounds": [
+        410.664553,
+        17.042524,
+        507.526024,
+        107.328357
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3235.1789610574556,
+      "final_counter_bounds": [
+        425.6817943758723,
+        32.72903603082833,
+        492.5227368177757,
+        92.26091292434529
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7217133889954788
+    },
+    {
+      "codepoint": "U+3F75B",
+      "path_index_zero_based": 6,
+      "baseline_svg_sha256": "f413951d597b3778a68b5e621a4b7ba393c67363b17d360adb810d4a5d413698",
+      "baseline_centerline_area": 28756.45125292215,
+      "baseline_centerline_bounds": [
+        600.2939945083881,
+        173.79167377658155,
+        733.2393693396665,
+        495.0201044023822
+      ],
+      "baseline_counter_area": 18555.804966597912,
+      "baseline_counter_bounds": [
+        615.2950358731597,
+        189.06074383695884,
+        718.2385243639826,
+        457.06186498473016
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "60efa1bd23b2aa03b5424ac6d9d665d61e489bb58c2cf3c79263b73a93af57d8",
+      "final_centerline_area": 23099.44445800853,
+      "final_centerline_bounds": [
+        582.924684,
+        173.791674,
+        689.71687,
+        495.020104
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13436.067628956678,
+      "final_counter_bounds": [
+        597.9253559887576,
+        189.6206766491084,
+        674.7163246769345,
+        448.660601067138
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7240897203404965
+    },
+    {
+      "codepoint": "U+3E8C3",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "69051212628016df05f51a9df3142cbab547930b0e382cd1623ec026575c4773",
+      "baseline_centerline_area": 24734.218349864706,
+      "baseline_centerline_bounds": [
+        351.6388729800096,
+        353.9946155368776,
+        465.2045875733535,
+        605.6167428694155
+      ],
+      "baseline_counter_area": 15631.296112957543,
+      "baseline_counter_bounds": [
+        366.64361405947415,
+        368.99670474818555,
+        450.11130224106114,
+        588.400128801431
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18970e7f7d3b75e81f224d52ac01912a8e57b2b96317f135c2882cc9ce8e486b",
+      "final_centerline_area": 19868.470479378753,
+      "final_centerline_bounds": [
+        383.185324,
+        353.994616,
+        474.410242,
+        605.616743
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 11349.162085142654,
+      "final_counter_bounds": [
+        398.18838343146655,
+        368.99785314921695,
+        459.35089207151276,
+        587.7653796112164
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7260538091741977
+    },
+    {
+      "codepoint": "U+3D45C",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "0631ec7c7b91154fd9f6b26285c877224d0de4ec0b10d7b486af8ba917193914",
+      "baseline_centerline_area": 10220.225750304631,
+      "baseline_centerline_bounds": [
+        577.0759545794317,
+        202.3916548759977,
+        730.43962754973,
+        335.6725753490483
+      ],
+      "baseline_counter_area": 5020.727336500796,
+      "baseline_counter_bounds": [
+        600.1269142121535,
+        223.65369642357186,
+        707.6187745887536,
+        317.06965221597466
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1938b91268aa7aa46b4181443cff3cbde81b032da05d6728441d648383ce02cf",
+      "final_centerline_area": 8209.689568574659,
+      "final_centerline_bounds": [
+        564.274127,
+        202.391655,
+        687.467898,
+        335.672575
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3656.5396090417075,
+      "final_counter_bounds": [
+        584.845935768434,
+        226.41061355492013,
+        667.0627281050705,
+        315.35934556569583
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7282888243021257
+    },
+    {
+      "codepoint": "U+3D3B8",
+      "path_index_zero_based": 4,
+      "baseline_svg_sha256": "13bc5d7399db49192375f68207d668aa3f210a4da7fc99544bd615b5c2db1f6b",
+      "baseline_centerline_area": 19741.8409841995,
+      "baseline_centerline_bounds": [
+        417.726283074785,
+        43.24941255134212,
+        607.9726554564734,
+        250.78914891584685
+      ],
+      "baseline_counter_area": 11230.990831446994,
+      "baseline_counter_bounds": [
+        440.82191851869817,
+        79.25234140891826,
+        584.3152094617869,
+        235.78914891584685
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "5d82820cff21a1f6df2291a23eb7bdaed20e32bbb6ebef9d4fafc55bf9ac081c",
+      "final_centerline_area": 15858.200158536882,
+      "final_centerline_bounds": [
+        436.271932,
+        43.249413,
+        589.092789,
+        250.789149
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8187.24361994205,
+      "final_counter_bounds": [
+        457.56524154726173,
+        86.6666513258749,
+        567.3708543506832,
+        235.789149
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7289867601901702
+    },
+    {
+      "codepoint": "U+3F053",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "e30863b7a0e20ce9672fa7221cf5fd660b65c7925fdae4456737f7bb633349ab",
+      "baseline_centerline_area": 27627.60540683814,
+      "baseline_centerline_bounds": [
+        568.8018280118347,
+        230.39566913395305,
+        682.7763696496746,
+        505.65295139400274
+      ],
+      "baseline_counter_area": 18174.60465770352,
+      "baseline_counter_bounds": [
+        583.8072962018714,
+        248.12537615558077,
+        667.7717887249419,
+        490.6467365645429
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "4d93e805f084c694dce68377bdc265d544962cb6dce84bbe337f355c2e95d3e3",
+      "final_centerline_area": 22192.66664315249,
+      "final_centerline_bounds": [
+        557.627698,
+        230.395669,
+        649.181018,
+        505.652951
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13254.915419808762,
+      "final_counter_bounds": [
+        572.6312267896012,
+        249.06928466065906,
+        634.1780619345477,
+        490.64332113121964
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7293096972093152
+    },
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 7474.327785902223,
+      "baseline_centerline_bounds": [
+        298.15554860980234,
+        243.05896584107032,
+        453.7600972609728,
+        299.34838674432694
+      ],
+      "baseline_counter_area": 2739.9716753650214,
+      "baseline_counter_bounds": [
+        313.21319304203575,
+        258.0597186747185,
+        438.7271564566419,
+        284.3473059814164
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 5731.921003707663,
+      "final_centerline_bounds": [
+        348.006724,
+        243.058966,
+        467.336917,
+        299.348387
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2000.3764519493013,
+      "final_counter_bounds": [
+        363.04065183800816,
+        258.0602460693998,
+        452.3175297534861,
+        284.346549341724
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7300719456097332
+    },
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 20,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 8901.298986036501,
+      "baseline_centerline_bounds": [
+        412.932023037429,
+        152.274996162941,
+        587.1330213873018,
+        211.65534365740652
+      ],
+      "baseline_counter_area": 3563.0950784336583,
+      "baseline_counter_bounds": [
+        427.99048523097787,
+        167.2753606671004,
+        572.0809254990614,
+        196.65457687487452
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 6826.238319021942,
+      "final_centerline_bounds": [
+        436.026637,
+        152.274996,
+        569.618097,
+        211.655344
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2617.46333024691,
+      "final_counter_bounds": [
+        451.0610465239791,
+        167.2756157961725,
+        554.5874370875987,
+        196.65404020187404
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7346038409386344
+    },
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 10001.00563662328,
+      "baseline_centerline_bounds": [
+        408.4823335279165,
+        55.80544940415028,
+        590.6981002854398,
+        120.58243953705558
+      ],
+      "baseline_counter_area": 4374.950596922871,
+      "baseline_counter_bounds": [
+        423.49830080044546,
+        70.8062266998884,
+        575.6834086807618,
+        105.58142879376636
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 7669.5825917619,
+      "final_centerline_bounds": [
+        432.614254,
+        55.805449,
+        572.352089,
+        120.58244
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3219.5873237959395,
+      "final_counter_bounds": [
+        447.6236466471874,
+        70.80677068444476,
+        557.343446859049,
+        105.58072139641075
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7359139840482866
+    },
+    {
+      "codepoint": "U+3F084",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "f9048ec9c9f8db0ae6f33a8622d77613ebfc38b7ee29be086c243f3bf458c5e0",
+      "baseline_centerline_area": 40231.16871741983,
+      "baseline_centerline_bounds": [
+        521.2117861301911,
+        37.45123149158384,
+        780.6166330642991,
+        218.9925059164621
+      ],
+      "baseline_counter_area": 29574.124623841326,
+      "baseline_counter_bounds": [
+        536.2644069658683,
+        52.46623051450258,
+        765.6089922428503,
+        203.99197805833202
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "05159aa9aeaa173e494ef3921423d83e019e1d3e063a661443598691e663a273",
+      "final_centerline_area": 30941.707386177815,
+      "final_centerline_bounds": [
+        519.084765,
+        37.451231,
+        718.592489,
+        218.992506
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 21841.8153695743,
+      "final_counter_bounds": [
+        534.1159236146651,
+        52.515920805515535,
+        703.5879688639147,
+        203.9916136371657
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7385447801882329
+    },
+    {
+      "codepoint": "U+3E8CE",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "6e3b1370b2128e9703d41a2df6d8a13f93a485dc1b0592e6f8fb305aac52c349",
+      "baseline_centerline_area": 35308.841053233096,
+      "baseline_centerline_bounds": [
+        652.6143962736801,
+        324.27269808655444,
+        776.6435861508178,
+        630.9639162225503
+      ],
+      "baseline_counter_area": 24480.079636694572,
+      "baseline_counter_bounds": [
+        667.6238155593019,
+        340.3784506534633,
+        761.6435535480375,
+        615.961434861482
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d662e859cae04dff6ceec0cb988bf6e0eebc7761d046968342cd5508dbdf1a0a",
+      "final_centerline_area": 28362.839514850333,
+      "final_centerline_bounds": [
+        624.952548,
+        324.272698,
+        724.582553,
+        630.963916
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 18116.913219401446,
+      "final_counter_bounds": [
+        639.9586268453869,
+        340.7752857149404,
+        709.5825319627527,
+        615.960070690305
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.740067576914455
+    },
+    {
+      "codepoint": "U+3E8E4",
+      "path_index_zero_based": 14,
+      "baseline_svg_sha256": "a4d993c25602d753a9945f3bfbe401327562ad4fed038fbfa877b4aeaf81c647",
+      "baseline_centerline_area": 34783.95343167099,
+      "baseline_centerline_bounds": [
+        687.2252713618363,
+        380.36506603329974,
+        812.3966657718165,
+        688.3195347047106
+      ],
+      "baseline_counter_area": 24128.7133596931,
+      "baseline_counter_bounds": [
+        702.2253459384578,
+        398.84612956867556,
+        797.3966421478407,
+        673.3161211540722
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e5d550f869251e3d1dd8da5fe696b4613a59951655e68e6fa3a739c88cb16b4c",
+      "final_centerline_area": 27941.208459925292,
+      "final_centerline_bounds": [
+        652.754726,
+        380.365066,
+        753.30224,
+        688.319535
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 17860.4684330898,
+      "final_counter_bounds": [
+        667.7547741224156,
+        399.4929304110487,
+        738.302224750585,
+        673.3142475618193
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7402163624242654
+    },
+    {
+      "codepoint": "U+3E8E4",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "a4d993c25602d753a9945f3bfbe401327562ad4fed038fbfa877b4aeaf81c647",
+      "baseline_centerline_area": 34907.479272996796,
+      "baseline_centerline_bounds": [
+        497.96209270075985,
+        384.22409875768057,
+        624.5691036509879,
+        689.0
+      ],
+      "baseline_counter_area": 24267.02972144501,
+      "baseline_counter_bounds": [
+        512.9656247601739,
+        400.9016162757721,
+        609.5580101671973,
+        673.9898393432597
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e5d550f869251e3d1dd8da5fe696b4613a59951655e68e6fa3a739c88cb16b4c",
+      "final_centerline_area": 28040.43423482424,
+      "final_centerline_bounds": [
+        500.723648,
+        384.224099,
+        602.424362,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 17979.86325096743,
+      "final_counter_bounds": [
+        515.7259272212196,
+        401.3370674911695,
+        587.4172022245912,
+        673.9842562845331
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7409173457713472
+    },
+    {
+      "codepoint": "U+3DBDF",
+      "path_index_zero_based": 7,
+      "baseline_svg_sha256": "443cb563ec75d2510285602f2b620124d3efb9067622edf9071e93f0ec93ec03",
+      "baseline_centerline_area": 8846.423871377818,
+      "baseline_centerline_bounds": [
+        586.2933453634823,
+        509.2300512971757,
+        752.4180415408412,
+        615.7334680069123
+      ],
+      "baseline_counter_area": 3916.756028092612,
+      "baseline_counter_bounds": [
+        613.8067758645132,
+        527.0483510108915,
+        724.3452811423732,
+        597.9151682931965
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "31496a0a4e027cd5965462821605b85a60f4c4f039f24b401c30d2a335dd3639",
+      "final_centerline_area": 7106.14378080524,
+      "final_centerline_bounds": [
+        571.678261,
+        509.230051,
+        705.122689,
+        615.733468
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2907.0007993895933,
+      "final_counter_bounds": [
+        595.5166617278724,
+        528.4221922631215,
+        680.8671529184076,
+        596.5413268771226
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7421960363472649
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 9055.637117145903,
+      "baseline_centerline_bounds": [
+        220.83004499826927,
+        374.3366268792217,
+        392.8082381446868,
+        479.648084703833
+      ],
+      "baseline_counter_area": 4012.938732943372,
+      "baseline_counter_bounds": [
+        251.33268245307787,
+        391.7740957536112,
+        365.8167784545735,
+        461.87883884383365
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 7274.200348528721,
+      "final_centerline_bounds": [
+        278.10938,
+        374.336627,
+        416.255798,
+        479.648085
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2993.0525660059056,
+      "final_counter_bounds": [
+        304.1903929653207,
+        392.9767097105555,
+        392.8047727841427,
+        460.5290188734751
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7458505512269782
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 9183.49448589626,
+      "baseline_centerline_bounds": [
+        578.299757701627,
+        374.3366268792217,
+        752.706126687435,
+        479.648084703833
+      ],
+      "baseline_counter_area": 4083.1641324342545,
+      "baseline_counter_bounds": [
+        609.6702900738741,
+        391.7193429397963,
+        725.9641549989406,
+        461.94084071270026
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 7376.905453254681,
+      "final_centerline_bounds": [
+        565.257182,
+        374.336627,
+        705.354102,
+        479.648085
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3050.7643927619815,
+      "final_counter_bounds": [
+        591.994256405429,
+        392.89592899166803,
+        682.0882552418209,
+        460.61997584802094
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7471569336457732
+    },
+    {
+      "codepoint": "U+3F084",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "f9048ec9c9f8db0ae6f33a8622d77613ebfc38b7ee29be086c243f3bf458c5e0",
+      "baseline_centerline_area": 44871.74642838283,
+      "baseline_centerline_bounds": [
+        477.50389290580614,
+        274.74641010948363,
+        814.9608147872302,
+        410.89895647903
+      ],
+      "baseline_counter_area": 32253.706027084005,
+      "baseline_counter_bounds": [
+        492.50389290580614,
+        289.74641010948363,
+        799.9608147872302,
+        395.89895647903
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "05159aa9aeaa173e494ef3921423d83e019e1d3e063a661443598691e663a273",
+      "final_centerline_area": 34510.76597788058,
+      "final_centerline_bounds": [
+        485.469116,
+        274.74641,
+        745.006527,
+        410.898956
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 24130.73144367189,
+      "final_counter_bounds": [
+        500.469116,
+        289.74641,
+        730.006527,
+        395.898956
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7481537601728276
+    },
+    {
+      "codepoint": "U+3DBF4",
+      "path_index_zero_based": 9,
+      "baseline_svg_sha256": "783dc56a0db822e074681958306a35bc31b61375a3a52fd28d590a9af92b6821",
+      "baseline_centerline_area": 21402.14895077996,
+      "baseline_centerline_bounds": [
+        558.8061385628564,
+        488.6538615973575,
+        772.457862738017,
+        689.0
+      ],
+      "baseline_counter_area": 13504.215624407516,
+      "baseline_counter_bounds": [
+        582.1169193148388,
+        509.22707231312717,
+        751.85637040233,
+        668.3715017455506
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e4e71ab8841a4035b2ed0514af5da44ba271e633d985a60bbe001c30f9a321c6",
+      "final_centerline_area": 17191.890026457437,
+      "final_centerline_bounds": [
+        549.598374,
+        488.653862,
+        721.22025,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 10177.492544740207,
+      "final_counter_bounds": [
+        570.345990597249,
+        511.7194642434482,
+        702.4133853317951,
+        665.8693972629897
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7536529945764054
+    },
+    {
+      "codepoint": "U+3D4FC",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "0ff2776ceeaba6f4602b2e2a690819cf0547747620b5c0155a50a0652ca8afec",
+      "baseline_centerline_area": 18911.02614330237,
+      "baseline_centerline_bounds": [
+        415.496400286293,
+        378.57576475940033,
+        567.9780898517232,
+        528.6713545866463
+      ],
+      "baseline_counter_area": 12286.347126915834,
+      "baseline_counter_bounds": [
+        430.4984698854726,
+        393.57985713934085,
+        552.9756479221297,
+        513.6691429248903
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "a96c93be321ff2e806560be04b51099e19fcfccf9996001d71ecc11c8563cd22",
+      "final_centerline_area": 15190.82430097243,
+      "final_centerline_bounds": [
+        434.480715,
+        378.575765,
+        556.966007,
+        528.671355
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 9279.263853882,
+      "final_counter_bounds": [
+        449.4820504339971,
+        393.5821065787886,
+        541.9644312775737,
+        513.6679275144264
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7552500151614482
+    },
+    {
+      "codepoint": "U+3D3D2",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "ab8027cbf82a50f3eaa8447cde401cc7fe5721ce2c485ab8da1c0e76e3536469",
+      "baseline_centerline_area": 36575.620245856226,
+      "baseline_centerline_bounds": [
+        538.764531349713,
+        351.4212842363275,
+        693.1925989246431,
+        599.7693109232595
+      ],
+      "baseline_counter_area": 26356.55259963191,
+      "baseline_counter_bounds": [
+        553.764531349713,
+        366.4212842363275,
+        678.1925989246431,
+        584.7693109232595
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d3dca1bb99b4cb56d4d5de829476fd8a09d5547204b6ccaf238d2ab1f24f1d4b",
+      "final_centerline_area": 29380.416198238923,
+      "final_centerline_bounds": [
+        533.499378,
+        351.421284,
+        657.548153,
+        599.769311
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 19943.91571834673,
+      "final_counter_bounds": [
+        548.499378,
+        366.421284,
+        642.548153,
+        584.769311
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7566966750661186
+    },
+    {
+      "codepoint": "U+3E19D",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "07e38f176e688e4dfae95be3a89a80e26e7dc60a837318f3771691ed826f5cce",
+      "baseline_centerline_area": 13029.557390400136,
+      "baseline_centerline_bounds": [
+        567.3157553095712,
+        213.0933347997612,
+        770.8196093617582,
+        341.14552772834134
+      ],
+      "baseline_counter_area": 6783.7562059141965,
+      "baseline_counter_bounds": [
+        595.9284971214929,
+        229.73143147419017,
+        742.8073200758375,
+        322.1312813400657
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d49b68824f87aa1dde37827320b4d880c8f348b99d056ce38aef302282ca4c55",
+      "final_centerline_area": 10466.365778918815,
+      "final_centerline_bounds": [
+        556.433967,
+        213.093335,
+        719.904276,
+        341.145528
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 5133.715447232718,
+      "final_counter_bounds": [
+        581.1257287591354,
+        230.56663597140093,
+        695.6421476887874,
+        320.2512203115213
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7567659113039846
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 7177.456458950779,
+      "baseline_centerline_bounds": [
+        391.7525095188647,
+        612.7399788166608,
+        579.9889235029423,
+        689.0
+      ],
+      "baseline_counter_area": 2362.6335824135713,
+      "baseline_counter_bounds": [
+        435.34438118987975,
+        628.4319267579625,
+        543.342844492329,
+        672.1852310464171
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 5765.497768536144,
+      "final_centerline_bounds": [
+        415.407754,
+        612.739979,
+        566.614053,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1788.0934211642418,
+      "final_counter_bounds": [
+        451.5944381850855,
+        628.7992037775504,
+        535.8015324641188,
+        671.2685639863341
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7568221473164695
+    },
+    {
+      "codepoint": "U+3F235",
+      "path_index_zero_based": 22,
+      "baseline_svg_sha256": "f65a4c6e5e9d9e35839a26aea2919afdedefc0c2b8cd719a7b006f5fd98057d3",
+      "baseline_centerline_area": 14337.59726885591,
+      "baseline_centerline_bounds": [
+        586.9418102800964,
+        199.16545375873994,
+        722.1303192710504,
+        319.0990877160324
+      ],
+      "baseline_counter_area": 8548.444222097642,
+      "baseline_counter_bounds": [
+        601.9564580866565,
+        214.17282667820913,
+        707.1178796313787,
+        303.9779298086435
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3a6f8a336a1c3adbb3c08662c36718c2088b097c55eab67f36034e7a241a6873",
+      "final_centerline_area": 11639.528441381055,
+      "final_centerline_bounds": [
+        572.839157,
+        199.165454,
+        682.587706,
+        319.099088
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6494.482429553849,
+      "final_counter_bounds": [
+        587.8488139936835,
+        214.17663902813214,
+        667.5795062856016,
+        303.97588640627805
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.759726829914346
+    },
+    {
+      "codepoint": "U+3FA68",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "b3b37a43380d0d636025fafc9339f07ab4e63ad0fed5a14d9fb158247389245d",
+      "baseline_centerline_area": 30561.15065592884,
+      "baseline_centerline_bounds": [
+        284.6117062986823,
+        20.265412359430677,
+        463.64889254853057,
+        214.14290608835034
+      ],
+      "baseline_counter_area": 21784.152825872112,
+      "baseline_counter_bounds": [
+        299.6159829999835,
+        35.26555908883867,
+        448.6459485508346,
+        199.06007958082358
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "eeb2ade9d227592b99cdb095b957bd46fc5d57995aa7c9751a34ec53f072a9bd",
+      "final_centerline_area": 24549.12101093855,
+      "final_centerline_bounds": [
+        329.34383,
+        20.265412,
+        473.160586,
+        214.142906
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 16645.32767455492,
+      "final_counter_bounds": [
+        344.3465897181708,
+        35.26563939807619,
+        458.15868514857146,
+        198.8374660533002
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7641025936425663
+    },
+    {
+      "codepoint": "U+3D819",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "7b65133bb1c599d44fb1a2e8e63d810755912b6bc1ce5657782d361ace5aac2a",
+      "baseline_centerline_area": 62505.49470615555,
+      "baseline_centerline_bounds": [
+        577.7569678331083,
+        284.660759372812,
+        784.5727093462656,
+        615.4116097287347
+      ],
+      "baseline_counter_area": 49068.12945352932,
+      "baseline_counter_bounds": [
+        592.7570934660367,
+        300.0536491276073,
+        769.5645348948023,
+        600.4112914739931
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "c20692dc8b2452be255e718b31fa74dbfdf8b9424b0fa3564f70b9cf48660b2c",
+      "final_centerline_area": 50209.331771097306,
+      "final_centerline_bounds": [
+        564.821171,
+        284.660759,
+        730.951848,
+        615.41161
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 37779.62555904195,
+      "final_counter_bounds": [
+        579.8212520651892,
+        300.24875410603914,
+        715.9465728801633,
+        600.41111677646
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7699422411205158
+    },
+    {
+      "codepoint": "U+3E8E2",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "0ccee210f70eaaf94e1f06719042c6e24f4e60ccc524ebb7ba63fd0143d68c5e",
+      "baseline_centerline_area": 30112.586626000775,
+      "baseline_centerline_bounds": [
+        293.37796051128834,
+        49.60518355036935,
+        494.2727740246183,
+        215.2159472594917
+      ],
+      "baseline_counter_area": 21228.75012684867,
+      "baseline_counter_bounds": [
+        308.3854896370088,
+        64.60582006838474,
+        479.2710670268452,
+        200.21102659363598
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3336d8120b21d61887a77ff959ac64b979889a04b1c4b29a049636529780a0a9",
+      "final_centerline_area": 24188.799095822993,
+      "final_centerline_bounds": [
+        336.385575,
+        49.605184,
+        497.760097,
+        215.215947
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 16346.054907585738,
+      "final_counter_bounds": [
+        351.3904340134149,
+        64.60617043988744,
+        482.75899548994585,
+        200.20832218027624
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7699961048065833
+    },
+    {
+      "codepoint": "U+3D461",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "131172b9203e6248d4c08f1ac5a57891b74b8cfbcacf8164dbbe6df9b8c50477",
+      "baseline_centerline_area": 56500.40750589588,
+      "baseline_centerline_bounds": [
+        551.4654578695905,
+        -49.0,
+        756.1725831863034,
+        258.3728915261017
+      ],
+      "baseline_counter_area": 44054.67890694077,
+      "baseline_counter_bounds": [
+        566.4654578695905,
+        -33.99806105375334,
+        741.1725831863034,
+        243.3711428854039
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "b474a5373c584101da5cb3cce6f68643274862ee3abfa321e5396cce7eeff11e",
+      "final_centerline_area": 45385.57322823728,
+      "final_centerline_bounds": [
+        543.701761,
+        -49.0,
+        708.138632,
+        258.372892
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 33931.89982607819,
+      "final_counter_bounds": [
+        558.701761,
+        -33.99699521332403,
+        693.138632,
+        243.37018205706676
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7702223842728372
+    },
+    {
+      "codepoint": "U+3DF19",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "7e9d7067517912e487f9f44c7ec1202dfdde7e8a876bcfbf3b298b4434c5e8c2",
+      "baseline_centerline_area": 4734.7009870303145,
+      "baseline_centerline_bounds": [
+        253.28391598887418,
+        241.96382793064015,
+        382.3628679821817,
+        287.8893707467707
+      ],
+      "baseline_counter_area": 1063.9751467733688,
+      "baseline_counter_bounds": [
+        270.8718177620207,
+        256.96548044143526,
+        364.7749662090351,
+        272.88771823597557
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "680a48aeda7262b40efaed7f0e9588a692e919cfb3918c8fd88673c671095cc0",
+      "final_centerline_area": 3786.16129849837,
+      "final_centerline_bounds": [
+        305.114533,
+        241.963828,
+        408.334089,
+        287.889371
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 822.8907074877164,
+      "final_counter_bounds": [
+        320.83512657596486,
+        256.9664121308012,
+        392.61349484256357,
+        272.886786811585
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7734115876514883
+    },
+    {
+      "codepoint": "U+3D3AD",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "603173395d0fd3acdb7faf97dea5ef070a12f1204dc4fbe84b3c5fba9dbd5349",
+      "baseline_centerline_area": 55746.986356565096,
+      "baseline_centerline_bounds": [
+        495.34330003495376,
+        79.50763019229453,
+        720.0619031509086,
+        351.4268801751865
+      ],
+      "baseline_counter_area": 43546.754947352296,
+      "baseline_counter_bounds": [
+        510.34330003495376,
+        94.50763019229453,
+        705.0619031509086,
+        336.4256940078843
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2481aa22c282aa4d1af5927121e21be7613ffa9ea8ed31da8b9f68b053cfb792",
+      "final_centerline_area": 44780.36612172511,
+      "final_centerline_bounds": [
+        498.620028,
+        79.50763,
+        679.131693,
+        351.42688
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 33685.97019428848,
+      "final_counter_bounds": [
+        513.620028,
+        94.50763,
+        664.131693,
+        336.4250417431462
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7735586781383497
+    },
+    {
+      "codepoint": "U+3E9B1",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "f94031249d277e0b6ef136eff283d5bea826c3d1b66e3641cba5622906aac6b5",
+      "baseline_centerline_area": 10801.037312666554,
+      "baseline_centerline_bounds": [
+        291.98168729690957,
+        129.53065661106564,
+        467.546615846329,
+        206.5579919215234
+      ],
+      "baseline_counter_area": 5290.781133450499,
+      "baseline_counter_bounds": [
+        307.04935443254163,
+        144.5338970284071,
+        452.478948710697,
+        191.55475150418195
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "427a2a584c1f5a8e5661303b65a263dd824b2b910e71f63f4dafa49c456bc5ca",
+      "final_centerline_area": 8676.243077162431,
+      "final_centerline_bounds": [
+        335.263978,
+        129.530657,
+        476.291544,
+        206.557992
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 4096.908017751608,
+      "final_counter_bounds": [
+        350.30767567357924,
+        144.53567857757264,
+        461.24784632642076,
+        191.55297037698332
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7743484212282506
+    },
+    {
+      "codepoint": "U+3D460",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "a97ca70a6e275ef13f2d6f79994ecee3b4b3f8291cf2219c422a5cde37a34861",
+      "baseline_centerline_area": 50334.718709982444,
+      "baseline_centerline_bounds": [
+        553.3217678645187,
+        252.41504644914397,
+        788.7802560925238,
+        491.7045543972587
+      ],
+      "baseline_counter_area": 38866.839133970105,
+      "baseline_counter_bounds": [
+        568.3217678645187,
+        267.41863075572485,
+        773.7802560925238,
+        476.7005225239209
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2001a327d049468b945d0f8c321a2ab395bc0c2065542f8ac236425edb4193ac",
+      "final_centerline_area": 40432.80684877882,
+      "final_centerline_bounds": [
+        545.192895,
+        252.415046,
+        734.331681,
+        491.704554
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 30182.004411987295,
+      "final_counter_bounds": [
+        560.192895,
+        267.4206005033495,
+        719.331681,
+        476.6983060190392
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.776548983259301
+    },
+    {
+      "codepoint": "U+3ED13",
+      "path_index_zero_based": 18,
+      "baseline_svg_sha256": "da5439f1ac8e693ace29ee35b780b1777f844baec87aed4926d5c3bc4ce27ead",
+      "baseline_centerline_area": 33165.93848491418,
+      "baseline_centerline_bounds": [
+        519.8111242386556,
+        531.144790329884,
+        763.3297976717258,
+        681.9402724487982
+      ],
+      "baseline_counter_area": 23584.627587258703,
+      "baseline_counter_bounds": [
+        534.9238558285092,
+        546.1467349226583,
+        748.3290160074752,
+        666.9369899608099
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "c541bbb1ba9da1256cbcd7bdb2c8ca3591231a753a8d5660f448a555ec70ed69",
+      "final_centerline_area": 26641.491584487423,
+      "final_centerline_bounds": [
+        518.27451,
+        531.14479,
+        713.88787,
+        681.940272
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 18353.0744180162,
+      "final_counter_bounds": [
+        533.3473507906793,
+        546.1478035631085,
+        698.8873656125875,
+        666.9351856864283
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7781795302941826
+    },
+    {
+      "codepoint": "U+3D3B0",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "e683319454728ea81d24a4c78c8f7415070e797ef98fdb6a0283f37f57768fe5",
+      "baseline_centerline_area": 60477.21671533085,
+      "baseline_centerline_bounds": [
+        408.734253745911,
+        77.7927895659574,
+        671.8161235718458,
+        336.25566420609556
+      ],
+      "baseline_counter_area": 47845.55104471643,
+      "baseline_counter_bounds": [
+        423.734253745911,
+        92.87738859776461,
+        656.8080114904525,
+        321.2549289952247
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "06473abc9e3fa7ce1c2e11a3e8415d3a86c9b40a6a43c4f372967d303d5396f3",
+      "final_centerline_area": 48580.05929203134,
+      "final_centerline_bounds": [
+        429.048827,
+        77.79279,
+        640.376886,
+        336.255664
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 37263.64276083033,
+      "final_counter_bounds": [
+        444.048827,
+        92.92330616946033,
+        625.3716505459053,
+        321.25452460797396
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7788319278840314
+    },
+    {
+      "codepoint": "U+3D3BD",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "43b70e45e6f94f2d23ac86c815444ad0771c3ff0e5ed6e596e13af0c97715ebf",
+      "baseline_centerline_area": 35546.835804069204,
+      "baseline_centerline_bounds": [
+        459.40123948502844,
+        490.3803329758834,
+        750.1171331640488,
+        689.0
+      ],
+      "baseline_counter_area": 25384.050750337807,
+      "baseline_counter_bounds": [
+        474.4502809151732,
+        506.3591645463841,
+        735.072222927145,
+        673.9932557659253
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "7b3be8c56f1c839bf7aa85efb870e12d81531f496c3a97e32f51b48a2f83984e",
+      "final_centerline_area": 28554.0157001887,
+      "final_centerline_bounds": [
+        469.748537,
+        490.380333,
+        703.274418,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 19785.14391427786,
+      "final_counter_bounds": [
+        484.78022024922757,
+        506.86984676211364,
+        688.2454006939065,
+        673.9895504927691
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7794320972989137
+    },
+    {
+      "codepoint": "U+3F757",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "20f2344aeab9d5a498b3db016622093f87dba9a2d21ccdfd339ec2779a4d5808",
+      "baseline_centerline_area": 23354.25228064222,
+      "baseline_centerline_bounds": [
+        544.489435203552,
+        203.34295785060888,
+        788.947765961376,
+        311.2489399709865
+      ],
+      "baseline_counter_area": 14901.860375939299,
+      "baseline_counter_bounds": [
+        559.4912011332392,
+        218.34295785060888,
+        773.938024436392,
+        296.24729974860924
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "f9bcfa630b5629f8518b6d4dd4fe8fe05d8c16c64ece42ec1c3d23fbdc07ca6e",
+      "final_centerline_area": 18759.973137576184,
+      "final_centerline_bounds": [
+        538.098071,
+        203.342958,
+        734.466238,
+        311.24894
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 11627.028054500895,
+      "final_counter_bounds": [
+        553.0992106913681,
+        218.342958,
+        719.4599513850914,
+        296.24639812480024
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.780240034544547
+    },
+    {
+      "codepoint": "U+3FBED",
+      "path_index_zero_based": 9,
+      "baseline_svg_sha256": "05096a5e1cb63479d147773226e69cb04d6610bc47394145191d704169abd7f3",
+      "baseline_centerline_area": 54527.0002854672,
+      "baseline_centerline_bounds": [
+        369.8213317461584,
+        -36.29685414061697,
+        650.4330633616976,
+        172.04989327291065
+      ],
+      "baseline_counter_area": 42007.808018612464,
+      "baseline_counter_bounds": [
+        384.82340759943736,
+        -21.28576055451822,
+        635.430781864475,
+        157.0481578401321
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1d8016e2379720c19b54e23192f0e558f2ef12c13cd58cbd3ce812c2ed0512a6",
+      "final_centerline_area": 43800.3772976086,
+      "final_centerline_bounds": [
+        397.790906,
+        -36.296854,
+        623.20033,
+        172.049893
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 32778.92476470465,
+      "final_counter_bounds": [
+        412.7922455449055,
+        -21.260272254239936,
+        608.1988577890664,
+        157.04720358169047
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7803055267768612
+    },
+    {
+      "codepoint": "U+3D500",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "978a45259915f8280c789bc662a4211c991b33f153d976a8232e0f535953a84e",
+      "baseline_centerline_area": 126931.90065381011,
+      "baseline_centerline_bounds": [
+        506.58563560893117,
+        -47.90988063694422,
+        817.0000000000001,
+        446.96041237105993
+      ],
+      "baseline_counter_area": 107919.22087588625,
+      "baseline_counter_bounds": [
+        521.5864933209211,
+        -32.90423755075266,
+        801.9991422758164,
+        431.9549763424272
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "bdf6efacf095722a58152db79882f7ee28a88a119b81e051629dd69b25f0aeb2",
+      "final_centerline_area": 101961.69066786392,
+      "final_centerline_bounds": [
+        507.650756,
+        -47.909881,
+        757.0,
+        446.960412
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 84233.5197800438,
+      "final_counter_bounds": [
+        522.6513094543783,
+        -32.9011364195271,
+        741.9994465456217,
+        431.95198824874296
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7805237945232901
+    },
+    {
+      "codepoint": "U+3D6C7",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "1d9bdd0d69aebbe88963089f8ebc46d055a340ffba0f0873fadf4a40aa9fd352",
+      "baseline_centerline_area": 17552.02345563122,
+      "baseline_centerline_bounds": [
+        564.2227977623002,
+        307.2731694700553,
+        789.2222854683846,
+        404.87987996814053
+      ],
+      "baseline_counter_area": 10298.115850652217,
+      "baseline_counter_bounds": [
+        579.2449058512346,
+        322.27562605183033,
+        774.2001773794501,
+        389.8774233863655
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "6e90e730ae62f3df8dbb7216db71eb73774a52ca866fff8dbcba51bb77481bbe",
+      "final_centerline_area": 14099.16639106005,
+      "final_centerline_bounds": [
+        553.94946,
+        307.273169,
+        734.686754,
+        404.87988
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8043.626839957087,
+      "final_counter_bounds": [
+        568.9637293298309,
+        322.27697600362353,
+        719.6724848879204,
+        389.8760730363107
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7810775249190516
+    },
+    {
+      "codepoint": "U+3D4FB",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "9d999b97db411d492627041dd71fb88cf374fc0b3c9062b7f45179a8346579d5",
+      "baseline_centerline_area": 56355.84851013431,
+      "baseline_centerline_bounds": [
+        475.0890358152466,
+        414.1330464874374,
+        762.6050198973593,
+        651.3465512213304
+      ],
+      "baseline_counter_area": 44325.49304287207,
+      "baseline_counter_bounds": [
+        490.0922450557172,
+        429.1344371291006,
+        747.6018171224646,
+        636.3449721834937
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "6574a39fcfa7acc8c211fc28220f9de7d464daf5b015af59b7b3c54bf866e1d4",
+      "final_centerline_area": 45269.45210510939,
+      "final_centerline_bounds": [
+        482.350209,
+        414.133046,
+        713.305672,
+        651.346551
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 34632.8974467521,
+      "final_counter_bounds": [
+        497.35227987798146,
+        429.1352011323627,
+        698.3036052952368,
+        636.344103937825
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.781331352891096
+    },
+    {
+      "codepoint": "U+3D865",
+      "path_index_zero_based": 19,
+      "baseline_svg_sha256": "d813beefbbdf22d535d5db59de0b0eebaf31894f2a7486e9ddd46d3b89a97a82",
+      "baseline_centerline_area": 8185.666401651534,
+      "baseline_centerline_bounds": [
+        517.4290335816511,
+        564.3208272958238,
+        706.089994371099,
+        612.2743552589686
+      ],
+      "baseline_counter_area": 2568.293782176282,
+      "baseline_counter_bounds": [
+        532.4757028549883,
+        579.3208272958238,
+        691.0433250977618,
+        597.2743552589686
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "0da86a5b9c4024d0441604ff24021b8819e348682675a59af7b2cb1d1ae02004",
+      "final_centerline_area": 6575.371385585998,
+      "final_centerline_bounds": [
+        516.361027,
+        564.320827,
+        667.908356,
+        612.274355
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2008.2129240014397,
+      "final_counter_bounds": [
+        531.3911572814225,
+        579.320827,
+        652.8782257185776,
+        597.274355
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7819249253875273
+    },
+    {
+      "codepoint": "U+3FBC9",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "bae090565f32b5b6fee6371aeaf939c4f2e73d037e1794f53c76734e7f3fa521",
+      "baseline_centerline_area": 58544.05690062658,
+      "baseline_centerline_bounds": [
+        328.0617152265326,
+        -49.0,
+        672.9931091547812,
+        143.03286270831813
+      ],
+      "baseline_counter_area": 45429.98067435184,
+      "baseline_counter_bounds": [
+        343.0671811545425,
+        -33.99939462691866,
+        657.9920776065345,
+        128.0322381049342
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "15b2560fb5cb7fcd316b462316b871a2e5172b36bc39ca8f057a14d157606020",
+      "final_centerline_area": 46861.707943884554,
+      "final_centerline_bounds": [
+        364.766231,
+        -49.0,
+        640.867258,
+        143.032863
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 35595.49011120316,
+      "final_counter_bounds": [
+        379.7697356245226,
+        -33.99905517329637,
+        625.8665969362756,
+        128.0318882782681
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7835242186510353
+    },
+    {
+      "codepoint": "U+3ED38",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "3a7eac47baffb2eb1e16dd9d1f1ccd937d45a3d3d86fc42554218d97c751a200",
+      "baseline_centerline_area": 7033.507643694824,
+      "baseline_centerline_bounds": [
+        587.0374507613595,
+        95.67939779876133,
+        734.3694258795671,
+        149.5717816346015
+      ],
+      "baseline_counter_area": 2488.4883636235318,
+      "baseline_counter_bounds": [
+        602.2916241262932,
+        110.67950292985167,
+        719.3459894089785,
+        134.5715298860273
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3dba0b106f7bac9bfc46fe342165d92b058998bfc0a20aeeae1bc9379cacfc42",
+      "final_centerline_area": 5764.825555136034,
+      "final_centerline_bounds": [
+        573.50243,
+        95.679398,
+        694.259125,
+        149.571782
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1955.4887448527434,
+      "final_counter_bounds": [
+        588.6738496947877,
+        110.67955449592846,
+        679.2433586037571,
+        134.57140725389476
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7858138994892955
+    },
+    {
+      "codepoint": "U+3D853",
+      "path_index_zero_based": 22,
+      "baseline_svg_sha256": "79bd17297ff410b2f7e1eacc2949e6e9c08112e122d5a98243b45a99a7f70be7",
+      "baseline_centerline_area": 11227.045495784081,
+      "baseline_centerline_bounds": [
+        395.7828124116298,
+        205.12706480304956,
+        626.2864781311421,
+        259.5158831003812
+      ],
+      "baseline_counter_area": 4324.984870179071,
+      "baseline_counter_bounds": [
+        410.8553034786618,
+        220.12706480304956,
+        611.2198451777358,
+        244.5158831003812
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d7ec00411d77643071e91dd091cf3aef24700b9995212f2db8edfc2575da821f",
+      "final_centerline_area": 9018.446384009552,
+      "final_centerline_bounds": [
+        418.64521,
+        205.127065,
+        603.803892,
+        259.515883
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3404.7490744314237,
+      "final_counter_bounds": [
+        433.69202513822154,
+        220.127065,
+        588.7608629465308,
+        244.51588299999997
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7872279734218941
+    },
+    {
+      "codepoint": "U+3D3AC",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "aa8da956c4a92a891567b4db9b7283155b798ee283f16438d37a837aef45d3b4",
+      "baseline_centerline_area": 96835.63810250722,
+      "baseline_centerline_bounds": [
+        430.81003856816216,
+        402.70815062791445,
+        817.0,
+        689.0
+      ],
+      "baseline_counter_area": 80540.89520614811,
+      "baseline_counter_bounds": [
+        445.8105165308677,
+        417.70815140115644,
+        801.99920492415,
+        673.9998155042585
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "597108a74f07c8362c06036c246b8cc7ff3b0753333d9f2601d8d933d5580e00",
+      "final_centerline_area": 77786.00435989402,
+      "final_centerline_bounds": [
+        446.781834,
+        402.708151,
+        757.0,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 63463.62327370824,
+      "final_counter_bounds": [
+        461.78214241261213,
+        417.7081521953152,
+        741.9994869674815,
+        673.9997140761313
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7879676915841348
+    },
+    {
+      "codepoint": "U+3D865",
+      "path_index_zero_based": 23,
+      "baseline_svg_sha256": "d813beefbbdf22d535d5db59de0b0eebaf31894f2a7486e9ddd46d3b89a97a82",
+      "baseline_centerline_area": 20729.876053621952,
+      "baseline_centerline_bounds": [
+        342.6032099167624,
+        272.7633772799044,
+        631.8833497939161,
+        354.2843748172503
+      ],
+      "baseline_counter_area": 11696.930396511447,
+      "baseline_counter_bounds": [
+        357.6180232088876,
+        287.7633772799044,
+        616.8695229667021,
+        339.2843748172503
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "0da86a5b9c4024d0441604ff24021b8819e348682675a59af7b2cb1d1ae02004",
+      "final_centerline_area": 16651.867678259823,
+      "final_centerline_bounds": [
+        375.927169,
+        272.763377,
+        608.29974,
+        354.284375
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 9219.598299404253,
+      "final_counter_bounds": [
+        390.93672904439717,
+        287.763377,
+        593.2908166412823,
+        339.284375
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7882066479726983
+    },
+    {
+      "codepoint": "U+3D85D",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "471b3dc5816d78475331245fc04c600a0817bf721c2b267643fc32a5295cfbf8",
+      "baseline_centerline_area": 6531.461980969233,
+      "baseline_centerline_bounds": [
+        425.44113674116784,
+        154.89557923385433,
+        598.9674515217573,
+        198.04808277541082
+      ],
+      "baseline_counter_area": 1520.1888701968796,
+      "baseline_counter_bounds": [
+        443.16611104798864,
+        169.89557923385433,
+        582.805513528394,
+        183.04808277541082
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "fa4334747a4a509c3b48f53226ccebc41e9f3faae49bc9740b3202703c659104",
+      "final_centerline_area": 5301.417141961278,
+      "final_centerline_bounds": [
+        441.742431,
+        154.895579,
+        582.589209,
+        198.048083
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1213.1137301736198,
+      "final_counter_bounds": [
+        457.55588501014233,
+        169.895579,
+        567.5465316928063,
+        183.048083
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7980019811725825
+    },
+    {
+      "codepoint": "U+3ED16",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "52a9db79b4547e8a169464e8242d7930a58c7240adc6c07b8fe63cef8aebaf79",
+      "baseline_centerline_area": 21702.513640571022,
+      "baseline_centerline_bounds": [
+        501.9507980795598,
+        138.82070389675957,
+        759.181258521543,
+        236.84330090357219
+      ],
+      "baseline_counter_area": 13266.193670824885,
+      "baseline_counter_bounds": [
+        516.9590993502738,
+        153.8229738508504,
+        744.1487135337735,
+        221.84103136834216
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "89fb982776b00f7bb3f060011eee39ea691d1da2c86938d7dc238cc19ecac0bf",
+      "final_centerline_area": 18238.87270811552,
+      "final_centerline_bounds": [
+        503.554614,
+        138.820704,
+        719.732044,
+        236.843301
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 10933.88305990294,
+      "final_counter_bounds": [
+        518.5604781405466,
+        153.82391783195493,
+        704.7090496747292,
+        221.84008790140587
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8241914245492149
+    },
+    {
+      "codepoint": "U+3D640",
+      "path_index_zero_based": 23,
+      "baseline_svg_sha256": "43b47246b346cfb6735938293e820e0c8f8efe6bd9dc8d4153e9d47dac28bc3a",
+      "baseline_centerline_area": 17057.435551243667,
+      "baseline_centerline_bounds": [
+        207.0,
+        471.6432676828167,
+        340.95226983696574,
+        608.2249664993356
+      ],
+      "baseline_counter_area": 10577.212502114991,
+      "baseline_counter_bounds": [
+        222.0,
+        486.644287351789,
+        325.95226983696574,
+        593.2238162844102
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "df67782288c3f23768fada97809174c86a67ab1f99b275f8d14e3440ebe148d4",
+      "final_centerline_area": 14868.074350156257,
+      "final_centerline_bounds": [
+        246.147453,
+        471.643268,
+        362.90664,
+        608.224966
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8853.620472635175,
+      "final_counter_bounds": [
+        261.14745300000004,
+        486.6446100605209,
+        347.90664,
+        593.2234521324527
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8370466671502372
+    },
+    {
+      "codepoint": "U+3E63B",
+      "path_index_zero_based": 13,
+      "baseline_svg_sha256": "da9c3012eedfb4460da5a891f0db2cd0bde7950434416b5656bd12d38c8e9110",
+      "baseline_centerline_area": 26257.865779597614,
+      "baseline_centerline_bounds": [
+        594.2213535847084,
+        -49.0,
+        761.2033952557131,
+        121.56527661720128
+      ],
+      "baseline_counter_area": 17995.767403886908,
+      "baseline_counter_bounds": [
+        609.2261906185051,
+        -33.976296535538886,
+        746.2032398725199,
+        106.54103123556509
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e8e383b8da7b3c984f4ef313bee7332b5cc084f1d7543a6093f637969761cee3",
+      "final_centerline_area": 23763.24897643358,
+      "final_centerline_bounds": [
+        586.409951,
+        -49.0,
+        737.527938,
+        121.565277
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15914.744015602653,
+      "final_counter_bounds": [
+        601.4139127537676,
+        -33.974561014946275,
+        722.5278107307461,
+        106.53465563149159
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.884360397554662
+    },
+    {
+      "codepoint": "U+3E63B",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "da9c3012eedfb4460da5a891f0db2cd0bde7950434416b5656bd12d38c8e9110",
+      "baseline_centerline_area": 13850.580850006005,
+      "baseline_centerline_bounds": [
+        531.9871757316209,
+        387.17280015532026,
+        730.2886664086384,
+        496.9435608932175
+      ],
+      "baseline_counter_area": 7375.37033538282,
+      "baseline_counter_bounds": [
+        548.3082003973138,
+        403.25624734865727,
+        714.5737912319678,
+        481.9288044103645
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e8e383b8da7b3c984f4ef313bee7332b5cc084f1d7543a6093f637969761cee3",
+      "final_centerline_area": 12534.712598778002,
+      "final_centerline_bounds": [
+        530.088303,
+        387.1728,
+        709.550249,
+        496.943561
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6547.811335896212,
+      "final_counter_bounds": [
+        546.2097869371788,
+        403.4859335487636,
+        694.0359631762518,
+        481.9255458628961
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8877942446474244
+    },
+    {
+      "codepoint": "U+3FC0F",
+      "path_index_zero_based": 19,
+      "baseline_svg_sha256": "73010fd3b051b1352eac4e6698322309506985e4338e56ce37e277686c07f8b6",
+      "baseline_centerline_area": 12923.133199810001,
+      "baseline_centerline_bounds": [
+        586.3899729569973,
+        366.390745588593,
+        684.011326412885,
+        547.8571979736532
+      ],
+      "baseline_counter_area": 6967.48377305658,
+      "baseline_counter_bounds": [
+        601.397682917138,
+        381.3976382209833,
+        669.0033713572512,
+        526.6870515749412
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "44a4bcf11ba33d13c3b9212010dc01960b04d496313d62863a1ecf2b4ebe7342",
+      "final_centerline_area": 12030.59614583519,
+      "final_centerline_bounds": [
+        581.252224,
+        366.390746,
+        672.131352,
+        547.857198
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6213.014022465144,
+      "final_counter_bounds": [
+        596.2589060808156,
+        381.398698974574,
+        657.1244575822259,
+        525.9256836619141
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8917156070733904
+    },
+    {
+      "codepoint": "U+3F5E8",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "ae84badcb3cf220ac8ac93226fcfa6eef139f76d3c42a727d992033a53bdc67d",
+      "baseline_centerline_area": 23758.704551115807,
+      "baseline_centerline_bounds": [
+        445.42105104856574,
+        507.1620134197319,
+        588.9477753807053,
+        687.3387439263456
+      ],
+      "baseline_counter_area": 15950.909445085046,
+      "baseline_counter_bounds": [
+        460.4217997937193,
+        522.1622393098197,
+        573.9471673602263,
+        672.3351252777288
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "cc40e00d76e14d98ec542cf2ea9f8ef6cec92789599483dab218c6118622cb4a",
+      "final_centerline_area": 23257.921184513736,
+      "final_centerline_bounds": [
+        446.824395,
+        507.162013,
+        587.325879,
+        687.338744
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15528.512367458277,
+      "final_counter_bounds": [
+        461.82511251620195,
+        522.1622487243599,
+        572.3252963373756,
+        672.3349678728538
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9735189345108518
+    },
+    {
+      "codepoint": "U+3F5E8",
+      "path_index_zero_based": 13,
+      "baseline_svg_sha256": "ae84badcb3cf220ac8ac93226fcfa6eef139f76d3c42a727d992033a53bdc67d",
+      "baseline_centerline_area": 24048.30402590939,
+      "baseline_centerline_bounds": [
+        652.201237635936,
+        507.095993795603,
+        796.1120216989852,
+        689.0
+      ],
+      "baseline_counter_area": 16192.928875352403,
+      "baseline_counter_bounds": [
+        667.202982064649,
+        522.096224918087,
+        781.1106826323526,
+        673.9987611128427
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "cc40e00d76e14d98ec542cf2ea9f8ef6cec92789599483dab218c6118622cb4a",
+      "final_centerline_area": 23541.41650458786,
+      "final_centerline_bounds": [
+        649.246091,
+        507.095994,
+        790.12354,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15764.442483946035,
+      "final_counter_bounds": [
+        664.2477626689753,
+        522.0962351880255,
+        775.1222567722584,
+        673.9987071991766
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9735386726697369
+    },
+    {
+      "codepoint": "U+3E778",
+      "path_index_zero_based": 4,
+      "baseline_svg_sha256": "444f2778800b56414f51256e7fad4b15e03595d12429061003d1ce7ec8e989b3",
+      "baseline_centerline_area": 22927.370656556122,
+      "baseline_centerline_bounds": [
+        514.1371914985355,
+        203.61372060907314,
+        628.7959692872354,
+        488.66280484864285
+      ],
+      "baseline_counter_area": 14125.26152940281,
+      "baseline_counter_bounds": [
+        529.1378084911379,
+        218.61922014059346,
+        613.7952834692134,
+        449.35762464054125
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "300a8037edac0011c29c46442fef4b163660d7ffdcced2acca5249dac12a89a6",
+      "final_centerline_area": 22755.151456772444,
+      "final_centerline_bounds": [
+        514.121138,
+        203.613721,
+        627.918655,
+        488.662805
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13970.721865257503,
+      "final_counter_bounds": [
+        529.1217457534317,
+        218.6193037562725,
+        612.9179794460291,
+        449.10336070851315
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9890593413917597
+    },
+    {
+      "codepoint": "U+3E75E",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "6821f09f167d523e1f2ede1886fda6bfa3bf297be48b7ca5dc2329b28b12942c",
+      "baseline_centerline_area": 35995.91420962707,
+      "baseline_centerline_bounds": [
+        458.9214337024375,
+        467.4212837007717,
+        765.8995459268331,
+        637.9829690280028
+      ],
+      "baseline_counter_area": 25603.532256219227,
+      "baseline_counter_bounds": [
+        473.9748792710119,
+        482.6972175925621,
+        750.8159135697291,
+        621.7934713144255
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e58c997dd2d9010ce11f0538ba50c02a398bd09e54c5553e38f932aceac2fcca",
+      "final_centerline_area": 35725.530488002485,
+      "final_centerline_bounds": [
+        459.320134,
+        467.421284,
+        763.992377,
+        637.982969
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 25394.21089453995,
+      "final_counter_bounds": [
+        474.37278171693833,
+        482.70137007903395,
+        748.9099923362292,
+        621.7702429705242
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9918245123530394
+    },
+    {
+      "codepoint": "U+3F341",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "f35a4c2db28f35e9f5f7ab505f85ea5107ab7204b3145fde2deef54467ea15ab",
+      "baseline_centerline_area": 14322.960395113123,
+      "baseline_centerline_bounds": [
+        626.566307366179,
+        130.06065713510782,
+        729.1639052233179,
+        330.3946943572656
+      ],
+      "baseline_counter_area": 7853.112904871866,
+      "baseline_counter_bounds": [
+        641.5763957254067,
+        145.16603504637987,
+        714.1588810579838,
+        307.33294589295184
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2dba3945a3957e52f3b1217400e64933816966fbf0995fea73620d457dd50dc3",
+      "final_centerline_area": 14255.335968696654,
+      "final_centerline_bounds": [
+        626.025394,
+        130.060657,
+        728.138588,
+        330.394694
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 7795.031313064043,
+      "final_counter_bounds": [
+        641.0353874233505,
+        145.17600347129232,
+        713.1336111402552,
+        307.2330103824357
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9926040039776086
+    },
+    {
+      "codepoint": "U+3DD61",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "b2b69413506936bac6d7220bdf390373f1fed68fbfb2d84a64df4eb252fa8913",
+      "baseline_centerline_area": 8734.812387876933,
+      "baseline_centerline_bounds": [
+        262.73450405739857,
+        194.41081729334246,
+        450.61769250469285,
+        287.3921261593803
+      ],
+      "baseline_counter_area": 3577.771928263047,
+      "baseline_counter_bounds": [
+        296.1510976955046,
+        211.15706486834478,
+        416.3962168767903,
+        270.66504245073
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "71288ace4b820c98052853019c1440a5ea3a524de5d60f0630ed8ca32663056d",
+      "final_centerline_area": 8698.160309925112,
+      "final_centerline_bounds": [
+        263.780446,
+        194.410817,
+        450.875259,
+        287.392126
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3559.4313915008984,
+      "final_counter_bounds": [
+        297.08512115103974,
+        211.17103695055908,
+        416.7697443002001,
+        270.65121573873654
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9948737546355974
+    },
+    {
+      "codepoint": "U+3DD61",
+      "path_index_zero_based": 18,
+      "baseline_svg_sha256": "b2b69413506936bac6d7220bdf390373f1fed68fbfb2d84a64df4eb252fa8913",
+      "baseline_centerline_area": 8734.812387876938,
+      "baseline_centerline_bounds": [
+        616.2332438026782,
+        194.41081729334246,
+        804.1164322499726,
+        287.3921261593803
+      ],
+      "baseline_counter_area": 3577.8389460410112,
+      "baseline_counter_bounds": [
+        650.1322048787841,
+        211.15678505528214,
+        770.3784502521604,
+        270.6653199776587
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "71288ace4b820c98052853019c1440a5ea3a524de5d60f0630ed8ca32663056d",
+      "final_centerline_area": 8698.160309925106,
+      "final_centerline_bounds": [
+        615.795871,
+        194.410817,
+        802.890684,
+        287.392126
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3559.4984929010934,
+      "final_counter_bounds": [
+        649.5804871584016,
+        211.17075547959558,
+        769.2662384318294,
+        270.65149491651266
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.994873874029402
+    },
+    {
+      "codepoint": "U+3F5B4",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "09e8c1886a3c5a1317b09605bd73833a0599c486a3f8147d0d3faa3070c7cd90",
+      "baseline_centerline_area": 90818.22276732574,
+      "baseline_centerline_bounds": [
+        341.1991843639965,
+        10.000000000000007,
+        682.8008156360036,
+        630.0
+      ],
+      "baseline_counter_area": 69203.9366572493,
+      "baseline_counter_bounds": [
+        370.93663692965515,
+        51.43823168959974,
+        667.799869835087,
+        597.2140511700736
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "4e61a39e1911da7801c9535dedf6baf0f77eb2e406a5383629fa4bb3b0bb7a65",
+      "final_centerline_area": 128677.41966888901,
+      "final_centerline_bounds": [
+        308.691932,
+        -49.0,
+        715.308068,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 102686.89691223622,
+      "final_counter_bounds": [
+        338.81587007083164,
+        -7.483727953179253,
+        700.3071221953351,
+        655.8556812756452
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 1.4838302829623709
+    }
+  ],
+  "failures": [],
+  "glyph_paths": [
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 7474.327785902223,
+      "baseline_centerline_bounds": [
+        298.15554860980234,
+        243.05896584107032,
+        453.7600972609728,
+        299.34838674432694
+      ],
+      "baseline_counter_area": 2739.9716753650214,
+      "baseline_counter_bounds": [
+        313.21319304203575,
+        258.0597186747185,
+        438.7271564566419,
+        284.3473059814164
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 5731.921003707663,
+      "final_centerline_bounds": [
+        348.006724,
+        243.058966,
+        467.336917,
+        299.348387
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2000.3764519493013,
+      "final_counter_bounds": [
+        363.04065183800816,
+        258.0602460693998,
+        452.3175297534861,
+        284.346549341724
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7300719456097332
+    },
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 10001.00563662328,
+      "baseline_centerline_bounds": [
+        408.4823335279165,
+        55.80544940415028,
+        590.6981002854398,
+        120.58243953705558
+      ],
+      "baseline_counter_area": 4374.950596922871,
+      "baseline_counter_bounds": [
+        423.49830080044546,
+        70.8062266998884,
+        575.6834086807618,
+        105.58142879376636
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 7669.5825917619,
+      "final_centerline_bounds": [
+        432.614254,
+        55.805449,
+        572.352089,
+        120.58244
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3219.5873237959395,
+      "final_counter_bounds": [
+        447.6236466471874,
+        70.80677068444476,
+        557.343446859049,
+        105.58072139641075
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7359139840482866
+    },
+    {
+      "codepoint": "U+3D1D8",
+      "path_index_zero_based": 20,
+      "baseline_svg_sha256": "643cf7a9c9fc2387415c5f8d7648298f630f19805f6f7ccc22cffc73a6faddf5",
+      "baseline_centerline_area": 8901.298986036501,
+      "baseline_centerline_bounds": [
+        412.932023037429,
+        152.274996162941,
+        587.1330213873018,
+        211.65534365740652
+      ],
+      "baseline_counter_area": 3563.0950784336583,
+      "baseline_counter_bounds": [
+        427.99048523097787,
+        167.2753606671004,
+        572.0809254990614,
+        196.65457687487452
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "600e725d1074822ac9bebdd18d2df911ee6681dacf8dc4368789f52317f3e076",
+      "final_centerline_area": 6826.238319021942,
+      "final_centerline_bounds": [
+        436.026637,
+        152.274996,
+        569.618097,
+        211.655344
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2617.46333024691,
+      "final_counter_bounds": [
+        451.0610465239791,
+        167.2756157961725,
+        554.5874370875987,
+        196.65404020187404
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7346038409386344
+    },
+    {
+      "codepoint": "U+3D3AC",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "aa8da956c4a92a891567b4db9b7283155b798ee283f16438d37a837aef45d3b4",
+      "baseline_centerline_area": 96835.63810250722,
+      "baseline_centerline_bounds": [
+        430.81003856816216,
+        402.70815062791445,
+        817.0,
+        689.0
+      ],
+      "baseline_counter_area": 80540.89520614811,
+      "baseline_counter_bounds": [
+        445.8105165308677,
+        417.70815140115644,
+        801.99920492415,
+        673.9998155042585
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "597108a74f07c8362c06036c246b8cc7ff3b0753333d9f2601d8d933d5580e00",
+      "final_centerline_area": 77786.00435989402,
+      "final_centerline_bounds": [
+        446.781834,
+        402.708151,
+        757.0,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 63463.62327370824,
+      "final_counter_bounds": [
+        461.78214241261213,
+        417.7081521953152,
+        741.9994869674815,
+        673.9997140761313
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7879676915841348
+    },
+    {
+      "codepoint": "U+3D3AD",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "603173395d0fd3acdb7faf97dea5ef070a12f1204dc4fbe84b3c5fba9dbd5349",
+      "baseline_centerline_area": 55746.986356565096,
+      "baseline_centerline_bounds": [
+        495.34330003495376,
+        79.50763019229453,
+        720.0619031509086,
+        351.4268801751865
+      ],
+      "baseline_counter_area": 43546.754947352296,
+      "baseline_counter_bounds": [
+        510.34330003495376,
+        94.50763019229453,
+        705.0619031509086,
+        336.4256940078843
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2481aa22c282aa4d1af5927121e21be7613ffa9ea8ed31da8b9f68b053cfb792",
+      "final_centerline_area": 44780.36612172511,
+      "final_centerline_bounds": [
+        498.620028,
+        79.50763,
+        679.131693,
+        351.42688
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 33685.97019428848,
+      "final_counter_bounds": [
+        513.620028,
+        94.50763,
+        664.131693,
+        336.4250417431462
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7735586781383497
+    },
+    {
+      "codepoint": "U+3D3B0",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "e683319454728ea81d24a4c78c8f7415070e797ef98fdb6a0283f37f57768fe5",
+      "baseline_centerline_area": 60477.21671533085,
+      "baseline_centerline_bounds": [
+        408.734253745911,
+        77.7927895659574,
+        671.8161235718458,
+        336.25566420609556
+      ],
+      "baseline_counter_area": 47845.55104471643,
+      "baseline_counter_bounds": [
+        423.734253745911,
+        92.87738859776461,
+        656.8080114904525,
+        321.2549289952247
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "06473abc9e3fa7ce1c2e11a3e8415d3a86c9b40a6a43c4f372967d303d5396f3",
+      "final_centerline_area": 48580.05929203134,
+      "final_centerline_bounds": [
+        429.048827,
+        77.79279,
+        640.376886,
+        336.255664
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 37263.64276083033,
+      "final_counter_bounds": [
+        444.048827,
+        92.92330616946033,
+        625.3716505459053,
+        321.25452460797396
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7788319278840314
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 6875.282708053088,
+      "baseline_centerline_bounds": [
+        239.89600870150315,
+        -49.0,
+        363.64650739052166,
+        62.115232356848566
+      ],
+      "baseline_counter_area": 2370.2067880533637,
+      "baseline_counter_bounds": [
+        263.91108784958857,
+        -18.125892019850575,
+        336.5709878956976,
+        47.115232356848566
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 5522.768043047007,
+      "final_centerline_bounds": [
+        293.424663,
+        -49.0,
+        392.830801,
+        62.115232
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1575.1282557422717,
+      "final_counter_bounds": [
+        315.4192464425253,
+        -12.225535202780021,
+        368.50680597338624,
+        47.115232
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6645530945575913
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 13901.445544547827,
+      "baseline_centerline_bounds": [
+        424.8715853447951,
+        235.40032743327208,
+        600.208401396528,
+        393.96879990338044
+      ],
+      "baseline_counter_area": 7004.744404371614,
+      "baseline_counter_bounds": [
+        449.67689906467643,
+        266.4090789862051,
+        574.1396171186045,
+        378.96879990338044
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 11166.735010835568,
+      "final_centerline_bounds": [
+        442.011601,
+        235.400327,
+        582.855929,
+        393.9688
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 5047.211224728208,
+      "final_counter_bounds": [
+        464.60818753233565,
+        272.3633325206282,
+        559.2977253968893,
+        378.9688
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.720541811858014
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "7ab0ffefc0c320c8b09fa1c58011654efcef86f1a9323f98f612fe7a2a561ae1",
+      "baseline_centerline_area": 7039.183269095641,
+      "baseline_centerline_bounds": [
+        658.9514470417073,
+        -49.0,
+        785.1210191714918,
+        62.58289832123356
+      ],
+      "baseline_counter_area": 2469.7464332169243,
+      "baseline_counter_bounds": [
+        685.4432664504125,
+        -18.511200442385427,
+        760.1775159346154,
+        47.58289832123356
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18c22bccc8875f80f3db5bfad927049dba32f7ff71f4f8abdc1d41bdf9082260",
+      "final_centerline_area": 5654.425864296273,
+      "final_centerline_bounds": [
+        630.042966,
+        -49.0,
+        731.392294,
+        62.582898
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1651.173161616477,
+      "final_counter_bounds": [
+        653.9229858993112,
+        -12.714655270765133,
+        708.690487134458,
+        47.582898
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6685597919725592
+    },
+    {
+      "codepoint": "U+3D3B8",
+      "path_index_zero_based": 4,
+      "baseline_svg_sha256": "13bc5d7399db49192375f68207d668aa3f210a4da7fc99544bd615b5c2db1f6b",
+      "baseline_centerline_area": 19741.8409841995,
+      "baseline_centerline_bounds": [
+        417.726283074785,
+        43.24941255134212,
+        607.9726554564734,
+        250.78914891584685
+      ],
+      "baseline_counter_area": 11230.990831446994,
+      "baseline_counter_bounds": [
+        440.82191851869817,
+        79.25234140891826,
+        584.3152094617869,
+        235.78914891584685
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "5d82820cff21a1f6df2291a23eb7bdaed20e32bbb6ebef9d4fafc55bf9ac081c",
+      "final_centerline_area": 15858.200158536882,
+      "final_centerline_bounds": [
+        436.271932,
+        43.249413,
+        589.092789,
+        250.789149
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8187.24361994205,
+      "final_counter_bounds": [
+        457.56524154726173,
+        86.6666513258749,
+        567.3708543506832,
+        235.789149
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7289867601901702
+    },
+    {
+      "codepoint": "U+3D3BD",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "43b70e45e6f94f2d23ac86c815444ad0771c3ff0e5ed6e596e13af0c97715ebf",
+      "baseline_centerline_area": 35546.835804069204,
+      "baseline_centerline_bounds": [
+        459.40123948502844,
+        490.3803329758834,
+        750.1171331640488,
+        689.0
+      ],
+      "baseline_counter_area": 25384.050750337807,
+      "baseline_counter_bounds": [
+        474.4502809151732,
+        506.3591645463841,
+        735.072222927145,
+        673.9932557659253
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "7b3be8c56f1c839bf7aa85efb870e12d81531f496c3a97e32f51b48a2f83984e",
+      "final_centerline_area": 28554.0157001887,
+      "final_centerline_bounds": [
+        469.748537,
+        490.380333,
+        703.274418,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 19785.14391427786,
+      "final_counter_bounds": [
+        484.78022024922757,
+        506.86984676211364,
+        688.2454006939065,
+        673.9895504927691
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7794320972989137
+    },
+    {
+      "codepoint": "U+3D3D2",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "ab8027cbf82a50f3eaa8447cde401cc7fe5721ce2c485ab8da1c0e76e3536469",
+      "baseline_centerline_area": 36575.620245856226,
+      "baseline_centerline_bounds": [
+        538.764531349713,
+        351.4212842363275,
+        693.1925989246431,
+        599.7693109232595
+      ],
+      "baseline_counter_area": 26356.55259963191,
+      "baseline_counter_bounds": [
+        553.764531349713,
+        366.4212842363275,
+        678.1925989246431,
+        584.7693109232595
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d3dca1bb99b4cb56d4d5de829476fd8a09d5547204b6ccaf238d2ab1f24f1d4b",
+      "final_centerline_area": 29380.416198238923,
+      "final_centerline_bounds": [
+        533.499378,
+        351.421284,
+        657.548153,
+        599.769311
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 19943.91571834673,
+      "final_counter_bounds": [
+        548.499378,
+        366.421284,
+        642.548153,
+        584.769311
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7566966750661186
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 11922.509845388673,
+      "baseline_centerline_bounds": [
+        430.20352884312786,
+        -49.0,
+        596.6300406398175,
+        94.27656954023624
+      ],
+      "baseline_counter_area": 5624.6118035972095,
+      "baseline_counter_bounds": [
+        456.27512449355334,
+        -19.133062232617355,
+        570.5853134917153,
+        79.27656954023624
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 9577.098093817945,
+      "final_centerline_bounds": [
+        446.294638,
+        -49.0,
+        579.981508,
+        94.27657
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 4017.5201619140494,
+      "final_counter_bounds": [
+        469.8549804183192,
+        -13.52113606218155,
+        556.4416070149293,
+        79.27657
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7142751006113262
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4062.837583795462,
+      "baseline_centerline_bounds": [
+        291.1372659145012,
+        606.494926878411,
+        389.6242420500897,
+        689.0
+      ],
+      "baseline_counter_area": 871.2316404095494,
+      "baseline_counter_bounds": [
+        318.99598304798343,
+        635.7938969697449,
+        364.60291865822495,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3263.5908400783514,
+      "final_centerline_bounds": [
+        334.585673,
+        606.494927,
+        413.698162,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 515.1611138634431,
+      "final_counter_bounds": [
+        359.5053444542857,
+        641.2203481312423,
+        390.93710681259455,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5913021175645959
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4131.833369723474,
+      "baseline_centerline_bounds": [
+        462.4189635416118,
+        606.1630151999909,
+        562.1771423236821,
+        689.0
+      ],
+      "baseline_counter_area": 904.4503896606366,
+      "baseline_counter_bounds": [
+        489.29186701553573,
+        635.2434368079347,
+        535.9652722490424,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3319.013697549359,
+      "final_centerline_bounds": [
+        472.17261,
+        606.163015,
+        552.306229,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 539.1319954282711,
+      "final_counter_bounds": [
+        496.34249647544476,
+        640.6137751174095,
+        528.6391695688682,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5960879685513338
+    },
+    {
+      "codepoint": "U+3D44D",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "41f3bf70c453a82233aafaea6e993f9673991a14fd2a939706fe7a5f9ff56f01",
+      "baseline_centerline_area": 4084.759925051465,
+      "baseline_centerline_bounds": [
+        636.7041529707421,
+        605.7126365840427,
+        734.7925005307719,
+        689.0
+      ],
+      "baseline_counter_area": 882.4697832379552,
+      "baseline_counter_bounds": [
+        663.8845218955406,
+        635.2879858789036,
+        709.4760419067428,
+        674.0
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "965cbc63127f7d5e720bff44fcc725a7adc75c55e9346efae9e822ccaebf72f2",
+      "final_centerline_area": 3281.2006129788215,
+      "final_centerline_bounds": [
+        612.172188,
+        605.712637,
+        690.964468,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 521.1979752956735,
+      "final_counter_bounds": [
+        636.5759292321209,
+        640.8056568026416,
+        667.9787482122626,
+        674.0
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5906128291252031
+    },
+    {
+      "codepoint": "U+3D45C",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "0631ec7c7b91154fd9f6b26285c877224d0de4ec0b10d7b486af8ba917193914",
+      "baseline_centerline_area": 10220.225750304631,
+      "baseline_centerline_bounds": [
+        577.0759545794317,
+        202.3916548759977,
+        730.43962754973,
+        335.6725753490483
+      ],
+      "baseline_counter_area": 5020.727336500796,
+      "baseline_counter_bounds": [
+        600.1269142121535,
+        223.65369642357186,
+        707.6187745887536,
+        317.06965221597466
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1938b91268aa7aa46b4181443cff3cbde81b032da05d6728441d648383ce02cf",
+      "final_centerline_area": 8209.689568574659,
+      "final_centerline_bounds": [
+        564.274127,
+        202.391655,
+        687.467898,
+        335.672575
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3656.5396090417075,
+      "final_counter_bounds": [
+        584.845935768434,
+        226.41061355492013,
+        667.0627281050705,
+        315.35934556569583
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7282888243021257
+    },
+    {
+      "codepoint": "U+3D460",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "a97ca70a6e275ef13f2d6f79994ecee3b4b3f8291cf2219c422a5cde37a34861",
+      "baseline_centerline_area": 50334.718709982444,
+      "baseline_centerline_bounds": [
+        553.3217678645187,
+        252.41504644914397,
+        788.7802560925238,
+        491.7045543972587
+      ],
+      "baseline_counter_area": 38866.839133970105,
+      "baseline_counter_bounds": [
+        568.3217678645187,
+        267.41863075572485,
+        773.7802560925238,
+        476.7005225239209
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2001a327d049468b945d0f8c321a2ab395bc0c2065542f8ac236425edb4193ac",
+      "final_centerline_area": 40432.80684877882,
+      "final_centerline_bounds": [
+        545.192895,
+        252.415046,
+        734.331681,
+        491.704554
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 30182.004411987295,
+      "final_counter_bounds": [
+        560.192895,
+        267.4206005033495,
+        719.331681,
+        476.6983060190392
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.776548983259301
+    },
+    {
+      "codepoint": "U+3D461",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "131172b9203e6248d4c08f1ac5a57891b74b8cfbcacf8164dbbe6df9b8c50477",
+      "baseline_centerline_area": 56500.40750589588,
+      "baseline_centerline_bounds": [
+        551.4654578695905,
+        -49.0,
+        756.1725831863034,
+        258.3728915261017
+      ],
+      "baseline_counter_area": 44054.67890694077,
+      "baseline_counter_bounds": [
+        566.4654578695905,
+        -33.99806105375334,
+        741.1725831863034,
+        243.3711428854039
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "b474a5373c584101da5cb3cce6f68643274862ee3abfa321e5396cce7eeff11e",
+      "final_centerline_area": 45385.57322823728,
+      "final_centerline_bounds": [
+        543.701761,
+        -49.0,
+        708.138632,
+        258.372892
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 33931.89982607819,
+      "final_counter_bounds": [
+        558.701761,
+        -33.99699521332403,
+        693.138632,
+        243.37018205706676
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7702223842728372
+    },
+    {
+      "codepoint": "U+3D4FB",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "9d999b97db411d492627041dd71fb88cf374fc0b3c9062b7f45179a8346579d5",
+      "baseline_centerline_area": 56355.84851013431,
+      "baseline_centerline_bounds": [
+        475.0890358152466,
+        414.1330464874374,
+        762.6050198973593,
+        651.3465512213304
+      ],
+      "baseline_counter_area": 44325.49304287207,
+      "baseline_counter_bounds": [
+        490.0922450557172,
+        429.1344371291006,
+        747.6018171224646,
+        636.3449721834937
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "6574a39fcfa7acc8c211fc28220f9de7d464daf5b015af59b7b3c54bf866e1d4",
+      "final_centerline_area": 45269.45210510939,
+      "final_centerline_bounds": [
+        482.350209,
+        414.133046,
+        713.305672,
+        651.346551
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 34632.8974467521,
+      "final_counter_bounds": [
+        497.35227987798146,
+        429.1352011323627,
+        698.3036052952368,
+        636.344103937825
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.781331352891096
+    },
+    {
+      "codepoint": "U+3D4FC",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "0ff2776ceeaba6f4602b2e2a690819cf0547747620b5c0155a50a0652ca8afec",
+      "baseline_centerline_area": 18911.02614330237,
+      "baseline_centerline_bounds": [
+        415.496400286293,
+        378.57576475940033,
+        567.9780898517232,
+        528.6713545866463
+      ],
+      "baseline_counter_area": 12286.347126915834,
+      "baseline_counter_bounds": [
+        430.4984698854726,
+        393.57985713934085,
+        552.9756479221297,
+        513.6691429248903
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "a96c93be321ff2e806560be04b51099e19fcfccf9996001d71ecc11c8563cd22",
+      "final_centerline_area": 15190.82430097243,
+      "final_centerline_bounds": [
+        434.480715,
+        378.575765,
+        556.966007,
+        528.671355
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 9279.263853882,
+      "final_counter_bounds": [
+        449.4820504339971,
+        393.5821065787886,
+        541.9644312775737,
+        513.6679275144264
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7552500151614482
+    },
+    {
+      "codepoint": "U+3D500",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "978a45259915f8280c789bc662a4211c991b33f153d976a8232e0f535953a84e",
+      "baseline_centerline_area": 126931.90065381011,
+      "baseline_centerline_bounds": [
+        506.58563560893117,
+        -47.90988063694422,
+        817.0000000000001,
+        446.96041237105993
+      ],
+      "baseline_counter_area": 107919.22087588625,
+      "baseline_counter_bounds": [
+        521.5864933209211,
+        -32.90423755075266,
+        801.9991422758164,
+        431.9549763424272
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "bdf6efacf095722a58152db79882f7ee28a88a119b81e051629dd69b25f0aeb2",
+      "final_centerline_area": 101961.69066786392,
+      "final_centerline_bounds": [
+        507.650756,
+        -47.909881,
+        757.0,
+        446.960412
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 84233.5197800438,
+      "final_counter_bounds": [
+        522.6513094543783,
+        -32.9011364195271,
+        741.9994465456217,
+        431.95198824874296
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7805237945232901
+    },
+    {
+      "codepoint": "U+3D640",
+      "path_index_zero_based": 23,
+      "baseline_svg_sha256": "43b47246b346cfb6735938293e820e0c8f8efe6bd9dc8d4153e9d47dac28bc3a",
+      "baseline_centerline_area": 17057.435551243667,
+      "baseline_centerline_bounds": [
+        207.0,
+        471.6432676828167,
+        340.95226983696574,
+        608.2249664993356
+      ],
+      "baseline_counter_area": 10577.212502114991,
+      "baseline_counter_bounds": [
+        222.0,
+        486.644287351789,
+        325.95226983696574,
+        593.2238162844102
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "df67782288c3f23768fada97809174c86a67ab1f99b275f8d14e3440ebe148d4",
+      "final_centerline_area": 14868.074350156257,
+      "final_centerline_bounds": [
+        246.147453,
+        471.643268,
+        362.90664,
+        608.224966
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8853.620472635175,
+      "final_counter_bounds": [
+        261.14745300000004,
+        486.6446100605209,
+        347.90664,
+        593.2234521324527
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8370466671502372
+    },
+    {
+      "codepoint": "U+3D6C7",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "1d9bdd0d69aebbe88963089f8ebc46d055a340ffba0f0873fadf4a40aa9fd352",
+      "baseline_centerline_area": 17552.02345563122,
+      "baseline_centerline_bounds": [
+        564.2227977623002,
+        307.2731694700553,
+        789.2222854683846,
+        404.87987996814053
+      ],
+      "baseline_counter_area": 10298.115850652217,
+      "baseline_counter_bounds": [
+        579.2449058512346,
+        322.27562605183033,
+        774.2001773794501,
+        389.8774233863655
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "6e90e730ae62f3df8dbb7216db71eb73774a52ca866fff8dbcba51bb77481bbe",
+      "final_centerline_area": 14099.16639106005,
+      "final_centerline_bounds": [
+        553.94946,
+        307.273169,
+        734.686754,
+        404.87988
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 8043.626839957087,
+      "final_counter_bounds": [
+        568.9637293298309,
+        322.27697600362353,
+        719.6724848879204,
+        389.8760730363107
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7810775249190516
+    },
+    {
+      "codepoint": "U+3D819",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "7b65133bb1c599d44fb1a2e8e63d810755912b6bc1ce5657782d361ace5aac2a",
+      "baseline_centerline_area": 62505.49470615555,
+      "baseline_centerline_bounds": [
+        577.7569678331083,
+        284.660759372812,
+        784.5727093462656,
+        615.4116097287347
+      ],
+      "baseline_counter_area": 49068.12945352932,
+      "baseline_counter_bounds": [
+        592.7570934660367,
+        300.0536491276073,
+        769.5645348948023,
+        600.4112914739931
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "c20692dc8b2452be255e718b31fa74dbfdf8b9424b0fa3564f70b9cf48660b2c",
+      "final_centerline_area": 50209.331771097306,
+      "final_centerline_bounds": [
+        564.821171,
+        284.660759,
+        730.951848,
+        615.41161
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 37779.62555904195,
+      "final_counter_bounds": [
+        579.8212520651892,
+        300.24875410603914,
+        715.9465728801633,
+        600.41111677646
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7699422411205158
+    },
+    {
+      "codepoint": "U+3D853",
+      "path_index_zero_based": 22,
+      "baseline_svg_sha256": "79bd17297ff410b2f7e1eacc2949e6e9c08112e122d5a98243b45a99a7f70be7",
+      "baseline_centerline_area": 11227.045495784081,
+      "baseline_centerline_bounds": [
+        395.7828124116298,
+        205.12706480304956,
+        626.2864781311421,
+        259.5158831003812
+      ],
+      "baseline_counter_area": 4324.984870179071,
+      "baseline_counter_bounds": [
+        410.8553034786618,
+        220.12706480304956,
+        611.2198451777358,
+        244.5158831003812
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d7ec00411d77643071e91dd091cf3aef24700b9995212f2db8edfc2575da821f",
+      "final_centerline_area": 9018.446384009552,
+      "final_centerline_bounds": [
+        418.64521,
+        205.127065,
+        603.803892,
+        259.515883
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3404.7490744314237,
+      "final_counter_bounds": [
+        433.69202513822154,
+        220.127065,
+        588.7608629465308,
+        244.51588299999997
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7872279734218941
+    },
+    {
+      "codepoint": "U+3D85D",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "471b3dc5816d78475331245fc04c600a0817bf721c2b267643fc32a5295cfbf8",
+      "baseline_centerline_area": 6531.461980969233,
+      "baseline_centerline_bounds": [
+        425.44113674116784,
+        154.89557923385433,
+        598.9674515217573,
+        198.04808277541082
+      ],
+      "baseline_counter_area": 1520.1888701968796,
+      "baseline_counter_bounds": [
+        443.16611104798864,
+        169.89557923385433,
+        582.805513528394,
+        183.04808277541082
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "fa4334747a4a509c3b48f53226ccebc41e9f3faae49bc9740b3202703c659104",
+      "final_centerline_area": 5301.417141961278,
+      "final_centerline_bounds": [
+        441.742431,
+        154.895579,
+        582.589209,
+        198.048083
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1213.1137301736198,
+      "final_counter_bounds": [
+        457.55588501014233,
+        169.895579,
+        567.5465316928063,
+        183.048083
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7980019811725825
+    },
+    {
+      "codepoint": "U+3D865",
+      "path_index_zero_based": 19,
+      "baseline_svg_sha256": "d813beefbbdf22d535d5db59de0b0eebaf31894f2a7486e9ddd46d3b89a97a82",
+      "baseline_centerline_area": 8185.666401651534,
+      "baseline_centerline_bounds": [
+        517.4290335816511,
+        564.3208272958238,
+        706.089994371099,
+        612.2743552589686
+      ],
+      "baseline_counter_area": 2568.293782176282,
+      "baseline_counter_bounds": [
+        532.4757028549883,
+        579.3208272958238,
+        691.0433250977618,
+        597.2743552589686
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "0da86a5b9c4024d0441604ff24021b8819e348682675a59af7b2cb1d1ae02004",
+      "final_centerline_area": 6575.371385585998,
+      "final_centerline_bounds": [
+        516.361027,
+        564.320827,
+        667.908356,
+        612.274355
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2008.2129240014397,
+      "final_counter_bounds": [
+        531.3911572814225,
+        579.320827,
+        652.8782257185776,
+        597.274355
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7819249253875273
+    },
+    {
+      "codepoint": "U+3D865",
+      "path_index_zero_based": 23,
+      "baseline_svg_sha256": "d813beefbbdf22d535d5db59de0b0eebaf31894f2a7486e9ddd46d3b89a97a82",
+      "baseline_centerline_area": 20729.876053621952,
+      "baseline_centerline_bounds": [
+        342.6032099167624,
+        272.7633772799044,
+        631.8833497939161,
+        354.2843748172503
+      ],
+      "baseline_counter_area": 11696.930396511447,
+      "baseline_counter_bounds": [
+        357.6180232088876,
+        287.7633772799044,
+        616.8695229667021,
+        339.2843748172503
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "0da86a5b9c4024d0441604ff24021b8819e348682675a59af7b2cb1d1ae02004",
+      "final_centerline_area": 16651.867678259823,
+      "final_centerline_bounds": [
+        375.927169,
+        272.763377,
+        608.29974,
+        354.284375
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 9219.598299404253,
+      "final_counter_bounds": [
+        390.93672904439717,
+        287.763377,
+        593.2908166412823,
+        339.284375
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7882066479726983
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 7177.456458950779,
+      "baseline_centerline_bounds": [
+        391.7525095188647,
+        612.7399788166608,
+        579.9889235029423,
+        689.0
+      ],
+      "baseline_counter_area": 2362.6335824135713,
+      "baseline_counter_bounds": [
+        435.34438118987975,
+        628.4319267579625,
+        543.342844492329,
+        672.1852310464171
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 5765.497768536144,
+      "final_centerline_bounds": [
+        415.407754,
+        612.739979,
+        566.614053,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1788.0934211642418,
+      "final_counter_bounds": [
+        451.5944381850855,
+        628.7992037775504,
+        535.8015324641188,
+        671.2685639863341
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7568221473164695
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 9055.637117145903,
+      "baseline_centerline_bounds": [
+        220.83004499826927,
+        374.3366268792217,
+        392.8082381446868,
+        479.648084703833
+      ],
+      "baseline_counter_area": 4012.938732943372,
+      "baseline_counter_bounds": [
+        251.33268245307787,
+        391.7740957536112,
+        365.8167784545735,
+        461.87883884383365
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 7274.200348528721,
+      "final_centerline_bounds": [
+        278.10938,
+        374.336627,
+        416.255798,
+        479.648085
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2993.0525660059056,
+      "final_counter_bounds": [
+        304.1903929653207,
+        392.9767097105555,
+        392.8047727841427,
+        460.5290188734751
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7458505512269782
+    },
+    {
+      "codepoint": "U+3DAB1",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "c2cf46e4a1fcb6dd5052e23ad7986e6f7e891797f0ad630a0a445dca170ed709",
+      "baseline_centerline_area": 9183.49448589626,
+      "baseline_centerline_bounds": [
+        578.299757701627,
+        374.3366268792217,
+        752.706126687435,
+        479.648084703833
+      ],
+      "baseline_counter_area": 4083.1641324342545,
+      "baseline_counter_bounds": [
+        609.6702900738741,
+        391.7193429397963,
+        725.9641549989406,
+        461.94084071270026
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "068aa0cc4054b050950c9f731a7c61d5c960ef75291e1e9eac4ab614023039f2",
+      "final_centerline_area": 7376.905453254681,
+      "final_centerline_bounds": [
+        565.257182,
+        374.336627,
+        705.354102,
+        479.648085
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3050.7643927619815,
+      "final_counter_bounds": [
+        591.994256405429,
+        392.89592899166803,
+        682.0882552418209,
+        460.61997584802094
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7471569336457732
+    },
+    {
+      "codepoint": "U+3DBDF",
+      "path_index_zero_based": 7,
+      "baseline_svg_sha256": "443cb563ec75d2510285602f2b620124d3efb9067622edf9071e93f0ec93ec03",
+      "baseline_centerline_area": 8846.423871377818,
+      "baseline_centerline_bounds": [
+        586.2933453634823,
+        509.2300512971757,
+        752.4180415408412,
+        615.7334680069123
+      ],
+      "baseline_counter_area": 3916.756028092612,
+      "baseline_counter_bounds": [
+        613.8067758645132,
+        527.0483510108915,
+        724.3452811423732,
+        597.9151682931965
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "31496a0a4e027cd5965462821605b85a60f4c4f039f24b401c30d2a335dd3639",
+      "final_centerline_area": 7106.14378080524,
+      "final_centerline_bounds": [
+        571.678261,
+        509.230051,
+        705.122689,
+        615.733468
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2907.0007993895933,
+      "final_counter_bounds": [
+        595.5166617278724,
+        528.4221922631215,
+        680.8671529184076,
+        596.5413268771226
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7421960363472649
+    },
+    {
+      "codepoint": "U+3DBF4",
+      "path_index_zero_based": 9,
+      "baseline_svg_sha256": "783dc56a0db822e074681958306a35bc31b61375a3a52fd28d590a9af92b6821",
+      "baseline_centerline_area": 21402.14895077996,
+      "baseline_centerline_bounds": [
+        558.8061385628564,
+        488.6538615973575,
+        772.457862738017,
+        689.0
+      ],
+      "baseline_counter_area": 13504.215624407516,
+      "baseline_counter_bounds": [
+        582.1169193148388,
+        509.22707231312717,
+        751.85637040233,
+        668.3715017455506
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e4e71ab8841a4035b2ed0514af5da44ba271e633d985a60bbe001c30f9a321c6",
+      "final_centerline_area": 17191.890026457437,
+      "final_centerline_bounds": [
+        549.598374,
+        488.653862,
+        721.22025,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 10177.492544740207,
+      "final_counter_bounds": [
+        570.345990597249,
+        511.7194642434482,
+        702.4133853317951,
+        665.8693972629897
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7536529945764054
+    },
+    {
+      "codepoint": "U+3DD61",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "b2b69413506936bac6d7220bdf390373f1fed68fbfb2d84a64df4eb252fa8913",
+      "baseline_centerline_area": 8734.812387876933,
+      "baseline_centerline_bounds": [
+        262.73450405739857,
+        194.41081729334246,
+        450.61769250469285,
+        287.3921261593803
+      ],
+      "baseline_counter_area": 3577.771928263047,
+      "baseline_counter_bounds": [
+        296.1510976955046,
+        211.15706486834478,
+        416.3962168767903,
+        270.66504245073
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "71288ace4b820c98052853019c1440a5ea3a524de5d60f0630ed8ca32663056d",
+      "final_centerline_area": 8698.160309925112,
+      "final_centerline_bounds": [
+        263.780446,
+        194.410817,
+        450.875259,
+        287.392126
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3559.4313915008984,
+      "final_counter_bounds": [
+        297.08512115103974,
+        211.17103695055908,
+        416.7697443002001,
+        270.65121573873654
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9948737546355974
+    },
+    {
+      "codepoint": "U+3DD61",
+      "path_index_zero_based": 18,
+      "baseline_svg_sha256": "b2b69413506936bac6d7220bdf390373f1fed68fbfb2d84a64df4eb252fa8913",
+      "baseline_centerline_area": 8734.812387876938,
+      "baseline_centerline_bounds": [
+        616.2332438026782,
+        194.41081729334246,
+        804.1164322499726,
+        287.3921261593803
+      ],
+      "baseline_counter_area": 3577.8389460410112,
+      "baseline_counter_bounds": [
+        650.1322048787841,
+        211.15678505528214,
+        770.3784502521604,
+        270.6653199776587
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "71288ace4b820c98052853019c1440a5ea3a524de5d60f0630ed8ca32663056d",
+      "final_centerline_area": 8698.160309925106,
+      "final_centerline_bounds": [
+        615.795871,
+        194.410817,
+        802.890684,
+        287.392126
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3559.4984929010934,
+      "final_counter_bounds": [
+        649.5804871584016,
+        211.17075547959558,
+        769.2662384318294,
+        270.65149491651266
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.994873874029402
+    },
+    {
+      "codepoint": "U+3DF19",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "7e9d7067517912e487f9f44c7ec1202dfdde7e8a876bcfbf3b298b4434c5e8c2",
+      "baseline_centerline_area": 4734.7009870303145,
+      "baseline_centerline_bounds": [
+        253.28391598887418,
+        241.96382793064015,
+        382.3628679821817,
+        287.8893707467707
+      ],
+      "baseline_counter_area": 1063.9751467733688,
+      "baseline_counter_bounds": [
+        270.8718177620207,
+        256.96548044143526,
+        364.7749662090351,
+        272.88771823597557
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "680a48aeda7262b40efaed7f0e9588a692e919cfb3918c8fd88673c671095cc0",
+      "final_centerline_area": 3786.16129849837,
+      "final_centerline_bounds": [
+        305.114533,
+        241.963828,
+        408.334089,
+        287.889371
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 822.8907074877164,
+      "final_counter_bounds": [
+        320.83512657596486,
+        256.9664121308012,
+        392.61349484256357,
+        272.886786811585
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7734115876514883
+    },
+    {
+      "codepoint": "U+3E19D",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "07e38f176e688e4dfae95be3a89a80e26e7dc60a837318f3771691ed826f5cce",
+      "baseline_centerline_area": 13029.557390400136,
+      "baseline_centerline_bounds": [
+        567.3157553095712,
+        213.0933347997612,
+        770.8196093617582,
+        341.14552772834134
+      ],
+      "baseline_counter_area": 6783.7562059141965,
+      "baseline_counter_bounds": [
+        595.9284971214929,
+        229.73143147419017,
+        742.8073200758375,
+        322.1312813400657
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d49b68824f87aa1dde37827320b4d880c8f348b99d056ce38aef302282ca4c55",
+      "final_centerline_area": 10466.365778918815,
+      "final_centerline_bounds": [
+        556.433967,
+        213.093335,
+        719.904276,
+        341.145528
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 5133.715447232718,
+      "final_counter_bounds": [
+        581.1257287591354,
+        230.56663597140093,
+        695.6421476887874,
+        320.2512203115213
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7567659113039846
+    },
+    {
+      "codepoint": "U+3E63B",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "da9c3012eedfb4460da5a891f0db2cd0bde7950434416b5656bd12d38c8e9110",
+      "baseline_centerline_area": 13850.580850006005,
+      "baseline_centerline_bounds": [
+        531.9871757316209,
+        387.17280015532026,
+        730.2886664086384,
+        496.9435608932175
+      ],
+      "baseline_counter_area": 7375.37033538282,
+      "baseline_counter_bounds": [
+        548.3082003973138,
+        403.25624734865727,
+        714.5737912319678,
+        481.9288044103645
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e8e383b8da7b3c984f4ef313bee7332b5cc084f1d7543a6093f637969761cee3",
+      "final_centerline_area": 12534.712598778002,
+      "final_centerline_bounds": [
+        530.088303,
+        387.1728,
+        709.550249,
+        496.943561
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6547.811335896212,
+      "final_counter_bounds": [
+        546.2097869371788,
+        403.4859335487636,
+        694.0359631762518,
+        481.9255458628961
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8877942446474244
+    },
+    {
+      "codepoint": "U+3E63B",
+      "path_index_zero_based": 13,
+      "baseline_svg_sha256": "da9c3012eedfb4460da5a891f0db2cd0bde7950434416b5656bd12d38c8e9110",
+      "baseline_centerline_area": 26257.865779597614,
+      "baseline_centerline_bounds": [
+        594.2213535847084,
+        -49.0,
+        761.2033952557131,
+        121.56527661720128
+      ],
+      "baseline_counter_area": 17995.767403886908,
+      "baseline_counter_bounds": [
+        609.2261906185051,
+        -33.976296535538886,
+        746.2032398725199,
+        106.54103123556509
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e8e383b8da7b3c984f4ef313bee7332b5cc084f1d7543a6093f637969761cee3",
+      "final_centerline_area": 23763.24897643358,
+      "final_centerline_bounds": [
+        586.409951,
+        -49.0,
+        737.527938,
+        121.565277
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15914.744015602653,
+      "final_counter_bounds": [
+        601.4139127537676,
+        -33.974561014946275,
+        722.5278107307461,
+        106.53465563149159
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.884360397554662
+    },
+    {
+      "codepoint": "U+3E75E",
+      "path_index_zero_based": 5,
+      "baseline_svg_sha256": "6821f09f167d523e1f2ede1886fda6bfa3bf297be48b7ca5dc2329b28b12942c",
+      "baseline_centerline_area": 35995.91420962707,
+      "baseline_centerline_bounds": [
+        458.9214337024375,
+        467.4212837007717,
+        765.8995459268331,
+        637.9829690280028
+      ],
+      "baseline_counter_area": 25603.532256219227,
+      "baseline_counter_bounds": [
+        473.9748792710119,
+        482.6972175925621,
+        750.8159135697291,
+        621.7934713144255
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e58c997dd2d9010ce11f0538ba50c02a398bd09e54c5553e38f932aceac2fcca",
+      "final_centerline_area": 35725.530488002485,
+      "final_centerline_bounds": [
+        459.320134,
+        467.421284,
+        763.992377,
+        637.982969
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 25394.21089453995,
+      "final_counter_bounds": [
+        474.37278171693833,
+        482.70137007903395,
+        748.9099923362292,
+        621.7702429705242
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9918245123530394
+    },
+    {
+      "codepoint": "U+3E778",
+      "path_index_zero_based": 4,
+      "baseline_svg_sha256": "444f2778800b56414f51256e7fad4b15e03595d12429061003d1ce7ec8e989b3",
+      "baseline_centerline_area": 22927.370656556122,
+      "baseline_centerline_bounds": [
+        514.1371914985355,
+        203.61372060907314,
+        628.7959692872354,
+        488.66280484864285
+      ],
+      "baseline_counter_area": 14125.26152940281,
+      "baseline_counter_bounds": [
+        529.1378084911379,
+        218.61922014059346,
+        613.7952834692134,
+        449.35762464054125
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "300a8037edac0011c29c46442fef4b163660d7ffdcced2acca5249dac12a89a6",
+      "final_centerline_area": 22755.151456772444,
+      "final_centerline_bounds": [
+        514.121138,
+        203.613721,
+        627.918655,
+        488.662805
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13970.721865257503,
+      "final_counter_bounds": [
+        529.1217457534317,
+        218.6193037562725,
+        612.9179794460291,
+        449.10336070851315
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9890593413917597
+    },
+    {
+      "codepoint": "U+3E8C3",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "69051212628016df05f51a9df3142cbab547930b0e382cd1623ec026575c4773",
+      "baseline_centerline_area": 24734.218349864706,
+      "baseline_centerline_bounds": [
+        351.6388729800096,
+        353.9946155368776,
+        465.2045875733535,
+        605.6167428694155
+      ],
+      "baseline_counter_area": 15631.296112957543,
+      "baseline_counter_bounds": [
+        366.64361405947415,
+        368.99670474818555,
+        450.11130224106114,
+        588.400128801431
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "18970e7f7d3b75e81f224d52ac01912a8e57b2b96317f135c2882cc9ce8e486b",
+      "final_centerline_area": 19868.470479378753,
+      "final_centerline_bounds": [
+        383.185324,
+        353.994616,
+        474.410242,
+        605.616743
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 11349.162085142654,
+      "final_counter_bounds": [
+        398.18838343146655,
+        368.99785314921695,
+        459.35089207151276,
+        587.7653796112164
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7260538091741977
+    },
+    {
+      "codepoint": "U+3E8CE",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "6e3b1370b2128e9703d41a2df6d8a13f93a485dc1b0592e6f8fb305aac52c349",
+      "baseline_centerline_area": 35308.841053233096,
+      "baseline_centerline_bounds": [
+        652.6143962736801,
+        324.27269808655444,
+        776.6435861508178,
+        630.9639162225503
+      ],
+      "baseline_counter_area": 24480.079636694572,
+      "baseline_counter_bounds": [
+        667.6238155593019,
+        340.3784506534633,
+        761.6435535480375,
+        615.961434861482
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "d662e859cae04dff6ceec0cb988bf6e0eebc7761d046968342cd5508dbdf1a0a",
+      "final_centerline_area": 28362.839514850333,
+      "final_centerline_bounds": [
+        624.952548,
+        324.272698,
+        724.582553,
+        630.963916
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 18116.913219401446,
+      "final_counter_bounds": [
+        639.9586268453869,
+        340.7752857149404,
+        709.5825319627527,
+        615.960070690305
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.740067576914455
+    },
+    {
+      "codepoint": "U+3E8E2",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "0ccee210f70eaaf94e1f06719042c6e24f4e60ccc524ebb7ba63fd0143d68c5e",
+      "baseline_centerline_area": 30112.586626000775,
+      "baseline_centerline_bounds": [
+        293.37796051128834,
+        49.60518355036935,
+        494.2727740246183,
+        215.2159472594917
+      ],
+      "baseline_counter_area": 21228.75012684867,
+      "baseline_counter_bounds": [
+        308.3854896370088,
+        64.60582006838474,
+        479.2710670268452,
+        200.21102659363598
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3336d8120b21d61887a77ff959ac64b979889a04b1c4b29a049636529780a0a9",
+      "final_centerline_area": 24188.799095822993,
+      "final_centerline_bounds": [
+        336.385575,
+        49.605184,
+        497.760097,
+        215.215947
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 16346.054907585738,
+      "final_counter_bounds": [
+        351.3904340134149,
+        64.60617043988744,
+        482.75899548994585,
+        200.20832218027624
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7699961048065833
+    },
+    {
+      "codepoint": "U+3E8E4",
+      "path_index_zero_based": 14,
+      "baseline_svg_sha256": "a4d993c25602d753a9945f3bfbe401327562ad4fed038fbfa877b4aeaf81c647",
+      "baseline_centerline_area": 34783.95343167099,
+      "baseline_centerline_bounds": [
+        687.2252713618363,
+        380.36506603329974,
+        812.3966657718165,
+        688.3195347047106
+      ],
+      "baseline_counter_area": 24128.7133596931,
+      "baseline_counter_bounds": [
+        702.2253459384578,
+        398.84612956867556,
+        797.3966421478407,
+        673.3161211540722
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e5d550f869251e3d1dd8da5fe696b4613a59951655e68e6fa3a739c88cb16b4c",
+      "final_centerline_area": 27941.208459925292,
+      "final_centerline_bounds": [
+        652.754726,
+        380.365066,
+        753.30224,
+        688.319535
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 17860.4684330898,
+      "final_counter_bounds": [
+        667.7547741224156,
+        399.4929304110487,
+        738.302224750585,
+        673.3142475618193
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7402163624242654
+    },
+    {
+      "codepoint": "U+3E8E4",
+      "path_index_zero_based": 17,
+      "baseline_svg_sha256": "a4d993c25602d753a9945f3bfbe401327562ad4fed038fbfa877b4aeaf81c647",
+      "baseline_centerline_area": 34907.479272996796,
+      "baseline_centerline_bounds": [
+        497.96209270075985,
+        384.22409875768057,
+        624.5691036509879,
+        689.0
+      ],
+      "baseline_counter_area": 24267.02972144501,
+      "baseline_counter_bounds": [
+        512.9656247601739,
+        400.9016162757721,
+        609.5580101671973,
+        673.9898393432597
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "e5d550f869251e3d1dd8da5fe696b4613a59951655e68e6fa3a739c88cb16b4c",
+      "final_centerline_area": 28040.43423482424,
+      "final_centerline_bounds": [
+        500.723648,
+        384.224099,
+        602.424362,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 17979.86325096743,
+      "final_counter_bounds": [
+        515.7259272212196,
+        401.3370674911695,
+        587.4172022245912,
+        673.9842562845331
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7409173457713472
+    },
+    {
+      "codepoint": "U+3E9B1",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "f94031249d277e0b6ef136eff283d5bea826c3d1b66e3641cba5622906aac6b5",
+      "baseline_centerline_area": 10801.037312666554,
+      "baseline_centerline_bounds": [
+        291.98168729690957,
+        129.53065661106564,
+        467.546615846329,
+        206.5579919215234
+      ],
+      "baseline_counter_area": 5290.781133450499,
+      "baseline_counter_bounds": [
+        307.04935443254163,
+        144.5338970284071,
+        452.478948710697,
+        191.55475150418195
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "427a2a584c1f5a8e5661303b65a263dd824b2b910e71f63f4dafa49c456bc5ca",
+      "final_centerline_area": 8676.243077162431,
+      "final_centerline_bounds": [
+        335.263978,
+        129.530657,
+        476.291544,
+        206.557992
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 4096.908017751608,
+      "final_counter_bounds": [
+        350.30767567357924,
+        144.53567857757264,
+        461.24784632642076,
+        191.55297037698332
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7743484212282506
+    },
+    {
+      "codepoint": "U+3EB85",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "87bed444642911de947a5b4502e9e0fd7b6923e74f6ada6610c6a617c00b61b9",
+      "baseline_centerline_area": 8220.21612306148,
+      "baseline_centerline_bounds": [
+        418.8814445161594,
+        531.6149908712873,
+        602.9355141707202,
+        583.3210092276245
+      ],
+      "baseline_counter_area": 2745.374259142361,
+      "baseline_counter_bounds": [
+        433.9072213404751,
+        546.6154960156366,
+        587.9089357173881,
+        568.3209999210333
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "b7e024614c77cabff9abb3c1436525eaf5b55e270abbe99c47a09a38575acbf3",
+      "final_centerline_area": 5832.095049254657,
+      "final_centerline_bounds": [
+        445.934065,
+        531.614991,
+        576.517107,
+        583.321009
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1860.774031321254,
+      "final_counter_bounds": [
+        460.9470456090668,
+        546.6159945093716,
+        561.5037224583716,
+        568.3209905129825
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.677785196362462
+    },
+    {
+      "codepoint": "U+3EBA5",
+      "path_index_zero_based": 8,
+      "baseline_svg_sha256": "07a7bca48c74fa1991753c532dea700e1174cb8328e51741d67c53669ca0b45e",
+      "baseline_centerline_area": 1774.8630678252964,
+      "baseline_centerline_bounds": [
+        366.04102855710437,
+        564.4696731000853,
+        418.989873145073,
+        607.2058576794828
+      ],
+      "baseline_counter_area": 221.97361533174433,
+      "baseline_counter_bounds": [
+        381.070355473569,
+        579.482125915329,
+        403.9605462286084,
+        592.1934048642391
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "527a4f5b110df86eb4197eb0d863397947aaffe892f782b8aadad5ca0955284d",
+      "final_centerline_area": 1425.7096855260331,
+      "final_centerline_bounds": [
+        394.754269,
+        564.469673,
+        437.286947,
+        607.205858
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 124.56010022092663,
+      "final_counter_bounds": [
+        409.7731990378931,
+        579.4889675882413,
+        422.26801730671,
+        592.1865634117587
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.5611482249129874
+    },
+    {
+      "codepoint": "U+3ED13",
+      "path_index_zero_based": 18,
+      "baseline_svg_sha256": "da5439f1ac8e693ace29ee35b780b1777f844baec87aed4926d5c3bc4ce27ead",
+      "baseline_centerline_area": 33165.93848491418,
+      "baseline_centerline_bounds": [
+        519.8111242386556,
+        531.144790329884,
+        763.3297976717258,
+        681.9402724487982
+      ],
+      "baseline_counter_area": 23584.627587258703,
+      "baseline_counter_bounds": [
+        534.9238558285092,
+        546.1467349226583,
+        748.3290160074752,
+        666.9369899608099
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "c541bbb1ba9da1256cbcd7bdb2c8ca3591231a753a8d5660f448a555ec70ed69",
+      "final_centerline_area": 26641.491584487423,
+      "final_centerline_bounds": [
+        518.27451,
+        531.14479,
+        713.88787,
+        681.940272
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 18353.0744180162,
+      "final_counter_bounds": [
+        533.3473507906793,
+        546.1478035631085,
+        698.8873656125875,
+        666.9351856864283
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7781795302941826
+    },
+    {
+      "codepoint": "U+3ED16",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "52a9db79b4547e8a169464e8242d7930a58c7240adc6c07b8fe63cef8aebaf79",
+      "baseline_centerline_area": 21702.513640571022,
+      "baseline_centerline_bounds": [
+        501.9507980795598,
+        138.82070389675957,
+        759.181258521543,
+        236.84330090357219
+      ],
+      "baseline_counter_area": 13266.193670824885,
+      "baseline_counter_bounds": [
+        516.9590993502738,
+        153.8229738508504,
+        744.1487135337735,
+        221.84103136834216
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "89fb982776b00f7bb3f060011eee39ea691d1da2c86938d7dc238cc19ecac0bf",
+      "final_centerline_area": 18238.87270811552,
+      "final_centerline_bounds": [
+        503.554614,
+        138.820704,
+        719.732044,
+        236.843301
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 10933.88305990294,
+      "final_counter_bounds": [
+        518.5604781405466,
+        153.82391783195493,
+        704.7090496747292,
+        221.84008790140587
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8241914245492149
+    },
+    {
+      "codepoint": "U+3ED38",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "3a7eac47baffb2eb1e16dd9d1f1ccd937d45a3d3d86fc42554218d97c751a200",
+      "baseline_centerline_area": 7033.507643694824,
+      "baseline_centerline_bounds": [
+        587.0374507613595,
+        95.67939779876133,
+        734.3694258795671,
+        149.5717816346015
+      ],
+      "baseline_counter_area": 2488.4883636235318,
+      "baseline_counter_bounds": [
+        602.2916241262932,
+        110.67950292985167,
+        719.3459894089785,
+        134.5715298860273
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3dba0b106f7bac9bfc46fe342165d92b058998bfc0a20aeeae1bc9379cacfc42",
+      "final_centerline_area": 5764.825555136034,
+      "final_centerline_bounds": [
+        573.50243,
+        95.679398,
+        694.259125,
+        149.571782
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 1955.4887448527434,
+      "final_counter_bounds": [
+        588.6738496947877,
+        110.67955449592846,
+        679.2433586037571,
+        134.57140725389476
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7858138994892955
+    },
+    {
+      "codepoint": "U+3F053",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "e30863b7a0e20ce9672fa7221cf5fd660b65c7925fdae4456737f7bb633349ab",
+      "baseline_centerline_area": 27627.60540683814,
+      "baseline_centerline_bounds": [
+        568.8018280118347,
+        230.39566913395305,
+        682.7763696496746,
+        505.65295139400274
+      ],
+      "baseline_counter_area": 18174.60465770352,
+      "baseline_counter_bounds": [
+        583.8072962018714,
+        248.12537615558077,
+        667.7717887249419,
+        490.6467365645429
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "4d93e805f084c694dce68377bdc265d544962cb6dce84bbe337f355c2e95d3e3",
+      "final_centerline_area": 22192.66664315249,
+      "final_centerline_bounds": [
+        557.627698,
+        230.395669,
+        649.181018,
+        505.652951
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13254.915419808762,
+      "final_counter_bounds": [
+        572.6312267896012,
+        249.06928466065906,
+        634.1780619345477,
+        490.64332113121964
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7293096972093152
+    },
+    {
+      "codepoint": "U+3F084",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "f9048ec9c9f8db0ae6f33a8622d77613ebfc38b7ee29be086c243f3bf458c5e0",
+      "baseline_centerline_area": 40231.16871741983,
+      "baseline_centerline_bounds": [
+        521.2117861301911,
+        37.45123149158384,
+        780.6166330642991,
+        218.9925059164621
+      ],
+      "baseline_counter_area": 29574.124623841326,
+      "baseline_counter_bounds": [
+        536.2644069658683,
+        52.46623051450258,
+        765.6089922428503,
+        203.99197805833202
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "05159aa9aeaa173e494ef3921423d83e019e1d3e063a661443598691e663a273",
+      "final_centerline_area": 30941.707386177815,
+      "final_centerline_bounds": [
+        519.084765,
+        37.451231,
+        718.592489,
+        218.992506
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 21841.8153695743,
+      "final_counter_bounds": [
+        534.1159236146651,
+        52.515920805515535,
+        703.5879688639147,
+        203.9916136371657
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7385447801882329
+    },
+    {
+      "codepoint": "U+3F084",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "f9048ec9c9f8db0ae6f33a8622d77613ebfc38b7ee29be086c243f3bf458c5e0",
+      "baseline_centerline_area": 44871.74642838283,
+      "baseline_centerline_bounds": [
+        477.50389290580614,
+        274.74641010948363,
+        814.9608147872302,
+        410.89895647903
+      ],
+      "baseline_counter_area": 32253.706027084005,
+      "baseline_counter_bounds": [
+        492.50389290580614,
+        289.74641010948363,
+        799.9608147872302,
+        395.89895647903
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "05159aa9aeaa173e494ef3921423d83e019e1d3e063a661443598691e663a273",
+      "final_centerline_area": 34510.76597788058,
+      "final_centerline_bounds": [
+        485.469116,
+        274.74641,
+        745.006527,
+        410.898956
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 24130.73144367189,
+      "final_counter_bounds": [
+        500.469116,
+        289.74641,
+        730.006527,
+        395.898956
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7481537601728276
+    },
+    {
+      "codepoint": "U+3F235",
+      "path_index_zero_based": 22,
+      "baseline_svg_sha256": "f65a4c6e5e9d9e35839a26aea2919afdedefc0c2b8cd719a7b006f5fd98057d3",
+      "baseline_centerline_area": 14337.59726885591,
+      "baseline_centerline_bounds": [
+        586.9418102800964,
+        199.16545375873994,
+        722.1303192710504,
+        319.0990877160324
+      ],
+      "baseline_counter_area": 8548.444222097642,
+      "baseline_counter_bounds": [
+        601.9564580866565,
+        214.17282667820913,
+        707.1178796313787,
+        303.9779298086435
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "3a6f8a336a1c3adbb3c08662c36718c2088b097c55eab67f36034e7a241a6873",
+      "final_centerline_area": 11639.528441381055,
+      "final_centerline_bounds": [
+        572.839157,
+        199.165454,
+        682.587706,
+        319.099088
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6494.482429553849,
+      "final_counter_bounds": [
+        587.8488139936835,
+        214.17663902813214,
+        667.5795062856016,
+        303.97588640627805
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.759726829914346
+    },
+    {
+      "codepoint": "U+3F341",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "f35a4c2db28f35e9f5f7ab505f85ea5107ab7204b3145fde2deef54467ea15ab",
+      "baseline_centerline_area": 14322.960395113123,
+      "baseline_centerline_bounds": [
+        626.566307366179,
+        130.06065713510782,
+        729.1639052233179,
+        330.3946943572656
+      ],
+      "baseline_counter_area": 7853.112904871866,
+      "baseline_counter_bounds": [
+        641.5763957254067,
+        145.16603504637987,
+        714.1588810579838,
+        307.33294589295184
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2dba3945a3957e52f3b1217400e64933816966fbf0995fea73620d457dd50dc3",
+      "final_centerline_area": 14255.335968696654,
+      "final_centerline_bounds": [
+        626.025394,
+        130.060657,
+        728.138588,
+        330.394694
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 7795.031313064043,
+      "final_counter_bounds": [
+        641.0353874233505,
+        145.17600347129232,
+        713.1336111402552,
+        307.2330103824357
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9926040039776086
+    },
+    {
+      "codepoint": "U+3F5B4",
+      "path_index_zero_based": 0,
+      "baseline_svg_sha256": "09e8c1886a3c5a1317b09605bd73833a0599c486a3f8147d0d3faa3070c7cd90",
+      "baseline_centerline_area": 90818.22276732574,
+      "baseline_centerline_bounds": [
+        341.1991843639965,
+        10.000000000000007,
+        682.8008156360036,
+        630.0
+      ],
+      "baseline_counter_area": 69203.9366572493,
+      "baseline_counter_bounds": [
+        370.93663692965515,
+        51.43823168959974,
+        667.799869835087,
+        597.2140511700736
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "4e61a39e1911da7801c9535dedf6baf0f77eb2e406a5383629fa4bb3b0bb7a65",
+      "final_centerline_area": 128677.41966888901,
+      "final_centerline_bounds": [
+        308.691932,
+        -49.0,
+        715.308068,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 102686.89691223622,
+      "final_counter_bounds": [
+        338.81587007083164,
+        -7.483727953179253,
+        700.3071221953351,
+        655.8556812756452
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 1.4838302829623709
+    },
+    {
+      "codepoint": "U+3F5E8",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "ae84badcb3cf220ac8ac93226fcfa6eef139f76d3c42a727d992033a53bdc67d",
+      "baseline_centerline_area": 23758.704551115807,
+      "baseline_centerline_bounds": [
+        445.42105104856574,
+        507.1620134197319,
+        588.9477753807053,
+        687.3387439263456
+      ],
+      "baseline_counter_area": 15950.909445085046,
+      "baseline_counter_bounds": [
+        460.4217997937193,
+        522.1622393098197,
+        573.9471673602263,
+        672.3351252777288
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "cc40e00d76e14d98ec542cf2ea9f8ef6cec92789599483dab218c6118622cb4a",
+      "final_centerline_area": 23257.921184513736,
+      "final_centerline_bounds": [
+        446.824395,
+        507.162013,
+        587.325879,
+        687.338744
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15528.512367458277,
+      "final_counter_bounds": [
+        461.82511251620195,
+        522.1622487243599,
+        572.3252963373756,
+        672.3349678728538
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9735189345108518
+    },
+    {
+      "codepoint": "U+3F5E8",
+      "path_index_zero_based": 13,
+      "baseline_svg_sha256": "ae84badcb3cf220ac8ac93226fcfa6eef139f76d3c42a727d992033a53bdc67d",
+      "baseline_centerline_area": 24048.30402590939,
+      "baseline_centerline_bounds": [
+        652.201237635936,
+        507.095993795603,
+        796.1120216989852,
+        689.0
+      ],
+      "baseline_counter_area": 16192.928875352403,
+      "baseline_counter_bounds": [
+        667.202982064649,
+        522.096224918087,
+        781.1106826323526,
+        673.9987611128427
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "cc40e00d76e14d98ec542cf2ea9f8ef6cec92789599483dab218c6118622cb4a",
+      "final_centerline_area": 23541.41650458786,
+      "final_centerline_bounds": [
+        649.246091,
+        507.095994,
+        790.12354,
+        689.0
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 15764.442483946035,
+      "final_counter_bounds": [
+        664.2477626689753,
+        522.0962351880255,
+        775.1222567722584,
+        673.9987071991766
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.9735386726697369
+    },
+    {
+      "codepoint": "U+3F757",
+      "path_index_zero_based": 2,
+      "baseline_svg_sha256": "20f2344aeab9d5a498b3db016622093f87dba9a2d21ccdfd339ec2779a4d5808",
+      "baseline_centerline_area": 23354.25228064222,
+      "baseline_centerline_bounds": [
+        544.489435203552,
+        203.34295785060888,
+        788.947765961376,
+        311.2489399709865
+      ],
+      "baseline_counter_area": 14901.860375939299,
+      "baseline_counter_bounds": [
+        559.4912011332392,
+        218.34295785060888,
+        773.938024436392,
+        296.24729974860924
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "f9bcfa630b5629f8518b6d4dd4fe8fe05d8c16c64ece42ec1c3d23fbdc07ca6e",
+      "final_centerline_area": 18759.973137576184,
+      "final_centerline_bounds": [
+        538.098071,
+        203.342958,
+        734.466238,
+        311.24894
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 11627.028054500895,
+      "final_counter_bounds": [
+        553.0992106913681,
+        218.342958,
+        719.4599513850914,
+        296.24639812480024
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.780240034544547
+    },
+    {
+      "codepoint": "U+3F75B",
+      "path_index_zero_based": 6,
+      "baseline_svg_sha256": "f413951d597b3778a68b5e621a4b7ba393c67363b17d360adb810d4a5d413698",
+      "baseline_centerline_area": 28756.45125292215,
+      "baseline_centerline_bounds": [
+        600.2939945083881,
+        173.79167377658155,
+        733.2393693396665,
+        495.0201044023822
+      ],
+      "baseline_counter_area": 18555.804966597912,
+      "baseline_counter_bounds": [
+        615.2950358731597,
+        189.06074383695884,
+        718.2385243639826,
+        457.06186498473016
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "60efa1bd23b2aa03b5424ac6d9d665d61e489bb58c2cf3c79263b73a93af57d8",
+      "final_centerline_area": 23099.44445800853,
+      "final_centerline_bounds": [
+        582.924684,
+        173.791674,
+        689.71687,
+        495.020104
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 13436.067628956678,
+      "final_counter_bounds": [
+        597.9253559887576,
+        189.6206766491084,
+        674.7163246769345,
+        448.660601067138
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7240897203404965
+    },
+    {
+      "codepoint": "U+3FA68",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "b3b37a43380d0d636025fafc9339f07ab4e63ad0fed5a14d9fb158247389245d",
+      "baseline_centerline_area": 30561.15065592884,
+      "baseline_centerline_bounds": [
+        284.6117062986823,
+        20.265412359430677,
+        463.64889254853057,
+        214.14290608835034
+      ],
+      "baseline_counter_area": 21784.152825872112,
+      "baseline_counter_bounds": [
+        299.6159829999835,
+        35.26555908883867,
+        448.6459485508346,
+        199.06007958082358
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "eeb2ade9d227592b99cdb095b957bd46fc5d57995aa7c9751a34ec53f072a9bd",
+      "final_centerline_area": 24549.12101093855,
+      "final_centerline_bounds": [
+        329.34383,
+        20.265412,
+        473.160586,
+        214.142906
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 16645.32767455492,
+      "final_counter_bounds": [
+        344.3465897181708,
+        35.26563939807619,
+        458.15868514857146,
+        198.8374660533002
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7641025936425663
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 10,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 9293.781888499985,
+      "baseline_centerline_bounds": [
+        207.0,
+        151.26462351152054,
+        329.97005120761173,
+        246.171577408344
+      ],
+      "baseline_counter_area": 4781.973005057303,
+      "baseline_counter_bounds": [
+        222.05171370436435,
+        166.3363675229328,
+        314.968104509769,
+        230.85895977522546
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 7305.827437470075,
+      "final_centerline_bounds": [
+        272.239976,
+        151.264624,
+        368.906541,
+        246.171577
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3445.65602204969,
+      "final_counter_bounds": [
+        287.2719547241373,
+        166.38045137282904,
+        353.90533653630155,
+        230.5557470449852
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7205511236482607
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 11,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 8818.362229417813,
+      "baseline_centerline_bounds": [
+        208.92301997711195,
+        17.645165275422016,
+        330.37074210429597,
+        108.01578693140054
+      ],
+      "baseline_counter_area": 4425.003122102381,
+      "baseline_counter_bounds": [
+        223.93538727179356,
+        32.64625699365174,
+        315.3599208810033,
+        92.34541787134081
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 6932.100786810841,
+      "final_centerline_bounds": [
+        273.751659,
+        17.645165,
+        369.221524,
+        108.015787
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3188.4610181795965,
+      "final_counter_bounds": [
+        288.75930819166825,
+        32.64692973304646,
+        354.2148251877073,
+        92.16640513437227
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7205556539053274
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 15,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 9110.297406617186,
+      "baseline_centerline_bounds": [
+        383.53291727553534,
+        151.65027728122334,
+        506.0119384525786,
+        245.22009297475992
+      ],
+      "baseline_counter_area": 4653.692232764358,
+      "baseline_counter_bounds": [
+        398.5492058500945,
+        166.66122554821894,
+        490.86441908915174,
+        229.65015347233805
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 7161.5905793811025,
+      "final_centerline_bounds": [
+        411.012227,
+        151.650277,
+        507.292794,
+        245.220093
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3352.981506794808,
+      "final_counter_bounds": [
+        426.0222974991355,
+        166.6679893847025,
+        492.22952239639693,
+        229.45892317087436
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7204991948518027
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "path_index_zero_based": 16,
+      "baseline_svg_sha256": "4783b966c06ab74420dbcd906c7d709c0e53aba93ffb6c79c624d7d5390c3f35",
+      "baseline_centerline_area": 8900.900094227612,
+      "baseline_centerline_bounds": [
+        383.0906391208576,
+        17.0425242783214,
+        506.30863075972724,
+        107.32835680762773
+      ],
+      "baseline_counter_area": 4482.6367508026415,
+      "baseline_counter_bounds": [
+        398.1185252570058,
+        32.58048629349591,
+        491.3033153903838,
+        92.30604279549284
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "2712490ffb44253209f7ed5aff0f41c56eab56372f671cc6b0fd11015a14a628",
+      "final_centerline_area": 6996.9836814673545,
+      "final_centerline_bounds": [
+        410.664553,
+        17.042524,
+        507.526024,
+        107.328357
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 3235.1789610574556,
+      "final_counter_bounds": [
+        425.6817943758723,
+        32.72903603082833,
+        492.5227368177757,
+        92.26091292434529
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7217133889954788
+    },
+    {
+      "codepoint": "U+3FAD7",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "2cf8ca8e883e55f704ea9ea3fcaec70a8c53fbc77b88873f3c5aa71ec00d3282",
+      "baseline_centerline_area": 7346.594761719786,
+      "baseline_centerline_bounds": [
+        431.40154525901767,
+        477.65770424699963,
+        513.183771145224,
+        591.5281412744458
+      ],
+      "baseline_counter_area": 3381.9811342535304,
+      "baseline_counter_bounds": [
+        446.4021864241741,
+        493.80211706036073,
+        498.18141788104435,
+        573.2588135354675
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1b615f823276bd95a781c2fc54cb2e077264abc6814bb7b00093c03462d17b02",
+      "final_centerline_area": 5901.3629926659005,
+      "final_centerline_bounds": [
+        447.256979,
+        477.657704,
+        512.950898,
+        591.528141
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2303.369809239989,
+      "final_counter_bounds": [
+        462.257392867968,
+        494.4116224605799,
+        497.94937927079377,
+        572.6216032646316
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6810711585321685
+    },
+    {
+      "codepoint": "U+3FAD7",
+      "path_index_zero_based": 12,
+      "baseline_svg_sha256": "2cf8ca8e883e55f704ea9ea3fcaec70a8c53fbc77b88873f3c5aa71ec00d3282",
+      "baseline_centerline_area": 8286.723997262328,
+      "baseline_centerline_bounds": [
+        726.2471687409686,
+        297.84670328026516,
+        813.3906941115225,
+        418.67317884805044
+      ],
+      "baseline_counter_area": 4028.5227402668797,
+      "baseline_counter_bounds": [
+        741.248305353803,
+        314.9660403881785,
+        798.3862609930953,
+        401.6657092571523
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1b615f823276bd95a781c2fc54cb2e077264abc6814bb7b00093c03462d17b02",
+      "final_centerline_area": 6656.5487790505895,
+      "final_centerline_bounds": [
+        684.100185,
+        297.846703,
+        754.100721,
+        418.673179
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 2784.635163078417,
+      "final_counter_bounds": [
+        699.1009185276592,
+        315.55305713198936,
+        739.0978600206967,
+        401.28751710970505
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.6912298484118627
+    },
+    {
+      "codepoint": "U+3FBC9",
+      "path_index_zero_based": 3,
+      "baseline_svg_sha256": "bae090565f32b5b6fee6371aeaf939c4f2e73d037e1794f53c76734e7f3fa521",
+      "baseline_centerline_area": 58544.05690062658,
+      "baseline_centerline_bounds": [
+        328.0617152265326,
+        -49.0,
+        672.9931091547812,
+        143.03286270831813
+      ],
+      "baseline_counter_area": 45429.98067435184,
+      "baseline_counter_bounds": [
+        343.0671811545425,
+        -33.99939462691866,
+        657.9920776065345,
+        128.0322381049342
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "15b2560fb5cb7fcd316b462316b871a2e5172b36bc39ca8f057a14d157606020",
+      "final_centerline_area": 46861.707943884554,
+      "final_centerline_bounds": [
+        364.766231,
+        -49.0,
+        640.867258,
+        143.032863
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 35595.49011120316,
+      "final_counter_bounds": [
+        379.7697356245226,
+        -33.99905517329637,
+        625.8665969362756,
+        128.0318882782681
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7835242186510353
+    },
+    {
+      "codepoint": "U+3FBED",
+      "path_index_zero_based": 9,
+      "baseline_svg_sha256": "05096a5e1cb63479d147773226e69cb04d6610bc47394145191d704169abd7f3",
+      "baseline_centerline_area": 54527.0002854672,
+      "baseline_centerline_bounds": [
+        369.8213317461584,
+        -36.29685414061697,
+        650.4330633616976,
+        172.04989327291065
+      ],
+      "baseline_counter_area": 42007.808018612464,
+      "baseline_counter_bounds": [
+        384.82340759943736,
+        -21.28576055451822,
+        635.430781864475,
+        157.0481578401321
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "1d8016e2379720c19b54e23192f0e558f2ef12c13cd58cbd3ce812c2ed0512a6",
+      "final_centerline_area": 43800.3772976086,
+      "final_centerline_bounds": [
+        397.790906,
+        -36.296854,
+        623.20033,
+        172.049893
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 32778.92476470465,
+      "final_counter_bounds": [
+        412.7922455449055,
+        -21.260272254239936,
+        608.1988577890664,
+        157.04720358169047
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.7803055267768612
+    },
+    {
+      "codepoint": "U+3FC0F",
+      "path_index_zero_based": 19,
+      "baseline_svg_sha256": "73010fd3b051b1352eac4e6698322309506985e4338e56ce37e277686c07f8b6",
+      "baseline_centerline_area": 12923.133199810001,
+      "baseline_centerline_bounds": [
+        586.3899729569973,
+        366.390745588593,
+        684.011326412885,
+        547.8571979736532
+      ],
+      "baseline_counter_area": 6967.48377305658,
+      "baseline_counter_bounds": [
+        601.397682917138,
+        381.3976382209833,
+        669.0033713572512,
+        526.6870515749412
+      ],
+      "baseline_counter_parts": 1,
+      "final_svg_sha256": "44a4bcf11ba33d13c3b9212010dc01960b04d496313d62863a1ecf2b4ebe7342",
+      "final_centerline_area": 12030.59614583519,
+      "final_centerline_bounds": [
+        581.252224,
+        366.390746,
+        672.131352,
+        547.857198
+      ],
+      "final_ring_valid_simple": true,
+      "final_counter_area": 6213.014022465144,
+      "final_counter_bounds": [
+        596.2589060808156,
+        381.398698974574,
+        657.1244575822259,
+        525.9256836619141
+      ],
+      "final_counter_parts": 1,
+      "counter_area_ratio": 0.8917156070733904
+    }
+  ],
+  "elapsed_seconds": 0.15944228800026394,
+  "pre_freeze_source_svg_manifest_sha256": "ebcd9c68a4dcdaa60fa5543ead1343e822d99d6e35f10320553da149135e8fce",
+  "final_source_svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf"
+}

@@ -22,7 +22,7 @@ Chunks contain at most 64 glyphs, with up to four workers by default; `--workers
 
 ## Edit glyphs or shared radicals
 
-Preserve the SVG wrapper: `viewBox="0 0 1024 1024"`, the baseline-832 group transform, codepoint, advance and round-stroke attributes. Paths accept explicit absolute `M`, `L` and terminal `Z`, with one path per stroke. Retain full-precision coordinates; arbitrary transforms, filled shapes and other commands are rejected. Convert curves to sufficiently fine polylines before building.
+Preserve the SVG wrapper: `viewBox="0 0 1024 1024"`, the baseline-832 group transform, codepoint, advance and round-stroke attributes. Paths accept explicit absolute `M`, `L` and terminal `Z`, with one path per stroke. Current coordinates retain six decimal places; preserve that precision when editing. Arbitrary transforms, filled shapes and other commands are rejected. Convert curves to sufficiently fine polylines before building.
 
 After an intentional individual edit:
 
@@ -44,7 +44,7 @@ python tools/build_normalized_fonts.py --svg-dir svg --output build
 
 Templates include exact placement. Preserve path count and closures; the updater changes only assigned paths, preserves unrelated paths and IDs, and refreshes hashes. It rejects overlapping assignments, missing paths, incompatible closures, unsupported constructs and stale glyph hashes. Different positions and allographs remain separate templates.
 
-The current size classes distinguish compounds from optically smaller simple/root forms. Rebuilding compiles those maintained coordinates; it does not force every glyph into one ink box. See [normalization policy](NORMALIZATION.md), [optical sizing](../reports/optical-sizing.json), [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json).
+The current optical profiles share a vertical band for ordinary forms, with shorter sparse forms and naturally varying widths. Rebuilding compiles those maintained coordinates. See [normalization policy](NORMALIZATION.md) and [optical sizing](../reports/optical-sizing.json). The [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json) reports retain their v1.0 source scope.
 
 ## Validation and endpoint cleanup
 
@@ -55,7 +55,7 @@ python -m unittest discover -s tests
 python tools/cleanup_caps.py --check
 ```
 
-The prior **11-test builder fixture result is reused** for v1.0.0 because the builder and fixtures are unchanged. It is not reported as eleven newly executed tests. Current source, contact, shared-component and compiled-output checks have their own revision-bound reports.
+All **11 existing fixture tests were rerun for v1.1.0**, after updating the font version metadata. Current source, contact, shared-component and compiled-output checks have their own revision-bound reports.
 
 The tests cover mixed SVG fixtures, static/variable output, named weights, default-master geometry, webfont coverage, stale source rejection, topology fallback and component propagation. They require compatible masters, exact Regular coordinates, at most one font unit of named-instance coordinate/sidebearing error and unchanged 1024-unit advances. The legacy `tools/svg_font.py` Regular builder and its optional `SEAL_PRODUCTION_REGULAR` comparison remain historical tools, not exact-byte checks for the current compact font.
 

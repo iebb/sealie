@@ -99,9 +99,9 @@ def make_font(glyphs, cps, family, style, weight, variable=False):
     fb.setupNameTable({
         'copyright':'Copyright 2026 ieb and Sealie contributors.',
         'familyName':family, 'styleName':style,
-        'uniqueFontIdentifier':f'{base};1.0;{style}',
+        'uniqueFontIdentifier':f'{base};1.1;{style}',
         'fullName':family+' '+style, 'psName':base+'-'+style,
-        'version':'Version 1.0; normalized SVG source',
+        'version':'Version 1.1; optical alignment from SVG source',
         'description':'Small Seal rounded monoline; SVG sources and normalization history accompany this font.',
         'licenseDescription':'Licensed under the SIL Open Font License, Version 1.1.',
         'licenseInfoURL':'https://openfontlicense.org/',
@@ -114,7 +114,7 @@ def make_font(glyphs, cps, family, style, weight, variable=False):
     fb.setupPost(keepGlyphNames=True)
     fb.setupMaxp()
     fb.font['head'].created = fb.font['head'].modified = 3875126400
-    fb.font['head'].fontRevision = 1.0
+    fb.font['head'].fontRevision = 1.1
     fb.font['head'].macStyle = 1 if weight >= 700 else 0
     fb.font.recalcTimestamp = False
     if variable:

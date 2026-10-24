@@ -6,7 +6,7 @@ English · [简体中文](README.zh-CN.md)
 
 ![Sealie — Small Seal typography inspired by the Dao De Jing](marketing/sealie-marketing.png)
 
-Sealie brings the flowing structures of Small Seal script into a clean, monoline typeface. Rounded stroke ends, even weight and generous spaces give its characters a calm, geometric rhythm. It is designed for display typography: titles, posters, book covers, seal-inspired graphics and character studies.
+Sealie brings the flowing structures of Small Seal script into a clean, monoline typeface. Rounded stroke ends, even weight and generous spaces give its characters a calm, geometric rhythm. Slender proportions and coordinated body heights balance simple and complex forms. It is designed for display typography: titles, posters, book covers, seal-inspired graphics and character studies.
 
 The family covers **11,328 Small Seal characters** and includes a **300–700 variable font** alongside five static weights. All characters have a fixed advance, making the font suitable for horizontal text, vertical arrangements and square compositions.
 

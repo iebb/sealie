@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" data-codepoint="U+3FBAD" data-advance="1024" data-schema="seal-centerline-1">
   <g transform="matrix(1 0 0 -1 0 832)" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
-    <path id="stroke-1" d="M 511.3102531255574 562.758857772949 L 511.3102531255574 78.62063597593612" />
-    <path id="stroke-2" d="M 252.00000000000006 321.3794937488851 L 772.0 321.3794937488851" />
-    <path id="stroke-3" d="M 292.0002594496425 77.24114222705097 L 730.6210900128102 77.24114222705097" />
-    <path id="stroke-4" d="M 294.7584037360749 562.758857772949 L 729.2415962639251 562.758857772949" />
+    <path id="stroke-1" d="M 511.376575 630.0 L 511.376575 11.761596" />
+    <path id="stroke-2" d="M 277.0 321.761596 L 747.0 321.761596" />
+    <path id="stroke-3" d="M 313.154081 10.0 L 709.599831 10.0" />
+    <path id="stroke-4" d="M 315.647019 630.0 L 708.352981 630.0" />
   </g>
 </svg>

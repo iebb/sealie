@@ -1,0 +1,1268 @@
+{
+  "status": "accepted",
+  "revision": "v1.1.0",
+  "source_svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf",
+  "component_manifest_sha256": "ec2ac7453fbef9815605f315922cafaface2c6f3ec7bd99939552799e0de7120",
+  "reviewed_unique_glyphs": 143,
+  "primary_sample_count": 94,
+  "initial_wide_shape_additional_unique": 14,
+  "reference_tier_additional_unique": 24,
+  "final_guard_additional_unique": 11,
+  "pre_guard_source_samples": 132,
+  "exact_source_visual_proofs_reused": 122,
+  "final_guard_changed_previous_samples_visually_rereviewed": 10,
+  "largest_shared_cohort_limiting_glyph_reviewed": "U+3EE69",
+  "deterministic_stratified_width_relaxed_additional_samples": 10,
+  "review_scope": "Independent source-SVG ink review at fixed Regular30. Source renderings compare published v1 with current candidate, and include common literature forms, first16 codepoints, previous user royal strip, all21 former contact-limited cases, wide primitives, known reference compact roots and enclosures, five shared-component positions, final guard deltas, and ten stratified width relaxations. Byte-identical source drawings reuse their already viewed visual proofs. Final width relaxations are individually viewed at the sample level.",
+  "full_repertoire_visual_review_claimed": false,
+  "compiled_font_visual_review_claimed": false,
+  "reference_outlines_copied": false,
+  "all_reference_font_metrics_measured_claimed": false,
+  "findings": [
+    "Dao/Ke/Fei/Chang/Ming now share768unitbodyheight and retain narrow variedwidths490/470/450/470/450.",
+    "Measured reference tiers correctly keep Wang/Gong and simple enclosures optically shorter, while horizontalbarcounts retain coherent440/540/640heightsteps.",
+    "Bare mouth U3D374 sizing alias to口 is verified from canonical standalone Seal radical22.3D374 and dictionary identification of MCJK20675𠙵 as ancient口.",
+    "No new visual policy defect found in final width-relaxed source samples. Rare densely composed U3DAFB/U3DAFF remain wider at about723/751units; their bodyheight nowmatches768, and sourcepathsremainreadable.",
+    "Exact shared geometry is retained by coherent cohort width; some large cohorts staywider to avoid new Regular contacts. This review accepts a common optical height and shape-dependentwidth, not one identical boundingbox for allglyphs."
+  ],
+  "limitations": [
+    "This is sampled optical review, separate from complete geometry guards and compiled outline validation.",
+    "Contact-safe widths can exceed the preferred520unitwidth; this is intentionally documented, not a claim of perfect width uniformity.",
+    "The source ink images do not constitute independent visual proof at every variablefontweight."
+  ],
+  "bare_mouth_alias_evidence_sha256": "ccbb6121e2c58002091806b4d7ca52e397d3fb15f6a63f0b584b28c20bb486ec",
+  "final_reconciliation_sha256": "5da543ec5f4e0d781e6960b7e2ddca0a2080edb7085c13534e0c6db3f7d24932",
+  "source_sample_glyphs": [
+    {
+      "codepoint": "U+3D55D",
+      "modern": "道",
+      "final_svg_sha256": "753566c81ffc8216693a87ccc26e9be48c0a7931b2e5d12df882022349362e2b",
+      "ink_width": 490.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DDE5",
+      "modern": "可",
+      "final_svg_sha256": "0bdaa7051e34f96c63901550c91fbc8e4a560dfa77c5454d69f1ad25aecec470",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F271",
+      "modern": "非",
+      "final_svg_sha256": "7ed27ee8b21e642415f24e4c88cd699dfda48f75ca3dd85ae620f567a1302476",
+      "ink_width": 450.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E611",
+      "modern": "常",
+      "final_svg_sha256": "be1631e10aff75086d90df80a7f1b7a36da99cd5b929b7d636c59faf9737da8c",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D3B3",
+      "modern": "名",
+      "final_svg_sha256": "e6e0d46a7acf4ca3ee65cba401d96a38f2943761862c4713a3340ed44c8a2d06",
+      "ink_width": 450.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D000",
+      "modern": "一",
+      "final_svg_sha256": "e4c88636f80a0c2d208225a60659dc0f855dd9a2860aa026596781a2ce02e678",
+      "ink_width": 470.0,
+      "ink_height": 30.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D066",
+      "modern": "三",
+      "final_svg_sha256": "9b54e837a1ef56388b856bcea6b9f93cf14687541ef90b30a5717a66cc7dd547",
+      "ink_width": 430.0,
+      "ink_height": 540.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D068",
+      "modern": "王",
+      "final_svg_sha256": "70d9d5d1b4e7fdf31b7719b3a77c3ce9e39067afb55515bfde09c2010e369679",
+      "ink_width": 430.0,
+      "ink_height": 620.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F859",
+      "modern": "土",
+      "final_svg_sha256": "7c28eaabc1caa990a96f9b0b15ddd9e0d2d9bfeff8a8ce3fb7bfe81199e0f7d5",
+      "ink_width": 430.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D113",
+      "modern": "士",
+      "final_svg_sha256": "09d8c38ae9d5038ed2dfc297294be7d24da29c32cfee49e8159050be8ba47bd5",
+      "ink_width": 450.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DDBF",
+      "modern": "工",
+      "final_svg_sha256": "a0f13ae7dcbc6cb987aed6524c5ea838d6d2e9e19eececba1e590552a90c308f",
+      "ink_width": 430.0,
+      "ink_height": 580.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D67E",
+      "modern": "十",
+      "final_svg_sha256": "813cac0274c397b44f27026fd5baf2cffc3b5d1685f8bd07bb9fcc0b8fc2e737",
+      "ink_width": 470.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E2F3",
+      "modern": "日",
+      "final_svg_sha256": "e1e7cd1336c918697b08806b4bf61b5bf92cbdc99d56f87cb5031e0482003d91",
+      "ink_width": 360.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E37E",
+      "modern": "月",
+      "final_svg_sha256": "e42b6bfaed1d33c0a3f9397fb8c14b7ebd99dccbf09ece05494a29ccdde4e731",
+      "ink_width": 430.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DFA9",
+      "modern": "木",
+      "final_svg_sha256": "203d7601997f2381c60cf0c39eed287a0701f504ae5cbbef297ed676c1047177",
+      "ink_width": 380.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EF5E",
+      "modern": "水",
+      "final_svg_sha256": "d551eb6ee98d90d7b8577e55a1d1d545ff4dc1b013d6915995b85f1a60764185",
+      "ink_width": 380.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EA5A",
+      "modern": "山",
+      "final_svg_sha256": "9cc4f349feae252d18bfca9425ec0eb8b043240b192cd3a949fcf35ee8d5ad44",
+      "ink_width": 380.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E66C",
+      "modern": "人",
+      "final_svg_sha256": "4b1c09e0b38cf16d87f241cf8a2d84b5f9aa58f53479ac00b368b8790570bde8",
+      "ink_width": 380.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EDB1",
+      "modern": "大",
+      "final_svg_sha256": "dc2630ac7ba4824dccfa725a1204d5d5aaa76d9649e00e0bd7c88ff2bd37cd3c",
+      "ink_width": 450.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D119",
+      "modern": "中",
+      "final_svg_sha256": "844dfc1fa5e4d849f5e708df06b4648685a708108da4e73c7f92ef673ddd39ee",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D008",
+      "modern": "上",
+      "final_svg_sha256": "87a18cb20f39b34421ba3f96a5fda7793e5e81062bb0501e76a5ff4577d614e2",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D011",
+      "modern": "下",
+      "final_svg_sha256": "b14073ccc5682af72d8e40ebe80cad26d4a46bca3fa0ad27c713b0130e269230",
+      "ink_width": 430.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D4C4",
+      "modern": "正",
+      "final_svg_sha256": "e86478b51137e864b959493d6e3d11b28297e584595e0621a41c8b9c7d07b786",
+      "ink_width": 430.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D06C",
+      "modern": "皇",
+      "final_svg_sha256": "cae4bd3b2b2f2c4a4beced7042626821498b4a0377522b71146a54d95dfeda5c",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D3DC",
+      "modern": "呈",
+      "final_svg_sha256": "12ddba86250c4cb3d04a279ad9fb144cc1e0f6a13fb6ed528ab6e6dc79a75309",
+      "ink_width": 430.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3FB8D",
+      "modern": "甲",
+      "final_svg_sha256": "8ad01d83c530ad4cc4eec23787cf2475107522bf3456a74fd3c220834bdaf41f",
+      "ink_width": 450.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3FBE1",
+      "modern": "申",
+      "final_svg_sha256": "557867f1ea83c3b5610bd5a6965dc181c88439144da8fcdd2a09332e6de2ac4c",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F912",
+      "modern": "田",
+      "final_svg_sha256": "88f6f7a37d20771e04de7c8d9711fd813e49bc29dc87ccd43f1ad4012d689501",
+      "ink_width": 400.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F60C",
+      "modern": "由",
+      "final_svg_sha256": "6597016ccf5f5ae4b144cecade7e5a2afb4370970865ae4975f5dd8f726484ee",
+      "ink_width": 400.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D97F",
+      "modern": "目",
+      "final_svg_sha256": "753ac189b8d209c08761a242b6f488e826333ba0a8017de7f5889aaab8230416",
+      "ink_width": 340.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D003",
+      "modern": "天",
+      "final_svg_sha256": "8713254e19c39d7a972a37324bcf9a4e5dbf10603a98ffa3149e9eb42eeb1ed6",
+      "ink_width": 450.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EE07",
+      "modern": "夫",
+      "final_svg_sha256": "245ff6ee51428e339dd6a0d0de6059fd454389bd9d5dde42b9cd7ff459b6b8d9",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3FBB0",
+      "modern": "子",
+      "final_svg_sha256": "ec9c7db594d5fa463efd338e6915df122dc28a6db4ac09b091a7c830465167f4",
+      "ink_width": 400.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F442",
+      "modern": "女",
+      "final_svg_sha256": "c3a6dddfc393d55e0f24f3214ce31d9704dd3c0636ff88dbed22c730dc49884c",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EE2A",
+      "modern": "心",
+      "final_svg_sha256": "b881af8001e83ec2f248dd9c0fb15d2d84c9c4528e8e4d0ca5362807fbe49eee",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3ECDC",
+      "modern": "火",
+      "final_svg_sha256": "b4691d231c4cf6278404bd5969dfe740a4ad80e8171cf44ff09f6adb8e0bfb58",
+      "ink_width": 400.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F979",
+      "modern": "金",
+      "final_svg_sha256": "bb57332367a4ae2be1fd6e43c08ec60b2e30e1e44b05db2661078774fcf65b34",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EB0A",
+      "modern": "石",
+      "final_svg_sha256": "c2b5f284cfc749c69ff45e6d1cff64bd6c6e193b1b838f5409aeb6a15589610c",
+      "ink_width": 400.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F30C",
+      "modern": "手",
+      "final_svg_sha256": "ae844da1258dc28d88ee1815d109e00467972e8b6678303fe25a890200bc10d7",
+      "ink_width": 380.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F2E0",
+      "modern": "耳",
+      "final_svg_sha256": "8eff35f458baee50a8a446b31a7158e16ee2efd345587a1978ec240abce50e86",
+      "ink_width": 320.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DAB3",
+      "modern": "鳥",
+      "final_svg_sha256": "b4db03fc47d7569244498d7795427a28eee84624fb7a57ac7f4da4fadc2a7658",
+      "ink_width": 449.045658,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3F1AF",
+      "modern": "雨",
+      "final_svg_sha256": "ff21c61279cd73412dec20c99da44b1d0476477777fde84b860612c80958c9ee",
+      "ink_width": 400.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EBA4",
+      "modern": "馬",
+      "final_svg_sha256": "0803092eaa725850c765d57ec69a73f44f6cb6de5692dc3d9fe5a5399137ab2d",
+      "ink_width": 424.34802399999995,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D689",
+      "modern": "言",
+      "final_svg_sha256": "d4b66864cf97c0b4b154456ba43d4adb905d68ac06bcec9f556e65d18ef3e423",
+      "ink_width": 430.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D001",
+      "modern": "弌",
+      "final_svg_sha256": "ed729cd918fdd198536f88d459802ba21b60dde2d75b944785104bdfbc2440af",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D002",
+      "modern": "元",
+      "final_svg_sha256": "9e5ca79bcadaf1175234a4e958a2e728f7514610b21023cdd1130f497cacc0f4",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D004",
+      "modern": "丕",
+      "final_svg_sha256": "e29816d8033a67650eb857625e0f70aac964c3a6d48824aa5255e09859175488",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D005",
+      "modern": "叓",
+      "final_svg_sha256": "a3ffb9c4e7ee560b28425c5a099f772265ad82fc5e990634f66d6c980b44c379",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D006",
+      "modern": "丄",
+      "final_svg_sha256": "d0c5598d0978a07be921505022a2ae40688dec22ba2c3b4c5e18241b0dffea5b",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D007",
+      "modern": "𠄞",
+      "final_svg_sha256": "0f855cfa25b221f518fc82a43a92c2bac869dd829ef6b839640c1c0d6802171c",
+      "ink_width": 430.0,
+      "ink_height": 440.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D009",
+      "modern": "帝",
+      "final_svg_sha256": "c4b917592136a6ea391cfded2c5dbd6c1ad0d9913f87a0b7269200af50874fc5",
+      "ink_width": 450.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D00A",
+      "modern": "𢂇",
+      "final_svg_sha256": "79620f0413d8ecf5e7e8b36c6179e12098724785836da3d3adb39e42ff0ebb1b",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D00B",
+      "modern": "㫄",
+      "final_svg_sha256": "e28b13c2147d6b575b253d7605fd842380b0dbc5d8f7df3732a095a7ef2c57a0",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D00C",
+      "modern": "𣃟",
+      "final_svg_sha256": "f73db395782593bcd43b6bdfaf818eed9792d3b3061ba7f2513f8584d9e103cb",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D00D",
+      "modern": "𣃙",
+      "final_svg_sha256": "8f2d72fe2acae6c9f6c6cf9613393424501e6694c929fb2d32a47a3cae3ec629",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D00E",
+      "modern": "雱",
+      "final_svg_sha256": "5b559caa886b5b7b0ef6af65886da8e608b2cb8bf9c1db16e0b302292c89462e",
+      "ink_width": 617.115174,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D00F",
+      "modern": "丅",
+      "final_svg_sha256": "278353eb5b99aa51281dc9071e782483b710564cbd1ebffdb171b4538bf5a7ee",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D065",
+      "modern": "祚",
+      "final_svg_sha256": "835b921d08b981ac8326c4b7088e955dbc5c1d5661b0edcb37a1d35349dc5156",
+      "ink_width": 591.1457479999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D067",
+      "modern": "弎",
+      "final_svg_sha256": "36315997c297076cfaba8f410700873edad92463c92211dbe2bf4052533b57c3",
+      "ink_width": 512.15965,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D069",
+      "modern": "𠙻",
+      "final_svg_sha256": "f2ad6682c7f74e993f0b28dd0cddd1a8348e9cd3a7aa15b761e441cfe8ecbaf7",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D06A",
+      "modern": "閏",
+      "final_svg_sha256": "b166558c3076708740138f063c0b59e5560f213668655978ade59bfa72711e58",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D06B",
+      "modern": "𦤃",
+      "final_svg_sha256": "3c5ebaa779d1b1343c7f5f4deab95ec30aa1bc527b97b5a939f9858898512b3f",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D06D",
+      "modern": "王",
+      "final_svg_sha256": "498ffeaf39a9320edec0b04b8cc935043f4530b572a26feab4a0145044e030e0",
+      "ink_width": 430.0,
+      "ink_height": 620.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DAFB",
+      "modern": "𪇷",
+      "final_svg_sha256": "f03be67da5714d47975c01c2404d774b2c29325fe81bbb2b64d6940d2fce9e53",
+      "ink_width": 722.5945160000001,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3DAFF",
+      "modern": "𪇊",
+      "final_svg_sha256": "62236faa918703ff5aeb0bcc65ab279072995c92e27c48a3781f96272b411bba",
+      "ink_width": 751.0710300000001,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3E96C",
+      "modern": "𩖊",
+      "final_svg_sha256": "61d5e120420d95345cf708cffb444143692e7f42d1ecc7a9830f34ab2b3eb50c",
+      "ink_width": 646.4958959999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D844",
+      "modern": "鬲",
+      "final_svg_sha256": "d7580a7bab9dc7f6f8d559bfd500d69a47f8df7e8e2af7e2abd4c3a1556863a6",
+      "ink_width": 438.217154,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DA7B",
+      "modern": "奞",
+      "final_svg_sha256": "12f73f747434aa138f7b5b540484741cb2a35cf12d4273c675846fa0870a67d5",
+      "ink_width": 486.704586,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DA87",
+      "modern": "𥄕",
+      "final_svg_sha256": "e07ae0ed960d6062cbe0931bf6af273f423f59e7019aca49b042a21e01dda8cf",
+      "ink_width": 477.96898000000004,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DAA7",
+      "modern": "羴",
+      "final_svg_sha256": "0e3931f1de1550a5b50430fcd178a84126882209f72ff333d2eac2e3a7f00ef1",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DAAA",
+      "modern": "瞿",
+      "final_svg_sha256": "1d28942f71f4bdef575f53dd1e467e97af1857cdb2840c1d565aca0eedcde63f",
+      "ink_width": 380.899378,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DCC8",
+      "modern": "㓞",
+      "final_svg_sha256": "951a9b50f841bf828c515db6b03bd52cfcd27065b4845242b4e9318b3a79eacb",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DF5B",
+      "modern": "麥",
+      "final_svg_sha256": "ae844e37bfb91ed504a322b86299f46dcbc2cb01162ad081b23573fafe307174",
+      "ink_width": 514.013222,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E192",
+      "modern": "叒",
+      "final_svg_sha256": "6442fb117ecd1dbfc8c598ac44ed2e75e5a174302d6494d09ccfeb125c24a64c",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E38B",
+      "modern": "有",
+      "final_svg_sha256": "0954b6b71473e96b3b9ea1355cd5b3abe2cf3f54d829c8f596293a8606eaf3d7",
+      "ink_width": 400.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E53B",
+      "modern": "㝱",
+      "final_svg_sha256": "b621301f9449a010954619333b0a46fcc1364305471e66a809a535726427bd71",
+      "ink_width": 418.82712799999996,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E666",
+      "modern": "黹",
+      "final_svg_sha256": "431ce92dc5f039ee753632ec79139708a170ead24ddd69021beef1243d698089",
+      "ink_width": 398.999524,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EA31",
+      "modern": "茍",
+      "final_svg_sha256": "4304fdc1830daa6e8483c4526c48fdcd9f7ca07a74c4ae13cf07d3895969e65d",
+      "ink_width": 429.168592,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EC29",
+      "modern": "𢊁",
+      "final_svg_sha256": "62593a13af99390dbe256b81ec1b0851b49bdd708de37faf92b18feaa64eed02",
+      "ink_width": 477.440476,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EC50",
+      "modern": "麤",
+      "final_svg_sha256": "728da6867a271f72fffb149a975a55ead85925b47ed85b7db83574c2d02c2241",
+      "ink_width": 424.92233200000004,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EC5F",
+      "modern": "萈",
+      "final_svg_sha256": "9a3a539fc65e6de6458d670ca12f9b1d3a7f10a7005abec97805de7780becfbe",
+      "ink_width": 393.088976,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EDE2",
+      "modern": "𡕍",
+      "final_svg_sha256": "393203744f22fbd6b48b85fc277ee06875d02de1a3aecf6ed44d6f96d8518949",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3F57E",
+      "modern": "我",
+      "final_svg_sha256": "259b34cd5a9caa46ed1021ffd74c6f0c3e70331ffd799a29fe5fd0f9c4633147",
+      "ink_width": 470.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F940",
+      "modern": "力",
+      "final_svg_sha256": "909cbadb456b20501f889826a42676abe995952221416397a66ac01081adfeac",
+      "ink_width": 430.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EF60",
+      "modern": "河",
+      "final_svg_sha256": "eca3eee4f1f1d1d6adbbbbfaebd15ddbbfaf0e434271e516331bec3960c37f66",
+      "ink_width": 625.944086,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3F168",
+      "modern": "潠",
+      "final_svg_sha256": "28b95a9e0c5328b8b5089f2e18607aa0fc5290b8d7b7b4cbc365714ba0560002",
+      "ink_width": 625.944086,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3E93D",
+      "modern": "顏",
+      "final_svg_sha256": "3890fb51688753b63e1e373a7712de6d89b02e2900ca9c177f945f2eef110adf",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E9A2",
+      "modern": "顯",
+      "final_svg_sha256": "82ce29ddefe0afc528a257c131d8387ff08629529c3897bbd4b2636ecb3dfc00",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3D129",
+      "modern": "莊",
+      "final_svg_sha256": "fff500dc977075934a9816c28574df18720831f35a45ffa17344a53b6b4252e5",
+      "ink_width": 615.3147959999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D316",
+      "modern": "蘸",
+      "final_svg_sha256": "4c8b56f79ab1bac196736bc246bbc516d70a14595ca4ac2f8d1c761f61f1c801",
+      "ink_width": 615.3147959999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3EE38",
+      "modern": "𢤧",
+      "final_svg_sha256": "ec3d26109dae444e4fc8e24fd7e431f3a0ffb8e3ab187650a60504b051fa2c47",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3EF53",
+      "modern": "懘",
+      "final_svg_sha256": "f52266e4d6e336545bcb7ee8db23c3fd3894caf8e3d4440c4fee3bf7db8364c3",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E4A8",
+      "modern": "家",
+      "final_svg_sha256": "ade877981646ec1a7de85bb22ba7159b0c0997f355313562ea5c0e1325a1104c",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3E4FC",
+      "modern": "宙",
+      "final_svg_sha256": "7041b6e6ab4dcade487ce6141c162c5c49b3e73166c1fe185274ef9641f72876",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "draft"
+    },
+    {
+      "codepoint": "U+3DD6E",
+      "modern": "互",
+      "final_svg_sha256": "0cb4aa14240dcd4c18ade3b0052a8ce72f88a1be67df91f1c7ec2dc76c8d7476",
+      "ink_width": 500.0,
+      "ink_height": 650.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D8D6",
+      "modern": "臦",
+      "final_svg_sha256": "926744858be9e1ce84601f5579324705fe78b72ae40d8080f5c8eb78cccdbc89",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D10C",
+      "modern": "玨",
+      "final_svg_sha256": "534626f34dd4e288051cb1c48ace18a45ca1b39b549cd16911e0248d10234abf",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3DEEF",
+      "modern": "亼",
+      "final_svg_sha256": "5f89f472692c3ecfd781b81a41c9d88f3bba817744f9d7687990de29c288dd1b",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3DDC6",
+      "modern": "㠭",
+      "final_svg_sha256": "abe5428d6b279a93a353d9f556ca584cc4af94193cb481cdf092f16f3ddc2119",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3E043",
+      "modern": "𣝋",
+      "final_svg_sha256": "958d7edc6e1113c310fa3c138d369a3d46fa86e3e26a8e1af4822dc6e3f0c095",
+      "ink_width": 610.583038,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3ED97",
+      "modern": "𡆧",
+      "final_svg_sha256": "8f5e06a4c14521269342559850564b561468f042723af5c60bb9967ba89b83f3",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3E6C5",
+      "modern": "儲",
+      "final_svg_sha256": "36dcfbbc40a894df83f17d2721ec66e7fa6daccc323da2695a8da5ac01411ba6",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D7C7",
+      "modern": "𠬞",
+      "final_svg_sha256": "26d6db1a7120e51ef92f182cb6fe441031f8bd4032e7647e011ca063b48adbf5",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D063",
+      "modern": "祧",
+      "final_svg_sha256": "ac7baeeecfb3fd6051cbf4e6427d836417d5d343f6749284fcde8b5a23689a04",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3DA13",
+      "modern": "𥏼",
+      "final_svg_sha256": "967532744969c4f12b1820cce8fcbd348f15d941514af82140e939bef3724113",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3DBF8",
+      "modern": "腳",
+      "final_svg_sha256": "30f3086a2bd39437efaaa3fa97d04c7ad293a7bb3e098095237b4e3b6d5b5e5a",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3FBAD",
+      "modern": "壬",
+      "final_svg_sha256": "95a05fb7be5cfa55840fd4c79e7f21bed054c1f17f2754a5e3833bd497724acf",
+      "ink_width": 500.0,
+      "ink_height": 650.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DDC2",
+      "modern": "巧",
+      "final_svg_sha256": "09ab72094cb2c8f6b9d229bb9ed0694e949cb53f879345b955a4b6392ff7d5c5",
+      "ink_width": 520.0,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "wide-draft"
+    },
+    {
+      "codepoint": "U+3D012",
+      "modern": "示",
+      "final_svg_sha256": "5689efa7835b7c227a8707e6a75620c0c76cc3a3259e7b4c571e18afa38d4b09",
+      "ink_width": 400.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D32C",
+      "modern": "公",
+      "final_svg_sha256": "9dcb7f8ef2b63227c6755ed144d67192164011ec84bbc9f0f4812f85fb77eb53",
+      "ink_width": 490.0,
+      "ink_height": 660.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D3B7",
+      "modern": "君",
+      "final_svg_sha256": "a22ecb6e5bf2868ca0ec9b3b96c8eb673485f96c749c9e3549de9d7cd3c29784",
+      "ink_width": 470.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D420",
+      "modern": "各",
+      "final_svg_sha256": "11f119af4a2712689814d1883eecbe2cb56cbfbb288d4fc4d6c9e1abbdf362e0",
+      "ink_width": 430.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D590",
+      "modern": "後",
+      "final_svg_sha256": "cc9b884f3a6eb0f8a667e66bdc47f8a46619e7dedbe4928291b340ece68711d9",
+      "ink_width": 450.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D5E5",
+      "modern": "足",
+      "final_svg_sha256": "e6dc8f50f43efc0130b11e8b7e5aaf9b945b1b057125b37885c1f850dde29f18",
+      "ink_width": 430.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D64A",
+      "modern": "品",
+      "final_svg_sha256": "57e21497d1d4d2e275016e15b1e278f63d7b14f6cc54bb841b6eea598bd7ad10",
+      "ink_width": 470.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D8D5",
+      "modern": "臣",
+      "final_svg_sha256": "ec6cc6e1cfbb1a0e4f5efd01bd4b0b4080c1d05bca5b4da0d09aeede641de2da",
+      "ink_width": 430.0,
+      "ink_height": 660.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DA16",
+      "modern": "百",
+      "final_svg_sha256": "0eb725b41c673a5886cc69d482b3887dd72de29924372a86d4a4818e6c925306",
+      "ink_width": 470.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DA48",
+      "modern": "隹",
+      "final_svg_sha256": "a2845e597840d5e569da2e62ac651a3e3bc683c4d475c9827a13623aa20a98b5",
+      "ink_width": 380.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DB5D",
+      "modern": "玄",
+      "final_svg_sha256": "a44caee3560af097920a9626feb4ebfba8544ef1155691a0b00a14e999ccaa17",
+      "ink_width": 450.0,
+      "ink_height": 660.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DE14",
+      "modern": "豆",
+      "final_svg_sha256": "04a3bb550c7a57e6411e989736e29316654a9d8109e3eebfc231fea155b7df0e",
+      "ink_width": 400.0,
+      "ink_height": 660.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3DE16",
+      "modern": "豆",
+      "final_svg_sha256": "8c1d695508b40a8f46928877a000ef381be17baa2a344eb8c325630e25cf394d",
+      "ink_width": 400.0,
+      "ink_height": 660.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E1C9",
+      "modern": "囗",
+      "final_svg_sha256": "d8311c6362b641b321f27ee52ce6e6bb70f24abac97afb9d27f367bc38a046d3",
+      "ink_width": 470.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E1CF",
+      "modern": "回",
+      "final_svg_sha256": "660380e9205a6207fb3c186495ea64af3528e2f76f681533f9c520600730f968",
+      "ink_width": 430.0,
+      "ink_height": 620.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E352",
+      "modern": "旦",
+      "final_svg_sha256": "e42fd3701d542c08b0ba885dc10e67714de191c4853a2cb6135fa6e23f5bc4bb",
+      "ink_width": 450.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E375",
+      "modern": "晶",
+      "final_svg_sha256": "b71823b0598e9f0de8ecd1d6279217fee419f6e16ed6bef94d8fccf856acf16b",
+      "ink_width": 510.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E882",
+      "modern": "舟",
+      "final_svg_sha256": "09e689f3ce6180de99cf60fae41d98cfa13714788893bd03e6f0dbca69253d8b",
+      "ink_width": 360.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3E895",
+      "modern": "方",
+      "final_svg_sha256": "5649d689f5e9e97d8e78f3bacec75678c54004888abdb37993967cc48b9bcc30",
+      "ink_width": 490.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EB5C",
+      "modern": "豕",
+      "final_svg_sha256": "e3a1e131847e0a35ddf596a2a688ca9f527771c8b575e6bd84e6190a1ead7e71",
+      "ink_width": 450.0,
+      "ink_height": 680.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F59A",
+      "modern": "匚",
+      "final_svg_sha256": "23bd9031fd414545c311c87d61b6c57efb5eb2c3db8515921ee4a9d7c13038bc",
+      "ink_width": 450.0,
+      "ink_height": 640.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3F5B3",
+      "modern": "曲",
+      "final_svg_sha256": "c22192e34fbb9292e443dd542bff7aaea65f47a09d6a7d24e09a7b1fcff841c5",
+      "ink_width": 490.0,
+      "ink_height": 700.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3FA5D",
+      "modern": "且",
+      "final_svg_sha256": "de07272fbb14ebc6a38b6282b207acaaf7ac3a42d8f2307dade6daad97fcaebb",
+      "ink_width": 450.0,
+      "ink_height": 620.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3D374",
+      "modern": "𠙵",
+      "final_svg_sha256": "8655122746876627dc2c4a8576e9b215c7f7e53794b77fdb9a26b0e53355715e",
+      "ink_width": 340.0,
+      "ink_height": 600.0,
+      "visual_evidence_stage": "reference-policy"
+    },
+    {
+      "codepoint": "U+3EE69",
+      "modern": "惟",
+      "final_svg_sha256": "fc2cc488b9ef863cb505fd0829c7e0fb4c58fb782f3accbe7ec2529c73443362",
+      "ink_width": 640.0002,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D0DA",
+      "modern": "琂",
+      "final_svg_sha256": "3ce3d094e7b4dcc1ae64ebb1c8721e2666038c7005c2c6953c56301f12490d46",
+      "ink_width": 566.800004,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D252",
+      "modern": "蔕",
+      "final_svg_sha256": "7681bf0dbe9e2ce8615588f8cba7c0d9cf0c59ba5250f7fd7903d1b75aac9b92",
+      "ink_width": 615.3147959999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3D9D0",
+      "modern": "𥈾",
+      "final_svg_sha256": "9bf83aac82c1a8e0e0f853e300f1e3082c1f322cfa3585ae235703f5c86a7f62",
+      "ink_width": 626.53277,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3DD3A",
+      "modern": "箅",
+      "final_svg_sha256": "cc1319034e1c9392e3394a75d46e6b5d34b3a9099aa2e017c934be687e7a4d58",
+      "ink_width": 637.440382,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3E14D",
+      "modern": "椓",
+      "final_svg_sha256": "d3593c624be1c470ea749f84a0ceadc25925cf03ee7d5c7fb067e21b3d5ae402",
+      "ink_width": 633.344306,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3EE5B",
+      "modern": "㥴",
+      "final_svg_sha256": "6b4c6c0fdcc3c582dd6794ed82aee4cab7bb1f16f1a9d63b3b6b809fd6dc42a5",
+      "ink_width": 640.0002,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3EF64",
+      "modern": "潼",
+      "final_svg_sha256": "48bcb318bbfa264386a1d57dc5e68a4cec7387957e68caf477301827430902cf",
+      "ink_width": 625.944086,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3F0F8",
+      "modern": "涫",
+      "final_svg_sha256": "002070f833ffedd1fa58b8df4aaa85bd4623b3d6700e88c1fb4b04b00759e020",
+      "ink_width": 625.944086,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3F666",
+      "modern": "綺",
+      "final_svg_sha256": "661e0c0766480b3f7a6b108a6671cac9604180396a4a66bd245524c5445da272",
+      "ink_width": 608.0573979999999,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    },
+    {
+      "codepoint": "U+3FC15",
+      "modern": "酺",
+      "final_svg_sha256": "0528fb75d4fa860d2d4802436abc08987738aed14683b15f3d1e342c73e5d72f",
+      "ink_width": 597.870308,
+      "ink_height": 768.0,
+      "visual_evidence_stage": "guard-final"
+    }
+  ],
+  "boards": [
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-01.png",
+      "sha256": "4bdc0ed5503bb0b586ce301573ec32ad318ba7c555da26385527206ce22865af",
+      "bytes": 126357
+    },
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-02.png",
+      "sha256": "7c0a62b18f9730e73025d1ba71758d1378f1e7adc70a2dcaf6902003f8378bc4",
+      "bytes": 133487
+    },
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-03.png",
+      "sha256": "2b89fdd6c8cdf9d6a316805dbb4f30f31b8b5a0d35866546bc710ce52793c73f",
+      "bytes": 147407
+    },
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-04.png",
+      "sha256": "5ad89f3b1b332eb4ddac9482e3386d206e0f931bfe6ac72eb60c43f3241e3b6c",
+      "bytes": 139809
+    },
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-05.png",
+      "sha256": "0561ca755bae36d71ef48e6bea496ca7a474d93a963751b439fb1160a7fee677",
+      "bytes": 175925
+    },
+    {
+      "stage": "draft",
+      "file": "draft/optical-review-06.png",
+      "sha256": "bf3e33c30b63d2abc3d256fcc620cb49bb7f978d518d1a2ed65a89e6406b66c9",
+      "bytes": 162366
+    },
+    {
+      "stage": "wide-draft",
+      "file": "wide-draft/optical-review-01.png",
+      "sha256": "49a1d5a8be750ea4665f1cfcd0ad36cf6a645a4a38697e1347c167e7bbc11360",
+      "bytes": 142955
+    },
+    {
+      "stage": "reference-policy",
+      "file": "reference-policy/optical-review-01.png",
+      "sha256": "ab4b4c9b3a16f9ede72cc0c18389f86e346a60b2f9c49ee35f4a0f53ea7e7767",
+      "bytes": 126252
+    },
+    {
+      "stage": "reference-policy",
+      "file": "reference-policy/optical-review-02.png",
+      "sha256": "d84f75643792873e0e0ab77bcd61771e63a0f9da9a8f99928ab9420bedc720c2",
+      "bytes": 131859
+    },
+    {
+      "stage": "reference-policy",
+      "file": "reference-policy/optical-review-03.png",
+      "sha256": "b67c23b0f9a5dff73e1342f6ebc5acc914dda3d02ae02130d90caa8742dd4ae2",
+      "bytes": 147575
+    },
+    {
+      "stage": "reference-policy",
+      "file": "reference-policy/optical-review-04.png",
+      "sha256": "bbaa946928ff30f7d49779bebf0b778744e6a537094a8a923f9bb9cacfc220cf",
+      "bytes": 146250
+    },
+    {
+      "stage": "reference-policy",
+      "file": "reference-policy/optical-review-05.png",
+      "sha256": "07b1c91088f35b6792ab69219267f6f2ca0e68b73d41d1a7020b4ccf148d23f5",
+      "bytes": 97658
+    },
+    {
+      "stage": "guard-final",
+      "file": "guard-final/optical-review-01.png",
+      "sha256": "ee493d53b756c8bb9fbfec5b7685dca31cf08cfc62bfb2664f9c712a8add0438",
+      "bytes": 172932
+    },
+    {
+      "stage": "guard-final",
+      "file": "guard-final/optical-review-02.png",
+      "sha256": "77f195dbe24a047504f9008249be22ede2f1871bc5b7765d48774bef90f86086",
+      "bytes": 74715
+    }
+  ],
+  "boards_note": "Board filenames identify retained private source-rendering evidence. Public compiled comparisons are previews/optical-alignment.png and previews/optical-primitives.png."
+}

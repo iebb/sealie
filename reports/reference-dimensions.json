@@ -1,0 +1,2139 @@
+{
+  "name": "方正小篆体 (FZXiaoZhuanTi-S13T)",
+  "reference_urls": {
+    "official_product": "https://www.foundertype.com/index.php/FontInfo/ductdetail/id/165.html",
+    "official_distributor": "https://lets.fontworks.co.jp/fonts/492",
+    "raster_preview": "https://www.fonts.net.cn/font-31681245180.html"
+  },
+  "measurement_scope": "292 selected modern characters requested from third-party public JPEG preview; 257 yielded measurable ink and 35 yielded no ink. This is raster measurement, not vendor font metrics. No font outlines or font software acquired or copied. Approximate +/-1pixel raster/threshold uncertainty. Font identity is declared by preview provider and visually corroborated against supplied screenshot, not independently validated from font name table. Most traditional encoded counterparts yielded no ink; simplified encoded counterparts were measured where present. Missing characters are excluded from calibration.",
+  "preview_request_size": 32,
+  "ink_threshold_grayscale_lt": 160,
+  "normalization_reference_body_px": 39,
+  "findings": [
+    "Ordinary full character bodies generally share37-40px height, with narrow widths varying by shape.",
+    "King/jade/worker forms are29-31px tall,74-79%of39pxnormalbody;soil/scholar are33-35px,85-90%.",
+    "Horizontal number primitives retain intentionally low heights:1=4px,2=22px,3=27px; their widths20-22px remain similar.",
+    "A few simple enclosures are shorter:口30,日33,田32,目33px.",
+    "Do not force one universal box or apply one arbitrary standalone reduction; use common body heights with optical reductions for known sparse forms."
+  ],
+  "character_dimensions": {
+    "王": {
+      "width_px": 20,
+      "height_px": 31,
+      "width_to_height": 0.645161,
+      "height_relative_to_39px_body": 0.794872,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 610
+    },
+    "玉": {
+      "width_px": 19,
+      "height_px": 30,
+      "width_to_height": 0.633333,
+      "height_relative_to_39px_body": 0.769231,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 591
+    },
+    "工": {
+      "width_px": 20,
+      "height_px": 29,
+      "width_to_height": 0.689655,
+      "height_relative_to_39px_body": 0.74359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 571
+    },
+    "土": {
+      "width_px": 20,
+      "height_px": 35,
+      "width_to_height": 0.571429,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 689
+    },
+    "士": {
+      "width_px": 21,
+      "height_px": 33,
+      "width_to_height": 0.636364,
+      "height_relative_to_39px_body": 0.846154,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 650
+    },
+    "一": {
+      "width_px": 22,
+      "height_px": 4,
+      "width_to_height": 5.5,
+      "height_relative_to_39px_body": 0.102564,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 79
+    },
+    "二": {
+      "width_px": 20,
+      "height_px": 22,
+      "width_to_height": 0.909091,
+      "height_relative_to_39px_body": 0.564103,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 433
+    },
+    "三": {
+      "width_px": 20,
+      "height_px": 27,
+      "width_to_height": 0.740741,
+      "height_relative_to_39px_body": 0.692308,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 532
+    },
+    "十": {
+      "width_px": 22,
+      "height_px": 36,
+      "width_to_height": 0.611111,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 709
+    },
+    "口": {
+      "width_px": 16,
+      "height_px": 30,
+      "width_to_height": 0.533333,
+      "height_relative_to_39px_body": 0.769231,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 591
+    },
+    "日": {
+      "width_px": 17,
+      "height_px": 33,
+      "width_to_height": 0.515152,
+      "height_relative_to_39px_body": 0.846154,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 650
+    },
+    "月": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "木": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "水": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "山": {
+      "width_px": 18,
+      "height_px": 37,
+      "width_to_height": 0.486486,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 729
+    },
+    "人": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "道": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "可": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "非": {
+      "width_px": 21,
+      "height_px": 37,
+      "width_to_height": 0.567568,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 729
+    },
+    "常": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "名": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "干": {
+      "width_px": 24,
+      "height_px": 37,
+      "width_to_height": 0.648649,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 729
+    },
+    "千": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "上": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "下": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "注": {
+      "width_px": 23,
+      "height_px": 38,
+      "width_to_height": 0.605263,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 748
+    },
+    "甲": {
+      "width_px": 21,
+      "height_px": 36,
+      "width_to_height": 0.583333,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 709
+    },
+    "由": {
+      "width_px": 19,
+      "height_px": 36,
+      "width_to_height": 0.527778,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 709
+    },
+    "申": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "田": {
+      "width_px": 19,
+      "height_px": 32,
+      "width_to_height": 0.59375,
+      "height_relative_to_39px_body": 0.820513,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 630
+    },
+    "目": {
+      "width_px": 16,
+      "height_px": 33,
+      "width_to_height": 0.484848,
+      "height_relative_to_39px_body": 0.846154,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 650
+    },
+    "自": {
+      "width_px": 20,
+      "height_px": 37,
+      "width_to_height": 0.540541,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 729
+    },
+    "白": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "百": {
+      "width_px": 22,
+      "height_px": 35,
+      "width_to_height": 0.628571,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 689
+    },
+    "且": {
+      "width_px": 21,
+      "height_px": 31,
+      "width_to_height": 0.677419,
+      "height_relative_to_39px_body": 0.794872,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 610
+    },
+    "旦": {
+      "width_px": 21,
+      "height_px": 32,
+      "width_to_height": 0.65625,
+      "height_relative_to_39px_body": 0.820513,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 630
+    },
+    "用": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "甫": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "曲": {
+      "width_px": 23,
+      "height_px": 36,
+      "width_to_height": 0.638889,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 709
+    },
+    "正": {
+      "width_px": 20,
+      "height_px": 35,
+      "width_to_height": 0.571429,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 689
+    },
+    "止": {
+      "width_px": 19,
+      "height_px": 38,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 748
+    },
+    "足": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "疋": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "首": {
+      "width_px": 16,
+      "height_px": 38,
+      "width_to_height": 0.421053,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 748
+    },
+    "面": {
+      "width_px": 23,
+      "height_px": 36,
+      "width_to_height": 0.638889,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 709
+    },
+    "耳": {
+      "width_px": 15,
+      "height_px": 36,
+      "width_to_height": 0.416667,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 709
+    },
+    "鼻": {
+      "width_px": 18,
+      "height_px": 40,
+      "width_to_height": 0.45,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 788
+    },
+    "舌": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "牙": {
+      "width_px": 15,
+      "height_px": 39,
+      "width_to_height": 0.384615,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 768
+    },
+    "心": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "手": {
+      "width_px": 18,
+      "height_px": 38,
+      "width_to_height": 0.473684,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 748
+    },
+    "又": {
+      "width_px": 18,
+      "height_px": 37,
+      "width_to_height": 0.486486,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 729
+    },
+    "爪": {
+      "width_px": 20,
+      "height_px": 39,
+      "width_to_height": 0.512821,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 768
+    },
+    "寸": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "攴": {
+      "width_px": 15,
+      "height_px": 38,
+      "width_to_height": 0.394737,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 748
+    },
+    "支": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "文": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "斤": {
+      "width_px": 17,
+      "height_px": 39,
+      "width_to_height": 0.435897,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 768
+    },
+    "戈": {
+      "width_px": 17,
+      "height_px": 37,
+      "width_to_height": 0.459459,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 729
+    },
+    "矛": {
+      "width_px": 18,
+      "height_px": 40,
+      "width_to_height": 0.45,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 788
+    },
+    "弓": {
+      "width_px": 15,
+      "height_px": 38,
+      "width_to_height": 0.394737,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 748
+    },
+    "弩": {
+      "width_px": 23,
+      "height_px": 38,
+      "width_to_height": 0.605263,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 748
+    },
+    "刀": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "力": {
+      "width_px": 20,
+      "height_px": 37,
+      "width_to_height": 0.540541,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 729
+    },
+    "卜": {
+      "width_px": 11,
+      "height_px": 37,
+      "width_to_height": 0.297297,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.282051,
+      "suggested_height_at_768": 729
+    },
+    "匕": {
+      "width_px": 15,
+      "height_px": 38,
+      "width_to_height": 0.394737,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 748
+    },
+    "勹": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "匚": {
+      "width_px": 21,
+      "height_px": 33,
+      "width_to_height": 0.636364,
+      "height_relative_to_39px_body": 0.846154,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 650
+    },
+    "囗": {
+      "width_px": 22,
+      "height_px": 33,
+      "width_to_height": 0.666667,
+      "height_relative_to_39px_body": 0.846154,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 650
+    },
+    "冂": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "巾": {
+      "width_px": 16,
+      "height_px": 39,
+      "width_to_height": 0.410256,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 768
+    },
+    "衣": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "示": {
+      "width_px": 19,
+      "height_px": 35,
+      "width_to_height": 0.542857,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 689
+    },
+    "糸": {
+      "width_px": 16,
+      "height_px": 38,
+      "width_to_height": 0.421053,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 748
+    },
+    "竹": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "禾": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "米": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "黍": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "豆": {
+      "width_px": 19,
+      "height_px": 34,
+      "width_to_height": 0.558824,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 670
+    },
+    "麻": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "瓜": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "果": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "食": {
+      "width_px": 25,
+      "height_px": 40,
+      "width_to_height": 0.625,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 788
+    },
+    "虫": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "隹": {
+      "width_px": 18,
+      "height_px": 35,
+      "width_to_height": 0.514286,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 689
+    },
+    "羽": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "牛": {
+      "width_px": 20,
+      "height_px": 40,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 788
+    },
+    "羊": {
+      "width_px": 20,
+      "height_px": 37,
+      "width_to_height": 0.540541,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 729
+    },
+    "犬": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "豕": {
+      "width_px": 21,
+      "height_px": 35,
+      "width_to_height": 0.6,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 689
+    },
+    "鹿": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "虎": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "兕": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "鼠": {
+      "width_px": 18,
+      "height_px": 38,
+      "width_to_height": 0.473684,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 748
+    },
+    "象": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "兔": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "火": {
+      "width_px": 19,
+      "height_px": 38,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 748
+    },
+    "金": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "石": {
+      "width_px": 19,
+      "height_px": 36,
+      "width_to_height": 0.527778,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 709
+    },
+    "雨": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "气": {
+      "width_px": 23,
+      "height_px": 40,
+      "width_to_height": 0.575,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 788
+    },
+    "天": {
+      "width_px": 21,
+      "height_px": 37,
+      "width_to_height": 0.567568,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 729
+    },
+    "大": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "太": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "夫": {
+      "width_px": 20,
+      "height_px": 39,
+      "width_to_height": 0.512821,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 768
+    },
+    "立": {
+      "width_px": 21,
+      "height_px": 37,
+      "width_to_height": 0.567568,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 729
+    },
+    "生": {
+      "width_px": 17,
+      "height_px": 38,
+      "width_to_height": 0.447368,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 748
+    },
+    "出": {
+      "width_px": 25,
+      "height_px": 38,
+      "width_to_height": 0.657895,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 748
+    },
+    "入": {
+      "width_px": 14,
+      "height_px": 38,
+      "width_to_height": 0.368421,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.358974,
+      "suggested_height_at_768": 748
+    },
+    "中": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "小": {
+      "width_px": 20,
+      "height_px": 37,
+      "width_to_height": 0.540541,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 729
+    },
+    "少": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "本": {
+      "width_px": 19,
+      "height_px": 38,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 748
+    },
+    "末": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "未": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "束": {
+      "width_px": 17,
+      "height_px": 37,
+      "width_to_height": 0.459459,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 729
+    },
+    "西": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "南": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "北": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "方": {
+      "width_px": 23,
+      "height_px": 36,
+      "width_to_height": 0.638889,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 709
+    },
+    "母": {
+      "width_px": 24,
+      "height_px": 40,
+      "width_to_height": 0.6,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 788
+    },
+    "毋": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "女": {
+      "width_px": 20,
+      "height_px": 40,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 788
+    },
+    "子": {
+      "width_px": 19,
+      "height_px": 38,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 748
+    },
+    "父": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "兄": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "弟": {
+      "width_px": 20,
+      "height_px": 39,
+      "width_to_height": 0.512821,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 768
+    },
+    "臣": {
+      "width_px": 20,
+      "height_px": 34,
+      "width_to_height": 0.588235,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 670
+    },
+    "民": {
+      "width_px": 24,
+      "height_px": 40,
+      "width_to_height": 0.6,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 788
+    },
+    "君": {
+      "width_px": 22,
+      "height_px": 36,
+      "width_to_height": 0.611111,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 709
+    },
+    "公": {
+      "width_px": 23,
+      "height_px": 34,
+      "width_to_height": 0.676471,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 670
+    },
+    "私": {
+      "width_px": 25,
+      "height_px": 38,
+      "width_to_height": 0.657895,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 748
+    },
+    "老": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "毛": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "髟": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "高": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "京": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "皇": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "呈": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "言": {
+      "width_px": 20,
+      "height_px": 35,
+      "width_to_height": 0.571429,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 689
+    },
+    "音": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "篆": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "之": {
+      "width_px": 19,
+      "height_px": 34,
+      "width_to_height": 0.558824,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 670
+    },
+    "也": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "有": {
+      "width_px": 19,
+      "height_px": 36,
+      "width_to_height": 0.527778,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 709
+    },
+    "不": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "政": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "安": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "平": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "宗": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "祖": {
+      "width_px": 26,
+      "height_px": 35,
+      "width_to_height": 0.742857,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.666667,
+      "suggested_height_at_768": 689
+    },
+    "家": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "室": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "明": {
+      "width_px": 23,
+      "height_px": 38,
+      "width_to_height": 0.605263,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 748
+    },
+    "星": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "光": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "乾": {
+      "width_px": 23,
+      "height_px": 40,
+      "width_to_height": 0.575,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 788
+    },
+    "坤": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "玄": {
+      "width_px": 21,
+      "height_px": 34,
+      "width_to_height": 0.617647,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 670
+    },
+    "宇": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "宙": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "洪": {
+      "width_px": 25,
+      "height_px": 38,
+      "width_to_height": 0.657895,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 748
+    },
+    "荒": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "地": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "和": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "秋": {
+      "width_px": 25,
+      "height_px": 40,
+      "width_to_height": 0.625,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 788
+    },
+    "冬": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "春": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "夏": {
+      "width_px": 20,
+      "height_px": 40,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 788
+    },
+    "左": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "右": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "前": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "後": {
+      "width_px": 21,
+      "height_px": 36,
+      "width_to_height": 0.583333,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 709
+    },
+    "退": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "回": {
+      "width_px": 20,
+      "height_px": 31,
+      "width_to_height": 0.645161,
+      "height_relative_to_39px_body": 0.794872,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 610
+    },
+    "品": {
+      "width_px": 22,
+      "height_px": 36,
+      "width_to_height": 0.611111,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 709
+    },
+    "晶": {
+      "width_px": 24,
+      "height_px": 35,
+      "width_to_height": 0.685714,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 689
+    },
+    "朋": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "林": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "森": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "淼": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "炎": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "多": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "夕": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "各": {
+      "width_px": 20,
+      "height_px": 36,
+      "width_to_height": 0.555556,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 709
+    },
+    "合": {
+      "width_px": 25,
+      "height_px": 37,
+      "width_to_height": 0.675676,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 729
+    },
+    "在": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "亦": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "永": {
+      "width_px": 20,
+      "height_px": 37,
+      "width_to_height": 0.540541,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 729
+    },
+    "册": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "齿": {
+      "width_px": 21,
+      "height_px": 37,
+      "width_to_height": 0.567568,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 729
+    },
+    "草": {
+      "width_px": 20,
+      "height_px": 40,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 788
+    },
+    "麦": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "黾": {
+      "width_px": 19,
+      "height_px": 40,
+      "width_to_height": 0.475,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 788
+    },
+    "鱼": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "鸟": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "马": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "龙": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "龟": {
+      "width_px": 20,
+      "height_px": 38,
+      "width_to_height": 0.526316,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 748
+    },
+    "云": {
+      "width_px": 23,
+      "height_px": 38,
+      "width_to_height": 0.605263,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 748
+    },
+    "风": {
+      "width_px": 22,
+      "height_px": 37,
+      "width_to_height": 0.594595,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 729
+    },
+    "来": {
+      "width_px": 23,
+      "height_px": 40,
+      "width_to_height": 0.575,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 788
+    },
+    "东": {
+      "width_px": 16,
+      "height_px": 39,
+      "width_to_height": 0.410256,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.410256,
+      "suggested_height_at_768": 768
+    },
+    "长": {
+      "width_px": 19,
+      "height_px": 37,
+      "width_to_height": 0.513514,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 729
+    },
+    "书": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "学": {
+      "width_px": 21,
+      "height_px": 40,
+      "width_to_height": 0.525,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 788
+    },
+    "为": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "无": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "国": {
+      "width_px": 22,
+      "height_px": 34,
+      "width_to_height": 0.647059,
+      "height_relative_to_39px_body": 0.871795,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 670
+    },
+    "宝": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "实": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "时": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "黄": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "进": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "开": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "关": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "门": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "儿": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "飞": {
+      "width_px": 23,
+      "height_px": 38,
+      "width_to_height": 0.605263,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 748
+    },
+    "车": {
+      "width_px": 18,
+      "height_px": 39,
+      "width_to_height": 0.461538,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.461538,
+      "suggested_height_at_768": 768
+    },
+    "贝": {
+      "width_px": 15,
+      "height_px": 37,
+      "width_to_height": 0.405405,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.384615,
+      "suggested_height_at_768": 729
+    },
+    "见": {
+      "width_px": 20,
+      "height_px": 39,
+      "width_to_height": 0.512821,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 768
+    },
+    "页": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "舟": {
+      "width_px": 17,
+      "height_px": 36,
+      "width_to_height": 0.472222,
+      "height_relative_to_39px_body": 0.923077,
+      "width_relative_to_39px_body": 0.435897,
+      "suggested_height_at_768": 709
+    },
+    "乙": {
+      "width_px": 11,
+      "height_px": 37,
+      "width_to_height": 0.297297,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.282051,
+      "suggested_height_at_768": 729
+    },
+    "九": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "几": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "乃": {
+      "width_px": 19,
+      "height_px": 38,
+      "width_to_height": 0.5,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 748
+    },
+    "义": {
+      "width_px": 20,
+      "height_px": 39,
+      "width_to_height": 0.512821,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 768
+    },
+    "习": {
+      "width_px": 20,
+      "height_px": 35,
+      "width_to_height": 0.571429,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.512821,
+      "suggested_height_at_768": 689
+    },
+    "乡": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "华": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "声": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "县": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "乐": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "广": {
+      "width_px": 23,
+      "height_px": 39,
+      "width_to_height": 0.589744,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 768
+    },
+    "冈": {
+      "width_px": 21,
+      "height_px": 35,
+      "width_to_height": 0.6,
+      "height_relative_to_39px_body": 0.897436,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 689
+    },
+    "万": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "与": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "韦": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "赵": {
+      "width_px": 25,
+      "height_px": 38,
+      "width_to_height": 0.657895,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 748
+    },
+    "肃": {
+      "width_px": 22,
+      "height_px": 40,
+      "width_to_height": 0.55,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 788
+    },
+    "寿": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "秦": {
+      "width_px": 23,
+      "height_px": 40,
+      "width_to_height": 0.575,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 788
+    },
+    "汉": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    },
+    "帝": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "真": {
+      "width_px": 19,
+      "height_px": 39,
+      "width_to_height": 0.487179,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.487179,
+      "suggested_height_at_768": 768
+    },
+    "我": {
+      "width_px": 22,
+      "height_px": 38,
+      "width_to_height": 0.578947,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 748
+    },
+    "你": {
+      "width_px": 24,
+      "height_px": 40,
+      "width_to_height": 0.6,
+      "height_relative_to_39px_body": 1.025641,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 788
+    },
+    "他": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "仁": {
+      "width_px": 24,
+      "height_px": 39,
+      "width_to_height": 0.615385,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 768
+    },
+    "智": {
+      "width_px": 21,
+      "height_px": 38,
+      "width_to_height": 0.552632,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 748
+    },
+    "信": {
+      "width_px": 23,
+      "height_px": 37,
+      "width_to_height": 0.621622,
+      "height_relative_to_39px_body": 0.948718,
+      "width_relative_to_39px_body": 0.589744,
+      "suggested_height_at_768": 729
+    },
+    "礼": {
+      "width_px": 25,
+      "height_px": 38,
+      "width_to_height": 0.657895,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.641026,
+      "suggested_height_at_768": 748
+    },
+    "忠": {
+      "width_px": 22,
+      "height_px": 39,
+      "width_to_height": 0.564103,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.564103,
+      "suggested_height_at_768": 768
+    },
+    "孝": {
+      "width_px": 21,
+      "height_px": 39,
+      "width_to_height": 0.538462,
+      "height_relative_to_39px_body": 1.0,
+      "width_relative_to_39px_body": 0.538462,
+      "suggested_height_at_768": 768
+    },
+    "悌": {
+      "width_px": 24,
+      "height_px": 38,
+      "width_to_height": 0.631579,
+      "height_relative_to_39px_body": 0.974359,
+      "width_relative_to_39px_body": 0.615385,
+      "suggested_height_at_768": 748
+    }
+  },
+  "no_ink_characters_excluded": [
+    "冊",
+    "齒",
+    "匸",
+    "艸",
+    "麥",
+    "黽",
+    "魚",
+    "鳥",
+    "馬",
+    "龍",
+    "龜",
+    "雲",
+    "風",
+    "來",
+    "朿",
+    "東",
+    "長",
+    "書",
+    "學",
+    "為",
+    "無",
+    "國",
+    "寶",
+    "實",
+    "時",
+    "黃",
+    "進",
+    "開",
+    "關",
+    "門",
+    "燚",
+    "漢",
+    "樂",
+    "義",
+    "愛"
+  ],
+  "raster_sha256": {
+    "reference-batch-00.jpg": "8a3e1c24a49014470b14eeac2d94f7f0c5b23554131d29a39148743f3b9b68fb",
+    "reference-batch-01.jpg": "177bff99b1bd9abb34e6e3636c823b8c19e61d918678e1eb1eb49f97eed84eb7",
+    "reference-batch-02.jpg": "ba5313ac1bc3f8992811d842942188bafa36a193837f3e3f24db133c0b1267fb",
+    "reference-batch-03.jpg": "9d9b88703a4921253bd4ecb9be09c28cbda15ab01b3403e2e07cd14faf00004e",
+    "reference-batch-04.jpg": "0b0dbca3a7692eaa7500d9754aaca7faf6052cb611d70d3b3c7d3376af5e8723",
+    "reference-batch-05.jpg": "d9a36f15aa57c73502d826b29b415381ad10803bf2697d36fdf50e0392e6534b",
+    "reference-batch-06.jpg": "d7b04ae23fc3d4df6e317373319b5bfec6ea2ab5f6f8501b6e89cfcb3b2b4993",
+    "reference-batch-07.jpg": "8c4d318f4741d3af498f0479e0e2ac27acba9bcc9a04e2440ef6b9d895ab9c82",
+    "reference-batch-08.jpg": "f8f9344d1fb336f5ac001e4e9e4b9dd0cabb0a5fb06235e284d92dba2f458f95",
+    "reference-batch-09.jpg": "40865db75a8ba9615e20b548eda9a7ae63ff8adf14c93cfa4936c6a4b70cc247",
+    "reference-batch-10.jpg": "65cfcc6b4598cbffefeb8ce020935711f2ce2916181532fb18ed8c1dcfc24e00",
+    "reference-batch-11.jpg": "1987ccf8d6328ab5480862278b501d2e69b016bb8c9847455067cff1074fb354",
+    "reference-batch-12.jpg": "97e744b585f7b8a22c1f606ecfd5bd5b4866d45ef4f94aff1cafc185fb17c048",
+    "reference-batch-13.jpg": "c69671f459b808cec8f6e3b545bf0fae0dab5dad6bc5c022f0b16ebf8ba9ce08",
+    "reference-batch-20.jpg": "76656359837081628043d51bc716b9e176a397d82c9bb7dc38f5e4176b0a3dca",
+    "reference-batch-21.jpg": "dd6bb5d16b547f4dbc92f0fa23309e12c6f1d289ab654e907b94ed72fba31c28",
+    "reference-batch-22.jpg": "5e5bcafb39827e5e88daab2c16092b3474e2b0f3232edecdc076158d1b512a6f",
+    "reference-batch-23.jpg": "4be02349187b011cd630d8686da895a1f089016bb19a134c31612d0a7bbf0c5a",
+    "reference-batch-24.jpg": "e3f47d2dd6170e1f18ba1f04bb823691ec3f08c9c7e983bf112998095f823c1d"
+  },
+  "reference_outlines_copied": false,
+  "reference_font_acquired_or_redistributed": false,
+  "all_repertoire_glyph_dimensions_measured": false,
+  "private_evidence_sha256": "913367c8148d3be5f3d2012ebcd3f6547e138ddd9e01044f0dc53ba7a48ec284"
+}
