@@ -14,7 +14,8 @@ import re
 import shutil
 import sys
 
-SITE_ASSETS = ('index.html', 'site/styles.css', 'site/showcase.js', 'site/character-map.json')
+SITE_ASSETS = ('index.html', 'characters.html', 'site/styles.css', 'site/showcase.js',
+               'site/characters.js', 'site/character-map.json', 'site/coverage.json')
 LICENSES = ('LICENSE-OFL.txt', 'OFL-1.1.txt')
 CSS_URL = re.compile(r'url\(\s*[\"\']?([^\s)\"\']+)[\"\']?\s*\)')
 VERSION_LENGTH = 16
@@ -26,6 +27,53 @@ def fingerprint(path: Path) -> str:
         for chunk in iter(lambda: stream.read(1024 * 1024), b''):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def validate_coverage(coverage: dict, webfonts: dict, manifest_hash: str,
+                      font_hashes: dict[str, str] | None = None) -> None:
+    """Bind the measured cmap inventory to the exact fonts being deployed."""
+    first, last = 0x3D000, 0x3FC3F
+    if (coverage.get('first'), coverage.get('last')) != (first, last):
+        raise ValueError('Coverage must describe the Unicode 18 Small Seal repertoire')
+    if (coverage.get('source_webfont_manifest_sha256') != manifest_hash or
+            coverage.get('source_svg_manifest_sha256') != webfonts['source_svg_manifest_sha256'] or
+            coverage.get('family') != webfonts['family'] or
+            coverage.get('version') != webfonts['version']):
+        raise ValueError('Coverage inventory does not match the current webfont manifest')
+    supported: set[int] = set()
+    previous = first - 1
+    for interval in coverage['supported_ranges']:
+        if (not isinstance(interval, list) or len(interval) != 2 or
+                any(type(cp) is not int for cp in interval)):
+            raise ValueError('Invalid supported codepoint interval')
+        start, stop = interval
+        if not first <= start <= stop <= last or start <= previous:
+            raise ValueError('Coverage intervals must be ordered, disjoint and within the repertoire')
+        supported.update(range(start, stop + 1))
+        previous = stop
+    if (coverage.get('repertoire_count') != last - first + 1 or
+            coverage.get('glyph_count') != len(supported) or
+            coverage.get('missing_count') != last - first + 1 - len(supported) or
+            len(supported) != webfonts['glyph_count']):
+        raise ValueError('Coverage totals disagree with supported codepoints')
+    rows = coverage['chunks']
+    if len(rows) != len(webfonts['chunks']):
+        raise ValueError('Coverage subset count differs from the deployed fonts')
+    previous = first - 1
+    for row, expected in zip(rows, webfonts['chunks']):
+        start, stop = int(expected['first'][2:], 16), int(expected['last'][2:], 16)
+        if (row['first'] != start or row['last'] != stop or start != previous + 1 or
+                row['file'] != expected['file'] or row['sha256'] != expected['sha256'] or
+                row['count'] != expected['glyph_count'] or
+                row['count'] != sum(cp in supported for cp in range(start, stop + 1))):
+            raise ValueError(f'Invalid coverage subset: {expected["file"]}')
+        if font_hashes is not None:
+            path = 'fonts/variable/' + row['file']
+            if font_hashes.get(path) != row['sha256']:
+                raise ValueError(f'Coverage was measured from different font bytes: {row["file"]}')
+        previous = stop
+    if previous != last:
+        raise ValueError('Coverage subset intervals do not span the complete repertoire')
 
 
 def version_assets(output: Path, source_css: str, references: list[str]) -> dict[str, str]:
@@ -47,26 +95,31 @@ def version_assets(output: Path, source_css: str, references: list[str]) -> dict
     font_css = output / 'fonts/variable.css'
     font_css.write_text(generated_css, encoding='utf-8')
     versions['fonts/variable.css'] = fingerprint(font_css)
-    versions['site/styles.css'] = fingerprint(output / 'site/styles.css')
-    versions['site/character-map.json'] = fingerprint(output / 'site/character-map.json')
-    script_path = output / 'site/showcase.js'
-    script = script_path.read_text(encoding='utf-8')
-    map_reference = '"character-map.json"'
-    if script.count(map_reference) != 1:
-        raise ValueError('Expected one relative character-map reference in site/showcase.js')
-    versioned_map = f'"character-map.json?v={versions["site/character-map.json"][:VERSION_LENGTH]}"'
-    script_path.write_text(script.replace(map_reference, versioned_map, 1), encoding='utf-8')
-    versions['site/showcase.js'] = fingerprint(script_path)
-    index_path = output / 'index.html'
-    index = index_path.read_text(encoding='utf-8')
-    for reference in ('fonts/variable.css', 'site/styles.css', 'site/showcase.js'):
-        original = f'"{reference}"'
-        if index.count(original) != 1:
-            raise ValueError(f'Expected one simple relative index asset reference: {reference}')
-        versioned = f'"{reference}?v={versions[reference][:VERSION_LENGTH]}"'
-        index = index.replace(original, versioned, 1)
-    index_path.write_text(index, encoding='utf-8')
-    versions['index.html'] = fingerprint(index_path)
+    for reference in ('site/styles.css', 'site/character-map.json', 'site/coverage.json'):
+        versions[reference] = fingerprint(output / reference)
+    for filename, data_files in [('showcase.js', ('character-map.json',)),
+                                  ('characters.js', ('character-map.json', 'coverage.json'))]:
+        script_path = output / 'site' / filename
+        script = script_path.read_text(encoding='utf-8')
+        for data_file in data_files:
+            original = f'"{data_file}"'
+            if script.count(original) != 1:
+                raise ValueError(f'Expected one relative {data_file} reference in site/{filename}')
+            versioned = f'"{data_file}?v={versions["site/" + data_file][:VERSION_LENGTH]}"'
+            script = script.replace(original, versioned, 1)
+        script_path.write_text(script, encoding='utf-8')
+        versions['site/' + filename] = fingerprint(script_path)
+    for page, script in [('index.html', 'site/showcase.js'), ('characters.html', 'site/characters.js')]:
+        page_path = output / page
+        html = page_path.read_text(encoding='utf-8')
+        for reference in ('fonts/variable.css', 'site/styles.css', script):
+            original = f'"{reference}"'
+            if html.count(original) != 1:
+                raise ValueError(f'Expected one simple relative asset reference in {page}: {reference}')
+            versioned = f'"{reference}?v={versions[reference][:VERSION_LENGTH]}"'
+            html = html.replace(original, versioned, 1)
+        page_path.write_text(html, encoding='utf-8')
+        versions[page] = fingerprint(page_path)
     return versions
 
 
@@ -86,6 +139,11 @@ def build(repo_root: Path, site_root: Path, output: Path) -> dict:
     references = CSS_URL.findall(css)
     if len(references) != 177 or len(set(references)) != 177:
         raise ValueError('Expected exactly 177 distinct variable WOFF subsets in fonts/variable.css')
+    webfont_manifest = repo_root / 'fonts/variable/manifest.json'
+    webfonts = json.loads(webfont_manifest.read_text(encoding='utf-8'))
+    coverage = json.loads((site_root / 'site/coverage.json').read_text(encoding='utf-8'))
+    manifest_hash = fingerprint(webfont_manifest)
+    validate_coverage(coverage, webfonts, manifest_hash)
     fonts = []
     for reference in references:
         relative = PurePosixPath(reference)
@@ -111,6 +169,7 @@ def build(repo_root: Path, site_root: Path, output: Path) -> dict:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
     versions = version_assets(output, css, references)
+    validate_coverage(coverage, webfonts, manifest_hash, versions)
     inventory = [{'file': name, 'bytes': (output / name).stat().st_size}
                  for name, _source in inputs]
     report = {'schema_version': 1, 'site': 'Sealie variable font specimen',
@@ -119,6 +178,10 @@ def build(repo_root: Path, site_root: Path, output: Path) -> dict:
               'source_font_css_sha256': fingerprint(css_path),
               'font_css_sha256': versions['fonts/variable.css'],
               'character_map_sha256': versions['site/character-map.json'],
+              'coverage_sha256': versions['site/coverage.json'],
+              'covered_glyphs': coverage['glyph_count'],
+              'repertoire_count': coverage['repertoire_count'],
+              'missing_glyphs': coverage['missing_count'],
               'cache_busting': {'query_key': 'v', 'sha256_prefix_length': VERSION_LENGTH,
                                'woff_files_fingerprinted': len(fonts),
                                'basis': 'Actual copied WOFF bytes; generated stylesheet and index references'},

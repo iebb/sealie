@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - index.html
+      - characters.html
       - 'site/**'
       - fonts/variable.css
       - 'fonts/variable/*.woff'
@@ -31,6 +32,7 @@ jobs:
         with:
           sparse-checkout: |
             /index.html
+            /characters.html
             /site/
             /fonts/variable.css
             /fonts/variable/

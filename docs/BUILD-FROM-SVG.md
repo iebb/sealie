@@ -67,6 +67,8 @@ The [stable release](https://github.com/iebb/sealie/releases/latest) provides in
 
 The [live specimen](https://iebb.github.io/sealie/) loads `fonts/variable.css` and the needed variable WOFF subsets, each containing at most 64 glyphs. The Pages builder versions copied font URLs from their actual bytes so new deployments load the new font revision. Current compiled outputs are bound by the [build](../reports/normalized-font-build.json) and [validation](../reports/normalized-font-validation.json) reports.
 
+The [character library](https://iebb.github.io/sealie/characters.html) lists the complete repertoire, with searchable modern equivalents and coverage measured from the actual webfont cmaps. After replacing the published webfonts and refreshing `fonts/variable/manifest.json`, run `python site/update_coverage.py` to refresh `site/coverage.json`. This local measurement uses the existing fontTools dependency; the Pages build itself uses only Python's standard library and verifies that the coverage inventory matches the deployed font files.
+
 `png/` retains 45 square Regular grid sheets. Individual 16×16 glyph PNGs are not tracked. Optional local bitmap exports belong under the ignored `build/` directory and are previews, not font sources.
 
 ## Historical authoring imports

@@ -26,7 +26,7 @@ The variable font moves continuously between Light and Bold. Each weight follows
 
 ![Sealie character specimen](previews/glyphs.png)
 
-Explore the [interactive specimen](https://iebb.github.io/sealie/) to adjust weight, enter text and look up characters. The [complete character sheets](png/) show every supported codepoint in 16×16 grids.
+Explore the [interactive specimen](https://iebb.github.io/sealie/) to adjust weight, enter text and look up characters. The [character library](https://iebb.github.io/sealie/characters.html) shows every codepoint, Unicode coverage, searchable modern equivalents and variable-weight previews. The [complete character sheets](png/) show every supported codepoint in 16×16 grids.
 
 ## Character coverage
 

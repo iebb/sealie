@@ -13,8 +13,8 @@
     },
     {
       "name": ".github/workflows/pages.yml",
-      "bytes": 1421,
-      "sha256": "0bce6e23d9c4d3b4c7c3c96c76f26972428fa8ae1ef891d4dd7de4c137f796ca"
+      "bytes": 1474,
+      "sha256": "c76c43a37deb0565986564ca172ea23da2dd2f39be88db624ed558c6a2fd495e"
     },
     {
       "name": ".github/workflows/publish-release.yml",
@@ -38,13 +38,18 @@
     },
     {
       "name": "README.md",
-      "bytes": 4464,
-      "sha256": "6ce295003f38ef729f6bf98b42a5bc4aee070b3f5fcbc79f64bd5c684560816d"
+      "bytes": 4636,
+      "sha256": "c55296e0d619cfa2d47917636daa79351c75b1686d14434d01fdb15fc7749d62"
     },
     {
       "name": "README.zh-CN.md",
-      "bytes": 4104,
-      "sha256": "afd7626a78e080c1c4e8afe8e4ef38d036f765647d422bf51768eacedbdaa5b7"
+      "bytes": 4264,
+      "sha256": "b815b6938d407615427d20f72dcc265a09f03fe4f9f3985fa01cac2e600a7a82"
+    },
+    {
+      "name": "characters.html",
+      "bytes": 8951,
+      "sha256": "a7e430c748ec846a938bb429712191bc8c2248b3a2ae96e06be0c7f4376d18fd"
     },
     {
       "name": "components/README.md",
@@ -58,8 +63,8 @@
     },
     {
       "name": "docs/BUILD-FROM-SVG.md",
-      "bytes": 7351,
-      "sha256": "5c5dcf2660dc96b285b83813897ea1b5b4e17eeba03ac93cfd844d9a553ca2ee"
+      "bytes": 7894,
+      "sha256": "1729e5c58e902a5f2bd0fe0cc517b61c0ce28efec65e8bbc8db703ce35c607ab"
     },
     {
       "name": "docs/MAKING.md",
@@ -978,8 +983,8 @@
     },
     {
       "name": "index.html",
-      "bytes": 10751,
-      "sha256": "b9a21c0b1b90cd83cceaaadc92e969fd7d655d450276276e16cd666301969ff8"
+      "bytes": 10755,
+      "sha256": "cc95d604985d99be85d8986321e0f94beb65dda52c5e20d17bcc43e125d8dd04"
     },
     {
       "name": "marketing/provenance.json",
@@ -1493,13 +1498,23 @@
     },
     {
       "name": "site/build.py",
-      "bytes": 7465,
-      "sha256": "5e35ea4aa4aa3f84d19cd9f848c5be1e7626f481ae62dddf908b832706c05289"
+      "bytes": 11363,
+      "sha256": "b8ef0e2d8b11aa5033f286d598a95b3a6d0dbe043e8e6b126ff567b0d86bfc15"
     },
     {
       "name": "site/character-map.json",
       "bytes": 173050,
       "sha256": "91bf820655b610d864e49e3befeeff4921c2c256a2941e979d1869ff9eca097e"
+    },
+    {
+      "name": "site/characters.js",
+      "bytes": 16402,
+      "sha256": "c028cea806ad00b0e4de46d3551cd2212cabf5a09ee8d125d3535aeb61bb8e7f"
+    },
+    {
+      "name": "site/coverage.json",
+      "bytes": 26455,
+      "sha256": "2eef2fca41ccc2b7189c89e5e2b09df37645f549527670e67917476b1c5c433d"
     },
     {
       "name": "site/showcase.js",
@@ -1508,8 +1523,13 @@
     },
     {
       "name": "site/styles.css",
-      "bytes": 13924,
-      "sha256": "3ed707d44a56e1d0a723199f3a2e2ed001718e1e76397cbe66ab4e5543cb20b9"
+      "bytes": 24214,
+      "sha256": "277ccd39490345879852619d317c5bcb9769bd8516cb0a6b52942f1cec3a3d47"
+    },
+    {
+      "name": "site/update_coverage.py",
+      "bytes": 4291,
+      "sha256": "2ac538323df61ead2d59ace798f8251648af7f153196d1927a2dac6559441454"
     },
     {
       "name": "svg/manifest.json",
@@ -1758,7 +1778,17 @@
     ],
     "character_map": "site/character-map.json",
     "character_count": 11328,
-    "font_build_required_for_site_changes": false
+    "font_build_required_for_site_changes": false,
+    "coverage": {
+      "url": "https://iebb.github.io/sealie/characters.html",
+      "source": "characters.html",
+      "data": "site/coverage.json",
+      "measurement": "Unicode cmap entries in every shipped variable WOFF subset",
+      "glyph_count": 11328,
+      "repertoire_count": 11328,
+      "missing_count": 0,
+      "regenerate": "python site/update_coverage.py"
+    }
   },
   "version": "1.1.0",
   "release_url": "https://github.com/iebb/sealie/releases/tag/v1.1.0",

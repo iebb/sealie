@@ -26,7 +26,7 @@ Sealie 将小篆流动、舒展的结构融入简洁的等线字体。圆润的�
 
 ![Sealie 字形样张](previews/glyphs.png)
 
-在[交互样张](https://iebb.github.io/sealie/)中调整字重、输入文字并查询字符。[完整字符网格](png/)以每张 16×16 格列出所有支持的码位。
+在[交互样张](https://iebb.github.io/sealie/)中调整字重、输入文字并查询字符。[字符总览](https://iebb.github.io/sealie/characters.html)列出全部码位及 Unicode 覆盖率，可按现代汉字或码位检索并预览可变字重。[完整字符网格](png/)以每张 16×16 格列出所有支持的码位。
 
 ## 字符覆盖
 

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="Browse every Sealie Small Seal character and check Unicode 18 coverage. Search by Chinese character or codepoint, explore ranges, and try the variable weight.">
+  <link rel="canonical" href="https://iebb.github.io/sealie/characters.html">
+  <title>All characters &amp; coverage — Sealie</title>
+  <link rel="stylesheet" href="fonts/variable.css">
+  <link rel="stylesheet" href="site/styles.css">
+  <script type="module" src="site/characters.js"></script>
+</head>
+<body class="character-atlas">
+  <a class="skip-link" href="#character-browser">Skip to the characters</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Sealie home"><span class="brand-seal seal-font" aria-hidden="true">𽕝</span><span>SEALIE</span></a>
+      <nav aria-label="Main navigation"><a href="./#specimen">Try the font</a><a href="characters.html" aria-current="page">Characters</a><a class="nav-source" href="https://github.com/iebb/sealie">GitHub <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a></nav>
+      <a class="button button-small" href="https://github.com/iebb/sealie/releases/latest">Download <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
+    </header>
+    <main>
+      <section class="atlas-intro" aria-labelledby="atlas-title">
+        <div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>THE COMPLETE CHARACTER SET</p><h1 id="atlas-title">Every character.</h1></div>
+        <div class="atlas-description"><p>Browse the complete Small Seal repertoire, check its coverage, and explore Sealie’s variable weights.</p><p lang="zh-Hans">小篆字符总览与覆盖率。可按汉字或码位查找，点击字形查看详情并复制。</p><a class="text-link" href="https://www.unicode.org/charts/PDF/U3D000.pdf">Unicode 18 character chart <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div>
+      </section>
+      <section class="coverage-summary" aria-label="Unicode character coverage" aria-busy="true" id="coverageSummary">
+        <div><p class="coverage-stat" id="coveredCount">—</p><p class="coverage-label">Characters included <span id="repertoireCount"></span></p></div>
+        <div><p class="coverage-stat" id="coveragePercent">—</p><p class="coverage-label">Small Seal coverage</p></div>
+        <div><p class="coverage-stat" id="missingCount">—</p><p class="coverage-label">Missing characters</p></div>
+        <div class="coverage-edition"><p id="coverageEdition">Unicode 18</p><p class="coverage-label">U+3D000–U+3FC3F</p></div>
+        <div class="coverage-meter" role="progressbar" aria-label="Small Seal coverage" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="coverageMeter"><span></span></div>
+      </section>
+      <section class="atlas-browser" id="character-browser" aria-labelledby="browser-title">
+        <div class="atlas-heading"><div><p class="section-index">CHARACTER LIBRARY</p><h2 id="browser-title">Find your character.</h2></div><p class="atlas-legend"><span><i class="included-dot" aria-hidden="true"></i> Included</span><span><i class="missing-dot" aria-hidden="true"></i> Missing</span></p></div>
+        <form class="atlas-search" id="atlasSearch" role="search">
+          <div class="atlas-search-field"><label for="searchInput">Character or codepoint</label><input type="search" id="searchInput" name="q" placeholder="道, U+3D55D, or 3D000–3D03F" autocomplete="off" spellcheck="false" maxlength="80" aria-describedby="searchHelp"></div>
+          <button class="button" type="submit">Search</button><button class="atlas-reset" id="resetFilters" type="button">Clear filters</button>
+        </form>
+        <p class="help-text" id="searchHelp">Search modern Chinese, paste Small Seal text, or enter a hexadecimal codepoint or range. Modern equivalents follow Unicode’s SealSources mapping; rare equivalents are labeled by codepoint.</p>
+        <div class="atlas-controls">
+          <div class="atlas-select"><label for="rangeSelect">Codepoint range</label><select id="rangeSelect"><option value="all">All ranges</option></select></div>
+          <div class="atlas-select"><label for="coverageFilter">Coverage</label><select id="coverageFilter"><option value="all">All characters</option><option value="included">Included</option><option value="missing">Missing</option></select></div>
+          <div class="range-control"><div class="control-label"><label for="atlasWeight">Weight</label><output id="atlasWeightValue" for="atlasWeight">400</output></div><input id="atlasWeight" type="range" min="300" max="700" step="1" value="400"></div>
+          <div class="range-control"><div class="control-label"><label for="glyphSize">Size</label><output id="glyphSizeValue" for="glyphSize">64 px</output></div><input id="glyphSize" type="range" min="40" max="104" step="1" value="64"></div>
+        </div>
+        <details class="range-overview" id="rangeOverview"><summary>Coverage by range <span id="rangeSummary">Loading…</span></summary><p class="help-text">Each tile represents 64 codepoints. Select a range to browse its characters.</p><div class="range-map" id="rangeMap" aria-label="Coverage for each codepoint range"></div></details>
+        <div class="atlas-result-heading"><p id="resultsStatus" role="status" aria-live="polite">Loading character coverage…</p><div class="atlas-select atlas-page-size"><label for="pageSize">Per page</label><select id="pageSize"><option value="64">64</option><option value="128" selected>128</option><option value="256">256</option></select></div></div>
+        <p class="atlas-font-status" id="atlasFontStatus" role="status" aria-live="polite"></p>
+        <div class="atlas-grid" id="characterGrid" aria-label="Small Seal characters" aria-busy="true"></div>
+        <p class="atlas-empty" id="emptyState" hidden></p>
+        <nav class="atlas-pagination" aria-label="Character pages"><div class="atlas-page-buttons"><button type="button" id="firstPage" aria-label="First page">First</button><button type="button" id="previousPage" aria-label="Previous page">← Previous</button></div><form id="pageForm" class="atlas-page-jump"><label for="pageNumber">Page</label><input id="pageNumber" type="number" min="1" value="1" inputmode="numeric" aria-describedby="pageCount"><span id="pageCount">of 1</span><button type="submit">Go</button></form><div class="atlas-page-buttons"><button type="button" id="nextPage" aria-label="Next page">Next →</button><button type="button" id="lastPage" aria-label="Last page">Last</button></div></nav>
+        <p class="atlas-note">Coverage is checked against the Unicode character maps in the published webfonts. It describes encoded character support. Pages load a small group of glyphs at a time; browse any range to see the complete set.</p>
+        <noscript><p class="notice">Enable JavaScript to browse and search this character library. You can also view every character in the <a href="https://github.com/iebb/sealie/tree/main/png">complete 16×16 character sheets</a>.</p></noscript>
+      </section>
+    </main>
+    <footer class="site-footer"><a class="brand footer-brand" href="./">SEALIE</a><p>Small Seal / Gothic · Made by ieb</p><div><a href="./#specimen">Font specimen</a><a href="https://github.com/iebb/sealie">GitHub <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a><a href="https://github.com/iebb/sealie/blob/main/README.zh-CN.md" lang="zh-Hans">中文介绍</a></div></footer>
+  </div>
+  <dialog id="glyphDialog" class="glyph-dialog" aria-labelledby="dialogTitle">
+    <form method="dialog" class="glyph-dialog-top"><span id="dialogCoverage">Included in Sealie</span><button class="dialog-close" aria-label="Close character details">×</button></form>
+    <div class="dialog-glyph seal-font" id="dialogGlyph" aria-hidden="true"></div>
+    <h2 id="dialogTitle">Character details</h2>
+    <dl><dt>Codepoint</dt><dd id="dialogCode"></dd><dt>Modern equivalent</dt><dd id="dialogModern"></dd></dl>
+    <div class="dialog-actions"><button class="button" id="copyGlyph" type="button">Copy character</button><a id="svgSource" target="_blank" rel="noopener noreferrer">SVG source <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a><a id="unicodeInfo" target="_blank" rel="noopener noreferrer">Unicode <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div>
+    <p class="help-text" id="copyStatus" role="status" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>
