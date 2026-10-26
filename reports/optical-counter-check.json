@@ -5580,5 +5580,6 @@
   ],
   "elapsed_seconds": 0.15944228800026394,
   "pre_freeze_source_svg_manifest_sha256": "ebcd9c68a4dcdaa60fa5543ead1343e822d99d6e35f10320553da149135e8fce",
-  "final_source_svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf"
+  "final_source_svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf",
+  "scope_note": "Historical v1.1.0 evidence before geometric simplification. Current sources inherit its optical frames; current geometry and validation are recorded in geometric-simplification.json."
 }

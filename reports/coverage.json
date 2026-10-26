@@ -11363,7 +11363,10 @@
     "chunks": 177,
     "source_polylines_simplified": false,
     "serialized_merged_glyphs_metrics_and_variations_preserved": true,
-    "variable_topology_legacy_fallbacks": [],
+    "variable_topology_legacy_fallbacks": [
+      "U+3D02F",
+      "U+3F152"
+    ],
     "component_source_equality": {
       "templates": 180,
       "glyphs": 3763,
@@ -11383,9 +11386,10 @@
     "regular_degenerate_contours": 0,
     "optical_sizing_report": "reports/optical-sizing.json",
     "cap_refinement_report": "reports/cap-refinement.json",
-    "fixture_tests_executed": 11
+    "fixture_tests_executed": 11,
+    "geometric_simplification_report": "reports/geometric-simplification.json"
   },
-  "visual_acceptance": "Current source has exact shared-component equality, contact-guarded optical proportions, selected independent visual review and compiled-font validation. Earlier paleographic acceptance retains its historical scope.",
+  "visual_acceptance": "Current geometry has guarded all-five-pen distinct-path contact graphs and closed-ring counters, exact shared components, selected compiled-font visual review, and complete recorded outline validation. Earlier optical and paleographic evidence retains its source scope.",
   "full_block_complete": true,
   "reference_reviewed_original_regular400_glyph_count": 11328,
   "changed_original_128_source_count": 128,
@@ -11399,8 +11403,8 @@
     "preserved_svg_count": 0,
     "shared_component_templates": 180,
     "shared_component_glyphs": 3763,
-    "svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf",
-    "component_manifest_sha256": "ec2ac7453fbef9815605f315922cafaface2c6f3ec7bd99939552799e0de7120",
+    "svg_manifest_sha256": "bb91a0d60a0efda8b3c954ee1e2aa83aa6d884fefcadc2040fffa4de2154aa12",
+    "component_manifest_sha256": "74438a89e6726bdb74f4e2f301a3bfe38681840091a71b02ee9962bc17bef4ca",
     "report": "reports/normalization.json",
     "review": "reports/normalization-review.json",
     "initial_measurements_svg_manifest_sha256": "99d61e298aa3e2ee0f0d743c196775b187a464a32aa159553de3edfc89de8d6f",
@@ -11409,8 +11413,9 @@
     "supplementary_fit": "reports/supplementary-size-fit.json",
     "radical_expansion": "reports/radical-expansion.json",
     "join_refinement": "reports/join-refinement.json",
-    "current_revision_changed_glyph_count": 11328,
-    "optical_sizing": "reports/optical-sizing.json"
+    "current_revision_changed_glyph_count": 11309,
+    "optical_sizing": "reports/optical-sizing.json",
+    "current_geometry_report": "reports/geometric-simplification.json"
   },
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

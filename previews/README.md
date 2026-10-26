@@ -1,29 +1,31 @@
 # Font previews
 
-The current **v1.1.0** design covers 11,328 characters, with **180 shared templates registered to 3,763 glyphs**. Ordinary upright characters share a body height and retain different widths. Reference measurements guide naturally shorter forms; horizontal bars have their own sizes. Comparisons illustrate their stated samples and do not imply exhaustive visual approval at every weight.
+The current **v1.2.0** design covers 11,328 characters. Simple curves, straight stems and round turns retain the Small Seal structures and optical frames. **180 shared templates are registered to 3,763 glyphs**. The images illustrate their stated samples; they do not imply exhaustive visual approval of every glyph at every weight.
 
-- [optical-alignment.png](optical-alignment.png): representative text, showing the height relationship of 道、可、非、常 and 名.
-- [optical-primitives.png](optical-primitives.png): open structures and shallow forms, including 王、工、土、士 and horizontal primitives.
+- [geometric-simplification.png](geometric-simplification.png): the construction of 道, showing straight sides, a rounded eye, a symmetric internal Y and matching repeated curves.
+- [glyphs.png](glyphs.png): a sample rendered from the current font. Complete square sheets are in [png/](../png/).
 - [Live variable specimen](https://iebb.github.io/sealie/): editable text, 300–700 weight control and character lookup.
-- [weight-slider.html](weight-slider.html): local interactive weight preview.
-- [glyphs.png](glyphs.png): current repertoire sample; complete square sheets are in [png/](../png/).
+- [Character library and coverage](https://iebb.github.io/sealie/characters.html): the complete repertoire, search, codepoint ranges, glyph details and copying.
 
-The [sizing report](../reports/optical-sizing.json) records actual dimensions and contact-safe exceptions. The [reference report](../reports/reference-dimensions.json) contains numeric bounds from 257 public raster previews, not copied reference-font artwork. See the [design notes](../docs/NORMALIZATION.md) for the mapping and measurement limits.
+The [geometric source report](../reports/geometric-simplification.json) separates bounded general cleanup from the deliberate 道 redraw. The [geometry review](../reports/geometry-review.json) records the samples and source or compiled-font identities used for visual review. See the [design notes](../docs/NORMALIZATION.md) for the editing budgets, optical frames and guard scope.
 
 ## Historical comparisons
 
-The v1.0.0 [王/玉 strip](optical-size-strip.png), [first sixteen codepoints](optical-size-first16.png) and [representative forms](optical-size-representatives.png) show the earlier simple/compound size split. [cap-refinement.png](cap-refinement.png) records that revision's local parent-curve and cap repairs, including U+3E680. These images retain their original scope.
+The v1.1 [text alignment](optical-alignment.png) and [primitive sizes](optical-primitives.png) show the optical profiles before geometric cleanup. Their source identities are in the [sizing report](../reports/optical-sizing.json) and [optical review](../reports/optical-review.json). The [reference report](../reports/reference-dimensions.json) retains numeric bounds from 257 public raster previews; it contains no copied reference-font artwork.
 
-The initial [source comparison](normalization-before-after.png), [radical consistency](radical-consistency.png), [metrics](normalization-metrics.png) and [stress cases](normalization-stress.png) also retain their original source and measurement scope. The later [size-fit sheets](residual-size-fit-1.png), [second size-fit sheet](residual-size-fit-2.png), [cap repair](cap-repair.png), [micro-knots](cap-microknots.png), [U+3D7B7 joins](join-refinement.png) and [shared joins](shared-join-refinement.png) document earlier repairs.
+The v1.0 [王/玉 strip](optical-size-strip.png), [first sixteen codepoints](optical-size-first16.png) and [representative forms](optical-size-representatives.png) show the earlier simple/compound size split. [cap-refinement.png](cap-refinement.png) records that revision's local parent-curve and cap repairs, including U+3E680.
 
-See the [source manifest](../svg/manifest.json) and [stable font assets](https://github.com/iebb/sealie/releases/latest).
+The initial [source comparison](normalization-before-after.png), [radical consistency](radical-consistency.png), [metrics](normalization-metrics.png) and [stress cases](normalization-stress.png) retain their original scope. The later [size-fit sheets](residual-size-fit-1.png), [second size-fit sheet](residual-size-fit-2.png), [cap repair](cap-repair.png), [micro-knots](cap-microknots.png), [U+3D7B7 joins](join-refinement.png) and [shared joins](shared-join-refinement.png) document earlier repairs.
+
+See the [maintained source manifest](../svg/manifest.json), [v1.1 source checkpoint](https://github.com/iebb/sealie/tree/v1.1.0) and [stable font assets](https://github.com/iebb/sealie/releases/latest).
 
 ## 中文
 
-当前 **v1.1.0** 覆盖 11,328 个字，**180 个共享模板登记用于 3,763 个字形**。一般直立字形采用共同的字身高度，保留自然的宽度差异；参考尺寸指导自然较矮的字形，横画形式另有相应尺寸。实际尺寸及接触安全例外记录于[尺寸报告](../reports/optical-sizing.json)。[参考报告](../reports/reference-dimensions.json)仅包含 257 个公开栅格预览的数值度量，不包含参考字体的图像或轮廓。
+当前 **v1.2.0** 覆盖 11,328 个字，以简练曲线、平直字干和圆润转折整理造型，保留小篆结构与既有视觉尺寸。**180 个共享模板登记用于 3,763 个字形**。
 
-- [文字高度对齐](optical-alignment.png)：道、可、非、常、名等代表字的高度关系。
-- [基本形式](optical-primitives.png)：王、工、土、士等疏朗结构及较浅的横向形式。
+- [几何造型](geometric-simplification.png)：道的平直两侧、圆角字腔、对称内部 Y 形和一致重复曲线。
+- [当前字体样张](glyphs.png)：完整方格字表位于 [png/](../png/)。
 - [在线可变字体展示](https://iebb.github.io/sealie/)：文本输入、300–700 字重调整和码位查询。
+- [字符总览与覆盖率](https://iebb.github.io/sealie/characters.html)：全部码位、搜索、字形详情与复制。
 
-较早的规范化、尺寸、笔端和连接处对比图保留各自历史范围，并不代表当前全部字形或所有字重的视觉验收。
+[几何报告](../reports/geometric-simplification.json)区分一般受限清理与道的明确重绘；[视觉审查](../reports/geometry-review.json)记录实际样本与相应源文件或字体身份。v1.1 的对齐、基本形式与参考尺寸证据，以及更早的尺寸、笔端和连接处图像，均保留各自历史范围。

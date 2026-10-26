@@ -551185,5 +551185,6 @@
     "scope": "Explicitly closed paths only. Excludes invalid/nonsimple centerline rings, loops formed by open paths or multiple paths, same-path open self-overlaps, and every other weight. Positive remaining area checks counter survival, not a guarantee of acceptable raster legibility.",
     "positive_baseline_counters_checked": 73,
     "counters_disappeared": 0
-  }
+  },
+  "scope_note": "Historical v1.1.0 evidence before geometric simplification. Current sources inherit its optical frames; current geometry and validation are recorded in geometric-simplification.json."
 }

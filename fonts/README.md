@@ -15,7 +15,7 @@ The variable font covers the entire 300–700 weight range. Install it in applic
 | SemiBold 600 | [Sealie-SemiBold.ttf](https://github.com/iebb/sealie/releases/latest/download/Sealie-SemiBold.ttf) |
 | Bold 700 | [Sealie-Bold.ttf](https://github.com/iebb/sealie/releases/latest/download/Sealie-Bold.ttf) |
 
-The installed family name is **Sealie**. All fonts cover 11,328 Unicode 18 Small Seal characters, U+3D000–U+3FC3F. Ordinary CJK codepoints do not automatically select these forms; use the [character explorer](https://iebb.github.io/sealie/) to look up and copy Small Seal characters.
+The installed family name is **Sealie**. All fonts cover 11,328 Unicode 18 Small Seal characters, U+3D000–U+3FC3F. Ordinary CJK codepoints do not automatically select these forms; use the [character library](https://iebb.github.io/sealie/characters.html) to browse coverage, look up forms and copy Small Seal characters.
 
 ## Webfonts
 
@@ -23,6 +23,7 @@ The installed family name is **Sealie**. All fonts cover 11,328 Unicode 18 Small
 - [Full Regular WOFF](https://github.com/iebb/sealie/releases/latest/download/Sealie-Regular.woff)
 - [variable.css](variable.css) and [177 WOFF subsets](variable/), for loading only the characters used on a page
 - [Interactive variable-font specimen](https://iebb.github.io/sealie/)
+- [Complete character library and coverage](https://iebb.github.io/sealie/characters.html)
 
 Keep `variable/` beside `variable.css` when hosting the subsets. The stylesheet defines the CSS font-family name `Seal`; its weight range is 300–700.
 
@@ -38,4 +39,4 @@ Editable [SVG glyphs](../svg/) and [shared components](../components/) are maint
 
 支持可变字体的应用建议安装 `Sealie-Variable.ttf`，可连续调整 300–700 字重；也可选择 Light、Regular、Medium、SemiBold、Bold 五个静态字重。字体家族名称为 **Sealie**，覆盖全部 11,328 个 Unicode 18 小篆字符。
 
-网页可使用完整 WOFF，或通过 `variable.css` 按需加载子集；托管时保持样式表和 `variable/` 目录的相对位置。普通汉字不会自动转换为小篆码位，可使用[在线字符查询](https://iebb.github.io/sealie/)查找并复制。
+网页可使用完整 WOFF，或通过 `variable.css` 按需加载子集；托管时保持样式表和 `variable/` 目录的相对位置。普通汉字不会自动转换为小篆码位，可使用[字符总览](https://iebb.github.io/sealie/characters.html)浏览覆盖率、检索字形并复制。

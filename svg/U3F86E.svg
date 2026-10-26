@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" data-codepoint="U+3F86E" data-advance="1024" data-schema="seal-centerline-1">
   <g transform="matrix(1 0 0 -1 0 832)" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
     <path id="stroke-1" d="M 376.087739 129.293789 L 376.087739 652.889254" />
-    <path id="stroke-2" d="M 626.451769 325.642261 L 757.0 323.385081" />
-    <path id="stroke-3" d="M 267.0 442.99908 L 483.386921 445.256261" />
-    <path id="stroke-4" d="M 270.577113 127.036609 L 499.481744 129.293789" />
+    <path id="stroke-2" d="M 626.451769 324.513671 L 757.0 324.513671" />
+    <path id="stroke-3" d="M 267.0 444.127671 L 483.386921 444.127671" />
+    <path id="stroke-4" d="M 270.577113 128.165199 L 499.481744 128.165199" />
     <path id="stroke-5" d="M 626.451769 689.0 L 626.451769 -49.0" />
   </g>
 </svg>

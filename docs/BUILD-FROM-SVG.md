@@ -1,6 +1,6 @@
 # Build Sealie from SVG sources
 
-`svg/` contains the complete 11,328-codepoint font source. Reusable radicals live in `components/`: **180 templates registered to 3,763 glyphs**. Sources already include the current optical sizing and reviewed repairs; no private drawings, reference images or existing font outlines are needed to build them.
+`svg/` contains the complete 11,328-codepoint font source. Reusable radicals live in `components/`: **180 templates registered to 3,763 glyphs**. Sources already contain the geometric drawing, optical sizing and reviewed repairs; no private drawings, reference images or existing font outlines are needed to build them.
 
 Each `Uxxxxx.svg` uses a 1024-unit advance, a 30-unit round pen and exact centerline coordinates. Font software and sources use SIL Open Font License 1.1; see [LICENSE-OFL.txt](../LICENSE-OFL.txt) and [OFL-1.1.txt](../OFL-1.1.txt).
 
@@ -16,7 +16,7 @@ python tools/build_normalized_fonts.py --svg-dir svg --output build
 
 This creates `Light.ttf`, `Regular.ttf`, `Medium.ttf`, `SemiBold.ttf`, `Bold.ttf`, `Variable.ttf`, Regular/variable WOFFs, variable webfont subsets and a build manifest. Add `--woff2` for a Regular WOFF2. The [Build font from SVG workflow](https://github.com/iebb/sealie/actions/workflows/build-font.yml) runs the same builder and uploads artifacts; it does not automatically publish a release.
 
-The compact stroker uses pinned `skia-pathops` round caps and joins without simplifying the source polylines or applying Boolean union. It checks contour endpoints and on/off flags across all five masters. If compact topology changes with weight, all masters of that glyph use the original disk/rectangle stroker.
+The compact stroker uses pinned `skia-pathops` round caps and joins. It expands the maintained polylines without applying another simplification or Boolean union. Geometric cleanup belongs to the editable source; rebuilding does not repeat the design edits. The builder checks contour endpoints and on/off flags across all five masters. If compact topology changes with weight, all masters of that glyph use the original disk/rectangle stroker.
 
 Chunks contain at most 64 glyphs, with up to four workers by default; `--workers 2` lowers concurrency. Exact-input caches live under `build/.build-cache`. Finished chunks are merged as serialized glyph and variation data. Source hashes, coverage, bounds, compatible masters, metrics and serialized preservation are checked; no global variable-font instancing is needed. Final serialization and optional WOFF2 compression still require memory proportional to font size.
 
@@ -44,7 +44,7 @@ python tools/build_normalized_fonts.py --svg-dir svg --output build
 
 Templates include exact placement. Preserve path count and closures; the updater changes only assigned paths, preserves unrelated paths and IDs, and refreshes hashes. It rejects overlapping assignments, missing paths, incompatible closures, unsupported constructs and stale glyph hashes. Different positions and allographs remain separate templates.
 
-The current optical profiles share a vertical band for ordinary forms, with shorter sparse forms and naturally varying widths. Rebuilding compiles those maintained coordinates. See [normalization policy](NORMALIZATION.md) and [optical sizing](../reports/optical-sizing.json). The [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json) reports retain their v1.0 source scope.
+The geometric design retains a shared optical band for ordinary forms, shorter sparse forms and naturally varying widths. See the [design policy](NORMALIZATION.md), [current geometric source report](../reports/geometric-simplification.json) and [selected geometry review](../reports/geometry-review.json). The [optical sizing](../reports/optical-sizing.json) and [optical review](../reports/optical-review.json) retain their v1.1 source identities; the earlier radical and cap reports retain their own recorded stages.
 
 ## Validation and endpoint cleanup
 
@@ -55,7 +55,7 @@ python -m unittest discover -s tests
 python tools/cleanup_caps.py --check
 ```
 
-All **11 existing fixture tests were rerun for v1.1.0**, after updating the font version metadata. Current source, contact, shared-component and compiled-output checks have their own revision-bound reports.
+The [current validation report](../reports/normalized-font-validation.json) records executed fixture tests and any exact-byte evidence reused from an earlier build. Source contact, counter, shared-component and compiled-output checks have their own revision-bound reports. An earlier fixture result alone does not validate edited glyph geometry.
 
 The tests cover mixed SVG fixtures, static/variable output, named weights, default-master geometry, webfont coverage, stale source rejection, topology fallback and component propagation. They require compatible masters, exact Regular coordinates, at most one font unit of named-instance coordinate/sidebearing error and unchanged 1024-unit advances. The legacy `tools/svg_font.py` Regular builder and its optional `SEAL_PRODUCTION_REGULAR` comparison remain historical tools, not exact-byte checks for the current compact font.
 

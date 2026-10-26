@@ -1264,5 +1264,6 @@
       "bytes": 74715
     }
   ],
-  "boards_note": "Board filenames identify retained private source-rendering evidence. Public compiled comparisons are previews/optical-alignment.png and previews/optical-primitives.png."
+  "boards_note": "Board filenames identify retained private source-rendering evidence. Public compiled comparisons are previews/optical-alignment.png and previews/optical-primitives.png.",
+  "scope_note": "Historical v1.1.0 evidence before geometric simplification. Current sources inherit its optical frames; current geometry and validation are recorded in geometric-simplification.json."
 }

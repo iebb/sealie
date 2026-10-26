@@ -6,7 +6,7 @@ English · [简体中文](README.zh-CN.md)
 
 ![Sealie — Small Seal typography inspired by the Dao De Jing](marketing/sealie-marketing.png)
 
-Sealie brings the flowing structures of Small Seal script into a clean, monoline typeface. Rounded stroke ends, even weight and generous spaces give its characters a calm, geometric rhythm. Slender proportions and coordinated body heights balance simple and complex forms. It is designed for display typography: titles, posters, book covers, seal-inspired graphics and character studies.
+Sealie brings the flowing structures of Small Seal script into a clean, monoline typeface. Simple curves, straight stems and rounded turns give its characters a calm, geometric rhythm. Slender proportions and coordinated body heights balance simple and complex forms, while shared radical drawings keep related characters consistent. It is designed for display typography: titles, posters, book covers, seal-inspired graphics and character studies.
 
 The family covers **11,328 Small Seal characters** and includes a **300–700 variable font** alongside five static weights. All characters have a fixed advance, making the font suitable for horizontal text, vertical arrangements and square compositions.
 
@@ -25,6 +25,8 @@ The family covers **11,328 Small Seal characters** and includes a **300–700 va
 The variable font moves continuously between Light and Bold. Each weight follows the same stroke centerlines, retaining the character structure as the strokes become heavier.
 
 ![Sealie character specimen](previews/glyphs.png)
+
+The [geometry study](previews/geometric-simplification.png) shows the treatment of curves, stems and repeated strokes.
 
 Explore the [interactive specimen](https://iebb.github.io/sealie/) to adjust weight, enter text and look up characters. The [character library](https://iebb.github.io/sealie/characters.html) shows every codepoint, Unicode coverage, searchable modern equivalents and variable-weight previews. The [complete character sheets](png/) show every supported codepoint in 16×16 grids.
 

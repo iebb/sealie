@@ -2,7 +2,9 @@
 
 [manifest.json](manifest.json) assigns **180 SVG templates to 3,763 glyphs**. Each template includes the exact geometry, size and placement of one reviewed radical form. Every registered occurrence uses that same drawing and slot; different positions and structural allographs remain separate.
 
-Optical sizing makes one coherent horizontal profile for a shared-template family, preserving identical registered copies and the ordinary 768-unit body height. Other forms can use shorter reference-informed heights and naturally different widths. Fitting stops before it closes a previously open Regular-weight gap. See the [normalization policy](../docs/NORMALIZATION.md) and [current sizing report](../reports/optical-sizing.json).
+Geometric cleanup edits each canonical template once and propagates the same paths to every registered instance. Source path counts and closures are retained. Sensitive template paths retain their earlier geometry when a proposal cannot preserve the checked joins and gaps; copies are never independently smoothed.
+
+The design carries forward the optical frames established in v1.1, including the ordinary 768-unit body height and naturally different widths. See the [design policy](../docs/NORMALIZATION.md) and [current geometric source report](../reports/geometric-simplification.json). The [optical sizing report](../reports/optical-sizing.json) retains its earlier source identities.
 
 Edit a template, then run from the repository root:
 
@@ -16,7 +18,7 @@ Preserve its `1024×1024` viewBox, font-coordinate transform, 30-unit round pen,
 
 ## Source history
 
-The v1.0.0 revision added **290 assignments**: 219 extensions of existing templates, eight additional 雨 occurrences, and 63 glyphs using seven new 子、鳥、巾 templates. Three shared parent-curve repairs propagated to 46 glyphs; a separate terminal correction affected U+3E680. The [radical-expansion report](../reports/radical-expansion-v4.json) and [cap-refinement report](../reports/cap-refinement.json) retain those earlier source identities. Current optical dimensions are recorded separately.
+The v1.0.0 revision added **290 assignments**: 219 extensions of existing templates, eight additional 雨 occurrences, and 63 glyphs using seven new 子、鳥、巾 templates. Three shared parent-curve repairs propagated to 46 glyphs; a separate terminal correction affected U+3E680. The [radical-expansion report](../reports/radical-expansion-v4.json), [cap-refinement report](../reports/cap-refinement.json) and later v1.1 sizing reports retain their own source identities. The current geometry is recorded separately.
 
 [Live font specimen](https://iebb.github.io/sealie/) · [Stable font assets](https://github.com/iebb/sealie/releases/latest)
 
@@ -24,7 +26,7 @@ The v1.0.0 revision added **290 assignments**: 219 extensions of existing templa
 
 [清单](manifest.json)包含 **180 个共享 SVG 模板，登记用于 3,763 个字形**。同一偏旁、位置及经过审查的结构形式，共用完全一致的形状、尺寸和位置；不同位置和结构异体分别维护。
 
-视觉尺寸调整为同一共享模板族选择一致的横向变换，保持所有登记副本完全相同，并采用一般字形的 768 单位字身高度。其他字形可依据参考测量采用较矮的高度和自然的宽度差异；若继续压缩会使 Regular 字重下原有的留白闭合，就保留接触安全的尺寸。实际尺寸和例外见[尺寸报告](../reports/optical-sizing.json)。修改模板后，请运行上述同步、检查和构建命令。
+几何整理对每个模板只处理一次，再将相同路径同步至全部登记副本，保留路径数量与闭合状态。无法保留已检查连接或留白的敏感路径，统一保留原形，不逐字独立平滑。设计沿用 v1.1 的视觉框架，包括一般字形的 768 单位字身高度及自然宽度差异。当前造型见[几何报告](../reports/geometric-simplification.json)，旧[尺寸报告](../reports/optical-sizing.json)保留其原有源文件身份。修改模板后，请运行上述同步、检查和构建命令。
 
 请保留方框、坐标变换、30 单位圆头笔画、路径数量和闭合状态。清单中的路径索引从零开始，并不代表历史笔顺；没有可靠对应关系的形式仍保留独立 SVG。
 

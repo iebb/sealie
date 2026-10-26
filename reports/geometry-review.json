@@ -1,0 +1,669 @@
+{
+  "status": "accepted",
+  "source_svg_manifest_sha256": "bb91a0d60a0efda8b3c954ee1e2aa83aa6d884fefcadc2040fffa4de2154aa12",
+  "component_manifest_sha256": "74438a89e6726bdb74f4e2f301a3bfe38681840091a71b02ee9962bc17bef4ca",
+  "sample_count": 66,
+  "reviewed_unique_glyphs": 66,
+  "primary_method_glyphs": 64,
+  "exact_after_geometry_proofs_reused": 51,
+  "new_final_post_hold_glyphs_inspected": 13,
+  "additional_production_fallback_glyphs_inspected": 2,
+  "approved_legacy_fallbacks": [
+    "U+3D02F",
+    "U+3F152"
+  ],
+  "review_scope": "Actual compiled Regular TTF comparison for64selected glyphs:51exact numerical geometries reuse reviewed method proofs and13guard/template-modified glyphs have a new targeted final TTF board. AdditionallyU3D02FandU3F152were compared across the exact five production static masters against the v1.1 variable font, and the deliberate Dao design had separate48pxRegular/96pxRegular/Bold review. Not a full-repertoire visual review.",
+  "findings": [
+    "The final held-path/shared-template differences retain legibility, visible counter openings and earlier optical sizing in all13targeted samples.",
+    "Long-axis bars such as土now use clean straight chords without the former wavy/downturned tip.",
+    "Dao is visibly simplified through geometric stems, bowl corners and matching repeated curves while preserving its15source paths and intentional opening.",
+    "Other glyphs receive bounded curve/axis cleanup; their historical character structures and complex stroke counts remain.",
+    "U3D02Flegacy fallback is visually acceptable at300/400/500/600/700: round caps, joins, four upper counters and petal/stem structure remain clear; no new cap blob or disconnected stroke was seen.",
+    "U3F152legacyfallback is visually acceptable at300/400/500/600/700: water strokes remain separated, the open upper form and lower rounded counter remain clear, and no new cap blob or break is visible. Its exact production outlines have318contours perweight, zero degenerate contours, and minimum analytic/control areas24/30/36/43/50fu²."
+  ],
+  "full_repertoire_visual_review_claimed": false,
+  "all_glyphs_all_weights_visual_review_claimed": false,
+  "method_acceptance_sha256": "8e74199c99075caed5d3540d272499d8ac1015967fe023c42eda8cf527b2826d",
+  "source_reconciliation_sha256": "fe1803b3433b24c0873da46fdb6a94be49accf46e194787fe40b40cb29820a67",
+  "final13_regular_font_sha256": "e7b56cb28c6c136388aac53ad22157b24243326e68c98aae5ac86a8dc9f35e80",
+  "proof_boards": [
+    {
+      "file": "font-review-01.png",
+      "sha256": "08d88429c2991319c88c2de2f21e9ad67c2b6a0842291bac2535e8551b024f98",
+      "codepoints": [
+        "U+3D55D",
+        "U+3DDE5",
+        "U+3F271",
+        "U+3E611",
+        "U+3D3B3",
+        "U+3D000",
+        "U+3D066",
+        "U+3D068",
+        "U+3D06D",
+        "U+3F859",
+        "U+3DDBF",
+        "U+3D113",
+        "U+3E2F3",
+        "U+3E37E",
+        "U+3DFA9",
+        "U+3EF5E"
+      ]
+    },
+    {
+      "file": "font-review-02.png",
+      "sha256": "a0b245ae5cc7215952a7e4844d6df222e72ae85c752cce18497d1739ba9df805",
+      "codepoints": [
+        "U+3D374",
+        "U+3F912",
+        "U+3FBAD",
+        "U+3DD6E",
+        "U+3DAFB",
+        "U+3DAFF",
+        "U+3E96C",
+        "U+3EE69",
+        "U+3D7B7",
+        "U+3E680",
+        "U+3EBA5",
+        "U+3D44D",
+        "U+3D3B6",
+        "U+3EB85",
+        "U+3FAD7",
+        "U+3FA6D"
+      ]
+    },
+    {
+      "file": "font-review-03.png",
+      "sha256": "683cd8c96f3de2adcd64a99ff58e21469cc944c703c15fbefabc2db03d4ac965",
+      "codepoints": [
+        "U+3DA19",
+        "U+3DB7F",
+        "U+3DA2C",
+        "U+3DA4F",
+        "U+3DD04",
+        "U+3E189",
+        "U+3DE4C",
+        "U+3E0E8",
+        "U+3E4A8",
+        "U+3EDB1",
+        "U+3D011",
+        "U+3D3DC",
+        "U+3D003",
+        "U+3F442",
+        "U+3F979",
+        "U+3F2E0"
+      ]
+    },
+    {
+      "file": "font-review-04.png",
+      "sha256": "8930b7ff68b074c3c185ae78e172e60233005e5b1b6057a7349c0f079ba260cc",
+      "codepoints": [
+        "U+3EBA4",
+        "U+3D002",
+        "U+3D006",
+        "U+3D00A",
+        "U+3D00D",
+        "U+3D065",
+        "U+3D06A",
+        "U+3D844",
+        "U+3DAA7",
+        "U+3DF5B",
+        "U+3E53B",
+        "U+3EC29",
+        "U+3EDE2",
+        "U+3EF60",
+        "U+3E9A2",
+        "U+3EE38"
+      ]
+    },
+    {
+      "file": "font-review-01.png",
+      "sha256": "6987967ab4fd26b9f4c92c0918c767df4b34c10a6bdb3c0572f3b7efd53d6af5",
+      "codepoints": [
+        "U+3E96C",
+        "U+3EE69",
+        "U+3D44D",
+        "U+3FAD7",
+        "U+3FA6D",
+        "U+3DB7F",
+        "U+3DA2C",
+        "U+3DA4F",
+        "U+3E4A8",
+        "U+3DF5B",
+        "U+3E53B",
+        "U+3E9A2",
+        "U+3EE38"
+      ]
+    }
+  ],
+  "fallback_proof": {
+    "codepoint": "U+3D02F",
+    "baseline_variable_woff_sha256": "b48b919fa7a54a5aa317f01a8783ec9b9deb309e08ca7d26dcdaf5b627d28ca1",
+    "new_production_files": [
+      {
+        "weight": 300,
+        "style": "Light",
+        "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Light.ttf",
+        "sha256": "f28606912d2f16c4019aaef5dd293ae014cf6156459dc43921d133d310a807d4"
+      },
+      {
+        "weight": 400,
+        "style": "Regular",
+        "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Regular.ttf",
+        "sha256": "021557456ad863f2c2dc50dddf5119057387ec96b52870c2005df35da989ad34"
+      },
+      {
+        "weight": 500,
+        "style": "Medium",
+        "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Medium.ttf",
+        "sha256": "29f183383f796783034bd9490071e6d07d76eac2e19b9d954a78303daba4df82"
+      },
+      {
+        "weight": 600,
+        "style": "SemiBold",
+        "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/SemiBold.ttf",
+        "sha256": "8c52d0e1c7aa7e166b2913a78b5e51e1bb7c6fa76dac2f6d40580382166917b7"
+      },
+      {
+        "weight": 700,
+        "style": "Bold",
+        "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Bold.ttf",
+        "sha256": "7cdc5e50c3b0979e9576b63984cb2b8514030dd71670fc4d49ac83d58b1775a3"
+      }
+    ],
+    "proof_sha256": "44ed93553414db3ed2f2fd9c22a7db910391e6a255dcc0a2a7b516a9398b3162"
+  },
+  "glyphs": [
+    {
+      "codepoint": "U+3D55D",
+      "final_svg_sha256": "77057ea567cbb63e7537816776cdd26f1d1c148bbf7621b5d8b95df7f1bcbca0",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DDE5",
+      "final_svg_sha256": "a3fe9004820bda725f0b3634d4487a2c69e797109d21ff56630624315936ec96",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F271",
+      "final_svg_sha256": "0a90ebdfc0c74b84f35e9a559a728091d207bf603fdde3dd7bee5287a8dc9ae4",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E611",
+      "final_svg_sha256": "89f3a0e91adf7a0890fa97fcfaac011ac0af2d2e24d69a84dd352e3183153ba4",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D3B3",
+      "final_svg_sha256": "089d0e33b0faacfdbbc8bfb928adcca0a328b8b91675ea8724d68f58ab2eb46e",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D000",
+      "final_svg_sha256": "e4c88636f80a0c2d208225a60659dc0f855dd9a2860aa026596781a2ce02e678",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D066",
+      "final_svg_sha256": "9b54e837a1ef56388b856bcea6b9f93cf14687541ef90b30a5717a66cc7dd547",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D068",
+      "final_svg_sha256": "70d9d5d1b4e7fdf31b7719b3a77c3ce9e39067afb55515bfde09c2010e369679",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D06D",
+      "final_svg_sha256": "498ffeaf39a9320edec0b04b8cc935043f4530b572a26feab4a0145044e030e0",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F859",
+      "final_svg_sha256": "27ffbfc757ecaba7e8497c12999ab9907275364f9db8538227953a0d23266159",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DDBF",
+      "final_svg_sha256": "a8251666132bb9eee776f11319aa536d13e6b961c8e8b2ca7944afd63e37c656",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D113",
+      "final_svg_sha256": "09d8c38ae9d5038ed2dfc297294be7d24da29c32cfee49e8159050be8ba47bd5",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E2F3",
+      "final_svg_sha256": "ac720a62e698a30d371d7b33cfb4e4af72aaaac95a3c074018eddc857191fb92",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E37E",
+      "final_svg_sha256": "bfd84a8a9c093b1efa7695e34b85b3f98c518a45fcfa7f384d8256261d6c15a2",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DFA9",
+      "final_svg_sha256": "5ba47e59dc56ed8339bb1a45fe96cbab5b39e866bcb19ef2d72d927b2e3d9b42",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EF5E",
+      "final_svg_sha256": "73fb67043d5993a4f44792bc28cf155402229cdc7e3627a6f3efdf1c02330e43",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D374",
+      "final_svg_sha256": "d936b9b3e016df0a53bbdb25332dc663189c5ec77e5d00ab78d5497d7977bffb",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F912",
+      "final_svg_sha256": "903e2528e919d005f3f776b8e6753a7d9863306e22a627e3ac17cf8aa984a325",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3FBAD",
+      "final_svg_sha256": "95a05fb7be5cfa55840fd4c79e7f21bed054c1f17f2754a5e3833bd497724acf",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DD6E",
+      "final_svg_sha256": "89dc43b5687f2f123be21c41522e6abd10166db4d07dad8b7efea71809d8130a",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DAFB",
+      "final_svg_sha256": "a4bfeb81fd4eda791eba42cb3887416b1796313123c78876c179c80264c20adc",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DAFF",
+      "final_svg_sha256": "25134d2399e568f0cc5fc857b025838fcefdc308f86b4d6fc520074d3d924216",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E96C",
+      "final_svg_sha256": "01a8a7f0fd021c0f6c9b4dd601abcf4de9ccf0558013be5b49493599e521ff95",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3EE69",
+      "final_svg_sha256": "9ff6424f60514bf0169eea44641f3fd1e49ca583a3698111e1f02b77a6d0fd24",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3D7B7",
+      "final_svg_sha256": "fb81905d7e42b02e5fcba3480b56d0d30ce8cf0069a1bf3851daf01718b1e5ce",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E680",
+      "final_svg_sha256": "451c8141fb9733d8364c5c38e143b98a762223c55f31a9946a26527941c5ddee",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EBA5",
+      "final_svg_sha256": "2c457abac8cfa1dea4bc0e6afc7b09f5464d47cb4a1213df3e91ea7c36fe609f",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D44D",
+      "final_svg_sha256": "be8edb2380d50fbcd77a831526efd6b3dda5b558285844a1027427da430ef114",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3D3B6",
+      "final_svg_sha256": "8998b6e69d125949d33ff31460ad1e10a443d07ca3362ffae2e16159081d5f7b",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EB85",
+      "final_svg_sha256": "09b6bc887917ce564959a392484b69d5530f1fb1b5ed820526d3029258d4dedd",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3FAD7",
+      "final_svg_sha256": "77346e6a8c76b23e7c24e3910616d9624b1a99eefff1c0a34437f8f6da2eb82b",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3FA6D",
+      "final_svg_sha256": "76940cf2e8fb4b9a0722df6c52d40b2cc959b3189be78fbfa5e02781640f8654",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3DA19",
+      "final_svg_sha256": "449dfb2f2367dd8eba8fa9f519ea9db172f3e98126ff0e95e22b04feb2eac703",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DB7F",
+      "final_svg_sha256": "ee47dd746157cfcb4e0b7b25ace0421ef3d280605fd634090f6eae8ae2217332",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3DA2C",
+      "final_svg_sha256": "99b5a6261943db6b0b3c9ab47d5290292e67a1f89372bbdb11a9d02df65b1e56",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3DA4F",
+      "final_svg_sha256": "5dee09ed7e86980160f8745e3c646ed7ae2f369a60584bea1208f4336e325295",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3DD04",
+      "final_svg_sha256": "ad0a76dd8c8c43d207a0ffbf2b332f7883aa4be9c4bbba21341421d2929e7fbd",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E189",
+      "final_svg_sha256": "03a2c1161ba06a419e334f9ed8160e37b6c7383e583c8fd26cd964cf41d9923e",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DE4C",
+      "final_svg_sha256": "db398e896a500a2a4292e503bfd805e37d1145f7713bda434a0a08975f76af0f",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E0E8",
+      "final_svg_sha256": "c099f857b6289a4569001c34f8b632fb77cd292b9de33c15cd685cb8d1ec6902",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E4A8",
+      "final_svg_sha256": "708df79b98b83b249e0a3a5fcd225f871f3a4a2b019c77b33ba9450ad860c999",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3EDB1",
+      "final_svg_sha256": "a6661c7668399a2723899e18bfec46e16463e900e89f62dfb0c34e87d9a4e4c0",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D011",
+      "final_svg_sha256": "c870459c548c3a7c381d2a8a07475af4daa17b1e00766b1ec17c41521b0a034d",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D3DC",
+      "final_svg_sha256": "e322e76818a5c37e0d1488cf61b7cee395468486e2febdd544da56fabc5bfa7d",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D003",
+      "final_svg_sha256": "59f2054409e7a600b670f8842781c7c1d9d4ec851f55c5c9f42a3c3a8654206f",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F442",
+      "final_svg_sha256": "df98551ae29757a31178430e88ca25bbe0c19292daa2e9523ecab49b064e6528",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F979",
+      "final_svg_sha256": "a1615c22622d62fa3220193dacea2480d36077732ddae533775b9e3d9d58491b",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3F2E0",
+      "final_svg_sha256": "7f7f35e39065dbd61fad98809ddbcc131f7debb0755aa526ccbfe3fe702578ed",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EBA4",
+      "final_svg_sha256": "cc7f7e22dbac1ce1bb2c1d422732a89444c4467bed9be5fd740942b76a3600dc",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D002",
+      "final_svg_sha256": "3bc88db4493078e4a32acabe20438508d16670904d4d914127f9526f00077315",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D006",
+      "final_svg_sha256": "e00f32e057885a99ec4d1ea2d31c59e54c6a0fdbb7ca30ac85cfb2e571e65058",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D00A",
+      "final_svg_sha256": "e650417f73a02846d8f6596048d6f2390695edcf1eef63b3cb722a3b726dfa79",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D00D",
+      "final_svg_sha256": "a30de50dd0f807fd653047c57decbb2f0f0c4cbe035d477294ef834e2631ff0e",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D065",
+      "final_svg_sha256": "a09ef1ed914704dd4753b00e476dfefe135322344eb67d925684a132616fcc17",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D06A",
+      "final_svg_sha256": "8e751b5290e12a5b1abe7c064c7b1603dffdc43926ec727a2d167c0f23d4bb57",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3D844",
+      "final_svg_sha256": "e779de8e1fed9ef69e4838717f6f5defce81bbf15ac2b1d65aa8dd4894219975",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DAA7",
+      "final_svg_sha256": "9016e655feff9034310c8658ff14d5cdf92913ed6876f94714d23cd7c4d779c4",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3DF5B",
+      "final_svg_sha256": "d790713c0a6bf4fd235c7528ab84d78ce499d3cd9d0fb472502d833c66636753",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3E53B",
+      "final_svg_sha256": "745fe6263ff79341d732dedfe28961e0aaecfc4c8e54504067cacdb5c2a6f3f9",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3EC29",
+      "final_svg_sha256": "8c3bd8019e1bc70a6878fc94e1cdfbdb44f10a7bda74051e570eb3bbd9434266",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EDE2",
+      "final_svg_sha256": "26fa84a60558bf0f89464439e13259e61f44b4cf8b7c46a0cc5427a4b90f5c91",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3EF60",
+      "final_svg_sha256": "bf2b94123e17e526d16e04a338854503fe5abcb051d243632a2b7cd57c71be06",
+      "proof": "method_actual_TTF_exact_geometry_reuse"
+    },
+    {
+      "codepoint": "U+3E9A2",
+      "final_svg_sha256": "2197a688e3aa56cb29579b3af6e43fe61d35062ef965e260b0e310d643de6aae",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3EE38",
+      "final_svg_sha256": "43fe28dd5b8738af539c5098ef2f4b0e51a51f5afcc1d3a2faeb4f5cf279b06e",
+      "proof": "final13_actual_TTF_post_hold_review"
+    },
+    {
+      "codepoint": "U+3D02F",
+      "final_svg_sha256": "3a0739086d71c9a549cf6dc8fa0e0a2252d232556d2e1b6dbec360aebc8e98f4",
+      "proof": "exact_production_chunk_static_masters_at_all_five_weights"
+    },
+    {
+      "codepoint": "U+3F152",
+      "final_svg_sha256": "10e3cd16e5dc9987ab8645cf44afd46b7e80602a2124a3956e53e46788d63fbb",
+      "proof": "exact_production_chunk_static_masters_at_all_five_weights"
+    }
+  ],
+  "reviewed_glyph_count": 66,
+  "scope": "Actual compiled Regular TTF comparison for64selected glyphs:51exact numerical geometries reuse reviewed method proofs and13guard/template-modified glyphs have a new targeted final TTF board. AdditionallyU3D02FandU3F152were compared across the exact five production static masters against the v1.1 variable font, and the deliberate Dao design had separate48pxRegular/96pxRegular/Bold review. Not a full-repertoire visual review.",
+  "reused_compiled_proofs": 51,
+  "changed_final_cases_reviewed": 13,
+  "changed_final_codepoints": [
+    "U+3E96C",
+    "U+3EE69",
+    "U+3D44D",
+    "U+3FAD7",
+    "U+3FA6D",
+    "U+3DB7F",
+    "U+3DA2C",
+    "U+3DA4F",
+    "U+3E4A8",
+    "U+3DF5B",
+    "U+3E53B",
+    "U+3E9A2",
+    "U+3EE38"
+  ],
+  "fallback_proofs": [
+    {
+      "codepoint": "U+3D02F",
+      "baseline_variable_woff_sha256": "b48b919fa7a54a5aa317f01a8783ec9b9deb309e08ca7d26dcdaf5b627d28ca1",
+      "new_production_files": [
+        {
+          "weight": 300,
+          "style": "Light",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Light.ttf",
+          "sha256": "f28606912d2f16c4019aaef5dd293ae014cf6156459dc43921d133d310a807d4"
+        },
+        {
+          "weight": 400,
+          "style": "Regular",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Regular.ttf",
+          "sha256": "021557456ad863f2c2dc50dddf5119057387ec96b52870c2005df35da989ad34"
+        },
+        {
+          "weight": 500,
+          "style": "Medium",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Medium.ttf",
+          "sha256": "29f183383f796783034bd9490071e6d07d76eac2e19b9d954a78303daba4df82"
+        },
+        {
+          "weight": 600,
+          "style": "SemiBold",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/SemiBold.ttf",
+          "sha256": "8c52d0e1c7aa7e166b2913a78b5e51e1bb7c6fa76dac2f6d40580382166917b7"
+        },
+        {
+          "weight": 700,
+          "style": "Bold",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3D000-U3D03F/Bold.ttf",
+          "sha256": "7cdc5e50c3b0979e9576b63984cb2b8514030dd71670fc4d49ac83d58b1775a3"
+        }
+      ],
+      "proof_sha256": "44ed93553414db3ed2f2fd9c22a7db910391e6a255dcc0a2a7b516a9398b3162"
+    },
+    {
+      "codepoint": "U+3F152",
+      "baseline_variable_woff_sha256": "32d9acb1805f81bd1b40686a98a9afbab4819b55411966fc025140e6ac156bd6",
+      "new_production_files": [
+        {
+          "weight": 300,
+          "style": "Light",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3F140-U3F17F/Light.ttf",
+          "sha256": "2ba0f60cdee94826f6686925cc158016beafe2fae60258ea6543eec923e01183"
+        },
+        {
+          "weight": 400,
+          "style": "Regular",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3F140-U3F17F/Regular.ttf",
+          "sha256": "4b96b1b56c0bb8cb2a596542f0519e1ee8f2b7692fa97468a8fd7be09fc6f285"
+        },
+        {
+          "weight": 500,
+          "style": "Medium",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3F140-U3F17F/Medium.ttf",
+          "sha256": "22909cb9922e6486a4705afafe06807bab8faeedfc57f93ab7bd04e55152dc01"
+        },
+        {
+          "weight": 600,
+          "style": "SemiBold",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3F140-U3F17F/SemiBold.ttf",
+          "sha256": "429b99fb7b48fbb0b65d6f952889b9ffe4f24ec575650bc53616fe6654937557"
+        },
+        {
+          "weight": 700,
+          "style": "Bold",
+          "production_chunk_file": "/tmp/sealie-simplify/font-cache/U3F140-U3F17F/Bold.ttf",
+          "sha256": "bc46d4d4953f7f17192d8700061f7d98efd979a8e93106a5bdb4ec9a44914da5"
+        }
+      ],
+      "proof_sha256": "426d4304a813dee748809f6c1f07b49f2a91b6464aa89a98307b477f6d31b4fc",
+      "contour_audit": [
+        {
+          "codepoint": "U+3F152",
+          "points": 5836,
+          "contours": 318,
+          "baseline_points": 2244,
+          "baseline_contours": 8,
+          "point_delta": 3592,
+          "contour_delta": 310,
+          "minimum_control_polygon_area": 24.0,
+          "minimum_analytic_contour_area": 24.0,
+          "weight": 300,
+          "failures": []
+        },
+        {
+          "codepoint": "U+3F152",
+          "points": 5836,
+          "contours": 318,
+          "baseline_points": 2244,
+          "baseline_contours": 8,
+          "point_delta": 3592,
+          "contour_delta": 310,
+          "minimum_control_polygon_area": 30.0,
+          "minimum_analytic_contour_area": 30.0,
+          "weight": 400,
+          "failures": []
+        },
+        {
+          "codepoint": "U+3F152",
+          "points": 5836,
+          "contours": 318,
+          "baseline_points": 2244,
+          "baseline_contours": 8,
+          "point_delta": 3592,
+          "contour_delta": 310,
+          "minimum_control_polygon_area": 36.0,
+          "minimum_analytic_contour_area": 36.0,
+          "weight": 500,
+          "failures": []
+        },
+        {
+          "codepoint": "U+3F152",
+          "points": 5836,
+          "contours": 318,
+          "baseline_points": 2244,
+          "baseline_contours": 8,
+          "point_delta": 3592,
+          "contour_delta": 310,
+          "minimum_control_polygon_area": 43.0,
+          "minimum_analytic_contour_area": 43.0,
+          "weight": 600,
+          "failures": []
+        },
+        {
+          "codepoint": "U+3F152",
+          "points": 5836,
+          "contours": 318,
+          "baseline_points": 2244,
+          "baseline_contours": 8,
+          "point_delta": 3592,
+          "contour_delta": 310,
+          "minimum_control_polygon_area": 50.0,
+          "minimum_analytic_contour_area": 50.0,
+          "weight": 700,
+          "failures": []
+        }
+      ]
+    }
+  ]
+}

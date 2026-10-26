@@ -1,43 +1,57 @@
-# Optical sizing and shared radicals
+# Geometry, optical sizing and shared radicals
 
-Sealie uses a common vertical rhythm with naturally different character widths. The **v1.1.0** sources cover all 11,328 Small Seal codepoints in a 1024-unit em, with a fixed 1024-unit advance. Regular uses a 30-unit round pen.
+Sealie uses simple curves, straight stems and round turns within a consistent optical frame. The **v1.2.0** sources cover all 11,328 Small Seal codepoints in a 1024-unit em, with a fixed 1024-unit advance. Regular uses a 30-unit round pen; all five weights follow the same centerlines.
 
-## Optical body heights
+## Simpler geometry
 
-Ordinary upright forms use a **768-unit ink height** and common vertical center. A simple character such as 可 or 名 belongs to the same body-height group as a complex character such as 道 or 常. Naturally shorter forms have individual optical heights, guided by reference measurements rather than path count. Widths vary with the character, with a preferred maximum of **520 units**.
+The general editing pass removes tracing wobble and unnecessary centerline detail without changing the Small Seal stroke structures. Nearly horizontal and vertical runs are aligned, smooth curves use fewer fitted segments, and coincident junctions move together. Source path counts, path order and closure flags are retained. The maintained SVGs continue to use absolute `M`, `L` and terminal `Z` commands.
 
-| Form | Preferred ink size | Treatment |
+| Operation | Source-editing limit | Treatment |
 | --- | --- | --- |
-| Ordinary upright characters | 768 units high; up to 520 units wide | Common body height, varying widths |
-| Measured shorter forms | Individual optical heights | Examples: 王 620, 工 580, 土 680, 士 640, 日 640, 田 640, 目 640, 且 620 and 旦 640 units |
-| Single horizontal bar | 470×30 units | Keep the natural one-dimensional form |
-| Two, three or four horizontal bars | 430 units wide; 440, 540 or 640 units high | Increase height with the number of bars |
+| General curve cleanup | 2.55 font units | Corner-aware fitting with endpoints, intersections and frame extrema constrained |
+| Long near-axis traces | 6 font units | Straighten eligible stems and bars, coordinating connected junctions |
+| Curve flattening | 0.4 font units | Store fitted curves as editable polylines |
 
-These dimensions are optical targets, not unconditional bounds. A character or shared-component family can remain wider when further compression would close a previously open gap. A height reduction can also stop at a contact-safe exception. The [sizing report](../reports/optical-sizing.json) records actual dimensions and exceptions. The previous 640×768 compound and 550×650 simple-form targets are historical.
+The displacement check uses GEOS discrete Hausdorff distance with quarter-segment densification. It is a sampled geometric comparison, not an analytic continuous-distance proof. The [geometric source report](../reports/geometric-simplification.json) records accepted edits, retained paths and their exact source identities.
 
-The current build retains wider fits for 2,826 glyphs: 2,555 share 43 template-family profiles, and 271 have individual width limits. No chosen height needed a contact-safe exception. The two widest forms, U+3DAFB and U+3DAFF, remain densely composed; a common vertical rhythm does not require identical widths.
+A separate, deliberate redraw gives **道 (U+3D55D)** straight sides, a regular rounded eye, a symmetric internal Y, and matching repeated curves. It retains 15 open source paths and its **490×768-unit Regular ink frame**. The general displacement budgets do not describe that redesign.
 
-![Common body heights in representative text](../previews/optical-alignment.png)
+![Geometric construction of 道](../previews/geometric-simplification.png)
 
-![Optical sizes of simple and shallow forms](../previews/optical-primitives.png)
+The simpler drawing retains the encoded Small Seal structures and their historical variants.
+
+## Joins, gaps and counters
+
+Source comparisons check complete distinct-path contact relationships at all five pen widths: **23.5, 30, 36.5, 43 and 49.5 units**. They compare both added and lost contacts, and protect the half-unit gap threshold where it existed before editing. Sensitive paths retain their earlier geometry when a proposal cannot satisfy those constraints. A shared-template path is retained consistently across its registered copies.
+
+Valid explicitly closed source rings are also compared at each named weight to check that previously open counters survive. These source checks have a defined scope: they do not establish safety for every self-overlap in an open path or every loop assembled from several paths. Compiled-font validation and the selected visual review are recorded separately in [normalized-font-validation.json](../reports/normalized-font-validation.json) and [geometry-review.json](../reports/geometry-review.json).
+
+## Optical frames
+
+The geometric design retains the optical frames established in v1.1. Ordinary upright forms use a **768-unit ink height** and common vertical center, with naturally different widths. A simple character such as 可 or 名 belongs to the same height group as a complex character such as 道 or 常. Deliberately shorter forms use individual heights rather than one reduction based on path count.
+
+| Form | Optical target established in v1.1 |
+| --- | --- |
+| Ordinary upright characters | 768 units high; preferred maximum width 520 units |
+| Shorter forms | Examples: 王 620, 工 580, 土 680, 士 640, 日 640 and 田 640 units high |
+| Single horizontal bar | 470×30 units |
+| Two, three or four horizontal bars | 430 units wide; 440, 540 or 640 units high |
+
+These targets are not unconditional bounds. Dense forms and shared-template families can retain extra width to keep gaps open. The [v1.1 sizing report](../reports/optical-sizing.json) records that size-fitting stage; its glyph hashes and measurements precede the geometric cleanup. The current source report records the edited outlines. Earlier [alignment](../previews/optical-alignment.png) and [primitive](../previews/optical-primitives.png) comparisons retain their v1.1 scope.
 
 ### Proportion reference
 
-**方正小篆体 (FZXiaoZhuanTi-S13T)** provides the proportion reference. Its ordinary upright forms have similar apparent heights while their widths differ. See the [official typeface description](https://www.foundertype.com/index.php/FontInfo/ductdetail/id/165.html) and [distributor listing](https://lets.fontworks.co.jp/fonts/492).
+**方正小篆体 (FZXiaoZhuanTi-S13T)** provides the optical proportion reference. See the [official description](https://www.foundertype.com/index.php/FontInfo/ductdetail/id/165.html) and [distributor listing](https://lets.fontworks.co.jp/fonts/492).
 
-The numeric comparison measures **257 ink-bearing characters out of 292 requested** in a [public raster preview](https://www.fonts.net.cn/font-31681245180.html); 35 previews without ink are excluded. The previews use 32-point rendering on 56-pixel canvases, with approximately ±1 pixel of bounding-box uncertainty. These are raster measurements, not vendor font metrics or a survey of the complete repertoire. Only numeric measurements and source URLs are included in [reference-dimensions.json](../reports/reference-dimensions.json); reference fonts, raster images and outlines are not redistributed.
+The v1.1 comparison measured **257 ink-bearing characters out of 292 requested** from a [public raster preview](https://www.fonts.net.cn/font-31681245180.html); 35 blank previews were excluded. The 32-point previews use 56-pixel canvases, with approximately ±1 pixel of bounding-box uncertainty. The [reference report](../reports/reference-dimensions.json) contains numeric measurements and source URLs. It is not a survey of the complete reference font, and reference fonts, raster images and outlines are not redistributed.
 
-The mapping uses a 39-pixel ordinary-body reference. For measured short forms with a 29–36-pixel reference height, the preferred Sealie height is `768 × reference height ÷ 39`, rounded to the nearest 20 units. Measured preferred widths use `768 × reference width ÷ 39 × 1.08`, rounded to the nearest 10 units and capped at 520. Unmeasured forms use their own pre-box-fitting aspect ratio with the same preferred width cap. Horizontal bars have the separate sizes above. Shared-template families retain a coherent horizontal profile and the ordinary body height.
-
-For example, 道、可、非、常 and 名 share the 768-unit height, with preferred widths of approximately 490, 470, 450, 470 and 450 units. Sealie retains its own drawings, round stroke style and character variants.
+The sizing mapped a 39-pixel ordinary body to 768 units. Short forms with reference heights of 29–36 pixels used `768 × reference height ÷ 39`, rounded to 20 units. Preferred widths used `768 × reference width ÷ 39 × 1.08`, rounded to 10 units and capped at 520. Horizontal bars had separate profiles. These are the origin of Sealie's optical frames, not current per-glyph outline measurements.
 
 ## Exact shared radicals
 
-The official `kSEAL_Rad` classification in [SealSources.txt](https://www.unicode.org/Public/18.0.0/ucd/SealSources.txt) identifies semantic families. Shared geometry is assigned only after reviewing a whole component in the same position and structural allograph. Partial radicals, different joins and ambiguous matches remain separate.
+The official `kSEAL_Rad` classification in [SealSources.txt](https://www.unicode.org/Public/18.0.0/ucd/SealSources.txt) identifies semantic families. Shared geometry is assigned after reviewing a whole component in the same position and structural allograph. Partial radicals, different joins and ambiguous matches remain separate.
 
-The atlas contains **180 templates registered to 3,763 glyphs**. Every registered copy retains **exactly the same component geometry, dimensions and placement**. Optical sizing makes one coherent width decision for a shared-template family, preserving its identical copies. It does not independently squeeze each registered radical.
-
-Distinct source-path contact checks use the 30-unit Regular pen and preserve the existing half-unit gap threshold. The current minimum component-to-remainder centerline clearance is **30.5 units**, corresponding to a half-unit ink gap at Regular. Earlier role-insertion reviews used a 35-unit clearance and 0.80–1.25 remainder-scale limits; those are historical constraints for their recorded stages, rather than the current optical width targets. Same-path self-overlap and contacts at other weights are outside this source contact guard.
+The atlas contains **180 templates registered to 3,763 glyphs**. Every registered copy uses **the same component geometry, dimensions and placement**. A template is simplified once and propagated to its instances; copies are not independently smoothed or squeezed. Other forms retain individual drawings.
 
 To propagate an intentional template edit:
 
@@ -46,26 +60,22 @@ python tools/sync_components.py --apply
 python tools/sync_components.py --check
 ```
 
-The check verifies exact registered copies, closures, assignment integrity and current hashes. Other forms retain individual drawings. See the [component guide](../components/README.md).
-
-## Cap and join history
-
-The v1.0.0 source revision added 290 shared-component occurrences, including seven new 子、鳥、巾 templates. Three shared parent-curve corrections propagated to 46 glyphs. A separate terminal repair in U+3E680 removed seven local vertices while preserving its endpoint and later stroke course.
-
-The [radical-expansion report](../reports/radical-expansion-v4.json), [cap-refinement report](../reports/cap-refinement.json) and [cap comparison](../previews/cap-refinement.png) retain that revision's source identities and repair scope. They document source history, rather than measurements of the current sized outlines. The endpoint cleanup check is available through `python tools/cleanup_caps.py --check`.
+The check verifies exact registered copies, closures, assignment integrity and current hashes. See the [component guide](../components/README.md).
 
 ## Builds and evidence
 
-The [build guide](BUILD-FROM-SVG.md) explains static and 300–700 variable builds from the maintained SVGs. [Current compiled validation](../reports/normalized-font-validation.json) records the source and font identities, executed checks and any reused evidence. Optical comparison remains distinct from outline validity and does not imply exhaustive paleographic approval or a visual review of every glyph at every weight.
+The [build guide](BUILD-FROM-SVG.md) explains static and 300–700 variable builds from the maintained SVGs. Building does not repeat the design simplification: it expands the stored centerlines with the same round pen model. Current source, compiled-font and selected visual evidence have separate reports and hashes.
 
-Earlier [normalization metrics](../reports/normalization.json), [component review](../reports/normalization-review.json) and size-fit reports retain their original scope. Earlier sources remain in Git history: [initial complete checkpoint](https://github.com/iebb/sealie/tree/checkpoint-011328), [radical/join revision](https://github.com/iebb/sealie/tree/radical-joins-011328) and [v1.0.0 sources](https://github.com/iebb/sealie/tree/v1.0.0).
+The v1.0 [radical expansion](../reports/radical-expansion-v4.json) and [cap refinement](../reports/cap-refinement.json), the v1.1 [optical review](../reports/optical-review.json), and the earlier normalization and join reports retain their original source identities. Changed outlines do not inherit exact-byte validation from an older drawing. Earlier sources remain in Git history: [initial complete checkpoint](https://github.com/iebb/sealie/tree/checkpoint-011328), [v1.0.0](https://github.com/iebb/sealie/tree/v1.0.0) and [v1.1.0](https://github.com/iebb/sealie/tree/v1.1.0).
 
-[Live variable specimen](https://iebb.github.io/sealie/) · [Latest font assets](https://github.com/iebb/sealie/releases/latest)
+[Live variable specimen](https://iebb.github.io/sealie/) · [Character library and coverage](https://iebb.github.io/sealie/characters.html) · [Latest font assets](https://github.com/iebb/sealie/releases/latest)
 
 ## 中文
 
-当前 **v1.1.0** 以共同的字身高度建立排版节奏，并依据参考尺寸保留自然较矮的形式，不再按笔画数量将简单字整体缩小。道、可、非、常、名采用 **768 单位墨迹高度**，优选宽度分别约为 **490、470、450、470、450 单位**。王、工、土、士的优选高度分别为 **620、580、680、640 单位**；日、田、目、且、旦分别为 **640、640、640、620、640 单位**。一般字形的优选宽度上限为 520 单位。
+当前 **v1.2.0** 以简练的曲线、平直的字干和圆润的转折整理小篆字形，沿用 v1.1 建立的视觉尺寸。一般曲线清理采用 **2.55 单位**的位移范围；长而接近水平或垂直的笔画另有 **6 单位**的规整范围。连接点协同移动，路径数量、次序和闭合标记保留。拟合曲线以 **0.4 单位**容差转换为可编辑的 `M`/`L` 折线。位移检查采用加密采样的离散 Hausdorff 距离，并不是连续曲线距离的解析证明。
 
-单横画采用 **470×30 单位**，二、三、四横画采用 **430 单位宽度**及 **440、540、640 单位高度**。优选尺寸不是无条件边界；继续压缩会使原有留白闭合时，保留明确的接触安全例外。实际结果记录于[尺寸报告](../reports/optical-sizing.json)。共享模板族采用一致的横向调整和一般字身高度，保持所有登记副本的形状、尺寸和位置完全相同。
+**道（U+3D55D）**另作明确的几何重绘：平直两侧、规整圆角字腔、对称的内部 Y 形，以及一致的重复曲线；保留 **15 条开放路径**及 **490×768 单位**的 Regular 墨迹框。这项重绘与一般受限清理分开记录；简练的造型保留小篆结构、编码及历史异体。
 
-参考数据来自公开预览的栅格图：请求 292 个字，其中 257 个有墨迹，35 个空白预览被排除。预览以 32 磅字号绘制于 56 像素画布，包围盒测量约有 ±1 像素误差；这些数据不是厂商字体内部度量，也不覆盖完整字集。[参考尺寸报告](../reports/reference-dimensions.json)仅保留数值和来源链接，不分发参考字体、预览图或轮廓。Sealie 继续使用自身的字形和圆头等线风格。当前笔画间接触检查以 Regular 的 30 单位线宽及半单位留白阈值为范围，不代表对所有字重的逐字视觉验收。
+笔画间的接触关系按五个笔宽 **23.5、30、36.5、43、49.5 单位**比较，检查新增和丢失的接触，并保护原有半单位留白阈值；敏感路径在必要时保留原形。有效闭合中心线路径中原先存在的字腔，按各字重分别比较。源路径检查、编译后验证及样本视觉审查各有明确范围，记录于[几何报告](../reports/geometric-simplification.json)、[字体验证](../reports/normalized-font-validation.json)及[视觉审查](../reports/geometry-review.json)。
+
+**180 个共享模板用于 3,763 个字形**；每个模板只处理一次，所有登记副本保持相同的形状、尺寸和位置。一般字身沿用 768 单位高度，较矮的基本形式使用各自视觉高度，密集结构可保留较宽尺寸。旧[尺寸报告](../reports/optical-sizing.json)、[视觉审查](../reports/optical-review.json)及[参考尺寸](../reports/reference-dimensions.json)保留 v1.1 的源文件身份，不代表当前轮廓的重新测量。
