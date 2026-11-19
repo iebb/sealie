@@ -40,9 +40,14 @@ def payload_size(variation):
     return len(variation.compilePoints(points)) + len(variation.compileDeltas())
 
 
+# At SemiBold the Medium tuple applies at half strength, so a named instance
+# can be off by 0.5 (model rounding) + 1.5 * tolerance; keep that within 1 unit.
+IUP_TOLERANCE = 0.3
+
+
 def encode_variation(variation, coordinates, end_points):
     optimized = TupleVariation(variation.axes, iup_delta_optimize(
-        variation.coordinates, coordinates, end_points, tolerance=0.5))
+        variation.coordinates, coordinates, end_points, tolerance=IUP_TOLERANCE))
     raw_size, opt_size = payload_size(variation), payload_size(optimized)
     chosen = optimized if opt_size < raw_size else variation
     if min(raw_size, opt_size) <= 0xFFFF:

@@ -1,6 +1,7 @@
 """Real stroke topology fallback and mixed SVG→static/variable roundtrip."""
 from pathlib import Path
 import hashlib, json, shutil, sys, tempfile, unittest
+from unittest import mock
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 
@@ -55,9 +56,15 @@ class NormalizedFonts(unittest.TestCase):
                 (703.1337386115454,300.7524177957682),
                 (702.857926002711,300.74722908858973)]
         strokes=[(points,False)]
-        analytic=[compact_outline(strokes,width/2)[0] for width in WIDTHS]
+        analytic=[compact_outline(strokes,width/2,repair=False)[0] for width in WIDTHS]
         self.assertTrue(any(signature(g)!=signature(analytic[0]) for g in analytic))
+        # The last vertex retraces its segment, so repair trims it and the
+        # analytic masters agree again.
         masters,fallback=compatible_masters(strokes,WIDTHS,expand_polylines)
+        self.assertFalse(fallback)
+        self.assertTrue(all(signature(g)==signature(masters[0][0]) for g,_ in masters))
+        with mock.patch('compact_backend.trim_retraced_ends',lambda points:list(points)):
+            masters,fallback=compatible_masters(strokes,WIDTHS,expand_polylines)
         self.assertTrue(fallback)
         self.assertTrue(all(signature(g)==signature(masters[0][0]) for g,_ in masters))
 
