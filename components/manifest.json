@@ -572,7 +572,7 @@
       "position": "left",
       "variant": "whole_component_cluster_1",
       "file": "134-3DBAE-left-whole-component-cluster-1.svg",
-      "svg_sha256": "f7fa43cdfef580b2285d54faaa311f89ff6bf586dbce3205b399c72569840a7a",
+      "svg_sha256": "7c62c339bfaf76579e06177c930a47151c5b1d025e9a79d433a7d21ce6420b4e",
       "bbox_font_units": [
         267.0,
         -39.166154,
@@ -771,7 +771,7 @@
       "position": "left",
       "variant": "whole_component_cluster_2",
       "file": "135-3DBC8-left-whole-component-cluster-2.svg",
-      "svg_sha256": "bddabbc227ab503eb99a2d2febe3e8c82ac461ad00ac4ad5f9137385fe125206",
+      "svg_sha256": "388e0786467836183466f1d70ef4f8af1f0a61116f7956864b273ea07bc16154",
       "bbox_font_units": [
         267.0,
         -45.756604,
@@ -1212,7 +1212,7 @@
       "position": "left",
       "variant": "whole_component_cluster_1",
       "file": "142-3DCD5-left-whole-component-cluster-1.svg",
-      "svg_sha256": "646635cfb2438e4ab4d986ee86bbf120b7abdac91ef4a1ec9ab3d312b5a111d2",
+      "svg_sha256": "db422c5939cd3dc9a8203308408b87517f32bf7c4b6fd50171dbbd5093e5b82f",
       "bbox_font_units": [
         267.0,
         -38.984735,
@@ -3447,7 +3447,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "228-3E1EB-left-whole-component-cluster-0.svg",
-      "svg_sha256": "8606f655b7539cb72614812a44283ab7af07145a7b2e8c5c9e275c1e06c4c453",
+      "svg_sha256": "2459d82432777782d2aa702cf5366ee477741cb622142b7005a62a1dca51f279",
       "bbox_font_units": [
         267.0,
         -47.32618,
@@ -4409,7 +4409,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "253-3E3D3-left-whole-component-cluster-0.svg",
-      "svg_sha256": "323d50d8b8dd8aaeb6ed91eee4ee6f80adae1001af6478eedc65357e68a95c87",
+      "svg_sha256": "846ab88229c43e8e112dbd41e43c24b9a6b2cf529ab3df3e5f8496fd6ad186f2",
       "bbox_font_units": [
         208.139733,
         -44.21656,
@@ -6836,7 +6836,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "309-3E882-left-whole-component-cluster-0.svg",
-      "svg_sha256": "def7842a0b3b0ea638dbd01d8954059f6279ad59eaa05b4d0b1c1c63fa5d8df3",
+      "svg_sha256": "16ec3ef420f8efb6600dc6516e96d55c8884a1fb4e5b346467173e6c9eb08176",
       "bbox_font_units": [
         267.0,
         -31.233537,
@@ -7712,7 +7712,7 @@
       "position": "right",
       "variant": "whole_component_cluster_2",
       "file": "324-3E93B-right-whole-component-cluster-2.svg",
-      "svg_sha256": "fc9ce62dc9dea0f21564946bbb41f1190fde73ad37f46ed377d64f904d3445d5",
+      "svg_sha256": "f418565f952a519abd2638a735db479480687d369a4c50d04e18c971f76b49bc",
       "bbox_font_units": [
         544.987306,
         -49.0,
@@ -7780,7 +7780,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "33-3D4CD-left-whole-component-cluster-0.svg",
-      "svg_sha256": "3572a0732b228696ee68fc863ea728c57c86c42c80006ffc751c6e0464b370c1",
+      "svg_sha256": "ca568adc2a3e2d820bd66d0ab2841f1476f61b1f725adf8fcdebc24b0547bbe4",
       "bbox_font_units": [
         267.0,
         -38.181992,
@@ -8188,7 +8188,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "370-3EBA4-left-whole-component-cluster-0.svg",
-      "svg_sha256": "b3f97a29fe5dbbcced0f4a140c35218504fbb02cad5d9715c1478a138a7aca6f",
+      "svg_sha256": "52eada1213ceb52d968fed7f89332794d57846cc9076af31adeea9dc320c18d9",
       "bbox_font_units": [
         232.395755,
         -45.698558,
@@ -8693,7 +8693,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "379-3ECC1-left-whole-component-cluster-0.svg",
-      "svg_sha256": "ac4751b2b8cc1bc162b2eacf36d18e10351914a90c1fa5615547967f6719fa49",
+      "svg_sha256": "a0ed7c3157f134454c010c934153f894dad835ef413f00c8f157f49077d3b77d",
       "bbox_font_units": [
         267.0,
         -48.143739,
@@ -9868,7 +9868,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "384-3ED6F-left-whole-component-cluster-0.svg",
-      "svg_sha256": "1a6a376cd47af3c6c9c86090e41329c7934af24eabeef68f90826147da6d856c",
+      "svg_sha256": "7979d814c2fed155c591bb2212d263040ec1ca20826122a8adda3a1dfbea27d4",
       "bbox_font_units": [
         267.0,
         -40.686074,
@@ -12614,7 +12614,7 @@
       "position": "left",
       "variant": "whole_component_cluster_4",
       "file": "424-3F1F3-left-whole-component-cluster-4.svg",
-      "svg_sha256": "5a2559a342f7fa33432c9f04a4e5dea809527ea3674d20a89ffdf11d28b19936",
+      "svg_sha256": "f6e0773486678c4fd720b08455c1d6083b92aff2863373f9e4b77ade4b175ae7",
       "bbox_font_units": [
         267.0,
         -49.0,
@@ -15054,7 +15054,7 @@
       "position": "left",
       "variant": "whole_component_cluster_3",
       "file": "443-3F442-left-whole-component-cluster-3.svg",
-      "svg_sha256": "4eecdb10845ff1d5a160e577c9a079acf7df4b6193e39a9b497a9c89dc99510e",
+      "svg_sha256": "8a271198558bddef602a7782b7fcab8ace915c8bc9e2d9e01acae7960cb2d403",
       "bbox_font_units": [
         267.0,
         -48.117085,
@@ -17903,7 +17903,7 @@
       "position": "right",
       "variant": "whole_component_cluster_0",
       "file": "496-3FA73-right-whole-component-cluster-0.svg",
-      "svg_sha256": "adcee2fd1a616b2bbcafbedc72507c2e7b227ebcbdc1cfbc3738f5a7d0026d6b",
+      "svg_sha256": "39fa5b25c30810077e8b70c7bbda8f81d3d3ace0f606c59dd853d7cde1416016",
       "bbox_font_units": [
         551.229394,
         -49.0,
@@ -19313,7 +19313,7 @@
       "position": "left",
       "variant": "whole_component_cluster_3",
       "file": "500-3FB00-left-whole-component-cluster-3.svg",
-      "svg_sha256": "bb6be5a985cd4f361433ff3d0891816a295921c29d48ec04aa445bb12af77c5c",
+      "svg_sha256": "aa274d3bcc1df6406272fef2baec52809778d9000e33009358043d45f69fec9e",
       "bbox_font_units": [
         267.0,
         -42.823537,
@@ -19485,7 +19485,7 @@
       "position": "left",
       "variant": "whole_component_cluster_4",
       "file": "500-3FB00-left-whole-component-cluster-4.svg",
-      "svg_sha256": "e80d01f3efb420241cd5d5144e2e79880a56ce77f000721f331bf72645b0bfcd",
+      "svg_sha256": "18ff0d2cd23c10065bbc0780426ae68d1b09bd1273030923d989534f3e947050",
       "bbox_font_units": [
         267.0,
         -44.417756,
@@ -19597,7 +19597,7 @@
       "position": "left",
       "variant": "whole_component_cluster_5",
       "file": "500-3FB00-left-whole-component-cluster-5.svg",
-      "svg_sha256": "8549d829d60b08ae88cde63f241ec1544ddd0c46d0b1586ad6c57bd867d1b2e5",
+      "svg_sha256": "4b1054a8ee0aff7430e69c9d94dd6f70ad2948fd8e20656789867e3706c83206",
       "bbox_font_units": [
         267.0,
         -49.0,
@@ -19649,7 +19649,7 @@
       "position": "left",
       "variant": "whole_component_cluster_6",
       "file": "500-3FB00-left-whole-component-cluster-6.svg",
-      "svg_sha256": "1d3571d3981dd50abf72451bd380b74a982224febe8457eeac835be05feaf537",
+      "svg_sha256": "b9b4e250636464bf042b4da9cc6ce0fcd698cb34676b41663c946d80bbb9c3e2",
       "bbox_font_units": [
         264.4118,
         -47.439973,
@@ -19775,7 +19775,7 @@
       "position": "left",
       "variant": "whole_component_cluster_0",
       "file": "537-3FBE6-left-whole-component-cluster-0.svg",
-      "svg_sha256": "e0de463e696bae90443020503e0ecbf26d51410d97473c3d5ac891afef25007a",
+      "svg_sha256": "6a61ad4da0f4cb9290c558eed2105f79ece62e96c7c04fa7be8b1c44bf6e2b3d",
       "bbox_font_units": [
         228.064846,
         -22.025604,
@@ -21628,7 +21628,7 @@
       "position": "right",
       "variant": "whole_component_cluster_0",
       "file": "92-3D90C-right-whole-component-cluster-0.svg",
-      "svg_sha256": "2d0d596a13f3254a3ea0b259c072a2e574cbff78dbe2fdc9f81e42b6eadb696d",
+      "svg_sha256": "2be0ad9bb66f9c6e6ad4993b8771f51a4225b64a1490d17571e0b74cd13c5413",
       "bbox_font_units": [
         545.647938,
         -47.230521,
@@ -38568,7 +38568,7 @@
           ]
         }
       ],
-      "svg_sha256": "66aa0db0f774c2280640c7189d1a0b5e7debdc025103697d30aacd9c0835346d"
+      "svg_sha256": "cb604bdb76aa413bd93f6a7f80c98464857daa786a28a34830a840255756bf7e"
     },
     {
       "id": "119-3DAB3-right-v4-reviewed-ordinary-right-bird-seven-path",

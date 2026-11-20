@@ -117,15 +117,144 @@ def _loop_is_ink(loop, crossing, segments, radius):
     return _segment_distance(probe, segments) < limit
 
 
+def _quad_line_crossing(a, c, b, p, q):
+    """First parameter u, and point, where quadratic a-c-b properly crosses pq."""
+    dx, dy = q[0] - p[0], q[1] - p[1]
+    length = dx * dx + dy * dy
+    if not length:
+        return None
+    k0 = _cross(a[0] - p[0], a[1] - p[1], dx, dy)
+    k1 = 2 * _cross(c[0] - a[0], c[1] - a[1], dx, dy)
+    k2 = _cross(a[0] - 2 * c[0] + b[0], a[1] - 2 * c[1] + b[1], dx, dy)
+    if abs(k2) < 1e-12:
+        roots = [] if abs(k1) < 1e-12 else [-k0 / k1]
+    else:
+        disc = k1 * k1 - 4 * k2 * k0
+        if disc < 0:
+            return None
+        root = math.sqrt(disc)
+        roots = [(-k1 - root) / (2 * k2), (-k1 + root) / (2 * k2)]
+    for u in sorted(roots):
+        if not 1e-9 < u < 1 - 1e-9:
+            continue
+        point = ((1 - u) ** 2 * a[0] + 2 * u * (1 - u) * c[0] + u * u * b[0],
+                 (1 - u) ** 2 * a[1] + 2 * u * (1 - u) * c[1] + u * u * b[1])
+        v = ((point[0] - p[0]) * dx + (point[1] - p[1]) * dy) / length
+        if 1e-9 < v < 1 - 1e-9:
+            return u, point
+    return None
+
+
+def _lerp(a, b, u):
+    return ((1 - u) * a[0] + u * b[0], (1 - u) * a[1] + u * b[1])
+
+
+def _quad_at(a, c, b, u):
+    return ((1 - u) ** 2 * a[0] + 2 * u * (1 - u) * c[0] + u * u * b[0],
+            (1 - u) ** 2 * a[1] + 2 * u * (1 - u) * c[1] + u * u * b[1])
+
+
+def _quad_quad_crossing(first, second):
+    """Parameters and point where two quadratics properly cross, or None."""
+    # The first curve is extended past its end and the second before its
+    # start, so a loop already closed onto the other curve's end still meets.
+    steps, reach = 16, 0.05
+    ones = [k * (1 + reach) / steps for k in range(steps + 1)]
+    twos = [-reach + k * (1 + reach) / steps for k in range(steps + 1)]
+    one = [_quad_at(*first, u) for u in ones]
+    two = [_quad_at(*second, v) for v in twos]
+    for m in range(steps):
+        for n in range(steps):
+            point = _segment_crossing(one[m], one[m + 1], two[n], two[n + 1])
+            if point is None:
+                continue
+            fraction = lambda s, e: math.dist(s, point) / max(math.dist(s, e), 1e-12)
+            u = ones[m] + fraction(one[m], one[m + 1]) * (ones[1] - ones[0])
+            v = twos[n] + fraction(two[n], two[n + 1]) * (twos[1] - twos[0])
+            for _ in range(8):  # Newton on B1(u) - B2(v) = 0.
+                (a, c, b), (d, e, f) = first, second
+                p, q = _quad_at(a, c, b, u), _quad_at(d, e, f, v)
+                du = [2 * ((1 - u) * (c[k] - a[k]) + u * (b[k] - c[k])) for k in (0, 1)]
+                dv = [2 * ((1 - v) * (e[k] - d[k]) + v * (f[k] - e[k])) for k in (0, 1)]
+                det = _cross(-dv[0], -dv[1], du[0], du[1])
+                if abs(det) < 1e-12:
+                    break
+                gx, gy = p[0] - q[0], p[1] - q[1]
+                u -= _cross(gx, gy, -dv[0], -dv[1]) / -det
+                v -= _cross(du[0], du[1], gx, gy) / -det
+            if not (1e-9 < u < 1 + reach and -reach < v < 1 - 1e-9):
+                return None
+            u, v = min(u, 1.0), max(v, 0.0)
+            return u, v, _quad_at(*first, u)
+    return None
+
+
+def _edge_curve(points, on_curve, k):
+    """Edge k as ('line', p, q), ('quad', a, c, b, a_index, control, b_index) or None."""
+    count = len(points)
+    at = lambda n: points[n % count]
+    on = lambda n: on_curve[n % count]
+    if on(k) and on(k + 1):
+        return ('line', at(k), at(k + 1), k, None, k + 1)
+    if on(k) and on(k + 2):
+        return ('quad', at(k), at(k + 1), at(k + 2), k, k + 1, k + 2)
+    if on(k - 1) and on(k + 1):
+        return ('quad', at(k - 1), at(k), at(k + 1), k - 1, k, k + 1)
+    return None  # Leg of a multi-control quadratic.
+
+
+def _curve_crossing(points, on_curve, i, j):
+    """True crossing of edges i and j when either is a quadratic's leg.
+
+    A crossing on the control polygon is not on the outline, so find where
+    the curves themselves meet. Returns the crossing, the indices to collapse
+    onto it and the (control index, new position) moves that split each curve
+    there (de Casteljau), so the parts that remain are unchanged; or None.
+    """
+    one, two = _edge_curve(points, on_curve, i), _edge_curve(points, on_curve, j)
+    if one is None or two is None or one[0] == two[0] == 'line':
+        return None
+    first = i + 1 if one[0] == 'line' else one[-1]
+    last = j if two[0] == 'line' else two[-3]
+    if one[0] == 'quad' and two[0] == 'quad' and one[-1] > two[-3]:
+        return None  # Adjacent curves share an end; nothing between them.
+    if last < first:
+        return None
+    if one[0] == 'line':
+        found = _quad_line_crossing(*two[1:4], one[1], one[2])
+        if found is None:
+            return None
+        v, point = found
+        u = None
+    elif two[0] == 'line':
+        found = _quad_line_crossing(*one[1:4], two[1], two[2])
+        if found is None:
+            return None
+        u, point = found
+        v = None
+    else:
+        found = _quad_quad_crossing(one[1:4], two[1:4])
+        if found is None:
+            return None
+        u, v, point = found
+    moves = []
+    if u is not None:
+        moves.append((one[5], _lerp(one[1], one[2], u)))
+    if v is not None:
+        moves.append((two[5], _lerp(two[2], two[3], v)))
+    return point, range(first, last + 1), moves
+
+
 def fold_repair(points, centerline, radius, closed=True, on_curve=None):
     """Collapse local self-crossing loops of one contour in place.
 
     ``points`` is a list of mutable [x, y] pairs in contour order and
     ``on_curve`` their on-curve flags. Loops are collapsed shortest first: a
     counter's inner edge only lies on the pen edge once the folds along it are
-    gone, so it is never mistaken for one. A loop is only collapsed between
-    straight edges; a crossing on a quadratic's control leg is not on the
-    outline, and moving one end of that curve would bulge it past the pen.
+    gone, so it is never mistaken for one. A crossing on a quadratic's control
+    leg is not on the outline, and moving one end of that curve would bulge
+    it past the pen, so such a loop collapses onto the curve's own crossing
+    with the line and the curve is split there (``_curve_crossing``).
     Returns the number of collapsed loops.
     """
     count = len(points)
@@ -142,9 +271,10 @@ def fold_repair(points, centerline, radius, closed=True, on_curve=None):
         i = 0
         while i < edges:
             p, q = points[i], points[(i + 1) % count]
-            if p == q or not (on_curve[i] and on_curve[(i + 1) % count]):
+            if p == q:
                 i += 1
                 continue
+            straight_i = on_curve[i] and on_curve[(i + 1) % count]
             low_x, high_x = min(p[0], q[0]), max(p[0], q[0])
             low_y, high_y = min(p[1], q[1]), max(p[1], q[1])
             limit = min(i + window, i + edges - 2 if closed else edges - 1)
@@ -156,14 +286,24 @@ def fold_repair(points, centerline, radius, closed=True, on_curve=None):
                 ry, sy = r[1], s[1]
                 if (ry < low_y and sy < low_y) or (ry > high_y and sy > high_y):
                     continue
-                if not (on_curve[j % count] and on_curve[(j + 1) % count]):
-                    continue
+                straight_j = on_curve[j % count] and on_curve[(j + 1) % count]
                 crossing = _segment_crossing(p, q, r, s)
                 if crossing is None:
                     continue
                 loop = [points[k % count] for k in range(i + 1, j + 1)]
+                refined = None
+                if not (straight_i and straight_j):
+                    refined = _curve_crossing(points, on_curve, i, j)
+                    if refined is None:
+                        continue
+                    crossing = refined[0]
                 if not _loop_is_ink(loop, crossing, centerline.local(loop), radius):
                     continue
+                if refined is not None:
+                    _, indices, moves = refined
+                    loop = [points[k % count] for k in indices]
+                    for control, moved in moves:
+                        points[control % count][0], points[control % count][1] = moved
                 for point in loop:
                     point[0], point[1] = crossing
                 repaired += 1
@@ -211,6 +351,37 @@ def trim_retraced_ends(points):
         points.pop()
     while len(points) >= 3 and _on_segment(points[0], points[2], points[1]):
         points.pop(0)
+    return points
+
+
+ZIGZAG_TOLERANCE = 0.5  # Font units a back-step may stray from the line it retraces.
+
+
+def _reverses(a, b, c):
+    """True when the path turns back by more than 150 degrees at b."""
+    ux, uy, vx, vy = b[0] - a[0], b[1] - a[1], c[0] - b[0], c[1] - b[1]
+    lengths = math.hypot(ux, uy) * math.hypot(vx, vy)
+    return lengths > 0 and ux * vx + uy * vy < -math.cos(math.pi / 6) * lengths
+
+
+def trim_zigzags(points):
+    """Drop interior back-steps: A-B-C-D where C retraces onto AB and B lies on CD.
+
+    The pen covers C from A-B to within the tolerance, but each 180-degree
+    turn leaves a round-cap arc and a pivot spike inside the ink. Only C is
+    dropped; B stays, so A-B-D keeps the stroke's own edge.
+    """
+    points = list(points)
+    i = 1
+    while i + 2 < len(points):
+        a, b, c, d = points[i - 1:i + 3]
+        if (_reverses(a, b, c) and _reverses(b, c, d)
+                and _on_segment(c, a, b, ZIGZAG_TOLERANCE)
+                and _on_segment(b, c, d, ZIGZAG_TOLERANCE)):
+            del points[i + 1]
+            i = max(1, i - 1)
+        else:
+            i += 1
     return points
 
 
@@ -276,7 +447,58 @@ def _draw_repaired(value, pen, centerline, radius):
     return repaired
 
 
-def compact_outline(strokes, radius, repair=True):
+def _draw_filled_ring(value, pen, centerline, radius):
+    """Replay a filled ring with its inside-out inner contour folded flat.
+
+    The pen covers the ring's hole, so Skia's inner contour lies wholly inside
+    ink and only draws join spikes. Its points are moved onto one straight
+    edge of the outer contour: zero area, so fill can only gain ink the pen
+    covers anyway, and the outline shows no extra line.
+    """
+    contours, contour = [], []
+    for operator, arguments in value:
+        contour.append((operator, [list(point) for point in arguments]))
+        if operator in ('closePath', 'endPath'):
+            contours.append(contour)
+            contour = []
+    segments = list(zip(centerline, centerline[1:]))
+    limit = radius - FOLD_MARGIN
+    buried = [all(_segment_distance(point, segments) < limit
+                  for _, arguments in contour for point in arguments)
+              for contour in contours]
+    edge = None
+    for contour, inside in zip(contours, buried):
+        if inside:
+            continue
+        previous = None
+        for operator, arguments in contour:
+            if operator == 'lineTo' and previous is not None and previous != arguments[0]:
+                edge = list(previous), list(arguments[0])
+                break
+            if arguments:
+                previous = arguments[-1]
+        if edge:
+            break
+    folds = 0
+    for contour, inside in zip(contours, buried):
+        if inside and edge:
+            points = [point for _, arguments in contour for point in arguments]
+            # Start apart from the rest so the contour keeps two distinct
+            # points; a closing duplicate of the start must stay one, because
+            # the pen drops it and every master needs the same point count.
+            closes = len(points) > 2 and points[-1] == points[0]
+            points[0][0], points[0][1] = edge[0]
+            for point in points[1:]:
+                point[0], point[1] = edge[1]
+            if closes:
+                points[-1][0], points[-1][1] = edge[0]
+            folds += 1
+        for name, arguments in contour:
+            getattr(pen, name)(*[tuple(point) for point in arguments])
+    return folds
+
+
+def compact_outline(strokes, radius, repair=True, fold_rings=True):
     if not math.isfinite(radius) or radius <= 0:
         raise ValueError('Stroke radius must be finite and positive')
     pen = TTGlyphPen(None)
@@ -289,9 +511,12 @@ def compact_outline(strokes, radius, repair=True):
         if closed and len(points) == 1:
             continue  # Closed move-only paths carry no stroke ink.
         if repair and not closed:
-            points = trim_retraced_ends(points)
+            points = trim_retraced_ends(trim_zigzags(points))
         value = _stroke(points, closed, radius)
-        if repair and not (closed and _ring_is_filled(list(points), radius)):
+        filled = repair and closed and _ring_is_filled(list(points), radius)
+        if filled and fold_rings:
+            folds += _draw_filled_ring(value, pen, list(points) + [points[0]], radius)
+        elif repair and not filled:
             centerline = list(points) + ([points[0]] if closed else [])
             folds += _draw_repaired(value, pen, centerline, radius)
         else:
@@ -311,8 +536,9 @@ def signature(glyph):
     return tuple(glyph.endPtsOfContours), bytes(int(flag) & 1 for flag in glyph.flags)
 
 
-def _compact_masters(strokes, widths, repair):
-    candidates = [compact_outline(strokes, width / 2, repair) for width in widths]
+def _compact_masters(strokes, widths, repair, fold_rings=True):
+    candidates = [compact_outline(strokes, width / 2, repair, fold_rings)
+                  for width in widths]
     topology = signature(candidates[0][0])
     if all(signature(glyph) == topology for glyph, _ in candidates):
         return candidates
@@ -371,9 +597,11 @@ def prune_masters(glyphs):
 def compatible_masters(strokes, widths, legacy_expander):
     # Fold repair only moves points; if a collapse ever lands on a contour's
     # start point the pen drops the closing duplicate, so fall back to the
-    # unrepaired outline before resorting to the legacy disk stroker.
-    for repair in (True, False):
-        candidates = _compact_masters(strokes, widths, repair)
+    # unrepaired outline before resorting to the legacy disk stroker. Folding
+    # a pen-filled ring is tried first and given up first, since a ring may be
+    # filled at some weights only.
+    for repair, fold_rings in ((True, True), (True, False), (False, False)):
+        candidates = _compact_masters(strokes, widths, repair, fold_rings)
         if candidates is not None:
             removed = prune_masters([glyph for glyph, _ in candidates])
             for glyph, info in candidates:
