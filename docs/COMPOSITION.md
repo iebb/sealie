@@ -20,7 +20,7 @@ The Unicode Small Seal block (U+3D000–U+3FC3F) is defined by four editions of 
 | QJZ | 小徐本, Xu Kai's 說文繫傳 in the Daoguang-period 祁寯藻 printing | Independent text family |
 | DYC | 段注本, Duan Yucai's 說文解字注 | Duan's corrected forms and order |
 
-The THX chart glyphs are not raw scans. The original proposal ([N4688](https://www.unicode.org/L2/L2015/15281-n4688-small-seal.pdf), from TCA and China) pairs each scanned character with a digital font glyph, and [N5189](https://www.unicode.org/wg2/docs/n5189-THX-ModificationPrinciples.pdf) records where the font deliberately departs from the woodblock: taboo forms restored, exact duplicates and broken glyphs repaired, inconsistent components unified, and a few forms replaced from another edition. The working record is public at the [CMEX Shuowen Seal database](https://seal.cmex.org.tw/). The chart fonts are licensed to Unicode by their owners and may not be extracted; Sealie reads the chart for structure only and copies no outline from it.
+The THX chart glyphs are not raw scans. The original proposal ([N4688](https://www.unicode.org/L2/L2015/15281-n4688-small-seal.pdf), from TCA and China) pairs each scanned character with a digital font glyph, and [N5189](https://www.unicode.org/wg2/docs/n5189-THX-ModificationPrinciples.pdf) records where the font deliberately departs from the woodblock: taboo forms restored, exact duplicates and broken glyphs repaired, inconsistent components unified, and a few forms replaced from another edition. The working record is public at the [CMEX Shuowen Seal database](https://seal.cmex.org.tw/). The editions themselves are in the public domain. The *Shuowen Jiezi* is a Han-dynasty work and all four are Qing woodblock printings; Wikisource carries the text as a public-domain work ([說文解字](https://zh.wikisource.org/wiki/%E8%AA%AA%E6%96%87%E8%A7%A3%E5%AD%97)) and Wikimedia Commons collects scans ([Category:Shuowen Jiezi](https://commons.wikimedia.org/wiki/Category:Shuowen_Jiezi)). The seal forms they record are therefore free to follow. The digital fonts that draw them in the code chart are a separate matter: they are licensed to Unicode by their owners and may not be extracted. Sealie takes structure from the forms and copies no outline from the chart fonts.
 
 - **T1. THX decides structure.** Where the specimens agree, Sealie has the same strokes and the same joins. The heavier specimens merge parts by weight alone, so a join seen only in CCZ, QJZ or DYC is not evidence.
 - **T2. A drawing is wrong only if it contradicts every specimen**, or all but one that is plainly a different variant. Where the editions differ and Sealie matches one, it stands.
@@ -58,7 +58,7 @@ A character is one of five layouts. The checker finds side-by-side and stacked l
 - **S1. One pen.** Every stroke is a centerline drawn with a round pen: 30 units at Regular, and 23.5, 36.5, 43 and 49.5 at the other weights. All weights share the same centerlines.
 - **S2. Geometry.** Stems and bars are exactly straight and exactly vertical or horizontal. Curves are single smooth arcs. A shape that is mirror-symmetric in the sources is exactly symmetric about its own axis. Parallel bars in one component are equally spaced.
 - **S3. Joins meet.** Two strokes that join share a point: one centerline ends on, or crosses, the other. A stroke does not stop short of the stroke it joins, and does not run through it.
-- **S4. Separate strokes stay clear.** Strokes that do not join keep at least **0.5 units** of white at Regular; touching edge to edge is neither a join nor a gap and is a fault. **20 units** of white is the target, because the Bold pen is 19.5 units wider and anything less closes. A detached dot keeps 50 units from its centre to any other centerline.
+- **S4. Separate strokes stay clear.** Strokes that do not join keep at least **0.5 units** of white at Regular; touching edge to edge is neither a join nor a gap and is a fault. Two strokes that end on the same third stroke are joined through it, however close they are, and are not measured against each other. **20 units** of white is the target, because the Bold pen is 19.5 units wider and anything less closes. A detached dot keeps 50 units from its centre to any other centerline.
 
 ## Shared components
 
@@ -80,11 +80,11 @@ The current audit of 11,328 glyphs:
 | Rule | Result |
 | --- | --- |
 | F1, F2, F4 | No departures. All 11,277 body glyphs and 51 short forms are on their frames |
-| F3 | 3 glyphs are wider than 640: U+3DAFB (723), U+3DAFF (751) and U+3E96C (646) |
-| S4, 0.5 units | 60 glyphs have two strokes that touch edge to edge without joining |
-| S4, 20 units | 4,623 glyphs have at least one gap under 20 units, which closes by Bold |
+| F3 | 2 glyphs are wider than 640: U+3DAFB (723) and U+3DAFF (751) |
+| S4, 0.5 units | No departures |
+| S4, 20 units | 3,450 glyphs have at least one gap under 20 units, which closes by Bold |
 
-The F3 and S4 departures are recorded in the report as known exceptions and are still to be redrawn. `--check` passes while that list does not grow.
+The two F3 departures are recorded in the report as known exceptions. Both set three parts side by side (鳥 with a two-part phonetic); squeezing them to 640 would break rule C6 and close their gaps, so they wait for a redraw. `--check` passes while that list does not grow.
 
 ## 中文摘要
 

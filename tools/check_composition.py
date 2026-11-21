@@ -24,6 +24,7 @@ STANDARD_WIDTH, WIDE_WIDTH = 520.0, 640.0                 # F3
 TOLERANCE = 2.0
 OPEN_AT_BOLD = 20.0   # S4: white needed at Regular to stay open at Bold (pen +19.5)
 HARD_GAP = 0.5        # S4: least white between strokes that do not join
+COVERED = 10.0        # S4: a third centerline this close to the narrowest point means it is inked
 BAND_GAP = 8.0        # C1: least white channel that separates columns or rows
 EM = (0.0, 1024.0, -192.0, 896.0)
 
@@ -62,17 +63,38 @@ def read_strokes(path):
     return strokes
 
 
-def _point_segment(p, a, b):
+def _foot(p, a, b):
+    """Distance from p to segment ab, and the nearest point on it."""
     dx, dy = b[0] - a[0], b[1] - a[1]
     length = dx * dx + dy * dy
     t = 0.0 if not length else max(0.0, min(1.0, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / length))
-    return math.hypot(p[0] - a[0] - t * dx, p[1] - a[1] - t * dy)
+    q = (a[0] + t * dx, a[1] + t * dy)
+    return math.hypot(p[0] - q[0], p[1] - q[1]), q
+
+
+def _point_segment(p, a, b):
+    return _foot(p, a, b)[0]
 
 
 def _crosses(a, b, c, d):
     def side(p, q, r):
         return (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
     return side(a, b, c) * side(a, b, d) < 0 and side(c, d, a) * side(c, d, b) < 0
+
+
+def closest_points(first, second, limit):
+    """Least distance between two polylines with the two points that realise it, or None beyond ``limit``."""
+    best = (limit, None, None)
+    for a, b in zip(first, first[1:]):
+        for c, d in zip(second, second[1:]):
+            if (max(c[0], d[0]) < min(a[0], b[0]) - best[0] or min(c[0], d[0]) > max(a[0], b[0]) + best[0] or
+                    max(c[1], d[1]) < min(a[1], b[1]) - best[0] or min(c[1], d[1]) > max(a[1], b[1]) + best[0]):
+                continue
+            for p, (u, v), swap in ((a, (c, d), False), (b, (c, d), False), (c, (a, b), True), (d, (a, b), True)):
+                distance, q = _foot(p, u, v)
+                if distance < best[0]:
+                    best = (distance, q, p) if swap else (distance, p, q)
+    return None if best[1] is None else best
 
 
 def stroke_distance(first, second, limit):
@@ -134,6 +156,13 @@ def measure(job):
             if distance < PEN:            # the two pens overlap: the strokes join
                 parent[find(i)] = find(j)
             elif distance < reach:
+                # The narrowest point between the two strokes is white only if no third stroke's ink lies on it.
+                _, p, q = closest_points(strokes[i], strokes[j], reach + 1)
+                middle = ((p[0] + q[0]) / 2, (p[1] + q[1]) / 2)
+                if any(k != i and k != j and
+                       min(_point_segment(middle, a, b) for a, b in zip(strokes[k], strokes[k][1:])) < COVERED
+                       for k in range(count)):
+                    continue
                 white = distance - PEN
                 tightest = white if tightest is None else min(tightest, white)
     width, height = x1 - x0, y1 - y0
