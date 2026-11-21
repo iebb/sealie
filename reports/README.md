@@ -1,6 +1,6 @@
 # Report scope
 
-Current **v1.2.0** evidence:
+Current **v1.3.0** evidence:
 
 | Report | Scope |
 | --- | --- |
