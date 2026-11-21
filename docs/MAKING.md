@@ -24,6 +24,8 @@ The v1.2 design uses simpler centerlines while retaining the Small Seal stroke s
 
 Version 1.3 checks structure against the Unicode 18 code chart. Each glyph was compared with its THX, CCZ, QJZ and DYC specimens and corrected where its strokes, joins or counters contradicted them: about 600 glyphs and thirteen shared radical drawings, among them 羊, 食, 衣, 阜, 身, 舟, 心, 髟 and the middle stroke of 水. Sub-pen tracing faults were removed from the centerlines, and the stroker no longer leaves join spikes or fold knots in the outlines, which also makes the fonts about 30% smaller.
 
+Version 1.3.1 adds written [composition rules](COMPOSITION.md) and a checker that measures every glyph against them. Its first audit returned 46 glyphs to the body frame after earlier corrections had moved them, and resolved 11 places where separate strokes touched edge to edge.
+
 The general curve-cleanup budget is 2.55 font units, measured with a densified discrete Hausdorff comparison. Long near-axis traces have a separate 6-unit straightening budget. Fitted curves are flattened to editable `M`/`L` paths at 0.4-unit tolerance. These limits describe bounded source editing, not an analytic proof of continuous curve distance.
 
 道 (U+3D55D) also has a deliberate geometric redraw: straight sides, a rounded eye, a symmetric internal Y and matching repeated curves. Its 15 open source paths and 490×768-unit Regular ink frame are retained. This specific redesign is separate from the bounded general cleanup. The [geometry study](../previews/geometric-simplification.png), [source report](../reports/geometric-simplification.json) and [review record](../reports/geometry-review.json) distinguish their scopes.

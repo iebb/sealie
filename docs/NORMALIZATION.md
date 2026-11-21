@@ -1,6 +1,6 @@
 # Geometry, optical sizing and shared radicals
 
-Sealie uses simple curves, straight stems and round turns within a consistent optical frame. The **v1.3.0** sources cover all 11,328 Small Seal codepoints in a 1024-unit em, with a fixed 1024-unit advance. Regular uses a 30-unit round pen; all five weights follow the same centerlines.
+Sealie uses simple curves, straight stems and round turns within a consistent optical frame. The **v1.3.1** sources cover all 11,328 Small Seal codepoints in a 1024-unit em, with a fixed 1024-unit advance. Regular uses a 30-unit round pen; all five weights follow the same centerlines.
 
 ## Simpler geometry
 
@@ -70,7 +70,7 @@ The v1.0 [radical expansion](../reports/radical-expansion-v4.json) and [cap refi
 
 ## 中文
 
-当前 **v1.3.0** 以简练的曲线、平直的字干和圆润的转折整理小篆字形，沿用 v1.1 建立的视觉尺寸。一般曲线清理采用 **2.55 单位**的位移范围；长而接近水平或垂直的笔画另有 **6 单位**的规整范围。连接点协同移动，路径数量、次序和闭合标记保留。拟合曲线以 **0.4 单位**容差转换为可编辑的 `M`/`L` 折线。位移检查采用加密采样的离散 Hausdorff 距离，并不是连续曲线距离的解析证明。
+当前 **v1.3.1** 以简练的曲线、平直的字干和圆润的转折整理小篆字形，沿用 v1.1 建立的视觉尺寸。一般曲线清理采用 **2.55 单位**的位移范围；长而接近水平或垂直的笔画另有 **6 单位**的规整范围。连接点协同移动，路径数量、次序和闭合标记保留。拟合曲线以 **0.4 单位**容差转换为可编辑的 `M`/`L` 折线。位移检查采用加密采样的离散 Hausdorff 距离，并不是连续曲线距离的解析证明。
 
 **道（U+3D55D）**另作明确的几何重绘：平直两侧、规整圆角字腔、对称的内部 Y 形，以及一致的重复曲线；保留 **15 条开放路径**及 **490×768 单位**的 Regular 墨迹框。这项重绘与一般受限清理分开记录；简练的造型保留小篆结构、编码及历史异体。
 
