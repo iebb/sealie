@@ -28,6 +28,8 @@ Valid explicitly closed source rings are also compared at each named weight to c
 
 ## Optical frames
 
+The [composition rules](COMPOSITION.md) state the frame, width, layout and spacing rules as checkable numbers; this section records how the frames came about.
+
 The geometric design retains the optical frames established in v1.1. Ordinary upright forms use a **768-unit ink height** and common vertical center, with naturally different widths. A simple character such as 可 or 名 belongs to the same height group as a complex character such as 道 or 常. Deliberately shorter forms use individual heights rather than one reduction based on path count.
 
 | Form | Optical target established in v1.1 |

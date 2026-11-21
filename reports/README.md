@@ -5,6 +5,7 @@ Current **v1.3.0** evidence:
 | Report | Scope |
 | --- | --- |
 | [coverage.json](coverage.json) | The 11,328-codepoint repertoire and current source/review identities |
+| [composition.json](composition.json) | Every glyph's frame, width class, layout and tightest gap against the [composition rules](../docs/COMPOSITION.md), with the known exceptions |
 | [geometric-simplification.json](geometric-simplification.json) | Bounded curve cleanup, coordinated axis alignment, retained sensitive paths, exact shared copies and the deliberate 道 redraw |
 | [geometry-review.json](geometry-review.json) | Selected visual review, with the reviewed source or compiled-font identities and its exact scope |
 | [normalized-font-build.json](normalized-font-build.json) | Current compiled fonts, axis, fallback glyphs and checksums |

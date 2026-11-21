@@ -56,7 +56,10 @@ For development changes, the fixture suite can be run with:
 python -m unittest discover -s tests
 python tools/cleanup_caps.py --check
 python tools/cleanup_centerlines.py --check
+python tools/check_composition.py --check
 ```
+
+`check_composition.py` audits every glyph against the [composition rules](COMPOSITION.md) and fails if a glyph leaves a rule it kept in the committed [report](../reports/composition.json); run it without `--check` to rewrite that report after an intentional change.
 
 `cleanup_centerlines.py` removes drawing faults far smaller than the pen from glyph sources and component templates alike: vertices closer than 0.3 units, back-steps and retraced end stubs, jitter (a jittery stroke is thinned to within 0.4 units of its drawn line) and notches (a mid-stroke detour at most 5 units deep and 24 long). It only deletes vertices, leaves closed rings, dots and endpoints alone, and keeps the paths of glyphs where thinning would change a contact. After `--apply`, refresh the manifest and run `sync_components.py --apply`. The [applied cleanup](../reports/centerline-cleanup.json) lists every changed path.
 
