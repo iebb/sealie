@@ -20,8 +20,6 @@ The [character library](https://iebb.github.io/sealie/characters.html) displays 
 
 [optical-sizing.json](optical-sizing.json) records the common body heights, varying widths, shared-template profiles and contact-safe width exceptions established in v1.1. [optical-review.json](optical-review.json) records its independent review of 143 selected source glyphs. [optical-counter-check.json](optical-counter-check.json) records that revision's explicitly closed-ring counters at Regular. These reports retain their original source identities and do not measure the later geometric outlines.
 
-[reference-dimensions.json](reference-dimensions.json) contains numeric raster bounds for 257 reference characters, with source URLs and measurement limits. Of 292 requested previews, 35 without ink were excluded. The previews were rendered at 32 points on 56-pixel canvases; bounding-box uncertainty is approximately ±1 pixel. These are selected raster samples, not vendor font metrics or a measurement of the complete reference font. Reference fonts, raster images and outlines are not redistributed.
-
 The geometric design carries forward those optical frames. Ordinary upright forms use a 768-unit body-height target; known sparse forms have smaller optical heights, and dense forms can retain extra width. The [design notes](../docs/NORMALIZATION.md) explain how those frames and the current geometric edits relate.
 
 ## Earlier evidence

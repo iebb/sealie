@@ -28,11 +28,9 @@ The general curve-cleanup budget is 2.55 font units, measured with a densified d
 
 道 (U+3D55D) also has a deliberate geometric redraw: straight sides, a rounded eye, a symmetric internal Y and matching repeated curves. Its 15 open source paths and 490×768-unit Regular ink frame are retained. This specific redesign is separate from the bounded general cleanup. The [geometry study](../previews/geometric-simplification.png), [source report](../reports/geometric-simplification.json) and [review record](../reports/geometry-review.json) distinguish their scopes.
 
-## Optical proportion reference
+## Optical proportions
 
-方正小篆体 (FZXiaoZhuanTi-S13T) provides a reference for Sealie's body heights and varying widths. The typeface is identified by its [official description](https://www.foundertype.com/index.php/FontInfo/ductdetail/id/165.html) and [distributor listing](https://lets.fontworks.co.jp/fonts/492). Dimensions were measured from a [public raster preview](https://www.fonts.net.cn/font-31681245180.html): 257 of 292 requested characters contained ink, with 35 blank previews excluded.
-
-These 32-point previews use 56-pixel canvases, so the measured bounds have approximately ±1 pixel uncertainty. They provide proportion samples rather than vendor font metrics or full-repertoire measurements. Only the numeric bounds and source URLs are included in the [reference report](../reports/reference-dimensions.json); reference fonts, raster images and outlines are not redistributed. This evidence retains its v1.1 source scope. The maintained Sealie drawings remain the source, and the [design notes](NORMALIZATION.md) explain how the optical frames carry into the geometric design.
+Sealie's body heights and widths are its own frame values: a 768-unit ordinary body, shorter heights for sparse forms and naturally varying widths, as listed in the [design notes](NORMALIZATION.md). The v1.1 sizing was informed by measurements of a commercial reference typeface. Those measurements have been withdrawn from the project and are no longer used; no reference font, image or outline is included in this repository.
 
 ## Specimen artwork
 

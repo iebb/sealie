@@ -11,7 +11,7 @@ The [geometric source report](../reports/geometric-simplification.json) separate
 
 ## Historical comparisons
 
-The v1.1 [text alignment](optical-alignment.png) and [primitive sizes](optical-primitives.png) show the optical profiles before geometric cleanup. Their source identities are in the [sizing report](../reports/optical-sizing.json) and [optical review](../reports/optical-review.json). The [reference report](../reports/reference-dimensions.json) retains numeric bounds from 257 public raster previews; it contains no copied reference-font artwork.
+The v1.1 [text alignment](optical-alignment.png) and [primitive sizes](optical-primitives.png) show the optical profiles before geometric cleanup. Their source identities are in the [sizing report](../reports/optical-sizing.json) and [optical review](../reports/optical-review.json).
 
 The v1.0 [王/玉 strip](optical-size-strip.png), [first sixteen codepoints](optical-size-first16.png) and [representative forms](optical-size-representatives.png) show the earlier simple/compound size split. [cap-refinement.png](cap-refinement.png) records that revision's local parent-curve and cap repairs, including U+3E680.
 

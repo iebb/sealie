@@ -68,13 +68,13 @@
     },
     {
       "name": "docs/MAKING.md",
-      "bytes": 5957,
-      "sha256": "62d4fdf270faf87547ca8fb12ffdcdada1af3aa83a2ba892b9e6e122543f8fb4"
+      "bytes": 5297,
+      "sha256": "4486925ee64574f59a5a01012af19b82529cea160bad3615fdd7b84cca4c5691"
     },
     {
       "name": "docs/NORMALIZATION.md",
-      "bytes": 9324,
-      "sha256": "23c77b79a081d4235dc2898a158e10b7bd597792542c8eb5fd5830bb8500c71b"
+      "bytes": 8413,
+      "sha256": "43fe6c5a942b734c716289818d4435c37fe2970152780a2ab9696aab9b50eb4e"
     },
     {
       "name": "fonts/README.md",
@@ -979,7 +979,7 @@
     {
       "name": "fonts/variable/manifest.json",
       "bytes": 41617,
-      "sha256": "0c9f177b9936c1bdb20c317f47ab1db7d1c7b5b41f2393391486967a9ed042db"
+      "sha256": "92cb96eebb282b5ab844a79ae1f1b1f2bdacb68efbb7e6c1b24a67fedcde2b7d"
     },
     {
       "name": "index.html",
@@ -1243,8 +1243,8 @@
     },
     {
       "name": "previews/README.md",
-      "bytes": 3834,
-      "sha256": "23c520e72b87650c606a541ae263f3832e9d809d053c50759c6e33a45e8af6c1"
+      "bytes": 3671,
+      "sha256": "064741599b4863513d1cef4f10fe9819f3d34c4844f2eb4ad68564a46e12c5b6"
     },
     {
       "name": "previews/cap-microknots.png",
@@ -1348,8 +1348,8 @@
     },
     {
       "name": "reports/README.md",
-      "bytes": 4615,
-      "sha256": "90fa4d4b30518a9eeffb7d09103b88465dc20a846fbd4c06d0684687e0d8977a"
+      "bytes": 4110,
+      "sha256": "ab86dea050470948fef04a807da9a1d31c7e6f7d91e80d8878f1bb71d2fd51d7"
     },
     {
       "name": "reports/baseline-preservation.json",
@@ -1423,8 +1423,8 @@
     },
     {
       "name": "reports/normalized-font-build.json",
-      "bytes": 30962,
-      "sha256": "084e86e9c1121604aa3a079c4cd1e84c847758c925e4f0c3f977d90b1162ec67"
+      "bytes": 30963,
+      "sha256": "e71bf507a2a92abf0aad763b0291d76e4b5d06b7d98dc3f71d4972e0eccb97a2"
     },
     {
       "name": "reports/normalized-font-validation.json",
@@ -1443,8 +1443,8 @@
     },
     {
       "name": "reports/optical-sizing.json",
-      "bytes": 13470063,
-      "sha256": "df57e41575b618da1159d474294eb26fed9b0c7d4ed5a55b12c79701eedf98b9"
+      "bytes": 13446535,
+      "sha256": "2a126f86adc0aaad715201ee5f3e5c096f7fc60e2cba86fa4589eacdd0aaca87"
     },
     {
       "name": "reports/packaging-report.json",
@@ -1460,11 +1460,6 @@
       "name": "reports/radical-expansion.json",
       "bytes": 352016,
       "sha256": "8b10c0c7946c64a9854848d9586836844b4d959fbab8d5cb88b2d5978e1f439a"
-    },
-    {
-      "name": "reports/reference-dimensions.json",
-      "bytes": 63377,
-      "sha256": "4ee200481480132a212613aa0c4642da072b0d362294cfe9b2906e798ac194d1"
     },
     {
       "name": "reports/seal-individual-invariants-check.json",
@@ -1539,7 +1534,7 @@
     {
       "name": "site/coverage.json",
       "bytes": 26455,
-      "sha256": "65c07e53c37809945899fd8f3dc28e3c8c6a0a928106388b22853cc983db952b"
+      "sha256": "f761f06cd9d14a3d8e563072fdfcab70b509559161baf03d01d1ad2ffebdb9f7"
     },
     {
       "name": "site/showcase.js",
@@ -1558,8 +1553,8 @@
     },
     {
       "name": "svg/manifest.json",
-      "bytes": 3791720,
-      "sha256": "bf8c402162b39635ab6d1c2d6932959274f4824e98d8309d78aaf9eaec9defbf"
+      "bytes": 3791645,
+      "sha256": "14a23ae7f2defc5dd728160f66f00e5e0bc3df2b69b02cd6bdfb7b27a721b7af"
     },
     {
       "name": "tests/test_cleanup_caps.py",
@@ -1718,7 +1713,7 @@
   "svg_delivery": {
     "glyph_count": 11328,
     "manifest": "svg/manifest.json",
-    "sha256": "bf8c402162b39635ab6d1c2d6932959274f4824e98d8309d78aaf9eaec9defbf",
+    "sha256": "14a23ae7f2defc5dd728160f66f00e5e0bc3df2b69b02cd6bdfb7b27a721b7af",
     "role": "maintained editable font source",
     "font_build_report": "reports/normalized-font-build.json"
   },
@@ -1764,7 +1759,7 @@
     "chunk_count": 177,
     "css": "fonts/variable.css",
     "manifest": "fonts/variable/manifest.json",
-    "manifest_sha256": "0c9f177b9936c1bdb20c317f47ab1db7d1c7b5b41f2393391486967a9ed042db",
+    "manifest_sha256": "92cb96eebb282b5ab844a79ae1f1b1f2bdacb68efbb7e6c1b24a67fedcde2b7d",
     "full_variable_font": "Individual Sealie-Variable.ttf and Sealie-Variable.woff release assets",
     "exact_glyph_variation_metric_axis_tables": true
   },
@@ -1901,8 +1896,6 @@
       "coordinate_decimal_places": 6,
       "policy": "Common body heights; natural width from pre-v1 aspect, capped slender. Exact template cohort fits; width-only contact relaxations; compact-height contact exceptions are explicitly reported; normal body height remains common."
     },
-    "reference_dimensions": "reports/reference-dimensions.json",
-    "reference_characters_measured": 257,
     "report": "reports/optical-sizing.json",
     "scope": "Historical v1.1 frame design retained by current simplified geometry."
   },

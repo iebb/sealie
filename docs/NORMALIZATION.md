@@ -39,13 +39,9 @@ The geometric design retains the optical frames established in v1.1. Ordinary up
 
 These targets are not unconditional bounds. Dense forms and shared-template families can retain extra width to keep gaps open. The [v1.1 sizing report](../reports/optical-sizing.json) records that size-fitting stage; its glyph hashes and measurements precede the geometric cleanup. The current source report records the edited outlines. Earlier [alignment](../previews/optical-alignment.png) and [primitive](../previews/optical-primitives.png) comparisons retain their v1.1 scope.
 
-### Proportion reference
+### Origin of the frames
 
-**方正小篆体 (FZXiaoZhuanTi-S13T)** provides the optical proportion reference. See the [official description](https://www.foundertype.com/index.php/FontInfo/ductdetail/id/165.html) and [distributor listing](https://lets.fontworks.co.jp/fonts/492).
-
-The v1.1 comparison measured **257 ink-bearing characters out of 292 requested** from a [public raster preview](https://www.fonts.net.cn/font-31681245180.html); 35 blank previews were excluded. The 32-point previews use 56-pixel canvases, with approximately ±1 pixel of bounding-box uncertainty. The [reference report](../reports/reference-dimensions.json) contains numeric measurements and source URLs. It is not a survey of the complete reference font, and reference fonts, raster images and outlines are not redistributed.
-
-The sizing mapped a 39-pixel ordinary body to 768 units. Short forms with reference heights of 29–36 pixels used `768 × reference height ÷ 39`, rounded to 20 units. Preferred widths used `768 × reference width ÷ 39 × 1.08`, rounded to 10 units and capped at 520. Horizontal bars had separate profiles. These are the origin of Sealie's optical frames, not current per-glyph outline measurements.
+These frame values are Sealie's own design parameters and are maintained here. The v1.1 sizing that first set them was informed by measurements of a commercial reference typeface; those measurements have been withdrawn from the project and are no longer used. Structure is checked against the Unicode code chart specimens only.
 
 ## Exact shared radicals
 
@@ -78,4 +74,4 @@ The v1.0 [radical expansion](../reports/radical-expansion-v4.json) and [cap refi
 
 笔画间的接触关系按五个笔宽 **23.5、30、36.5、43、49.5 单位**比较，检查新增和丢失的接触，并保护原有半单位留白阈值；敏感路径在必要时保留原形。有效闭合中心线路径中原先存在的字腔，按各字重分别比较。源路径检查、编译后验证及样本视觉审查各有明确范围，记录于[几何报告](../reports/geometric-simplification.json)、[字体验证](../reports/normalized-font-validation.json)及[视觉审查](../reports/geometry-review.json)。
 
-**180 个共享模板用于 3,763 个字形**；每个模板只处理一次，所有登记副本保持相同的形状、尺寸和位置。一般字身沿用 768 单位高度，较矮的基本形式使用各自视觉高度，密集结构可保留较宽尺寸。旧[尺寸报告](../reports/optical-sizing.json)、[视觉审查](../reports/optical-review.json)及[参考尺寸](../reports/reference-dimensions.json)保留 v1.1 的源文件身份，不代表当前轮廓的重新测量。
+**180 个共享模板用于 3,763 个字形**；每个模板只处理一次，所有登记副本保持相同的形状、尺寸和位置。一般字身沿用 768 单位高度，较矮的基本形式使用各自视觉高度，密集结构可保留较宽尺寸。旧[尺寸报告](../reports/optical-sizing.json)及[视觉审查](../reports/optical-review.json)保留 v1.1 的源文件身份，不代表当前轮廓的重新测量。

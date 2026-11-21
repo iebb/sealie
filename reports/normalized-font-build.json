@@ -2,7 +2,7 @@
   "schema_version": 1,
   "glyph_count": 11328,
   "family": "Sealie",
-  "svg_manifest_sha256": "bf8c402162b39635ab6d1c2d6932959274f4824e98d8309d78aaf9eaec9defbf",
+  "svg_manifest_sha256": "14a23ae7f2defc5dd728160f66f00e5e0bc3df2b69b02cd6bdfb7b27a721b7af",
   "axis": {
     "tag": "wght",
     "minimum": 300,
@@ -20,7 +20,7 @@
   "fallback_glyphs": [],
   "source_polylines_simplified": false,
   "chunk_size": 64,
-  "elapsed_seconds": 523.4678394589573,
+  "elapsed_seconds": 22.151559582911432,
   "files": [
     {
       "name": "Light.ttf",

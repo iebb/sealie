@@ -5,10 +5,6 @@
   "policy": {
     "normal_body_ink_height": 768,
     "preferred_normal_ink_width_max": 520,
-    "reference_width_formula": "min(520,round((raster_width_px/39*768*1.08)/10)*10)",
-    "reference_height_formula": "raster heights29..36:round((768*h/39)/20)*20; heights>=37 or unknown:768",
-    "reference_raster_body_px": 39,
-    "reference_width_optical_compensation": 1.08,
     "center_font_units": [
       512,
       320
@@ -34,885 +30,7 @@
     "policy": "Common body heights; natural width from pre-v1 aspect, capped slender. Exact template cohort fits; width-only contact relaxations; compact-height contact exceptions are explicitly reported; normal body height remains common."
   },
   "contact_guard_scope": "Complete distinct source paths, constant Regular30 pen, positive gaps and half-unit margin; existing source contacts retained; same-path self-overlap and heavier weights outside this guard. Actual final coordinates quantized to6decimal places before checks. Height relaxation is limited to contact-unsafe compact profiles and explicitly reported.",
-  "reference_scope": "User-supplied screenshot plus257 measurable public raster character dimensions inform width/height profiles; no proprietary outline or font copied. Raster metrics have approximately1pixel uncertainty.",
-  "reference_dimensions_sha256": "4ee200481480132a212613aa0c4642da072b0d362294cfe9b2906e798ac194d1",
-  "selected_reference_dimensions": {
-    "U+3D000": {
-      "modern_character": "一",
-      "raster_width_px": 22,
-      "raster_height_px": 4
-    },
-    "U+3D003": {
-      "modern_character": "天",
-      "raster_width_px": 21,
-      "raster_height_px": 37
-    },
-    "U+3D008": {
-      "modern_character": "上",
-      "raster_width_px": 22,
-      "raster_height_px": 37
-    },
-    "U+3D009": {
-      "modern_character": "帝",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3D011": {
-      "modern_character": "下",
-      "raster_width_px": 20,
-      "raster_height_px": 36
-    },
-    "U+3D012": {
-      "modern_character": "示",
-      "raster_width_px": 19,
-      "raster_height_px": 35
-    },
-    "U+3D066": {
-      "modern_character": "三",
-      "raster_width_px": 20,
-      "raster_height_px": 27
-    },
-    "U+3D068": {
-      "modern_character": "王",
-      "raster_width_px": 20,
-      "raster_height_px": 31
-    },
-    "U+3D06C": {
-      "modern_character": "皇",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3D06D": {
-      "modern_character": "王",
-      "raster_width_px": 20,
-      "raster_height_px": 31
-    },
-    "U+3D110": {
-      "modern_character": "气",
-      "raster_width_px": 23,
-      "raster_height_px": 40
-    },
-    "U+3D113": {
-      "modern_character": "士",
-      "raster_width_px": 21,
-      "raster_height_px": 33
-    },
-    "U+3D119": {
-      "modern_character": "中",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3D321": {
-      "modern_character": "少",
-      "raster_width_px": 24,
-      "raster_height_px": 39
-    },
-    "U+3D32C": {
-      "modern_character": "公",
-      "raster_width_px": 23,
-      "raster_height_px": 34
-    },
-    "U+3D33D": {
-      "modern_character": "牛",
-      "raster_width_px": 20,
-      "raster_height_px": 40
-    },
-    "U+3D374": {
-      "modern_character": "口",
-      "raster_width_px": 16,
-      "raster_height_px": 30
-    },
-    "U+3D3B3": {
-      "modern_character": "名",
-      "raster_width_px": 21,
-      "raster_height_px": 39
-    },
-    "U+3D3B7": {
-      "modern_character": "君",
-      "raster_width_px": 22,
-      "raster_height_px": 36
-    },
-    "U+3D3DC": {
-      "modern_character": "呈",
-      "raster_width_px": 20,
-      "raster_height_px": 36
-    },
-    "U+3D420": {
-      "modern_character": "各",
-      "raster_width_px": 20,
-      "raster_height_px": 36
-    },
-    "U+3D4AB": {
-      "modern_character": "止",
-      "raster_width_px": 19,
-      "raster_height_px": 38
-    },
-    "U+3D4C4": {
-      "modern_character": "正",
-      "raster_width_px": 20,
-      "raster_height_px": 35
-    },
-    "U+3D55D": {
-      "modern_character": "道",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3D590": {
-      "modern_character": "後",
-      "raster_width_px": 21,
-      "raster_height_px": 36
-    },
-    "U+3D5E0": {
-      "modern_character": "牙",
-      "raster_width_px": 15,
-      "raster_height_px": 39
-    },
-    "U+3D5E5": {
-      "modern_character": "足",
-      "raster_width_px": 20,
-      "raster_height_px": 36
-    },
-    "U+3D647": {
-      "modern_character": "疋",
-      "raster_width_px": 22,
-      "raster_height_px": 37
-    },
-    "U+3D64A": {
-      "modern_character": "品",
-      "raster_width_px": 22,
-      "raster_height_px": 36
-    },
-    "U+3D660": {
-      "modern_character": "舌",
-      "raster_width_px": 22,
-      "raster_height_px": 37
-    },
-    "U+3D664": {
-      "modern_character": "干",
-      "raster_width_px": 24,
-      "raster_height_px": 37
-    },
-    "U+3D67E": {
-      "modern_character": "十",
-      "raster_width_px": 22,
-      "raster_height_px": 36
-    },
-    "U+3D680": {
-      "modern_character": "千",
-      "raster_width_px": 21,
-      "raster_height_px": 40
-    },
-    "U+3D689": {
-      "modern_character": "言",
-      "raster_width_px": 20,
-      "raster_height_px": 35
-    },
-    "U+3D6C0": {
-      "modern_character": "信",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3D7B2": {
-      "modern_character": "音",
-      "raster_width_px": 19,
-      "raster_height_px": 37
-    },
-    "U+3D86F": {
-      "modern_character": "爪",
-      "raster_width_px": 20,
-      "raster_height_px": 39
-    },
-    "U+3D888": {
-      "modern_character": "又",
-      "raster_width_px": 18,
-      "raster_height_px": 37
-    },
-    "U+3D88E": {
-      "modern_character": "父",
-      "raster_width_px": 19,
-      "raster_height_px": 37
-    },
-    "U+3D8B9": {
-      "modern_character": "支",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3D8D5": {
-      "modern_character": "臣",
-      "raster_width_px": 20,
-      "raster_height_px": 34
-    },
-    "U+3D8F8": {
-      "modern_character": "寸",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3D90C": {
-      "modern_character": "攴",
-      "raster_width_px": 15,
-      "raster_height_px": 38
-    },
-    "U+3D965": {
-      "modern_character": "卜",
-      "raster_width_px": 11,
-      "raster_height_px": 37
-    },
-    "U+3D96F": {
-      "modern_character": "用",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3D971": {
-      "modern_character": "甫",
-      "raster_width_px": 18,
-      "raster_height_px": 39
-    },
-    "U+3D97F": {
-      "modern_character": "目",
-      "raster_width_px": 16,
-      "raster_height_px": 33
-    },
-    "U+3DA0E": {
-      "modern_character": "白",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3DA14": {
-      "modern_character": "智",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3DA16": {
-      "modern_character": "百",
-      "raster_width_px": 22,
-      "raster_height_px": 35
-    },
-    "U+3DA18": {
-      "modern_character": "鼻",
-      "raster_width_px": 18,
-      "raster_height_px": 40
-    },
-    "U+3DA48": {
-      "modern_character": "隹",
-      "raster_width_px": 18,
-      "raster_height_px": 35
-    },
-    "U+3DA8B": {
-      "modern_character": "羊",
-      "raster_width_px": 20,
-      "raster_height_px": 37
-    },
-    "U+3DB5D": {
-      "modern_character": "玄",
-      "raster_width_px": 21,
-      "raster_height_px": 34
-    },
-    "U+3DD02": {
-      "modern_character": "竹",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3DDBC": {
-      "modern_character": "左",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3DDBF": {
-      "modern_character": "工",
-      "raster_width_px": 20,
-      "raster_height_px": 29
-    },
-    "U+3DDE5": {
-      "modern_character": "可",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3DE14": {
-      "modern_character": "豆",
-      "raster_width_px": 19,
-      "raster_height_px": 34
-    },
-    "U+3DE16": {
-      "modern_character": "豆",
-      "raster_width_px": 19,
-      "raster_height_px": 34
-    },
-    "U+3DE31": {
-      "modern_character": "虎",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3DEF0": {
-      "modern_character": "合",
-      "raster_width_px": 25,
-      "raster_height_px": 37
-    },
-    "U+3DEFD": {
-      "modern_character": "入",
-      "raster_width_px": 14,
-      "raster_height_px": 38
-    },
-    "U+3DF2A": {
-      "modern_character": "高",
-      "raster_width_px": 23,
-      "raster_height_px": 39
-    },
-    "U+3DF2F": {
-      "modern_character": "冂",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3DF75": {
-      "modern_character": "夏",
-      "raster_width_px": 20,
-      "raster_height_px": 40
-    },
-    "U+3DF9B": {
-      "modern_character": "弟",
-      "raster_width_px": 20,
-      "raster_height_px": 39
-    },
-    "U+3DF9C": {
-      "modern_character": "弟",
-      "raster_width_px": 20,
-      "raster_height_px": 39
-    },
-    "U+3DFA9": {
-      "modern_character": "木",
-      "raster_width_px": 18,
-      "raster_height_px": 39
-    },
-    "U+3E04A": {
-      "modern_character": "本",
-      "raster_width_px": 19,
-      "raster_height_px": 38
-    },
-    "U+3E050": {
-      "modern_character": "末",
-      "raster_width_px": 22,
-      "raster_height_px": 40
-    },
-    "U+3E052": {
-      "modern_character": "果",
-      "raster_width_px": 19,
-      "raster_height_px": 39
-    },
-    "U+3E186": {
-      "modern_character": "林",
-      "raster_width_px": 23,
-      "raster_height_px": 39
-    },
-    "U+3E18F": {
-      "modern_character": "森",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3E19B": {
-      "modern_character": "出",
-      "raster_width_px": 25,
-      "raster_height_px": 38
-    },
-    "U+3E1A4": {
-      "modern_character": "南",
-      "raster_width_px": 22,
-      "raster_height_px": 40
-    },
-    "U+3E1C0": {
-      "modern_character": "束",
-      "raster_width_px": 17,
-      "raster_height_px": 37
-    },
-    "U+3E1C9": {
-      "modern_character": "囗",
-      "raster_width_px": 22,
-      "raster_height_px": 33
-    },
-    "U+3E1CF": {
-      "modern_character": "回",
-      "raster_width_px": 20,
-      "raster_height_px": 31
-    },
-    "U+3E2F3": {
-      "modern_character": "日",
-      "raster_width_px": 17,
-      "raster_height_px": 33
-    },
-    "U+3E352": {
-      "modern_character": "旦",
-      "raster_width_px": 21,
-      "raster_height_px": 32
-    },
-    "U+3E375": {
-      "modern_character": "晶",
-      "raster_width_px": 24,
-      "raster_height_px": 35
-    },
-    "U+3E378": {
-      "modern_character": "星",
-      "raster_width_px": 22,
-      "raster_height_px": 37
-    },
-    "U+3E37E": {
-      "modern_character": "月",
-      "raster_width_px": 20,
-      "raster_height_px": 36
-    },
-    "U+3E38B": {
-      "modern_character": "有",
-      "raster_width_px": 19,
-      "raster_height_px": 36
-    },
-    "U+3E38F": {
-      "modern_character": "明",
-      "raster_width_px": 23,
-      "raster_height_px": 38
-    },
-    "U+3E395": {
-      "modern_character": "夕",
-      "raster_width_px": 18,
-      "raster_height_px": 39
-    },
-    "U+3E3A2": {
-      "modern_character": "多",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3E3D3": {
-      "modern_character": "禾",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3E3E3": {
-      "modern_character": "私",
-      "raster_width_px": 25,
-      "raster_height_px": 38
-    },
-    "U+3E42C": {
-      "modern_character": "秦",
-      "raster_width_px": 23,
-      "raster_height_px": 40
-    },
-    "U+3E43B": {
-      "modern_character": "黍",
-      "raster_width_px": 21,
-      "raster_height_px": 40
-    },
-    "U+3E449": {
-      "modern_character": "米",
-      "raster_width_px": 19,
-      "raster_height_px": 39
-    },
-    "U+3E48E": {
-      "modern_character": "麻",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3E49D": {
-      "modern_character": "瓜",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3E4C3": {
-      "modern_character": "安",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3E600": {
-      "modern_character": "巾",
-      "raster_width_px": 16,
-      "raster_height_px": 39
-    },
-    "U+3E611": {
-      "modern_character": "常",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3E657": {
-      "modern_character": "白",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3E66C": {
-      "modern_character": "人",
-      "raster_width_px": 18,
-      "raster_height_px": 39
-    },
-    "U+3E671": {
-      "modern_character": "仁",
-      "raster_width_px": 24,
-      "raster_height_px": 39
-    },
-    "U+3E788": {
-      "modern_character": "匕",
-      "raster_width_px": 15,
-      "raster_height_px": 38
-    },
-    "U+3E798": {
-      "modern_character": "北",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3E83E": {
-      "modern_character": "老",
-      "raster_width_px": 24,
-      "raster_height_px": 39
-    },
-    "U+3E847": {
-      "modern_character": "孝",
-      "raster_width_px": 21,
-      "raster_height_px": 39
-    },
-    "U+3E848": {
-      "modern_character": "毛",
-      "raster_width_px": 19,
-      "raster_height_px": 39
-    },
-    "U+3E882": {
-      "modern_character": "舟",
-      "raster_width_px": 17,
-      "raster_height_px": 36
-    },
-    "U+3E895": {
-      "modern_character": "方",
-      "raster_width_px": 23,
-      "raster_height_px": 36
-    },
-    "U+3E898": {
-      "modern_character": "儿",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3E89F": {
-      "modern_character": "兄",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3E9C6": {
-      "modern_character": "文",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3E9CA": {
-      "modern_character": "髟",
-      "raster_width_px": 22,
-      "raster_height_px": 37
-    },
-    "U+3EA1C": {
-      "modern_character": "勹",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3EA5A": {
-      "modern_character": "山",
-      "raster_width_px": 18,
-      "raster_height_px": 37
-    },
-    "U+3EAA9": {
-      "modern_character": "广",
-      "raster_width_px": 23,
-      "raster_height_px": 39
-    },
-    "U+3EB0A": {
-      "modern_character": "石",
-      "raster_width_px": 19,
-      "raster_height_px": 36
-    },
-    "U+3EB5C": {
-      "modern_character": "豕",
-      "raster_width_px": 21,
-      "raster_height_px": 35
-    },
-    "U+3EB9F": {
-      "modern_character": "兕",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    },
-    "U+3EBA1": {
-      "modern_character": "象",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3EC2F": {
-      "modern_character": "鹿",
-      "raster_width_px": 24,
-      "raster_height_px": 38
-    },
-    "U+3EC58": {
-      "modern_character": "兔",
-      "raster_width_px": 24,
-      "raster_height_px": 39
-    },
-    "U+3EC60": {
-      "modern_character": "犬",
-      "raster_width_px": 21,
-      "raster_height_px": 40
-    },
-    "U+3ECC1": {
-      "modern_character": "鼠",
-      "raster_width_px": 18,
-      "raster_height_px": 38
-    },
-    "U+3ECDC": {
-      "modern_character": "火",
-      "raster_width_px": 19,
-      "raster_height_px": 38
-    },
-    "U+3ED65": {
-      "modern_character": "炎",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3EDB1": {
-      "modern_character": "大",
-      "raster_width_px": 21,
-      "raster_height_px": 40
-    },
-    "U+3EE07": {
-      "modern_character": "夫",
-      "raster_width_px": 20,
-      "raster_height_px": 39
-    },
-    "U+3EE2A": {
-      "modern_character": "心",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3EE36": {
-      "modern_character": "忠",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3EF5E": {
-      "modern_character": "水",
-      "raster_width_px": 18,
-      "raster_height_px": 39
-    },
-    "U+3F164": {
-      "modern_character": "淼",
-      "raster_width_px": 21,
-      "raster_height_px": 39
-    },
-    "U+3F188": {
-      "modern_character": "永",
-      "raster_width_px": 20,
-      "raster_height_px": 37
-    },
-    "U+3F1A4": {
-      "modern_character": "冬",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3F1AF": {
-      "modern_character": "雨",
-      "raster_width_px": 19,
-      "raster_height_px": 37
-    },
-    "U+3F1EE": {
-      "modern_character": "云",
-      "raster_width_px": 23,
-      "raster_height_px": 38
-    },
-    "U+3F271": {
-      "modern_character": "非",
-      "raster_width_px": 21,
-      "raster_height_px": 37
-    },
-    "U+3F27C": {
-      "modern_character": "不",
-      "raster_width_px": 22,
-      "raster_height_px": 39
-    },
-    "U+3F2E0": {
-      "modern_character": "耳",
-      "raster_width_px": 15,
-      "raster_height_px": 36
-    },
-    "U+3F30C": {
-      "modern_character": "手",
-      "raster_width_px": 18,
-      "raster_height_px": 38
-    },
-    "U+3F442": {
-      "modern_character": "女",
-      "raster_width_px": 20,
-      "raster_height_px": 40
-    },
-    "U+3F465": {
-      "modern_character": "母",
-      "raster_width_px": 24,
-      "raster_height_px": 40
-    },
-    "U+3F54B": {
-      "modern_character": "毋",
-      "raster_width_px": 24,
-      "raster_height_px": 38
-    },
-    "U+3F54D": {
-      "modern_character": "民",
-      "raster_width_px": 24,
-      "raster_height_px": 40
-    },
-    "U+3F54E": {
-      "modern_character": "民",
-      "raster_width_px": 24,
-      "raster_height_px": 40
-    },
-    "U+3F54F": {
-      "modern_character": "民",
-      "raster_width_px": 24,
-      "raster_height_px": 40
-    },
-    "U+3F559": {
-      "modern_character": "也",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3F561": {
-      "modern_character": "戈",
-      "raster_width_px": 17,
-      "raster_height_px": 37
-    },
-    "U+3F57E": {
-      "modern_character": "我",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3F591": {
-      "modern_character": "无",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3F59A": {
-      "modern_character": "匚",
-      "raster_width_px": 21,
-      "raster_height_px": 33
-    },
-    "U+3F5B3": {
-      "modern_character": "曲",
-      "raster_width_px": 23,
-      "raster_height_px": 36
-    },
-    "U+3F5DD": {
-      "modern_character": "弓",
-      "raster_width_px": 15,
-      "raster_height_px": 38
-    },
-    "U+3F5F3": {
-      "modern_character": "弩",
-      "raster_width_px": 23,
-      "raster_height_px": 38
-    },
-    "U+3F60C": {
-      "modern_character": "由",
-      "raster_width_px": 19,
-      "raster_height_px": 36
-    },
-    "U+3F60D": {
-      "modern_character": "糸",
-      "raster_width_px": 16,
-      "raster_height_px": 38
-    },
-    "U+3F73E": {
-      "modern_character": "虫",
-      "raster_width_px": 23,
-      "raster_height_px": 39
-    },
-    "U+3F859": {
-      "modern_character": "土",
-      "raster_width_px": 20,
-      "raster_height_px": 35
-    },
-    "U+3F85A": {
-      "modern_character": "地",
-      "raster_width_px": 23,
-      "raster_height_px": 37
-    },
-    "U+3F85C": {
-      "modern_character": "坤",
-      "raster_width_px": 22,
-      "raster_height_px": 40
-    },
-    "U+3F890": {
-      "modern_character": "在",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3F912": {
-      "modern_character": "田",
-      "raster_width_px": 19,
-      "raster_height_px": 32
-    },
-    "U+3F940": {
-      "modern_character": "力",
-      "raster_width_px": 20,
-      "raster_height_px": 37
-    },
-    "U+3F979": {
-      "modern_character": "金",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3FA57": {
-      "modern_character": "与",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3FA58": {
-      "modern_character": "几",
-      "raster_width_px": 21,
-      "raster_height_px": 38
-    },
-    "U+3FA5D": {
-      "modern_character": "且",
-      "raster_width_px": 21,
-      "raster_height_px": 31
-    },
-    "U+3FA61": {
-      "modern_character": "斤",
-      "raster_width_px": 17,
-      "raster_height_px": 39
-    },
-    "U+3FA84": {
-      "modern_character": "矛",
-      "raster_width_px": 18,
-      "raster_height_px": 40
-    },
-    "U+3FB7D": {
-      "modern_character": "九",
-      "raster_width_px": 22,
-      "raster_height_px": 38
-    },
-    "U+3FB8D": {
-      "modern_character": "甲",
-      "raster_width_px": 21,
-      "raster_height_px": 36
-    },
-    "U+3FB90": {
-      "modern_character": "乙",
-      "raster_width_px": 11,
-      "raster_height_px": 37
-    },
-    "U+3FB91": {
-      "modern_character": "乾",
-      "raster_width_px": 23,
-      "raster_height_px": 40
-    },
-    "U+3FBB0": {
-      "modern_character": "子",
-      "raster_width_px": 19,
-      "raster_height_px": 38
-    },
-    "U+3FBDE": {
-      "modern_character": "未",
-      "raster_width_px": 19,
-      "raster_height_px": 39
-    },
-    "U+3FBE1": {
-      "modern_character": "申",
-      "raster_width_px": 20,
-      "raster_height_px": 38
-    }
-  },
+  "sizing_origin": "The v1.1 width and height profiles were informed by measurements of a commercial reference typeface. Those measurements have been withdrawn from the project and are no longer used; the sizes recorded here stand as Sealie's own frame values.",
   "glyph_count": 11328,
   "component_count": 180,
   "component_instances": 3763,
@@ -922,7 +40,7 @@
     "width_relaxed": 2826,
     "horizontal_single_primitive": 1,
     "height_relaxed": 0,
-    "reference_measured_modern_equivalent": 173,
+    "profiled_basic_form": 173,
     "horizontal_primitive_optical_profile": 5,
     "reviewed_compact_shape_fallback": 2
   },
@@ -3616,7 +2734,7 @@
       "codepoint": "U+3D003",
       "before_svg_sha256": "4aa974caabed1bb47b68abb338132ae9a017c526f195149a5a49ca7154e5003e",
       "after_svg_sha256": "8713254e19c39d7a972a37324bcf9a4e5dbf10603a98ffa3149e9eb42eeb1ed6",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -3881,7 +2999,7 @@
       "codepoint": "U+3D008",
       "before_svg_sha256": "c5c213e6f41c5ba847190aa80b5d43623e0ef2edf5340b43db84c74391ccd15d",
       "after_svg_sha256": "87a18cb20f39b34421ba3f96a5fda7793e5e81062bb0501e76a5ff4577d614e2",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -3934,7 +3052,7 @@
       "codepoint": "U+3D009",
       "before_svg_sha256": "99a3cf5ca6926674d7083a75267f3b60f7816b3ad9eaa55beb0a29bbb9324f75",
       "after_svg_sha256": "c4b917592136a6ea391cfded2c5dbd6c1ad0d9913f87a0b7269200af50874fc5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -4358,7 +3476,7 @@
       "codepoint": "U+3D011",
       "before_svg_sha256": "7b403df1293e01320b7712f8b36239729f5176145c66eef9d33f50385ab4dde9",
       "after_svg_sha256": "b14073ccc5682af72d8e40ebe80cad26d4a46bca3fa0ad27c713b0130e269230",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -4411,7 +3529,7 @@
       "codepoint": "U+3D012",
       "before_svg_sha256": "275e7f8ce6197561178598395857ca7c498b11ac0796e19c4ed5499fd351c34d",
       "after_svg_sha256": "5689efa7835b7c227a8707e6a75620c0c76cc3a3259e7b4c571e18afa38d4b09",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -8213,7 +7331,7 @@
       "codepoint": "U+3D068",
       "before_svg_sha256": "53570cfdb561a6a305e8a287ab229b43192f092d1080906b298f807b211d8a99",
       "after_svg_sha256": "70d9d5d1b4e7fdf31b7719b3a77c3ce9e39067afb55515bfde09c2010e369679",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -8425,7 +7543,7 @@
       "codepoint": "U+3D06C",
       "before_svg_sha256": "c35c60a454282c353c1a07e3a3be2af74a8ed44ea058063214c740bb280072e4",
       "after_svg_sha256": "cae4bd3b2b2f2c4a4beced7042626821498b4a0377522b71146a54d95dfeda5c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -8478,7 +7596,7 @@
       "codepoint": "U+3D06D",
       "before_svg_sha256": "fa31c3385237acd14b0f895cb639c0740f6f7ea538a9348b3950c08689f5c901",
       "after_svg_sha256": "498ffeaf39a9320edec0b04b8cc935043f4530b572a26feab4a0145044e030e0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -15773,7 +14891,7 @@
       "codepoint": "U+3D110",
       "before_svg_sha256": "f6d9a41aa9bc95764278e592234883badc9c0a1722520351f95fdb103a23a376",
       "after_svg_sha256": "89c783dc38f9ae67e138af5e08dc5942faa8bce281f8c618b83f00122ba8a7be",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -15932,7 +15050,7 @@
       "codepoint": "U+3D113",
       "before_svg_sha256": "8b9aebf3e34c4dfac6deb34bbf2f7ec427cd76dce65d60336d00d53bb2517570",
       "after_svg_sha256": "09d8c38ae9d5038ed2dfc297294be7d24da29c32cfee49e8159050be8ba47bd5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -16250,7 +15368,7 @@
       "codepoint": "U+3D119",
       "before_svg_sha256": "6ceb86f502b6d6f0ff4dc9cd52660b169479ab1d79b953dc5ee5eaed8fe665b7",
       "after_svg_sha256": "844dfc1fa5e4d849f5e708df06b4648685a708108da4e73c7f92ef673ddd39ee",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -39414,7 +38532,7 @@
       "codepoint": "U+3D321",
       "before_svg_sha256": "67dae90048e40d83460bccc08d27285734549efae2d4c4aab905babac8875d9a",
       "after_svg_sha256": "06f072078dfd98ebdb569cd36159c82490d24992983a40d11fe65ad72c7c17b9",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -39997,7 +39115,7 @@
       "codepoint": "U+3D32C",
       "before_svg_sha256": "dede6c6c15ae2377ff7df93848377113bda392175b151e6217aa5495900801b9",
       "after_svg_sha256": "9dcb7f8ef2b63227c6755ed144d67192164011ec84bbc9f0f4812f85fb77eb53",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -40898,7 +40016,7 @@
       "codepoint": "U+3D33D",
       "before_svg_sha256": "13881dc24c209ed52d951f6e5b614825d30c19006fff48d374b52c4204296000",
       "after_svg_sha256": "9dca8c0ac11ab38838cbe8d8d300c2574a24a400d38e680b107586b84b1e1bbb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -43477,7 +42595,7 @@
       "codepoint": "U+3D374",
       "before_svg_sha256": "5a9817b36e910f6ab6dc743b1222b13f88567f332e41a93ec78b1c86e068a9a4",
       "after_svg_sha256": "8655122746876627dc2c4a8576e9b215c7f7e53794b77fdb9a26b0e53355715e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         340.0,
@@ -46172,7 +45290,7 @@
       "codepoint": "U+3D3B3",
       "before_svg_sha256": "b73de22a7cb7a3e5d7433c0de02939921d7b4e08a2124d4a22fa0326b08d43a7",
       "after_svg_sha256": "e6e0d46a7acf4ca3ee65cba401d96a38f2943761862c4713a3340ed44c8a2d06",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -46384,7 +45502,7 @@
       "codepoint": "U+3D3B7",
       "before_svg_sha256": "b005893c480979f7384a2ac8ae592543653e46d2f838994b380675ebbce277a6",
       "after_svg_sha256": "a22ecb6e5bf2868ca0ec9b3b96c8eb673485f96c749c9e3549de9d7cd3c29784",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -48037,7 +47155,7 @@
       "codepoint": "U+3D3DC",
       "before_svg_sha256": "e3858d27681620f4216c7b312b6cd01534f94cf130faeb0f8f7fac3b9deb3888",
       "after_svg_sha256": "12ddba86250c4cb3d04a279ad9fb144cc1e0f6a13fb6ed528ab6e6dc79a75309",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -51179,7 +50297,7 @@
       "codepoint": "U+3D420",
       "before_svg_sha256": "2c5e0937dd8b15c6e309e9d0691a569a0c061c1021c5d0e069a669c4e62a00fe",
       "after_svg_sha256": "11f119af4a2712689814d1883eecbe2cb56cbfbb288d4fc4d6c9e1abbdf362e0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -57678,7 +56796,7 @@
       "codepoint": "U+3D4AB",
       "before_svg_sha256": "b7cfced96cba172d0262a7f1906b03e7fad7172fbf7366a40af2d6708cf4cb3c",
       "after_svg_sha256": "84b42f40bc3ae86b6d52672b0dfb3d46d58bb6714fa373993b0239e6b8cea7f7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -59003,7 +58121,7 @@
       "codepoint": "U+3D4C4",
       "before_svg_sha256": "c56924ce8c61e0ea49e607ef759d6fb978d9daa84a0c21dcb2507ff3183ff589",
       "after_svg_sha256": "e86478b51137e864b959493d6e3d11b28297e584595e0621a41c8b9c7d07b786",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -66944,7 +66062,7 @@
       "codepoint": "U+3D55D",
       "before_svg_sha256": "5c9abcda09f6191e236c0e8431562076309557f4e53822c81208b711acce0028",
       "after_svg_sha256": "753566c81ffc8216693a87ccc26e9be48c0a7931b2e5d12df882022349362e2b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -69633,7 +68751,7 @@
       "codepoint": "U+3D590",
       "before_svg_sha256": "07f260d0bd1589b00c82d6e8d59c9b799b3697b9262aaecfab82899d0522bfd3",
       "after_svg_sha256": "cc9b884f3a6eb0f8a667e66bdc47f8a46619e7dedbe4928291b340ece68711d9",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -73565,7 +72683,7 @@
       "codepoint": "U+3D5E0",
       "before_svg_sha256": "966b69716767c1f2e8422463625a71c89d3de6f742f861a50b09cc00821f4590",
       "after_svg_sha256": "001ac60c3b8d73d5385ed0b06ca8ec73d0aa2be28a53ec32da9a01c9f4cfdbb7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         320.0,
@@ -73830,7 +72948,7 @@
       "codepoint": "U+3D5E5",
       "before_svg_sha256": "891986ef516a6e4640eb4bd5242110fc7c71cc7963f8b7fe89ba871bdb075131",
       "after_svg_sha256": "e6dc8f50f43efc0130b11e8b7e5aaf9b945b1b057125b37885c1f850dde29f18",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -78464,7 +77582,7 @@
       "codepoint": "U+3D647",
       "before_svg_sha256": "325a692e1188afd60c2ca6ec086e1118abb8d0d6282a9de02dfb2fdb232859f0",
       "after_svg_sha256": "010c5b089f161bdacf753eeab87bcf4a32ed408b8b4058bbfebf7124c3bea497",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -78623,7 +77741,7 @@
       "codepoint": "U+3D64A",
       "before_svg_sha256": "96ceb870e86039a2c2e71016a8bbbaebc44bd72d858ac2db5b870a056fd54d30",
       "after_svg_sha256": "57e21497d1d4d2e275016e15b1e278f63d7b14f6cc54bb841b6eea598bd7ad10",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -79789,7 +78907,7 @@
       "codepoint": "U+3D660",
       "before_svg_sha256": "8b8f9de4f56c874dc096c82e6578966c2708ae8813923d2b9f6cc083454d0c03",
       "after_svg_sha256": "ce608b0b70fd5aa3900bfe6cccdb36d71963e3beaa4785b11d47e06c00e16c96",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -80001,7 +79119,7 @@
       "codepoint": "U+3D664",
       "before_svg_sha256": "06d05931f3cc2f65f611b8196c471550315e43690aba0653a26f84290bc4b266",
       "after_svg_sha256": "0bdd1c8423af41c1ec4f4032db1be9b0ffd9d0e0241c3a2f5ecd07fabeab129b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -81379,7 +80497,7 @@
       "codepoint": "U+3D67E",
       "before_svg_sha256": "4b2fa009d46b2128351c41cf5f5bdbdc1cec49134542048d52198001a9098245",
       "after_svg_sha256": "813cac0274c397b44f27026fd5baf2cffc3b5d1685f8bd07bb9fcc0b8fc2e737",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -81485,7 +80603,7 @@
       "codepoint": "U+3D680",
       "before_svg_sha256": "7bc7c24c4de533f2bdf2d8b1de7a2e5741dbb5d10a841e79c6956781c83433e9",
       "after_svg_sha256": "b5b31c23840542a366d929ff5cf7492a4e28ded0c9c6c29cae29e99d2fb68618",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -81962,7 +81080,7 @@
       "codepoint": "U+3D689",
       "before_svg_sha256": "13c4b207572a0da3886f3a0fe6932879274a03a35092843e2e676627f763625a",
       "after_svg_sha256": "d4b66864cf97c0b4b154456ba43d4adb905d68ac06bcec9f556e65d18ef3e423",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -84401,7 +83519,7 @@
       "codepoint": "U+3D6C0",
       "before_svg_sha256": "48a2943dd627d95497fe7ae9869a75e5770995ce45e588fda3b0bd12daff0e03",
       "after_svg_sha256": "8f1e554ac04757a09645d1f9f5850d4656f6cfe9942a5b55d993859de554e4c0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -95127,7 +94245,7 @@
       "codepoint": "U+3D7B2",
       "before_svg_sha256": "deb04e3d7d470c6ed788954f184aede8ee381abb17c7bc98cfc0dd11f853b42d",
       "after_svg_sha256": "704b015633bf65ae99ed2227f7e672cbe07f2a96caf40ece822413f4df9d804c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -104598,7 +103716,7 @@
       "codepoint": "U+3D86F",
       "before_svg_sha256": "3de6f5d0d37f985170c6f1328ce5849847769a3d1e276312c7efe831442ff663",
       "after_svg_sha256": "b797435425174c980beab0832d70d3452199a237087d4a546829bd2b6d55bebd",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -105923,7 +105041,7 @@
       "codepoint": "U+3D888",
       "before_svg_sha256": "64cc37afe270905c7b83433cc11d749e54069cf28646f0e73b599c8544f218f4",
       "after_svg_sha256": "d9f550433ce16be55d66f2f5860d839b7bcc83d10c487e74631131445b01faab",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -106241,7 +105359,7 @@
       "codepoint": "U+3D88E",
       "before_svg_sha256": "6a4c32a31b6d53aec5a575cf180776ed6f9a64b1f11792c6a30d793edb3a8410",
       "after_svg_sha256": "09580825443605bb7b0638a327bb633aad3a9d3bfc7038033d34cad20dcbdb00",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -108520,7 +107638,7 @@
       "codepoint": "U+3D8B9",
       "before_svg_sha256": "c146fbb21e93c2c076aa475d4534bb6e8fec59e1380f8f6e57f8d681c2f6d7af",
       "after_svg_sha256": "12fcfb27ad05de796be5488bb4114daa09bdfd4f2d2d2591a5e083ff68735ec0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -110004,7 +109122,7 @@
       "codepoint": "U+3D8D5",
       "before_svg_sha256": "23c660405d5538409f3688d1736cc3d8271dac834cfb41be217360921b2911d6",
       "after_svg_sha256": "ec6cc6e1cfbb1a0e4f5efd01bd4b0b4080c1d05bca5b4da0d09aeede641de2da",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -111859,7 +110977,7 @@
       "codepoint": "U+3D8F8",
       "before_svg_sha256": "74465dd7810b171463102dc74e5e17ce4bc9a3385603d1a39816fa394aa003e7",
       "after_svg_sha256": "b88e3f669fb8e423895ae9a9090a1b6ceab66cfb79945f27d66d718b28a87989",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -112919,7 +112037,7 @@
       "codepoint": "U+3D90C",
       "before_svg_sha256": "5dbbcfe79e4d17f799c5ef6da266af8c26d17215ef18719735646dd0fdecc898",
       "after_svg_sha256": "ca06f1662310c033f12d9ad4cfeef637cb374eabf390062302440eb5128d2ab1",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         320.0,
@@ -117594,7 +116712,7 @@
       "codepoint": "U+3D965",
       "before_svg_sha256": "f634023bd7c0b647db94d29a6ffc033808c0c2c13f9d3553248f2b8ecb5a7163",
       "after_svg_sha256": "193134919abc85abf69030acf857ceabc00c5bfd692386ea0b9a7aceb57846d6",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         230.0,
@@ -118124,7 +117242,7 @@
       "codepoint": "U+3D96F",
       "before_svg_sha256": "afe7008fbcfe635b445a768b56577fd22cf04947425f8c0994545721c7508a20",
       "after_svg_sha256": "716c3797434fff47daff7c60fe9a8a3fabb850e76a7e32777f90c8d04917e9f7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -118230,7 +117348,7 @@
       "codepoint": "U+3D971",
       "before_svg_sha256": "5b3b2ed0fe3cb1280442f5ce27be920f00ae78821e3e87f09b69c9d9ed934ad2",
       "after_svg_sha256": "0849620cdaac5914c61fd7f283ecb368fed8f61cf4a6bdb15f7714bf9054b522",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -118972,7 +118090,7 @@
       "codepoint": "U+3D97F",
       "before_svg_sha256": "aa7e30d7a51a63f36d08db2fa30574ac797b7593ffb5d105307d5c22598e0287",
       "after_svg_sha256": "753ac189b8d209c08761a242b6f488e826333ba0a8017de7f5889aaab8230416",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         340.0,
@@ -125725,7 +124843,7 @@
       "codepoint": "U+3DA0E",
       "before_svg_sha256": "e9bffac8f80fd1dd664e2b4f001bacbcda4b5ca5c5e786e1105b71c51fb23acf",
       "after_svg_sha256": "b9a1ccb79b689649daadd7630a5c4a19fb4972f886dd04362183c55a4239b196",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -126043,7 +125161,7 @@
       "codepoint": "U+3DA14",
       "before_svg_sha256": "9e33149bdc797f7771d181e545d8f33517cf90fdac4224124cb81df9dba4152a",
       "after_svg_sha256": "9b4fe11747d0a8efd304b8ad9cce90a0d7d09e4a101ddad0ff42375056240b67",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -126149,7 +125267,7 @@
       "codepoint": "U+3DA16",
       "before_svg_sha256": "759b64d60b4c87a773137d07c0c1ad4b3702b076f5f91d92c3262cda1c3a596a",
       "after_svg_sha256": "0eb725b41c673a5886cc69d482b3887dd72de29924372a86d4a4818e6c925306",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -126255,7 +125373,7 @@
       "codepoint": "U+3DA18",
       "before_svg_sha256": "eef637fdbd33c0ab46d25c0b2f4a5d065437f0240539fac7f61c3f69114729c6",
       "after_svg_sha256": "3add79e0c18d338f7c1538cb7d7642153a6b8ed74abf9e477de7035f2571380a",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -128687,7 +127805,7 @@
       "codepoint": "U+3DA48",
       "before_svg_sha256": "1aaa24eecbca574a0b8a217035f705ac4f3fc890cc24bedb01194d81049e747b",
       "after_svg_sha256": "a2845e597840d5e569da2e62ac651a3e3bc683c4d475c9827a13623aa20a98b5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -132196,7 +131314,7 @@
       "codepoint": "U+3DA8B",
       "before_svg_sha256": "9d51d951b866ba7becbaf811edd64114c42802986ff622d2bab83eadcf279894",
       "after_svg_sha256": "33778ea34ce4c048e313514c17a7325aa3db70d095493c87722fc7b8d796389a",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -143130,7 +142248,7 @@
       "codepoint": "U+3DB5D",
       "before_svg_sha256": "ef214f27294a1310ca957fdc1b3bd2a5f055cc8747106fb57e55d8e98d54a30c",
       "after_svg_sha256": "a44caee3560af097920a9626feb4ebfba8544ef1155691a0b00a14e999ccaa17",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -163945,7 +163063,7 @@
       "codepoint": "U+3DD02",
       "before_svg_sha256": "5c1831a58fd6c4511789dd32f7783a7b7b3fe4e04723a294256eefe70e1a8ce8",
       "after_svg_sha256": "f530448633451e9fd59afe818c6d31a93215507ab02be5a84542e4df7e939c0c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -172081,7 +171199,7 @@
       "codepoint": "U+3DDBC",
       "before_svg_sha256": "83b0801faa6135ebfe66f6dfaab3762df6457d39b1b878b504d0749f7b44bbf4",
       "after_svg_sha256": "029744c106998dccba13af74594ff3488a081c89fe3a32872786f83cac37953d",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -172240,7 +171358,7 @@
       "codepoint": "U+3DDBF",
       "before_svg_sha256": "6e9b7905b25fd9514fb802810b810f3c899e121046b9548076c1a87816c56862",
       "after_svg_sha256": "a0f13ae7dcbc6cb987aed6524c5ea838d6d2e9e19eececba1e590552a90c308f",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -174254,7 +173372,7 @@
       "codepoint": "U+3DDE5",
       "before_svg_sha256": "fed0edd637a141d03000dd30bcd26cb68e530f3bf77fd47fc3d19563a425336b",
       "after_svg_sha256": "0bdaa7051e34f96c63901550c91fbc8e4a560dfa77c5454d69f1ad25aecec470",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -176731,7 +175849,7 @@
       "codepoint": "U+3DE14",
       "before_svg_sha256": "c4eaa7bb855ae49e2e311f3792eb138f2a520918087c0cda34ac3cb8a747d09d",
       "after_svg_sha256": "04a3bb550c7a57e6411e989736e29316654a9d8109e3eebfc231fea155b7df0e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -176837,7 +175955,7 @@
       "codepoint": "U+3DE16",
       "before_svg_sha256": "0f4c35674e2f4580d8f4dabc57a1be7b4c719a319f41db120ec13edb740bff0a",
       "after_svg_sha256": "8c1d695508b40a8f46928877a000ef381be17baa2a344eb8c325630e25cf394d",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -178268,7 +177386,7 @@
       "codepoint": "U+3DE31",
       "before_svg_sha256": "925f3e1e862f036767fb51680f8150debbf4dbe6cf4b52c717d9bdcb476a6349",
       "after_svg_sha256": "5b783b4e30b8effba05d964f7508f0779d1d1a8bf7d089dab763a40d65cb759e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -187901,7 +187019,7 @@
       "codepoint": "U+3DEF0",
       "before_svg_sha256": "3bb6058ae3aa2f1a1df8b2a096e810714eba6433423fea580c5573f82895c260",
       "after_svg_sha256": "64d87b764a767c9e5be31af37578961d8ec8cb11e27e12eacea6e20036195feb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         520.0,
@@ -188590,7 +187708,7 @@
       "codepoint": "U+3DEFD",
       "before_svg_sha256": "35ee2812584bb6d3b3e9458e8cc560c72ff17ff6bd6c1d54eb2f52e694df28d5",
       "after_svg_sha256": "a7212ef3e55b9bf1decf7a0a6138aebb9fe943acdb03900a8fe352eef6b533ca",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         300.0,
@@ -190863,7 +189981,7 @@
       "codepoint": "U+3DF2A",
       "before_svg_sha256": "8dd799fbf9d94ef214fceb5d24feed714518fd7e209aa7eed885fa8885f296b4",
       "after_svg_sha256": "1277f8ad766a06f9fd273e2b85e1d7c18eeccf5cf38ddfd11d520a9e66fc8936",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -191128,7 +190246,7 @@
       "codepoint": "U+3DF2F",
       "before_svg_sha256": "f3438cfaf359eae7477517ba2ca7fcb957aa49873853a5d4399142bc7da3fc66",
       "after_svg_sha256": "64ae4a62e52ed8b83a7dafb015a9986572e3d374f22965683a961e31eb6702df",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -194838,7 +193956,7 @@
       "codepoint": "U+3DF75",
       "before_svg_sha256": "6ba325d28d7e072c7b357579581754ad84540e32e1292e51a64efb03117ba451",
       "after_svg_sha256": "9c0fd192ccc887353b51ac3d865ecacbc3a86b49bb5543ee16d167433ad6aa8f",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -196782,7 +195900,7 @@
       "codepoint": "U+3DF9B",
       "before_svg_sha256": "e08795a73bfff5635081a1bb3074e37a0303ad1025333cb30038ec0ccbd934da",
       "after_svg_sha256": "54fd5475af7f16a60bea709353125fcd16e3e9797a1173dd64bb777db8805c4b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -196835,7 +195953,7 @@
       "codepoint": "U+3DF9C",
       "before_svg_sha256": "f2a5478e57fc96edda02999d8d01e779d79d344c403d59c0784322b892fab6f7",
       "after_svg_sha256": "edefcbad49d2c33e29cc67d527c5ac4e0a4c6503cebc5cc2590e9f64225ecb3d",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -197524,7 +196642,7 @@
       "codepoint": "U+3DFA9",
       "before_svg_sha256": "0947e9b5da76e6232ec4132d5c5246d32fabdd4082edda38bdeb69dcf1540ac4",
       "after_svg_sha256": "203d7601997f2381c60cf0c39eed287a0701f504ae5cbbef297ed676c1047177",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -204615,7 +203733,7 @@
       "codepoint": "U+3E04A",
       "before_svg_sha256": "b1fc79c2906018765ab57e730c5cb4284272443d94221803278bb7e3613563c3",
       "after_svg_sha256": "0ea0a3df46af81cb207652029a395a9a1c3c3d81364ee62b63460148eb2acedb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -204919,7 +204037,7 @@
       "codepoint": "U+3E050",
       "before_svg_sha256": "713a437f174c6476f14e6f7dfb2ba52fd1ed55bb0ce82d3a44d0285918203753",
       "after_svg_sha256": "8a781ec82d204b4328822ba8fd8efabb3ac1e6c8ee4b2c46c0597d59b4e053de",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -205011,7 +204129,7 @@
       "codepoint": "U+3E052",
       "before_svg_sha256": "6254982375a17d9d8eca2330c3703607b558fecb100a3e6f03acfcaae8f7ae48",
       "after_svg_sha256": "4cd6a8a145ba4f64f1f9fd075ade2be9bebe8d1d561892a7b9f7b71d8c0f8f30",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -218549,7 +217667,7 @@
       "codepoint": "U+3E186",
       "before_svg_sha256": "770b6520c20c568eee041c1db4953780148cf7cdc847706b5c3b293427376866",
       "after_svg_sha256": "899b9b2ac8e4195a89fe5017b2c9a9d8c221be26f0e6aa4616d7f96fad325af6",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -218956,7 +218074,7 @@
       "codepoint": "U+3E18F",
       "before_svg_sha256": "0d0295ec98f8bce929e68163c4cb93fcc7055cbd753f0704fe194fb5c012c9a0",
       "after_svg_sha256": "0dd246ba3c6eddcca771f2999c05ff415d57b8f58031c4d1e9bd06095ec0c9df",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -219578,7 +218696,7 @@
       "codepoint": "U+3E19B",
       "before_svg_sha256": "2a62137403e432ec6314d656bd7b3beb33d75487732a15bb63f968c1cec626ae",
       "after_svg_sha256": "6bdb81e88003def4c214bb4c59e0b7e7728787fe98c07d1e51da726e7a718de1",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         520.0,
@@ -220055,7 +219173,7 @@
       "codepoint": "U+3E1A4",
       "before_svg_sha256": "f29470d335635f6aedf244820b2a31ecb877db561a448112bc2ec78fcf3cb8d4",
       "after_svg_sha256": "63130692482008790451e3ff6d217b26817ba32ae0f0712d562290fc9c50cefc",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -221539,7 +220657,7 @@
       "codepoint": "U+3E1C0",
       "before_svg_sha256": "ab017d952094e0e7b65be000c8c3cb0a278ddbf42a7808832a7866fb47cb1a2e",
       "after_svg_sha256": "00b387161e0bc5b1abf6e9b6129f8c784f5da96be5a544b72d2260e3b10197a7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         360.0,
@@ -222016,7 +221134,7 @@
       "codepoint": "U+3E1C9",
       "before_svg_sha256": "276ea001bb2bc27012cd61ddd22c09616a8f733008e63b56485f73b0f6835205",
       "after_svg_sha256": "d8311c6362b641b321f27ee52ce6e6bb70f24abac97afb9d27f367bc38a046d3",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -222334,7 +221452,7 @@
       "codepoint": "U+3E1CF",
       "before_svg_sha256": "78701bbc7a918c0530115b439e413a20a8f2ca48d0baa9d0cd0b76f6dc3e6195",
       "after_svg_sha256": "660380e9205a6207fb3c186495ea64af3528e2f76f681533f9c520600730f968",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -236494,7 +235612,7 @@
       "codepoint": "U+3E2F3",
       "before_svg_sha256": "b4bcaf7ae53b96601a1c7cb4d6b07632a0365ad71ab8bcedd9b229155ed445f4",
       "after_svg_sha256": "e1e7cd1336c918697b08806b4bf61b5bf92cbdc99d56f87cb5031e0482003d91",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         360.0,
@@ -240745,7 +239863,7 @@
       "codepoint": "U+3E352",
       "before_svg_sha256": "aba5fcb2ff00ad325b306f7ad56500c8caa80d3b39c35afcc885247f67ac7052",
       "after_svg_sha256": "e42fd3701d542c08b0ba885dc10e67714de191c4853a2cb6135fa6e23f5bc4bb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -242600,7 +241718,7 @@
       "codepoint": "U+3E375",
       "before_svg_sha256": "20105a0eda64d57dc06f16a15c974fd1f249e6459c7d632311a72ff9dc9de4c3",
       "after_svg_sha256": "b71823b0598e9f0de8ecd1d6279217fee419f6e16ed6bef94d8fccf856acf16b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -242759,7 +241877,7 @@
       "codepoint": "U+3E378",
       "before_svg_sha256": "46cc64dca458bfd67b7bf6ef0e543a03ca0d1dbdd5d39c461b47e6666d94b6ab",
       "after_svg_sha256": "9634a8651f7747993c2641a41f7e68dba092c5b01feaffbfc4c88217809eb4b0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -243077,7 +242195,7 @@
       "codepoint": "U+3E37E",
       "before_svg_sha256": "7bedd610d10a5039c8ece34c207d862c3ec4e0cba74f580b358c9af26aa1358f",
       "after_svg_sha256": "e42b6bfaed1d33c0a3f9397fb8c14b7ebd99dccbf09ece05494a29ccdde4e731",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -243766,7 +242884,7 @@
       "codepoint": "U+3E38B",
       "before_svg_sha256": "48b7a45034315c447998a7e3e2b96c79f639ba52b9ab90701ffaa24c5cb74eab",
       "after_svg_sha256": "0954b6b71473e96b3b9ea1355cd5b3abe2cf3f54d829c8f596293a8606eaf3d7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -243978,7 +243096,7 @@
       "codepoint": "U+3E38F",
       "before_svg_sha256": "2bbbb252f4c1389063371d7b27315ff0af0ae4d20cee41f19c9f55454f31b266",
       "after_svg_sha256": "e931478dc2f3c5e125766d25265c8fb158fae2a84b29100ae3d72b0e205966f6",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -244296,7 +243414,7 @@
       "codepoint": "U+3E395",
       "before_svg_sha256": "7670c992a8d64f408bbad443c04fa02c9ffe4a185069e43efce60f321e970a63",
       "after_svg_sha256": "f263dbc6c629a387a40060cfed994b6ad8b231074aa3a254b8e49fbaccef984b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -244985,7 +244103,7 @@
       "codepoint": "U+3E3A2",
       "before_svg_sha256": "75342a10e6657e6e2d34599dd3e77ddffce18e9679596c54eb6aa6afe861717c",
       "after_svg_sha256": "b7066b5fc05c088954bbc076c931e46c62ee43843bf371d1d41d1c0a8fa6223e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -247512,7 +246630,7 @@
       "codepoint": "U+3E3D3",
       "before_svg_sha256": "8a35c4b0f4edc5867ff0dd4d6e79efe92e712d813848c2faa15e0b102e8688d3",
       "after_svg_sha256": "b9b2e8ec53405bf648e2ab9937d6ab3caae735268309eb148e6581777de228eb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -248178,7 +247296,7 @@
       "codepoint": "U+3E3E3",
       "before_svg_sha256": "db2be106397e164cd381ab203227228e094f2efeacf37fbf123e88a2832942f3",
       "after_svg_sha256": "b43da48a672b12dbf036626eda3b68b10524ed41e78d0f7c8205707f41770daf",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         520.0,
@@ -251641,7 +250759,7 @@
       "codepoint": "U+3E42C",
       "before_svg_sha256": "fd4d86007ec512ebd0bf3b4701feb0827ec62c4cc2d32edc4a8a119dea34fe27",
       "after_svg_sha256": "bf7280245fbbcc3ac7d705903db0a638cc197772514b76efc3e6ae66997afb76",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -252324,7 +251442,7 @@
       "codepoint": "U+3E43B",
       "before_svg_sha256": "d631e0e7aa6e8bc274e0b1461544fc3b879b404fbc5e03777b0c36644e200282",
       "after_svg_sha256": "00b4d770149d3415b84b9a20e1511fc9e2371236ebadb7fae5a77e8fbe369b55",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -253066,7 +252184,7 @@
       "codepoint": "U+3E449",
       "before_svg_sha256": "b53224c37d6c47d30f80cc51a8efe6bd4e4d6b077e4bb775fe8c5f591b21963d",
       "after_svg_sha256": "f5f502ae2cca04d8d751b507607c4133ed0a957c3ded2c7e25c485022f9fa8d8",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -256541,7 +255659,7 @@
       "codepoint": "U+3E48E",
       "before_svg_sha256": "93b2f6e08d52e810da7512c5e006fbb5639c59e6059afa895d233e38313f00d3",
       "after_svg_sha256": "943969d9e7653ea54bd3dbbbd03dd80906b6de2b7dcde4a8cdfd8b26b6034505",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -257336,7 +256454,7 @@
       "codepoint": "U+3E49D",
       "before_svg_sha256": "8ac80cc30b97d99a2bc326ad868af004582c455e715c8aca193a437029051ddb",
       "after_svg_sha256": "decafc2baf52b43f3833fb204606a1cabec0884595e3bcbed84064ca66fe87c7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -259140,7 +258258,7 @@
       "codepoint": "U+3E4C3",
       "before_svg_sha256": "4e02c5445ec8e669dffc4a640534e1c69cec50b74192034407f218b5ccc9cc6f",
       "after_svg_sha256": "d94bc1c74c557c1299477609c564f3a93428c0ed494c9e938d203cf910234391",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -275689,7 +274807,7 @@
       "codepoint": "U+3E600",
       "before_svg_sha256": "c9f4471b1750f2e270fba0c1718b9d35da2431c95c4bd5e1037c97d95c50e7c4",
       "after_svg_sha256": "b6094b3d41aca37a38619cb4fda4c3e81d9be58427a3fe4d585845cf49205014",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         340.0,
@@ -276492,7 +275610,7 @@
       "codepoint": "U+3E611",
       "before_svg_sha256": "092b08b1aeadcd24b8a73ad8f904d9583865e32ccc9dc5e49cced0d855b67b6a",
       "after_svg_sha256": "be1631e10aff75086d90df80a7f1b7a36da99cd5b929b7d636c59faf9737da8c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -279698,7 +278816,7 @@
       "codepoint": "U+3E657",
       "before_svg_sha256": "e87d11a985ae73d50412157e76ac46406c63a334504d4d3699db5e8fa5cf57f1",
       "after_svg_sha256": "9154ccf24a7450a57816c76f63f30c4e50a4953ad69f12c506a8c3de966bf3bf",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -280755,7 +279873,7 @@
       "codepoint": "U+3E66C",
       "before_svg_sha256": "2e86c32e9ef17a189785f54cdfbe6c42b046cccca25a2cd75228158cca70422e",
       "after_svg_sha256": "4b1c09e0b38cf16d87f241cf8a2d84b5f9aa58f53479ac00b368b8790570bde8",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -281020,7 +280138,7 @@
       "codepoint": "U+3E671",
       "before_svg_sha256": "9a53ed27cbfcf19ceab0e9947f0b05447845f980aadd9cf38ca41545a9c4a6ab",
       "after_svg_sha256": "f7dd74416da123bc287d1dcc1cfc74479b92919400682c8f2e7a6e3baddfed99",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -294659,7 +293777,7 @@
       "codepoint": "U+3E788",
       "before_svg_sha256": "d977c20ce6850604a3c02816bfcb65af446ed5db8aed0288736b9ec0804ac798",
       "after_svg_sha256": "4de4895071993906354e3f4827402d9ba0ac8f258cb37b13993586e9f716b177",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         320.0,
@@ -295507,7 +294625,7 @@
       "codepoint": "U+3E798",
       "before_svg_sha256": "13a05d411b80bbfa5e638a6f495907d3cffb71cf404f5608e53921ee5a1d0c54",
       "after_svg_sha256": "f230fc2ecd0e28ce820b696d961c51e20771d238d1ab06551de5af26c2c7a7ca",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -303675,7 +302793,7 @@
       "codepoint": "U+3E83E",
       "before_svg_sha256": "9e10ec7564ec150dc4df02b1a6b594e5e82e0d310e72c57979fe7db03c33c670",
       "after_svg_sha256": "62136333e2b996e82099af2bdef609e24fc20a76654c04372c683d4f7d22d2e1",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -304152,7 +303270,7 @@
       "codepoint": "U+3E847",
       "before_svg_sha256": "ee950199c73435e3fff86df54349bc8c210c5db540d9dd590da6dca554f4b0ed",
       "after_svg_sha256": "621e1b39229d689de806812b3643a5d8ebad2ed1700b1a834aaccf4a188c64cc",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -304205,7 +303323,7 @@
       "codepoint": "U+3E848",
       "before_svg_sha256": "d68e9c416d9f23d9f7a1b355e6689ed470164affb3d5985872ea22a368e4e66e",
       "after_svg_sha256": "9557782722abfd772bdf20a62391840b65f0873450f5a20632d57e09ccb9335e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -307279,7 +306397,7 @@
       "codepoint": "U+3E882",
       "before_svg_sha256": "42d0567725da44bee48c9f33c077c8eeffc3f7ffd7abd7c182bec08ad4c9cbff",
       "after_svg_sha256": "09e689f3ce6180de99cf60fae41d98cfa13714788893bd03e6f0dbca69253d8b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         360.0,
@@ -308230,7 +307348,7 @@
       "codepoint": "U+3E895",
       "before_svg_sha256": "410faebe3410a8f3e0bcaf0a16d56d962a90797446dabaac358aea7899a667f9",
       "after_svg_sha256": "5649d689f5e9e97d8e78f3bacec75678c54004888abdb37993967cc48b9bcc30",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -308389,7 +307507,7 @@
       "codepoint": "U+3E898",
       "before_svg_sha256": "8fe3f0596be1ea4459c19ec93d6cf107506929c26bead731f49eaefab667869e",
       "after_svg_sha256": "c6cd8e08d4de293661a16eafe58ceb7cbef8afeb45051342fda93ae46a7df4a2",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -308760,7 +307878,7 @@
       "codepoint": "U+3E89F",
       "before_svg_sha256": "c0c0dcf8e05c7024f34eede0b1a4412f5e3d6e7e036210245913d6ff93058656",
       "after_svg_sha256": "23b9788e63422f4d478c9bf3cc7737b3a1f966b8a6bda3d4677f4dfcd95b227d",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -323485,7 +322603,7 @@
       "codepoint": "U+3E9C6",
       "before_svg_sha256": "6b68dff0d72301b37c84320b4877caafb61b047a2da83e14c1f768dc4aefb6e7",
       "after_svg_sha256": "3921b99604b4379c8a6776c9189609ff8aab7e9b4f4d5b90fa15342bba82518b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -323697,7 +322815,7 @@
       "codepoint": "U+3E9CA",
       "before_svg_sha256": "4a631c705f230e9dcc544160e498bbfe0f277eba7b44ccd8a1c582fa99574473",
       "after_svg_sha256": "d64e7438a97260a0731621cec4761e86375e1f1f1e6aadd58e50ce74ff291366",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -328043,7 +327161,7 @@
       "codepoint": "U+3EA1C",
       "before_svg_sha256": "9a7fc08753f8151a7e84a55327e0a128a8521d74afb7c4f5d324984e5f29b32c",
       "after_svg_sha256": "c818ac243002d892d465b0bb959db93a0a94b7189e1429c64b95bdb8d4993ace",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -331329,7 +330447,7 @@
       "codepoint": "U+3EA5A",
       "before_svg_sha256": "fce45c404726ae91ed68449cbb3b6c0f30b739efb3f7ebb7ad299210e43ea643",
       "after_svg_sha256": "9cc4f349feae252d18bfca9425ec0eb8b043240b192cd3a949fcf35ee8d5ad44",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -335250,7 +334368,7 @@
       "codepoint": "U+3EAA9",
       "before_svg_sha256": "8c3e293edf6138a1218e14e0bb80bfb58f2b7787d01a156b0e2b8c0e14aa04dd",
       "after_svg_sha256": "cf6d22aab3db234dc6a830664c12093be9fcc48b18d78ac8eb4034b36a79976c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -340391,7 +339509,7 @@
       "codepoint": "U+3EB0A",
       "before_svg_sha256": "beef64cde4a5426dc0d0637287857cdfc742ed811399ba2e55bc559e729767a6",
       "after_svg_sha256": "c2b5f284cfc749c69ff45e6d1cff64bd6c6e193b1b838f5409aeb6a15589610c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -344359,7 +343477,7 @@
       "codepoint": "U+3EB5C",
       "before_svg_sha256": "cf9414f33d54677e2f71366dd79fb0e5e9a48269b888b85d61fedf2d53bf2068",
       "after_svg_sha256": "e3a1e131847e0a35ddf596a2a688ca9f527771c8b575e6bd84e6190a1ead7e71",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -347910,7 +347028,7 @@
       "codepoint": "U+3EB9F",
       "before_svg_sha256": "38624e83ddde7edacd9b92122900e17d451c16a853a31ebc70dd63b34257de56",
       "after_svg_sha256": "0b2992aa5c365167ef3bc46f9e0b00ff20ae3aac020f8debfeab6d8d31ecb897",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -348016,7 +347134,7 @@
       "codepoint": "U+3EBA1",
       "before_svg_sha256": "06a25123a28613248f6ad6ac5fe820fa2309e7cbda867c5d8126fe7f7ffa0464",
       "after_svg_sha256": "eb79433f0d31d472ae1b95e17bc4cfc8be0c823ee44c7d86310745d88bc6354b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -355178,7 +354296,7 @@
       "codepoint": "U+3EC2F",
       "before_svg_sha256": "8496e13ff746f43596828c4b375001b02397c94347c372fd888f807506f131c8",
       "after_svg_sha256": "81f2f6f99e2d8506cb592a9467632c07fa6b1b42c10e43ac22940c0c4d9a71b5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -357351,7 +356469,7 @@
       "codepoint": "U+3EC58",
       "before_svg_sha256": "243f6aa7f126fc7d665246b2968145da0b54f62e8a1c29e2415779c7786108cf",
       "after_svg_sha256": "d2268ca5017d653de98c2b6094d43a8a8d59e790007790c52d1540a3a77967e1",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -357775,7 +356893,7 @@
       "codepoint": "U+3EC60",
       "before_svg_sha256": "9c2942385fc4d227f3215a0f41251ddfcda432910a6a8508dddd0302a4aba7cb",
       "after_svg_sha256": "9029d6d4fe9174395114d6f8a2724804c62980a5ac077dd1aecc6617c191975b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -362776,7 +361894,7 @@
       "codepoint": "U+3ECC1",
       "before_svg_sha256": "c0dcd61971e106258369c2b35089a75dc84b1641fdea46996d076f74e2345bf5",
       "after_svg_sha256": "24b5e3bb8d37eea60cad1af4a4f4f84ac7688c93a8b606a9ec0a84d7bcf11f4b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -364025,7 +363143,7 @@
       "codepoint": "U+3ECDC",
       "before_svg_sha256": "b8b2ed006f3156853d195cbb5e687384d5df5421063840510a479fc0b246374e",
       "after_svg_sha256": "b4691d231c4cf6278404bd5969dfe740a4ad80e8171cf44ff09f6adb8e0bfb58",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -370544,7 +369662,7 @@
       "codepoint": "U+3ED65",
       "before_svg_sha256": "39b36ba9d60427d471cf6d8a1064f7b22db96818f289096d6968904d7ecc541e",
       "after_svg_sha256": "4f15381b58fa7e5d6175b4a6f9fa4f2dba3582846412fcb370c22648a1894dfa",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -374362,7 +373480,7 @@
       "codepoint": "U+3EDB1",
       "before_svg_sha256": "1c5b4af3076c5d29191f397cd8e1f8e198faab3c5d43c70c3ebe955587e57192",
       "after_svg_sha256": "dc2630ac7ba4824dccfa725a1204d5d5aaa76d9649e00e0bd7c88ff2bd37cd3c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -378724,7 +377842,7 @@
       "codepoint": "U+3EE07",
       "before_svg_sha256": "792116e841ba5662cb088c17f69242092611b06151d343c305b63756ac1aad6e",
       "after_svg_sha256": "245ff6ee51428e339dd6a0d0de6059fd454389bd9d5dde42b9cd7ff459b6b8d9",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -380453,7 +379571,7 @@
       "codepoint": "U+3EE2A",
       "before_svg_sha256": "c877d05ca75df1992bcf72cc6526ea03a2a5dc16df42f8fd27d3e95a44b025f8",
       "after_svg_sha256": "b881af8001e83ec2f248dd9c0fb15d2d84c9c4528e8e4d0ca5362807fbe49eee",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -381089,7 +380207,7 @@
       "codepoint": "U+3EE36",
       "before_svg_sha256": "7e4e6496e7e2cbea7c6738399654a02c46d09e613bb4b05328f60d726d7d74d3",
       "after_svg_sha256": "75ff195d2dc0b7473b1267750c5c1537352df10737b01c102dcad58058a7d44a",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -395783,7 +394901,7 @@
       "codepoint": "U+3EF5E",
       "before_svg_sha256": "8c8455a2ebd2f9bde220c318cf49ead9c6a123e4065fe800ac2e662594a97882",
       "after_svg_sha256": "d551eb6ee98d90d7b8577e55a1d1d545ff4dc1b013d6915995b85f1a60764185",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -418043,7 +417161,7 @@
       "codepoint": "U+3F164",
       "before_svg_sha256": "5deddfbec7a977af43a5060cd8a65cd20e16613df0778d52ce957adeace66612",
       "after_svg_sha256": "ac4f09a9e22b4586abc1e298d991920034cfabc4d604f3e4f93711a63cb9d4a9",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -419909,7 +419027,7 @@
       "codepoint": "U+3F188",
       "before_svg_sha256": "6f71f332b2dca18fe90781b990d24c9b0abae71fcddcbeeb68031194bd00da10",
       "after_svg_sha256": "867e274ba92063d3e499ec2b1c143aa08cd426efefd1c5a875dafa9af358a506",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -421365,7 +420483,7 @@
       "codepoint": "U+3F1A4",
       "before_svg_sha256": "cf40aba8fd8dec607dd49cd0f2956ccb00c1c5974f18567af9c5db056fbdbcc7",
       "after_svg_sha256": "f14273025fca8f4b73a0ae71e067a3864a3ecb98ca21fc6ff6cfb8eff3760242",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -421892,7 +421010,7 @@
       "codepoint": "U+3F1AF",
       "before_svg_sha256": "7f592b8bf76decb8a101c858650280c95eccb01bcce96fa9a7d01995c79734f7",
       "after_svg_sha256": "ff21c61279cd73412dec20c99da44b1d0476477777fde84b860612c80958c9ee",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -424895,7 +424013,7 @@
       "codepoint": "U+3F1EE",
       "before_svg_sha256": "0fbe4b9045459dca4089806e1cdbc8c3fce2a81c0f26b20c5147e4962c3eda64",
       "after_svg_sha256": "3dac197c38d10aeaf39e77bcce42a55cfaaeed725a8c61d5783bfb612ad64b5b",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -431362,7 +430480,7 @@
       "codepoint": "U+3F271",
       "before_svg_sha256": "7457f3621bd02507b0f9fee58586fed2f2cd7ec3d7a9a5fcf361575ef14cd81b",
       "after_svg_sha256": "7ed27ee8b21e642415f24e4c88cd699dfda48f75ca3dd85ae620f567a1302476",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -431945,7 +431063,7 @@
       "codepoint": "U+3F27C",
       "before_svg_sha256": "8055a8d5c1269726a3961879dc74c8a3f75bb7b31bf6a77a5232f13ec130d519",
       "after_svg_sha256": "96fba5c65faf7c894e8aaa16f42dac9992a3de315140694016dd53bd867bad30",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -437245,7 +436363,7 @@
       "codepoint": "U+3F2E0",
       "before_svg_sha256": "ade03df3e067d795ab29bcdd2dfe45109f9f9da01a8cafcb9a88d49295b8b48d",
       "after_svg_sha256": "8eff35f458baee50a8a446b31a7158e16ee2efd345587a1978ec240abce50e86",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         320.0,
@@ -439395,7 +438513,7 @@
       "codepoint": "U+3F30C",
       "before_svg_sha256": "f945cb84e7acedb3ea6a27f83276b3ff191e4043c3f2f7bbf850a4864b823975",
       "after_svg_sha256": "ae844da1258dc28d88ee1815d109e00467972e8b6678303fe25a890200bc10d7",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -452913,7 +452031,7 @@
       "codepoint": "U+3F442",
       "before_svg_sha256": "ffcec0341fbcf562f567a103f15e7cd07d63ee1e7630c56956cfbe2b8c13f2a9",
       "after_svg_sha256": "c3a6dddfc393d55e0f24f3214ce31d9704dd3c0636ff88dbed22c730dc49884c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -454670,7 +453788,7 @@
       "codepoint": "U+3F465",
       "before_svg_sha256": "cacd5bb574956b0085f3a22102278fbc66923ec80bb377f9e1aa894b8e1e3d49",
       "after_svg_sha256": "5a756eef51b1937b07b874c47d62b0f582345968aae97102e125dc9fa93639ce",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -466370,7 +465488,7 @@
       "codepoint": "U+3F54B",
       "before_svg_sha256": "28ee5c0866698be3fa9ec4467dbc2e9dcd886674a58e3c1a364ef65302332958",
       "after_svg_sha256": "65090c6bb7c1bb0725ca08cea22404f4dc4d5d5d04afec72dfcc85c1db9fdc05",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -466476,7 +465594,7 @@
       "codepoint": "U+3F54D",
       "before_svg_sha256": "ce02dd472070cb65a1cd9633813299586d293e6f6e1e29b6b9b877779512168a",
       "after_svg_sha256": "f767098b715a3801fb87925cc5a4c69818bed942362937ba57c6f28eb4097a66",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -466529,7 +465647,7 @@
       "codepoint": "U+3F54E",
       "before_svg_sha256": "78c3e25ec43da9319900659ef6f2d4c07510f8c867d321f3a3909ee058ef5f12",
       "after_svg_sha256": "690c56adcf676a223bc9dec06bd71f1ad3ae6724bac5c65f87317696183346fa",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -466582,7 +465700,7 @@
       "codepoint": "U+3F54F",
       "before_svg_sha256": "6ebdd3f54b7e9a85ac31be7427d47c623bcac4764e75d5edb95da1eeac47460e",
       "after_svg_sha256": "cd83b2dc05063e5087bb861b2d12bcd1082ef06ab038f1aed76747e6dc3fbb31",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         510.0,
@@ -467112,7 +466230,7 @@
       "codepoint": "U+3F559",
       "before_svg_sha256": "b071800af8637e144174759b003b72d0c67108302dad0931e99dba21b1ab3b7f",
       "after_svg_sha256": "998abae70031e1356f378be06ef8beb0924379a6a91a44d00d68791c8d3ed06c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -467536,7 +466654,7 @@
       "codepoint": "U+3F561",
       "before_svg_sha256": "8c4784a614cbf4424bd12d54ab68ec644e4c9b9dcca43f80ac44cd1008529ec3",
       "after_svg_sha256": "8a2fb35c20a21b1777d41f5c99834ffec9b838b9cc797b0826e33d4dd725a13a",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         360.0,
@@ -469073,7 +468191,7 @@
       "codepoint": "U+3F57E",
       "before_svg_sha256": "7e782095e336617dd971c90cd8828b26fd5249dd36bcf23c16f4bfea9568d081",
       "after_svg_sha256": "259b34cd5a9caa46ed1021ffd74c6f0c3e70331ffd799a29fe5fd0f9c4633147",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -470080,7 +469198,7 @@
       "codepoint": "U+3F591",
       "before_svg_sha256": "545fe2d640dbd0a2fb37c6251731b63df2636be7f9a4fddf694b05661bbe6bc0",
       "after_svg_sha256": "ed3a04d60cd56d49774d10ec51a8a248562cd35d8909a82ec85cc1fee3d5b807",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -470557,7 +469675,7 @@
       "codepoint": "U+3F59A",
       "before_svg_sha256": "74b299c41085774a493cd615adae6c432598b39e7a68caf21d50bf9adbd47d16",
       "after_svg_sha256": "23bd9031fd414545c311c87d61b6c57efb5eb2c3db8515921ee4a9d7c13038bc",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -471882,7 +471000,7 @@
       "codepoint": "U+3F5B3",
       "before_svg_sha256": "ea6dd7fc1f4f2b4c2b76a6c4dc5d8e1557af864e830e998db751a2e481fd1d44",
       "after_svg_sha256": "c22192e34fbb9292e443dd542bff7aaea65f47a09d6a7d24e09a7b1fcff841c5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -474108,7 +473226,7 @@
       "codepoint": "U+3F5DD",
       "before_svg_sha256": "7601b4cea4c7921fee119231058d0d3e16d3dca726fc97d2328d21875d35a924",
       "after_svg_sha256": "fd6a3f49f7df29cafb6abefb05d0a5da1947a88eb0876e2afe5e90bf2b5d7af0",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         320.0,
@@ -475274,7 +474392,7 @@
       "codepoint": "U+3F5F3",
       "before_svg_sha256": "fc767776ca74620432aa4d849f433c991e33a0f0bc222dd1e3cd855be610a460",
       "after_svg_sha256": "d17f4d4a59bfcf62d02d9c7d5e25263283a3de345c453e5c368ac0590e3be62a",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -476599,7 +475717,7 @@
       "codepoint": "U+3F60C",
       "before_svg_sha256": "d11bfe3ec03f1638631029ad5f0c073080440975db22593019f67c172f5d2615",
       "after_svg_sha256": "6597016ccf5f5ae4b144cecade7e5a2afb4370970865ae4975f5dd8f726484ee",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -476652,7 +475770,7 @@
       "codepoint": "U+3F60D",
       "before_svg_sha256": "2b65ca696a20e1adadd0c6510177e6039cc2e73523c9ca1c9d0f9c8238305dce",
       "after_svg_sha256": "d0bd8dc6d3a3f5a301967b3a1c79926d8737ae5df4b3da00fc2ad23b1104e293",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         340.0,
@@ -489695,7 +488813,7 @@
       "codepoint": "U+3F73E",
       "before_svg_sha256": "8f57c6956c4cf84a851163447b0216f847bd43097254758e010f27e0718e7ad9",
       "after_svg_sha256": "29ea70d0f3f30259a562e6857a12260e51098131602b726324449b2ed9158f4c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -504064,7 +503182,7 @@
       "codepoint": "U+3F859",
       "before_svg_sha256": "2ee4a3fbcf7b6941c3b8b70509ba1900f431df032a1ccc7d25a7e57976e3aadb",
       "after_svg_sha256": "7c28eaabc1caa990a96f9b0b15ddd9e0d2d9bfeff8a8ce3fb7bfe81199e0f7d5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -504117,7 +503235,7 @@
       "codepoint": "U+3F85A",
       "before_svg_sha256": "e31159277eeec0bd2947a480e24b59967abce0a464acf04557e93cdc999cd4f2",
       "after_svg_sha256": "ad8aed72fe6e3efc8db6cd95d7510d817b9f1337d079073daf62bd70717433cd",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -504223,7 +503341,7 @@
       "codepoint": "U+3F85C",
       "before_svg_sha256": "642bd255f6b45658068d7fac69340043153735b8b308ee502b5371398568e563",
       "after_svg_sha256": "513704ee6854a9c65c655b72c1d6b0fc2ab49e988fc0e3610aae930d1fac1d31",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -506657,7 +505775,7 @@
       "codepoint": "U+3F890",
       "before_svg_sha256": "4b2c521246761b34e6069e06ff9d5f7dc18939600a7ebf2fd072e4f8e8a1b204",
       "after_svg_sha256": "cd71f1391f2e9e64538f7a64c3308104206ed0264d09eb2f5b53bc2aaf47d8cf",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -512917,7 +512035,7 @@
       "codepoint": "U+3F912",
       "before_svg_sha256": "7dcfa85b15e50778b72f326d9bfe4278abe6176ba1f19a4efd88dd3049e3e95a",
       "after_svg_sha256": "88f6f7a37d20771e04de7c8d9711fd813e49bc29dc87ccd43f1ad4012d689501",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -515355,7 +514473,7 @@
       "codepoint": "U+3F940",
       "before_svg_sha256": "cdbac0ac55be6d95982b321a2eaaea0b9b67745aa90d541422491c8a1cbc2483",
       "after_svg_sha256": "909cbadb456b20501f889826a42676abe995952221416397a66ac01081adfeac",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -518194,7 +517312,7 @@
       "codepoint": "U+3F979",
       "before_svg_sha256": "52a847f0259d255a79ee756043bebd31a6811c71c1c994b522b89b0242e8e9d8",
       "after_svg_sha256": "bb57332367a4ae2be1fd6e43c08ec60b2e30e1e44b05db2661078774fcf65b34",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -528140,7 +527258,7 @@
       "codepoint": "U+3FA57",
       "before_svg_sha256": "4206e3ddb8920e4458647ae4008b57969869406f082fbc9299115318f48f5997",
       "after_svg_sha256": "f01aa69bf1d5ea8ef4cee8b011fe54dbfbf49191568cd1131b05be58e82d3be5",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -528193,7 +527311,7 @@
       "codepoint": "U+3FA58",
       "before_svg_sha256": "75c9f797512135353194e969ee2f8db13cc9fc7c10a78064293e16b638fbe38b",
       "after_svg_sha256": "f9c9a8ff1c93c2d1f150cade5a2944f6c6cfc305b397a5d6c63ef545a104438e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -528458,7 +527576,7 @@
       "codepoint": "U+3FA5D",
       "before_svg_sha256": "7613d52b375d5cce66ae4e042fe38f3ca3f61e7b3866e9fa3b58ca0b1e1111a3",
       "after_svg_sha256": "de07272fbb14ebc6a38b6282b207acaaf7ac3a42d8f2307dade6daad97fcaebb",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -528670,7 +527788,7 @@
       "codepoint": "U+3FA61",
       "before_svg_sha256": "c00e2fc02eb53507ec18ac44b2b35b7ac8005743a23207fd0f62e09742d5e62e",
       "after_svg_sha256": "bb6a0a300d1a5fcd6437440a66f24a6e27f38d8f564b3a64dbf8a61c45d5c925",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         360.0,
@@ -530455,7 +529573,7 @@
       "codepoint": "U+3FA84",
       "before_svg_sha256": "9f4c2643d8c5646b0c82e0b7b2cf308b19cfcb7187d28d0babf9264d99303d15",
       "after_svg_sha256": "5c3d99cbf77bf904cc683058fd94bedc96aeb736035f041dea5346ea616f154f",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         380.0,
@@ -541636,7 +540754,7 @@
       "codepoint": "U+3FB7D",
       "before_svg_sha256": "2eb5f0d27c4affabb0b7c8f90a325f002508141413f0901699e29da023aaa066",
       "after_svg_sha256": "a2fdb2021df764d5ce7cca073df79e21397548ed60cef5b66d899832c1324e15",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         470.0,
@@ -542484,7 +541602,7 @@
       "codepoint": "U+3FB8D",
       "before_svg_sha256": "7a8fcfd11c94815d82bc6e698f94583c9d48b8fc12c644da4b03d1ae2b53bca4",
       "after_svg_sha256": "8ad01d83c530ad4cc4eec23787cf2475107522bf3456a74fd3c220834bdaf41f",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         450.0,
@@ -542643,7 +541761,7 @@
       "codepoint": "U+3FB90",
       "before_svg_sha256": "c1c3049ea9230a3cbb626e2cb38fa247b31e5cae58d1d4e51dfadda5bd4f5e30",
       "after_svg_sha256": "5b5e6e68880b36bbecf8902305d004d59a3c98d38379bde24d08396ab378fa01",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         230.0,
@@ -542696,7 +541814,7 @@
       "codepoint": "U+3FB91",
       "before_svg_sha256": "590c7fec1f4587f9cd8c68f341662602129e266364d1b98e486cbf9fa1536bff",
       "after_svg_sha256": "f62e4b422f18ea36852b933a65a9134f81fbd594eaea6ede3a1dc3d55bba96e6",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         490.0,
@@ -544283,7 +543401,7 @@
       "codepoint": "U+3FBB0",
       "before_svg_sha256": "932689cbbd69025fadac6f01b45473ab8a0efdc0f5fc4da5e9f9ef8fd604b39d",
       "after_svg_sha256": "ec9c7db594d5fa463efd338e6915df122dc28a6db4ac09b091a7c830465167f4",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -546637,7 +545755,7 @@
       "codepoint": "U+3FBDE",
       "before_svg_sha256": "9f6512e4f9891df37be2ec76036ebdf7243435c15a06b214205282526b03cb17",
       "after_svg_sha256": "36d019237b61bb6106652a57bb9e1f4a1e6029301a032321386c1b054c14f19e",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         400.0,
@@ -546796,7 +545914,7 @@
       "codepoint": "U+3FBE1",
       "before_svg_sha256": "af01b66f106d25ba6347e749d46dc727f936d7a7bce30eb20e57e42685c41921",
       "after_svg_sha256": "557867f1ea83c3b5610bd5a6965dc181c88439144da8fcdd2a09332e6de2ac4c",
-      "class": "reference_measured_modern_equivalent",
+      "class": "profiled_basic_form",
       "component_id": null,
       "preferred_ink_size": [
         430.0,
@@ -551163,7 +550281,6 @@
   "source_svg_manifest_sha256": "323dd02fc09f8c1a5670841217e50855c37b8eef4c621221f473577616514adf",
   "component_manifest_sha256": "ec2ac7453fbef9815605f315922cafaface2c6f3ec7bd99939552799e0de7120",
   "source_baseline_commit": "bf91c24dfd2a39f15dbd653926dcb078c2b8c4e8",
-  "reference_dimensions_report": "reference-dimensions.json",
   "visual_review": {
     "status": "accepted",
     "samples": 143,

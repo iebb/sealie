@@ -68140,8 +68140,7 @@
     "coordinate_decimal_places": 6,
     "policy": "Common body heights; natural width from pre-v1 aspect, capped slender. Exact template cohort fits; width-only contact relaxations; compact-height contact exceptions are explicitly reported; normal body height remains common.",
     "revision": "v1.1.0",
-    "report": "../reports/optical-sizing.json",
-    "reference_dimensions_report": "../reports/reference-dimensions.json"
+    "report": "../reports/optical-sizing.json"
   },
   "followup_radical_expansion": {
     "revision": "v1.0.0",
