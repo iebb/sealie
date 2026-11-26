@@ -15585,7 +15585,7 @@
     },
     {
       "codepoint": "U+3DA24",
-      "svg_sha256": "88f59e88d15a270e6b7278e851246d09bd6c8bc0fd66b734838f73526adadac9",
+      "svg_sha256": "ad57e9983550e0b96cc27c8e1f85ea341bfd706e11115c40fde7a58c3e01e19a",
       "authoring_source_sha256": "6eca13bb814af8adc92f6d08155306be5da9b3fae404dc829fb9a32e0c17f069",
       "authoring_geometry_sha256": "d5ae1848ab3fd8d1e3ce70b806b518d38ce73176931ed20d0ef3d7deb04a9b2c"
     },
@@ -15633,7 +15633,7 @@
     },
     {
       "codepoint": "U+3DA2C",
-      "svg_sha256": "99b5a6261943db6b0b3c9ab47d5290292e67a1f89372bbdb11a9d02df65b1e56",
+      "svg_sha256": "16888536d17c3ecd5316a340a01db0e8876b51215d2fbe60e13dbc23ac3b4a1c",
       "authoring_source_sha256": "c6a45afba109fe8a01e0933714fa2a87b8dd7f0825b2dc7c3f58ee8dadba1381",
       "authoring_geometry_sha256": "c6b3b883874e64240fbf8fe9c198f2320bf2bd137c24c581ad10f9291070ed6a"
     },
@@ -15651,13 +15651,13 @@
     },
     {
       "codepoint": "U+3DA2F",
-      "svg_sha256": "4f65a705ca79ab5c2c5401e27599414e17845008aa905c7819b42e9e4bb0c4f1",
+      "svg_sha256": "fee411b296496670cd676e56bee3ba873896136ad2dd27e4f3f87b2870b13fdd",
       "authoring_source_sha256": "b618752bbca6bdd2c8f428e7a6983600af83807ca386ea17753be189cc7f4214",
       "authoring_geometry_sha256": "41e7ac53ba254b6ad91858977152329006efc2d913d0e0880bfc3f2222fc2f46"
     },
     {
       "codepoint": "U+3DA30",
-      "svg_sha256": "78e037817f0a316b85469718ea647c4d49a846a9d3c7ad831be846659ad3dfab",
+      "svg_sha256": "b63427351f2fcd2c0ebb19b73b005411302652be5c6ce94f3b15bd36806b7a5b",
       "authoring_source_sha256": "6fb7db469a47257cbb101ad16ffa503410bb0e02767cb8ea3eac995d34c1335e",
       "authoring_geometry_sha256": "4d658d04f8bc632319de6f51d1e7dd869bc8ada6aa64b420e20e7ea452371bba"
     },
@@ -15681,7 +15681,7 @@
     },
     {
       "codepoint": "U+3DA34",
-      "svg_sha256": "e07b9f899a9a46d11d694fc52e88686c77a69c5bede33a219f3ab0e9ab91f67b",
+      "svg_sha256": "9fdcd4a8eec4dd1b3384399814cd57931d066407a3f44fff754e48cf48611138",
       "authoring_source_sha256": "5d8fa97ddb5e19377c6c6c69e3f4edfde69a59bce5126443fead042cd9f8fc3e",
       "authoring_geometry_sha256": "29925b8d9aa265d6840f8120a3ed3a2aa81b41939db7e81bd88db1bdd4ffd5ce"
     },
@@ -15699,7 +15699,7 @@
     },
     {
       "codepoint": "U+3DA37",
-      "svg_sha256": "c181af9d88fe658ee27cfeec94c213d144cd33691b50fd645fa849083e31c06d",
+      "svg_sha256": "fdb4f75d1245f390a071225d27b2df3efd54917777e2426a73e8bd94617b720e",
       "authoring_source_sha256": "e75029e3f5c8fec405cfb79d61e22ddc1a0d2eeacfe7a9f7fb2d1fa7dfbb9c0a",
       "authoring_geometry_sha256": "da0a5909e121b59aecfed82a9d98da412c345db1a6715cbb9a0d5dc8acd2e8ef"
     },
@@ -15711,7 +15711,7 @@
     },
     {
       "codepoint": "U+3DA39",
-      "svg_sha256": "a4c2797067327942cd182e9c7656bacb8b9e0d6c335295872ac9d2c11c06eb2c",
+      "svg_sha256": "cd42d9178d64a8f7be28fa23d9a5fdb04a10559c64520a0043597c86601fed88",
       "authoring_source_sha256": "18a75c256c60781052a4244a7cb20d865b839ecaae06849683a19e8c44d3b353",
       "authoring_geometry_sha256": "7227ff0bb8003c3c322e3d559e21cf5211e8819e1950546eecb6af1b0db07c22"
     },
@@ -15729,13 +15729,13 @@
     },
     {
       "codepoint": "U+3DA3C",
-      "svg_sha256": "fd74c459bed5adc84b5b39cd6e8f86e6e4bb92b849b33c9e275e85f1dd4f5632",
+      "svg_sha256": "b4cdce92ebb978ab74e0bb907d8a640728c3fe758d126148b398c0328e2ed280",
       "authoring_source_sha256": "f480a75f1f31fc9afd8411604a658d2011cf6ef497cd1860c855e3326f42b6db",
       "authoring_geometry_sha256": "6b60cf60bfe32ca28448695052074fee56b0bc61bede835342fd94ebf8b0ea94"
     },
     {
       "codepoint": "U+3DA3D",
-      "svg_sha256": "13602860e1331f79bf2a71f6d52a4d6c97cc497bae26e15d2a0f87d88a64d623",
+      "svg_sha256": "cf141ab396db9b8d2100464530c0c594de8b8b0db199ca4208436cf07cad8647",
       "authoring_source_sha256": "143759445c6d652924e7fccbe1e3ed54102d558a255f228434b9987ad6007a7c",
       "authoring_geometry_sha256": "8bc6a2a2f9a1007b2a0fa0be1e0bbb3c50c5c01ac0ffadb7701936f4d8a104fc"
     },
@@ -15783,7 +15783,7 @@
     },
     {
       "codepoint": "U+3DA45",
-      "svg_sha256": "47bc017804d3630b6da250f5595706e03b8d68e3623b3970dd019279950926f9",
+      "svg_sha256": "4b1e5184d77449322e997899deb926c917be92328ee8462765c418fec752689e",
       "authoring_source_sha256": "0a372f895519c67a7eaae16a9456615e3f356e22ab01d7c3348b145691078882",
       "authoring_geometry_sha256": "fd096725932c232ccca02e89db2588fefe01f693b2cfcb69be9f5094807c80e7"
     },
