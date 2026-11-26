@@ -11684,6 +11684,28 @@
           ]
         },
         {
+          "codepoint": "U+3F01C",
+          "path_indices_zero_based": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "codepoint": "U+3F0B2",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
           "codepoint": "U+3F141",
           "path_indices_zero_based": [
             3,
@@ -23631,6 +23653,16 @@
           ]
         },
         {
+          "codepoint": "U+3F028",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
           "codepoint": "U+3F029",
           "path_indices_zero_based": [
             3,
@@ -24351,6 +24383,16 @@
           ]
         },
         {
+          "codepoint": "U+3F08C",
+          "path_indices_zero_based": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
           "codepoint": "U+3F090",
           "path_indices_zero_based": [
             4,
@@ -24568,6 +24610,16 @@
             7,
             8,
             9
+          ]
+        },
+        {
+          "codepoint": "U+3F0B4",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4
           ]
         },
         {
@@ -24868,6 +24920,16 @@
             9,
             10,
             11
+          ]
+        },
+        {
+          "codepoint": "U+3F0DA",
+          "path_indices_zero_based": [
+            14,
+            15,
+            16,
+            17,
+            18
           ]
         },
         {
@@ -25508,6 +25570,16 @@
             6,
             7,
             8
+          ]
+        },
+        {
+          "codepoint": "U+3F133",
+          "path_indices_zero_based": [
+            18,
+            19,
+            20,
+            21,
+            22
           ]
         },
         {
