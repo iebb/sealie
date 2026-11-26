@@ -4738,6 +4738,14 @@
           ]
         },
         {
+          "codepoint": "U+3E423",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
           "codepoint": "U+3E430",
           "path_indices_zero_based": [
             4,
@@ -8233,6 +8241,18 @@
           ]
         },
         {
+          "codepoint": "U+3EBB6",
+          "path_indices_zero_based": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
           "codepoint": "U+3EBB9",
           "path_indices_zero_based": [
             0,
@@ -8392,18 +8412,6 @@
         640.413889
       ],
       "instances": [
-        {
-          "codepoint": "U+3EBB6",
-          "path_indices_zero_based": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ]
-        },
         {
           "codepoint": "U+3EBB7",
           "path_indices_zero_based": [
@@ -11186,12 +11194,39 @@
           ]
         },
         {
+          "codepoint": "U+3EE43",
+          "path_indices_zero_based": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
           "codepoint": "U+3EE44",
           "path_indices_zero_based": [
             0,
             1,
             2,
             6
+          ]
+        },
+        {
+          "codepoint": "U+3EE48",
+          "path_indices_zero_based": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "codepoint": "U+3EE4B",
+          "path_indices_zero_based": [
+            13,
+            14,
+            15,
+            16
           ]
         },
         {
@@ -11258,12 +11293,30 @@
           ]
         },
         {
+          "codepoint": "U+3EE86",
+          "path_indices_zero_based": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
           "codepoint": "U+3EE89",
           "path_indices_zero_based": [
             0,
             1,
             2,
             6
+          ]
+        },
+        {
+          "codepoint": "U+3EE97",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10,
+            11
           ]
         },
         {
@@ -11276,12 +11329,30 @@
           ]
         },
         {
+          "codepoint": "U+3EEA0",
+          "path_indices_zero_based": [
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
           "codepoint": "U+3EEA6",
           "path_indices_zero_based": [
             0,
             1,
             2,
             4
+          ]
+        },
+        {
+          "codepoint": "U+3EEA9",
+          "path_indices_zero_based": [
+            4,
+            5,
+            6,
+            7
           ]
         },
         {
@@ -11449,10 +11520,10 @@
         {
           "codepoint": "U+3EF34",
           "path_indices_zero_based": [
+            12,
+            13,
             14,
-            15,
-            16,
-            17
+            15
           ]
         },
         {
@@ -11525,6 +11596,15 @@
             1,
             2,
             16
+          ]
+        },
+        {
+          "codepoint": "U+3F974",
+          "path_indices_zero_based": [
+            12,
+            13,
+            14,
+            15
           ]
         }
       ]
@@ -16984,13 +17064,13 @@
         {
           "codepoint": "U+3FA08",
           "path_indices_zero_based": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
           ]
         },
         {
@@ -38940,8 +39020,8 @@
         {
           "codepoint": "U+3E618",
           "path_indices_zero_based": [
-            5,
-            6
+            10,
+            11
           ]
         },
         {
