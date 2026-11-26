@@ -183,6 +183,19 @@
           ]
         },
         {
+          "codepoint": "U+3DA3D",
+          "path_indices_zero_based": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
           "codepoint": "U+3DA45",
           "path_indices_zero_based": [
             9,
