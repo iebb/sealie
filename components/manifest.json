@@ -16706,6 +16706,18 @@
           ]
         },
         {
+          "codepoint": "U+3F9B6",
+          "path_indices_zero_based": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
           "codepoint": "U+3F9BB",
           "path_indices_zero_based": [
             0,
@@ -24183,6 +24195,16 @@
           ]
         },
         {
+          "codepoint": "U+3F05A",
+          "path_indices_zero_based": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
           "codepoint": "U+3F05B",
           "path_indices_zero_based": [
             1,
@@ -27446,6 +27468,14 @@
             3,
             4,
             5
+          ]
+        },
+        {
+          "codepoint": "U+3E0BB",
+          "path_indices_zero_based": [
+            17,
+            18,
+            19
           ]
         },
         {
@@ -33984,6 +34014,17 @@
           ]
         },
         {
+          "codepoint": "U+3F641",
+          "path_indices_zero_based": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
           "codepoint": "U+3F642",
           "path_indices_zero_based": [
             0,
@@ -39158,6 +39199,13 @@
           "path_indices_zero_based": [
             2,
             3
+          ]
+        },
+        {
+          "codepoint": "U+3E62F",
+          "path_indices_zero_based": [
+            17,
+            18
           ]
         },
         {
