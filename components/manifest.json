@@ -96,7 +96,7 @@
       "position": "right",
       "variant": "whole_component_cluster_3",
       "file": "108-3DA22-right-whole-component-cluster-3.svg",
-      "svg_sha256": "c1e6d173c13b8d44d9f72781ce5d19c79a1d8d45ced62086a1f36f1d7180336a",
+      "svg_sha256": "4c2cefbcdc3e2f6be2c32eabf91fa3592db879022d1d04b6ece0860b24326f02",
       "bbox_font_units": [
         510.52322,
         -46.927634,
@@ -118,7 +118,59 @@
           ]
         },
         {
+          "codepoint": "U+3DA2F",
+          "path_indices_zero_based": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "codepoint": "U+3DA30",
+          "path_indices_zero_based": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
           "codepoint": "U+3DA34",
+          "path_indices_zero_based": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "codepoint": "U+3DA39",
+          "path_indices_zero_based": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "codepoint": "U+3DA3C",
           "path_indices_zero_based": [
             8,
             9,
@@ -131,29 +183,29 @@
           ]
         },
         {
-          "codepoint": "U+3DA39",
+          "codepoint": "U+3DA3D",
           "path_indices_zero_based": [
-            7,
             6,
-            8,
-            5,
-            10,
-            9,
-            12,
-            11
-          ]
-        },
-        {
-          "codepoint": "U+3DA3C",
-          "path_indices_zero_based": [
             7,
             8,
             9,
             10,
             11,
             12,
+            13
+          ]
+        },
+        {
+          "codepoint": "U+3DA45",
+          "path_indices_zero_based": [
+            9,
+            10,
+            11,
+            12,
             13,
-            14
+            14,
+            15,
+            16
           ]
         }
       ]
