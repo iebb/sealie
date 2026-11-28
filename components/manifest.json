@@ -6853,6 +6853,15 @@
           ]
         },
         {
+          "codepoint": "U+3E7F0",
+          "path_indices_zero_based": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
           "codepoint": "U+3E7F1",
           "path_indices_zero_based": [
             0,
@@ -6862,12 +6871,30 @@
           ]
         },
         {
+          "codepoint": "U+3E7F2",
+          "path_indices_zero_based": [
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
           "codepoint": "U+3E803",
           "path_indices_zero_based": [
             0,
             5,
             6,
             7
+          ]
+        },
+        {
+          "codepoint": "U+3E811",
+          "path_indices_zero_based": [
+            6,
+            7,
+            8,
+            9
           ]
         },
         {
@@ -6883,6 +6910,15 @@
           "codepoint": "U+3E838",
           "path_indices_zero_based": [
             0,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "codepoint": "U+3E839",
+          "path_indices_zero_based": [
+            3,
             4,
             5,
             6
