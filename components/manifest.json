@@ -12812,6 +12812,23 @@
           ]
         },
         {
+          "codepoint": "U+3F21D",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
           "codepoint": "U+3F223",
           "path_indices_zero_based": [
             0,
@@ -12860,6 +12877,23 @@
             19,
             20,
             24
+          ]
+        },
+        {
+          "codepoint": "U+3F251",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
           ]
         }
       ]
