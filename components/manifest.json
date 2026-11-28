@@ -9631,6 +9631,16 @@
           ]
         },
         {
+          "codepoint": "U+3ECF6",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
           "codepoint": "U+3ECF7",
           "path_indices_zero_based": [
             0,
@@ -9688,6 +9698,16 @@
             2,
             6,
             7
+          ]
+        },
+        {
+          "codepoint": "U+3ED35",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4
           ]
         },
         {
