@@ -2523,7 +2523,7 @@
     },
     {
       "codepoint": "U+3D1A3",
-      "svg_sha256": "0892b7e6a58a49149427fc50a17cd2bb68da44e2a4e878473b1bd9957553edb0",
+      "svg_sha256": "833b8f86886b2ea628a2d1a6468be71d59bfb095e41912f9534b166c4d9b8d2d",
       "authoring_source_sha256": "caeddbd0b96221d9afb4b1b5967db11687a54428a80602aa6b355c82382300f0",
       "authoring_geometry_sha256": "8d5a2065927b6e4cc28a3629a3cba1063e5f5ed63bbd0e34ab47b3565d122bfd"
     },
@@ -3513,7 +3513,7 @@
     },
     {
       "codepoint": "U+3D248",
-      "svg_sha256": "8cae43064a4d47c770600a0f8e1d4f7664c41b0d4cff8f71031a4fa7a2927dbd",
+      "svg_sha256": "7e69226b716b723a93385a77c079cc0034ea011d95c5ab379c411c54113351d4",
       "authoring_source_sha256": "5b099047710a5e7078efbb4e50c1fea47947b55d66d77b5b9ba2dc21ce9d1065",
       "authoring_geometry_sha256": "dbba3041cb59453c41cb23f36933bd377703da78cf2ebc9bf8fc90a8270dd2e4"
     },
