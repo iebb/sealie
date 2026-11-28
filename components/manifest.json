@@ -4110,6 +4110,22 @@
           ]
         },
         {
+          "codepoint": "U+3E296",
+          "path_indices_zero_based": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "codepoint": "U+3E29B",
+          "path_indices_zero_based": [
+            3,
+            7,
+            8
+          ]
+        },
+        {
           "codepoint": "U+3E29D",
           "path_indices_zero_based": [
             6,
