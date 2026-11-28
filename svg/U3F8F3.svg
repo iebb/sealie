@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" data-codepoint="U+3F8F3" data-advance="1024" data-schema="seal-centerline-1">
   <g transform="matrix(1 0 0 -1 0 832)" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
-    <path id="stroke-1" d="M 511.241386 237.133474 L 511.241386 689.0" />
-    <path id="stroke-2" d="M 512.0 -47.323529 L 512.0 132.145007" />
-    <path id="stroke-3" d="M 267.0 475.147914 L 757.0 475.147914" />
-    <path id="stroke-4" d="M 267.0 -49.0 L 757.0 -49.0" />
-    <path id="stroke-5" d="M 271.551687 237.133474 L 750.932012 237.133474" />
-    <path id="stroke-6" d="M 267 44 L 757 44" />
+    <path id="stroke-1" d="M 512 689 L 512 347" />
+    <path id="stroke-2" d="M 311 545 L 713 545" />
+    <path id="stroke-3" d="M 267 347 L 757 347" />
+    <path id="stroke-4" d="M 512 293 L 512 -49" />
+    <path id="stroke-5" d="M 311 149 L 713 149" />
+    <path id="stroke-6" d="M 267 -49 L 757 -49" />
   </g>
 </svg>
