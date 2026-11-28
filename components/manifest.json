@@ -38800,6 +38800,19 @@
       ],
       "instances": [
         {
+          "codepoint": "U+3DAF5",
+          "path_indices_zero_based": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
           "codepoint": "U+3DB05",
           "path_indices_zero_based": [
             0,
@@ -38897,6 +38910,18 @@
       ],
       "instances": [
         {
+          "codepoint": "U+3DABC",
+          "path_indices_zero_based": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
           "codepoint": "U+3DAC1",
           "path_indices_zero_based": [
             5,
@@ -38921,6 +38946,18 @@
           ]
         },
         {
+          "codepoint": "U+3DAC6",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
           "codepoint": "U+3DACE",
           "path_indices_zero_based": [
             3,
@@ -38930,6 +38967,30 @@
             10,
             11,
             12
+          ]
+        },
+        {
+          "codepoint": "U+3DACF",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "codepoint": "U+3DAD4",
+          "path_indices_zero_based": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
           ]
         },
         {
@@ -38954,6 +39015,18 @@
             8,
             12,
             13
+          ]
+        },
+        {
+          "codepoint": "U+3DAE3",
+          "path_indices_zero_based": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
           ]
         },
         {
@@ -38990,6 +39063,18 @@
             14,
             15,
             19
+          ]
+        },
+        {
+          "codepoint": "U+3DAFD",
+          "path_indices_zero_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
           ]
         },
         {
