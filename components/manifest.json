@@ -7627,6 +7627,32 @@
             13,
             16
           ]
+        },
+        {
+          "codepoint": "U+3EDF0",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "codepoint": "U+3EE17",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
         }
       ]
     },
