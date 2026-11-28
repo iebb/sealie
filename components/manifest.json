@@ -7209,6 +7209,26 @@
       ],
       "instances": [
         {
+          "codepoint": "U+3D3D6",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "codepoint": "U+3E8E9",
+          "path_indices_zero_based": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
           "codepoint": "U+3E8EF",
           "path_indices_zero_based": [
             8,
