@@ -687,7 +687,7 @@
     },
     {
       "codepoint": "U+3D071",
-      "svg_sha256": "7fe39488e325ea6013b8fc19c4e670e46705cd62c0f4732549eda41f53b5e864",
+      "svg_sha256": "e241b20434c7cc9553c3ec5e5cdcd872ee0cd3a3be7aca1d5a92e50eec48dbae",
       "authoring_source_sha256": "7fbc9902347630632f27df5a9ab10f49c38f85dc9142287b4ad7db4b8c082693",
       "authoring_geometry_sha256": "39cdd35150a04056a18b90a188aee9c992651b5e328366ea255c532b2f7e31b6"
     },
@@ -1593,7 +1593,7 @@
     },
     {
       "codepoint": "U+3D108",
-      "svg_sha256": "de23e9e300f7b8af427a38bc02b0ea195c1dee62b2c40a661d1be87d2f43b501",
+      "svg_sha256": "599f417649205ba16e28e8cad1821552859e6395afffd03831eb675a01f09b68",
       "authoring_source_sha256": "6e317afbbf1a63942b23b91e325334e346bc1c1b350dd855fd53891700f3b459",
       "authoring_geometry_sha256": "6bc7e4bdce21035580c49b6a4572f9721fe73e5857b7a652d07967cdf1ac53d2"
     },
