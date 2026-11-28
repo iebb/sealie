@@ -38581,6 +38581,20 @@
           ]
         },
         {
+          "codepoint": "U+3F761",
+          "path_indices_zero_based": [
+            0,
+            7
+          ]
+        },
+        {
+          "codepoint": "U+3F774",
+          "path_indices_zero_based": [
+            3,
+            2
+          ]
+        },
+        {
           "codepoint": "U+3F777",
           "path_indices_zero_based": [
             0,
