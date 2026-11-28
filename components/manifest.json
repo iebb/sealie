@@ -10759,6 +10759,24 @@
       ],
       "instances": [
         {
+          "codepoint": "U+3D5F3",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            15
+          ]
+        },
+        {
+          "codepoint": "U+3D5FF",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
           "codepoint": "U+3D604",
           "path_indices_zero_based": [
             0,
