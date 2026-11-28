@@ -16896,6 +16896,18 @@
           ]
         },
         {
+          "codepoint": "U+3F9DF",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
           "codepoint": "U+3F9E0",
           "path_indices_zero_based": [
             0,
@@ -17389,6 +17401,18 @@
         },
         {
           "codepoint": "U+3FA52",
+          "path_indices_zero_based": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "codepoint": "U+3FAC7",
           "path_indices_zero_based": [
             0,
             1,
